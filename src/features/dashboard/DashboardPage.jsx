@@ -21,25 +21,27 @@ export default function DashboardPage() {
 
   return (
     <div className="space-y-6">
-      <section className="rounded-xl bg-slate-950 px-5 py-6 text-white shadow-soft sm:px-8">
+      <section className="rounded-xl bg-slate-950 px-4 py-5 text-white shadow-soft sm:px-8 sm:py-6">
         <div className="max-w-3xl">
-          <p className="text-sm font-semibold text-mint-100">Offline-ready Korean learning</p>
-          <h2 className="mt-2 text-3xl font-bold sm:text-4xl">Build steady TOPIK II skill, one focused session at a time.</h2>
+          <p className="text-xs font-semibold text-mint-100 sm:text-sm">Offline-ready Korean learning</p>
+          <h2 className="mt-2 text-2xl font-bold leading-tight sm:text-3xl xl:text-4xl">
+            Build steady TOPIK II skill, one focused session at a time.
+          </h2>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300">
             Study grammar patterns, practice reading, review vocabulary, save favorites, and keep your progress on this device.
           </p>
         </div>
       </section>
 
-      <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+      <section className="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-4">
         {quickLinks.map((item) => {
           const Icon = item.icon;
           return (
             <Link key={item.path} to={item.path}>
               <Card className="h-full transition hover:-translate-y-0.5 hover:shadow-soft">
-                <Icon className="text-brand-600 dark:text-brand-100" size={24} aria-hidden="true" />
-                <h3 className="mt-4 text-lg font-bold text-slate-950 dark:text-white">{item.label}</h3>
-                <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{item.count}</p>
+                <Icon className="text-brand-600 dark:text-brand-100" size={22} aria-hidden="true" />
+                <h3 className="mt-3 text-base font-bold text-slate-950 dark:text-white sm:mt-4 sm:text-lg">{item.label}</h3>
+                <p className="mt-0.5 text-xs text-slate-500 dark:text-slate-400 sm:mt-1 sm:text-sm">{item.count}</p>
               </Card>
             </Link>
           );
