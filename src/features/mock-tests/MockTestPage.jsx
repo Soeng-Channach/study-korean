@@ -85,7 +85,7 @@ export default function MockTestPage() {
   const progressTone = isUrgent ? 'bg-coral-500' : isWarning ? 'bg-amber-500' : 'bg-brand-600';
 
   return (
-    <div className="mx-auto max-w-3xl space-y-5 pb-28 lg:pb-0">
+    <div className="mx-auto max-w-3xl space-y-5 pb-44 lg:pb-0">
       <Card>
         <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
           <div>
@@ -144,7 +144,7 @@ export default function MockTestPage() {
           </div>
         </Card>
       ))}
-      <div className="sticky bottom-[calc(4.75rem+env(safe-area-inset-bottom))] z-20 -mx-4 bg-paper/95 px-4 py-3 backdrop-blur dark:bg-slate-950/95 sm:mx-0 sm:rounded-lg sm:border sm:border-slate-200 sm:bg-white sm:shadow-soft sm:dark:border-slate-800 sm:dark:bg-slate-950 lg:static lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none lg:dark:bg-transparent">
+      <div className="fixed inset-x-0 bottom-[calc(4.5rem+env(safe-area-inset-bottom))] z-20 bg-paper/95 px-4 py-3 shadow-[0_-12px_28px_rgba(15,23,42,0.10)] backdrop-blur dark:bg-slate-950/95 lg:static lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none lg:dark:bg-transparent">
         <Button className="w-full shadow-lg shadow-brand-600/20 lg:shadow-none" disabled={!allAnswered} onClick={() => submit()}>
           Submit test
         </Button>
