@@ -85,13 +85,12 @@ export default function MockTestPage() {
   const progressTone = isUrgent ? 'bg-coral-500' : isWarning ? 'bg-amber-500' : 'bg-brand-600';
 
   return (
-    <div className="mx-auto max-w-3xl space-y-4 pb-[calc(10rem+env(safe-area-inset-bottom))] sm:space-y-5 lg:pb-0">
-      <div className="sticky top-0 z-30 -mx-4 border-b border-slate-200 bg-paper/95 px-4 py-2.5 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 sm:top-4 sm:mx-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
+    <div className="mx-auto max-w-3xl space-y-4 pb-[calc(7.5rem+env(safe-area-inset-bottom))] sm:space-y-5 lg:pb-0">
+      <div className="-mx-4 -mt-2 border-b border-slate-200 bg-white px-4 py-3 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:px-5 sm:shadow-soft">
         <div className="flex items-center justify-between gap-3">
           <div className="min-w-0">
-            <p className="text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-              {answeredCount} of {questions.length} answered
-            </p>
+            <p className="text-[11px] font-bold uppercase tracking-wide text-brand-600 dark:text-brand-100">Test progress</p>
+            <p className="mt-1 text-xs font-semibold text-slate-500 dark:text-slate-400">{answeredCount} of {questions.length} answered</p>
             {isUrgent ? (
               <p className="mt-1 text-xs font-semibold leading-4 text-coral-600 dark:text-coral-100">
                 The test will submit automatically.
@@ -140,13 +139,25 @@ export default function MockTestPage() {
           </div>
         </Card>
       ))}
-      <div className="fixed inset-x-0 bottom-[calc(4.5rem+env(safe-area-inset-bottom))] z-30 bg-paper/95 px-4 py-2.5 shadow-[0_-12px_28px_rgba(15,23,42,0.10)] backdrop-blur dark:bg-slate-950/95 lg:static lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none lg:dark:bg-transparent">
-        <div className="mx-auto max-w-3xl">
-          <Button className="w-full shadow-lg shadow-brand-600/20 lg:shadow-none" disabled={!allAnswered} onClick={() => submit()}>
+      <Card className="p-4 sm:p-5">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+          <div>
+            <p className="text-sm font-bold text-slate-950 dark:text-white">
+              {allAnswered ? 'Ready to submit' : `${questions.length - answeredCount} questions left`}
+            </p>
+            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+              Review your answers before finishing the test.
+            </p>
+          </div>
+          <Button
+            className="w-full rounded-lg py-3 shadow-lg shadow-brand-600/20 sm:w-auto sm:min-w-40"
+            disabled={!allAnswered}
+            onClick={() => submit()}
+          >
             Submit test
           </Button>
         </div>
-      </div>
+      </Card>
     </div>
   );
 }
