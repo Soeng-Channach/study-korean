@@ -1,7 +1,6 @@
 import { Moon, Search, Sun } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext';
 import { useOnlineStatus } from '../../hooks/useOnlineStatus';
-import Button from '../ui/Button';
 import Badge from '../ui/Badge';
 
 export default function Header() {
@@ -25,15 +24,15 @@ export default function Header() {
         </div>
         <div className="flex items-center gap-2">
           <Badge tone={isOnline ? 'green' : 'rose'}>{isOnline ? 'Online' : 'Offline'}</Badge>
-          <Button
-            variant="secondary"
-            className="aspect-square px-0"
+          <button
+            type="button"
             onClick={toggleTheme}
             aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
             title={isDark ? 'Light mode' : 'Dark mode'}
+            className="inline-flex h-8 w-8 items-center justify-center rounded-full bg-white text-slate-700 ring-1 ring-slate-200 transition hover:bg-slate-50 hover:text-slate-950 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 sm:h-9 sm:w-9 dark:bg-slate-900 dark:text-slate-100 dark:ring-slate-700 dark:hover:bg-slate-800"
           >
-            {isDark ? <Sun size={18} /> : <Moon size={18} />}
-          </Button>
+            {isDark ? <Sun size={16} /> : <Moon size={16} />}
+          </button>
         </div>
       </div>
     </header>
