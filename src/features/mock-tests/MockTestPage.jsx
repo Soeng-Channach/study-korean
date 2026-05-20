@@ -85,25 +85,25 @@ export default function MockTestPage() {
   const progressTone = isUrgent ? 'bg-coral-500' : isWarning ? 'bg-amber-500' : 'bg-brand-600';
 
   return (
-    <div className="mx-auto max-w-3xl space-y-5 pb-44 lg:pb-0">
-      <div className="sticky top-0 z-20 -mx-4 border-b border-slate-200 bg-paper/95 px-4 py-3 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 sm:top-4 sm:mx-0 sm:rounded-lg sm:border sm:shadow-soft">
+    <div className="mx-auto max-w-3xl space-y-4 pb-[calc(10rem+env(safe-area-inset-bottom))] sm:space-y-5 lg:pb-0">
+      <div className="sticky top-0 z-30 -mx-4 border-b border-slate-200 bg-paper/95 px-4 py-2.5 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 sm:top-4 sm:mx-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
         <div className="flex items-center justify-between gap-3">
-          <div>
+          <div className="min-w-0">
             <p className="text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
               {answeredCount} of {questions.length} answered
             </p>
             {isUrgent ? (
-              <p className="mt-1 text-xs font-semibold text-coral-600 dark:text-coral-100">
+              <p className="mt-1 text-xs font-semibold leading-4 text-coral-600 dark:text-coral-100">
                 The test will submit automatically.
               </p>
             ) : null}
           </div>
-          <div className={`flex shrink-0 items-center gap-2 rounded-full border px-3 py-2 ${timerTone}`}>
+          <div className={`flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 ${timerTone}`}>
             <Clock aria-hidden="true" size={17} />
             <span className="font-mono text-lg font-black tabular-nums">{formatTime(remainingSeconds)}</span>
           </div>
         </div>
-        <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
+        <div className="mt-2.5 h-2 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
           <div
             className={`h-full rounded-full transition-all duration-500 ${progressTone}`}
             style={{ width: `${timePercent}%` }}
@@ -111,22 +111,22 @@ export default function MockTestPage() {
         </div>
       </div>
 
-      <Card>
+      <Card className="p-4 sm:p-5">
         <p className="text-sm font-semibold capitalize text-slate-500 dark:text-slate-400">
           {test.type} test &middot; {test.durationMinutes} minute mini test
         </p>
-        <h2 className="mt-2 text-3xl font-bold text-slate-950 dark:text-white">{test.title}</h2>
+        <h2 className="mt-2 text-2xl font-bold leading-tight text-slate-950 dark:text-white sm:text-3xl">{test.title}</h2>
         {test.description ? (
           <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">{test.description}</p>
         ) : null}
       </Card>
 
       {questions.map((question, questionIndex) => (
-        <Card key={question.id}>
-          <h3 className="font-bold text-slate-950 dark:text-white">
+        <Card key={question.id} className="scroll-mt-24 p-4 sm:p-5">
+          <h3 className="text-sm font-bold leading-6 text-slate-950 [overflow-wrap:anywhere] dark:text-white sm:text-base">
             {questionIndex + 1}. {question.prompt}
           </h3>
-          <div className="mt-4 space-y-3">
+          <div className="mt-3 space-y-2.5 sm:mt-4 sm:space-y-3">
             {question.options.map((option, optionIndex) => (
               <QuizOption
                 key={option}
@@ -140,10 +140,12 @@ export default function MockTestPage() {
           </div>
         </Card>
       ))}
-      <div className="fixed inset-x-0 bottom-[calc(4.5rem+env(safe-area-inset-bottom))] z-20 bg-paper/95 px-4 py-3 shadow-[0_-12px_28px_rgba(15,23,42,0.10)] backdrop-blur dark:bg-slate-950/95 lg:static lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none lg:dark:bg-transparent">
-        <Button className="w-full shadow-lg shadow-brand-600/20 lg:shadow-none" disabled={!allAnswered} onClick={() => submit()}>
-          Submit test
-        </Button>
+      <div className="fixed inset-x-0 bottom-[calc(4.5rem+env(safe-area-inset-bottom))] z-30 bg-paper/95 px-4 py-2.5 shadow-[0_-12px_28px_rgba(15,23,42,0.10)] backdrop-blur dark:bg-slate-950/95 lg:static lg:bg-transparent lg:p-0 lg:shadow-none lg:backdrop-blur-none lg:dark:bg-transparent">
+        <div className="mx-auto max-w-3xl">
+          <Button className="w-full shadow-lg shadow-brand-600/20 lg:shadow-none" disabled={!allAnswered} onClick={() => submit()}>
+            Submit test
+          </Button>
+        </div>
       </div>
     </div>
   );

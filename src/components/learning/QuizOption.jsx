@@ -6,7 +6,7 @@ export default function QuizOption({ option, selected, correct, revealed, onClic
       type="button"
       onClick={onClick}
       className={clsx(
-        'w-full rounded-lg border px-4 py-3 text-left text-sm font-semibold transition',
+        'min-h-12 w-full rounded-lg border px-3 py-3 text-left text-sm font-semibold leading-5 transition [overflow-wrap:anywhere] sm:px-4',
         selected && !revealed && 'border-brand-500 bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100',
         revealed && correct && 'border-mint-500 bg-mint-100 text-mint-700 dark:bg-mint-500/15 dark:text-mint-100',
         revealed && selected && !correct && 'border-coral-500 bg-coral-100 text-coral-700 dark:bg-coral-500/15 dark:text-coral-100',
