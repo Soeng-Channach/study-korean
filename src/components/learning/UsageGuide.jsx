@@ -14,6 +14,7 @@ export function UsageGuideCompact({ usage }) {
       {rows.map(([label, key, short]) => {
         const value = usage[key];
         const notUsed = value === 'Not used';
+        const valueStartsWithLetter = value.startsWith(short);
         return (
           <span
             key={key}
@@ -24,7 +25,7 @@ export function UsageGuideCompact({ usage }) {
             }
             title={`${label}: ${value}`}
           >
-            <span className="font-bold">{short}</span>
+            {valueStartsWithLetter ? null : <span className="font-bold">{short}</span>}
             <span className={notUsed ? 'line-through decoration-slate-400/60' : ''}>{value}</span>
           </span>
         );
