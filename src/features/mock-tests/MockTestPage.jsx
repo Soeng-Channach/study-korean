@@ -86,42 +86,38 @@ export default function MockTestPage() {
 
   return (
     <div className="mx-auto max-w-3xl space-y-5 pb-44 lg:pb-0">
-      <Card>
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
+      <div className="sticky top-0 z-20 -mx-4 border-b border-slate-200 bg-paper/95 px-4 py-3 backdrop-blur dark:border-slate-800 dark:bg-slate-950/95 sm:top-4 sm:mx-0 sm:rounded-lg sm:border sm:shadow-soft">
+        <div className="flex items-center justify-between gap-3">
           <div>
-            <p className="text-sm font-semibold capitalize text-slate-500 dark:text-slate-400">
-              {test.type} test &middot; {test.durationMinutes} minute mini test
+            <p className="text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+              {answeredCount} of {questions.length} answered
             </p>
-            <h2 className="mt-2 text-3xl font-bold text-slate-950 dark:text-white">{test.title}</h2>
+            {isUrgent ? (
+              <p className="mt-1 text-xs font-semibold text-coral-600 dark:text-coral-100">
+                The test will submit automatically.
+              </p>
+            ) : null}
           </div>
-          <div className={`min-w-40 rounded-lg border px-4 py-3 text-center ${timerTone}`}>
-            <div className="flex items-center justify-center gap-2 text-sm font-semibold">
-              <Clock aria-hidden="true" size={18} />
-              Time left
-            </div>
-            <p className="mt-1 font-mono text-3xl font-black tabular-nums">{formatTime(remainingSeconds)}</p>
+          <div className={`flex shrink-0 items-center gap-2 rounded-full border px-3 py-2 ${timerTone}`}>
+            <Clock aria-hidden="true" size={17} />
+            <span className="font-mono text-lg font-black tabular-nums">{formatTime(remainingSeconds)}</span>
           </div>
         </div>
-        {test.description ? (
-          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">{test.description}</p>
-        ) : null}
-      </Card>
-
-      <Card className="sticky top-4 z-10">
-        <div className="flex items-center justify-between gap-3 text-sm font-semibold text-slate-600 dark:text-slate-300">
-          <span>{answeredCount} of {questions.length} answered</span>
-          <span className="font-mono tabular-nums">{formatTime(remainingSeconds)}</span>
-        </div>
-        <div className="mt-3 h-3 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
+        <div className="mt-3 h-2 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
           <div
             className={`h-full rounded-full transition-all duration-500 ${progressTone}`}
             style={{ width: `${timePercent}%` }}
           />
         </div>
-        {isUrgent ? (
-          <p className="mt-3 text-sm font-semibold text-coral-600 dark:text-coral-100">
-            Less than one minute left. The test will submit automatically.
-          </p>
+      </div>
+
+      <Card>
+        <p className="text-sm font-semibold capitalize text-slate-500 dark:text-slate-400">
+          {test.type} test &middot; {test.durationMinutes} minute mini test
+        </p>
+        <h2 className="mt-2 text-3xl font-bold text-slate-950 dark:text-white">{test.title}</h2>
+        {test.description ? (
+          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">{test.description}</p>
         ) : null}
       </Card>
 

@@ -2045,5 +2045,137 @@ export const vocabulary = [
     example: '아이들은 공주가 나오는 이야기를 좋아합니다.',
     exampleMeaning: 'Children like stories that feature a princess.',
     tags: ['people', 'story']
+  },
+  {
+    id: 'vocab-193',
+    word: '공통',
+    hanja: '共通',
+    meaning: 'common; shared',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '두 사람은 음악을 좋아한다는 공통 관심사가 있습니다.',
+    exampleMeaning: 'The two people share a common interest in music.',
+    tags: ['relationship', 'description']
+  },
+  {
+    id: 'vocab-194',
+    word: '공통점',
+    hanja: '共通點',
+    meaning: 'common point; similarity',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '두 문화의 공통점과 차이점을 비교했습니다.',
+    exampleMeaning: 'We compared the similarities and differences between the two cultures.',
+    tags: ['comparison', 'culture']
+  },
+  {
+    id: 'vocab-195',
+    word: '공포',
+    hanja: '恐怖',
+    meaning: 'fear; terror',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '어두운 길을 혼자 걸을 때 공포를 느꼈습니다.',
+    exampleMeaning: 'I felt fear when walking alone on the dark street.',
+    tags: ['emotion', 'psychology']
+  },
+  {
+    id: 'vocab-196',
+    word: '공해',
+    hanja: '公害',
+    meaning: 'pollution; public nuisance',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '대기 공해를 줄이기 위해 대중교통 이용을 권장합니다.',
+    exampleMeaning: 'Using public transportation is encouraged to reduce air pollution.',
+    tags: ['environment', 'society']
+  },
+  {
+    id: 'vocab-197',
+    word: '과로',
+    hanja: '過勞',
+    meaning: 'overwork',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '과로로 쓰러지지 않도록 충분히 쉬어야 합니다.',
+    exampleMeaning: 'You should rest enough so you do not collapse from overwork.',
+    tags: ['health', 'work']
+  },
+  {
+    id: 'vocab-198',
+    word: '과목',
+    hanja: '科目',
+    meaning: 'subject; course',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이번 학기에 듣는 과목은 모두 다섯 개입니다.',
+    exampleMeaning: 'I am taking five subjects this semester.',
+    tags: ['education', 'study']
+  },
+  {
+    id: 'vocab-199',
+    word: '과소비',
+    hanja: '過消費',
+    meaning: 'excessive consumption; overspending',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '과소비를 줄이기 위해 가계부를 쓰기 시작했습니다.',
+    exampleMeaning: 'I started keeping a household account book to reduce overspending.',
+    tags: ['money', 'habit']
+  },
+  {
+    id: 'vocab-200',
+    word: '과속',
+    hanja: '過速',
+    meaning: 'speeding',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '과속은 큰 사고로 이어질 수 있습니다.',
+    exampleMeaning: 'Speeding can lead to a major accident.',
+    tags: ['transportation', 'safety']
+  },
+  {
+    id: 'vocab-201',
+    word: '과식',
+    hanja: '過食',
+    meaning: 'overeating',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '과식을 하면 소화가 잘되지 않습니다.',
+    exampleMeaning: 'If you overeat, digestion does not go well.',
+    tags: ['health', 'food']
+  },
+  {
+    id: 'vocab-202',
+    word: '과연',
+    hanja: '果然',
+    meaning: 'indeed; really',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '과연 그가 말한 대로 결과가 나왔습니다.',
+    exampleMeaning: 'Indeed, the result came out as he said.',
+    tags: ['emphasis', 'essay']
+  },
+  {
+    id: 'vocab-203',
+    word: '과외',
+    hanja: '課外',
+    meaning: 'private tutoring; extracurricular',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '수학 성적을 올리기 위해 과외를 받았습니다.',
+    exampleMeaning: 'I received private tutoring to improve my math grade.',
+    tags: ['education', 'study']
+  },
+  {
+    id: 'vocab-204',
+    word: '과음',
+    hanja: '過飮',
+    meaning: 'excessive drinking',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '과음은 건강에 해로우므로 조심해야 합니다.',
+    exampleMeaning: 'Excessive drinking is harmful to health, so you should be careful.',
+    tags: ['health', 'habit']
   }
 ];
