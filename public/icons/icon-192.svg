@@ -1,25 +1,28 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" role="img" aria-label="TOPIK II Korean Learning">
   <defs>
-    <linearGradient id="bg192" x1="28" x2="164" y1="18" y2="174" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#111827"/>
-      <stop offset="0.48" stop-color="#172554"/>
-      <stop offset="1" stop-color="#0f766e"/>
+    <linearGradient id="bg192" x1="20%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#6366f1"/>
+      <stop offset="55%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#ec4899"/>
     </linearGradient>
-    <linearGradient id="page192" x1="45" x2="147" y1="104" y2="150" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#ffffff"/>
-      <stop offset="1" stop-color="#dbeafe"/>
+    <linearGradient id="highlight192" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.22"/>
+      <stop offset="45%" stop-color="#ffffff" stop-opacity="0"/>
     </linearGradient>
-    <filter id="shadow192" x="-20%" y="-20%" width="140%" height="140%">
-      <feDropShadow dx="0" dy="10" stdDeviation="9" flood-color="#020617" flood-opacity="0.35"/>
+    <radialGradient id="disc192" cx="50%" cy="38%" r="55%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.32"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="textShadow192" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#1e1b4b" flood-opacity="0.45"/>
     </filter>
   </defs>
   <rect width="192" height="192" rx="46" fill="url(#bg192)"/>
-  <circle cx="146" cy="48" r="23" fill="#38bdf8" opacity="0.95"/>
-  <circle cx="49" cy="143" r="26" fill="#34d399" opacity="0.9"/>
-  <path d="M43 118c18-13 39-13 53 3 14-16 35-16 53-3v34c-18-10-37-9-53 4-16-13-35-14-53-4v-34Z" fill="url(#page192)" filter="url(#shadow192)"/>
-  <path d="M96 121v36" stroke="#2563eb" stroke-width="7" stroke-linecap="round"/>
-  <path d="M57 131c12-5 25-5 35 3M100 134c10-8 23-9 35-3" stroke="#bfdbfe" stroke-width="5" stroke-linecap="round"/>
-  <text x="96" y="92" text-anchor="middle" font-family="Arial, sans-serif" font-size="66" font-weight="900" fill="#ffffff">한</text>
-  <path d="M63 101h66" stroke="#93c5fd" stroke-width="7" stroke-linecap="round"/>
-  <text x="96" y="175" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" font-weight="800" letter-spacing="1.5" fill="#e0f2fe">TOPIK II</text>
+  <rect width="192" height="192" rx="46" fill="url(#highlight192)"/>
+  <circle cx="46" cy="144" r="22" fill="#ffffff" opacity="0.12"/>
+  <circle cx="154" cy="50" r="16" fill="#ffffff" opacity="0.16"/>
+  <rect width="192" height="192" rx="46" fill="url(#disc192)"/>
+  <text x="96" y="128" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="106" font-weight="900" fill="#ffffff" filter="url(#textShadow192)">한</text>
+  <rect x="55" y="151" width="82" height="1.2" fill="#ffffff" opacity="0.35"/>
+  <text x="96" y="168" text-anchor="middle" font-family="'Segoe UI', system-ui, -apple-system, BlinkMacSystemFont, sans-serif" font-size="15" font-weight="900" letter-spacing="2.5" fill="#ffffff" opacity="0.95">TOPIK II</text>
 </svg>

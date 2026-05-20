@@ -5,19 +5,19 @@ import ProgressBar from '../../components/ui/ProgressBar';
 import { useLearning } from '../../context/LearningContext';
 import { usePageMeta } from '../../hooks/usePageMeta';
 import { grammarLessons } from '../../data/grammar';
+import { mockTests } from '../../data/mockTests';
 import { readings } from '../../data/reading';
 import { vocabulary } from '../../data/vocabulary';
-
-const quickLinks = [
-  { label: 'Grammar', path: '/grammar', icon: BookMarked, count: '4 lessons' },
-  { label: 'Reading', path: '/reading', icon: Newspaper, count: '2 passages' },
-  { label: 'Vocabulary', path: '/vocabulary', icon: Languages, count: '4 words' },
-  { label: 'Mock Tests', path: '/mock-tests', icon: ClipboardCheck, count: '1 test' }
-];
 
 export default function DashboardPage() {
   usePageMeta('Dashboard', 'Track TOPIK II grammar, reading, vocabulary, and mock test progress.');
   const { state, grammarProgress, vocabProgress } = useLearning();
+  const quickLinks = [
+    { label: 'Grammar', path: '/grammar', icon: BookMarked, count: `${grammarLessons.length} lessons` },
+    { label: 'Reading', path: '/reading', icon: Newspaper, count: `${readings.length} passages` },
+    { label: 'Vocabulary', path: '/vocabulary', icon: Languages, count: `${vocabulary.length} words` },
+    { label: 'Mock Tests', path: '/mock-tests', icon: ClipboardCheck, count: `${mockTests.length} tests` }
+  ];
 
   return (
     <div className="space-y-6">
@@ -67,6 +67,14 @@ export default function DashboardPage() {
             <div className="flex justify-between">
               <dt className="text-slate-500 dark:text-slate-400">Vocabulary</dt>
               <dd className="font-bold">{vocabulary.length}</dd>
+            </div>
+            <div className="flex justify-between">
+              <dt className="text-slate-500 dark:text-slate-400">Reading</dt>
+              <dd className="font-bold">{readings.length}</dd>
+            </div>
+            <div className="flex justify-between">
+              <dt className="text-slate-500 dark:text-slate-400">Mock tests</dt>
+              <dd className="font-bold">{mockTests.length}</dd>
             </div>
             <div className="flex justify-between">
               <dt className="text-slate-500 dark:text-slate-400">Bookmarks</dt>

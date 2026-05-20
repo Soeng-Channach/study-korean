@@ -1,22 +1,34 @@
-import Badge from '../ui/Badge';
 import Card from '../ui/Card';
 
 const rows = [
-  ['Verb', 'verb'],
-  ['Adjective', 'adjective'],
-  ['Noun', 'noun']
+  ['Verb', 'verb', 'V'],
+  ['Adjective', 'adjective', 'A'],
+  ['Noun', 'noun', 'N']
 ];
 
 export function UsageGuideCompact({ usage }) {
   if (!usage) return null;
 
   return (
-    <div className="mt-4 flex flex-wrap gap-2">
-      {rows.map(([label, key]) => (
-        <Badge key={key} tone={usage[key] === 'Not used' ? 'rose' : 'slate'}>
-          {label}: {usage[key]}
-        </Badge>
-      ))}
+    <div className="mt-3 flex flex-wrap gap-1.5">
+      {rows.map(([label, key, short]) => {
+        const value = usage[key];
+        const notUsed = value === 'Not used';
+        return (
+          <span
+            key={key}
+            className={
+              notUsed
+                ? 'inline-flex items-center gap-1 rounded-md bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-400 dark:bg-slate-800/70 dark:text-slate-500'
+                : 'inline-flex items-center gap-1 rounded-md bg-brand-50 px-2 py-0.5 text-[11px] font-semibold text-brand-700 ring-1 ring-brand-100 dark:bg-brand-500/15 dark:text-brand-100 dark:ring-brand-500/25'
+            }
+            title={`${label}: ${value}`}
+          >
+            <span className="font-bold">{short}</span>
+            <span className={notUsed ? 'line-through decoration-slate-400/60' : ''}>{value}</span>
+          </span>
+        );
+      })}
     </div>
   );
 }

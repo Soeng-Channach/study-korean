@@ -3104,6 +3104,234 @@ const usageOverrides = {
     adjective: 'A-아/어 보이다',
     noun: 'Usually use N처럼 보이다 / N으로 보이다',
     note: 'Most naturally used with adjectives to describe visual impression.'
+  },
+  'grammar-021': {
+    verb: 'V-(으)나 마나',
+    adjective: 'Usually not used',
+    noun: 'Usually not used',
+    note: 'Use with action verbs to say the result is the same whether the action is done or not.'
+  },
+  'grammar-022': {
+    verb: 'V-(으)니까요',
+    adjective: 'A-(으)니까요',
+    noun: 'N이니까요',
+    note: 'Conversational reason ending; use after the predicate stem.'
+  },
+  'grammar-023': {
+    verb: 'V-(으)니만큼',
+    adjective: 'A-(으)니만큼',
+    noun: 'N이니만큼',
+    note: 'Use when the first fact naturally supports the following expectation or result.'
+  },
+  'grammar-041': {
+    verb: 'V-(으)려다가',
+    adjective: 'Not used',
+    noun: 'Not used',
+    note: 'Use with action verbs when an intended action changes or is interrupted.'
+  },
+  'grammar-042': {
+    verb: 'V-(으)려던 참이다',
+    adjective: 'Not used',
+    noun: 'Not used',
+    note: 'Use with action verbs to say someone was just about to do something.'
+  },
+  'grammar-043': {
+    verb: 'V-(으)려면',
+    adjective: 'Not used',
+    noun: 'Not used',
+    note: 'Use with action verbs to mean if one intends to do something.'
+  },
+  'grammar-046': {
+    verb: 'V-(으)며',
+    adjective: 'A-(으)며',
+    noun: 'N이며',
+    note: 'Formal connector for listing or simultaneous states/actions.'
+  },
+  'grammar-047': {
+    verb: 'V-(으)면 되다',
+    adjective: 'A-(으)면 되다',
+    noun: 'N이면 되다',
+    note: 'Use to say a condition is sufficient.'
+  },
+  'grammar-048': {
+    verb: 'V-(으)므로',
+    adjective: 'A-(으)므로',
+    noun: 'N이므로',
+    note: 'Formal reason connector used often in writing and notices.'
+  },
+  'grammar-050': {
+    verb: 'V-거든',
+    adjective: 'A-거든',
+    noun: 'N이거든',
+    note: 'Spoken conditional or background reason; attach to the predicate stem.'
+  },
+  'grammar-058': {
+    verb: 'V-곤 하다',
+    adjective: 'Not used',
+    noun: 'Not used',
+    note: 'Use with action verbs to describe a repeated past habit.'
+  },
+  'grammar-122': {
+    verb: 'V-아/어서 그런지',
+    adjective: 'A-아/어서 그런지',
+    noun: 'N이라서 그런지',
+    note: 'Use when guessing the reason for a result.'
+  },
+  'grammar-123': {
+    verb: 'V-아/어도',
+    adjective: 'A-아/어도',
+    noun: 'N이어도/여도',
+    note: 'Use to mean the following result is true even under that condition.'
+  },
+  'grammar-124': {
+    verb: 'V-아/어라',
+    adjective: 'Not used',
+    noun: 'Not used',
+    note: 'Plain imperative ending; use carefully because it can sound direct.'
+  },
+  'grammar-125': {
+    verb: 'V-아/어야',
+    adjective: 'A-아/어야',
+    noun: 'N이어야/여야',
+    note: 'Marks a necessary condition; often appears as -아/어야 하다.'
+  },
+  'grammar-126': {
+    verb: 'V-아/어야지',
+    adjective: 'A-아/어야지',
+    noun: 'N이어야지/여야지',
+    note: 'Use for resolution, reminder, or mild advice.'
+  },
+  'grammar-127': {
+    verb: 'Usually use V-게 되다',
+    adjective: 'A-아/어지다',
+    noun: 'Usually not used',
+    note: 'Most commonly attaches to adjectives to show change of state.'
+  },
+  'grammar-128': {
+    verb: 'V-았/었더라면',
+    adjective: 'A-았/었더라면',
+    noun: 'N이었더라면',
+    note: 'Use for an unreal past condition, often with regret.'
+  },
+  'grammar-129': {
+    verb: 'V-았/었던 것 같다',
+    adjective: 'A-았/었던 것 같다',
+    noun: 'N이었던 것 같다',
+    note: 'Use to softly recall or guess about a completed past event/state.'
+  },
+  'grammar-130': {
+    verb: 'V-았/었으면 하다',
+    adjective: 'A-았/었으면 하다',
+    noun: 'N이었으면 하다',
+    note: 'Use to express a hope or wish.'
+  },
+  'grammar-131': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N(이)야말로',
+    note: 'Attach to nouns to strongly emphasize the best or clearest example.'
+  },
+  'grammar-132': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N에 관해(서)',
+    note: 'Use after nouns for the topic of discussion, writing, or research.'
+  },
+  'grammar-133': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N에 대해(서)',
+    note: 'Use after nouns to mean about or concerning.'
+  },
+  'grammar-134': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N에 따라(서)',
+    note: 'Use after a standard, rule, situation, or condition.'
+  },
+  'grammar-135': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N에 의해(서)',
+    note: 'Formal expression for by or due to a cause/agent.'
+  },
+  'grammar-136': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N에다(가)',
+    note: 'Use after nouns to add something to a place, item, or situation.'
+  },
+  'grammar-137': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N을/를 비롯한 N',
+    note: 'Use before another noun to mean including N as a representative example.'
+  },
+  'grammar-138': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N을/를 통해(서)',
+    note: 'Use after nouns to show the method, channel, or experience.'
+  },
+  'grammar-139': {
+    verb: 'V-자',
+    adjective: 'Not used',
+    noun: 'Not used',
+    note: 'Use with action verbs to mean as soon as the first action happens.'
+  },
+  'grammar-140': {
+    verb: 'V-자고 하다',
+    adjective: 'Not used',
+    noun: 'Not used',
+    note: 'Indirect quotation for suggestions or invitations.'
+  },
+  'grammar-141': {
+    verb: 'V-자마자',
+    adjective: 'Not used',
+    noun: 'Not used',
+    note: 'Use with action verbs to mean immediately after.'
+  },
+  'grammar-142': {
+    verb: 'V-잖아요',
+    adjective: 'A-잖아요',
+    noun: 'N이잖아요',
+    note: 'Spoken reminder for shared or obvious information.'
+  },
+  'grammar-143': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N마저',
+    note: 'Attach to nouns to mean even the last/unexpected item.'
+  },
+  'grammar-144': {
+    verb: 'V-(으)ㄴ/는 만큼',
+    adjective: 'A-(으)ㄴ 만큼',
+    noun: 'N만큼',
+    note: 'Use to compare degree, amount, or extent.'
+  },
+  'grammar-145': {
+    verb: '아무 V-거나',
+    adjective: '아무 A-(으)ㄴ 것이나',
+    noun: '아무 N(이)나',
+    note: 'Use for free choice when any option is acceptable.'
+  },
+  'grammar-146': {
+    verb: '아무 V-지도 않다',
+    adjective: '아무 A-지도 않다',
+    noun: '아무 N도 + negative',
+    note: 'Use with a negative expression to mean not any.'
+  },
+  'grammar-148': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N조차',
+    note: 'Attach to nouns to emphasize even something basic or expected.'
+  },
+  'grammar-149': {
+    verb: 'Not used directly',
+    adjective: 'Not used directly',
+    noun: 'N치고(는)',
+    note: 'Use after nouns to evaluate something against normal expectations for that group.'
   }
 };
 

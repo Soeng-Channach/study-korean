@@ -1,4 +1,4 @@
-import { grammarLessons } from './grammar';
+import { grammarLessons } from './grammar.js';
 
 const QUESTIONS_PER_GRAMMAR_TEST = 10;
 
