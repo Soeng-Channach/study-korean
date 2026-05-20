@@ -1,4 +1,5 @@
-import { Award, CalendarDays, CheckCircle2, Printer, Trophy } from 'lucide-react';
+import { Award, CalendarDays, CheckCircle2, ScanLine, Sparkles, Star, Trophy } from 'lucide-react';
+import { QRCodeSVG } from 'qrcode.react';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -30,82 +31,119 @@ export default function MockTestResultPage() {
   const completedDate = formatCompletedDate(attempt.completedAt);
   const performanceLabel =
     attempt.score >= 90 ? 'Outstanding Achievement' : attempt.score >= 75 ? 'Strong Completion' : 'Course Completion';
+  const certificateUrl = typeof window !== 'undefined' ? window.location.href : '';
+  const certificateId = `${attempt.testId.toUpperCase()}-${attempt.completedAt ? new Date(attempt.completedAt).getTime() : 'COMPLETE'}`;
 
   return (
     <div className="mx-auto max-w-5xl space-y-5">
-      <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between print:hidden">
-        <div>
-          <p className="text-sm font-semibold text-brand-600 dark:text-brand-100">Test completed</p>
-          <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">Your certificate is ready</h2>
-        </div>
-        <Button icon={Printer} onClick={() => window.print()}>
-          Print certificate
-        </Button>
+      <div>
+        <p className="text-sm font-semibold text-brand-600 dark:text-brand-100">Test completed</p>
+        <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">Your certificate is ready</h2>
       </div>
 
-      <section className="certificate-print overflow-hidden rounded-lg bg-white shadow-soft ring-1 ring-slate-200 dark:bg-slate-950 dark:ring-slate-800">
-        <div className="relative border-[10px] border-double border-amber-300 bg-[radial-gradient(circle_at_top_left,#fef3c7,transparent_28%),linear-gradient(135deg,#ffffff_0%,#f8fafc_56%,#eef2ff_100%)] p-6 text-slate-950 dark:border-amber-200 dark:bg-[linear-gradient(135deg,#f8fafc_0%,#eef2ff_100%)] sm:p-10">
-          <div className="absolute left-6 top-6 h-16 w-16 border-l-4 border-t-4 border-brand-600" aria-hidden="true" />
-          <div className="absolute right-6 top-6 h-16 w-16 border-r-4 border-t-4 border-coral-500" aria-hidden="true" />
-          <div className="absolute bottom-6 left-6 h-16 w-16 border-b-4 border-l-4 border-coral-500" aria-hidden="true" />
-          <div className="absolute bottom-6 right-6 h-16 w-16 border-b-4 border-r-4 border-brand-600" aria-hidden="true" />
+      <section className="relative overflow-hidden rounded-2xl p-[3px] shadow-[0_20px_60px_-15px_rgba(15,23,42,0.25)]">
+        <div className="absolute inset-0 animate-[spin_18s_linear_infinite] bg-[conic-gradient(from_0deg,#fbbf24,#f43f5e,#a855f7,#6366f1,#10b981,#fbbf24)]" aria-hidden="true" />
+        <div className="relative overflow-hidden rounded-[14px] bg-[radial-gradient(circle_at_top_left,#fef3c7,transparent_28%),radial-gradient(circle_at_bottom_right,#e0e7ff,transparent_30%),linear-gradient(135deg,#ffffff_0%,#f8fafc_56%,#eef2ff_100%)] p-6 sm:p-12">
+          <div className="absolute left-5 top-5 h-14 w-14 rounded-tl-xl border-l-[3px] border-t-[3px] border-amber-500/80" aria-hidden="true" />
+          <div className="absolute right-5 top-5 h-14 w-14 rounded-tr-xl border-r-[3px] border-t-[3px] border-amber-500/80" aria-hidden="true" />
+          <div className="absolute bottom-5 left-5 h-14 w-14 rounded-bl-xl border-b-[3px] border-l-[3px] border-amber-500/80" aria-hidden="true" />
+          <div className="absolute bottom-5 right-5 h-14 w-14 rounded-br-xl border-b-[3px] border-r-[3px] border-amber-500/80" aria-hidden="true" />
+
+          <Sparkles className="absolute right-10 top-16 hidden text-amber-400/50 sm:block" size={32} aria-hidden="true" />
+          <Sparkles className="absolute left-12 bottom-24 hidden text-indigo-400/40 sm:block" size={22} aria-hidden="true" />
+          <Star className="absolute right-20 bottom-40 hidden text-rose-400/40 sm:block" size={16} aria-hidden="true" />
 
           <div className="relative mx-auto max-w-3xl text-center">
-            <div className="mx-auto flex h-20 w-20 items-center justify-center rounded-full bg-slate-950 text-amber-200 ring-8 ring-amber-100">
-              <Trophy aria-hidden="true" size={38} />
+            <div className="relative mx-auto inline-block">
+              <div className="absolute -inset-4 animate-pulse rounded-full bg-amber-300/40 blur-2xl" aria-hidden="true" />
+              <div className="relative mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-amber-300 via-amber-500 to-amber-700 text-white shadow-lg shadow-amber-500/40 ring-4 ring-amber-100">
+                <Trophy aria-hidden="true" size={44} />
+              </div>
             </div>
 
-            <p className="mt-6 text-xs font-bold uppercase tracking-[0.35em] text-brand-700">TOPIK II Practice</p>
-            <h1 className="mt-3 text-4xl font-black text-slate-950 sm:text-5xl">Certificate of Completion</h1>
+            <p className="mt-6 text-xs font-bold uppercase tracking-[0.4em] text-brand-700">TOPIK II Practice</p>
+            <h1 className="mt-3 bg-gradient-to-br from-slate-950 via-brand-700 to-indigo-700 bg-clip-text text-4xl font-black leading-tight text-transparent sm:text-5xl">
+              Certificate of Completion
+            </h1>
             <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-slate-600">
               Awarded for completing a Korean TOPIK II mock test and showing steady commitment to study.
             </p>
 
-            <div className="my-8 h-px bg-gradient-to-r from-transparent via-slate-300 to-transparent" />
+            <div className="my-8 flex items-center justify-center gap-3">
+              <div className="h-px max-w-xs flex-1 bg-gradient-to-r from-transparent to-amber-400" />
+              <Star className="text-amber-500" size={14} aria-hidden="true" />
+              <div className="h-px max-w-xs flex-1 bg-gradient-to-l from-transparent to-amber-400" />
+            </div>
 
-            <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">Completed Test</p>
-            <h2 className="mt-3 text-3xl font-extrabold text-brand-700">{attempt.title}</h2>
+            <p className="text-xs font-bold uppercase tracking-[0.3em] text-slate-500">Awarded for</p>
+            <h2 className="mt-2 text-3xl font-extrabold text-brand-700 sm:text-4xl">{attempt.title}</h2>
 
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
-              <div className="rounded-lg border border-slate-200 bg-white/80 p-4">
-                <Award className="mx-auto text-brand-600" aria-hidden="true" size={24} />
-                <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-slate-500">Score</p>
+              <div className="rounded-xl border border-amber-200/70 bg-white/80 p-4 shadow-sm backdrop-blur transition hover:-translate-y-0.5 hover:shadow-md">
+                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-brand-50 text-brand-600">
+                  <Award size={20} aria-hidden="true" />
+                </div>
+                <p className="mt-2 text-[10px] font-bold uppercase tracking-wider text-slate-500">Score</p>
                 <p className="mt-1 text-3xl font-black text-slate-950">{attempt.score}%</p>
               </div>
-              <div className="rounded-lg border border-slate-200 bg-white/80 p-4">
-                <CheckCircle2 className="mx-auto text-emerald-600" aria-hidden="true" size={24} />
-                <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-slate-500">Accuracy</p>
+              <div className="rounded-xl border border-amber-200/70 bg-white/80 p-4 shadow-sm backdrop-blur transition hover:-translate-y-0.5 hover:shadow-md">
+                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-emerald-50 text-emerald-600">
+                  <CheckCircle2 size={20} aria-hidden="true" />
+                </div>
+                <p className="mt-2 text-[10px] font-bold uppercase tracking-wider text-slate-500">Accuracy</p>
                 <p className="mt-1 text-3xl font-black text-slate-950">{attempt.correct}/{attempt.total}</p>
               </div>
-              <div className="rounded-lg border border-slate-200 bg-white/80 p-4">
-                <CalendarDays className="mx-auto text-coral-500" aria-hidden="true" size={24} />
-                <p className="mt-2 text-xs font-semibold uppercase tracking-wide text-slate-500">Date</p>
+              <div className="rounded-xl border border-amber-200/70 bg-white/80 p-4 shadow-sm backdrop-blur transition hover:-translate-y-0.5 hover:shadow-md">
+                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-coral-100 text-coral-600">
+                  <CalendarDays size={20} aria-hidden="true" />
+                </div>
+                <p className="mt-2 text-[10px] font-bold uppercase tracking-wider text-slate-500">Date</p>
                 <p className="mt-2 text-sm font-bold text-slate-950">{completedDate}</p>
               </div>
             </div>
 
-            <div className="mt-8 inline-flex items-center gap-2 rounded-full bg-slate-950 px-5 py-3 text-sm font-bold text-white">
-              <Award aria-hidden="true" size={18} />
+            <div className="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-slate-950 via-indigo-900 to-slate-950 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-indigo-900/30 ring-2 ring-amber-300/60">
+              <Award aria-hidden="true" size={18} className="text-amber-300" />
               {performanceLabel}
             </div>
 
-            <div className="mt-10 flex flex-col gap-6 border-t border-slate-200 pt-6 text-left sm:flex-row sm:items-end sm:justify-between">
-              <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.25em] text-slate-500">Certificate ID</p>
-                <p className="mt-2 font-mono text-sm font-bold text-slate-800">
-                  {attempt.testId.toUpperCase()}-{attempt.completedAt ? new Date(attempt.completedAt).getTime() : 'COMPLETE'}
+            <div className="mt-10 grid gap-6 border-t border-amber-200/70 pt-6 sm:grid-cols-3 sm:items-end">
+              <div className="text-left">
+                <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-slate-500">Certificate ID</p>
+                <p className="mt-2 break-all font-mono text-xs font-bold text-slate-800">{certificateId}</p>
+              </div>
+
+              <div className="flex flex-col items-center">
+                <div className="rounded-xl bg-white p-2 shadow-md ring-1 ring-slate-200">
+                  {certificateUrl ? (
+                    <QRCodeSVG
+                      value={certificateUrl}
+                      size={104}
+                      level="M"
+                      marginSize={2}
+                      bgColor="#ffffff"
+                      fgColor="#0f172a"
+                    />
+                  ) : null}
+                </div>
+                <p className="mt-2 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
+                  <ScanLine size={12} aria-hidden="true" />
+                  Scan to verify
                 </p>
               </div>
-              <div className="min-w-48 border-t-2 border-slate-950 pt-2 text-center">
-                <p className="text-sm font-bold text-slate-950">Korean TOPIK II</p>
-                <p className="text-xs text-slate-500">Practice Certificate</p>
+
+              <div className="text-center sm:text-right">
+                <div className="inline-block min-w-36 border-t-2 border-slate-950 pt-2">
+                  <p className="text-sm font-bold text-slate-950">Korean TOPIK II</p>
+                  <p className="text-xs text-slate-500">Practice Certificate</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </section>
 
-      <Card className="print:hidden">
+      <Card>
         <div className="flex flex-col gap-3 sm:flex-row">
           <Link to="/mock-tests" className="flex-1">
             <Button variant="secondary" className="w-full">Back to tests</Button>
