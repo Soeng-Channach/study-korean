@@ -1,4 +1,4 @@
-import { Bookmark, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, Bookmark, CheckCircle2 } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import UsageGuide from '../../components/learning/UsageGuide';
 import Badge from '../../components/ui/Badge';
@@ -25,7 +25,11 @@ export default function GrammarDetailPage() {
 
   return (
     <article className="mx-auto max-w-3xl space-y-5">
-      <Link to="/grammar" className="text-sm font-semibold text-brand-600 dark:text-brand-100">
+      <Link
+        to="/grammar"
+        className="group inline-flex items-center gap-1.5 self-start rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-brand-600 shadow-sm ring-1 ring-slate-200 transition hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-slate-900 dark:text-brand-100 dark:ring-slate-700 dark:hover:bg-slate-800 dark:hover:text-brand-100 dark:focus-visible:ring-offset-slate-900"
+      >
+        <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
         Back to grammar
       </Link>
       <Card>
