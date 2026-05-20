@@ -2063,6 +2063,594 @@ const grammarLessonData = [
     ],
     similarPatterns: ['-(으)ㄴ 것 같다', '-아/어 보이다'],
     tags: ['appearance', 'impression']
+  },
+  {
+    id: 'grammar-122',
+    level: 'TOPIK II',
+    category: 'Inference',
+    pattern: '-아/어서 그런지',
+    meaning: 'perhaps because; maybe because',
+    explanation:
+      'Used when the speaker guesses that the first situation is the reason for the following result.',
+    examples: [
+      {
+        korean: '어제 늦게 자서 그런지 오늘 너무 피곤해요.',
+        english: 'Maybe because I slept late yesterday, I am very tired today.'
+      },
+      {
+        korean: '비가 와서 그런지 길이 많이 막혀요.',
+        english: 'Perhaps because it is raining, the roads are very congested.'
+      }
+    ],
+    similarPatterns: ['-아서/어서', '-기 때문인지'],
+    tags: ['inference', 'reason']
+  },
+  {
+    id: 'grammar-123',
+    level: 'TOPIK II',
+    category: 'Concession',
+    pattern: '-아/어도',
+    meaning: 'even if; even though',
+    explanation:
+      'Used to show that the following result remains true regardless of the preceding condition.',
+    examples: [
+      {
+        korean: '바빠도 아침은 꼭 먹어야 해요.',
+        english: 'Even if you are busy, you must eat breakfast.'
+      },
+      {
+        korean: '비가 와도 행사는 예정대로 진행됩니다.',
+        english: 'Even if it rains, the event will proceed as scheduled.'
+      }
+    ],
+    similarPatterns: ['-더라도', '-(으)ㄹ지라도'],
+    tags: ['concession', 'condition']
+  },
+  {
+    id: 'grammar-124',
+    level: 'TOPIK II',
+    category: 'Command',
+    pattern: '-아/어라',
+    meaning: 'do; imperative command',
+    explanation:
+      'A plain imperative ending used in writing, instructions, slogans, or by an older speaker to a younger listener.',
+    examples: [
+      {
+        korean: '문제를 잘 읽고 답을 골라라.',
+        english: 'Read the question carefully and choose the answer.'
+      },
+      {
+        korean: '힘들어도 끝까지 포기하지 마라.',
+        english: 'Even if it is hard, do not give up until the end.'
+      }
+    ],
+    similarPatterns: ['-(으)세요', '-아/어 주세요'],
+    tags: ['command', 'plain-style']
+  },
+  {
+    id: 'grammar-125',
+    level: 'TOPIK II',
+    category: 'Necessity',
+    pattern: '-아/어야',
+    meaning: 'only if; must do in order to',
+    explanation:
+      'Used to state a necessary condition for the following result. It can also appear before 하다 to express obligation.',
+    examples: [
+      {
+        korean: '열심히 공부해야 좋은 결과를 얻을 수 있어요.',
+        english: 'Only if you study hard can you get good results.'
+      },
+      {
+        korean: '직접 만나 봐야 그 사람을 이해할 수 있어요.',
+        english: 'You can understand that person only if you meet them in person.'
+      }
+    ],
+    similarPatterns: ['-(으)면', '-아/어야 하다'],
+    tags: ['necessity', 'condition']
+  },
+  {
+    id: 'grammar-126',
+    level: 'TOPIK II',
+    category: 'Resolution',
+    pattern: '-아/어야지',
+    meaning: 'should; I will make sure to',
+    explanation:
+      'Used to express a resolution, reminder, or mild advice that something should be done.',
+    examples: [
+      {
+        korean: '내일부터는 일찍 일어나야지.',
+        english: 'From tomorrow, I should wake up early.'
+      },
+      {
+        korean: '건강을 위해 운동을 꾸준히 해야지요.',
+        english: 'For my health, I should exercise regularly.'
+      }
+    ],
+    similarPatterns: ['-아/어야 하다', '-도록 하다'],
+    tags: ['resolution', 'advice']
+  },
+  {
+    id: 'grammar-127',
+    level: 'TOPIK II',
+    category: 'Change',
+    pattern: '-아/어지다',
+    meaning: 'to become; to get',
+    explanation:
+      'Used with adjectives to show that a state changes over time.',
+    examples: [
+      {
+        korean: '날씨가 점점 추워지고 있어요.',
+        english: 'The weather is gradually getting colder.'
+      },
+      {
+        korean: '한국어 실력이 많이 좋아졌어요.',
+        english: 'My Korean ability has improved a lot.'
+      }
+    ],
+    similarPatterns: ['-게 되다', '-아/어 보이다'],
+    tags: ['change', 'state']
+  },
+  {
+    id: 'grammar-128',
+    level: 'TOPIK II',
+    category: 'Hypothesis',
+    pattern: '-았/었더라면',
+    meaning: 'if only had; if had done',
+    explanation:
+      'Used to imagine a different past condition and result, often with regret.',
+    examples: [
+      {
+        korean: '조금 더 일찍 출발했더라면 기차를 탔을 거예요.',
+        english: 'If I had left a little earlier, I would have caught the train.'
+      },
+      {
+        korean: '그때 포기하지 않았더라면 지금 달라졌을 거예요.',
+        english: 'If I had not given up then, things would be different now.'
+      }
+    ],
+    similarPatterns: ['-(으)ㄴ/는다면', '-았/었으면'],
+    tags: ['hypothesis', 'regret']
+  },
+  {
+    id: 'grammar-129',
+    level: 'TOPIK II',
+    category: 'Recollection',
+    pattern: '-았/었던 것 같다',
+    meaning: 'seems to have been; I think it was',
+    explanation:
+      'Used to softly recall or guess about a past completed state, event, or experience.',
+    examples: [
+      {
+        korean: '그 영화는 작년에 봤던 것 같아요.',
+        english: 'I think I saw that movie last year.'
+      },
+      {
+        korean: '예전에 이 식당에 와 봤던 것 같아요.',
+        english: 'I think I have been to this restaurant before.'
+      }
+    ],
+    similarPatterns: ['-(으)ㄴ 것 같다', '-더라고요'],
+    tags: ['recollection', 'guess']
+  },
+  {
+    id: 'grammar-130',
+    level: 'TOPIK II',
+    category: 'Wish',
+    pattern: '-았/었으면 하다',
+    meaning: 'to hope; to wish',
+    explanation:
+      'Used to express a wish or hope that a certain situation happens.',
+    examples: [
+      {
+        korean: '이번 시험에 꼭 합격했으면 해요.',
+        english: 'I hope I pass this exam.'
+      },
+      {
+        korean: '친구가 빨리 건강해졌으면 합니다.',
+        english: 'I hope my friend gets well soon.'
+      }
+    ],
+    similarPatterns: ['-기 바라다', '-았/었으면 좋겠다'],
+    tags: ['wish', 'hope']
+  },
+  {
+    id: 'grammar-131',
+    level: 'TOPIK II',
+    category: 'Emphasis',
+    pattern: '(이)야말로',
+    meaning: 'indeed; truly; exactly',
+    explanation:
+      'Used after a noun to strongly emphasize that it is the best or clearest example of something.',
+    examples: [
+      {
+        korean: '노력이야말로 성공의 가장 중요한 조건입니다.',
+        english: 'Effort is truly the most important condition for success.'
+      },
+      {
+        korean: '한글이야말로 한국 문화의 소중한 유산입니다.',
+        english: 'Hangeul is indeed a precious heritage of Korean culture.'
+      }
+    ],
+    similarPatterns: ['바로', '-이/가 바로'],
+    tags: ['emphasis', 'formal']
+  },
+  {
+    id: 'grammar-132',
+    level: 'TOPIK II',
+    category: 'Topic',
+    pattern: '-에 관해(서)',
+    meaning: 'about; regarding',
+    explanation:
+      'Used after a noun to introduce the topic being discussed, researched, written, or asked about.',
+    examples: [
+      {
+        korean: '환경 문제에 관해서 발표를 준비했습니다.',
+        english: 'I prepared a presentation about environmental issues.'
+      },
+      {
+        korean: '한국 역사에 관해 더 알고 싶어요.',
+        english: 'I want to know more about Korean history.'
+      }
+    ],
+    similarPatterns: ['-에 대해(서)', '-을/를 주제로'],
+    tags: ['topic', 'formal']
+  },
+  {
+    id: 'grammar-133',
+    level: 'TOPIK II',
+    category: 'Topic',
+    pattern: '-에 대해(서)',
+    meaning: 'about; concerning',
+    explanation:
+      'Used after a noun to show the subject of speech, thought, study, or opinion.',
+    examples: [
+      {
+        korean: '그 문제에 대해서 어떻게 생각하세요?',
+        english: 'What do you think about that problem?'
+      },
+      {
+        korean: '저는 한국 음식에 대해 관심이 많습니다.',
+        english: 'I am very interested in Korean food.'
+      }
+    ],
+    similarPatterns: ['-에 관해(서)', '-을/를 두고'],
+    tags: ['topic', 'communication']
+  },
+  {
+    id: 'grammar-134',
+    level: 'TOPIK II',
+    category: 'Basis',
+    pattern: '-에 따라(서)',
+    meaning: 'according to; depending on',
+    explanation:
+      'Used to show that something changes or is decided based on a standard, rule, situation, or condition.',
+    examples: [
+      {
+        korean: '계절에 따라 사람들의 옷차림이 달라집니다.',
+        english: 'People\'s clothing changes depending on the season.'
+      },
+      {
+        korean: '규칙에 따라서 순서대로 입장해 주세요.',
+        english: 'Please enter in order according to the rules.'
+      }
+    ],
+    similarPatterns: ['-에 의하면', '-마다'],
+    tags: ['basis', 'condition']
+  },
+  {
+    id: 'grammar-135',
+    level: 'TOPIK II',
+    category: 'Cause and Agent',
+    pattern: '-에 의해(서)',
+    meaning: 'by; due to',
+    explanation:
+      'Used to show the agent, cause, or method behind a result, often in formal or written language.',
+    examples: [
+      {
+        korean: '이 건물은 유명한 건축가에 의해 설계되었습니다.',
+        english: 'This building was designed by a famous architect.'
+      },
+      {
+        korean: '기후 변화에 의해 생태계가 영향을 받고 있습니다.',
+        english: 'The ecosystem is being affected by climate change.'
+      }
+    ],
+    similarPatterns: ['-으로 인해(서)', '-때문에'],
+    tags: ['formal', 'cause']
+  },
+  {
+    id: 'grammar-136',
+    level: 'TOPIK II',
+    category: 'Addition',
+    pattern: '-에다(가)',
+    meaning: 'on top of; in addition to',
+    explanation:
+      'Used to add one thing to another place, amount, or situation.',
+    examples: [
+      {
+        korean: '커피에다가 설탕을 조금 넣었어요.',
+        english: 'I added a little sugar to the coffee.'
+      },
+      {
+        korean: '비에다가 바람까지 불어서 날씨가 더 추워졌어요.',
+        english: 'On top of the rain, the wind blew too, so the weather became colder.'
+      }
+    ],
+    similarPatterns: ['-에', '-뿐만 아니라'],
+    tags: ['addition', 'spoken']
+  },
+  {
+    id: 'grammar-137',
+    level: 'TOPIK II',
+    category: 'Inclusion',
+    pattern: '-을/를 비롯한',
+    meaning: 'including; starting with',
+    explanation:
+      'Used before a noun to include the preceding item as a representative example among a group.',
+    examples: [
+      {
+        korean: '한국을 비롯한 여러 나라가 회의에 참석했습니다.',
+        english: 'Several countries, including Korea, attended the meeting.'
+      },
+      {
+        korean: '학생들을 비롯한 많은 시민들이 봉사 활동에 참여했습니다.',
+        english: 'Many citizens, including students, participated in volunteer work.'
+      }
+    ],
+    similarPatterns: ['-을/를 포함한', '-뿐만 아니라'],
+    tags: ['inclusion', 'formal']
+  },
+  {
+    id: 'grammar-138',
+    level: 'TOPIK II',
+    category: 'Means',
+    pattern: '-을/를 통해(서)',
+    meaning: 'through; by means of',
+    explanation:
+      'Used to show the method, channel, or experience through which something happens or is learned.',
+    examples: [
+      {
+        korean: '뉴스를 통해서 그 소식을 알게 되었습니다.',
+        english: 'I came to know the news through the news broadcast.'
+      },
+      {
+        korean: '여행을 통해 다양한 문화를 배웠습니다.',
+        english: 'I learned about various cultures through travel.'
+      }
+    ],
+    similarPatterns: ['-(으)로', '-에 의해(서)'],
+    tags: ['means', 'experience']
+  },
+  {
+    id: 'grammar-139',
+    level: 'TOPIK II',
+    category: 'Sequence',
+    pattern: '-자',
+    meaning: 'as soon as',
+    explanation:
+      'Used to show that the second action happens immediately after the first action.',
+    examples: [
+      {
+        korean: '집에 도착하자 바로 잠이 들었습니다.',
+        english: 'As soon as I arrived home, I fell asleep.'
+      },
+      {
+        korean: '수업이 끝나자 학생들이 교실을 나갔습니다.',
+        english: 'As soon as class ended, the students left the classroom.'
+      }
+    ],
+    similarPatterns: ['-자마자', '-는 대로'],
+    tags: ['sequence', 'time']
+  },
+  {
+    id: 'grammar-140',
+    level: 'TOPIK II',
+    category: 'Quoted Speech',
+    pattern: '-자고 하다',
+    meaning: 'to suggest that; to say let us',
+    explanation:
+      'Used to report a suggestion, proposal, or invitation that someone made.',
+    examples: [
+      {
+        korean: '친구가 주말에 같이 영화를 보자고 했어요.',
+        english: 'My friend suggested that we watch a movie together on the weekend.'
+      },
+      {
+        korean: '선생님께서 수업 후에 다시 이야기하자고 하셨습니다.',
+        english: 'The teacher suggested talking again after class.'
+      }
+    ],
+    similarPatterns: ['-자', '-(으)라고 하다'],
+    tags: ['quotation', 'suggestion']
+  },
+  {
+    id: 'grammar-141',
+    level: 'TOPIK II',
+    category: 'Sequence',
+    pattern: '-자마자',
+    meaning: 'as soon as',
+    explanation:
+      'Used to show that the second action happens immediately after the first action.',
+    examples: [
+      {
+        korean: '집에 도착하자마자 샤워를 했어요.',
+        english: 'As soon as I arrived home, I took a shower.'
+      },
+      {
+        korean: '시험이 끝나자마자 친구에게 전화했습니다.',
+        english: 'As soon as the exam ended, I called my friend.'
+      }
+    ],
+    similarPatterns: ['-자', '-는 대로'],
+    tags: ['sequence', 'time']
+  },
+  {
+    id: 'grammar-142',
+    level: 'TOPIK II',
+    category: 'Shared Knowledge',
+    pattern: '-잖아(요)',
+    meaning: 'you know; as you know',
+    explanation:
+      'Used to remind the listener of something they already know or to give an obvious reason.',
+    examples: [
+      {
+        korean: '오늘은 일요일이잖아요. 은행이 문을 닫았을 거예요.',
+        english: 'You know today is Sunday. The bank is probably closed.'
+      },
+      {
+        korean: '제가 어제 말했잖아요.',
+        english: 'I told you yesterday, you know.'
+      }
+    ],
+    similarPatterns: ['-거든요', '-니까'],
+    tags: ['spoken', 'reason']
+  },
+  {
+    id: 'grammar-143',
+    level: 'TOPIK II',
+    category: 'Addition',
+    pattern: '마저',
+    meaning: 'even; even the last remaining thing',
+    explanation:
+      'Used to emphasize that even something unexpected or the last remaining item is included, often with a negative feeling.',
+    examples: [
+      {
+        korean: '믿었던 친구마저 나를 도와주지 않았어요.',
+        english: 'Even the friend I trusted did not help me.'
+      },
+      {
+        korean: '비가 오는데 바람마저 강하게 불었어요.',
+        english: 'It was raining, and even the wind blew strongly.'
+      }
+    ],
+    similarPatterns: ['조차', '까지'],
+    tags: ['addition', 'emphasis']
+  },
+  {
+    id: 'grammar-144',
+    level: 'TOPIK II',
+    category: 'Degree',
+    pattern: '만큼',
+    meaning: 'as much as; to the extent of',
+    explanation:
+      'Used after nouns or modifier forms to compare degree, amount, or extent.',
+    examples: [
+      {
+        korean: '노력한 만큼 좋은 결과가 있을 거예요.',
+        english: 'There will be good results as much as you have worked hard.'
+      },
+      {
+        korean: '동생도 형만큼 키가 컸어요.',
+        english: 'The younger sibling became as tall as the older brother.'
+      }
+    ],
+    similarPatterns: ['-듯이', '-정도로'],
+    tags: ['degree', 'comparison']
+  },
+  {
+    id: 'grammar-145',
+    level: 'TOPIK II',
+    category: 'Free Choice',
+    pattern: '아무 -(이)나',
+    meaning: 'any; anything; anyone',
+    explanation:
+      'Used to say that any choice is acceptable or that the specific item does not matter.',
+    examples: [
+      {
+        korean: '시간이 없으니까 아무거나 빨리 먹읍시다.',
+        english: 'Since we do not have time, let us quickly eat anything.'
+      },
+      {
+        korean: '이 일은 아무나 할 수 있는 일이 아닙니다.',
+        english: 'This is not work that just anyone can do.'
+      }
+    ],
+    similarPatterns: ['-든지', '무엇이든'],
+    tags: ['choice', 'indefinite']
+  },
+  {
+    id: 'grammar-146',
+    level: 'TOPIK II',
+    category: 'Negation',
+    pattern: '아무 -도',
+    meaning: 'no; not any',
+    explanation:
+      'Used with a negative expression to mean nobody, nothing, nowhere, or not any.',
+    examples: [
+      {
+        korean: '교실에는 아무도 없었어요.',
+        english: 'There was nobody in the classroom.'
+      },
+      {
+        korean: '너무 바빠서 아무것도 먹지 못했습니다.',
+        english: 'I was so busy that I could not eat anything.'
+      }
+    ],
+    similarPatterns: ['하나도', '전혀'],
+    tags: ['negation', 'indefinite']
+  },
+  {
+    id: 'grammar-147',
+    level: 'TOPIK II',
+    category: 'Exclamation',
+    pattern: '얼마나 -(으)ㄴ/는지',
+    meaning: 'how; so much that',
+    explanation:
+      'Used to emphasize the degree of a state or action, often with surprise or strong feeling.',
+    examples: [
+      {
+        korean: '날씨가 얼마나 추운지 손이 다 얼었어요.',
+        english: 'It was so cold that my hands froze.'
+      },
+      {
+        korean: '그 이야기가 얼마나 재미있는지 시간 가는 줄 몰랐어요.',
+        english: 'The story was so interesting that I lost track of time.'
+      }
+    ],
+    similarPatterns: ['어찌나 -(으)ㄴ/는지', '-(으)ㄹ 정도로'],
+    tags: ['degree', 'emotion']
+  },
+  {
+    id: 'grammar-148',
+    level: 'TOPIK II',
+    category: 'Addition',
+    pattern: '조차',
+    meaning: 'even',
+    explanation:
+      'Used to emphasize that even the most basic, expected, or surprising thing is included, often in negative contexts.',
+    examples: [
+      {
+        korean: '너무 피곤해서 말할 힘조차 없었어요.',
+        english: 'I was so tired that I did not even have the strength to speak.'
+      },
+      {
+        korean: '가족조차 그의 결정을 이해하지 못했습니다.',
+        english: 'Even his family could not understand his decision.'
+      }
+    ],
+    similarPatterns: ['마저', '까지'],
+    tags: ['addition', 'emphasis']
+  },
+  {
+    id: 'grammar-149',
+    level: 'TOPIK II',
+    category: 'Evaluation',
+    pattern: '치고(는)',
+    meaning: 'for; considering that',
+    explanation:
+      'Used after a noun to evaluate something as unusual or noteworthy compared with what is normally expected of that group.',
+    examples: [
+      {
+        korean: '초보자치고는 한국어를 아주 잘해요.',
+        english: 'For a beginner, they speak Korean very well.'
+      },
+      {
+        korean: '겨울 날씨치고는 꽤 따뜻합니다.',
+        english: 'For winter weather, it is quite warm.'
+      }
+    ],
+    similarPatterns: ['-에 비해(서)', '-답게'],
+    tags: ['evaluation', 'comparison']
   }
 ];
 
