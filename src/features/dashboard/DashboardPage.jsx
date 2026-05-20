@@ -1,0 +1,82 @@
+import { BookMarked, ClipboardCheck, Languages, Newspaper } from 'lucide-react';
+import { Link } from 'react-router-dom';
+import Card from '../../components/ui/Card';
+import ProgressBar from '../../components/ui/ProgressBar';
+import { useLearning } from '../../context/LearningContext';
+import { usePageMeta } from '../../hooks/usePageMeta';
+import { grammarLessons } from '../../data/grammar';
+import { readings } from '../../data/reading';
+import { vocabulary } from '../../data/vocabulary';
+
+const quickLinks = [
+  { label: 'Grammar', path: '/grammar', icon: BookMarked, count: '4 lessons' },
+  { label: 'Reading', path: '/reading', icon: Newspaper, count: '2 passages' },
+  { label: 'Vocabulary', path: '/vocabulary', icon: Languages, count: '4 words' },
+  { label: 'Mock Tests', path: '/mock-tests', icon: ClipboardCheck, count: '1 test' }
+];
+
+export default function DashboardPage() {
+  usePageMeta('Dashboard', 'Track TOPIK II grammar, reading, vocabulary, and mock test progress.');
+  const { state, grammarProgress, vocabProgress } = useLearning();
+
+  return (
+    <div className="space-y-6">
+      <section className="rounded-xl bg-slate-950 px-5 py-6 text-white shadow-soft sm:px-8">
+        <div className="max-w-3xl">
+          <p className="text-sm font-semibold text-mint-100">Offline-ready Korean learning</p>
+          <h2 className="mt-2 text-3xl font-bold sm:text-4xl">Build steady TOPIK II skill, one focused session at a time.</h2>
+          <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300">
+            Study grammar patterns, practice reading, review vocabulary, save favorites, and keep your progress on this device.
+          </p>
+        </div>
+      </section>
+
+      <section className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
+        {quickLinks.map((item) => {
+          const Icon = item.icon;
+          return (
+            <Link key={item.path} to={item.path}>
+              <Card className="h-full transition hover:-translate-y-0.5 hover:shadow-soft">
+                <Icon className="text-brand-600 dark:text-brand-100" size={24} aria-hidden="true" />
+                <h3 className="mt-4 text-lg font-bold text-slate-950 dark:text-white">{item.label}</h3>
+                <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{item.count}</p>
+              </Card>
+            </Link>
+          );
+        })}
+      </section>
+
+      <section className="grid gap-4 lg:grid-cols-3">
+        <Card className="lg:col-span-2">
+          <h3 className="text-lg font-bold text-slate-950 dark:text-white">Study progress</h3>
+          <div className="mt-5 space-y-5">
+            <ProgressBar value={grammarProgress} label="Grammar completed" />
+            <ProgressBar value={vocabProgress} label="Vocabulary mastered" />
+            <ProgressBar value={Math.round((state.completedReadingIds.length / readings.length) * 100)} label="Reading completed" />
+          </div>
+        </Card>
+        <Card>
+          <h3 className="text-lg font-bold text-slate-950 dark:text-white">Library</h3>
+          <dl className="mt-5 space-y-4 text-sm">
+            <div className="flex justify-between">
+              <dt className="text-slate-500 dark:text-slate-400">Grammar</dt>
+              <dd className="font-bold">{grammarLessons.length}</dd>
+            </div>
+            <div className="flex justify-between">
+              <dt className="text-slate-500 dark:text-slate-400">Vocabulary</dt>
+              <dd className="font-bold">{vocabulary.length}</dd>
+            </div>
+            <div className="flex justify-between">
+              <dt className="text-slate-500 dark:text-slate-400">Bookmarks</dt>
+              <dd className="font-bold">{state.bookmarkedGrammarIds.length}</dd>
+            </div>
+            <div className="flex justify-between">
+              <dt className="text-slate-500 dark:text-slate-400">Test attempts</dt>
+              <dd className="font-bold">{state.mockTestAttempts.length}</dd>
+            </div>
+          </dl>
+        </Card>
+      </section>
+    </div>
+  );
+}
