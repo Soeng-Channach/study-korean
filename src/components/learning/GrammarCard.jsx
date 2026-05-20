@@ -19,19 +19,21 @@ export default function GrammarCard({ lesson }) {
             <Badge>{lesson.category}</Badge>
             {completed ? <Badge tone="green">Completed</Badge> : null}
           </div>
-          <Link to={`/grammar/${lesson.id}`} className="text-xl font-bold text-slate-950 hover:text-brand-600 dark:text-white">
-            {lesson.pattern}
-          </Link>
-          <div className="mt-2 rounded-lg bg-slate-50 px-3 py-2 dark:bg-slate-800">
-            <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-              Core meaning
-            </p>
-            <p className="mt-1 text-sm font-semibold text-slate-800 dark:text-slate-100">
-              {lesson.coreMeaning}
-            </p>
+          <div className="rounded-xl border-2 border-coral-500/80 bg-gradient-to-br from-coral-100/60 via-white to-white p-4 shadow-[0_4px_18px_-8px_rgba(244,63,94,0.4)] dark:from-coral-500/10 dark:via-slate-900 dark:to-slate-900">
+            <Link to={`/grammar/${lesson.id}`} className="text-xl font-bold text-slate-950 hover:text-coral-700 dark:text-white dark:hover:text-coral-100">
+              {lesson.pattern}
+            </Link>
+            <div className="mt-3 rounded-lg border border-coral-200 bg-white/80 px-3 py-2 dark:border-coral-500/30 dark:bg-slate-800/60">
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-coral-700 dark:text-coral-100">
+                Core meaning
+              </p>
+              <p className="mt-1 text-sm font-semibold text-slate-800 dark:text-slate-100">
+                {lesson.coreMeaning}
+              </p>
+            </div>
+            <p className="mt-3 line-clamp-2 text-sm text-slate-600 dark:text-slate-400">{lesson.explanation}</p>
+            <UsageGuideCompact usage={lesson.usage} />
           </div>
-          <p className="mt-3 line-clamp-2 text-sm text-slate-600 dark:text-slate-400">{lesson.explanation}</p>
-          <UsageGuideCompact usage={lesson.usage} />
         </div>
         <button
           type="button"

@@ -86,23 +86,29 @@ export default function MockTestPage() {
 
   return (
     <div className="mx-auto max-w-3xl space-y-4 pb-[calc(7.5rem+env(safe-area-inset-bottom))] sm:space-y-5 lg:pb-0">
-      <div className="-mx-4 -mt-2 border-b border-slate-200 bg-white px-4 py-3 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:px-5 sm:shadow-soft">
+      <div className="sticky top-0 z-30 -mx-4 -mt-2 border-b border-slate-200 bg-white/95 px-4 py-2.5 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-white/80 dark:border-slate-800 dark:bg-slate-900/95 dark:supports-[backdrop-filter]:bg-slate-900/80 sm:static sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:bg-white sm:px-5 sm:py-3 sm:shadow-soft sm:backdrop-blur-none sm:dark:bg-slate-900">
         <div className="flex items-center justify-between gap-3">
           <div className="min-w-0">
-            <p className="text-[11px] font-bold uppercase tracking-wide text-brand-600 dark:text-brand-100">Test progress</p>
-            <p className="mt-1 text-xs font-semibold text-slate-500 dark:text-slate-400">{answeredCount} of {questions.length} answered</p>
+            <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 dark:text-brand-100 sm:text-[11px]">Test progress</p>
+            <p className="mt-0.5 text-xs font-semibold text-slate-500 dark:text-slate-400 sm:mt-1">
+              {answeredCount} of {questions.length} answered
+            </p>
             {isUrgent ? (
-              <p className="mt-1 text-xs font-semibold leading-4 text-coral-600 dark:text-coral-100">
+              <p className="mt-0.5 text-[11px] font-semibold leading-4 text-coral-600 dark:text-coral-100 sm:mt-1 sm:text-xs">
                 The test will submit automatically.
               </p>
             ) : null}
           </div>
-          <div className={`flex shrink-0 items-center gap-1.5 rounded-full border px-3 py-1.5 ${timerTone}`}>
-            <Clock aria-hidden="true" size={17} />
-            <span className="font-mono text-lg font-black tabular-nums">{formatTime(remainingSeconds)}</span>
+          <div
+            className={`flex shrink-0 items-center gap-1.5 rounded-full border-2 px-3 py-1.5 shadow-sm sm:px-3.5 ${timerTone} ${isUrgent ? 'animate-pulse' : ''}`}
+          >
+            <Clock aria-hidden="true" size={18} />
+            <span className="font-mono text-xl font-black tabular-nums leading-none sm:text-lg">
+              {formatTime(remainingSeconds)}
+            </span>
           </div>
         </div>
-        <div className="mt-2.5 h-2 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
+        <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800 sm:mt-2.5 sm:h-2">
           <div
             className={`h-full rounded-full transition-all duration-500 ${progressTone}`}
             style={{ width: `${timePercent}%` }}
@@ -139,25 +145,25 @@ export default function MockTestPage() {
           </div>
         </Card>
       ))}
-      <Card className="p-4 sm:p-5">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="text-sm font-bold text-slate-950 dark:text-white">
-              {allAnswered ? 'Ready to submit' : `${questions.length - answeredCount} questions left`}
+      <div className="fixed inset-x-0 bottom-[calc(4.5rem+env(safe-area-inset-bottom))] z-30 border-t border-slate-200 bg-white/95 px-4 py-3 shadow-[0_-12px_28px_rgba(15,23,42,0.10)] backdrop-blur supports-[backdrop-filter]:bg-white/80 dark:border-slate-800 dark:bg-slate-900/95 dark:supports-[backdrop-filter]:bg-slate-900/80 lg:static lg:mx-0 lg:rounded-lg lg:border lg:bg-white lg:p-5 lg:shadow-soft lg:backdrop-blur-none lg:dark:bg-slate-900">
+        <div className="mx-auto flex max-w-3xl items-center justify-between gap-3">
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-sm font-bold text-slate-950 dark:text-white">
+              {allAnswered ? 'Ready to submit' : `${questions.length - answeredCount} left`}
             </p>
-            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+            <p className="hidden text-xs text-slate-500 dark:text-slate-400 sm:block">
               Review your answers before finishing the test.
             </p>
           </div>
           <Button
-            className="w-full rounded-lg py-3 shadow-lg shadow-brand-600/20 sm:w-auto sm:min-w-40"
+            className={`shrink-0 rounded-full px-6 py-3 text-base font-bold shadow-lg shadow-brand-600/30 transition lg:rounded-lg lg:py-2.5 lg:text-sm ${allAnswered ? 'bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600' : ''}`}
             disabled={!allAnswered}
             onClick={() => submit()}
           >
             Submit test
           </Button>
         </div>
-      </Card>
+      </div>
     </div>
   );
 }

@@ -1,69 +1,219 @@
-import { useMemo, useState } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
+import { ArrowLeft, ArrowRight, Flame, RotateCcw, Sparkles, Target } from 'lucide-react';
 import QuizOption from '../../components/learning/QuizOption';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
+import ProgressBar from '../../components/ui/ProgressBar';
 import { useLearning } from '../../context/LearningContext';
 import { vocabulary } from '../../data/vocabulary';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
+function shuffle(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i -= 1) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function buildOptions(word) {
+  const pool = vocabulary.filter((item) => item.id !== word.id && item.meaning !== word.meaning);
+  const distractors = shuffle(pool).slice(0, 3).map((item) => item.meaning);
+  return shuffle([word.meaning, ...distractors]);
+}
+
 export default function VocabularyQuizPage() {
   usePageMeta('Vocabulary Quiz', 'Offline TOPIK II vocabulary quiz.');
+  const { dispatch } = useLearning();
+  const [order, setOrder] = useState(() => shuffle(vocabulary.map((_, i) => i)));
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [revealed, setRevealed] = useState(false);
-  const { dispatch } = useLearning();
-  const word = vocabulary[index];
+  const [correctCount, setCorrectCount] = useState(0);
+  const [streak, setStreak] = useState(0);
+  const [bestStreak, setBestStreak] = useState(0);
 
-  const options = useMemo(() => {
-    const distractors = vocabulary.filter((item) => item.id !== word.id).slice(0, 3).map((item) => item.meaning);
-    return [word.meaning, ...distractors].sort();
-  }, [word]);
+  const finished = index >= order.length;
+  const word = finished ? null : vocabulary[order[index]];
+  const options = useMemo(() => (word ? buildOptions(word) : []), [word]);
+  const correctIndex = word ? options.indexOf(word.meaning) : -1;
+  const isLast = index + 1 === order.length;
 
-  const correctIndex = options.indexOf(word.meaning);
-
-  function submit() {
+  const submit = useCallback(() => {
+    if (selected === null || revealed || !word) return;
+    const isCorrect = selected === correctIndex;
     setRevealed(true);
-    dispatch({ type: 'record-vocab-answer', wordId: word.id, correct: selected === correctIndex });
-  }
+    if (isCorrect) {
+      setCorrectCount((c) => c + 1);
+      setStreak((s) => {
+        const nextStreak = s + 1;
+        setBestStreak((b) => Math.max(b, nextStreak));
+        return nextStreak;
+      });
+    } else {
+      setStreak(0);
+    }
+    dispatch({ type: 'record-vocab-answer', wordId: word.id, correct: isCorrect });
+  }, [selected, revealed, word, correctIndex, dispatch]);
 
-  function next() {
+  const next = useCallback(() => {
     setSelected(null);
     setRevealed(false);
-    setIndex((current) => (current + 1) % vocabulary.length);
+    setIndex((i) => i + 1);
+  }, []);
+
+  const restart = useCallback(() => {
+    setOrder(shuffle(vocabulary.map((_, i) => i)));
+    setIndex(0);
+    setSelected(null);
+    setRevealed(false);
+    setCorrectCount(0);
+    setStreak(0);
+    setBestStreak(0);
+  }, []);
+
+  useEffect(() => {
+    function onKey(e) {
+      if (e.key >= '1' && e.key <= '4') {
+        const idx = Number(e.key) - 1;
+        if (!revealed && idx < options.length) setSelected(idx);
+      } else if (e.key === 'Enter') {
+        if (revealed) next();
+        else if (selected !== null) submit();
+      }
+    }
+    window.addEventListener('keydown', onKey);
+    return () => window.removeEventListener('keydown', onKey);
+  }, [options.length, revealed, selected, submit, next]);
+
+  if (finished) {
+    const total = order.length;
+    const accuracy = total ? Math.round((correctCount / total) * 100) : 0;
+    return (
+      <div className="mx-auto max-w-2xl space-y-5">
+        <Link to="/vocabulary" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 dark:text-brand-100">
+          <ArrowLeft size={16} /> Back to vocabulary
+        </Link>
+        <Card className="text-center">
+          <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-mint-500 to-brand-500 text-white shadow-lg shadow-brand-600/30">
+            <Sparkles size={28} />
+          </div>
+          <h2 className="mt-4 text-2xl font-bold text-slate-950 dark:text-white">Quiz complete!</h2>
+          <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">You answered all {total} questions.</p>
+          <div className="mt-5 grid grid-cols-3 gap-3">
+            <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+              <p className="text-2xl font-bold text-slate-950 dark:text-white">{correctCount}/{total}</p>
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Correct</p>
+            </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+              <p className="text-2xl font-bold text-mint-700 dark:text-mint-100">{accuracy}%</p>
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Accuracy</p>
+            </div>
+            <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+              <p className="text-2xl font-bold text-coral-700 dark:text-coral-100">{bestStreak}</p>
+              <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Best streak</p>
+            </div>
+          </div>
+          <div className="mt-6 flex flex-col items-center gap-2 sm:flex-row sm:justify-center">
+            <Button onClick={restart} icon={RotateCcw}>Restart quiz</Button>
+            <Link to="/vocabulary" className="w-full sm:w-auto">
+              <Button variant="secondary" className="w-full">Back to vocabulary</Button>
+            </Link>
+          </div>
+        </Card>
+      </div>
+    );
   }
+
+  const progressPct = ((index + (revealed ? 1 : 0)) / order.length) * 100;
 
   return (
     <div className="mx-auto max-w-2xl space-y-5">
-      <Link to="/vocabulary" className="text-sm font-semibold text-brand-600 dark:text-brand-100">Back to vocabulary</Link>
+      <div className="flex items-center justify-between gap-3">
+        <Link to="/vocabulary" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 dark:text-brand-100">
+          <ArrowLeft size={16} /> Back to vocabulary
+        </Link>
+        <button
+          type="button"
+          onClick={restart}
+          className="inline-flex items-center gap-1 text-xs font-semibold text-slate-500 transition hover:text-coral-600 dark:text-slate-400 dark:hover:text-coral-100"
+        >
+          <RotateCcw size={14} /> Restart
+        </button>
+      </div>
+
       <Card>
-        <p className="text-sm font-semibold text-slate-500 dark:text-slate-400">
-          Question {index + 1} of {vocabulary.length}
-        </p>
-        <h2 className="mt-3 text-4xl font-bold text-slate-950 dark:text-white">{word.word}</h2>
-        <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">{word.example}</p>
-        <div className="mt-6 space-y-3">
+        <div className="mb-3 flex flex-wrap items-center gap-2 text-xs font-semibold">
+          <span className="rounded-full bg-brand-100 px-2.5 py-1 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
+            {index + 1} / {order.length}
+          </span>
+          <span className="inline-flex items-center gap-1 rounded-full bg-mint-100 px-2.5 py-1 text-mint-700 dark:bg-mint-500/15 dark:text-mint-100">
+            <Target size={12} /> {correctCount} correct
+          </span>
+          {streak >= 2 ? (
+            <span className="inline-flex items-center gap-1 rounded-full bg-coral-100 px-2.5 py-1 text-coral-700 dark:bg-coral-500/15 dark:text-coral-100">
+              <Flame size={12} /> {streak} streak
+            </span>
+          ) : null}
+        </div>
+        <ProgressBar value={progressPct} />
+
+        <div className="mt-6 rounded-2xl border-2 border-coral-500/70 bg-gradient-to-br from-coral-100/60 via-white to-white p-6 text-center shadow-[0_4px_18px_-8px_rgba(244,63,94,0.4)] dark:from-coral-500/10 dark:via-slate-900 dark:to-slate-900">
+          <p className="text-[11px] font-bold uppercase tracking-wider text-coral-700 dark:text-coral-100">
+            What does this word mean?
+          </p>
+          <h2 className="mt-3 text-4xl font-bold text-slate-950 dark:text-white sm:text-5xl">{word.word}</h2>
+          {word.hanja ? (
+            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{word.hanja}</p>
+          ) : null}
+          <p className="mt-3 inline-block rounded-full bg-white/80 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:bg-slate-800/70 dark:text-slate-400">
+            {word.partOfSpeech}
+          </p>
+        </div>
+
+        <div className="mt-5 space-y-3">
           {options.map((option, optionIndex) => (
-            <QuizOption
-              key={option}
-              option={option}
-              selected={selected === optionIndex}
-              correct={correctIndex === optionIndex}
-              revealed={revealed}
-              onClick={() => {
-                if (!revealed) setSelected(optionIndex);
-              }}
-            />
+            <div key={option} className="flex items-stretch gap-2">
+              <span className="hidden w-8 shrink-0 items-center justify-center rounded-lg border border-slate-200 bg-white text-xs font-bold text-slate-500 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400 sm:flex">
+                {optionIndex + 1}
+              </span>
+              <div className="flex-1">
+                <QuizOption
+                  option={option}
+                  selected={selected === optionIndex}
+                  correct={correctIndex === optionIndex}
+                  revealed={revealed}
+                  onClick={() => {
+                    if (!revealed) setSelected(optionIndex);
+                  }}
+                />
+              </div>
+            </div>
           ))}
         </div>
+
+        {revealed ? (
+          <div className="mt-5 rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-800/60">
+            <p className="text-[11px] font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">Example</p>
+            <p className="mt-1 text-base font-semibold text-slate-900 dark:text-white">{word.example}</p>
+            <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">{word.exampleMeaning}</p>
+          </div>
+        ) : null}
+
         <div className="mt-5 flex gap-3">
           <Button className="flex-1" disabled={selected === null || revealed} onClick={submit}>
-            Check
+            Check answer
           </Button>
           <Button className="flex-1" variant="secondary" disabled={!revealed} onClick={next}>
-            Next
+            {isLast ? 'Finish' : 'Next'}
+            {!isLast ? <ArrowRight size={16} /> : null}
           </Button>
         </div>
+        <p className="mt-3 text-center text-[11px] text-slate-500 dark:text-slate-400">
+          Tip: press 1–4 to select, Enter to {revealed ? 'continue' : 'check'}.
+        </p>
       </Card>
     </div>
   );
