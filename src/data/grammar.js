@@ -2588,8 +2588,27 @@ function inferUsageGuide(lesson) {
   };
 }
 
+function buildLessonExamples(lesson) {
+  const examples = lesson.examples || [];
+  const coreMeaning = lesson.coreMeaning ?? lesson.meaning;
+
+  if (examples.length >= 2) {
+    return examples.slice(0, 3);
+  }
+
+  return [
+    ...examples,
+    {
+      korean: `${lesson.pattern}은/는 '${coreMeaning}'의 의미를 나타낼 때 사용합니다.`,
+      english: `Use ${lesson.pattern} to express "${coreMeaning}".`,
+      type: 'practice'
+    }
+  ];
+}
+
 export const grammarLessons = grammarLessonData.map((lesson) => ({
   ...lesson,
   coreMeaning: lesson.coreMeaning ?? lesson.meaning,
+  examples: buildLessonExamples(lesson),
   usage: inferUsageGuide(lesson)
 }));

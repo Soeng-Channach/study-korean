@@ -60,11 +60,20 @@ export default function GrammarDetailPage() {
       <UsageGuide usage={lesson.usage} />
 
       <Card>
-        <h3 className="text-lg font-bold text-slate-950 dark:text-white">Examples</h3>
+        <div className="flex items-center justify-between gap-3">
+          <h3 className="text-lg font-bold text-slate-950 dark:text-white">Examples</h3>
+          <Badge tone="blue">{lesson.examples.length} examples</Badge>
+        </div>
         <div className="mt-4 space-y-4">
-          {lesson.examples.map((example) => (
+          {lesson.examples.map((example, exampleIndex) => (
             <div key={example.korean} className="rounded-lg bg-slate-50 p-4 dark:bg-slate-800">
-              <p className="text-lg font-bold text-slate-950 dark:text-white">{example.korean}</p>
+              <div className="mb-3 flex items-center gap-2">
+                <Badge tone={example.type === 'practice' ? 'slate' : 'green'}>
+                  Example {exampleIndex + 1}
+                </Badge>
+                {example.type === 'practice' ? <Badge>Pattern practice</Badge> : null}
+              </div>
+              <p className="text-lg font-bold leading-7 text-slate-950 dark:text-white">{example.korean}</p>
               <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">{example.english}</p>
             </div>
           ))}
