@@ -1,12 +1,26 @@
 import { grammarLessons } from './grammar.js';
+import { vocabulary } from './vocabulary.js';
 
 const QUESTIONS_PER_GRAMMAR_TEST = 10;
+const QUESTIONS_PER_VOCAB_TEST = 10;
 
 function chunkItems(items, size) {
   return Array.from({ length: Math.ceil(items.length / size) }, (_, index) =>
     items.slice(index * size, index * size + size)
   );
 }
+
+function placeCorrectOption(correct, distractors, seed) {
+  const answer = seed % 4;
+  const options = [...distractors];
+  options.splice(answer, 0, correct);
+
+  return { options, answer };
+}
+
+// -----------------------------------------------------------------------------
+// Grammar tests
+// -----------------------------------------------------------------------------
 
 function getMeaningDistractors(currentLesson, currentIndex) {
   const offsets = [7, 19, 31, 43, 59, 71, 89, 103];
@@ -23,15 +37,22 @@ function getMeaningDistractors(currentLesson, currentIndex) {
   return distractors;
 }
 
-function placeCorrectOption(correct, distractors, seed) {
-  const answer = seed % 4;
-  const options = [...distractors];
-  options.splice(answer, 0, correct);
+function getPatternDistractors(currentLesson, currentIndex) {
+  const offsets = [13, 29, 41, 57, 73, 91, 109, 127];
+  const distractors = [];
 
-  return { options, answer };
+  for (const offset of offsets) {
+    const lesson = grammarLessons[(currentIndex + offset) % grammarLessons.length];
+    if (lesson.id !== currentLesson.id && !distractors.includes(lesson.pattern)) {
+      distractors.push(lesson.pattern);
+    }
+    if (distractors.length === 3) break;
+  }
+
+  return distractors;
 }
 
-function createGrammarQuestion(lesson, index) {
+function createGrammarMeaningQuestion(lesson, index) {
   const { options, answer } = placeCorrectOption(
     lesson.coreMeaning,
     getMeaningDistractors(lesson, index),
@@ -46,7 +67,22 @@ function createGrammarQuestion(lesson, index) {
   };
 }
 
-const grammarTests = chunkItems(grammarLessons, QUESTIONS_PER_GRAMMAR_TEST).map((lessons, index) => {
+function createGrammarPatternQuestion(lesson, index) {
+  const { options, answer } = placeCorrectOption(
+    lesson.pattern,
+    getPatternDistractors(lesson, index),
+    index + 1
+  );
+
+  return {
+    id: `grammar-pattern-q-${String(index + 1).padStart(3, '0')}`,
+    prompt: `Which pattern expresses "${lesson.coreMeaning}"?`,
+    options,
+    answer
+  };
+}
+
+const grammarCoverageTests = chunkItems(grammarLessons, QUESTIONS_PER_GRAMMAR_TEST).map((lessons, index) => {
   const start = index * QUESTIONS_PER_GRAMMAR_TEST + 1;
   const end = start + lessons.length - 1;
 
@@ -60,14 +96,145 @@ const grammarTests = chunkItems(grammarLessons, QUESTIONS_PER_GRAMMAR_TEST).map(
       {
         type: 'grammar',
         questions: lessons.map((lesson, lessonIndex) =>
-          createGrammarQuestion(lesson, index * QUESTIONS_PER_GRAMMAR_TEST + lessonIndex)
+          createGrammarMeaningQuestion(lesson, index * QUESTIONS_PER_GRAMMAR_TEST + lessonIndex)
         )
       }
     ]
   };
 });
 
-const vocabularyTests = [
+const grammarPatternTests = chunkItems(grammarLessons, QUESTIONS_PER_GRAMMAR_TEST).map((lessons, index) => {
+  const start = index * QUESTIONS_PER_GRAMMAR_TEST + 1;
+  const end = start + lessons.length - 1;
+
+  return {
+    id: `grammar-pattern-${String(index + 1).padStart(3, '0')}`,
+    type: 'grammar',
+    title: `Grammar Pattern Match Test ${index + 1}`,
+    description: `Pick the pattern that matches each meaning for grammar ${start}-${end}.`,
+    durationMinutes: Math.max(8, lessons.length * 2),
+    sections: [
+      {
+        type: 'grammar',
+        questions: lessons.map((lesson, lessonIndex) =>
+          createGrammarPatternQuestion(lesson, index * QUESTIONS_PER_GRAMMAR_TEST + lessonIndex)
+        )
+      }
+    ]
+  };
+});
+
+// -----------------------------------------------------------------------------
+// Vocabulary tests
+// -----------------------------------------------------------------------------
+
+function getVocabMeaningDistractors(currentWord, currentIndex) {
+  const offsets = [11, 23, 37, 53, 67, 79, 97, 113];
+  const distractors = [];
+
+  for (const offset of offsets) {
+    const word = vocabulary[(currentIndex + offset) % vocabulary.length];
+    if (word.id !== currentWord.id && !distractors.includes(word.meaning)) {
+      distractors.push(word.meaning);
+    }
+    if (distractors.length === 3) break;
+  }
+
+  return distractors;
+}
+
+function getVocabWordDistractors(currentWord, currentIndex) {
+  const offsets = [17, 29, 43, 61, 73, 89, 101, 127];
+  const distractors = [];
+
+  for (const offset of offsets) {
+    const word = vocabulary[(currentIndex + offset) % vocabulary.length];
+    if (word.id !== currentWord.id && !distractors.includes(word.word)) {
+      distractors.push(word.word);
+    }
+    if (distractors.length === 3) break;
+  }
+
+  return distractors;
+}
+
+function createVocabMeaningQuestion(word, index) {
+  const { options, answer } = placeCorrectOption(
+    word.meaning,
+    getVocabMeaningDistractors(word, index),
+    index
+  );
+
+  return {
+    id: `vocab-coverage-q-${String(index + 1).padStart(3, '0')}`,
+    prompt: `What does ${word.word} mean?`,
+    options,
+    answer
+  };
+}
+
+function createVocabWordQuestion(word, index) {
+  const { options, answer } = placeCorrectOption(
+    word.word,
+    getVocabWordDistractors(word, index),
+    index + 1
+  );
+
+  return {
+    id: `vocab-recall-q-${String(index + 1).padStart(3, '0')}`,
+    prompt: `Which Korean word means "${word.meaning}"?`,
+    options,
+    answer
+  };
+}
+
+const vocabularyCoverageTests = chunkItems(vocabulary, QUESTIONS_PER_VOCAB_TEST).map((words, index) => {
+  const start = index * QUESTIONS_PER_VOCAB_TEST + 1;
+  const end = start + words.length - 1;
+
+  return {
+    id: `vocab-coverage-${String(index + 1).padStart(3, '0')}`,
+    type: 'vocabulary',
+    title: `Vocabulary Coverage Test ${index + 1}`,
+    description: `Word meaning practice for vocabulary ${start}-${end}.`,
+    durationMinutes: Math.max(8, words.length * 2),
+    sections: [
+      {
+        type: 'vocabulary',
+        questions: words.map((word, wordIndex) =>
+          createVocabMeaningQuestion(word, index * QUESTIONS_PER_VOCAB_TEST + wordIndex)
+        )
+      }
+    ]
+  };
+});
+
+const vocabularyRecallTests = chunkItems(vocabulary, QUESTIONS_PER_VOCAB_TEST).map((words, index) => {
+  const start = index * QUESTIONS_PER_VOCAB_TEST + 1;
+  const end = start + words.length - 1;
+
+  return {
+    id: `vocab-recall-${String(index + 1).padStart(3, '0')}`,
+    type: 'vocabulary',
+    title: `Vocabulary Recall Test ${index + 1}`,
+    description: `Pick the matching Korean word for vocabulary ${start}-${end}.`,
+    durationMinutes: Math.max(8, words.length * 2),
+    sections: [
+      {
+        type: 'vocabulary',
+        questions: words.map((word, wordIndex) =>
+          createVocabWordQuestion(word, index * QUESTIONS_PER_VOCAB_TEST + wordIndex)
+        )
+      }
+    ]
+  };
+});
+
+// -----------------------------------------------------------------------------
+// Hand-written vocabulary mini tests (kept for variety / sample questions)
+// -----------------------------------------------------------------------------
+
+const vocabularyMiniTests = [
   {
     id: 'vocab-mini-001',
     type: 'vocabulary',
@@ -134,4 +301,10 @@ const vocabularyTests = [
   }
 ];
 
-export const mockTests = [...grammarTests, ...vocabularyTests];
+export const mockTests = [
+  ...grammarCoverageTests,
+  ...grammarPatternTests,
+  ...vocabularyMiniTests,
+  ...vocabularyCoverageTests,
+  ...vocabularyRecallTests
+];
