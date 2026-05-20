@@ -1,4 +1,4 @@
-import { Bookmark, CheckCircle2 } from 'lucide-react';
+import { ArrowRight, Bookmark, CheckCircle2 } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useLearning } from '../../context/LearningContext';
 import Badge from '../ui/Badge';
@@ -43,11 +43,15 @@ export default function GrammarCard({ lesson }) {
           <Bookmark size={20} fill={bookmarked ? 'currentColor' : 'none'} />
         </button>
       </div>
-      <div className="mt-4 flex items-center justify-between">
-        <Link to={`/grammar/${lesson.id}`} className="text-sm font-semibold text-brand-600 dark:text-brand-100">
-          Study lesson
-        </Link>
+      <div className="mt-5 flex items-center justify-center gap-2">
         {completed ? <CheckCircle2 size={18} className="text-mint-500" aria-hidden="true" /> : null}
+        <Link
+          to={`/grammar/${lesson.id}`}
+          className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-6 py-2.5 text-sm font-semibold text-white shadow-md shadow-brand-600/25 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-brand-600/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900"
+        >
+          Study lesson
+          <ArrowRight size={16} className="transition-transform group-hover:translate-x-0.5" />
+        </Link>
       </div>
     </Card>
   );
