@@ -29,30 +29,34 @@ export default function GrammarDetailPage() {
         Back to grammar
       </Link>
       <Card>
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-start sm:justify-between">
-          <div>
-            <div className="flex flex-wrap gap-2">
-              <Badge tone="blue">{lesson.category}</Badge>
-              <Badge>{lesson.level}</Badge>
-              {completed ? <Badge tone="green">Completed</Badge> : null}
-            </div>
-            <h2 className="mt-4 text-3xl font-bold text-slate-950 dark:text-white">{lesson.pattern}</h2>
-            <div className="mt-3 rounded-lg bg-slate-50 px-4 py-3 dark:bg-slate-800">
-              <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                Core meaning
-              </p>
-              <p className="mt-1 text-lg font-semibold text-slate-900 dark:text-white">
-                {lesson.coreMeaning}
-              </p>
-            </div>
+        <div className="flex items-start justify-between gap-2">
+          <div className="flex flex-wrap gap-2">
+            <Badge tone="blue">{lesson.category}</Badge>
+            <Badge>{lesson.level}</Badge>
+            {completed ? <Badge tone="green">Completed</Badge> : null}
           </div>
-          <Button
-            variant="secondary"
-            icon={Bookmark}
+          <button
+            type="button"
             onClick={() => dispatch({ type: 'toggle-bookmark', id: lesson.id })}
+            aria-label={bookmarked ? 'Remove bookmark' : 'Save grammar lesson'}
+            title={bookmarked ? 'Remove bookmark' : 'Save grammar lesson'}
+            className={
+              bookmarked
+                ? 'inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-600 text-white shadow-sm ring-1 ring-brand-600 transition hover:bg-brand-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900'
+                : 'inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-slate-600 ring-1 ring-slate-200 transition hover:bg-slate-50 hover:text-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700 dark:hover:bg-slate-800 dark:focus-visible:ring-offset-slate-900'
+            }
           >
-            {bookmarked ? 'Saved' : 'Save'}
-          </Button>
+            <Bookmark size={16} fill={bookmarked ? 'currentColor' : 'none'} />
+          </button>
+        </div>
+        <h2 className="mt-4 text-3xl font-bold text-slate-950 dark:text-white">{lesson.pattern}</h2>
+        <div className="mt-3 rounded-lg bg-slate-50 px-4 py-3 dark:bg-slate-800">
+          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+            Core meaning
+          </p>
+          <p className="mt-1 text-lg font-semibold text-slate-900 dark:text-white">
+            {lesson.coreMeaning}
+          </p>
         </div>
         <p className="mt-6 leading-7 text-slate-700 dark:text-slate-300">{lesson.explanation}</p>
       </Card>
