@@ -7,6 +7,7 @@ import GrammarListPage from '../features/grammar/GrammarListPage.jsx';
 import MockTestListPage from '../features/mock-tests/MockTestListPage.jsx';
 import MockTestPage from '../features/mock-tests/MockTestPage.jsx';
 import MockTestResultPage from '../features/mock-tests/MockTestResultPage.jsx';
+import TestCategoryPage from '../features/mock-tests/TestCategoryPage.jsx';
 import ProgressPage from '../features/progress/ProgressPage.jsx';
 import ReadingDetailPage from '../features/reading/ReadingDetailPage.jsx';
 import ReadingListPage from '../features/reading/ReadingListPage.jsx';
@@ -26,6 +27,8 @@ export default function App() {
         <Route path="vocabulary" element={<VocabularyPage />} />
         <Route path="vocabulary/quiz" element={<VocabularyQuizPage />} />
         <Route path="mock-tests" element={<MockTestListPage />} />
+        <Route path="mock-tests/grammar" element={<TestCategoryPage category="grammar" />} />
+        <Route path="mock-tests/vocabulary" element={<TestCategoryPage category="vocabulary" />} />
         <Route path="mock-tests/:id" element={<MockTestPage />} />
         <Route path="mock-tests/:id/result" element={<MockTestResultPage />} />
         <Route path="bookmarks" element={<BookmarksPage />} />
