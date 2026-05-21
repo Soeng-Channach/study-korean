@@ -6,9 +6,10 @@ import Card from '../ui/Card';
 import { UsageGuideCompact } from './UsageGuide';
 
 export default function GrammarCard({ lesson }) {
-  const { isGrammarBookmarked, isGrammarCompleted, dispatch } = useLearning();
+  const { isGrammarBookmarked, isGrammarCompleted, dispatch, getGrammarCoreMeaning } = useLearning();
   const bookmarked = isGrammarBookmarked(lesson.id);
   const completed = isGrammarCompleted(lesson.id);
+  const coreMeaning = getGrammarCoreMeaning(lesson);
 
   return (
     <Card className="transition hover:-translate-y-0.5 hover:shadow-soft">
@@ -37,7 +38,7 @@ export default function GrammarCard({ lesson }) {
             Core meaning
           </p>
           <p className="mt-0.5 text-sm font-semibold text-slate-800 dark:text-slate-100">
-            {lesson.coreMeaning}
+            {coreMeaning}
           </p>
         </div>
         <p className="mt-2.5 line-clamp-2 text-sm leading-snug text-slate-600 dark:text-slate-400">{lesson.explanation}</p>

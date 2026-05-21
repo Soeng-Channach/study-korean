@@ -1,4 +1,5 @@
-import { ArrowLeft, Bookmark, CheckCircle2 } from 'lucide-react';
+import { ArrowLeft, Bookmark, Check, CheckCircle2, Pencil, RotateCcw, X } from 'lucide-react';
+import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import UsageGuide from '../../components/learning/UsageGuide';
 import Badge from '../../components/ui/Badge';
@@ -12,7 +13,23 @@ import { usePageMeta } from '../../hooks/usePageMeta';
 export default function GrammarDetailPage() {
   const { id } = useParams();
   const lesson = grammarLessons.find((item) => item.id === id);
-  const { dispatch, isGrammarBookmarked, isGrammarCompleted } = useLearning();
+  const {
+    dispatch,
+    isGrammarBookmarked,
+    isGrammarCompleted,
+    getGrammarCoreMeaning,
+    isGrammarMeaningEdited
+  } = useLearning();
+  const currentCoreMeaning = lesson ? getGrammarCoreMeaning(lesson) : '';
+  const edited = lesson ? isGrammarMeaningEdited(lesson.id) : false;
+
+  const [editing, setEditing] = useState(false);
+  const [draft, setDraft] = useState(currentCoreMeaning);
+
+  useEffect(() => {
+    setEditing(false);
+    setDraft(currentCoreMeaning);
+  }, [lesson?.id, currentCoreMeaning]);
 
   usePageMeta(lesson?.pattern || 'Grammar lesson', lesson?.explanation || 'TOPIK II grammar lesson.');
 
@@ -22,6 +39,35 @@ export default function GrammarDetailPage() {
 
   const bookmarked = isGrammarBookmarked(lesson.id);
   const completed = isGrammarCompleted(lesson.id);
+
+  function startEdit() {
+    setDraft(currentCoreMeaning);
+    setEditing(true);
+  }
+
+  function cancelEdit() {
+    setDraft(currentCoreMeaning);
+    setEditing(false);
+  }
+
+  function saveEdit() {
+    const trimmed = draft.trim();
+    if (!trimmed) {
+      cancelEdit();
+      return;
+    }
+    if (trimmed === lesson.coreMeaning) {
+      dispatch({ type: 'reset-grammar-meaning', id: lesson.id });
+    } else {
+      dispatch({ type: 'update-grammar-meaning', id: lesson.id, coreMeaning: trimmed });
+    }
+    setEditing(false);
+  }
+
+  function resetToDefault() {
+    dispatch({ type: 'reset-grammar-meaning', id: lesson.id });
+    setDraft(lesson.coreMeaning);
+  }
 
   return (
     <article className="mx-auto max-w-3xl space-y-5">
@@ -55,12 +101,80 @@ export default function GrammarDetailPage() {
         </div>
         <h2 className="mt-4 text-3xl font-bold text-slate-950 dark:text-white">{lesson.pattern}</h2>
         <div className="mt-3 rounded-lg bg-slate-50 px-4 py-3 dark:bg-slate-800">
-          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-            Core meaning
-          </p>
-          <p className="mt-1 text-lg font-semibold text-slate-900 dark:text-white">
-            {lesson.coreMeaning}
-          </p>
+          <div className="flex items-center justify-between gap-2">
+            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+              Core meaning {edited ? <span className="text-coral-600 dark:text-coral-100">· edited</span> : null}
+            </p>
+            {!editing ? (
+              <button
+                type="button"
+                onClick={startEdit}
+                aria-label="Edit core meaning"
+                title="Edit core meaning"
+                className="inline-flex h-7 w-7 items-center justify-center rounded-full text-slate-500 transition hover:bg-slate-200 hover:text-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 dark:text-slate-300 dark:hover:bg-slate-700 dark:hover:text-brand-100"
+              >
+                <Pencil size={14} />
+              </button>
+            ) : null}
+          </div>
+          {editing ? (
+            <div className="mt-2 space-y-2">
+              <input
+                type="text"
+                value={draft}
+                onChange={(event) => setDraft(event.target.value)}
+                onKeyDown={(event) => {
+                  if (event.key === 'Enter') saveEdit();
+                  if (event.key === 'Escape') cancelEdit();
+                }}
+                autoFocus
+                className="w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-base font-semibold text-slate-900 shadow-sm focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30 dark:border-slate-700 dark:bg-slate-900 dark:text-white"
+              />
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                {edited ? (
+                  <button
+                    type="button"
+                    onClick={resetToDefault}
+                    className="inline-flex items-center gap-1 text-xs font-semibold text-slate-500 transition hover:text-coral-600 dark:text-slate-400 dark:hover:text-coral-100"
+                  >
+                    <RotateCcw size={12} /> Reset to default
+                  </button>
+                ) : <span />}
+                <div className="flex gap-2">
+                  <button
+                    type="button"
+                    onClick={cancelEdit}
+                    className="inline-flex items-center gap-1 rounded-md px-3 py-1.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200 transition hover:bg-slate-100 dark:text-slate-300 dark:ring-slate-700 dark:hover:bg-slate-800"
+                  >
+                    <X size={12} /> Cancel
+                  </button>
+                  <button
+                    type="button"
+                    onClick={saveEdit}
+                    disabled={!draft.trim()}
+                    className="inline-flex items-center gap-1 rounded-md bg-brand-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-60"
+                  >
+                    <Check size={12} /> Save
+                  </button>
+                </div>
+              </div>
+            </div>
+          ) : (
+            <>
+              <p className="mt-1 text-lg font-semibold text-slate-900 dark:text-white">
+                {currentCoreMeaning}
+              </p>
+              {edited ? (
+                <button
+                  type="button"
+                  onClick={resetToDefault}
+                  className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-slate-500 transition hover:text-coral-600 dark:text-slate-400 dark:hover:text-coral-100"
+                >
+                  <RotateCcw size={12} /> Reset to default ({lesson.coreMeaning})
+                </button>
+              ) : null}
+            </>
+          )}
         </div>
         <p className="mt-6 leading-7 text-slate-700 dark:text-slate-300">{lesson.explanation}</p>
       </Card>

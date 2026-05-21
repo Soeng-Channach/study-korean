@@ -8,6 +8,7 @@ const initialState = {
   completedGrammarIds: [],
   bookmarkedGrammarIds: [],
   completedReadingIds: [],
+  grammarCoreOverrides: {},
   vocabularyStats: {
     totalAnswered: 0,
     correctAnswers: 0,
@@ -63,6 +64,22 @@ function learningReducer(state, action) {
         ...state,
         mockTestAttempts: [action.attempt, ...state.mockTestAttempts].slice(0, 20)
       };
+    case 'update-grammar-meaning': {
+      const trimmed = (action.coreMeaning || '').trim();
+      if (!trimmed) return state;
+      return {
+        ...state,
+        grammarCoreOverrides: {
+          ...state.grammarCoreOverrides,
+          [action.id]: trimmed
+        }
+      };
+    }
+    case 'reset-grammar-meaning': {
+      if (!state.grammarCoreOverrides[action.id]) return state;
+      const { [action.id]: _removed, ...rest } = state.grammarCoreOverrides;
+      return { ...state, grammarCoreOverrides: rest };
+    }
     case 'reset-progress':
       return initialState;
     default:
@@ -103,7 +120,10 @@ export function LearningProvider({ children }) {
       dispatch,
       isGrammarBookmarked: (id) => state.bookmarkedGrammarIds.includes(id),
       isGrammarCompleted: (id) => state.completedGrammarIds.includes(id),
-      isReadingCompleted: (id) => state.completedReadingIds.includes(id)
+      isReadingCompleted: (id) => state.completedReadingIds.includes(id),
+      getGrammarCoreMeaning: (lesson) =>
+        (lesson && state.grammarCoreOverrides[lesson.id]) || lesson?.coreMeaning,
+      isGrammarMeaningEdited: (id) => Boolean(state.grammarCoreOverrides[id])
     };
   }, [isHydrated, state]);
 
