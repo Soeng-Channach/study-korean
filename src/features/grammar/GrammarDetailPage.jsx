@@ -103,14 +103,14 @@ export default function GrammarDetailPage() {
         <div className="mt-3 rounded-lg bg-slate-50 px-4 py-3 dark:bg-slate-800">
           <div className="flex items-center justify-between gap-2">
             <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-              Core meaning {edited ? <span className="text-coral-600 dark:text-coral-100">· edited</span> : null}
+              Easy meaning {edited ? <span className="text-coral-600 dark:text-coral-100">(edited)</span> : null}
             </p>
             {!editing ? (
               <button
                 type="button"
                 onClick={startEdit}
-                aria-label="Edit core meaning"
-                title="Edit core meaning"
+                aria-label="Edit easy meaning"
+                title="Edit easy meaning"
                 className="inline-flex h-7 w-7 items-center justify-center rounded-full text-slate-500 transition hover:bg-slate-200 hover:text-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 dark:text-slate-300 dark:hover:bg-slate-700 dark:hover:text-brand-100"
               >
                 <Pencil size={14} />
@@ -137,7 +137,7 @@ export default function GrammarDetailPage() {
                     onClick={resetToDefault}
                     className="inline-flex items-center gap-1 text-xs font-semibold text-slate-500 transition hover:text-coral-600 dark:text-slate-400 dark:hover:text-coral-100"
                   >
-                    <RotateCcw size={12} /> Reset to default
+                    <RotateCcw size={12} /> Reset to original
                   </button>
                 ) : <span />}
                 <div className="flex gap-2">
@@ -170,7 +170,7 @@ export default function GrammarDetailPage() {
                   onClick={resetToDefault}
                   className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-slate-500 transition hover:text-coral-600 dark:text-slate-400 dark:hover:text-coral-100"
                 >
-                  <RotateCcw size={12} /> Reset to default ({lesson.coreMeaning})
+                  <RotateCcw size={12} /> Reset to original ({lesson.coreMeaning})
                 </button>
               ) : null}
             </>

@@ -90,7 +90,7 @@ const grammarCoverageTests = chunkItems(grammarLessons, QUESTIONS_PER_GRAMMAR_TE
     id: `grammar-coverage-${String(index + 1).padStart(3, '0')}`,
     type: 'grammar',
     title: `Grammar Coverage Test ${index + 1}`,
-    description: `Core meaning practice for grammar ${start}-${end}.`,
+    description: `Easy meaning practice for grammar ${start}-${end}.`,
     durationMinutes: Math.max(8, lessons.length * 2),
     sections: [
       {

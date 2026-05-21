@@ -39,7 +39,7 @@ export default function UsageGuide({ usage }) {
 
   return (
     <Card>
-      <h3 className="text-lg font-bold text-slate-950 dark:text-white">Usage structure</h3>
+      <h3 className="text-lg font-bold text-slate-950 dark:text-white">How to use it</h3>
       <div className="mt-4 grid gap-3 sm:grid-cols-3">
         {rows.map(([label, key]) => (
           <div key={key} className="rounded-lg bg-slate-50 p-4 dark:bg-slate-800">
