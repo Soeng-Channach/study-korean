@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, Download, Play, Trash2 } from 'lucide-react';
+import PdfViewer from '../../components/library/PdfViewer';
 import EmptyState from '../../components/ui/EmptyState';
 import { deletePdf, getPdf } from '../../lib/db';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -100,13 +101,7 @@ export default function LibraryReaderPage() {
       </div>
 
       <div className="relative min-h-0 flex-1 overflow-hidden rounded-xl border border-slate-200 bg-slate-100 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-        {url ? (
-          <iframe
-            title={entry.name}
-            src={`${url}#view=FitH`}
-            className="h-full w-full"
-          />
-        ) : null}
+        <PdfViewer blob={entry.blob} />
       </div>
     </div>
   );

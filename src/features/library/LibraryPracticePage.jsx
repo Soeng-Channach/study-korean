@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import { ArrowLeft, ChevronDown, ChevronUp, Clock, KeyRound, Play, RotateCcw, Send } from 'lucide-react';
+import PdfViewer from '../../components/library/PdfViewer';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
@@ -203,13 +204,7 @@ export default function LibraryPracticePage() {
 
       <div className="grid gap-3 lg:grid-cols-[1.1fr_1fr]">
         <div className="h-[60vh] overflow-hidden rounded-xl border border-slate-200 bg-slate-100 shadow-sm dark:border-slate-800 dark:bg-slate-900 lg:h-[calc(100vh-12rem)]">
-          {url ? (
-            <iframe
-              title={entry.name}
-              src={`${url}#view=FitH`}
-              className="h-full w-full"
-            />
-          ) : null}
+          <PdfViewer blob={entry.blob} />
         </div>
 
         <div className="space-y-3">
