@@ -2,6 +2,7 @@ import {
   BookOpen,
   ChartNoAxesColumnIncreasing,
   ClipboardCheck,
+  FolderArchive,
   Languages,
   LayoutDashboard,
   Newspaper
@@ -13,6 +14,7 @@ const iconMap = {
   BookOpen,
   ChartNoAxesColumnIncreasing,
   ClipboardCheck,
+  FolderArchive,
   Languages,
   LayoutDashboard,
   Newspaper

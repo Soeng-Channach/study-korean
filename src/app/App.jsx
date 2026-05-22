@@ -4,6 +4,9 @@ import BookmarksPage from '../features/bookmarks/BookmarksPage.jsx';
 import DashboardPage from '../features/dashboard/DashboardPage.jsx';
 import GrammarDetailPage from '../features/grammar/GrammarDetailPage.jsx';
 import GrammarListPage from '../features/grammar/GrammarListPage.jsx';
+import LibraryPage from '../features/library/LibraryPage.jsx';
+import LibraryPracticePage from '../features/library/LibraryPracticePage.jsx';
+import LibraryReaderPage from '../features/library/LibraryReaderPage.jsx';
 import MockTestListPage from '../features/mock-tests/MockTestListPage.jsx';
 import MockTestPage from '../features/mock-tests/MockTestPage.jsx';
 import MockTestResultPage from '../features/mock-tests/MockTestResultPage.jsx';
@@ -31,6 +34,9 @@ export default function App() {
         <Route path="mock-tests/vocabulary" element={<TestCategoryPage category="vocabulary" />} />
         <Route path="mock-tests/:id" element={<MockTestPage />} />
         <Route path="mock-tests/:id/result" element={<MockTestResultPage />} />
+        <Route path="library" element={<LibraryPage />} />
+        <Route path="library/:id" element={<LibraryReaderPage />} />
+        <Route path="library/:id/practice" element={<LibraryPracticePage />} />
         <Route path="bookmarks" element={<BookmarksPage />} />
         <Route path="progress" element={<ProgressPage />} />
         <Route path="settings" element={<SettingsPage />} />

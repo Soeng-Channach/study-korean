@@ -1,11 +1,12 @@
-import { BookOpen, ClipboardCheck, Languages, LayoutDashboard, Newspaper } from 'lucide-react';
+import { BookOpen, ClipboardCheck, FolderArchive, Languages, LayoutDashboard, Newspaper } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 import { navItems } from '../../lib/constants';
 
-const mobileItems = navItems.slice(0, 5);
+const mobileItems = navItems.slice(0, 6);
 const iconMap = {
   BookOpen,
   ClipboardCheck,
+  FolderArchive,
   Languages,
   LayoutDashboard,
   Newspaper
@@ -14,7 +15,7 @@ const iconMap = {
 export default function BottomNav() {
   return (
     <nav
-      className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-5 border-t border-slate-200 bg-white px-2 pb-[max(env(safe-area-inset-bottom),0.5rem)] pt-2 dark:border-slate-800 dark:bg-slate-950 lg:hidden"
+      className="fixed inset-x-0 bottom-0 z-30 grid grid-cols-6 border-t border-slate-200 bg-white px-1 pb-[max(env(safe-area-inset-bottom),0.5rem)] pt-2 dark:border-slate-800 dark:bg-slate-950 lg:hidden"
       aria-label="Mobile navigation"
     >
       {mobileItems.map((item) => {
