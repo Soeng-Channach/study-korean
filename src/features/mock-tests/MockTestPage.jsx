@@ -78,10 +78,10 @@ export default function MockTestPage() {
   const isUrgent = remainingSeconds <= 60;
   const isWarning = remainingSeconds <= 180;
   const timerTone = isUrgent
-    ? 'border-coral-500 bg-coral-50 text-coral-700 dark:bg-coral-950/40 dark:text-coral-100'
+    ? 'border-coral-500 bg-coral-50 text-coral-700 dark:border-coral-400 dark:bg-coral-500/25 dark:text-white'
     : isWarning
-      ? 'border-amber-400 bg-amber-50 text-amber-700 dark:bg-amber-950/40 dark:text-amber-100'
-      : 'border-brand-200 bg-brand-50 text-brand-700 dark:border-brand-800 dark:bg-brand-950/40 dark:text-brand-100';
+      ? 'border-amber-400 bg-amber-50 text-amber-700 dark:border-amber-300 dark:bg-amber-400/25 dark:text-amber-50'
+      : 'border-brand-200 bg-brand-50 text-brand-700 dark:border-brand-400 dark:bg-brand-500/25 dark:text-white';
   const progressTone = isUrgent ? 'bg-coral-500' : isWarning ? 'bg-amber-500' : 'bg-brand-600';
 
   return (

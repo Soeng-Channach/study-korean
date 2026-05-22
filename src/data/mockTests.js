@@ -2,7 +2,7 @@ import { grammarLessons } from './grammar.js';
 import { vocabulary } from './vocabulary.js';
 
 const QUESTIONS_PER_GRAMMAR_TEST = 10;
-const QUESTIONS_PER_VOCAB_TEST = 10;
+const QUESTIONS_PER_VOCAB_TEST = 20;
 
 function chunkItems(items, size) {
   return Array.from({ length: Math.ceil(items.length / size) }, (_, index) =>
@@ -90,7 +90,7 @@ const grammarCoverageTests = chunkItems(grammarLessons, QUESTIONS_PER_GRAMMAR_TE
     id: `grammar-coverage-${String(index + 1).padStart(3, '0')}`,
     type: 'grammar',
     title: `Grammar Coverage Test ${index + 1}`,
-    description: `Easy meaning practice for grammar ${start}-${end}.`,
+    description: `Core meaning practice for grammar ${start}-${end}.`,
     durationMinutes: Math.max(8, lessons.length * 2),
     sections: [
       {
@@ -197,7 +197,7 @@ const vocabularyCoverageTests = chunkItems(vocabulary, QUESTIONS_PER_VOCAB_TEST)
     type: 'vocabulary',
     title: `Vocabulary Coverage Test ${index + 1}`,
     description: `Word meaning practice for vocabulary ${start}-${end}.`,
-    durationMinutes: Math.max(8, words.length * 2),
+    durationMinutes: Math.max(15, words.length),
     sections: [
       {
         type: 'vocabulary',
@@ -218,7 +218,7 @@ const vocabularyRecallTests = chunkItems(vocabulary, QUESTIONS_PER_VOCAB_TEST).m
     type: 'vocabulary',
     title: `Vocabulary Recall Test ${index + 1}`,
     description: `Pick the matching Korean word for vocabulary ${start}-${end}.`,
-    durationMinutes: Math.max(8, words.length * 2),
+    durationMinutes: Math.max(15, words.length),
     sections: [
       {
         type: 'vocabulary',

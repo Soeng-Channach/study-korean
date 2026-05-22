@@ -35,7 +35,7 @@ export default function GrammarCard({ lesson }) {
         </Link>
         <div className="mt-2.5 rounded-lg border border-coral-200 bg-white/80 px-3 py-2 dark:border-coral-500/30 dark:bg-slate-800/60">
           <p className="text-[10px] font-semibold uppercase tracking-wide text-coral-700 dark:text-coral-100">
-            Easy meaning
+            Core meaning
           </p>
           <p className="mt-0.5 text-sm font-semibold text-slate-800 dark:text-slate-100">
             {coreMeaning}
