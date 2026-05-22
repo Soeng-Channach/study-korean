@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
+import { Clock } from 'lucide-react';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -7,6 +8,13 @@ import EmptyState from '../../components/ui/EmptyState';
 import { useLearning } from '../../context/LearningContext';
 import { readings } from '../../data/reading';
 import { usePageMeta } from '../../hooks/usePageMeta';
+
+function formatTime(seconds) {
+  const safe = Math.max(0, seconds);
+  const minutes = Math.floor(safe / 60);
+  const remainingSeconds = safe % 60;
+  return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
+}
 
 function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, revealed, selected, onSelect }) {
   const questionNumber = question.questionNumber || fallbackNumber;
@@ -102,35 +110,137 @@ export default function ReadingDetailPage() {
   const [revealed, setRevealed] = useState(false);
   const { dispatch } = useLearning();
 
+  const questions = reading?.questions || [];
+  const totalSeconds =
+    (reading?.durationMinutes || Math.max(3, Math.ceil(questions.length * 1.5))) * 60;
+
+  const [remainingSeconds, setRemainingSeconds] = useState(totalSeconds);
+  const autoCheckedRef = useRef(false);
+
   usePageMeta(reading?.title || 'Reading practice', 'TOPIK II reading comprehension practice.');
+
+  // Reset timer when the reading changes
+  useEffect(() => {
+    setRemainingSeconds(totalSeconds);
+    autoCheckedRef.current = false;
+  }, [reading?.id, totalSeconds]);
+
+  // Tick the countdown while the test is in progress
+  useEffect(() => {
+    if (revealed || remainingSeconds <= 0) return undefined;
+    const interval = window.setInterval(() => {
+      setRemainingSeconds((value) => Math.max(0, value - 1));
+    }, 1000);
+    return () => window.clearInterval(interval);
+  }, [revealed, remainingSeconds]);
+
+  const checkAnswers = useCallback(
+    (reason = 'manual') => {
+      if (revealed) return;
+      if (reason === 'manual') {
+        const remaining = questions.length - Object.keys(selectedAnswers).length;
+        if (
+          remaining > 0 &&
+          !window.confirm(
+            `You still have ${remaining} unanswered question${remaining === 1 ? '' : 's'}. Check answers anyway?`
+          )
+        ) {
+          return;
+        }
+      }
+      setRevealed(true);
+      const nextCorrectCount = questions.filter(
+        (question) => selectedAnswers[question.id] === question.answer
+      ).length;
+      if (questions.length > 0 && nextCorrectCount === questions.length) {
+        dispatch({ type: 'complete-reading', id: reading.id });
+      }
+    },
+    [dispatch, questions, reading?.id, revealed, selectedAnswers]
+  );
+
+  // Auto-check when the timer runs out
+  useEffect(() => {
+    if (!reading || revealed || remainingSeconds > 0 || autoCheckedRef.current) return;
+    autoCheckedRef.current = true;
+    checkAnswers('timeout');
+  }, [reading, revealed, remainingSeconds, checkAnswers]);
 
   if (!reading) {
     return <EmptyState title="Reading not found" message="This passage is not available in the offline library." />;
   }
 
-  const questions = reading.questions || [];
   const answeredCount = questions.filter((question) => selectedAnswers[question.id] !== undefined).length;
   const allAnswered = questions.length > 0 && answeredCount === questions.length;
   const correctCount = revealed
     ? questions.filter((question) => selectedAnswers[question.id] === question.answer).length
     : 0;
 
-  function checkAnswers() {
-    const nextCorrectCount = questions.filter((question) => selectedAnswers[question.id] === question.answer).length;
-    setRevealed(true);
-    if (allAnswered && nextCorrectCount === questions.length) {
-      dispatch({ type: 'complete-reading', id: reading.id });
-    }
-  }
+  const timePercent = totalSeconds > 0 ? Math.round((remainingSeconds / totalSeconds) * 100) : 0;
+  const isUrgent = !revealed && remainingSeconds <= 60;
+  const isWarning = !revealed && remainingSeconds <= 180;
+  const timerTone = revealed
+    ? 'border-slate-300 bg-slate-100 text-slate-600 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-200'
+    : isUrgent
+      ? 'border-coral-500 bg-coral-50 text-coral-700 dark:border-coral-400 dark:bg-coral-500/25 dark:text-white'
+      : isWarning
+        ? 'border-amber-400 bg-amber-50 text-amber-700 dark:border-amber-300 dark:bg-amber-400/25 dark:text-amber-50'
+        : 'border-brand-200 bg-brand-50 text-brand-700 dark:border-brand-400 dark:bg-brand-500/25 dark:text-white';
+  const progressTone = revealed
+    ? 'bg-slate-400'
+    : isUrgent
+      ? 'bg-coral-500'
+      : isWarning
+        ? 'bg-amber-500'
+        : 'bg-brand-600';
 
   function resetAnswers() {
     setSelectedAnswers({});
     setRevealed(false);
+    setRemainingSeconds(totalSeconds);
+    autoCheckedRef.current = false;
   }
 
   return (
-    <article className="mx-auto max-w-4xl space-y-5">
-      <Link to="/reading" className="text-sm font-semibold text-brand-600 dark:text-brand-100">Back to reading</Link>
+    <article className="mx-auto max-w-4xl space-y-5 pb-[calc(7rem+max(env(safe-area-inset-bottom),0.5rem))] lg:pb-0">
+      <div className="sticky -top-5 z-30 -mx-4 -mt-5 border-b border-slate-200 bg-white/95 px-4 py-2.5 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-white/80 dark:border-slate-800 dark:bg-slate-900/95 dark:supports-[backdrop-filter]:bg-slate-900/80 sm:static sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:bg-white sm:px-5 sm:py-3 sm:shadow-soft sm:backdrop-blur-none sm:dark:bg-slate-900">
+        <div className="flex items-center justify-between gap-3">
+          <div className="min-w-0">
+            <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 dark:text-brand-100 sm:text-[11px]">Reading progress</p>
+            <p className="mt-0.5 text-xs font-semibold text-slate-500 dark:text-slate-400 sm:mt-1">
+              {answeredCount} of {questions.length} answered
+            </p>
+            {revealed ? (
+              <p className="mt-0.5 text-[11px] font-semibold text-brand-700 dark:text-brand-100 sm:mt-1 sm:text-xs">
+                Answers checked · {correctCount} / {questions.length} correct
+              </p>
+            ) : isUrgent ? (
+              <p className="mt-0.5 text-[11px] font-semibold leading-4 text-coral-600 dark:text-coral-100 sm:mt-1 sm:text-xs">
+                Answers will be checked automatically.
+              </p>
+            ) : null}
+          </div>
+          <div
+            className={`flex shrink-0 items-center gap-1.5 rounded-full border-2 px-3 py-1.5 shadow-sm sm:px-3.5 ${timerTone} ${isUrgent ? 'animate-pulse' : ''}`}
+          >
+            <Clock aria-hidden="true" size={18} />
+            <span className="font-mono text-xl font-black tabular-nums leading-none sm:text-lg">
+              {formatTime(remainingSeconds)}
+            </span>
+          </div>
+        </div>
+        <div className="mt-2 h-1.5 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800 sm:mt-2.5 sm:h-2">
+          <div
+            className={`h-full rounded-full transition-all duration-500 ${progressTone}`}
+            style={{ width: `${timePercent}%` }}
+          />
+        </div>
+      </div>
+
+      <Link to="/reading" className="inline-block text-sm font-semibold text-brand-600 dark:text-brand-100">
+        ← Back to reading
+      </Link>
+
       <Card className="p-4 sm:p-5">
         <div className="flex flex-wrap gap-2">
           <Badge tone="blue">{reading.level}</Badge>
@@ -138,9 +248,6 @@ export default function ReadingDetailPage() {
           {reading.source ? <Badge tone="slate">Imported</Badge> : null}
         </div>
         <h2 className="mt-4 text-3xl font-bold text-slate-950 dark:text-white">{reading.title}</h2>
-        <p className="mt-2 text-sm font-semibold text-slate-500 dark:text-slate-400">
-          {answeredCount} of {questions.length} answered
-        </p>
         {revealed ? (
           <p className="mt-3 rounded-lg bg-brand-50 p-3 text-sm font-bold text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
             Score: {correctCount} / {questions.length}
@@ -165,28 +272,38 @@ export default function ReadingDetailPage() {
         />
       ))}
 
-      <Card className="p-4 sm:p-5">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
-          <div>
-            <p className="text-sm font-bold text-slate-950 dark:text-white">
-              {revealed ? 'Answers checked' : allAnswered ? 'Ready to check' : `${questions.length - answeredCount} questions left`}
+      <div className="fixed inset-x-0 bottom-[calc(3.5rem+max(env(safe-area-inset-bottom),0.5rem))] z-30 border-t border-slate-200 bg-white/95 px-4 py-3 shadow-[0_-12px_28px_rgba(15,23,42,0.10)] backdrop-blur supports-[backdrop-filter]:bg-white/80 dark:border-slate-800 dark:bg-slate-900/95 dark:supports-[backdrop-filter]:bg-slate-900/80 lg:static lg:mx-0 lg:rounded-lg lg:border lg:bg-white lg:p-5 lg:shadow-soft lg:backdrop-blur-none lg:dark:bg-slate-900">
+        <div className="mx-auto flex max-w-4xl items-center justify-between gap-3">
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-sm font-bold text-slate-950 dark:text-white">
+              {revealed
+                ? `Score: ${correctCount} / ${questions.length}`
+                : allAnswered
+                  ? 'Ready to check'
+                  : `${questions.length - answeredCount} left`}
             </p>
-            <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-              All questions are shown on this one page.
+            <p className="hidden text-xs text-slate-500 dark:text-slate-400 sm:block">
+              {revealed
+                ? 'Review the explanations or try again.'
+                : 'Answers reveal automatically when the timer ends.'}
             </p>
           </div>
-          <div className="flex gap-2">
+          <div className="flex shrink-0 gap-2">
             {revealed ? (
               <Button variant="secondary" onClick={resetAnswers}>
                 Try again
               </Button>
             ) : null}
-            <Button disabled={!allAnswered || revealed} onClick={checkAnswers}>
-              Check answers
+            <Button
+              disabled={revealed}
+              onClick={() => checkAnswers('manual')}
+              className="rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-6 py-3 text-base font-bold shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 lg:rounded-lg lg:py-2.5 lg:text-sm"
+            >
+              {revealed ? 'Checked' : 'Check answers'}
             </Button>
           </div>
         </div>
-      </Card>
+      </div>
     </article>
   );
 }

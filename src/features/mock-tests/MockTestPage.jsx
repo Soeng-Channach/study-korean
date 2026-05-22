@@ -156,9 +156,14 @@ export default function MockTestPage() {
             </p>
           </div>
           <Button
-            className={`shrink-0 rounded-full px-6 py-3 text-base font-bold shadow-lg shadow-brand-600/30 transition lg:rounded-lg lg:py-2.5 lg:text-sm ${allAnswered ? 'bg-gradient-to-r from-brand-600 to-brand-500 hover:from-brand-700 hover:to-brand-600' : ''}`}
-            disabled={!allAnswered}
-            onClick={() => submit()}
+            className="shrink-0 rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-6 py-3 text-base font-bold shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 lg:rounded-lg lg:py-2.5 lg:text-sm"
+            onClick={() => {
+              const remaining = questions.length - answeredCount;
+              if (remaining > 0 && !window.confirm(`You still have ${remaining} unanswered question${remaining === 1 ? '' : 's'}. Submit anyway?`)) {
+                return;
+              }
+              submit();
+            }}
           >
             Submit test
           </Button>
