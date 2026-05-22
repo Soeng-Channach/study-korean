@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { FileText, FolderArchive, Trash2, Upload } from 'lucide-react';
 import Card from '../../components/ui/Card';
+import { useConfirm } from '../../components/ui/ConfirmDialog';
 import EmptyState from '../../components/ui/EmptyState';
 import { usePdfLibrary } from '../../hooks/usePdfLibrary';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -29,6 +30,7 @@ function formatDate(ts) {
 export default function LibraryPage() {
   usePageMeta('Library', 'Store and review your own PDF study materials offline.');
   const { items, loading, upload, remove } = usePdfLibrary();
+  const confirm = useConfirm();
   const [uploading, setUploading] = useState(false);
   const [message, setMessage] = useState(null);
   const inputRef = useRef(null);
@@ -126,10 +128,15 @@ export default function LibraryPage() {
                 </Link>
                 <button
                   type="button"
-                  onClick={() => {
-                    if (window.confirm(`Remove "${item.name}" from your library?`)) {
-                      remove(item.id);
-                    }
+                  onClick={async () => {
+                    const ok = await confirm({
+                      title: 'Remove this PDF?',
+                      message: `"${item.name}" will be deleted from your library on this device.`,
+                      confirmText: 'Remove',
+                      cancelText: 'Keep',
+                      tone: 'danger'
+                    });
+                    if (ok) remove(item.id);
                   }}
                   aria-label={`Remove ${item.name}`}
                   className="shrink-0 rounded-lg p-2 text-slate-400 transition hover:bg-coral-50 hover:text-coral-600 dark:hover:bg-coral-500/15 dark:hover:text-coral-100"

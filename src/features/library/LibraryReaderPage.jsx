@@ -2,6 +2,7 @@ import { useEffect, useState } from 'react';
 import { Link, useNavigate, useParams } from 'react-router-dom';
 import { ArrowLeft, Download, Play, Trash2 } from 'lucide-react';
 import PdfViewer from '../../components/library/PdfViewer';
+import { useConfirm } from '../../components/ui/ConfirmDialog';
 import EmptyState from '../../components/ui/EmptyState';
 import { deletePdf, getPdf } from '../../lib/db';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -9,6 +10,7 @@ import { usePageMeta } from '../../hooks/usePageMeta';
 export default function LibraryReaderPage() {
   const { id } = useParams();
   const navigate = useNavigate();
+  const confirm = useConfirm();
   const [entry, setEntry] = useState(null);
   const [url, setUrl] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -38,10 +40,16 @@ export default function LibraryReaderPage() {
 
   async function handleDelete() {
     if (!entry) return;
-    if (window.confirm(`Remove "${entry.name}" from your library?`)) {
-      await deletePdf(entry.id);
-      navigate('/library');
-    }
+    const ok = await confirm({
+      title: 'Remove this PDF?',
+      message: `"${entry.name}" will be deleted from your library on this device.`,
+      confirmText: 'Remove',
+      cancelText: 'Keep',
+      tone: 'danger'
+    });
+    if (!ok) return;
+    await deletePdf(entry.id);
+    navigate('/library');
   }
 
   if (loading) {

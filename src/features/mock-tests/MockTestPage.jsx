@@ -4,6 +4,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import QuizOption from '../../components/learning/QuizOption';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
+import { useConfirm } from '../../components/ui/ConfirmDialog';
 import EmptyState from '../../components/ui/EmptyState';
 import { useLearning } from '../../context/LearningContext';
 import { mockTests } from '../../data/mockTests';
@@ -21,6 +22,7 @@ export default function MockTestPage() {
   const navigate = useNavigate();
   const test = mockTests.find((item) => item.id === id);
   const { dispatch } = useLearning();
+  const confirm = useConfirm();
   const questions = useMemo(() => test?.sections.flatMap((section) => section.questions) || [], [test]);
   const totalSeconds = (test?.durationMinutes || 0) * 60;
   const [answers, setAnswers] = useState({});
@@ -157,10 +159,17 @@ export default function MockTestPage() {
           </div>
           <Button
             className="shrink-0 rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-6 py-3 text-base font-bold shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 lg:rounded-lg lg:py-2.5 lg:text-sm"
-            onClick={() => {
+            onClick={async () => {
               const remaining = questions.length - answeredCount;
-              if (remaining > 0 && !window.confirm(`You still have ${remaining} unanswered question${remaining === 1 ? '' : 's'}. Submit anyway?`)) {
-                return;
+              if (remaining > 0) {
+                const ok = await confirm({
+                  title: 'Submit with blanks?',
+                  message: `You still have ${remaining} unanswered question${remaining === 1 ? '' : 's'}. Submitting now will count ${remaining === 1 ? 'it' : 'them'} as wrong.`,
+                  confirmText: 'Submit anyway',
+                  cancelText: 'Keep going',
+                  tone: 'warning'
+                });
+                if (!ok) return;
               }
               submit();
             }}

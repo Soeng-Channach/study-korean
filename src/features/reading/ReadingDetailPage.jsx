@@ -4,6 +4,7 @@ import { Clock } from 'lucide-react';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
+import { useConfirm } from '../../components/ui/ConfirmDialog';
 import EmptyState from '../../components/ui/EmptyState';
 import { useLearning } from '../../context/LearningContext';
 import { readings } from '../../data/reading';
@@ -110,6 +111,7 @@ export default function ReadingDetailPage() {
   const [revealed, setRevealed] = useState(false);
   const { dispatch } = useLearning();
 
+  const confirm = useConfirm();
   const questions = reading?.questions || [];
   const totalSeconds =
     (reading?.durationMinutes || Math.max(3, Math.ceil(questions.length * 1.5))) * 60;
@@ -135,17 +137,19 @@ export default function ReadingDetailPage() {
   }, [revealed, remainingSeconds]);
 
   const checkAnswers = useCallback(
-    (reason = 'manual') => {
+    async (reason = 'manual') => {
       if (revealed) return;
       if (reason === 'manual') {
         const remaining = questions.length - Object.keys(selectedAnswers).length;
-        if (
-          remaining > 0 &&
-          !window.confirm(
-            `You still have ${remaining} unanswered question${remaining === 1 ? '' : 's'}. Check answers anyway?`
-          )
-        ) {
-          return;
+        if (remaining > 0) {
+          const ok = await confirm({
+            title: 'Check with blanks?',
+            message: `You still have ${remaining} unanswered question${remaining === 1 ? '' : 's'}. Checking now will count ${remaining === 1 ? 'it' : 'them'} as wrong.`,
+            confirmText: 'Check anyway',
+            cancelText: 'Keep going',
+            tone: 'warning'
+          });
+          if (!ok) return;
         }
       }
       setRevealed(true);
@@ -156,7 +160,7 @@ export default function ReadingDetailPage() {
         dispatch({ type: 'complete-reading', id: reading.id });
       }
     },
-    [dispatch, questions, reading?.id, revealed, selectedAnswers]
+    [confirm, dispatch, questions, reading?.id, revealed, selectedAnswers]
   );
 
   // Auto-check when the timer runs out
