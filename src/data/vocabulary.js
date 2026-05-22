@@ -12165,5 +12165,225 @@ export const vocabulary = [
     example: '약을 물과 함께 삼켰습니다.',
     exampleMeaning: 'I swallowed the medicine with water.',
     tags: ['body', 'action']
+  },
+  {
+    id: 'vocab-1183',
+    word: '상',
+    meaning: 'prize; award; table',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 학생은 글쓰기 대회에서 상을 받았습니다.',
+    exampleMeaning: 'That student received a prize in the writing contest.',
+    tags: ['award', 'object']
+  },
+  {
+    id: 'vocab-1184',
+    word: '상가',
+    meaning: 'shopping area; store building',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '집 근처 상가에 식당이 많습니다.',
+    exampleMeaning: 'There are many restaurants in the shopping area near my home.',
+    tags: ['shopping', 'place']
+  },
+  {
+    id: 'vocab-1185',
+    word: '상관없다',
+    meaning: 'to not matter',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '저는 시간이 언제든 상관없습니다.',
+    exampleMeaning: 'The time does not matter to me.',
+    tags: ['opinion', 'choice']
+  },
+  {
+    id: 'vocab-1186',
+    word: '상관없이',
+    meaning: 'no matter; regardless of',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '나이에 상관없이 누구나 참여할 수 있습니다.',
+    exampleMeaning: 'Anyone can join, no matter their age.',
+    tags: ['condition', 'manner']
+  },
+  {
+    id: 'vocab-1187',
+    word: '상금',
+    meaning: 'prize money',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '우승자는 상금을 받았습니다.',
+    exampleMeaning: 'The winner received prize money.',
+    tags: ['money', 'award']
+  },
+  {
+    id: 'vocab-1188',
+    word: '상담',
+    meaning: 'counseling; consultation',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '진로 상담을 받았습니다.',
+    exampleMeaning: 'I received career counseling.',
+    tags: ['communication', 'help']
+  },
+  {
+    id: 'vocab-1189',
+    word: '상담실',
+    meaning: 'counseling room',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '학생은 상담실에서 선생님과 이야기했습니다.',
+    exampleMeaning: 'The student talked with the teacher in the counseling room.',
+    tags: ['place', 'help']
+  },
+  {
+    id: 'vocab-1190',
+    word: '상담원',
+    meaning: 'counselor; support worker',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '상담원이 친절하게 설명해 주었습니다.',
+    exampleMeaning: 'The support worker explained kindly.',
+    tags: ['people', 'service']
+  },
+  {
+    id: 'vocab-1191',
+    word: '상담자',
+    meaning: 'person getting counseling',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '상담자는 자신의 고민을 이야기했습니다.',
+    exampleMeaning: 'The person getting counseling talked about their worry.',
+    tags: ['people', 'help']
+  },
+  {
+    id: 'vocab-1192',
+    word: '상당히',
+    meaning: 'quite; fairly',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '오늘 시험은 상당히 어려웠습니다.',
+    exampleMeaning: 'Today’s test was quite difficult.',
+    tags: ['degree', 'description']
+  },
+  {
+    id: 'vocab-1193',
+    word: '상대',
+    meaning: 'other person; opponent',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '상대의 말을 잘 들어야 합니다.',
+    exampleMeaning: 'You should listen well to the other person.',
+    tags: ['people', 'relationship']
+  },
+  {
+    id: 'vocab-1194',
+    word: '상대방',
+    meaning: 'the other person',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '대화할 때 상대방을 존중해야 합니다.',
+    exampleMeaning: 'When talking, you should respect the other person.',
+    tags: ['people', 'communication']
+  },
+  {
+    id: 'vocab-1195',
+    word: '상대편',
+    meaning: 'opposing side',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '상대편 팀이 먼저 점수를 냈습니다.',
+    exampleMeaning: 'The opposing team scored first.',
+    tags: ['sports', 'competition']
+  },
+  {
+    id: 'vocab-1196',
+    word: '상상',
+    meaning: 'imagination',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '저는 미래의 모습을 상상해 보았습니다.',
+    exampleMeaning: 'I imagined what the future would look like.',
+    tags: ['thinking', 'idea']
+  },
+  {
+    id: 'vocab-1197',
+    word: '상상력',
+    meaning: 'imagination power',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아이들은 상상력이 풍부합니다.',
+    exampleMeaning: 'Children have strong imagination.',
+    tags: ['thinking', 'ability']
+  },
+  {
+    id: 'vocab-1198',
+    word: '상승',
+    meaning: 'rise; increase',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '물가 상승이 계속되고 있습니다.',
+    exampleMeaning: 'The rise in prices is continuing.',
+    tags: ['change', 'economy']
+  },
+  {
+    id: 'vocab-1199',
+    word: '상식',
+    meaning: 'common sense',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그것은 기본적인 상식입니다.',
+    exampleMeaning: 'That is basic common sense.',
+    tags: ['thinking', 'knowledge']
+  },
+  {
+    id: 'vocab-1200',
+    word: '상업',
+    meaning: 'commerce; business',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 지역은 상업이 발달했습니다.',
+    exampleMeaning: 'Commerce developed in this area.',
+    tags: ['business', 'economy']
+  },
+  {
+    id: 'vocab-1201',
+    word: '상업적',
+    meaning: 'commercial',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 영화는 상업적으로 성공했습니다.',
+    exampleMeaning: 'That movie was commercially successful.',
+    tags: ['business', 'description']
+  },
+  {
+    id: 'vocab-1202',
+    word: '상인',
+    meaning: 'merchant; seller',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '시장 상인이 과일을 팔고 있습니다.',
+    exampleMeaning: 'A market seller is selling fruit.',
+    tags: ['people', 'shopping']
+  },
+  {
+    id: 'vocab-1203',
+    word: '상점',
+    meaning: 'store; shop',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '작은 상점에서 물을 샀습니다.',
+    exampleMeaning: 'I bought water at a small store.',
+    tags: ['shopping', 'place']
+  },
+  {
+    id: 'vocab-1204',
+    word: '상징',
+    meaning: 'symbol',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '비둘기는 평화의 상징입니다.',
+    exampleMeaning: 'The dove is a symbol of peace.',
+    tags: ['meaning', 'culture']
   }
 ];
