@@ -12385,5 +12385,3485 @@ export const vocabulary = [
     example: '비둘기는 평화의 상징입니다.',
     exampleMeaning: 'The dove is a symbol of peace.',
     tags: ['meaning', 'culture']
+  },
+  {
+    id: 'vocab-1205',
+    word: '상쾌하다',
+    meaning: 'to feel fresh',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '아침 공기가 상쾌합니다.',
+    exampleMeaning: 'The morning air feels fresh.',
+    tags: ['feeling', 'weather']
+  },
+  {
+    id: 'vocab-1206',
+    word: '상태',
+    meaning: 'condition; state',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '환자의 상태가 좋아졌습니다.',
+    exampleMeaning: 'The patient’s condition got better.',
+    tags: ['health', 'state']
+  },
+  {
+    id: 'vocab-1207',
+    word: '상표',
+    meaning: 'brand name; trademark',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 상표는 많은 사람들이 압니다.',
+    exampleMeaning: 'Many people know this brand name.',
+    tags: ['shopping', 'business']
+  },
+  {
+    id: 'vocab-1208',
+    word: '상품권',
+    meaning: 'gift card',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '생일 선물로 상품권을 받았습니다.',
+    exampleMeaning: 'I received a gift card for my birthday.',
+    tags: ['shopping', 'gift']
+  },
+  {
+    id: 'vocab-1209',
+    word: '상하다',
+    meaning: 'to go bad; to be hurt',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '음식이 상해서 버렸습니다.',
+    exampleMeaning: 'The food went bad, so I threw it away.',
+    tags: ['food', 'change']
+  },
+  {
+    id: 'vocab-1210',
+    word: '상황',
+    meaning: 'situation',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '지금 상황을 잘 설명해 주세요.',
+    exampleMeaning: 'Please explain the current situation well.',
+    tags: ['situation', 'communication']
+  },
+  {
+    id: 'vocab-1211',
+    word: '새다',
+    meaning: 'to leak',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '천장에서 물이 샙니다.',
+    exampleMeaning: 'Water is leaking from the ceiling.',
+    tags: ['home', 'problem']
+  },
+  {
+    id: 'vocab-1212',
+    word: '새롭다',
+    meaning: 'to be new',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '새로운 방법을 배웠습니다.',
+    exampleMeaning: 'I learned a new method.',
+    tags: ['description', 'change']
+  },
+  {
+    id: 'vocab-1213',
+    word: '새어머니',
+    meaning: 'stepmother',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 새어머니와 함께 삽니다.',
+    exampleMeaning: 'He lives with his stepmother.',
+    tags: ['family', 'people']
+  },
+  {
+    id: 'vocab-1214',
+    word: '새우다',
+    meaning: 'to stay up all night',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '시험 공부를 하느라 밤을 새웠습니다.',
+    exampleMeaning: 'I stayed up all night studying for the test.',
+    tags: ['time', 'study']
+  },
+  {
+    id: 'vocab-1215',
+    word: '새치기',
+    meaning: 'cutting in line',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '새치기는 예의가 아닙니다.',
+    exampleMeaning: 'Cutting in line is not polite.',
+    tags: ['behavior', 'social']
+  },
+  {
+    id: 'vocab-1216',
+    word: '새해',
+    meaning: 'new year',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '새해에는 건강하세요.',
+    exampleMeaning: 'Please be healthy in the new year.',
+    tags: ['time', 'culture']
+  },
+  {
+    id: 'vocab-1217',
+    word: '색다르다',
+    meaning: 'to be different; to be unusual',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '이번 여행은 색다른 경험이었습니다.',
+    exampleMeaning: 'This trip was a different experience.',
+    tags: ['description', 'experience']
+  },
+  {
+    id: 'vocab-1218',
+    word: '색상',
+    meaning: 'color',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 옷은 색상이 예쁩니다.',
+    exampleMeaning: 'This clothing has a pretty color.',
+    tags: ['color', 'appearance']
+  },
+  {
+    id: 'vocab-1219',
+    word: '생각나다',
+    meaning: 'to come to mind',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '갑자기 좋은 생각이 났습니다.',
+    exampleMeaning: 'A good idea suddenly came to mind.',
+    tags: ['thinking', 'memory']
+  },
+  {
+    id: 'vocab-1220',
+    word: '생강차',
+    meaning: 'ginger tea',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '감기에 걸려서 생강차를 마셨습니다.',
+    exampleMeaning: 'I had a cold, so I drank ginger tea.',
+    tags: ['drink', 'health']
+  },
+  {
+    id: 'vocab-1221',
+    word: '생겨나다',
+    meaning: 'to appear; to be created',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '동네에 새 가게가 생겨났습니다.',
+    exampleMeaning: 'A new store appeared in the neighborhood.',
+    tags: ['change', 'place']
+  },
+  {
+    id: 'vocab-1222',
+    word: '생김새',
+    meaning: 'appearance; looks',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '두 형제는 생김새가 비슷합니다.',
+    exampleMeaning: 'The two brothers look similar.',
+    tags: ['appearance', 'people']
+  },
+  {
+    id: 'vocab-1223',
+    word: '생략',
+    meaning: 'leaving out; omission',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '불필요한 부분은 생략했습니다.',
+    exampleMeaning: 'I left out the unnecessary part.',
+    tags: ['writing', 'action']
+  },
+  {
+    id: 'vocab-1224',
+    word: '생머리',
+    meaning: 'straight hair',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '언니는 긴 생머리입니다.',
+    exampleMeaning: 'My older sister has long straight hair.',
+    tags: ['appearance', 'hair']
+  },
+  {
+    id: 'vocab-1225',
+    word: '생명',
+    meaning: 'life',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '생명을 소중히 여겨야 합니다.',
+    exampleMeaning: 'We should value life.',
+    tags: ['life', 'value']
+  },
+  {
+    id: 'vocab-1226',
+    word: '생산',
+    meaning: 'production',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '공장에서 자동차 생산이 늘었습니다.',
+    exampleMeaning: 'Car production increased at the factory.',
+    tags: ['business', 'factory']
+  },
+  {
+    id: 'vocab-1227',
+    word: '생생하다',
+    meaning: 'to be vivid; to feel real',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '그날의 기억이 아직도 생생합니다.',
+    exampleMeaning: 'The memory of that day still feels real.',
+    tags: ['memory', 'description']
+  },
+  {
+    id: 'vocab-1228',
+    word: '생중계',
+    meaning: 'live broadcast',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '경기를 생중계로 보았습니다.',
+    exampleMeaning: 'I watched the game by live broadcast.',
+    tags: ['media', 'broadcast']
+  },
+  {
+    id: 'vocab-1229',
+    word: '생필품',
+    meaning: 'daily necessities',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '마트에서 생필품을 샀습니다.',
+    exampleMeaning: 'I bought daily necessities at the store.',
+    tags: ['shopping', 'daily-life']
+  },
+  {
+    id: 'vocab-1230',
+    word: '생활비',
+    meaning: 'living expenses',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이번 달 생활비가 많이 들었습니다.',
+    exampleMeaning: 'This month’s living expenses were high.',
+    tags: ['money', 'daily-life']
+  },
+  {
+    id: 'vocab-1231',
+    word: '생활수준',
+    meaning: 'living standard',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '생활수준이 점점 높아지고 있습니다.',
+    exampleMeaning: 'The living standard is slowly getting higher.',
+    tags: ['life', 'society']
+  },
+  {
+    id: 'vocab-1232',
+    word: '서너',
+    meaning: 'three or four',
+    partOfSpeech: 'determiner',
+    level: 'TOPIK II',
+    example: '친구 서너 명이 집에 왔습니다.',
+    exampleMeaning: 'Three or four friends came to my home.',
+    tags: ['number', 'amount']
+  },
+  {
+    id: 'vocab-1233',
+    word: '서두르다',
+    meaning: 'to hurry',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '늦지 않으려고 서둘렀습니다.',
+    exampleMeaning: 'I hurried so I would not be late.',
+    tags: ['action', 'time']
+  },
+  {
+    id: 'vocab-1234',
+    word: '서랍',
+    meaning: 'drawer',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '열쇠를 책상 서랍에 넣었습니다.',
+    exampleMeaning: 'I put the key in the desk drawer.',
+    tags: ['object', 'home']
+  },
+  {
+    id: 'vocab-1235',
+    word: '서론',
+    meaning: 'introduction',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '글의 서론을 짧게 썼습니다.',
+    exampleMeaning: 'I wrote the introduction of the essay shortly.',
+    tags: ['writing', 'structure']
+  },
+  {
+    id: 'vocab-1236',
+    word: '서명',
+    meaning: 'signature',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '계약서에 서명을 했습니다.',
+    exampleMeaning: 'I signed the contract.',
+    tags: ['document', 'writing']
+  },
+  {
+    id: 'vocab-1237',
+    word: '서부',
+    meaning: 'western part',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 도시는 나라의 서부에 있습니다.',
+    exampleMeaning: 'That city is in the western part of the country.',
+    tags: ['place', 'direction']
+  },
+  {
+    id: 'vocab-1238',
+    word: '서빙',
+    meaning: 'serving food',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 식당에서 서빙 일을 합니다.',
+    exampleMeaning: 'He serves food at a restaurant.',
+    tags: ['work', 'restaurant']
+  },
+  {
+    id: 'vocab-1239',
+    word: '서서히',
+    meaning: 'slowly; little by little',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '날씨가 서서히 따뜻해졌습니다.',
+    exampleMeaning: 'The weather slowly became warm.',
+    tags: ['time', 'change']
+  },
+  {
+    id: 'vocab-1240',
+    word: '서운하다',
+    meaning: 'to feel sad or disappointed',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '친구가 연락하지 않아서 서운했습니다.',
+    exampleMeaning: 'I felt disappointed because my friend did not contact me.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1241',
+    word: '서투르다',
+    meaning: 'to be poor at; to be clumsy',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '저는 아직 한국어 말하기가 서툽니다.',
+    exampleMeaning: 'I am still poor at speaking Korean.',
+    tags: ['ability', 'description']
+  },
+  {
+    id: 'vocab-1242',
+    word: '석사',
+    meaning: 'master’s degree',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 한국에서 석사를 받았습니다.',
+    exampleMeaning: 'He received a master’s degree in Korea.',
+    tags: ['education', 'degree']
+  },
+  {
+    id: 'vocab-1243',
+    word: '석식',
+    meaning: 'dinner',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '호텔 석식은 7시에 시작됩니다.',
+    exampleMeaning: 'Hotel dinner starts at 7 o’clock.',
+    tags: ['food', 'meal']
+  },
+  {
+    id: 'vocab-1244',
+    word: '석유',
+    meaning: 'oil; petroleum',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '석유 가격이 올랐습니다.',
+    exampleMeaning: 'The price of oil went up.',
+    tags: ['energy', 'economy']
+  },
+  {
+    id: 'vocab-1245',
+    word: '석탄',
+    meaning: 'coal',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '예전에는 석탄을 많이 사용했습니다.',
+    exampleMeaning: 'In the past, people used a lot of coal.',
+    tags: ['energy', 'material']
+  },
+  {
+    id: 'vocab-1246',
+    word: '섞다',
+    meaning: 'to mix',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '밀가루와 물을 잘 섞었습니다.',
+    exampleMeaning: 'I mixed flour and water well.',
+    tags: ['action', 'cooking']
+  },
+  {
+    id: 'vocab-1247',
+    word: '선',
+    meaning: 'line',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '종이에 긴 선을 그었습니다.',
+    exampleMeaning: 'I drew a long line on the paper.',
+    tags: ['shape', 'drawing']
+  },
+  {
+    id: 'vocab-1248',
+    word: '선글라스',
+    meaning: 'sunglasses',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '햇빛이 강해서 선글라스를 썼습니다.',
+    exampleMeaning: 'The sunlight was strong, so I wore sunglasses.',
+    tags: ['clothing', 'object']
+  },
+  {
+    id: 'vocab-1249',
+    word: '선선하다',
+    meaning: 'to be cool',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '저녁 바람이 선선합니다.',
+    exampleMeaning: 'The evening wind is cool.',
+    tags: ['weather', 'description']
+  },
+  {
+    id: 'vocab-1250',
+    word: '선진국',
+    meaning: 'developed country',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 나라는 선진국으로 알려져 있습니다.',
+    exampleMeaning: 'That country is known as a developed country.',
+    tags: ['country', 'society']
+  },
+  {
+    id: 'vocab-1251',
+    word: '선착순',
+    meaning: 'first come, first served',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 행사는 선착순으로 입장합니다.',
+    exampleMeaning: 'People enter this event first come, first served.',
+    tags: ['order', 'event']
+  },
+  {
+    id: 'vocab-1252',
+    word: '설',
+    meaning: 'Lunar New Year',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '설에는 가족들이 모입니다.',
+    exampleMeaning: 'Families gather on Lunar New Year.',
+    tags: ['culture', 'holiday']
+  },
+  {
+    id: 'vocab-1253',
+    word: '설득',
+    meaning: 'persuasion',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '친구의 설득으로 생각을 바꿨습니다.',
+    exampleMeaning: 'I changed my mind because of my friend’s persuasion.',
+    tags: ['communication', 'thinking']
+  },
+  {
+    id: 'vocab-1254',
+    word: '설마',
+    meaning: 'surely not',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '설마 그가 약속을 잊었을까요?',
+    exampleMeaning: 'Surely he did not forget the promise, right?',
+    tags: ['feeling', 'doubt']
+  },
+  {
+    id: 'vocab-1255',
+    word: '설명서',
+    meaning: 'manual; instructions',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '기계를 사용하기 전에 설명서를 읽었습니다.',
+    exampleMeaning: 'I read the manual before using the machine.',
+    tags: ['document', 'instruction']
+  },
+  {
+    id: 'vocab-1256',
+    word: '설문조사',
+    meaning: 'survey',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '학생들을 대상으로 설문조사를 했습니다.',
+    exampleMeaning: 'We did a survey with students.',
+    tags: ['research', 'question']
+  },
+  {
+    id: 'vocab-1257',
+    word: '설문지',
+    meaning: 'survey paper',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '설문지를 작성해 주세요.',
+    exampleMeaning: 'Please fill out the survey paper.',
+    tags: ['document', 'research']
+  },
+  {
+    id: 'vocab-1258',
+    word: '설사',
+    meaning: 'diarrhea',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '배탈이 나서 설사를 했습니다.',
+    exampleMeaning: 'I had an upset stomach and diarrhea.',
+    tags: ['health', 'body']
+  },
+  {
+    id: 'vocab-1259',
+    word: '섭섭하다',
+    meaning: 'to feel sad or disappointed',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '친구가 먼저 가서 섭섭했습니다.',
+    exampleMeaning: 'I felt disappointed because my friend left first.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1260',
+    word: '성공',
+    meaning: 'success',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '노력 끝에 성공을 했습니다.',
+    exampleMeaning: 'After effort, I achieved success.',
+    tags: ['result', 'goal']
+  },
+  {
+    id: 'vocab-1261',
+    word: '성능',
+    meaning: 'performance; function quality',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 컴퓨터는 성능이 좋습니다.',
+    exampleMeaning: 'This computer has good performance.',
+    tags: ['technology', 'quality']
+  },
+  {
+    id: 'vocab-1262',
+    word: '성당',
+    meaning: 'Catholic church',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '일요일에 성당에 갔습니다.',
+    exampleMeaning: 'I went to the Catholic church on Sunday.',
+    tags: ['religion', 'place']
+  },
+  {
+    id: 'vocab-1263',
+    word: '성명',
+    meaning: 'full name',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '신청서에 성명을 써 주세요.',
+    exampleMeaning: 'Please write your full name on the application form.',
+    tags: ['document', 'name']
+  },
+  {
+    id: 'vocab-1264',
+    word: '성별',
+    meaning: 'gender',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '성별을 선택해 주세요.',
+    exampleMeaning: 'Please choose your gender.',
+    tags: ['document', 'people']
+  },
+  {
+    id: 'vocab-1265',
+    word: '성실',
+    meaning: 'sincerity; diligence',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그의 성실은 모두가 인정합니다.',
+    exampleMeaning: 'Everyone recognizes his diligence.',
+    tags: ['personality', 'attitude']
+  },
+  {
+    id: 'vocab-1266',
+    word: '성인',
+    meaning: 'adult',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '성인은 신분증을 보여 줘야 합니다.',
+    exampleMeaning: 'Adults must show an ID card.',
+    tags: ['people', 'age']
+  },
+  {
+    id: 'vocab-1267',
+    word: '성인병',
+    meaning: 'adult disease',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '운동은 성인병 예방에 도움이 됩니다.',
+    exampleMeaning: 'Exercise helps prevent adult diseases.',
+    tags: ['health', 'disease']
+  },
+  {
+    id: 'vocab-1268',
+    word: '성적',
+    meaning: 'grade; score',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이번 시험 성적이 올랐습니다.',
+    exampleMeaning: 'My test score went up this time.',
+    tags: ['school', 'test']
+  },
+  {
+    id: 'vocab-1269',
+    word: '성적표',
+    meaning: 'report card',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '학교에서 성적표를 받았습니다.',
+    exampleMeaning: 'I received my report card at school.',
+    tags: ['school', 'document']
+  },
+  {
+    id: 'vocab-1270',
+    word: '성형',
+    meaning: 'plastic surgery',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '성형에 대해 여러 의견이 있습니다.',
+    exampleMeaning: 'There are many opinions about plastic surgery.',
+    tags: ['health', 'appearance']
+  },
+  {
+    id: 'vocab-1271',
+    word: '세계적',
+    meaning: 'world-class; global',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 가수는 세계적으로 유명합니다.',
+    exampleMeaning: 'That singer is famous around the world.',
+    tags: ['world', 'description']
+  },
+  {
+    id: 'vocab-1272',
+    word: '세금',
+    meaning: 'tax',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '국민은 세금을 냅니다.',
+    exampleMeaning: 'Citizens pay taxes.',
+    tags: ['money', 'government']
+  },
+  {
+    id: 'vocab-1273',
+    word: '세기',
+    meaning: 'century',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '21세기는 정보의 시대입니다.',
+    exampleMeaning: 'The 21st century is the age of information.',
+    tags: ['time', 'history']
+  },
+  {
+    id: 'vocab-1274',
+    word: '세다',
+    meaning: 'to count; to be strong',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '아이들이 숫자를 셉니다.',
+    exampleMeaning: 'The children count numbers.',
+    tags: ['number', 'action']
+  },
+  {
+    id: 'vocab-1275',
+    word: '세대',
+    meaning: 'generation',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '젊은 세대는 인터넷을 많이 사용합니다.',
+    exampleMeaning: 'The young generation uses the internet a lot.',
+    tags: ['people', 'society']
+  },
+  {
+    id: 'vocab-1276',
+    word: '세련',
+    meaning: 'refinement; stylishness',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 옷은 세련된 느낌이 납니다.',
+    exampleMeaning: 'Those clothes feel stylish.',
+    tags: ['appearance', 'style']
+  },
+  {
+    id: 'vocab-1277',
+    word: '세면대',
+    meaning: 'sink',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '세면대에서 손을 씻었습니다.',
+    exampleMeaning: 'I washed my hands at the sink.',
+    tags: ['bathroom', 'home']
+  },
+  {
+    id: 'vocab-1278',
+    word: '세면도구',
+    meaning: 'washing items',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '여행 가방에 세면도구를 넣었습니다.',
+    exampleMeaning: 'I put washing items in my travel bag.',
+    tags: ['travel', 'daily-life']
+  },
+  {
+    id: 'vocab-1279',
+    word: '세미나',
+    meaning: 'seminar',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '한국어 교육 세미나에 참석했습니다.',
+    exampleMeaning: 'I attended a Korean education seminar.',
+    tags: ['education', 'event']
+  },
+  {
+    id: 'vocab-1280',
+    word: '세배',
+    meaning: 'New Year bow',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '설날에 할머니께 세배를 드렸습니다.',
+    exampleMeaning: 'On Lunar New Year, I made a New Year bow to my grandmother.',
+    tags: ['culture', 'holiday']
+  },
+  {
+    id: 'vocab-1281',
+    word: '세뱃돈',
+    meaning: 'New Year money',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아이들이 세뱃돈을 받았습니다.',
+    exampleMeaning: 'The children received New Year money.',
+    tags: ['culture', 'money']
+  },
+  {
+    id: 'vocab-1282',
+    word: '세상',
+    meaning: 'world',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '세상에는 다양한 사람들이 있습니다.',
+    exampleMeaning: 'There are many different people in the world.',
+    tags: ['world', 'society']
+  },
+  {
+    id: 'vocab-1283',
+    word: '세월',
+    meaning: 'time; years',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '세월이 정말 빠르게 지나갑니다.',
+    exampleMeaning: 'Time really passes quickly.',
+    tags: ['time', 'life']
+  },
+  {
+    id: 'vocab-1284',
+    word: '세제',
+    meaning: 'detergent',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '빨래할 때 세제를 넣었습니다.',
+    exampleMeaning: 'I added detergent when doing laundry.',
+    tags: ['cleaning', 'daily-life']
+  },
+  {
+    id: 'vocab-1285',
+    word: '세탁물',
+    meaning: 'laundry',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '세탁물을 세탁기에 넣었습니다.',
+    exampleMeaning: 'I put the laundry in the washing machine.',
+    tags: ['cleaning', 'clothing']
+  },
+  {
+    id: 'vocab-1286',
+    word: '셔츠',
+    meaning: 'shirt',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '하얀 셔츠를 입었습니다.',
+    exampleMeaning: 'I wore a white shirt.',
+    tags: ['clothing', 'daily-life']
+  },
+  {
+    id: 'vocab-1287',
+    word: '셔틀버스',
+    meaning: 'shuttle bus',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '공항까지 셔틀버스를 탔습니다.',
+    exampleMeaning: 'I took a shuttle bus to the airport.',
+    tags: ['transportation', 'travel']
+  },
+  {
+    id: 'vocab-1288',
+    word: '소감',
+    meaning: 'thoughts; feelings',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '발표 후 소감을 말했습니다.',
+    exampleMeaning: 'After the presentation, I shared my thoughts.',
+    tags: ['feeling', 'speech']
+  },
+  {
+    id: 'vocab-1289',
+    word: '소개팅',
+    meaning: 'blind date',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '친구 소개로 소개팅을 했습니다.',
+    exampleMeaning: 'I went on a blind date through a friend.',
+    tags: ['relationship', 'meeting']
+  },
+  {
+    id: 'vocab-1290',
+    word: '소규모',
+    meaning: 'small scale',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '소규모 모임을 준비했습니다.',
+    exampleMeaning: 'I prepared a small-scale meeting.',
+    tags: ['size', 'group']
+  },
+  {
+    id: 'vocab-1291',
+    word: '소극장',
+    meaning: 'small theater',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '소극장에서 연극을 보았습니다.',
+    exampleMeaning: 'I watched a play at a small theater.',
+    tags: ['place', 'performance']
+  },
+  {
+    id: 'vocab-1292',
+    word: '소극적',
+    meaning: 'passive; not active',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 회의에서 소극적인 태도를 보였습니다.',
+    exampleMeaning: 'He showed a passive attitude in the meeting.',
+    tags: ['personality', 'attitude']
+  },
+  {
+    id: 'vocab-1293',
+    word: '소나기',
+    meaning: 'sudden rain shower',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '오후에 소나기가 내렸습니다.',
+    exampleMeaning: 'A sudden rain shower fell in the afternoon.',
+    tags: ['weather', 'nature']
+  },
+  {
+    id: 'vocab-1294',
+    word: '소년',
+    meaning: 'boy',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 소년은 공원에서 뛰고 있습니다.',
+    exampleMeaning: 'The boy is running in the park.',
+    tags: ['people', 'age']
+  },
+  {
+    id: 'vocab-1295',
+    word: '소득',
+    meaning: 'income',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '올해 소득이 조금 늘었습니다.',
+    exampleMeaning: 'My income increased a little this year.',
+    tags: ['money', 'work']
+  },
+  {
+    id: 'vocab-1296',
+    word: '소망',
+    meaning: 'wish; hope',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '제 소망은 가족이 건강한 것입니다.',
+    exampleMeaning: 'My wish is for my family to be healthy.',
+    tags: ['hope', 'feeling']
+  },
+  {
+    id: 'vocab-1297',
+    word: '소매',
+    meaning: 'sleeve',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '셔츠 소매가 조금 깁니다.',
+    exampleMeaning: 'The shirt sleeves are a little long.',
+    tags: ['clothing', 'appearance']
+  },
+  {
+    id: 'vocab-1298',
+    word: '소매치기',
+    meaning: 'pickpocket',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '시장에서는 소매치기를 조심하세요.',
+    exampleMeaning: 'Be careful of pickpockets at the market.',
+    tags: ['crime', 'people']
+  },
+  {
+    id: 'vocab-1299',
+    word: '소문',
+    meaning: 'rumor',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이상한 소문이 퍼졌습니다.',
+    exampleMeaning: 'A strange rumor spread.',
+    tags: ['communication', 'news']
+  },
+  {
+    id: 'vocab-1300',
+    word: '소방관',
+    meaning: 'firefighter',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '소방관이 사람들을 구했습니다.',
+    exampleMeaning: 'The firefighter saved people.',
+    tags: ['job', 'safety']
+  },
+  {
+    id: 'vocab-1301',
+    word: '소방서',
+    meaning: 'fire station',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '집 근처에 소방서가 있습니다.',
+    exampleMeaning: 'There is a fire station near my house.',
+    tags: ['place', 'safety']
+  },
+  {
+    id: 'vocab-1302',
+    word: '소방차',
+    meaning: 'fire truck',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '소방차가 빠르게 지나갔습니다.',
+    exampleMeaning: 'A fire truck passed quickly.',
+    tags: ['vehicle', 'safety']
+  },
+  {
+    id: 'vocab-1303',
+    word: '소비',
+    meaning: 'spending; consumption',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '불필요한 소비를 줄여야 합니다.',
+    exampleMeaning: 'We should reduce unnecessary spending.',
+    tags: ['money', 'economy']
+  },
+  {
+    id: 'vocab-1304',
+    word: '소비자',
+    meaning: 'consumer',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '소비자는 좋은 품질을 원합니다.',
+    exampleMeaning: 'Consumers want good quality.',
+    tags: ['shopping', 'people']
+  },
+  {
+    id: 'vocab-1305',
+    word: '소설책',
+    meaning: 'novel book',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '주말에 소설책을 읽었습니다.',
+    exampleMeaning: 'I read a novel book on the weekend.',
+    tags: ['book', 'reading']
+  },
+  {
+    id: 'vocab-1306',
+    word: '소수',
+    meaning: 'small number; minority',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '소수의 의견도 중요합니다.',
+    exampleMeaning: 'The opinion of a small number of people is also important.',
+    tags: ['number', 'society']
+  },
+  {
+    id: 'vocab-1307',
+    word: '소스',
+    meaning: 'sauce',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '고기에 소스를 뿌렸습니다.',
+    exampleMeaning: 'I put sauce on the meat.',
+    tags: ['food', 'cooking']
+  },
+  {
+    id: 'vocab-1308',
+    word: '소심하다',
+    meaning: 'to be timid',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '그는 조금 소심한 성격입니다.',
+    exampleMeaning: 'He has a slightly timid personality.',
+    tags: ['personality', 'feeling']
+  },
+  {
+    id: 'vocab-1309',
+    word: '소용',
+    meaning: 'use; usefulness',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 도구는 여러 가지 소용이 있습니다.',
+    exampleMeaning: 'This tool has many uses.',
+    tags: ['use', 'object']
+  },
+  {
+    id: 'vocab-1310',
+    word: '소용없다',
+    meaning: 'to be useless',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '지금 후회해도 소용없습니다.',
+    exampleMeaning: 'It is useless to regret it now.',
+    tags: ['use', 'feeling']
+  },
+  {
+    id: 'vocab-1311',
+    word: '소원',
+    meaning: 'wish',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '생일 케이크 앞에서 소원을 빌었습니다.',
+    exampleMeaning: 'I made a wish in front of the birthday cake.',
+    tags: ['hope', 'feeling']
+  },
+  {
+    id: 'vocab-1312',
+    word: '소음',
+    meaning: 'noise',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '공사 소음 때문에 잠을 못 잤습니다.',
+    exampleMeaning: 'I could not sleep because of construction noise.',
+    tags: ['sound', 'problem']
+  },
+  {
+    id: 'vocab-1313',
+    word: '소주',
+    meaning: 'soju',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '한국에서는 소주를 많이 마십니다.',
+    exampleMeaning: 'In Korea, many people drink soju.',
+    tags: ['drink', 'culture']
+  },
+  {
+    id: 'vocab-1314',
+    word: '소중하다',
+    meaning: 'to be precious',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '가족은 저에게 소중합니다.',
+    exampleMeaning: 'Family is precious to me.',
+    tags: ['value', 'feeling']
+  },
+  {
+    id: 'vocab-1315',
+    word: '소중히',
+    meaning: 'preciously; carefully',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '추억을 소중히 간직했습니다.',
+    exampleMeaning: 'I kept the memory carefully.',
+    tags: ['manner', 'value']
+  },
+  {
+    id: 'vocab-1316',
+    word: '소화',
+    meaning: 'digestion',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '음식을 천천히 먹으면 소화에 좋습니다.',
+    exampleMeaning: 'Eating slowly is good for digestion.',
+    tags: ['health', 'body']
+  },
+  {
+    id: 'vocab-1317',
+    word: '속다',
+    meaning: 'to be fooled',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '거짓말에 속지 마세요.',
+    exampleMeaning: 'Do not be fooled by lies.',
+    tags: ['communication', 'mistake']
+  },
+  {
+    id: 'vocab-1318',
+    word: '속담',
+    meaning: 'proverb',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '한국 속담을 하나 배웠습니다.',
+    exampleMeaning: 'I learned one Korean proverb.',
+    tags: ['language', 'culture']
+  },
+  {
+    id: 'vocab-1319',
+    word: '속도',
+    meaning: 'speed',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '차의 속도를 줄였습니다.',
+    exampleMeaning: 'I reduced the car’s speed.',
+    tags: ['movement', 'transportation']
+  },
+  {
+    id: 'vocab-1320',
+    word: '속도위반',
+    meaning: 'speeding',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '속도위반으로 벌금을 냈습니다.',
+    exampleMeaning: 'I paid a fine for speeding.',
+    tags: ['law', 'transportation']
+  },
+  {
+    id: 'vocab-1321',
+    word: '속력',
+    meaning: 'speed',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '기차의 속력이 빨라졌습니다.',
+    exampleMeaning: 'The train’s speed became faster.',
+    tags: ['movement', 'measurement']
+  },
+  {
+    id: 'vocab-1322',
+    word: '속상하다',
+    meaning: 'to be upset',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '친구와 싸워서 속상했습니다.',
+    exampleMeaning: 'I was upset because I fought with my friend.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1323',
+    word: '속옷',
+    meaning: 'underwear',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '여행 가방에 속옷을 챙겼습니다.',
+    exampleMeaning: 'I packed underwear in my travel bag.',
+    tags: ['clothing', 'daily-life']
+  },
+  {
+    id: 'vocab-1324',
+    word: '속이다',
+    meaning: 'to trick; to deceive',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '친구를 속이면 안 됩니다.',
+    exampleMeaning: 'You should not trick your friend.',
+    tags: ['communication', 'behavior']
+  },
+  {
+    id: 'vocab-1325',
+    word: '손바닥',
+    meaning: 'palm of the hand',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '손바닥에 작은 상처가 났습니다.',
+    exampleMeaning: 'I got a small cut on my palm.',
+    tags: ['body', 'hand']
+  },
+  {
+    id: 'vocab-1326',
+    word: '손발',
+    meaning: 'hands and feet',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '추워서 손발이 차갑습니다.',
+    exampleMeaning: 'My hands and feet are cold because it is cold.',
+    tags: ['body', 'health']
+  },
+  {
+    id: 'vocab-1327',
+    word: '손쉽다',
+    meaning: 'to be easy',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '이 앱은 손쉽게 사용할 수 있습니다.',
+    exampleMeaning: 'This app can be used easily.',
+    tags: ['difficulty', 'description']
+  },
+  {
+    id: 'vocab-1328',
+    word: '손자',
+    meaning: 'grandson',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '할아버지는 손자를 많이 사랑하십니다.',
+    exampleMeaning: 'Grandfather loves his grandson very much.',
+    tags: ['family', 'people']
+  },
+  {
+    id: 'vocab-1329',
+    word: '손잡이',
+    meaning: 'handle',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '문 손잡이가 고장 났습니다.',
+    exampleMeaning: 'The door handle is broken.',
+    tags: ['object', 'home']
+  },
+  {
+    id: 'vocab-1330',
+    word: '손질',
+    meaning: 'trimming; preparing',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '요리 전에 채소 손질을 했습니다.',
+    exampleMeaning: 'I prepared the vegetables before cooking.',
+    tags: ['cooking', 'action']
+  },
+  {
+    id: 'vocab-1331',
+    word: '솔직하다',
+    meaning: 'to be honest',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '그 사람은 솔직한 성격입니다.',
+    exampleMeaning: 'That person has an honest personality.',
+    tags: ['personality', 'description']
+  },
+  {
+    id: 'vocab-1332',
+    word: '솔직히',
+    meaning: 'honestly',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '솔직히 말하면 저는 잘 모르겠습니다.',
+    exampleMeaning: 'Honestly, I do not know well.',
+    tags: ['manner', 'communication']
+  },
+  {
+    id: 'vocab-1333',
+    word: '솜씨',
+    meaning: 'skill',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '어머니는 음식 솜씨가 좋습니다.',
+    exampleMeaning: 'My mother has good cooking skill.',
+    tags: ['ability', 'skill']
+  },
+  {
+    id: 'vocab-1334',
+    word: '송금',
+    meaning: 'money transfer',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '은행 앱으로 송금을 했습니다.',
+    exampleMeaning: 'I made a money transfer with the bank app.',
+    tags: ['money', 'bank']
+  },
+  {
+    id: 'vocab-1335',
+    word: '쇠',
+    meaning: 'iron; metal',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 문은 쇠로 만들었습니다.',
+    exampleMeaning: 'This door was made of iron.',
+    tags: ['material', 'object']
+  },
+  {
+    id: 'vocab-1336',
+    word: '쇠고기',
+    meaning: 'beef',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '저녁에 쇠고기국을 먹었습니다.',
+    exampleMeaning: 'I ate beef soup for dinner.',
+    tags: ['food', 'meat']
+  },
+  {
+    id: 'vocab-1337',
+    word: '쇼',
+    meaning: 'show',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '텔레비전에서 재미있는 쇼를 봤습니다.',
+    exampleMeaning: 'I watched an interesting show on TV.',
+    tags: ['media', 'performance']
+  },
+  {
+    id: 'vocab-1338',
+    word: '쇼핑몰',
+    meaning: 'shopping mall',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '주말에 쇼핑몰에 갔습니다.',
+    exampleMeaning: 'I went to the shopping mall on the weekend.',
+    tags: ['shopping', 'place']
+  },
+  {
+    id: 'vocab-1339',
+    word: '쇼핑백',
+    meaning: 'shopping bag',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '새 옷을 쇼핑백에 넣었습니다.',
+    exampleMeaning: 'I put the new clothes in the shopping bag.',
+    tags: ['shopping', 'object']
+  },
+  {
+    id: 'vocab-1340',
+    word: '쇼핑센터',
+    meaning: 'shopping center',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '쇼핑센터에서 친구를 만났습니다.',
+    exampleMeaning: 'I met my friend at the shopping center.',
+    tags: ['shopping', 'place']
+  },
+  {
+    id: 'vocab-1341',
+    word: '수거',
+    meaning: 'collection; pickup',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '쓰레기 수거는 아침에 합니다.',
+    exampleMeaning: 'Trash pickup is done in the morning.',
+    tags: ['environment', 'action']
+  },
+  {
+    id: 'vocab-1342',
+    word: '수고',
+    meaning: 'hard work; effort',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '오늘 정말 수고가 많았습니다.',
+    exampleMeaning: 'You worked really hard today.',
+    tags: ['work', 'effort']
+  },
+  {
+    id: 'vocab-1343',
+    word: '수단',
+    meaning: 'method; means',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '버스는 편리한 교통수단입니다.',
+    exampleMeaning: 'A bus is a convenient transportation method.',
+    tags: ['method', 'transportation']
+  },
+  {
+    id: 'vocab-1344',
+    word: '수도꼭지',
+    meaning: 'faucet; tap',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '수도꼭지를 잠그세요.',
+    exampleMeaning: 'Please turn off the faucet.',
+    tags: ['home', 'water']
+  },
+  {
+    id: 'vocab-1345',
+    word: '수량',
+    meaning: 'quantity; number',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '주문 수량을 확인했습니다.',
+    exampleMeaning: 'I checked the order quantity.',
+    tags: ['number', 'shopping']
+  },
+  {
+    id: 'vocab-1346',
+    word: '수료식',
+    meaning: 'completion ceremony',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '한국어 수업 수료식에 참석했습니다.',
+    exampleMeaning: 'I attended the Korean class completion ceremony.',
+    tags: ['school', 'event']
+  },
+  {
+    id: 'vocab-1347',
+    word: '수리',
+    meaning: 'repair',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '컴퓨터 수리를 맡겼습니다.',
+    exampleMeaning: 'I left my computer for repair.',
+    tags: ['repair', 'technology']
+  },
+  {
+    id: 'vocab-1348',
+    word: '수리비',
+    meaning: 'repair cost',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '자동차 수리비가 많이 나왔습니다.',
+    exampleMeaning: 'The car repair cost was high.',
+    tags: ['repair', 'money']
+  },
+  {
+    id: 'vocab-1349',
+    word: '수면',
+    meaning: 'sleep',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '충분한 수면이 건강에 중요합니다.',
+    exampleMeaning: 'Enough sleep is important for health.',
+    tags: ['health', 'sleep']
+  },
+  {
+    id: 'vocab-1350',
+    word: '수면제',
+    meaning: 'sleeping pill',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '수면제는 의사와 상담 후에 먹어야 합니다.',
+    exampleMeaning: 'You should take sleeping pills after talking with a doctor.',
+    tags: ['health', 'medicine']
+  },
+  {
+    id: 'vocab-1351',
+    word: '수명',
+    meaning: 'lifespan',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '의학의 발달로 평균 수명이 길어졌습니다.',
+    exampleMeaning: 'The average lifespan became longer because medicine developed.',
+    tags: ['life', 'health']
+  },
+  {
+    id: 'vocab-1352',
+    word: '수산물',
+    meaning: 'seafood products',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '시장에서는 신선한 수산물을 팝니다.',
+    exampleMeaning: 'The market sells fresh seafood products.',
+    tags: ['food', 'sea']
+  },
+  {
+    id: 'vocab-1353',
+    word: '수상',
+    meaning: 'winning an award',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 배우는 영화제에서 수상을 했습니다.',
+    exampleMeaning: 'That actor won an award at the film festival.',
+    tags: ['award', 'event']
+  },
+  {
+    id: 'vocab-1354',
+    word: '수선',
+    meaning: 'repair; alteration',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '바지 수선을 맡겼습니다.',
+    exampleMeaning: 'I left my pants for alteration.',
+    tags: ['clothing', 'repair']
+  },
+  {
+    id: 'vocab-1355',
+    word: '수선하다',
+    meaning: 'to repair; to alter',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '낡은 옷을 수선했습니다.',
+    exampleMeaning: 'I repaired old clothes.',
+    tags: ['clothing', 'repair']
+  },
+  {
+    id: 'vocab-1356',
+    word: '수수료',
+    meaning: 'fee; service charge',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '은행에서 송금 수수료를 냈습니다.',
+    exampleMeaning: 'I paid a transfer fee at the bank.',
+    tags: ['money', 'service']
+  },
+  {
+    id: 'vocab-1357',
+    word: '수입',
+    meaning: 'income; import',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이번 달 수입이 늘었습니다.',
+    exampleMeaning: 'My income increased this month.',
+    tags: ['money', 'economy']
+  },
+  {
+    id: 'vocab-1358',
+    word: '수정',
+    meaning: 'correction; edit',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '글의 내용을 수정했습니다.',
+    exampleMeaning: 'I corrected the content of the writing.',
+    tags: ['writing', 'change']
+  },
+  {
+    id: 'vocab-1359',
+    word: '수준',
+    meaning: 'level',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '한국어 수준이 많이 높아졌습니다.',
+    exampleMeaning: 'My Korean level has improved a lot.',
+    tags: ['level', 'study']
+  },
+  {
+    id: 'vocab-1360',
+    word: '수집',
+    meaning: 'collection; collecting',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '우표 수집이 제 취미입니다.',
+    exampleMeaning: 'Collecting stamps is my hobby.',
+    tags: ['hobby', 'action']
+  },
+  {
+    id: 'vocab-1361',
+    word: '수출',
+    meaning: 'export',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '한국은 자동차 수출을 많이 합니다.',
+    exampleMeaning: 'Korea exports many cars.',
+    tags: ['business', 'economy']
+  },
+  {
+    id: 'vocab-1362',
+    word: '수표',
+    meaning: 'check',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '은행에서 수표를 현금으로 바꿨습니다.',
+    exampleMeaning: 'I changed a check into cash at the bank.',
+    tags: ['money', 'bank']
+  },
+  {
+    id: 'vocab-1363',
+    word: '수학여행',
+    meaning: 'school trip',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '학생들이 제주도로 수학여행을 갔습니다.',
+    exampleMeaning: 'The students went on a school trip to Jeju Island.',
+    tags: ['school', 'travel']
+  },
+  {
+    id: 'vocab-1364',
+    word: '숙녀복',
+    meaning: 'women’s clothing',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '백화점에서 숙녀복을 팝니다.',
+    exampleMeaning: 'The department store sells women’s clothing.',
+    tags: ['clothing', 'shopping']
+  },
+  {
+    id: 'vocab-1365',
+    word: '숙박',
+    meaning: 'lodging; stay',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '여행 전에 숙박을 예약했습니다.',
+    exampleMeaning: 'I booked lodging before the trip.',
+    tags: ['travel', 'place']
+  },
+  {
+    id: 'vocab-1366',
+    word: '숙박비',
+    meaning: 'lodging fee',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '숙박비가 생각보다 비쌌습니다.',
+    exampleMeaning: 'The lodging fee was more expensive than I expected.',
+    tags: ['travel', 'money']
+  },
+  {
+    id: 'vocab-1367',
+    word: '숙소',
+    meaning: 'place to stay',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '숙소가 역에서 가깝습니다.',
+    exampleMeaning: 'The place to stay is close to the station.',
+    tags: ['travel', 'place']
+  },
+  {
+    id: 'vocab-1368',
+    word: '숙이다',
+    meaning: 'to lower; to bend down',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '인사할 때 고개를 숙였습니다.',
+    exampleMeaning: 'I lowered my head when greeting.',
+    tags: ['body', 'action']
+  },
+  {
+    id: 'vocab-1369',
+    word: '순간',
+    meaning: 'moment',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 순간 모두가 조용해졌습니다.',
+    exampleMeaning: 'At that moment, everyone became quiet.',
+    tags: ['time', 'event']
+  },
+  {
+    id: 'vocab-1370',
+    word: '순두부찌개',
+    meaning: 'soft tofu stew',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '점심에 순두부찌개를 먹었습니다.',
+    exampleMeaning: 'I ate soft tofu stew for lunch.',
+    tags: ['food', 'meal']
+  },
+  {
+    id: 'vocab-1371',
+    word: '술자리',
+    meaning: 'drinking gathering',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '회사 술자리에 참석했습니다.',
+    exampleMeaning: 'I attended a company drinking gathering.',
+    tags: ['social', 'drink']
+  },
+  {
+    id: 'vocab-1372',
+    word: '술잔',
+    meaning: 'drinking glass',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '술잔에 물을 따랐습니다.',
+    exampleMeaning: 'I poured water into the drinking glass.',
+    tags: ['drink', 'object']
+  },
+  {
+    id: 'vocab-1373',
+    word: '술집',
+    meaning: 'bar; pub',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '친구와 작은 술집에 갔습니다.',
+    exampleMeaning: 'I went to a small bar with my friend.',
+    tags: ['place', 'drink']
+  },
+  {
+    id: 'vocab-1374',
+    word: '숨기다',
+    meaning: 'to hide something',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '선물을 책상 아래에 숨겼습니다.',
+    exampleMeaning: 'I hid the gift under the desk.',
+    tags: ['action', 'secret']
+  },
+  {
+    id: 'vocab-1375',
+    word: '숨다',
+    meaning: 'to hide',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '아이가 문 뒤에 숨었습니다.',
+    exampleMeaning: 'The child hid behind the door.',
+    tags: ['action', 'place']
+  },
+  {
+    id: 'vocab-1376',
+    word: '숫자',
+    meaning: 'number',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '종이에 숫자를 크게 썼습니다.',
+    exampleMeaning: 'I wrote the number big on the paper.',
+    tags: ['number', 'writing']
+  },
+  {
+    id: 'vocab-1377',
+    word: '숲',
+    meaning: 'forest',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '숲속에서 새소리가 들렸습니다.',
+    exampleMeaning: 'I heard birds in the forest.',
+    tags: ['nature', 'place']
+  },
+  {
+    id: 'vocab-1378',
+    word: '스님',
+    meaning: 'Buddhist monk',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '절에서 스님을 만났습니다.',
+    exampleMeaning: 'I met a Buddhist monk at the temple.',
+    tags: ['religion', 'people']
+  },
+  {
+    id: 'vocab-1379',
+    word: '스스로',
+    meaning: 'by oneself',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '문제를 스스로 해결했습니다.',
+    exampleMeaning: 'I solved the problem by myself.',
+    tags: ['manner', 'action']
+  },
+  {
+    id: 'vocab-1380',
+    word: '스캐너',
+    meaning: 'scanner',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '스캐너로 문서를 저장했습니다.',
+    exampleMeaning: 'I saved the document with a scanner.',
+    tags: ['technology', 'office']
+  },
+  {
+    id: 'vocab-1381',
+    word: '스타일',
+    meaning: 'style',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 옷은 제 스타일이 아닙니다.',
+    exampleMeaning: 'Those clothes are not my style.',
+    tags: ['appearance', 'fashion']
+  },
+  {
+    id: 'vocab-1382',
+    word: '스티커',
+    meaning: 'sticker',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '공책에 귀여운 스티커를 붙였습니다.',
+    exampleMeaning: 'I put a cute sticker on my notebook.',
+    tags: ['object', 'daily-life']
+  },
+  {
+    id: 'vocab-1383',
+    word: '스프',
+    meaning: 'soup',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아침에 따뜻한 스프를 먹었습니다.',
+    exampleMeaning: 'I ate warm soup in the morning.',
+    tags: ['food', 'meal']
+  },
+  {
+    id: 'vocab-1384',
+    word: '스피커',
+    meaning: 'speaker',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '스피커에서 음악이 나옵니다.',
+    exampleMeaning: 'Music comes from the speaker.',
+    tags: ['technology', 'sound']
+  },
+  {
+    id: 'vocab-1385',
+    word: '슬리퍼',
+    meaning: 'slippers',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '집에서 편한 슬리퍼를 신습니다.',
+    exampleMeaning: 'I wear comfortable slippers at home.',
+    tags: ['clothing', 'home']
+  },
+  {
+    id: 'vocab-1386',
+    word: '슬픔',
+    meaning: 'sadness',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 소식을 듣고 슬픔을 느꼈습니다.',
+    exampleMeaning: 'I felt sadness after hearing the news.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1387',
+    word: '습기',
+    meaning: 'moisture',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '방에 습기가 많아서 창문을 열었습니다.',
+    exampleMeaning: 'There was a lot of moisture in the room, so I opened the window.',
+    tags: ['weather', 'home']
+  },
+  {
+    id: 'vocab-1388',
+    word: '습도',
+    meaning: 'humidity',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '오늘은 습도가 높습니다.',
+    exampleMeaning: 'The humidity is high today.',
+    tags: ['weather', 'measurement']
+  },
+  {
+    id: 'vocab-1389',
+    word: '승강기',
+    meaning: 'elevator',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '승강기를 타고 5층으로 갔습니다.',
+    exampleMeaning: 'I took the elevator to the fifth floor.',
+    tags: ['building', 'transportation']
+  },
+  {
+    id: 'vocab-1390',
+    word: '승객',
+    meaning: 'passenger',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '버스에 승객이 많았습니다.',
+    exampleMeaning: 'There were many passengers on the bus.',
+    tags: ['people', 'transportation']
+  },
+  {
+    id: 'vocab-1391',
+    word: '승리',
+    meaning: 'victory; win',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '우리 팀이 승리를 했습니다.',
+    exampleMeaning: 'Our team won a victory.',
+    tags: ['sports', 'result']
+  },
+  {
+    id: 'vocab-1392',
+    word: '승용차',
+    meaning: 'passenger car',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아버지는 승용차로 출근하십니다.',
+    exampleMeaning: 'My father goes to work by passenger car.',
+    tags: ['transportation', 'vehicle']
+  },
+  {
+    id: 'vocab-1393',
+    word: '승진',
+    meaning: 'promotion',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '친구가 회사에서 승진을 했습니다.',
+    exampleMeaning: 'My friend got a promotion at the company.',
+    tags: ['work', 'result']
+  },
+  {
+    id: 'vocab-1394',
+    word: '승차',
+    meaning: 'getting on a vehicle',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '승차 전에 표를 확인하세요.',
+    exampleMeaning: 'Please check your ticket before getting on.',
+    tags: ['transportation', 'action']
+  },
+  {
+    id: 'vocab-1395',
+    word: '시각',
+    meaning: 'time; viewpoint',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '출발 시각을 확인했습니다.',
+    exampleMeaning: 'I checked the departure time.',
+    tags: ['time', 'thinking']
+  },
+  {
+    id: 'vocab-1396',
+    word: '시대',
+    meaning: 'age; era',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '우리는 디지털 시대에 살고 있습니다.',
+    exampleMeaning: 'We live in the digital age.',
+    tags: ['time', 'society']
+  },
+  {
+    id: 'vocab-1397',
+    word: '시도',
+    meaning: 'try; attempt',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '새로운 시도를 해 보았습니다.',
+    exampleMeaning: 'I tried a new attempt.',
+    tags: ['action', 'challenge']
+  },
+  {
+    id: 'vocab-1398',
+    word: '시력',
+    meaning: 'eyesight',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '시력이 나빠져서 안경을 썼습니다.',
+    exampleMeaning: 'My eyesight got worse, so I wore glasses.',
+    tags: ['health', 'body']
+  },
+  {
+    id: 'vocab-1399',
+    word: '시리다',
+    meaning: 'to feel cold or sore',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '찬물을 마시니 이가 시립니다.',
+    exampleMeaning: 'My teeth feel sore when I drink cold water.',
+    tags: ['body', 'feeling']
+  },
+  {
+    id: 'vocab-1400',
+    word: '시부모님',
+    meaning: 'husband’s parents',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '주말에 시부모님 댁에 갔습니다.',
+    exampleMeaning: 'I went to my husband’s parents’ house on the weekend.',
+    tags: ['family', 'people']
+  },
+  {
+    id: 'vocab-1401',
+    word: '시스템',
+    meaning: 'system',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '새 시스템을 사용하기 시작했습니다.',
+    exampleMeaning: 'We started using the new system.',
+    tags: ['technology', 'work']
+  },
+  {
+    id: 'vocab-1402',
+    word: '시아버지',
+    meaning: 'father-in-law',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '시아버지께 선물을 드렸습니다.',
+    exampleMeaning: 'I gave a gift to my father-in-law.',
+    tags: ['family', 'people']
+  },
+  {
+    id: 'vocab-1403',
+    word: '시어머니',
+    meaning: 'mother-in-law',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '시어머니와 함께 음식을 만들었습니다.',
+    exampleMeaning: 'I cooked food with my mother-in-law.',
+    tags: ['family', 'people']
+  },
+  {
+    id: 'vocab-1404',
+    word: '시외버스',
+    meaning: 'intercity bus',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '부산까지 시외버스를 탔습니다.',
+    exampleMeaning: 'I took an intercity bus to Busan.',
+    tags: ['transportation', 'travel']
+  },
+  {
+    id: 'vocab-1405',
+    word: '시인',
+    meaning: 'poet',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 시인은 아름다운 시를 썼습니다.',
+    exampleMeaning: 'The poet wrote a beautiful poem.',
+    tags: ['person', 'literature']
+  },
+  {
+    id: 'vocab-1406',
+    word: '시집',
+    meaning: 'poem book; husband\'s home',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '도서관에서 시집을 빌렸습니다.',
+    exampleMeaning: 'I borrowed a poem book from the library.',
+    tags: ['book', 'literature']
+  },
+  {
+    id: 'vocab-1407',
+    word: '시집가다',
+    meaning: 'to get married and go to husband\'s family',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '언니는 작년에 시집갔습니다.',
+    exampleMeaning: 'My older sister got married last year.',
+    tags: ['marriage', 'family']
+  },
+  {
+    id: 'vocab-1408',
+    word: '시청각실',
+    meaning: 'audio-video room',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '수업은 시청각실에서 합니다.',
+    exampleMeaning: 'The class is in the audio-video room.',
+    tags: ['school', 'place']
+  },
+  {
+    id: 'vocab-1409',
+    word: '시청자',
+    meaning: 'viewer',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 방송은 시청자가 많습니다.',
+    exampleMeaning: 'That show has many viewers.',
+    tags: ['media', 'person']
+  },
+  {
+    id: 'vocab-1410',
+    word: '시합',
+    meaning: 'match; game',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '오늘 축구 시합이 있습니다.',
+    exampleMeaning: 'There is a soccer match today.',
+    tags: ['sports', 'competition']
+  },
+  {
+    id: 'vocab-1411',
+    word: '시험공부',
+    meaning: 'study for a test',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '저녁에 시험공부를 했습니다.',
+    exampleMeaning: 'I studied for a test in the evening.',
+    tags: ['study', 'test']
+  },
+  {
+    id: 'vocab-1412',
+    word: '식',
+    meaning: 'ceremony; way',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '졸업식은 다음 주입니다.',
+    exampleMeaning: 'The graduation ceremony is next week.',
+    tags: ['event', 'way']
+  },
+  {
+    id: 'vocab-1413',
+    word: '식구',
+    meaning: 'family member',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '우리 집 식구는 네 명입니다.',
+    exampleMeaning: 'There are four people in my family.',
+    tags: ['family', 'people']
+  },
+  {
+    id: 'vocab-1414',
+    word: '식료품',
+    meaning: 'food goods',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '마트에서 식료품을 샀습니다.',
+    exampleMeaning: 'I bought food goods at the mart.',
+    tags: ['food', 'shopping']
+  },
+  {
+    id: 'vocab-1415',
+    word: '식물',
+    meaning: 'plant',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '방에 작은 식물이 있습니다.',
+    exampleMeaning: 'There is a small plant in the room.',
+    tags: ['nature', 'plant']
+  },
+  {
+    id: 'vocab-1416',
+    word: '식물원',
+    meaning: 'botanical garden',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '주말에 식물원에 갔습니다.',
+    exampleMeaning: 'I went to the botanical garden on the weekend.',
+    tags: ['nature', 'place']
+  },
+  {
+    id: 'vocab-1417',
+    word: '식비',
+    meaning: 'food cost',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이번 달 식비가 많이 들었습니다.',
+    exampleMeaning: 'Food cost was high this month.',
+    tags: ['money', 'food']
+  },
+  {
+    id: 'vocab-1418',
+    word: '식생활',
+    meaning: 'eating life',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '건강한 식생활이 중요합니다.',
+    exampleMeaning: 'A healthy eating life is important.',
+    tags: ['health', 'food']
+  },
+  {
+    id: 'vocab-1419',
+    word: '식습관',
+    meaning: 'eating habit',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '좋은 식습관을 가져야 합니다.',
+    exampleMeaning: 'You should have good eating habits.',
+    tags: ['health', 'habit']
+  },
+  {
+    id: 'vocab-1420',
+    word: '식욕',
+    meaning: 'appetite',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아파서 식욕이 없습니다.',
+    exampleMeaning: 'I am sick, so I have no appetite.',
+    tags: ['health', 'food']
+  },
+  {
+    id: 'vocab-1421',
+    word: '식용유',
+    meaning: 'cooking oil',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '요리에 식용유를 조금 넣었습니다.',
+    exampleMeaning: 'I put a little cooking oil in the food.',
+    tags: ['food', 'cooking']
+  },
+  {
+    id: 'vocab-1422',
+    word: '식초',
+    meaning: 'vinegar',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '냉면에 식초를 넣었습니다.',
+    exampleMeaning: 'I put vinegar in the cold noodles.',
+    tags: ['food', 'cooking']
+  },
+  {
+    id: 'vocab-1423',
+    word: '식품',
+    meaning: 'food product',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '건강식품을 선물로 받았습니다.',
+    exampleMeaning: 'I got a health food product as a gift.',
+    tags: ['food', 'product']
+  },
+  {
+    id: 'vocab-1424',
+    word: '식후',
+    meaning: 'after a meal',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 약은 식후에 드세요.',
+    exampleMeaning: 'Please take this medicine after a meal.',
+    tags: ['time', 'food']
+  },
+  {
+    id: 'vocab-1425',
+    word: '신고',
+    meaning: 'report',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '분실 신고를 했습니다.',
+    exampleMeaning: 'I made a lost item report.',
+    tags: ['public', 'action']
+  },
+  {
+    id: 'vocab-1426',
+    word: '신기다',
+    meaning: 'to put shoes on someone',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '아이에게 신발을 신겼습니다.',
+    exampleMeaning: 'I put shoes on the child.',
+    tags: ['action', 'clothes']
+  },
+  {
+    id: 'vocab-1427',
+    word: '신기술',
+    meaning: 'new technology',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 회사는 신기술을 개발했습니다.',
+    exampleMeaning: 'The company developed new technology.',
+    tags: ['technology', 'business']
+  },
+  {
+    id: 'vocab-1428',
+    word: '신기하다',
+    meaning: 'to be amazing; interesting',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '그 마술은 정말 신기했습니다.',
+    exampleMeaning: 'That magic was really amazing.',
+    tags: ['feeling', 'description']
+  },
+  {
+    id: 'vocab-1429',
+    word: '신나다',
+    meaning: 'to be excited',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '여행 생각에 신났습니다.',
+    exampleMeaning: 'I was excited about the trip.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1430',
+    word: '신도시',
+    meaning: 'new city',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그곳에 신도시가 생겼습니다.',
+    exampleMeaning: 'A new city was built there.',
+    tags: ['city', 'place']
+  },
+  {
+    id: 'vocab-1431',
+    word: '신랑',
+    meaning: 'groom; husband',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '신랑이 손님들에게 인사했습니다.',
+    exampleMeaning: 'The groom greeted the guests.',
+    tags: ['marriage', 'person']
+  },
+  {
+    id: 'vocab-1432',
+    word: '신랑감',
+    meaning: 'good man to marry',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 좋은 신랑감으로 보입니다.',
+    exampleMeaning: 'He seems like a good man to marry.',
+    tags: ['marriage', 'person']
+  },
+  {
+    id: 'vocab-1433',
+    word: '신문사',
+    meaning: 'newspaper company',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 신문사에서 일합니다.',
+    exampleMeaning: 'He works at a newspaper company.',
+    tags: ['media', 'work']
+  },
+  {
+    id: 'vocab-1434',
+    word: '신문지',
+    meaning: 'newspaper paper',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '신문지로 상자를 감쌌습니다.',
+    exampleMeaning: 'I wrapped the box with newspaper paper.',
+    tags: ['media', 'object']
+  },
+  {
+    id: 'vocab-1435',
+    word: '신부',
+    meaning: 'bride; priest',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '신부가 하얀 드레스를 입었습니다.',
+    exampleMeaning: 'The bride wore a white dress.',
+    tags: ['marriage', 'person']
+  },
+  {
+    id: 'vocab-1436',
+    word: '신분증',
+    meaning: 'ID card',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '입장할 때 신분증이 필요합니다.',
+    exampleMeaning: 'You need an ID card when you enter.',
+    tags: ['document', 'daily life']
+  },
+  {
+    id: 'vocab-1437',
+    word: '신상품',
+    meaning: 'new product',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '가게에 신상품이 나왔습니다.',
+    exampleMeaning: 'A new product came out at the store.',
+    tags: ['shopping', 'product']
+  },
+  {
+    id: 'vocab-1438',
+    word: '신선하다',
+    meaning: 'to be fresh',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '이 채소는 아주 신선합니다.',
+    exampleMeaning: 'This vegetable is very fresh.',
+    tags: ['food', 'description']
+  },
+  {
+    id: 'vocab-1439',
+    word: '신세대',
+    meaning: 'new generation',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '신세대는 새로운 문화를 만듭니다.',
+    exampleMeaning: 'The new generation makes new culture.',
+    tags: ['society', 'people']
+  },
+  {
+    id: 'vocab-1440',
+    word: '신용',
+    meaning: 'credit; trust',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '신용은 돈보다 중요할 때가 있습니다.',
+    exampleMeaning: 'Trust can be more important than money.',
+    tags: ['money', 'relationship']
+  },
+  {
+    id: 'vocab-1441',
+    word: '신입생',
+    meaning: 'new student',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '신입생 환영회가 열렸습니다.',
+    exampleMeaning: 'A welcome party for new students was held.',
+    tags: ['school', 'person']
+  },
+  {
+    id: 'vocab-1442',
+    word: '신제품',
+    meaning: 'new product',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '회사가 신제품을 발표했습니다.',
+    exampleMeaning: 'The company announced a new product.',
+    tags: ['business', 'product']
+  },
+  {
+    id: 'vocab-1443',
+    word: '신청자',
+    meaning: 'applicant',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 프로그램은 신청자가 많습니다.',
+    exampleMeaning: 'This program has many applicants.',
+    tags: ['person', 'application']
+  },
+  {
+    id: 'vocab-1444',
+    word: '신체',
+    meaning: 'body',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '운동은 신체 건강에 좋습니다.',
+    exampleMeaning: 'Exercise is good for body health.',
+    tags: ['body', 'health']
+  },
+  {
+    id: 'vocab-1445',
+    word: '신형',
+    meaning: 'new model',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '신형 휴대폰을 샀습니다.',
+    exampleMeaning: 'I bought a new model phone.',
+    tags: ['product', 'technology']
+  },
+  {
+    id: 'vocab-1446',
+    word: '신호',
+    meaning: 'signal; traffic light',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '빨간 신호에서 멈추세요.',
+    exampleMeaning: 'Stop at the red traffic light.',
+    tags: ['traffic', 'sign']
+  },
+  {
+    id: 'vocab-1447',
+    word: '신혼',
+    meaning: 'newly married life',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그들은 신혼을 즐기고 있습니다.',
+    exampleMeaning: 'They are enjoying newly married life.',
+    tags: ['marriage', 'life']
+  },
+  {
+    id: 'vocab-1448',
+    word: '신혼부부',
+    meaning: 'newly married couple',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '옆집에 신혼부부가 이사 왔습니다.',
+    exampleMeaning: 'A newly married couple moved in next door.',
+    tags: ['marriage', 'people']
+  },
+  {
+    id: 'vocab-1449',
+    word: '신혼여행',
+    meaning: 'honeymoon',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그들은 제주도로 신혼여행을 갔습니다.',
+    exampleMeaning: 'They went to Jeju for their honeymoon.',
+    tags: ['marriage', 'travel']
+  },
+  {
+    id: 'vocab-1450',
+    word: '싣다',
+    meaning: 'to load; to carry',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '트럭에 짐을 실었습니다.',
+    exampleMeaning: 'I loaded bags onto the truck.',
+    tags: ['action', 'transportation']
+  },
+  {
+    id: 'vocab-1451',
+    word: '실',
+    meaning: 'thread; room',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '바늘에 실을 끼웠습니다.',
+    exampleMeaning: 'I put thread through the needle.',
+    tags: ['object', 'place']
+  },
+  {
+    id: 'vocab-1452',
+    word: '실내',
+    meaning: 'indoors',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '비가 와서 실내에서 운동했습니다.',
+    exampleMeaning: 'It rained, so I exercised indoors.',
+    tags: ['place', 'daily life']
+  },
+  {
+    id: 'vocab-1453',
+    word: '실력',
+    meaning: 'skill; ability',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '한국어 실력이 많이 늘었습니다.',
+    exampleMeaning: 'My Korean skill improved a lot.',
+    tags: ['ability', 'study']
+  },
+  {
+    id: 'vocab-1454',
+    word: '실망',
+    meaning: 'disappointment',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '나쁜 결과 때문에 실망했습니다.',
+    exampleMeaning: 'I was disappointed because of the bad result.',
+    tags: ['emotion', 'feeling']
+  },
+  {
+    id: 'vocab-1455',
+    word: '실시',
+    meaning: 'carrying out; doing',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '내일 설문조사를 실시합니다.',
+    exampleMeaning: 'We will do a survey tomorrow.',
+    tags: ['action', 'work']
+  },
+  {
+    id: 'vocab-1456',
+    word: '실용적',
+    meaning: 'practical; useful',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 가방은 실용적입니다.',
+    exampleMeaning: 'This bag is practical.',
+    tags: ['description', 'use']
+  },
+  {
+    id: 'vocab-1457',
+    word: '실은',
+    meaning: 'actually; in fact',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '실은 저도 그 사실을 몰랐습니다.',
+    exampleMeaning: 'Actually, I did not know that fact either.',
+    tags: ['adverb', 'expression']
+  },
+  {
+    id: 'vocab-1458',
+    word: '실제',
+    meaning: 'reality; actual thing',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '실제 상황은 더 어려웠습니다.',
+    exampleMeaning: 'The real situation was harder.',
+    tags: ['reality', 'state']
+  },
+  {
+    id: 'vocab-1459',
+    word: '실제로',
+    meaning: 'really; in fact',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '그는 실제로 매우 친절합니다.',
+    exampleMeaning: 'He is really very kind.',
+    tags: ['adverb', 'reality']
+  },
+  {
+    id: 'vocab-1460',
+    word: '실종',
+    meaning: 'missing',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '실종 신고가 들어왔습니다.',
+    exampleMeaning: 'A missing person report came in.',
+    tags: ['incident', 'public']
+  },
+  {
+    id: 'vocab-1461',
+    word: '실종자',
+    meaning: 'missing person',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '경찰이 실종자를 찾고 있습니다.',
+    exampleMeaning: 'The police are looking for the missing person.',
+    tags: ['person', 'incident']
+  },
+  {
+    id: 'vocab-1462',
+    word: '실천',
+    meaning: 'practice; action',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '계획보다 실천이 더 중요합니다.',
+    exampleMeaning: 'Action is more important than a plan.',
+    tags: ['action', 'life']
+  },
+  {
+    id: 'vocab-1463',
+    word: '실컷',
+    meaning: 'as much as one wants',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '주말에 잠을 실컷 잤습니다.',
+    exampleMeaning: 'I slept as much as I wanted on the weekend.',
+    tags: ['adverb', 'daily life']
+  },
+  {
+    id: 'vocab-1464',
+    word: '실크',
+    meaning: 'silk',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 스카프는 실크로 만들었습니다.',
+    exampleMeaning: 'This scarf is made of silk.',
+    tags: ['clothes', 'material']
+  },
+  {
+    id: 'vocab-1465',
+    word: '실패',
+    meaning: 'failure',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '실패를 두려워하지 마세요.',
+    exampleMeaning: 'Do not be afraid of failure.',
+    tags: ['result', 'life']
+  },
+  {
+    id: 'vocab-1466',
+    word: '실험',
+    meaning: 'experiment',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '학생들이 과학 실험을 했습니다.',
+    exampleMeaning: 'The students did a science experiment.',
+    tags: ['science', 'study']
+  },
+  {
+    id: 'vocab-1467',
+    word: '실험실',
+    meaning: 'laboratory',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '선생님은 실험실에 계십니다.',
+    exampleMeaning: 'The teacher is in the laboratory.',
+    tags: ['science', 'place']
+  },
+  {
+    id: 'vocab-1468',
+    word: '싫증',
+    meaning: 'bored feeling; tired of something',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '같은 음식에 싫증이 났습니다.',
+    exampleMeaning: 'I got tired of the same food.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1469',
+    word: '심각하다',
+    meaning: 'to be serious',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '문제가 생각보다 심각합니다.',
+    exampleMeaning: 'The problem is more serious than I thought.',
+    tags: ['description', 'problem']
+  },
+  {
+    id: 'vocab-1470',
+    word: '심다',
+    meaning: 'to plant',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '마당에 나무를 심었습니다.',
+    exampleMeaning: 'I planted a tree in the yard.',
+    tags: ['nature', 'action']
+  },
+  {
+    id: 'vocab-1471',
+    word: '심리학',
+    meaning: 'psychology',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 대학에서 심리학을 공부합니다.',
+    exampleMeaning: 'He studies psychology at university.',
+    tags: ['study', 'science']
+  },
+  {
+    id: 'vocab-1472',
+    word: '심리학자',
+    meaning: 'psychologist',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '심리학자가 아이와 이야기했습니다.',
+    exampleMeaning: 'The psychologist talked with the child.',
+    tags: ['person', 'job']
+  },
+  {
+    id: 'vocab-1473',
+    word: '심부름',
+    meaning: 'errand',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '어머니 심부름으로 우유를 샀습니다.',
+    exampleMeaning: 'I bought milk as an errand for my mother.',
+    tags: ['daily life', 'action']
+  },
+  {
+    id: 'vocab-1474',
+    word: '심심하다',
+    meaning: 'to be bored',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '집에 혼자 있어서 심심합니다.',
+    exampleMeaning: 'I am bored because I am home alone.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1475',
+    word: '심장',
+    meaning: 'heart',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '운동은 심장에 좋습니다.',
+    exampleMeaning: 'Exercise is good for the heart.',
+    tags: ['body', 'health']
+  },
+  {
+    id: 'vocab-1476',
+    word: '심장병',
+    meaning: 'heart disease',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 심장병 때문에 병원에 갔습니다.',
+    exampleMeaning: 'He went to the hospital because of heart disease.',
+    tags: ['health', 'illness']
+  },
+  {
+    id: 'vocab-1477',
+    word: '싱싱하다',
+    meaning: 'to be fresh',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '이 생선은 아주 싱싱합니다.',
+    exampleMeaning: 'This fish is very fresh.',
+    tags: ['food', 'description']
+  },
+  {
+    id: 'vocab-1478',
+    word: '싱크대',
+    meaning: 'kitchen sink',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그릇을 싱크대에 놓았습니다.',
+    exampleMeaning: 'I put the dishes in the kitchen sink.',
+    tags: ['home', 'kitchen']
+  },
+  {
+    id: 'vocab-1479',
+    word: '싸구려',
+    meaning: 'cheap thing',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 시계는 싸구려처럼 보입니다.',
+    exampleMeaning: 'This watch looks like a cheap thing.',
+    tags: ['shopping', 'description']
+  },
+  {
+    id: 'vocab-1480',
+    word: '싸움',
+    meaning: 'fight',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '두 사람 사이에 싸움이 났습니다.',
+    exampleMeaning: 'A fight happened between the two people.',
+    tags: ['conflict', 'action']
+  },
+  {
+    id: 'vocab-1481',
+    word: '쌀쌀하다',
+    meaning: 'to be chilly',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '아침 공기가 쌀쌀합니다.',
+    exampleMeaning: 'The morning air is chilly.',
+    tags: ['weather', 'description']
+  },
+  {
+    id: 'vocab-1482',
+    word: '쌍둥이',
+    meaning: 'twins',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그 형제는 쌍둥이입니다.',
+    exampleMeaning: 'The brothers are twins.',
+    tags: ['family', 'people']
+  },
+  {
+    id: 'vocab-1483',
+    word: '쌓다',
+    meaning: 'to pile up; to build up',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '책을 책상 위에 쌓았습니다.',
+    exampleMeaning: 'I piled books on the desk.',
+    tags: ['action', 'object']
+  },
+  {
+    id: 'vocab-1484',
+    word: '쏘다',
+    meaning: 'to shoot; to treat someone',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '친구가 저녁을 쐈습니다.',
+    exampleMeaning: 'My friend treated me to dinner.',
+    tags: ['action', 'expression']
+  },
+  {
+    id: 'vocab-1485',
+    word: '쏟다',
+    meaning: 'to spill; to pour',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '컵의 물을 바닥에 쏟았습니다.',
+    exampleMeaning: 'I spilled the water from the cup on the floor.',
+    tags: ['action', 'daily life']
+  },
+  {
+    id: 'vocab-1486',
+    word: '쏟아지다',
+    meaning: 'to pour down; to spill out',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '비가 갑자기 쏟아졌습니다.',
+    exampleMeaning: 'Rain suddenly poured down.',
+    tags: ['weather', 'action']
+  },
+  {
+    id: 'vocab-1487',
+    word: '쑥스럽다',
+    meaning: 'to feel shy; awkward',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '칭찬을 들으니 쑥스러웠습니다.',
+    exampleMeaning: 'I felt shy when I heard the praise.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1488',
+    word: '쓰러지다',
+    meaning: 'to fall down; collapse',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '그는 너무 피곤해서 쓰러졌습니다.',
+    exampleMeaning: 'He was so tired that he collapsed.',
+    tags: ['action', 'health']
+  },
+  {
+    id: 'vocab-1489',
+    word: '쓰레기통',
+    meaning: 'trash can',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '휴지를 쓰레기통에 버리세요.',
+    exampleMeaning: 'Please throw the tissue in the trash can.',
+    tags: ['object', 'daily life']
+  },
+  {
+    id: 'vocab-1490',
+    word: '쓸데없다',
+    meaning: 'to be useless',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '쓸데없는 걱정은 하지 마세요.',
+    exampleMeaning: 'Do not have useless worries.',
+    tags: ['description', 'use']
+  },
+  {
+    id: 'vocab-1491',
+    word: '쓸데없이',
+    meaning: 'uselessly; for no reason',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '쓸데없이 돈을 쓰지 마세요.',
+    exampleMeaning: 'Do not spend money for no reason.',
+    tags: ['adverb', 'use']
+  },
+  {
+    id: 'vocab-1492',
+    word: '쓸쓸하다',
+    meaning: 'to feel lonely',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '혼자 있는 밤이 쓸쓸했습니다.',
+    exampleMeaning: 'The night alone felt lonely.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1493',
+    word: '씌우다',
+    meaning: 'to put on; to cover',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '아이에게 모자를 씌웠습니다.',
+    exampleMeaning: 'I put a hat on the child.',
+    tags: ['action', 'clothes']
+  },
+  {
+    id: 'vocab-1494',
+    word: '씨름',
+    meaning: 'Korean wrestling',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '명절에 씨름 경기를 봤습니다.',
+    exampleMeaning: 'I watched a Korean wrestling match on the holiday.',
+    tags: ['sports', 'culture']
+  },
+  {
+    id: 'vocab-1495',
+    word: '씩씩하다',
+    meaning: 'to be brave and strong',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '그 아이는 씩씩하게 대답했습니다.',
+    exampleMeaning: 'The child answered bravely.',
+    tags: ['personality', 'description']
+  },
+  {
+    id: 'vocab-1496',
+    word: '아깝다',
+    meaning: 'to be a waste; too good to lose',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '음식을 버리기 아깝습니다.',
+    exampleMeaning: 'It is a waste to throw away food.',
+    tags: ['feeling', 'value']
+  },
+  {
+    id: 'vocab-1497',
+    word: '아끼다',
+    meaning: 'to save; to cherish',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '물을 아껴 써야 합니다.',
+    exampleMeaning: 'We should save water.',
+    tags: ['action', 'value']
+  },
+  {
+    id: 'vocab-1498',
+    word: '아나운서',
+    meaning: 'announcer',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 뉴스 아나운서입니다.',
+    exampleMeaning: 'He is a news announcer.',
+    tags: ['job', 'media']
+  },
+  {
+    id: 'vocab-1499',
+    word: '아니',
+    meaning: 'no; not',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '아니, 저는 그 말을 하지 않았습니다.',
+    exampleMeaning: 'No, I did not say that.',
+    tags: ['expression', 'adverb']
+  },
+  {
+    id: 'vocab-1500',
+    word: '아동',
+    meaning: 'child',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아동 도서는 2층에 있습니다.',
+    exampleMeaning: 'Children\'s books are on the second floor.',
+    tags: ['people', 'age']
+  },
+  {
+    id: 'vocab-1501',
+    word: '아랫사람',
+    meaning: 'person of lower position',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아랫사람에게도 예의 있게 말해야 합니다.',
+    exampleMeaning: 'You should speak politely to people below you too.',
+    tags: ['people', 'relationship']
+  },
+  {
+    id: 'vocab-1502',
+    word: '아르바이트',
+    meaning: 'part-time job',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '방학 동안 아르바이트를 했습니다.',
+    exampleMeaning: 'I had a part-time job during vacation.',
+    tags: ['work', 'job']
+  },
+  {
+    id: 'vocab-1503',
+    word: '아리랑',
+    meaning: 'Arirang; Korean folk song',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '공연에서 아리랑을 들었습니다.',
+    exampleMeaning: 'I heard Arirang at the performance.',
+    tags: ['culture', 'music']
+  },
+  {
+    id: 'vocab-1504',
+    word: '아무것',
+    meaning: 'anything; nothing',
+    partOfSpeech: 'pronoun',
+    level: 'TOPIK II',
+    example: '저는 아무것도 먹지 않았습니다.',
+    exampleMeaning: 'I did not eat anything.',
+    tags: ['pronoun', 'expression']
+  },
+  {
+    id: 'vocab-1505',
+    word: '아무래도',
+    meaning: 'probably; after all',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '아무래도 비가 올 것 같습니다.',
+    exampleMeaning: 'It will probably rain.',
+    tags: ['adverb', 'guess']
+  },
+  {
+    id: 'vocab-1506',
+    word: '아무런',
+    meaning: 'any; no',
+    partOfSpeech: 'determiner',
+    level: 'TOPIK II',
+    example: '아무런 문제가 없습니다.',
+    exampleMeaning: 'There is no problem.',
+    tags: ['determiner', 'expression']
+  },
+  {
+    id: 'vocab-1507',
+    word: '아무리',
+    meaning: 'no matter how',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '아무리 바빠도 밥은 먹어야 합니다.',
+    exampleMeaning: 'No matter how busy you are, you should eat.',
+    tags: ['adverb', 'grammar']
+  },
+  {
+    id: 'vocab-1508',
+    word: '아무튼',
+    meaning: 'anyway',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '아무튼 다시 시작해 봅시다.',
+    exampleMeaning: 'Anyway, let us start again.',
+    tags: ['adverb', 'expression']
+  },
+  {
+    id: 'vocab-1509',
+    word: '아쉬움',
+    meaning: 'sad feeling; regret',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '경기가 끝나자 아쉬움이 남았습니다.',
+    exampleMeaning: 'After the game ended, regret remained.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1510',
+    word: '아쉽다',
+    meaning: 'to feel sorry; to be sad about missing something',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '친구와 헤어져서 아쉽습니다.',
+    exampleMeaning: 'I feel sad because I parted from my friend.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1511',
+    word: '아이디',
+    meaning: 'ID; username',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아이디와 비밀번호를 입력하세요.',
+    exampleMeaning: 'Please enter your ID and password.',
+    tags: ['technology', 'internet']
+  },
+  {
+    id: 'vocab-1512',
+    word: '아이디어',
+    meaning: 'idea',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '좋은 아이디어가 떠올랐습니다.',
+    exampleMeaning: 'A good idea came to mind.',
+    tags: ['thought', 'work']
+  },
+  {
+    id: 'vocab-1513',
+    word: '아침저녁',
+    meaning: 'morning and evening',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아침저녁으로 날씨가 쌀쌀합니다.',
+    exampleMeaning: 'The weather is chilly in the morning and evening.',
+    tags: ['time', 'daily life']
+  },
+  {
+    id: 'vocab-1514',
+    word: '아픔',
+    meaning: 'pain',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '시간이 지나도 아픔이 남았습니다.',
+    exampleMeaning: 'The pain remained even after time passed.',
+    tags: ['health', 'feeling']
+  },
+  {
+    id: 'vocab-1515',
+    word: '악몽',
+    meaning: 'bad dream',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '어젯밤에 악몽을 꾸었습니다.',
+    exampleMeaning: 'I had a bad dream last night.',
+    tags: ['sleep', 'feeling']
+  },
+  {
+    id: 'vocab-1516',
+    word: '악수',
+    meaning: 'handshake',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '두 사람은 만나서 악수를 했습니다.',
+    exampleMeaning: 'The two people met and shook hands.',
+    tags: ['greeting', 'action']
+  },
+  {
+    id: 'vocab-1517',
+    word: '안개',
+    meaning: 'fog',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '아침에 안개가 많이 꼈습니다.',
+    exampleMeaning: 'There was a lot of fog in the morning.',
+    tags: ['weather', 'nature']
+  },
+  {
+    id: 'vocab-1518',
+    word: '안과',
+    meaning: 'eye clinic',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '눈이 아파서 안과에 갔습니다.',
+    exampleMeaning: 'My eye hurt, so I went to the eye clinic.',
+    tags: ['health', 'place']
+  },
+  {
+    id: 'vocab-1519',
+    word: '안내문',
+    meaning: 'notice; guide text',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '입구에 안내문이 붙어 있습니다.',
+    exampleMeaning: 'There is a notice at the entrance.',
+    tags: ['document', 'notice']
+  },
+  {
+    id: 'vocab-1520',
+    word: '안내서',
+    meaning: 'guidebook',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '여행 안내서를 읽었습니다.',
+    exampleMeaning: 'I read the travel guidebook.',
+    tags: ['book', 'travel']
+  },
+  {
+    id: 'vocab-1521',
+    word: '안내소',
+    meaning: 'information desk',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '길을 몰라서 안내소에 물었습니다.',
+    exampleMeaning: 'I did not know the way, so I asked at the information desk.',
+    tags: ['place', 'travel']
+  },
+  {
+    id: 'vocab-1522',
+    word: '안되다',
+    meaning: 'to not work; to feel sorry',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '컴퓨터가 안돼서 고쳤습니다.',
+    exampleMeaning: 'The computer did not work, so I fixed it.',
+    tags: ['problem', 'feeling']
+  },
+  {
+    id: 'vocab-1523',
+    word: '안방',
+    meaning: 'main room',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '부모님은 안방에서 주무십니다.',
+    exampleMeaning: 'My parents sleep in the main room.',
+    tags: ['home', 'place']
+  },
+  {
+    id: 'vocab-1524',
+    word: '안부',
+    meaning: 'how someone is doing',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '친구에게 안부를 물었습니다.',
+    exampleMeaning: 'I asked my friend how they were doing.',
+    tags: ['relationship', 'greeting']
+  },
+  {
+    id: 'vocab-1525',
+    word: '안색',
+    meaning: 'face color; look',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '오늘 안색이 좋아 보입니다.',
+    exampleMeaning: 'Your face looks good today.',
+    tags: ['body', 'health']
+  },
+  {
+    id: 'vocab-1526',
+    word: '안심',
+    meaning: 'relief; peace of mind',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '좋은 소식을 듣고 안심했습니다.',
+    exampleMeaning: 'I felt relieved after hearing the good news.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1527',
+    word: '안약',
+    meaning: 'eye drops',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '눈이 아파서 안약을 넣었습니다.',
+    exampleMeaning: 'My eye hurt, so I used eye drops.',
+    tags: ['health', 'medicine']
+  },
+  {
+    id: 'vocab-1528',
+    word: '안전선',
+    meaning: 'safety line',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '지하철에서는 안전선 뒤에 서세요.',
+    exampleMeaning: 'At the subway, stand behind the safety line.',
+    tags: ['safety', 'traffic']
+  },
+  {
+    id: 'vocab-1529',
+    word: '안주',
+    meaning: 'food with alcohol',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '술과 함께 안주를 주문했습니다.',
+    exampleMeaning: 'I ordered food with the alcohol.',
+    tags: ['food', 'drink']
+  },
+  {
+    id: 'vocab-1530',
+    word: '안쪽',
+    meaning: 'inside part',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '가방 안쪽에 지갑이 있습니다.',
+    exampleMeaning: 'The wallet is inside the bag.',
+    tags: ['place', 'position']
+  },
+  {
+    id: 'vocab-1531',
+    word: '안타깝다',
+    meaning: 'to feel sad; too bad',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '그 소식을 들으니 안타깝습니다.',
+    exampleMeaning: 'I feel sad after hearing that news.',
+    tags: ['feeling', 'emotion']
+  },
+  {
+    id: 'vocab-1532',
+    word: '앉히다',
+    meaning: 'to seat someone',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '아이를 의자에 앉혔습니다.',
+    exampleMeaning: 'I seated the child on the chair.',
+    tags: ['action', 'daily life']
+  },
+  {
+    id: 'vocab-1533',
+    word: '알',
+    meaning: 'egg; grain',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '새가 알을 낳았습니다.',
+    exampleMeaning: 'The bird laid an egg.',
+    tags: ['nature', 'object']
+  },
+  {
+    id: 'vocab-1534',
+    word: '알레르기',
+    meaning: 'allergy',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '저는 꽃가루 알레르기가 있습니다.',
+    exampleMeaning: 'I have a pollen allergy.',
+    tags: ['health', 'illness']
+  },
+  {
+    id: 'vocab-1535',
+    word: '알아듣다',
+    meaning: 'to understand by listening',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '선생님의 말을 알아들었습니다.',
+    exampleMeaning: 'I understood what the teacher said.',
+    tags: ['listening', 'study']
+  },
+  {
+    id: 'vocab-1536',
+    word: '알아보다',
+    meaning: 'to recognize; to check',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '오랜만에 만났지만 바로 알아봤습니다.',
+    exampleMeaning: 'We met after a long time, but I recognized him right away.',
+    tags: ['action', 'thinking']
+  },
+  {
+    id: 'vocab-1537',
+    word: '알아주다',
+    meaning: 'to understand; to recognize value',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '친구가 제 마음을 알아주었습니다.',
+    exampleMeaning: 'My friend understood my feelings.',
+    tags: ['relationship', 'feeling']
+  },
+  {
+    id: 'vocab-1538',
+    word: '알약',
+    meaning: 'pill',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '물과 함께 알약을 먹었습니다.',
+    exampleMeaning: 'I took the pill with water.',
+    tags: ['health', 'medicine']
+  },
+  {
+    id: 'vocab-1539',
+    word: '알코올',
+    meaning: 'alcohol',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 음료에는 알코올이 없습니다.',
+    exampleMeaning: 'This drink has no alcohol.',
+    tags: ['drink', 'health']
+  },
+  {
+    id: 'vocab-1540',
+    word: '암',
+    meaning: 'cancer',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '정기 검사는 암 예방에 도움이 됩니다.',
+    exampleMeaning: 'Regular checkups help prevent cancer.',
+    tags: ['health', 'illness']
+  },
+  {
+    id: 'vocab-1541',
+    word: '앞날',
+    meaning: 'future',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그의 앞날을 응원합니다.',
+    exampleMeaning: 'I support his future.',
+    tags: ['time', 'life']
+  },
+  {
+    id: 'vocab-1542',
+    word: '앞두다',
+    meaning: 'to have ahead',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '시험을 앞두고 열심히 공부했습니다.',
+    exampleMeaning: 'I studied hard with the test ahead.',
+    tags: ['time', 'event']
+  },
+  {
+    id: 'vocab-1543',
+    word: '앞뒤',
+    meaning: 'front and back',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '책의 앞뒤를 살펴봤습니다.',
+    exampleMeaning: 'I looked at the front and back of the book.',
+    tags: ['position', 'place']
+  },
+  {
+    id: 'vocab-1544',
+    word: '앞머리',
+    meaning: 'bangs; front hair',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '앞머리를 짧게 잘랐습니다.',
+    exampleMeaning: 'I cut my bangs short.',
+    tags: ['body', 'hair']
+  },
+  {
+    id: 'vocab-1545',
+    word: '애기',
+    meaning: 'baby',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '애기가 조용히 자고 있습니다.',
+    exampleMeaning: 'The baby is sleeping quietly.',
+    tags: ['people', 'age']
+  },
+  {
+    id: 'vocab-1546',
+    word: '애완견',
+    meaning: 'pet dog',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '저는 애완견과 산책합니다.',
+    exampleMeaning: 'I walk with my pet dog.',
+    tags: ['animal', 'pet']
+  },
+  {
+    id: 'vocab-1547',
+    word: '애완동물',
+    meaning: 'pet',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '우리 집에는 애완동물이 없습니다.',
+    exampleMeaning: 'There is no pet in my home.',
+    tags: ['animal', 'pet']
+  },
+  {
+    id: 'vocab-1548',
+    word: '애인',
+    meaning: 'lover; boyfriend or girlfriend',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그는 애인에게 꽃을 주었습니다.',
+    exampleMeaning: 'He gave flowers to his girlfriend.',
+    tags: ['relationship', 'person']
+  },
+  {
+    id: 'vocab-1549',
+    word: '애정',
+    meaning: 'love; care',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '부모님의 애정을 느꼈습니다.',
+    exampleMeaning: 'I felt my parents\' love.',
+    tags: ['feeling', 'relationship']
+  },
+  {
+    id: 'vocab-1550',
+    word: '애프터서비스',
+    meaning: 'after-sales service',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '이 회사는 애프터서비스가 좋습니다.',
+    exampleMeaning: 'This company has good after-sales service.',
+    tags: ['service', 'shopping']
+  },
+  {
+    id: 'vocab-1551',
+    word: '액자',
+    meaning: 'picture frame',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '사진을 액자에 넣었습니다.',
+    exampleMeaning: 'I put the photo in a picture frame.',
+    tags: ['object', 'home']
+  },
+  {
+    id: 'vocab-1552',
+    word: '앨범',
+    meaning: 'album',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '가족사진을 앨범에 넣었습니다.',
+    exampleMeaning: 'I put family photos in the album.',
+    tags: ['object', 'photo']
   }
 ];
