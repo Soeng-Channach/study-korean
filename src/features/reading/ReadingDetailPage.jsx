@@ -243,7 +243,10 @@ export default function ReadingDetailPage() {
 
       <Link
         to="/reading"
-        className="group sticky top-[52px] z-20 inline-flex items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-4 py-2 text-sm font-bold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900 sm:static sm:top-auto sm:z-auto"
+        className={[
+          'group sticky z-20 inline-flex items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-3.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900 sm:static sm:top-auto sm:z-auto',
+          revealed ? 'top-[69px]' : 'top-[52px]'
+        ].join(' ')}
       >
         <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
         Back to reading

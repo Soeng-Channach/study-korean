@@ -7,6 +7,7 @@ import { readLearningState, writeLearningState } from '../lib/db';
 const initialState = {
   completedGrammarIds: [],
   bookmarkedGrammarIds: [],
+  bookmarkedVocabIds: [],
   completedReadingIds: [],
   grammarCoreOverrides: {},
   vocabularyStats: {
@@ -28,6 +29,14 @@ function learningReducer(state, action) {
         bookmarkedGrammarIds: exists
           ? state.bookmarkedGrammarIds.filter((id) => id !== action.id)
           : [...state.bookmarkedGrammarIds, action.id]
+      };
+    }
+    case 'toggle-vocab-bookmark': {
+      const list = state.bookmarkedVocabIds || [];
+      const exists = list.includes(action.id);
+      return {
+        ...state,
+        bookmarkedVocabIds: exists ? list.filter((id) => id !== action.id) : [...list, action.id]
       };
     }
     case 'complete-grammar':
@@ -119,6 +128,7 @@ export function LearningProvider({ children }) {
       vocabProgress,
       dispatch,
       isGrammarBookmarked: (id) => state.bookmarkedGrammarIds.includes(id),
+      isVocabBookmarked: (id) => (state.bookmarkedVocabIds || []).includes(id),
       isGrammarCompleted: (id) => state.completedGrammarIds.includes(id),
       isReadingCompleted: (id) => state.completedReadingIds.includes(id),
       getGrammarCoreMeaning: (lesson) =>

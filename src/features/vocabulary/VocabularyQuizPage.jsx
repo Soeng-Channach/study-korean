@@ -5,6 +5,7 @@ import QuizOption from '../../components/learning/QuizOption';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import ProgressBar from '../../components/ui/ProgressBar';
+import SpeakButton from '../../components/ui/SpeakButton';
 import { useLearning } from '../../context/LearningContext';
 import { vocabulary } from '../../data/vocabulary';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -164,7 +165,15 @@ export default function VocabularyQuizPage() {
           <p className="text-[11px] font-bold uppercase tracking-wider text-coral-700 dark:text-coral-100">
             What does this word mean?
           </p>
-          <h2 className="mt-3 text-4xl font-bold text-slate-950 dark:text-white sm:text-5xl">{word.word}</h2>
+          <div className="mt-3 flex items-center justify-center gap-3">
+            <h2 className="text-4xl font-bold text-slate-950 dark:text-white sm:text-5xl">{word.word}</h2>
+            <SpeakButton
+              text={word.word}
+              size={22}
+              className="inline-flex items-center justify-center rounded-full bg-white/80 p-2.5 text-coral-700 shadow-sm transition hover:bg-white hover:text-coral-800 active:scale-95 dark:bg-slate-800/70 dark:text-coral-100 dark:hover:bg-slate-800"
+              label={`Play pronunciation of ${word.word}`}
+            />
+          </div>
           {word.hanja ? (
             <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{word.hanja}</p>
           ) : null}
@@ -197,7 +206,10 @@ export default function VocabularyQuizPage() {
         {revealed ? (
           <div className="mt-5 rounded-xl border border-slate-200 bg-slate-50 p-4 dark:border-slate-800 dark:bg-slate-800/60">
             <p className="text-[11px] font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">Example</p>
-            <p className="mt-1 text-base font-semibold text-slate-900 dark:text-white">{word.example}</p>
+            <div className="mt-1 flex items-start gap-2">
+              <p className="flex-1 text-base font-semibold text-slate-900 dark:text-white">{word.example}</p>
+              <SpeakButton text={word.example} size={14} label="Play example sentence" />
+            </div>
             <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">{word.exampleMeaning}</p>
           </div>
         ) : null}
