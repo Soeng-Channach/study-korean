@@ -33,8 +33,7 @@ export default function VocabularyPage() {
       return (
         word.word.toLowerCase().includes(q) ||
         word.meaning.toLowerCase().includes(q) ||
-        (word.example && word.example.toLowerCase().includes(q)) ||
-        (word.hanja && word.hanja.toLowerCase().includes(q))
+        (word.example && word.example.toLowerCase().includes(q))
       );
     });
   }, [query, posFilter, showSavedOnly, state.bookmarkedVocabIds]);
@@ -184,11 +183,15 @@ export default function VocabularyPage() {
                       className="inline-flex items-center justify-center rounded-full p-1.5 text-coral-600 transition hover:bg-coral-100 hover:text-coral-700 active:scale-95 dark:text-coral-100 dark:hover:bg-coral-500/15"
                       label={`Play pronunciation of ${word.word}`}
                     />
-                    {word.hanja ? (
-                      <span className="text-sm text-slate-400 dark:text-slate-500">{word.hanja}</span>
-                    ) : null}
-                    <span className="text-sm font-semibold text-coral-700 dark:text-coral-100">
+                    <span className="inline-flex items-center gap-1 text-sm font-semibold text-coral-700 dark:text-coral-100">
                       — {word.meaning}
+                      <SpeakButton
+                        text={word.meaning}
+                        lang="en-US"
+                        size={14}
+                        className="inline-flex items-center justify-center rounded-full p-1 text-coral-600 transition hover:bg-coral-100 hover:text-slate-900 active:scale-95 active:text-slate-900 dark:text-coral-100 dark:hover:bg-coral-500/15 dark:hover:text-white dark:active:text-white"
+                        label={`Play English meaning ${word.meaning}`}
+                      />
                     </span>
                   </div>
                 </div>
@@ -197,7 +200,10 @@ export default function VocabularyPage() {
                     <p className="flex-1 text-sm text-slate-800 dark:text-slate-100">{word.example}</p>
                     <SpeakButton text={word.example} size={14} label="Play example sentence" />
                   </div>
-                  <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">{word.exampleMeaning}</p>
+                  <div className="mt-1 flex items-start gap-2">
+                    <p className="flex-1 text-xs text-slate-500 dark:text-slate-400">{word.exampleMeaning}</p>
+                    <SpeakButton text={word.exampleMeaning} lang="en-US" size={12} label="Play English translation" />
+                  </div>
                 </div>
               </Card>
             );

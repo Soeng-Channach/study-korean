@@ -174,9 +174,6 @@ export default function VocabularyQuizPage() {
               label={`Play pronunciation of ${word.word}`}
             />
           </div>
-          {word.hanja ? (
-            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">{word.hanja}</p>
-          ) : null}
           <p className="mt-3 inline-block rounded-full bg-white/80 px-2.5 py-0.5 text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:bg-slate-800/70 dark:text-slate-400">
             {word.partOfSpeech}
           </p>
@@ -210,7 +207,10 @@ export default function VocabularyQuizPage() {
               <p className="flex-1 text-base font-semibold text-slate-900 dark:text-white">{word.example}</p>
               <SpeakButton text={word.example} size={14} label="Play example sentence" />
             </div>
-            <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">{word.exampleMeaning}</p>
+            <div className="mt-1 flex items-start gap-2">
+              <p className="flex-1 text-sm text-slate-600 dark:text-slate-300">{word.exampleMeaning}</p>
+              <SpeakButton text={word.exampleMeaning} lang="en-US" size={12} label="Play English translation" />
+            </div>
           </div>
         ) : null}
 

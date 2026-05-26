@@ -7,7 +7,7 @@ import { usePageMeta } from '../../hooks/usePageMeta';
 const testTypes = [
   {
     type: 'grammar',
-    title: 'Grammar tests',
+    title: 'Grammar Test',
     buttonLabel: 'Grammar Test',
     description: 'Practice grammar core meanings in separate 10-question coverage tests.',
     icon: BookOpenCheck,
@@ -18,7 +18,7 @@ const testTypes = [
   },
   {
     type: 'vocabulary',
-    title: 'Vocabulary tests',
+    title: 'Vocabulary Test',
     buttonLabel: 'Vocabulary Test',
     description: 'Practice vocabulary meanings and word usage in focused mini tests.',
     icon: Languages,

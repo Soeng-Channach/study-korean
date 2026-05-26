@@ -1,6 +1,5 @@
-import { BookOpenCheck, Languages } from 'lucide-react';
+import { ArrowLeft, BookOpenCheck, Languages } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
-import Button from '../../components/ui/Button';
 import EmptyState from '../../components/ui/EmptyState';
 import { mockTests } from '../../data/mockTests';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -8,12 +7,12 @@ import TestCard from './TestCard';
 
 const categoryConfig = {
   grammar: {
-    title: 'Grammar tests',
+    title: 'Grammar Test',
     description: 'Focused TOPIK II grammar tests. Each test covers core meaning questions in 10-question sets.',
     icon: BookOpenCheck
   },
   vocabulary: {
-    title: 'Vocabulary tests',
+    title: 'Vocabulary Test',
     description: 'Focused TOPIK II vocabulary tests for word meanings, context, and recognition.',
     icon: Languages
   }
@@ -32,9 +31,18 @@ export default function TestCategoryPage({ category }) {
     return <EmptyState title="Test type not found" message="Choose grammar or vocabulary tests from the tests page." />;
   }
 
+  const isGrammar = type === 'grammar';
+  const switchClass = isGrammar
+    ? 'bg-gradient-to-r from-coral-500 to-pink-500 text-white shadow-md shadow-coral-500/30 hover:from-coral-700 hover:to-pink-600 hover:shadow-lg hover:shadow-coral-500/45 focus-visible:ring-coral-500'
+    : 'bg-gradient-to-r from-brand-600 to-brand-500 text-white shadow-md shadow-brand-600/25 hover:from-brand-700 hover:to-brand-600 hover:shadow-lg hover:shadow-brand-600/40 focus-visible:ring-brand-500';
+
   return (
     <div className="space-y-5">
-      <Link to="/mock-tests" className="text-sm font-semibold text-brand-600 dark:text-brand-100">
+      <Link
+        to="/mock-tests"
+        className="group inline-flex items-center gap-1.5 self-start rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-brand-600 shadow-sm ring-1 ring-slate-200 transition hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-slate-900 dark:text-brand-100 dark:ring-slate-700 dark:hover:bg-slate-800 dark:hover:text-brand-100 dark:focus-visible:ring-offset-slate-900"
+      >
+        <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
         Back to test types
       </Link>
       <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
@@ -47,10 +55,11 @@ export default function TestCategoryPage({ category }) {
             <p className="mt-2 max-w-2xl text-sm text-slate-600 dark:text-slate-300">{config.description}</p>
           </div>
         </div>
-        <Link to={type === 'grammar' ? '/mock-tests/vocabulary' : '/mock-tests/grammar'}>
-          <Button variant="secondary">
-            View {type === 'grammar' ? 'vocabulary' : 'grammar'} tests
-          </Button>
+        <Link
+          to={isGrammar ? '/mock-tests/vocabulary' : '/mock-tests/grammar'}
+          className={`inline-flex shrink-0 items-center justify-center gap-1.5 self-start rounded-lg px-3 py-1.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-950 ${switchClass}`}
+        >
+          {isGrammar ? 'Vocabulary' : 'Grammar'} Test
         </Link>
       </div>
 

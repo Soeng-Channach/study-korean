@@ -1,8 +1,8 @@
 import { useEffect, useState } from 'react';
 import { Volume2 } from 'lucide-react';
-import { isSpeechSupported, speakKorean } from '../../lib/speech';
+import { isSpeechSupported, speak } from '../../lib/speech';
 
-export default function SpeakButton({ text, size = 14, className = '', label = 'Play pronunciation' }) {
+export default function SpeakButton({ text, lang = 'ko-KR', size = 14, className = '', label = 'Play pronunciation' }) {
   const [supported, setSupported] = useState(false);
 
   useEffect(() => {
@@ -17,7 +17,7 @@ export default function SpeakButton({ text, size = 14, className = '', label = '
       onClick={(e) => {
         e.preventDefault();
         e.stopPropagation();
-        speakKorean(text);
+        speak(text, lang);
       }}
       className={
         className ||
