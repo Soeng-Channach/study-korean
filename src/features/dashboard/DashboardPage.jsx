@@ -77,7 +77,7 @@ export default function DashboardPage() {
               <dd className="font-bold">{mockTests.length}</dd>
             </div>
             <div className="flex justify-between">
-              <dt className="text-slate-500 dark:text-slate-400">Bookmarks</dt>
+              <dt className="text-slate-500 dark:text-slate-400">Saved</dt>
               <dd className="font-bold">{state.bookmarkedGrammarIds.length}</dd>
             </div>
             <div className="flex justify-between">

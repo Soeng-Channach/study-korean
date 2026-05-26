@@ -5,7 +5,8 @@ import {
   FolderArchive,
   Languages,
   LayoutDashboard,
-  Newspaper
+  Newspaper,
+  Star
 } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 import { navItems } from '../../lib/constants';
@@ -17,7 +18,8 @@ const iconMap = {
   FolderArchive,
   Languages,
   LayoutDashboard,
-  Newspaper
+  Newspaper,
+  Star
 };
 
 export default function Sidebar() {

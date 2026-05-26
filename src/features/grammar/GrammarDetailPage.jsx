@@ -1,4 +1,4 @@
-import { ArrowLeft, Bookmark, Check, CheckCircle2, Pencil, RotateCcw, X } from 'lucide-react';
+import { ArrowLeft, Check, CheckCircle2, Pencil, RotateCcw, Star, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
 import UsageGuide from '../../components/learning/UsageGuide';
@@ -96,7 +96,7 @@ export default function GrammarDetailPage() {
                 : 'inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-slate-600 ring-1 ring-slate-200 transition hover:bg-slate-50 hover:text-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700 dark:hover:bg-slate-800 dark:focus-visible:ring-offset-slate-900'
             }
           >
-            <Bookmark size={16} fill={bookmarked ? 'currentColor' : 'none'} />
+            <Star size={16} fill={bookmarked ? 'currentColor' : 'none'} />
           </button>
         </div>
         <h2 className="mt-4 text-3xl font-bold text-slate-950 dark:text-white">{lesson.pattern}</h2>

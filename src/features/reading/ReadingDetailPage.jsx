@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { Clock } from 'lucide-react';
+import { ArrowLeft, Clock } from 'lucide-react';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -241,8 +241,12 @@ export default function ReadingDetailPage() {
         </div>
       </div>
 
-      <Link to="/reading" className="inline-block text-sm font-semibold text-brand-600 dark:text-brand-100">
-        ← Back to reading
+      <Link
+        to="/reading"
+        className="group inline-flex items-center gap-1.5 self-start rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-brand-600 shadow-sm ring-1 ring-slate-200 transition hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-slate-900 dark:text-brand-100 dark:ring-slate-700 dark:hover:bg-slate-800 dark:hover:text-brand-100 dark:focus-visible:ring-offset-slate-900"
+      >
+        <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
+        Back to reading
       </Link>
 
       <Card className="p-4 sm:p-5">

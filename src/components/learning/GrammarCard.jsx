@@ -1,4 +1,4 @@
-import { ArrowRight, Bookmark } from 'lucide-react';
+import { ArrowRight, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useLearning } from '../../context/LearningContext';
 import Badge from '../ui/Badge';
@@ -26,7 +26,7 @@ export default function GrammarCard({ lesson }) {
           aria-label={bookmarked ? 'Remove bookmark' : 'Bookmark grammar'}
           title={bookmarked ? 'Remove bookmark' : 'Bookmark grammar'}
         >
-          <Bookmark size={18} fill={bookmarked ? 'currentColor' : 'none'} />
+          <Star size={18} fill={bookmarked ? 'currentColor' : 'none'} />
         </button>
       </div>
       <div className="mt-3 rounded-xl border-2 border-coral-500/80 bg-gradient-to-br from-coral-100/60 via-white to-white p-3 shadow-[0_4px_18px_-8px_rgba(244,63,94,0.4)] dark:from-coral-500/10 dark:via-slate-900 dark:to-slate-900 sm:p-4">
