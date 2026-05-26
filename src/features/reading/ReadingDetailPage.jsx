@@ -119,7 +119,7 @@ export default function ReadingDetailPage() {
   const [remainingSeconds, setRemainingSeconds] = useState(totalSeconds);
   const autoCheckedRef = useRef(false);
 
-  usePageMeta(reading?.title || 'Reading practice', 'TOPIK II reading comprehension practice.');
+  usePageMeta(reading?.title || 'Reading practice', 'TOPIK reading comprehension practice.');
 
   // Reset timer when the reading changes
   useEffect(() => {
@@ -243,7 +243,7 @@ export default function ReadingDetailPage() {
 
       <Link
         to="/reading"
-        className="group inline-flex items-center gap-1.5 self-start rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-brand-600 shadow-sm ring-1 ring-slate-200 transition hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-slate-900 dark:text-brand-100 dark:ring-slate-700 dark:hover:bg-slate-800 dark:hover:text-brand-100 dark:focus-visible:ring-offset-slate-900"
+        className="group sticky top-[52px] z-20 inline-flex items-center gap-1.5 self-start rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-brand-600 shadow-sm ring-1 ring-slate-200 transition hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-slate-900 dark:text-brand-100 dark:ring-slate-700 dark:hover:bg-slate-800 dark:hover:text-brand-100 dark:focus-visible:ring-offset-slate-900 sm:static sm:top-auto sm:z-auto"
       >
         <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
         Back to reading
