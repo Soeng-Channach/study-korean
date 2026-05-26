@@ -1,6 +1,6 @@
-import { Clock } from 'lucide-react';
+import { ArrowLeft, Clock } from 'lucide-react';
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
-import { useNavigate, useParams } from 'react-router-dom';
+import { Link, useNavigate, useParams } from 'react-router-dom';
 import QuizOption from '../../components/learning/QuizOption';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -117,6 +117,14 @@ export default function MockTestPage() {
           />
         </div>
       </div>
+
+      <Link
+        to={`/mock-tests/${test.type}`}
+        className="group sticky top-[52px] z-20 inline-flex items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-3.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900 sm:static sm:top-auto sm:z-auto"
+      >
+        <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
+        Back to {test.type === 'grammar' ? 'grammar' : 'vocabulary'} tests
+      </Link>
 
       <Card className="p-4 sm:p-5">
         <p className="text-sm font-semibold capitalize text-slate-500 dark:text-slate-400">
