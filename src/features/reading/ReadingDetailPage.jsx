@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, Clock } from 'lucide-react';
+import { ArrowLeft, Check, Clock } from 'lucide-react';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -109,7 +109,7 @@ export default function ReadingDetailPage() {
   const reading = readings.find((item) => item.id === id);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [revealed, setRevealed] = useState(false);
-  const { dispatch } = useLearning();
+  const { dispatch, isReadingCompleted } = useLearning();
 
   const confirm = useConfirm();
   const questions = reading?.questions || [];
@@ -153,14 +153,11 @@ export default function ReadingDetailPage() {
         }
       }
       setRevealed(true);
-      const nextCorrectCount = questions.filter(
-        (question) => selectedAnswers[question.id] === question.answer
-      ).length;
-      if (questions.length > 0 && nextCorrectCount === questions.length) {
+      if (reading && questions.length > 0) {
         dispatch({ type: 'complete-reading', id: reading.id });
       }
     },
-    [confirm, dispatch, questions, reading?.id, revealed, selectedAnswers]
+    [confirm, dispatch, questions.length, reading, revealed, selectedAnswers]
   );
 
   // Auto-check when the timer runs out
@@ -253,10 +250,30 @@ export default function ReadingDetailPage() {
       </Link>
 
       <Card className="p-4 sm:p-5">
-        <div className="flex flex-wrap gap-2">
-          <Badge tone="blue">{reading.level}</Badge>
-          <Badge>{reading.topic}</Badge>
-          {reading.source ? <Badge tone="slate">Imported</Badge> : null}
+        <div className="flex flex-wrap items-start justify-between gap-2">
+          <div className="flex flex-wrap gap-2">
+            <Badge tone="blue">{reading.level}</Badge>
+            <Badge>{reading.topic}</Badge>
+            {reading.source ? <Badge tone="slate">Imported</Badge> : null}
+            {isReadingCompleted(reading.id) ? <Badge tone="green">Done</Badge> : null}
+          </div>
+          <button
+            type="button"
+            onClick={() =>
+              dispatch({
+                type: isReadingCompleted(reading.id) ? 'uncomplete-reading' : 'complete-reading',
+                id: reading.id
+              })
+            }
+            className={
+              isReadingCompleted(reading.id)
+                ? 'inline-flex items-center gap-1 rounded-full bg-mint-100 px-3 py-1 text-xs font-semibold text-mint-700 transition hover:bg-mint-200 dark:bg-mint-500/15 dark:text-mint-100 dark:hover:bg-mint-500/25'
+                : 'inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-mint-300 hover:text-mint-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-mint-500 dark:hover:text-mint-100'
+            }
+          >
+            <Check size={12} />
+            {isReadingCompleted(reading.id) ? 'Marked done' : 'Mark done'}
+          </button>
         </div>
         <h2 className="mt-4 text-3xl font-bold text-slate-950 dark:text-white">{reading.title}</h2>
         {revealed ? (

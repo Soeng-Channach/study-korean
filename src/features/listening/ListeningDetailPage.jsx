@@ -1,11 +1,12 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, Clock, Headphones } from 'lucide-react';
+import { ArrowLeft, Check, Clock, Headphones } from 'lucide-react';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import { useConfirm } from '../../components/ui/ConfirmDialog';
 import EmptyState from '../../components/ui/EmptyState';
+import { useLearning } from '../../context/LearningContext';
 import { listeningTests } from '../../data/listening';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
@@ -109,6 +110,7 @@ export default function ListeningDetailPage() {
   const [revealed, setRevealed] = useState(false);
   const audioRef = useRef(null);
   const confirm = useConfirm();
+  const { dispatch, isListeningCompleted } = useLearning();
 
   const questions = test?.questions || [];
   const totalSeconds = (test?.durationMinutes || 60) * 60;
@@ -150,8 +152,11 @@ export default function ListeningDetailPage() {
       }
       audioRef.current?.pause();
       setRevealed(true);
+      if (test && questions.length > 0) {
+        dispatch({ type: 'complete-listening', id: test.id });
+      }
     },
-    [confirm, questions.length, revealed, selectedAnswers]
+    [confirm, dispatch, questions.length, revealed, selectedAnswers, test]
   );
 
   useEffect(() => {
@@ -212,10 +217,30 @@ export default function ListeningDetailPage() {
       </Link>
 
       <Card className="p-4 sm:p-5">
-        <div className="flex flex-wrap gap-2">
-          <Badge tone="blue">{test.level}</Badge>
-          <Badge>{test.topic}</Badge>
-          <Badge tone="slate">Audio</Badge>
+        <div className="flex flex-wrap items-start justify-between gap-2">
+          <div className="flex flex-wrap gap-2">
+            <Badge tone="blue">{test.level}</Badge>
+            <Badge>{test.topic}</Badge>
+            <Badge tone="slate">Audio</Badge>
+            {isListeningCompleted(test.id) ? <Badge tone="green">Done</Badge> : null}
+          </div>
+          <button
+            type="button"
+            onClick={() =>
+              dispatch({
+                type: isListeningCompleted(test.id) ? 'uncomplete-listening' : 'complete-listening',
+                id: test.id
+              })
+            }
+            className={
+              isListeningCompleted(test.id)
+                ? 'inline-flex items-center gap-1 rounded-full bg-mint-100 px-3 py-1 text-xs font-semibold text-mint-700 transition hover:bg-mint-200 dark:bg-mint-500/15 dark:text-mint-100 dark:hover:bg-mint-500/25'
+                : 'inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-mint-300 hover:text-mint-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-mint-500 dark:hover:text-mint-100'
+            }
+          >
+            <Check size={12} />
+            {isListeningCompleted(test.id) ? 'Marked done' : 'Mark done'}
+          </button>
         </div>
         <div className="mt-4 flex items-start gap-3">
           <div className="rounded-lg bg-brand-50 p-3 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">

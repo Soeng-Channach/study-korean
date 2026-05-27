@@ -9,6 +9,7 @@ const initialState = {
   bookmarkedGrammarIds: [],
   bookmarkedVocabIds: [],
   completedReadingIds: [],
+  completedListeningIds: [],
   grammarCoreOverrides: {},
   vocabularyStats: {
     totalAnswered: 0,
@@ -53,6 +54,25 @@ function learningReducer(state, action) {
           ? state.completedReadingIds
           : [...state.completedReadingIds, action.id]
       };
+    case 'uncomplete-reading':
+      return {
+        ...state,
+        completedReadingIds: state.completedReadingIds.filter((id) => id !== action.id)
+      };
+    case 'complete-listening': {
+      const list = state.completedListeningIds || [];
+      return {
+        ...state,
+        completedListeningIds: list.includes(action.id) ? list : [...list, action.id]
+      };
+    }
+    case 'uncomplete-listening': {
+      const list = state.completedListeningIds || [];
+      return {
+        ...state,
+        completedListeningIds: list.filter((id) => id !== action.id)
+      };
+    }
     case 'record-vocab-answer': {
       const masteredWordIds =
         action.correct && !state.vocabularyStats.masteredWordIds.includes(action.wordId)
@@ -131,6 +151,7 @@ export function LearningProvider({ children }) {
       isVocabBookmarked: (id) => (state.bookmarkedVocabIds || []).includes(id),
       isGrammarCompleted: (id) => state.completedGrammarIds.includes(id),
       isReadingCompleted: (id) => state.completedReadingIds.includes(id),
+      isListeningCompleted: (id) => (state.completedListeningIds || []).includes(id),
       getGrammarCoreMeaning: (lesson) =>
         (lesson && state.grammarCoreOverrides[lesson.id]) || lesson?.coreMeaning,
       isGrammarMeaningEdited: (id) => Boolean(state.grammarCoreOverrides[id])

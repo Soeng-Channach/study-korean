@@ -1,6 +1,8 @@
-import { BookMarked, ClipboardCheck, Headphones, Languages, Newspaper } from 'lucide-react';
+import { BookMarked, ClipboardCheck, Headphones, Languages, Newspaper, RotateCcw } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
+import { useConfirm } from '../../components/ui/ConfirmDialog';
 import ProgressBar from '../../components/ui/ProgressBar';
 import { useLearning } from '../../context/LearningContext';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -12,7 +14,19 @@ import { vocabulary } from '../../data/vocabulary';
 
 export default function DashboardPage() {
   usePageMeta('Dashboard', 'Track TOPIK II grammar, reading, vocabulary, and mock test progress.');
-  const { state, grammarProgress, vocabProgress } = useLearning();
+  const { state, grammarProgress, vocabProgress, dispatch } = useLearning();
+  const confirm = useConfirm();
+
+  async function handleReset() {
+    const ok = await confirm({
+      title: 'Reset all progress?',
+      message: 'This will clear all completions, saved items, vocabulary stats, and mock test attempts on this device. This cannot be undone.',
+      confirmText: 'Reset progress',
+      cancelText: 'Keep my progress',
+      tone: 'danger'
+    });
+    if (ok) dispatch({ type: 'reset-progress' });
+  }
   const quickLinks = [
     { label: 'Grammar', path: '/grammar', icon: BookMarked, count: `${grammarLessons.length} lessons` },
     { label: 'Reading', path: '/reading', icon: Newspaper, count: `${readings.length} passages` },
@@ -52,11 +66,20 @@ export default function DashboardPage() {
 
       <section className="grid gap-4 lg:grid-cols-3">
         <Card className="lg:col-span-2">
-          <h3 className="text-lg font-bold text-slate-950 dark:text-white">Study progress</h3>
+          <div className="flex items-start justify-between gap-3">
+            <h3 className="text-lg font-bold text-slate-950 dark:text-white">Study progress</h3>
+            <Button variant="danger" icon={RotateCcw} onClick={handleReset}>
+              Reset
+            </Button>
+          </div>
           <div className="mt-5 space-y-5">
             <ProgressBar value={grammarProgress} label="Grammar completed" />
             <ProgressBar value={vocabProgress} label="Vocabulary mastered" />
             <ProgressBar value={Math.round((state.completedReadingIds.length / readings.length) * 100)} label="Reading completed" />
+            <ProgressBar
+              value={listeningTests.length > 0 ? Math.round(((state.completedListeningIds?.length || 0) / listeningTests.length) * 100) : 0}
+              label="Listening completed"
+            />
           </div>
         </Card>
         <Card>

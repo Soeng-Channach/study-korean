@@ -17,7 +17,7 @@ const toneStyles = {
   danger: {
     icon: 'bg-coral-100 text-coral-700 dark:bg-coral-500/20 dark:text-coral-100',
     confirm:
-      'bg-coral-600 text-white hover:bg-coral-700 focus-visible:ring-coral-500'
+      'bg-coral-500 text-white hover:bg-coral-700 focus-visible:ring-coral-500'
   }
 };
 
