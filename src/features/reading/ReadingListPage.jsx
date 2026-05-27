@@ -5,9 +5,17 @@ import { useLearning } from '../../context/LearningContext';
 import { readings } from '../../data/reading';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
+const PINNED_TITLES = ['온라인 수업의 장단점', '환경 보호의 중요성'];
+
 export default function ReadingListPage() {
   usePageMeta('Reading', 'Practice TOPIK reading passages and comprehension questions.');
   const { isReadingCompleted } = useLearning();
+
+  const orderedReadings = (() => {
+    const pinned = PINNED_TITLES.map((title) => readings.find((r) => r.title === title)).filter(Boolean);
+    const rest = [...readings].reverse().filter((r) => !PINNED_TITLES.includes(r.title));
+    return [...pinned, ...rest];
+  })();
 
   return (
     <div>
@@ -16,7 +24,7 @@ export default function ReadingListPage() {
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Short passages with immediate answer review.</p>
       </div>
       <div className="grid gap-4 md:grid-cols-2">
-        {readings.map((reading) => {
+        {orderedReadings.map((reading) => {
           const preview = reading.passage || `${reading.questions.length} questions on one page`;
           return (
           <Link key={reading.id} to={`/reading/${reading.id}`}>

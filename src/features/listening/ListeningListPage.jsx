@@ -24,7 +24,11 @@ export default function ListeningListPage() {
 
       {listeningTests.length ? (
         <div className="grid gap-4 md:grid-cols-2">
-          {listeningTests.map((test) => (
+          {(() => {
+            const pinned = listeningTests.filter((t) => t.id === 'listening-052');
+            const rest = [...listeningTests].reverse().filter((t) => t.id !== 'listening-052');
+            return [...pinned, ...rest];
+          })().map((test) => (
             <Link key={test.id} to={`/listening/${test.id}`}>
               <Card className="h-full transition hover:-translate-y-0.5 hover:shadow-soft">
                 <div className="flex flex-wrap gap-2">
