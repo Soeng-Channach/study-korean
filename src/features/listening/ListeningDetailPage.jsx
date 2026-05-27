@@ -190,16 +190,16 @@ export default function ListeningDetailPage() {
   return (
     <article className="mx-auto max-w-4xl space-y-5 pb-[calc(7rem+max(env(safe-area-inset-bottom),0.5rem))] lg:pb-0">
       <div className="sticky -top-5 z-30 -mx-4 -mt-5 border-b border-slate-200 bg-white/95 px-4 py-3 shadow-sm backdrop-blur dark:border-slate-800 dark:bg-slate-900/95 sm:static sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:p-4 sm:shadow-soft">
-        <div className="flex flex-col gap-3 sm:flex-row sm:items-center sm:justify-between">
+        <div className="flex items-center justify-between gap-3">
           <div className="min-w-0">
-            <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 dark:text-brand-100">Listening progress</p>
-            <p className="mt-1 text-xs font-semibold text-slate-500 dark:text-slate-400">
+            <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 dark:text-brand-100 sm:text-[11px]">Listening progress</p>
+            <p className="mt-0.5 text-xs font-semibold text-slate-500 dark:text-slate-400 sm:mt-1">
               {answeredCount} of {questions.length} answered
             </p>
           </div>
-          <div className="flex items-center gap-2 rounded-full border-2 border-brand-200 bg-brand-50 px-3 py-1.5 text-brand-700 shadow-sm dark:border-brand-400 dark:bg-brand-500/25 dark:text-white">
+          <div className="flex shrink-0 items-center gap-1.5 rounded-full border-2 border-brand-200 bg-brand-50 px-3 py-1.5 text-brand-700 shadow-sm dark:border-brand-400 dark:bg-brand-500/25 dark:text-white sm:px-3.5">
             <Clock aria-hidden="true" size={18} />
-            <span className="font-mono text-xl font-black tabular-nums leading-none">{formatTime(remainingSeconds)}</span>
+            <span className="font-mono text-xl font-black tabular-nums leading-none sm:text-lg">{formatTime(remainingSeconds)}</span>
           </div>
         </div>
         <audio ref={audioRef} className="mt-3 w-full" src={test.audioSrc} controls preload="metadata" />
