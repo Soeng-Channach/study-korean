@@ -1,6 +1,5 @@
 import { BookMarked, ClipboardCheck, Headphones, Languages, Newspaper, RotateCcw } from 'lucide-react';
 import { Link } from 'react-router-dom';
-import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import { useConfirm } from '../../components/ui/ConfirmDialog';
 import ProgressBar from '../../components/ui/ProgressBar';
@@ -68,9 +67,14 @@ export default function DashboardPage() {
         <Card className="lg:col-span-2">
           <div className="flex items-start justify-between gap-3">
             <h3 className="text-lg font-bold text-slate-950 dark:text-white">Study progress</h3>
-            <Button variant="danger" icon={RotateCcw} onClick={handleReset}>
+            <button
+              type="button"
+              onClick={handleReset}
+              className="inline-flex shrink-0 items-center gap-1 rounded-full bg-coral-500 px-2.5 py-1 text-xs font-semibold text-white transition hover:bg-coral-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-coral-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900"
+            >
+              <RotateCcw size={12} />
               Reset
-            </Button>
+            </button>
           </div>
           <div className="mt-5 space-y-5">
             <ProgressBar value={grammarProgress} label="Grammar completed" />
