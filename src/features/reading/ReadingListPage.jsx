@@ -5,17 +5,16 @@ import { useLearning } from '../../context/LearningContext';
 import { readings } from '../../data/reading';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
-const PINNED_TITLES = ['온라인 수업의 장단점', '환경 보호의 중요성'];
+function testNumber(reading) {
+  const match = (reading.id || reading.title || '').match(/(\d+)/);
+  return match ? parseInt(match[1], 10) : 0;
+}
 
 export default function ReadingListPage() {
   usePageMeta('Reading', 'Practice TOPIK reading passages and comprehension questions.');
   const { isReadingCompleted } = useLearning();
 
-  const orderedReadings = (() => {
-    const pinned = PINNED_TITLES.map((title) => readings.find((r) => r.title === title)).filter(Boolean);
-    const rest = [...readings].reverse().filter((r) => !PINNED_TITLES.includes(r.title));
-    return [...pinned, ...rest];
-  })();
+  const orderedReadings = [...readings].sort((a, b) => testNumber(a) - testNumber(b));
 
   return (
     <div>
