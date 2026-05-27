@@ -6,7 +6,7 @@ import { readings } from '../../data/reading';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
 export default function ReadingListPage() {
-  usePageMeta('Reading', 'Practice TOPIK II reading passages and comprehension questions.');
+  usePageMeta('Reading', 'Practice TOPIK reading passages and comprehension questions.');
   const { isReadingCompleted } = useLearning();
 
   return (

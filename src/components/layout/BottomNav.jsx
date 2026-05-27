@@ -1,4 +1,4 @@
-import { BookOpen, ClipboardCheck, FolderArchive, Languages, LayoutDashboard, Newspaper } from 'lucide-react';
+import { BookOpen, ClipboardCheck, Headphones, Languages, LayoutDashboard, Newspaper } from 'lucide-react';
 import { NavLink } from 'react-router-dom';
 import { navItems } from '../../lib/constants';
 
@@ -6,7 +6,7 @@ const mobileItems = navItems.slice(0, 6);
 const iconMap = {
   BookOpen,
   ClipboardCheck,
-  FolderArchive,
+  Headphones,
   Languages,
   LayoutDashboard,
   Newspaper

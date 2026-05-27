@@ -7,6 +7,8 @@ import GrammarListPage from '../features/grammar/GrammarListPage.jsx';
 import LibraryPage from '../features/library/LibraryPage.jsx';
 import LibraryPracticePage from '../features/library/LibraryPracticePage.jsx';
 import LibraryReaderPage from '../features/library/LibraryReaderPage.jsx';
+import ListeningDetailPage from '../features/listening/ListeningDetailPage.jsx';
+import ListeningListPage from '../features/listening/ListeningListPage.jsx';
 import MockTestListPage from '../features/mock-tests/MockTestListPage.jsx';
 import MockTestPage from '../features/mock-tests/MockTestPage.jsx';
 import MockTestResultPage from '../features/mock-tests/MockTestResultPage.jsx';
@@ -27,6 +29,8 @@ export default function App() {
         <Route path="grammar/:id" element={<GrammarDetailPage />} />
         <Route path="reading" element={<ReadingListPage />} />
         <Route path="reading/:id" element={<ReadingDetailPage />} />
+        <Route path="listening" element={<ListeningListPage />} />
+        <Route path="listening/:id" element={<ListeningDetailPage />} />
         <Route path="vocabulary" element={<VocabularyPage />} />
         <Route path="vocabulary/quiz" element={<VocabularyQuizPage />} />
         <Route path="mock-tests" element={<MockTestListPage />} />

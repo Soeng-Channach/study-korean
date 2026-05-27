@@ -11,7 +11,7 @@ export const navItems = [
   { label: 'Reading', path: '/reading', icon: 'Newspaper' },
   { label: 'Vocab', path: '/vocabulary', icon: 'Languages' },
   { label: 'Tests', path: '/mock-tests', icon: 'ClipboardCheck' },
-  { label: 'Library', path: '/library', icon: 'FolderArchive' },
+  { label: 'Listen', path: '/listening', icon: 'Headphones' },
   { label: 'Saved', path: '/bookmarks', icon: 'Star' },
   { label: 'Progress', path: '/progress', icon: 'ChartNoAxesColumnIncreasing' }
 ];

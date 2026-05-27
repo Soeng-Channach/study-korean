@@ -1,10 +1,11 @@
-import { BookMarked, ClipboardCheck, Languages, Newspaper } from 'lucide-react';
+import { BookMarked, ClipboardCheck, Headphones, Languages, Newspaper } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Card from '../../components/ui/Card';
 import ProgressBar from '../../components/ui/ProgressBar';
 import { useLearning } from '../../context/LearningContext';
 import { usePageMeta } from '../../hooks/usePageMeta';
 import { grammarLessons } from '../../data/grammar';
+import { listeningTests } from '../../data/listening';
 import { mockTests } from '../../data/mockTests';
 import { readings } from '../../data/reading';
 import { vocabulary } from '../../data/vocabulary';
@@ -15,6 +16,7 @@ export default function DashboardPage() {
   const quickLinks = [
     { label: 'Grammar', path: '/grammar', icon: BookMarked, count: `${grammarLessons.length} lessons` },
     { label: 'Reading', path: '/reading', icon: Newspaper, count: `${readings.length} passages` },
+    { label: 'Listening', path: '/listening', icon: Headphones, count: `${listeningTests.length} test` },
     { label: 'Vocabulary', path: '/vocabulary', icon: Languages, count: `${vocabulary.length} words` },
     { label: 'Mock Tests', path: '/mock-tests', icon: ClipboardCheck, count: `${mockTests.length} tests` }
   ];
@@ -33,7 +35,7 @@ export default function DashboardPage() {
         </div>
       </section>
 
-      <section className="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-4">
+      <section className="grid grid-cols-2 gap-3 sm:gap-4 xl:grid-cols-5">
         {quickLinks.map((item) => {
           const Icon = item.icon;
           return (
@@ -71,6 +73,10 @@ export default function DashboardPage() {
             <div className="flex justify-between">
               <dt className="text-slate-500 dark:text-slate-400">Reading</dt>
               <dd className="font-bold">{readings.length}</dd>
+            </div>
+            <div className="flex justify-between">
+              <dt className="text-slate-500 dark:text-slate-400">Listening</dt>
+              <dd className="font-bold">{listeningTests.length}</dd>
             </div>
             <div className="flex justify-between">
               <dt className="text-slate-500 dark:text-slate-400">Mock tests</dt>
