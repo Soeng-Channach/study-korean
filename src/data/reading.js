@@ -1707,5 +1707,5036 @@ export const readings = [
         "explanation": "Correct answer: 3. 이번 개편안은 퇴직금을 외부 기관에 맡기게 하는 안을 포함한다."
       }
     ]
+  },
+  {
+    "id": "reading-091-topik-i",
+    "title": "91st TOPIK I Reading Test",
+    "level": "TOPIK I",
+    "topic": "Official Reading Paper",
+    "source": "https://www.topikguide.com/mock-tests/91-TOPIK-I-Reading-Mock-Test.html",
+    "durationMinutes": 60,
+    "passage": "",
+    "questions": [
+      {
+        "id": "reading-091-topik-i-q001",
+        "questionNumber": 1,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [1~3] 무엇에 대한 내용입니까? <보기>와 같이 알맞은 것을 고르십시오.",
+        "passage": "사과가 있습니다. 수박은 없습니다.",
+        "question": "무엇에 대한 내용입니까?",
+        "options": [
+          "시간",
+          "과일",
+          "운동",
+          "가족"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 과일"
+      },
+      {
+        "id": "reading-091-topik-i-q002",
+        "questionNumber": 2,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [1~3] 무엇에 대한 내용입니까? <보기>와 같이 알맞은 것을 고르십시오.",
+        "passage": "저는 열다섯 살입니다. 언니는 열일곱 살입니다.",
+        "question": "무엇에 대한 내용입니까?",
+        "options": [
+          "나이",
+          "날짜",
+          "이름",
+          "나라"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 나이"
+      },
+      {
+        "id": "reading-091-topik-i-q003",
+        "questionNumber": 3,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [1~3] 무엇에 대한 내용입니까? <보기>와 같이 알맞은 것을 고르십시오.",
+        "passage": "수미 씨는 회사원입니다. 컴퓨터 회사에 다닙니다.",
+        "question": "무엇에 대한 내용입니까?",
+        "options": [
+          "취미",
+          "직업",
+          "약속",
+          "쇼핑"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 직업"
+      },
+      {
+        "id": "reading-091-topik-i-q004",
+        "questionNumber": 4,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [4~9] <보기>와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "passage": "친구를 만납니다. ( )에서 야구를 합니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "약국",
+          "공항",
+          "도서관",
+          "운동장"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 운동장"
+      },
+      {
+        "id": "reading-091-topik-i-q005",
+        "questionNumber": 5,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [4~9] <보기>와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "passage": "백화점에 갑니다. 바지( ) 치마를 삽니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "도",
+          "는",
+          "하고",
+          "에게"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 하고"
+      },
+      {
+        "id": "reading-091-topik-i-q006",
+        "questionNumber": 6,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [4~9] <보기>와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "passage": "병원이 집에서( ). 걸어서 갑니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "큽니다",
+          "쌉니다",
+          "가깝습니다",
+          "조용합니다"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 가깝습니다"
+      },
+      {
+        "id": "reading-091-topik-i-q007",
+        "questionNumber": 7,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [4~9] <보기>와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "passage": "저는 케이크를( ) 좋아합니다. 매일 먹습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "아주",
+          "아까",
+          "먼저",
+          "어서"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 아주"
+      },
+      {
+        "id": "reading-091-topik-i-q008",
+        "questionNumber": 8,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [4~9] <보기>와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "passage": "비가 옵니다. 그래서 창문을( ).",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "삽니다",
+          "줍니다",
+          "닫습니다",
+          "읽습니다"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 닫습니다"
+      },
+      {
+        "id": "reading-091-topik-i-q009",
+        "questionNumber": 9,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [4~9] <보기>와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "passage": "오늘 많이 피곤합니다. 집에서( ).",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "쉽니다",
+          "됩니다",
+          "자릅니다",
+          "찾습니다"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 쉽니다"
+      },
+      {
+        "id": "reading-091-topik-i-q010",
+        "questionNumber": 10,
+        "points": 3,
+        "questionType": "image",
+        "instruction": "※ [10~12] 다음을 읽고 맞지 않는 것을 고르십시오.",
+        "passage": "",
+        "question": "다음을 읽고 맞지 않는 것을 고르십시오.",
+        "options": [
+          "김밥입니다.",
+          "천오백 원입니다.",
+          "불고기 맛입니다.",
+          "십이월까지 팝니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 십이월까지 팝니다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R10.png"
+      },
+      {
+        "id": "reading-091-topik-i-q011",
+        "questionNumber": 11,
+        "points": 3,
+        "questionType": "image",
+        "instruction": "※ [10~12] 다음을 읽고 맞지 않는 것을 고르십시오.",
+        "passage": "",
+        "question": "다음을 읽고 맞지 않는 것을 고르십시오.",
+        "options": [
+          "주차장은 공원 안에 있습니다.",
+          "카페 옆에 화장실이 있습니다.",
+          "공원에 입구가 한 개 있습니다.",
+          "이곳에서 농구를 할 수 있습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 주차장은 공원 안에 있습니다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R11.png"
+      },
+      {
+        "id": "reading-091-topik-i-q012",
+        "questionNumber": 12,
+        "points": 3,
+        "questionType": "image",
+        "instruction": "※ [10~12] 다음을 읽고 맞지 않는 것을 고르십시오.",
+        "passage": "",
+        "question": "다음을 읽고 맞지 않는 것을 고르십시오.",
+        "options": [
+          "수미 씨는 오늘 바빴습니다.",
+          "수미 씨는 메시지를 보냈습니다.",
+          "수미 씨는 지금 회사에 있습니다.",
+          "수미 씨는 십분 후에 출발할 겁니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 수미 씨는 십분 후에 출발할 겁니다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R12.png"
+      },
+      {
+        "id": "reading-091-topik-i-q013",
+        "questionNumber": 13,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [13~15] 다음을 읽고 내용이 같은 것을 고르십시오.",
+        "passage": "저는 친구와 함께 삽니다. 우리는 집에서 한국 가수의 노래를 매일 듣습니다. 금요일에는 수업이 끝나고 같이 노래방에 갑니다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "친구는 저와 같이 삽니다.",
+          "저는 금요일에 수업이 없습니다.",
+          "우리는 한국 노래를 가끔 듣습니다.",
+          "친구는 금요일에 혼자 노래방에 갑니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 친구는 저와 같이 삽니다."
+      },
+      {
+        "id": "reading-091-topik-i-q014",
+        "questionNumber": 14,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [13~15] 다음을 읽고 내용이 같은 것을 고르십시오.",
+        "passage": "매년 여름에 한강에서 축제를 합니다. 저는 올해 한강 축제에 처음 갔습니다. 축제에서 춤 공연도 구경하고 맛있는 치킨도 먹었습니다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "이 축제는 가을에 합니다.",
+          "이 축제에서 춤 공연을 봤습니다.",
+          "저는 작년에 이 축제에 갔습니다.",
+          "저는 이 축제에서 치킨을 못 먹었습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 이 축제에서 춤 공연을 봤습니다."
+      },
+      {
+        "id": "reading-091-topik-i-q015",
+        "questionNumber": 15,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [13~15] 다음을 읽고 내용이 같은 것을 고르십시오.",
+        "passage": "저는 자전거가 있지만 잘 못 탑니다. 그래서 저는 주말마다 민수 씨를 만나서 자전거를 배웁니다. 나중에 민수 씨와 자전거 여행을 하고 싶습니다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "저는 자전거가 없습니다.",
+          "저는 지금 자전거를 잘 탑니다.",
+          "저는 주말에 민수 씨를 만납니다.",
+          "저는 요즘 민수 씨와 자전거 여행을 합니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 저는 주말에 민수 씨를 만납니다."
+      },
+      {
+        "id": "reading-091-topik-i-q016",
+        "questionNumber": 16,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 중심 내용을 고르십시오.",
+        "passage": "저는 등산을 하러 제주도에 왔습니다. 그런데 오늘 비가 와서 등산을 못 했습니다. 내일은 꼭 산에 가고 싶습니다.",
+        "question": "다음을 읽고 중심 내용을 고르십시오.",
+        "options": [
+          "저는 제주도에서 등산할 겁니다.",
+          "저는 등산을 하는 것이 힘듭니다.",
+          "저는 비가 오는 날을 좋아합니다.",
+          "저는 제주도에 가서 살려고 합니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 저는 제주도에서 등산할 겁니다."
+      },
+      {
+        "id": "reading-091-topik-i-q017",
+        "questionNumber": 17,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 중심 내용을 고르십시오.",
+        "passage": "저는 백화점에서 모자를 하나 샀습니다. 그 모자는 가볍고 예쁩니다. 저는 요즘 밖에 나갈 때 그 모자를 자주 씁니다.",
+        "question": "다음을 읽고 중심 내용을 고르십시오.",
+        "options": [
+          "저는 모자가 마음에 듭니다.",
+          "저는 예쁜 모자가 필요합니다.",
+          "저는 친구에게 모자를 줄 겁니다.",
+          "저는 백화점에서 일하면 좋겠습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 저는 모자가 마음에 듭니다."
+      },
+      {
+        "id": "reading-091-topik-i-q018",
+        "questionNumber": 18,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 중심 내용을 고르십시오.",
+        "passage": "저는 고등학교 졸업 후에 김 선생님을 못 만났습니다. 저는 이번 주말에 김 선생님을 만나러 갈 겁니다. 빨리 주말이 오면 좋겠습니다.",
+        "question": "다음을 읽고 중심 내용을 고르십시오.",
+        "options": [
+          "저는 선생님이 될 겁니다.",
+          "저는 김 선생님이 보고 싶습니다.",
+          "저는 고등학교를 졸업해야 합니다.",
+          "저는 학교에 다니는 것이 즐겁습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 저는 김 선생님이 보고 싶습니다."
+      },
+      {
+        "id": "reading-091-topik-i-q019",
+        "questionNumber": 19,
+        "points": 2,
+        "questionType": "multichoice_text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "지영 씨는 제 친한 친구인데 지난달에 결혼했습니다. 저와 제 남편은 지영 씨의 결혼식에 갔습니다. 그래서 오늘 지영 씨 부부가 저와 남편을 집으로 초대했습니다. 우리는 지영 씨의 집을 ( ) 지영 씨 부부가 만든 음식을 맛있게 먹었습니다. 그리고 결혼식 사진도 함께 봤습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "구경하고",
+          "구경하러",
+          "구경하는",
+          "구경해도"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 구경하고"
+      },
+      {
+        "id": "reading-091-topik-i-q020",
+        "questionNumber": 20,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "지영 씨는 제 친한 친구인데 지난달에 결혼했습니다. 저와 제 남편은 지영 씨의 결혼식에 갔습니다. 그래서 오늘 지영 씨 부부가 저와 남편을 집으로 초대했습니다. 우리는 지영 씨의 집을 ( ) 지영 씨 부부가 만든 음식을 맛있게 먹었습니다. 그리고 결혼식 사진도 함께 봤습니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "저는 오늘 지영 씨를 집에 초대했습니다.",
+          "지영 씨는 오늘 제 남편을 못 만났습니다.",
+          "저는 오늘 지영 씨의 결혼식 사진을 봤습니다.",
+          "지영 씨는 오늘 저와 식당에서 밥을 먹었습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 저는 오늘 지영 씨의 결혼식 사진을 봤습니다."
+      },
+      {
+        "id": "reading-091-topik-i-q021",
+        "questionNumber": 21,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오.",
+        "passage": "한국대학교에서는 외국인 학생들에게 한복을 빌려주는 서비스를 시작했습니다. 요즘 외국인 학생들은 명절이나 학교에서 행사가 있을 때 한복을 자주 입기 때문입니다. 한복은 1층에 있는 사무실에서 빌릴 수 있습니다. 마음에 드는 한복을 고르고 이름과 전화번호를 써서 냅니다. ( ) 3일 동안 무료로 한복을 빌릴 수 있습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "그러면",
+          "그래도",
+          "그러나",
+          "그렇지만"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 그러면"
+      },
+      {
+        "id": "reading-091-topik-i-q022",
+        "questionNumber": 22,
+        "points": 2,
+        "questionType": "multichoice_text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오.",
+        "passage": "한국대학교에서는 외국인 학생들에게 한복을 빌려주는 서비스를 시작했습니다. 요즘 외국인 학생들은 명절이나 학교에서 행사가 있을 때 한복을 자주 입기 때문입니다. 한복은 1층에 있는 사무실에서 빌릴 수 있습니다. 마음에 드는 한복을 고르고 이름과 전화번호를 써서 냅니다. ( ) 3일 동안 무료로 한복을 빌릴 수 있습니다.",
+        "question": "무엇에 대한 내용인지 맞는 것을 고르십시오.",
+        "options": [
+          "한복을 사는 이유",
+          "한복을 빌리는 방법",
+          "한복을 입으면 좋은 점",
+          "한복을 싸게 살 수 있는 장소"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 한복을 빌리는 방법"
+      },
+      {
+        "id": "reading-091-topik-i-q023",
+        "questionNumber": 23,
+        "points": 2,
+        "questionType": "multichoice_text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오.",
+        "passage": "저는 퇴근 후에 친구들과 매일 배드민턴 모임을 합니다. 우리는 오후 8시에 모여서 배드민턴을 칩니다. 일 끝나고 매일 모이는 것이 ( ) 친구들과 같이 하니까 재미있습니다. 처음에는 다음 날 아침에 너무 피곤했는데 지금은 괜찮습니다. 몸도 더 건강해지는 것 같습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "힘들면",
+          "힘들게",
+          "힘들거나",
+          "힘들지만"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 힘들지만"
+      },
+      {
+        "id": "reading-091-topik-i-q024",
+        "questionNumber": 24,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오.",
+        "passage": "저는 퇴근 후에 친구들과 매일 배드민턴 모임을 합니다. 우리는 오후 8시에 모여서 배드민턴을 칩니다. 일 끝나고 매일 모이는 것이 ( ) 친구들과 같이 하니까 재미있습니다. 처음에는 다음 날 아침에 너무 피곤했는데 지금은 괜찮습니다. 몸도 더 건강해지는 것 같습니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "저는 퇴근하고 혼자 운동을 합니다.",
+          "저는 요즘 아침에 계속 피곤합니다.",
+          "배드민턴 모임은 오후 여덟 시에 합니다.",
+          "배드민턴 모임은 일주일에 한 번 있습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 배드민턴 모임은 오후 여덟 시에 합니다."
+      },
+      {
+        "id": "reading-091-topik-i-q025",
+        "questionNumber": 25,
+        "points": 2,
+        "questionType": "multichoice_text",
+        "instruction": "※ [25~26] 다음을 읽고 물음에 답하십시오.",
+        "passage": "사람들은 여러 종류의 차를 마십니다. 그중에서 ( ) 때 마시면 좋은 차가 있습니다. '인삼차'는 배가 아플 때 마시면 도움이 됩니다. 또 잠을 못 잘 때는 '장미차'를 마시면 좋습니다. 감기에는 '유자차'가 좋습니다. 이런 차들은 맛도 좋고 가게에서 쉽게 사 먹을 수 있어서 편합니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "일이 바쁠",
+          "가게에 갈",
+          "음식을 만들",
+          "몸이 안 좋을"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 몸이 안 좋을"
+      },
+      {
+        "id": "reading-091-topik-i-q026",
+        "questionNumber": 26,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [25~26] 다음을 읽고 물음에 답하십시오.",
+        "passage": "사람들은 여러 종류의 차를 마십니다. 그중에서 ( ) 때 마시면 좋은 차가 있습니다. '인삼차'는 배가 아플 때 마시면 도움이 됩니다. 또 잠을 못 잘 때는 '장미차'를 마시면 좋습니다. 감기에는 '유자차'가 좋습니다. 이런 차들은 맛도 좋고 가게에서 쉽게 사 먹을 수 있어서 편합니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "유자차는 맛이 안 좋아서 먹기 불편합니다.",
+          "잠을 자지 못할 때 장미차가 도움이 됩니다.",
+          "배가 아플 때 인삼차를 마시면 좋지 않습니다.",
+          "장미차는 팔지 않기 때문에 만들어 먹어야 합니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 잠을 자지 못할 때 장미차가 도움이 됩니다."
+      },
+      {
+        "id": "reading-091-topik-i-q027",
+        "questionNumber": 27,
+        "points": 3,
+        "questionType": "order",
+        "instruction": "※ [27~28] 다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "passage": "(가) 저는 여행을 가면 기념품을 꼭 삽니다.\n(나) 다음에는 산이나 바다 그림이 있는 컵을 사고 싶습니다.\n(다) 지금까지는 유명한 건물 그림이 있는 컵을 많이 샀습니다.\n(라) 기념품 중에서 여행한 장소의 그림이 있는 컵을 주로 삽니다.",
+        "question": "(3점)",
+        "options": [
+          "(가) - (나) - (다) - (라)",
+          "(가) - (라) - (다) - (나)",
+          "(라)-(가)-(나) - (다)",
+          "(라) - (나) - (다) - (가)"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. (가) - (라) - (다) - (나)"
+      },
+      {
+        "id": "reading-091-topik-i-q028",
+        "questionNumber": 28,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [27~28] 다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "passage": "(가) 그렇게 하면 실수를 줄일 수 있습니다.\n(나) 미리 할 일을 써 보는 것도 좋은 방법입니다.\n(다) 계획을 세우지 않고 일을 하면 좋지 않습니다.\n(라) 일을 할 때 실수를 자주 할 수 있기 때문입니다.",
+        "question": "(2점)",
+        "options": [
+          "(나) - (다) - (가) - (라)",
+          "(나) - (라) - (다) - (가)",
+          "(다)-(가) - (나) - (라)",
+          "(다) - (라) - (나) - (가)"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. (다) - (라) - (나) - (가)"
+      },
+      {
+        "id": "reading-091-topik-i-q029",
+        "questionNumber": 29,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [29~30] 다음을 읽고 물음에 답하십시오.",
+        "passage": "저는 태국 친구하고 인주 역사 박물관에 갔습니다. ( ① ) 친구는 한국어를 잘 못합니다. ( ② ) 그런데 그 박물관에는 외국어로 설명해 주는 서비스가 있었습니다. ( ③ ) 친구는 태국어 설명 서비스를 신청했습니다. ( ④ ) 설명이 쉽고 재미있어서 친구가 정말 좋아했습니다.\n\n넣을 문장: 잠시 후에 태국 사람이 와서 태국어로 역사를 설명해 줬습니다.",
+        "question": "다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오. (2점)",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 위치"
+      },
+      {
+        "id": "reading-091-topik-i-q030",
+        "questionNumber": 30,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [29~30] 다음을 읽고 물음에 답하십시오.",
+        "passage": "저는 태국 친구하고 인주 역사 박물관에 갔습니다. ( ① ) 친구는 한국어를 잘 못합니다. ( ② ) 그런데 그 박물관에는 외국어로 설명해 주는 서비스가 있었습니다. ( ③ ) 친구는 태국어 설명 서비스를 신청했습니다. ( ④ ) 설명이 쉽고 재미있어서 친구가 정말 좋아했습니다.\n\n넣을 문장: 잠시 후에 태국 사람이 와서 태국어로 역사를 설명해 줬습니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "제 친구는 한국어를 잘합니다.",
+          "태국어 설명은 조금 어려웠습니다.",
+          "제 친구는 태국어로 설명을 들었습니다.",
+          "저는 외국어 설명 서비스를 신청했습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 제 친구는 태국어로 설명을 들었습니다."
+      },
+      {
+        "id": "reading-091-topik-i-q031",
+        "questionNumber": 31,
+        "points": 2,
+        "questionType": "multichoice_text",
+        "instruction": "※ [31~32] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "지난주에 새 식당이 문을 열었습니다. 이 식당에는 여러 모양의 멋있는 가구들이 있습니다. 이 가구들은 모두 사장님이 만든 것인데 손님이 살 수도 있습니다. 저는 어제 동생과 그 식당에 처음 갔습니다. 우리는 꽃 모양 테이블에 앉아서 음식을 먹었습니다. 분위기도 좋고 음식도 맛있어서 우리는 다음에 또( ).",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "간 것 같습니다",
+          "갈 수 없습니다",
+          "가면 안 됩니다",
+          "가기로 했습니다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 가기로 했습니다"
+      },
+      {
+        "id": "reading-091-topik-i-q032",
+        "questionNumber": 32,
+        "points": 2,
+        "questionType": "multichoice_text",
+        "instruction": "※ [31~32] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "지난주에 새 식당이 문을 열었습니다. 이 식당에는 여러 모양의 멋있는 가구들이 있습니다. 이 가구들은 모두 사장님이 만든 것인데 손님이 살 수도 있습니다. 저는 어제 동생과 그 식당에 처음 갔습니다. 우리는 꽃 모양 테이블에 앉아서 음식을 먹었습니다. 분위기도 좋고 음식도 맛있어서 우리는 다음에 또( ).",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "저는 이 식당에 오랜만에 갔습니다.",
+          "저는 이 식당의 가구를 만들었습니다.",
+          "이 식당에서는 테이블을 살 수 있습니다.",
+          "이 식당의 가구는 모두 같은 모양입니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 이 식당에서는 테이블을 살 수 있습니다."
+      },
+      {
+        "id": "reading-091-topik-i-q033",
+        "questionNumber": 33,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [33~34] 다음을 읽고 물음에 답하십시오.",
+        "passage": "",
+        "question": "왜 윗글을 썼는지 맞는 것을 고르십시오. (2점)",
+        "options": [
+          "다른 청바지로 바꾸려고",
+          "청바지 주문을 취소하려고",
+          "청바지의 값을 확인하려고",
+          "청바지 도착 날짜를 물어보려고"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 청바지 도착 날짜를 물어보려고",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R33.png"
+      },
+      {
+        "id": "reading-091-topik-i-q034",
+        "questionNumber": 34,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [33~34] 다음을 읽고 물음에 답하십시오.",
+        "passage": "",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "저는 목요일에 여행을 갑니다.",
+          "저는 오늘 이 청바지를 샀습니다.",
+          "저는 인터넷 쇼핑몰에서 이 옷을 샀습니다.",
+          "저는 서비스 센터에 전화한 적이 없습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 저는 인터넷 쇼핑몰에서 이 옷을 샀습니다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R33.png"
+      },
+      {
+        "id": "reading-091-topik-i-q035",
+        "questionNumber": 35,
+        "points": 2,
+        "questionType": "multichoice_text",
+        "instruction": "※ [35~36] 다음을 읽고 물음에 답하십시오.",
+        "passage": "매월 마지막 주 수요일에 인주시청 앞에서는 '책을 읽읍시다!'라는 행사를 합니다. 이 행사는 ( ) 사람들에게 인기가 많습니다. 새로 나온 책을 구경할 수도 있고 자기가 읽은 책을 다른 사람에게 싸게 팔 수도 있습니다. 유명한 작가와 인사를 나누는 프로그램도 있습니다. 행사에 다녀와서 느낀 것을 홈페이지에 쓰면 선물도 받을 수 있습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "참가비가 싸서",
+          "프로그램이 다양해서",
+          "집에서 할 수 있어서",
+          "주말에 갈 수 있어서"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 프로그램이 다양해서"
+      },
+      {
+        "id": "reading-091-topik-i-q036",
+        "questionNumber": 36,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [35~36] 다음을 읽고 물음에 답하십시오.",
+        "passage": "매월 마지막 주 수요일에 인주시청 앞에서는 '책을 읽읍시다!'라는 행사를 합니다. 이 행사는 ( ) 사람들에게 인기가 많습니다. 새로 나온 책을 구경할 수도 있고 자기가 읽은 책을 다른 사람에게 싸게 팔 수도 있습니다. 유명한 작가와 인사를 나누는 프로그램도 있습니다. 행사에 다녀와서 느낀 것을 홈페이지에 쓰면 선물도 받을 수 있습니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 행사에 있는 책은 모두 오래된 책입니다.",
+          "이 행사는 인주시청에서 한 달 동안 합니다.",
+          "이 행사에서는 유명한 작가를 만날 수 있습니다.",
+          "이 행사에 참가한 모든 사람에게는 선물을 줍니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 이 행사에서는 유명한 작가를 만날 수 있습니다."
+      },
+      {
+        "id": "reading-091-topik-i-q037",
+        "questionNumber": 37,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [37~38] 다음을 읽고 물음에 답하십시오. (각 3점)",
+        "passage": "최근 특별한 어린이 우산이 나왔습니다. 이 우산을 펴면 위쪽에서 빛이 납니다. 그리고 손잡이의 버튼을 누르면 노랫소리가 나옵니다. 이렇게 ( ) 아이들이 좋아합니다. 보통 우산을 쓰면 아이가 잘 안 보이는데 이 우산을 쓰면 아이가 어디에 있는지 쉽게 알 수 있습니다. 또 튼튼해서 오래 쓸 수 있습니다. 그래서 다른 우산보다 좀 비싸지만 인기가 있습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "빛과 소리가 나니까",
+          "여러 색깔로 변하니까",
+          "예쁜 그림이 있으니까",
+          "크기와 무게가 적당하니까"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 빛과 소리가 나니까"
+      },
+      {
+        "id": "reading-091-topik-i-q038",
+        "questionNumber": 38,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [37~38] 다음을 읽고 물음에 답하십시오. (각 3점)",
+        "passage": "최근 특별한 어린이 우산이 나왔습니다. 이 우산을 펴면 위쪽에서 빛이 납니다. 그리고 손잡이의 버튼을 누르면 노랫소리가 나옵니다. 이렇게 ( ) 아이들이 좋아합니다. 보통 우산을 쓰면 아이가 잘 안 보이는데 이 우산을 쓰면 아이가 어디에 있는지 쉽게 알 수 있습니다. 또 튼튼해서 오래 쓸 수 있습니다. 그래서 다른 우산보다 좀 비싸지만 인기가 있습니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 우산은 약해서 고장이 잘 납니다.",
+          "이 우산은 손잡이 쪽에서 빛이 납니다.",
+          "이 우산의 가격은 다른 우산과 비슷합니다.",
+          "이 우산을 쓰면 아이의 위치를 확인하기 쉽습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 이 우산을 쓰면 아이의 위치를 확인하기 쉽습니다."
+      },
+      {
+        "id": "reading-091-topik-i-q039",
+        "questionNumber": 39,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [39~40] 다음을 읽고 물음에 답하십시오. (각 3점)",
+        "passage": "우리 가족은 일 년 전에 한국에 왔습니다. 저와 아내는 회사에 다니면서 아이를 돌보는 것이 힘들었습니다. 이것을 알고 옆집에 사는 할머니가 아이를 자주 돌봐 주셨습니다. 아이는 할머니를 좋아했습니다. 그런데 할머니가 갑자기 ( ). 아이는 많이 울었습니다. 할머니와 헤어지는 날에 아이는 \"제가 생각날 때 보세요.\"라고 하면서 직접 그린 그림을 선물했습니다. 그 그림에는 할머니와 아이가 있었습니다. 할머니는 눈물을 흘리셨습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "선물을 받아 보셨습니다",
+          "이사를 가시게 되었습니다",
+          "아이를 데리러 오셨습니다",
+          "저를 도와주려고 하셨습니다"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 이사를 가시게 되었습니다"
+      },
+      {
+        "id": "reading-091-topik-i-q040",
+        "questionNumber": 40,
+        "points": 3,
+        "questionType": "multichoice_text",
+        "instruction": "※ [39~40] 다음을 읽고 물음에 답하십시오. (각 3점)",
+        "passage": "우리 가족은 일 년 전에 한국에 왔습니다. 저와 아내는 회사에 다니면서 아이를 돌보는 것이 힘들었습니다. 이것을 알고 옆집에 사는 할머니가 아이를 자주 돌봐 주셨습니다. 아이는 할머니를 좋아했습니다. 그런데 할머니가 갑자기 ( ). 아이는 많이 울었습니다. 할머니와 헤어지는 날에 아이는 \"제가 생각날 때 보세요.\"라고 하면서 직접 그린 그림을 선물했습니다. 그 그림에는 할머니와 아이가 있었습니다. 할머니는 눈물을 흘리셨습니다.",
+        "question": "윗글의 내용으로 알 수 있는 것을 고르십시오.",
+        "options": [
+          "아이는 우리 부부와 헤어져서 슬펐습니다.",
+          "아이는 할머니와 함께 있는 것이 좋았습니다.",
+          "할머니는 아이와 같은 집에 살아서 편했습니다.",
+          "할머니는 아이의 선물을 받고 기분이 나빴습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 아이는 할머니와 함께 있는 것이 좋았습니다."
+      }
+    ]
+  },
+  {
+    "id": "reading-083",
+    "title": "83rd TOPIK II Reading Test",
+    "level": "TOPIK II",
+    "topic": "Official Reading Paper",
+    "source": "https://www.topikguide.com/mock-tests/83-TOPIK-II-Reading-Mock-Test.html",
+    "durationMinutes": 70,
+    "passage": "",
+    "questions": [
+      {
+        "id": "reading-083-q001",
+        "questionNumber": 1,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "책을 많이( ........................ ) 지식을 쌓을 수 있다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "읽으면",
+          "읽든지",
+          "읽지만",
+          "읽거나"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 읽으면"
+      },
+      {
+        "id": "reading-083-q002",
+        "questionNumber": 2,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "꽃이 피기 시작하는 걸 보니 봄이( ........................ ).",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "오곤 한다",
+          "온 모양이다",
+          "오는 편이다",
+          "온 적이 있다"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 온 모양이다"
+      },
+      {
+        "id": "reading-083-q003",
+        "questionNumber": 3,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "시험이 시작되자 교실은 숨소리가 <span class='underline'>들릴 만큼</span> 조용해졌다.",
+        "question": "밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.",
+        "options": [
+          "들리다가",
+          "들리더라도",
+          "들릴 정도로",
+          "들릴 때까지"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 들릴 정도로"
+      },
+      {
+        "id": "reading-083-q004",
+        "questionNumber": 4,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "집의 분위기는 <span class='underline'>꾸미기 나름이다</span>.",
+        "question": "밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.",
+        "options": [
+          "꾸밀 만하다",
+          "꾸미기가 쉽다",
+          "꾸밀 수도 있다",
+          "꾸미기에 달려 있다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 꾸미기에 달려 있다"
+      },
+      {
+        "id": "reading-083-q005",
+        "questionNumber": 5,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "안경",
+          "침대",
+          "운동화",
+          "노트북"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 운동화",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T283R5.png"
+      },
+      {
+        "id": "reading-083-q006",
+        "questionNumber": 6,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "공원",
+          "식당",
+          "꽃집",
+          "서점"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 식당",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T283R6.png"
+      },
+      {
+        "id": "reading-083-q007",
+        "questionNumber": 7,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "환경 보호",
+          "생활 예절",
+          "건강 관리",
+          "봉사 활동"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 생활 예절",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T283R7.png"
+      },
+      {
+        "id": "reading-083-q008",
+        "questionNumber": 8,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "안전 규칙",
+          "신청 방법",
+          "사용 순서",
+          "교환 안내"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 안전 규칙",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T283R8.png"
+      },
+      {
+        "id": "reading-083-q009",
+        "questionNumber": 9,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 행사는 한 달 동안 진행된다.",
+          "사진은 이메일로 제출해야 한다.",
+          "인주시에서 올해 찍은 사진을 내면 된다.",
+          "이 행사에 참여하면 인주시의 옛날 사진을 받는다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 이 행사는 한 달 동안 진행된다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T283R9.png"
+      },
+      {
+        "id": "reading-083-q010",
+        "questionNumber": 10,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글 또는 그래프의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "용돈 중 물건 구입비의 비율이 가장 낮았다.",
+          "학원비 사용은 교통비보다 두 배 이상 많았다.",
+          "대학생들은 용돈의 절반 이상을 식비로 지출했다.",
+          "대학생들은 문화생활비보다 교통비를 더 적게 사용했다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 대학생들은 용돈의 절반 이상을 식비로 지출했다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T283R10.png"
+      },
+      {
+        "id": "reading-083-q011",
+        "questionNumber": 11,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "그림책 작가 이수지 씨가 한국인 최초로 어린이책 노벨상이라는 안데르센 상을 받아 주목받고 있다. 이 상은 1956년에 만들어진 상으로 작가가 발표한 모든 작품을 대상으로 심사한다. 이 작가는 어린이들이 꿈꾸고 상상하는 세계를 그림으로 잘 표현해 낸다는 평을 받았다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 작가가 받은 상은 작년에 만들어졌다.",
+          "이 작가는 한국인 중 처음으로 이 상을 받았다.",
+          "이 작가는 자신이 직접 경험한 이야기를 그림으로 표현했다.",
+          "이 작가는 자신의 작품 중 한 편을 골라 심사 대상으로 제출했다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 이 작가는 한국인 중 처음으로 이 상을 받았다."
+      },
+      {
+        "id": "reading-083-q012",
+        "questionNumber": 12,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "17일 오전 6시 22분 인주시에서 규모 3.2의 지진이 발생했다. 이날 지진은 올해 인주시에서 발생한 지진 중 가장 큰 규모다. 119 상황실에는 지진을 느낀 시민들의 신고가 여러 건 접수됐다. 그러나 이번 지진으로 입은 큰 피해는 없는 것으로 조사됐다. 기상청은 이번 주 내로 규모 2.0 정도의 지진이 몇 번 더 발생할 것으로 보고 있다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이번 지진은 늦은 밤에 일어났다.",
+          "시민들이 지진을 느껴 상황실에 신고를 했다.",
+          "이번 지진으로 큰 피해를 입은 사람들이 많다.",
+          "이번 주에는 더 이상 지진이 일어나지 않을 것이다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 시민들이 지진을 느껴 상황실에 신고를 했다."
+      },
+      {
+        "id": "reading-083-q013",
+        "questionNumber": 13,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서에 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 그러나 이를 닦을 때는 순서에 맞춰 닦는 것이 좋다.\n(나) 사람들은 보통 이를 닦을 때 순서에 별로 신경 쓰지 않는다.\n(다) 전문가들은 안쪽 구석에서부터 앞쪽 방향이 좋다고 조언한다.\n(라) 안쪽 이가 상하기 쉬워서 더 꼼꼼하게 닦아야 하기 때문이다.",
+        "question": "다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(나)-(가)-(다) - (라)",
+          "(나)-(라)-(가)-(다)",
+          "(다)-(가)-(라) - (나)",
+          "(다)-(나)-(라) - (가)"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. (나)-(가)-(다) - (라)"
+      },
+      {
+        "id": "reading-083-q014",
+        "questionNumber": 14,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서에 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 그 사업이 쉽지는 않겠지만 한번 시도해 보고 싶다.\n(나) 친구들은 마지막까지 퇴사를 다시 고민해 보라고 했다.\n(다) 내일은 내가 10년 동안 다니던 회사를 그만두는 날이다.\n(라) 하지만 나는 오랫동안 생각해 온 사업을 시작해 보려고 한다.",
+        "question": "다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(나)-(가)-(라) - (다)",
+          "(나)-(다)-(가) - (라)",
+          "(다)-(라)-(가)-(나)",
+          "(다)-(나)-(라) - (가)"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. (다)-(나)-(라) - (가)"
+      },
+      {
+        "id": "reading-083-q015",
+        "questionNumber": 15,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서에 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 모래시계는 모래를 이용해 일정 단위의 시간을 재는 기구이다.\n(나) 또한 모래시계의 구멍 크기를 통해서도 시간 단위를 조절한다.\n(다) 구멍 크기가 작을수록 큰 시간 단위의 모래시계를 만들 수 있다.\n(라) 모래의 양을 조절하면 다양한 시간 단위의 모래시계를 만들 수 있다.",
+        "question": "다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(가)-(다)-(나)-(라)",
+          "(가)-(라)-(나)-(다)",
+          "(라)-(다)-(나)-(가)",
+          "(라)-(가)-(다)-(나)"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. (가)-(라)-(나)-(다)"
+      },
+      {
+        "id": "reading-083-q016",
+        "questionNumber": 16,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "필름형 스피커는 종이보다 얇고 투명해서( ........................ ) 사용할 수 있다. 이 스피커를 활용하면 컴퓨터 화면이나 액자뿐만 아니라 벽이나 천장에서도 소리가 나오게 할 수 있다. 또 소재가 부드러워서 옷이나 커튼에 달아도 불편함 없이 사용이 가능하다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "소리 크기를 높여",
+          "단독 형태로 분리해",
+          "다양한 물건에 붙여",
+          "특수한 영역을 제한해"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 다양한 물건에 붙여"
+      },
+      {
+        "id": "reading-083-q017",
+        "questionNumber": 17,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "여권은 국제 신분증으로 통할 뿐만 아니라 한 국가의 정체성과 문화를 드러내기도 한다. 그래서 많은 국가들은 여권의 ( ........................ ) 결정 한다. 여권 표지의 색깔을 국가의 상징색으로 표현하거나 국가를 상징하는 문양을 넣기도 한다. 또한 여권에 불빛이 비치면 주요 문화재가 화려하게 보이도록 한 것도 있다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "두께를 자율적으로",
+          "디자인을 신중하게",
+          "이용 범위를 확실히",
+          "발급 방식을 구체적으로"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 디자인을 신중하게"
+      },
+      {
+        "id": "reading-083-q018",
+        "questionNumber": 18,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "얼마 전 일본에서만 사는 텃새 두 마리가 한국의 작은 섬에서 발견됐다. 텃새는 자리를 옮기지 않고 한 지역에서만 살기 때문에 장거리 이동을 거의 하지 않는다. 따라서 전문가는 이번에 발견된 텃새가 태풍에 휩쓸려 한국에 온 것으로 추측된다며 이 섬에서( ........................ ) 것이 매우 보기 드문 사례라고 언급했다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "살던 텃새가 줄어든",
+          "한국의 텃새가 사라진",
+          "일본의 텃새가 관찰된",
+          "부상당한 텃새가 보호된"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 일본의 텃새가 관찰된"
+      },
+      {
+        "id": "reading-083-q019",
+        "questionNumber": 19,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "흥미와 재미 요소를 내세워 홍보하는 마케팅 전략이 주목받고 있다. 이런 마케팅은 소비자의 호기심을 자극해 구매로 이어지게 한다. 그러나 제품의 품질이 소비자의 기대에 미치지 못하는 경우( ........................ ) 브랜드 이미지까지 나빠지기도 한다. 실제로 한 햄버거 회사에서 '주머니 버거', '눌러 먹는 버거'를 만들어 소비자의 관심을 끌었지만 품질이 기대에 못 미치자 회사의 다른 제품까지 판매가 감소한 경우가 있었다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "과연",
+          "비록",
+          "차라리",
+          "오히려"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 오히려"
+      },
+      {
+        "id": "reading-083-q020",
+        "questionNumber": 20,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "흥미와 재미 요소를 내세워 홍보하는 마케팅 전략이 주목받고 있다. 이런 마케팅은 소비자의 호기심을 자극해 구매로 이어지게 한다. 그러나 제품의 품질이 소비자의 기대에 미치지 못하는 경우( ........................ ) 브랜드 이미지까지 나빠지기도 한다. 실제로 한 햄버거 회사에서 '주머니 버거', '눌러 먹는 버거'를 만들어 소비자의 관심을 끌었지만 품질이 기대에 못 미치자 회사의 다른 제품까지 판매가 감소한 경우가 있었다.",
+        "question": "윗글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "마케팅도 중요하지만 제품의 품질이 더 중요하다.",
+          "식품 기업은 먼저 소비자의 요구를 확인해야 한다.",
+          "제품에 재미 요소를 포함하는 마케팅 전략이 필요하다.",
+          "특이한 제품보다 소비자에게 익숙한 것이 홍보에 더 좋다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 마케팅도 중요하지만 제품의 품질이 더 중요하다."
+      },
+      {
+        "id": "reading-083-q021",
+        "questionNumber": 21,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "소방관은 재난 현장에서 끔찍한 상황을 자주 접하기 때문에 정신 건강에 위험이 따른다. 최근 이러한 문제가 심각해지자 인주시가 해결을 위해 ( ........................ ). 인주시는 빠른 시일 내에 정신 건강에 대해 조사를 실시하고 문제를 겪는 소방관이 있으면 전문 상담사를 보내 상담을 진행 하기로 했다. 이와 더불어 심리 안정 프로그램 개발과 진료비 지원을 위한 예산을 확보했다고 발표했다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "등 떠밀었다",
+          "눈을 맞췄다",
+          "발 벗고 나섰다",
+          "손에 땀을 쥐었다"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 발 벗고 나섰다"
+      },
+      {
+        "id": "reading-083-q022",
+        "questionNumber": 22,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "소방관은 재난 현장에서 끔찍한 상황을 자주 접하기 때문에 정신 건강에 위험이 따른다. 최근 이러한 문제가 심각해지자 인주시가 해결을 위해 ( ........................ ). 인주시는 빠른 시일 내에 정신 건강에 대해 조사를 실시하고 문제를 겪는 소방관이 있으면 전문 상담사를 보내 상담을 진행 하기로 했다. 이와 더불어 심리 안정 프로그램 개발과 진료비 지원을 위한 예산을 확보했다고 발표했다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "소방관의 심리적 어려움은 최근 많이 해소되었다.",
+          "인주시는 소방관의 정신 건강 조사를 모두 마쳤다.",
+          "인주시는 소방관 심리 안정 프로그램을 운영할 계획이다.",
+          "소방관이 정신 건강 상담을 받으려면 상담사를 찾아가야 한다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 인주시는 소방관 심리 안정 프로그램을 운영할 계획이다."
+      },
+      {
+        "id": "reading-083-q023",
+        "questionNumber": 23,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "며칠 전 창고 선반 위에 올려 둔 가방을 꺼내는데 공책 한 권이 툭 하고 떨어졌다. 나는 '뭐지?' 하고 별 생각 없이 안을 펼쳐 보고는 <span class='underline'>눈물이 왈칵 나올 뻔했다</span>. 그것은 바로 어렸을 때 돌아가신 아버지의 일기장이었다. 아버지 물건이 아직도 집에 남아 있을 줄은 전혀 생각하지 못했다. 두근거리는 마음으로 거실로 나와 일기장을 펼쳤다. 30년 전 날짜가 적힌 일기장의 누렇게 변한 페이지마다 아버지의 하루하루가 적혀 있었다. 내가 초등학교에 입학한 날, 여행한 날, 혼났던 날....... 그때의 추억들이 펼쳐졌다. 아버지는 언제 어디서 무엇을 하셨는지 빼곡히 적어 두셨다. 일기장에 적혀 있는 곳을 인터넷으로 찾아보니 자주 가시던 빵집과 국숫집이 아직도 그대로 있었다. 그곳에 가면 아버지의 흔적을 느낄 수 있을까? 나는 이번 주말에 일기장에 적혀 있는 곳에 한번 찾아가 보려고 한다.",
+        "question": "밑줄 친 부분에 나타난 '나'의 심정으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "반갑고 감격스럽다",
+          "편하고 만족스럽다",
+          "아쉽고 걱정스럽다",
+          "기쁘고 자랑스럽다"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 반갑고 감격스럽다"
+      },
+      {
+        "id": "reading-083-q024",
+        "questionNumber": 24,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "며칠 전 창고 선반 위에 올려 둔 가방을 꺼내는데 공책 한 권이 툭 하고 떨어졌다. 나는 '뭐지?' 하고 별 생각 없이 안을 펼쳐 보고는 <span class='underline'>눈물이 왈칵 나올 뻔했다</span>. 그것은 바로 어렸을 때 돌아가신 아버지의 일기장이었다. 아버지 물건이 아직도 집에 남아 있을 줄은 전혀 생각하지 못했다. 두근거리는 마음으로 거실로 나와 일기장을 펼쳤다. 30년 전 날짜가 적힌 일기장의 누렇게 변한 페이지마다 아버지의 하루하루가 적혀 있었다. 내가 초등학교에 입학한 날, 여행한 날, 혼났던 날....... 그때의 추억들이 펼쳐졌다. 아버지는 언제 어디서 무엇을 하셨는지 빼곡히 적어 두셨다. 일기장에 적혀 있는 곳을 인터넷으로 찾아보니 자주 가시던 빵집과 국숫집이 아직도 그대로 있었다. 그곳에 가면 아버지의 흔적을 느낄 수 있을까? 나는 이번 주말에 일기장에 적혀 있는 곳에 한번 찾아가 보려고 한다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "나는 아버지의 물건을 많이 가지고 있다.",
+          "나는 전에 아버지의 일기장을 자주 꺼내 읽었다.",
+          "나는 거실에 아버지의 일기장을 보관하고 있었다.",
+          "나는 아버지가 자주 가시던 빵집에 가 보려고 한다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 나는 아버지가 자주 가시던 빵집에 가 보려고 한다."
+      },
+      {
+        "id": "reading-083-q025",
+        "questionNumber": 25,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "드라마 '진실' 인기 효과, 원작 베스트셀러 1위",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "드라마 '진실'이 인기를 얻으면서 원작이 판매량 1위를 차지했다.",
+          "드라마 '진실'이 시청률 1위가 되자 원작 작가에 대한 관심이 높아졌다.",
+          "드라마 '진실'의 인기로 원작 작가의 모든 작품들의 판매율이 상승했다.",
+          "드라마 '진실'이 원작의 인기 요소를 추가해 시청률 1위의 드라마가 됐다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 드라마 '진실'이 인기를 얻으면서 원작이 판매량 1위를 차지했다."
+      },
+      {
+        "id": "reading-083-q026",
+        "questionNumber": 26,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "기습 폭우에 차량 '엉금엉금', 출근길 정체",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "폭우로 피해를 입은 차량들이 늘면서 사람들의 출근이 늦어졌다.",
+          "큰비에 차량 사고가 잇따르면서 출근하던 사람들이 곤란을 겪었다.",
+          "갑자기 많이 쏟아진 비로 차들이 천천히 운행하면서 출근길이 막혔다.",
+          "계속된 비에 대중교통 이용자가 한꺼번에 몰리면서 출근길이 혼잡해졌다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 갑자기 많이 쏟아진 비로 차들이 천천히 운행하면서 출근길이 막혔다."
+      },
+      {
+        "id": "reading-083-q027",
+        "questionNumber": 27,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "온라인 거래 사기 급증, 정부 대책 마련은 미흡",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "온라인 거래 사기가 늘었지만 정부의 대책 마련은 충분하지 않다.",
+          "온라인 시장에서 거래 사기가 증가해 정부가 대책을 수립하고 있다.",
+          "온라인 거래 사기를 막기 위해 마련한 정부의 대책은 큰 효과가 없었다.",
+          "온라인 거래 사기 피해자들을 위해 정부가 대책을 마련하겠다고 발표했다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 온라인 거래 사기가 늘었지만 정부의 대책 마련은 충분하지 않다."
+      },
+      {
+        "id": "reading-083-q028",
+        "questionNumber": 28,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "최근 한국의 편의점 업체가 해외로 진출하면서 현지에서 큰 인기를 끌고 있다. 인테리어에서 판매 상품까지( ........................ ) 전략을 썼기 때문이다. 보통 마트가 해외에 진출할 때는 현지인의 취향에 맞추려고 하는데 이 편의점 업체는 이와 반대되는 방법을 써서 성공한 것이다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "빠뜨리지 않고 홍보하는",
+          "판매자의 기호에 맞추는",
+          "편의점의 특성을 최대한 감추는",
+          "한국 편의점을 그대로 재현하는"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 한국 편의점을 그대로 재현하는"
+      },
+      {
+        "id": "reading-083-q029",
+        "questionNumber": 29,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "고대 이집트 피라미드를 건축할 때 거대한 바위를 모래 위에서 운반해야 했는데 이를 위해서는( ........................ ) 기술이 중요했다. 모래에 수분이 일정하게 유지되면 모랫길이 단단해져서 운반이 수월했기 때문이다. 실제로 고대 벽화에는 바위를 운반하는 길 위에 사람들이 물을 뿌리고 있는 장면이 묘사되어 있다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "적정량의 물을 뿌리는",
+          "모래를 부드럽게 만드는",
+          "바위의 무게를 계산하는",
+          "운반하는 사람들을 배치하는"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 적정량의 물을 뿌리는"
+      },
+      {
+        "id": "reading-083-q030",
+        "questionNumber": 30,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "일부 프로 농구 리그에서는 반드시 주황색 공을 쓰게 하고 있다. 여러 이유가 있지만 그중 하나는 ( ........................ )데 있다. 바닥에 공을 많이 튕겨야 하는 농구의 특성상 공이 바닥의 색과 많이 다르면 선수나 관중 모두 부담을 느낄 수 있기 때문이다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "골을 잘 넣게 하려는",
+          "공이 잘 보이게 하려는",
+          "눈의 피로감을 줄이려는",
+          "선수들의 운동복과 구별하려는"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 공이 잘 보이게 하려는"
+      },
+      {
+        "id": "reading-083-q031",
+        "questionNumber": 31,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "'가면 증후군'이란 사회적으로 인정을 받고 있지만 그것이 자신의 진짜 실력 때문이 아니라는 생각으로 괴로워하는 현상이다. 성과를 내고 있음에도 ( ........................ ) 언젠가 가면이 벗겨질지도 모른다는 생각에 불안해 하는 것이다. 이런 현상이 생긴 원인은 다양한데 양육 과정에서 부모의 인정을 받지 못했거나 겸손을 강조하는 분위기 속에서 자랐기 때문이다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "일을 계속 미루면서",
+          "타인의 평가를 원하면서",
+          "낮은 지위에 머무르면서",
+          "자신의 능력을 의심하면서"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 자신의 능력을 의심하면서"
+      },
+      {
+        "id": "reading-083-q032",
+        "questionNumber": 32,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 글의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "오케스트라는 연주하기 전에 악기들의 음을 서로 맞춰 보는 과정을 거친다. 그때 오케스트라의 한가운데에 자리 잡은 오보에가 기준 음을 낸다. 오보에는 다른 관악기와 달리 나무 떨림판인 '리드'를 두 장 겹쳐 사용해서 소리가 더 정확하고 또렷하기 때문이다. 또 음을 안정적으로 길게 유지할 수 있어서 다른 악기들이 음을 쉽게 맞출 수 있도록 해 준다.",
+        "question": "다음을 읽고 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "오보에는 다른 악기와 달리 리드 하나로 음을 낸다.",
+          "오보에의 첫 음과 함께 오케스트라 연주가 시작된다.",
+          "오보에는 소리가 작아서 오케스트라의 앞쪽에 위치한다.",
+          "오보에는 오케스트라에서 소리를 맞출 때 기준 역할을 한다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 오보에는 오케스트라에서 소리를 맞출 때 기준 역할을 한다."
+      },
+      {
+        "id": "reading-083-q033",
+        "questionNumber": 33,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 글의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "애기장대는 각종 식물 실험에 빠지지 않고 등장하는 식물이다. 식물 중에서는 처음으로 유전체 해독이 완료되어 식물의 유전자 연구를 할 때 주로 이용된다. 전 세계에 고루 분포하고, 곤충의 도움 없이 씨앗을 맺을 수 있어서 재배도 쉽다. 또한 한 세대 기간이 6주 정도밖에 되지 않아 실험 결과를 빨리 확인할 수 있기 때문에 실험에 널리 이용되고 있다.",
+        "question": "다음을 읽고 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "애기장대는 세계 곳곳에서 볼 수 있는 식물이다.",
+          "애기장대의 유전체 해독을 위한 연구가 진행 중이다.",
+          "애기장대가 씨앗을 만드는 데에 곤충의 역할이 필요하다.",
+          "애기장대는 성장 기간이 길어 유전자 연구에 효율적이다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 애기장대는 세계 곳곳에서 볼 수 있는 식물이다."
+      },
+      {
+        "id": "reading-083-q034",
+        "questionNumber": 34,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 글의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "아이가 '엄마' 다음으로 빨리 배우는 말 중에는 '이것'과 같이 여러 물건을 가리키는 지시어가 있다. 지시어는 대화하는 상황을 타인과 공유해야 그 의미를 이해할 수 있다는 특성이 있다. 아기들은 이러한 지시어를 사용해 자연스럽게 부모의 관심을 끄는 것이다. 대부분의 아기들이 생후 12~18개월 무렵에 이런 지시어를 사용한다는 것은 이미 여러 언어 연구에서 밝혀진 바 있다.",
+        "question": "다음을 읽고 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "아기는 혼잣말을 할 때 지시어를 자주 사용한다.",
+          "아기는 엄마라는 단어보다 지시어를 먼저 습득한다.",
+          "지시어를 습득하는 시기는 언어권마다 다르게 나타난다.",
+          "지시어는 상대방과 상황을 공유해야 의미를 전달할 수 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 지시어는 상대방과 상황을 공유해야 의미를 전달할 수 있다."
+      },
+      {
+        "id": "reading-083-q035",
+        "questionNumber": 35,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "대중을 대상으로 한 예술 입문서가 작품의 역사적 배경, 작가에 대한 일화 등 독자의 흥미를 끄는 이야기에 집중하는 경우를 많이 볼 수 있다. 작품에 관한 이런 지식은 작품 이해에 도움이 된다. 그러나 예술의 본질은 작품 그 자체에 있다. 작품 외적인 사실들보다 작품에 초점을 두고 작품의 구성 요소, 표현 방식 등을 충분히 설명하는 입문서가 늘어나기를 희망한다.",
+        "question": "다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "예술 입문서는 작품 외적인 사실들을 다양하게 다뤄야 한다.",
+          "작품 자체에 대해 충실히 소개하는 예술 입문서가 많아져야 한다.",
+          "대중이 예술 작품에 관해 궁금해 하는 것이 무엇인지 알아야 한다.",
+          "예술 입문서는 대중이 예술을 어려운 것이 아니라고 느끼게 해야 한다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 작품 자체에 대해 충실히 소개하는 예술 입문서가 많아져야 한다."
+      },
+      {
+        "id": "reading-083-q036",
+        "questionNumber": 36,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "점자 표기의 위치, 방식 등이 제조사나 제품별로 달라 시각 장애인들이 불편과 혼란을 겪고 있다. 시각 장애인을 위한 점자 정보가 여러 제품에 표기되고는 있지만 아직 통일된 규정이 없기 때문이다. 현재는 의약품에 한해서만 표기 규정이 정해져 있다. 관계 기관은 더 많은 제품을 대상으로 점자 표기에 대한 규정을 정해야 한다.",
+        "question": "다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "의약품의 점자 표기 규정을 검토해야 한다.",
+          "점자 표기의 필요성에 대한 인식이 높아져야 한다.",
+          "제품에 잘못 표기된 점자 정보가 없는지 조사해야 한다.",
+          "다양한 제품에 적용할 점자 표기 규정이 마련되어야 한다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 다양한 제품에 적용할 점자 표기 규정이 마련되어야 한다."
+      },
+      {
+        "id": "reading-083-q037",
+        "questionNumber": 37,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "'자기 길들이기'는 동물이 스스로 공격성을 억제하고 친화력을 높이는 방향으로 진화하는 현상을 말한다. 호모 사피엔스도 이것을 생존 전략으로 삼았다는 가설이 있다. 네안데르탈인은 호모 사피엔스보다 체격도 좋고 뇌의 용량도 컸지만 살아남지 못했다. 반면 호모 사피엔스는 서로를 포용하고 보호하는 친화력을 무기로 살아남았다. 높은 친화력으로 더 큰 집단을 형성 함으로써 외부의 공격과 환경 변화에 대응한 것이다.",
+        "question": "다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "자기 길들이기는 인간이 가진 고유한 특성이다.",
+          "자기 길들이기는 네안데르탈인의 생존 전략이었다.",
+          "호모 사피엔스는 신체 능력이 가장 뛰어난 종이었다.",
+          "호모 사피엔스는 높은 친화력 덕분에 생존할 수 있었다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 호모 사피엔스는 높은 친화력 덕분에 생존할 수 있었다."
+      },
+      {
+        "id": "reading-083-q038",
+        "questionNumber": 38,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "뚜렷한 신념 없이 사안에 따라 의견을 바꾼다는 인식 때문에 중도층은 부정적 존재로 여겨진다. 그러나 이들에 대한 긍정적 평가도 있다. 주관 없이 흔들리는 것처럼 보이지만 쟁점에 대해 좀 더 유연하고 객관적으로 사고 한다고 보는 관점이다. 중도층의 의견이 정치적 양극화를 완화하고 합리적 으로 사회적 합의가 도출되도록 이끄는 토대가 될 수 있다는 것이다.",
+        "question": "다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "중도층은 사회적 쟁점에 대해 대체로 비판적인 태도를 취한다.",
+          "중도층은 사회가 균형을 이루며 발전하도록 돕는 역할을 할 수 있다.",
+          "정치적 신념을 적극적으로 표출하는 것은 사회의 발전에 도움이 된다.",
+          "정치적 사안에 대해 그때그때 의견을 바꾸는 것은 사회 발전을 저해한다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 중도층은 사회가 균형을 이루며 발전하도록 돕는 역할을 할 수 있다."
+      },
+      {
+        "id": "reading-083-q039",
+        "questionNumber": 39,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "이영천의 『다시, 오래된 다리를 거닐다』는 다리를 소재로 한국인의 삶을 돌아본 책이다.( ㉠ ) 여기에서는 수백 년 전에 놓인 징검다리, 왕을 위한 다리 등을 통해 우리 고유의 풍속과 역사를 만난다. ( ㉡ )이어서 근현대식 다리와 함께 기술의 발전이 다리와 우리 사회에 가져온 변화를 살펴본다.( ㉢ ) 이 책은 과거와 현재의 다리를 거닐며 우리가 지나온 길과 가야 할 길을 생각해 보게 한다. ( ㉣ )\n\n넣을 문장: 이 책은 크게 두 부분으로 구성되어 있는데 먼저 옛 다리들과 그에 얽힌 이야기를 다룬다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 위치"
+      },
+      {
+        "id": "reading-083-q040",
+        "questionNumber": 40,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "뇌는 신경계를 통해 몸 전체의 움직임을 관장하는데 장의 경우에는 뇌의 명령 없이 자율적으로 작동하기도 한다.( ㉠ ) 생존에 필수적인 식사와 소화를 위해 장에 별도의 신경계를 두었기 때문이다.( ㉡ ) 한편 장 신경계가 오로지 장에만 관여하는 것은 아니다. ( ㉢ ) 과학자 들은 장 신경계와 뇌가 서로 소통하고 있어서 장의 문제가 심리적 변화에 영향을 줄 수 있다고 말한다. ( ㉣ )\n\n넣을 문장: 장 신경계는 주로 장 내의 근육 운동과 소화액을 조절하여 소화를 촉진하는 일을 한다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 위치"
+      },
+      {
+        "id": "reading-083-q041",
+        "questionNumber": 41,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "동궐도는 창덕궁과 창경궁 전체를 그린 조선 시대의 그림이다. ( ㉠ ) 세로 2m, 가로 5m가 넘는 대작으로 건축물은 물론 주변의 산과 궁궐 안 연못, 나무까지 그대로 그려 넣었다. ( ㉡ ) 건물 배치와 건물 사이의 거리도 완벽하게 재현했다.( ㉢ ) 이러한 이유로 제작자와 제작 연도를 포함하여 그림에 관련된 정보 일체가 왕실 기밀이었을 것으로 추정된다. ( ㉣ )\n\n넣을 문장: 이처럼 정밀하면서도 실제와 같은 그림은 외부인이 궁궐에 침입할 목적 으로 사용할 수 있다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 위치"
+      },
+      {
+        "id": "reading-083-q042",
+        "questionNumber": 42,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "올해 서른두 살인 준은 어렸을 때부터 특출나게 뛰어난 재능이 없다는 점이 큰 불만이었다. 공부도 그럭저럭, 외모도 그럭저럭, 이었다. (중략) 특이한 재능이 있긴 했다. 준은 본능적으로 동서남북을 감지할 수 있었다. 어느 장소에 가든지 북쪽과 동쪽이 어디인지 본능적으로 느낄 수 있는 감각이었다. 이게 남들은 못하는 특이한 재능이란 걸 알게 된 건 가족들과 3박 4일 일정으로 포항에 놀러갔던 중학생 때였다. 부모님은 유명하다는 포항 바닷가의 해돋이를 꼭 보고 싶어했다. (중략)<br><br>\"여보, 이쪽으로 걸어가면 되겠지? 동쪽이 저쪽인가?\"<br>\"아냐, 자기야 호텔 지배인이 선착장으로 가라고 했잖아. 그러니까 저기가 동쪽이지!\"<br>\"아냐, 엄마. 동쪽은 이쪽이잖아.\"(중략)<br>준은 후드 주머니에 꼼지락거리고 있던 손을 꺼내 반대편으로 가려는 부모를 잡았다. 준이 심드렁한 표정으로 반대쪽을 턱짓으로 가리키자 부모님은 고개를 갸웃했다.<br><br>\"<span class='underline'>네가 그걸 어떻게 알아?</span>\"<br><br>\"이 방향이 북쪽이잖아. 그러니까 동쪽은 이쪽이지.\" (중략) 처음에 부모님은 반신반의했지만, 준이 물어볼 때마다 오차 없이 정확히 맞추는 걸 확인하고는 자기들이 천재를 낳았다며 즐거워했다.",
+        "question": "밑줄 친 부분에 나타난 '부모님'의 심정으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "후회스럽다",
+          "의심스럽다",
+          "실망스럽다",
+          "짜증스럽다"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 의심스럽다"
+      },
+      {
+        "id": "reading-083-q043",
+        "questionNumber": 43,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "올해 서른두 살인 준은 어렸을 때부터 특출나게 뛰어난 재능이 없다는 점이 큰 불만이었다. 공부도 그럭저럭, 외모도 그럭저럭, 이었다. (중략) 특이한 재능이 있긴 했다. 준은 본능적으로 동서남북을 감지할 수 있었다. 어느 장소에 가든지 북쪽과 동쪽이 어디인지 본능적으로 느낄 수 있는 감각이었다. 이게 남들은 못하는 특이한 재능이란 걸 알게 된 건 가족들과 3박 4일 일정으로 포항에 놀러갔던 중학생 때였다. 부모님은 유명하다는 포항 바닷가의 해돋이를 꼭 보고 싶어했다. (중략)<br><br>\"여보, 이쪽으로 걸어가면 되겠지? 동쪽이 저쪽인가?\"<br>\"아냐, 자기야 호텔 지배인이 선착장으로 가라고 했잖아. 그러니까 저기가 동쪽이지!\"<br>\"아냐, 엄마. 동쪽은 이쪽이잖아.\"(중략)<br>준은 후드 주머니에 꼼지락거리고 있던 손을 꺼내 반대편으로 가려는 부모를 잡았다. 준이 심드렁한 표정으로 반대쪽을 턱짓으로 가리키자 부모님은 고개를 갸웃했다.<br><br>\"<span class='underline'>네가 그걸 어떻게 알아?</span>\"<br><br>\"이 방향이 북쪽이잖아. 그러니까 동쪽은 이쪽이지.\" (중략) 처음에 부모님은 반신반의했지만, 준이 물어볼 때마다 오차 없이 정확히 맞추는 걸 확인하고는 자기들이 천재를 낳았다며 즐거워했다.",
+        "question": "윗글의 내용으로 알 수 있는 것을 고르십시오.",
+        "options": [
+          "준은 여행지에서 해 뜨는 방향을 한 번에 찾았다.",
+          "준의 부모님은 아들과 같은 능력을 가지고 있었다.",
+          "준은 공부를 잘해서 학교에서 모르는 사람이 없었다.",
+          "준의 부모님은 아들의 재능을 발견한 후 걱정하기 시작했다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 준은 여행지에서 해 뜨는 방향을 한 번에 찾았다."
+      },
+      {
+        "id": "reading-083-q044",
+        "questionNumber": 44,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "서양 역사에서는 15·16세기를 '위대한 발견의 시대'라고 부른다. 콜럼버스 처럼 유럽의 많은 탐험가들이 금이나 향신료 등을 얻고자( ........................ ) 때문이다. 그러나 이 시대에 이루어진 발견의 진정한 의미는 대륙의 발견이 아니라 바다의 발견이었다. 탐험을 통해 지구상의 모든 바다가 하나로 이어져 있다는 인식이 생겼다는 것, 또 이러한 인식을 바탕으로 다양한 해상 항로를 발견한 것이 이 시대의 진정한 소산이라는 것이다. 실제로 탐험가들은 아프리카를 돌아 인도양, 더 나아가 극동까지 가는 바닷길을 열었고 콜럼버스도 대서양을 왕복할 수 있는 경로를 만들었다. 바닷길이 열리자 전 세계가 하나의 지구가 되었고 이로 인해 경제, 기술, 문화뿐만 아니라 생태계의 교환까지 이루어지는 계기가 마련되었다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "값비싼 물건을 매매했기",
+          "다양한 지도를 수집했기",
+          "미지의 땅을 찾아 떠났기",
+          "탐험에 대한 기록을 남겼기"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 미지의 땅을 찾아 떠났기"
+      },
+      {
+        "id": "reading-083-q045",
+        "questionNumber": 45,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "서양 역사에서는 15·16세기를 '위대한 발견의 시대'라고 부른다. 콜럼버스 처럼 유럽의 많은 탐험가들이 금이나 향신료 등을 얻고자( ........................ ) 때문이다. 그러나 이 시대에 이루어진 발견의 진정한 의미는 대륙의 발견이 아니라 바다의 발견이었다. 탐험을 통해 지구상의 모든 바다가 하나로 이어져 있다는 인식이 생겼다는 것, 또 이러한 인식을 바탕으로 다양한 해상 항로를 발견한 것이 이 시대의 진정한 소산이라는 것이다. 실제로 탐험가들은 아프리카를 돌아 인도양, 더 나아가 극동까지 가는 바닷길을 열었고 콜럼버스도 대서양을 왕복할 수 있는 경로를 만들었다. 바닷길이 열리자 전 세계가 하나의 지구가 되었고 이로 인해 경제, 기술, 문화뿐만 아니라 생태계의 교환까지 이루어지는 계기가 마련되었다.",
+        "question": "윗글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "콜럼버스는 새로운 대륙을 개척하는 데 기여한 바가 크다.",
+          "신대륙 발견은 동방의 대륙 탐험을 시작하는 계기가 되었다.",
+          "신대륙 발견으로 대륙 간에 문물과 생물의 이동이 증가할 수 있었다.",
+          "유럽인들의 탐험은 항로를 만들어 세계를 연결시켰다는 데 의의가 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 유럽인들의 탐험은 항로를 만들어 세계를 연결시켰다는 데 의의가 있다."
+      },
+      {
+        "id": "reading-083-q046",
+        "questionNumber": 46,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "세계는 신에너지, 자동화, 우주여행 등이 주도하는 시대로 급속히 접어들고 있다. 세계 각국은 풍력, 태양광 등 재생 가능한 에너지를 개발하는 회사에 대한 정부 보조금을 늘리고 있고 그에 따라 대체 에너지의 사용 비율도 점차 증가하고 있다. 민간 우주 산업 육성을 위해 인공위성 주파수 사용과 우주선 발사 등에 대한 대대적인 규제 완화를 한 국가도 있다. 그 덕분에 한 민간 기업은 화성 여행이 가능한 호텔급 우주여행선을 제작할 수 있었다. 민간 기업이 과학 기술 개발을 주도하며 성장할 수 있게 된 것은 정부가 지원을 확대하면서도 간섭을 최소화했기 때문이다. 이처럼 과학 기술이 유의미하게 발전하기 위해서는 과학 전문가들이 정책 수립을 주도하고 전문 기업이 그 정책의 수행을 담당할 수 있게 해야 한다. 이때 정부는 모든 과정에 지원은 하되 과도하게 관여하는 일은 없어야 할 것이다.",
+        "question": "윗글에 나타난 필자의 태도로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "과학 정책에 대한 정부의 지나친 개입을 경계하고 있다.",
+          "과학 기술 발전을 위해서는 연구가 중요함을 강조하고 있다.",
+          "과학 기술 발전이 경제 성장에 미치는 영향력에 감탄하고 있다.",
+          "과학 정책 수립 시 우주 과학이 소홀히 다루어질 것을 우려하고 있다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 과학 정책에 대한 정부의 지나친 개입을 경계하고 있다."
+      },
+      {
+        "id": "reading-083-q047",
+        "questionNumber": 47,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "세계는 신에너지, 자동화, 우주여행 등이 주도하는 시대로 급속히 접어들고 있다. 세계 각국은 풍력, 태양광 등 재생 가능한 에너지를 개발하는 회사에 대한 정부 보조금을 늘리고 있고 그에 따라 대체 에너지의 사용 비율도 점차 증가하고 있다. 민간 우주 산업 육성을 위해 인공위성 주파수 사용과 우주선 발사 등에 대한 대대적인 규제 완화를 한 국가도 있다. 그 덕분에 한 민간 기업은 화성 여행이 가능한 호텔급 우주여행선을 제작할 수 있었다. 민간 기업이 과학 기술 개발을 주도하며 성장할 수 있게 된 것은 정부가 지원을 확대하면서도 간섭을 최소화했기 때문이다. 이처럼 과학 기술이 유의미하게 발전하기 위해서는 과학 전문가들이 정책 수립을 주도하고 전문 기업이 그 정책의 수행을 담당할 수 있게 해야 한다. 이때 정부는 모든 과정에 지원은 하되 과도하게 관여하는 일은 없어야 할 것이다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "많은 국가들이 신에너지 개발에 대한 투자를 줄이고 있다.",
+          "과학 정책이 빠르게 변해서 과학 기술이 발전할 수 있었다.",
+          "정부가 우주 산업에 대한 규제를 풀어 성장한 민간 기업이 있다.",
+          "우주 개발에 참여 중인 민간 기업이 화성에 호텔을 건설하고 있다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 정부가 우주 산업에 대한 규제를 풀어 성장한 민간 기업이 있다."
+      },
+      {
+        "id": "reading-083-q048",
+        "questionNumber": 48,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "많은 사람들은 결혼, 수입 등의 객관적 조건이 행복을 결정하는 요인이라고 생각한다. 그러나 이런 요인들로는 행복의 이유를 10% 정도밖에 설명할 수 없다고 한다. 그렇다면 행복을 결정하는 요인은 무엇일까? 그것은 행복에 대해 가지는 믿음과 태도이다. 행복에 대한 태도는 행복의 유한성과 무한성 중 어느 한쪽을 선택함으로써 결정된다. 이 세상에 존재하는 행복의 ( ........................ ) 믿는 사람들은 항상 타인이 행복한 정도를 예의 주시 하는 특징이 관찰되었다. 남이 행복하면 내 행복이 줄어든다고 생각하는 사람에게는 타인의 행복이 자신의 행복에 위협적인 요소가 되기 때문이다. 반면 행복의 무한성을 믿는 사람들은 타인의 행복에 그다지 관심을 가지지 않는다. 따라서 행복하려면 행복이 무한한 것이라는 믿음을 가질 필요가 있다. 이러한 생각만으로도 행복감은 증대될 수 있으며 자신이 어떻게 할 때 행복해지는지에 집중할 수 있게 되기 때문이다.",
+        "question": "윗글을 쓴 목적으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "행복의 사회적 특성을 파악하려고",
+          "행복을 측정하는 방법을 소개하려고",
+          "행복에 대한 관점의 변화를 유도하려고",
+          "행복이 인간에게 미치는 영향을 분석하려고"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 행복에 대한 관점의 변화를 유도하려고"
+      },
+      {
+        "id": "reading-083-q049",
+        "questionNumber": 49,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "많은 사람들은 결혼, 수입 등의 객관적 조건이 행복을 결정하는 요인이라고 생각한다. 그러나 이런 요인들로는 행복의 이유를 10% 정도밖에 설명할 수 없다고 한다. 그렇다면 행복을 결정하는 요인은 무엇일까? 그것은 행복에 대해 가지는 믿음과 태도이다. 행복에 대한 태도는 행복의 유한성과 무한성 중 어느 한쪽을 선택함으로써 결정된다. 이 세상에 존재하는 행복의 ( ........................ ) 믿는 사람들은 항상 타인이 행복한 정도를 예의 주시 하는 특징이 관찰되었다. 남이 행복하면 내 행복이 줄어든다고 생각하는 사람에게는 타인의 행복이 자신의 행복에 위협적인 요소가 되기 때문이다. 반면 행복의 무한성을 믿는 사람들은 타인의 행복에 그다지 관심을 가지지 않는다. 따라서 행복하려면 행복이 무한한 것이라는 믿음을 가질 필요가 있다. 이러한 생각만으로도 행복감은 증대될 수 있으며 자신이 어떻게 할 때 행복해지는지에 집중할 수 있게 되기 때문이다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "개인차가 크지 않다고",
+          "총량이 정해져 있다고",
+          "양상이 매우 다양하다고",
+          "크기가 계속 증가한다고"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 총량이 정해져 있다고"
+      },
+      {
+        "id": "reading-083-q050",
+        "questionNumber": 50,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "많은 사람들은 결혼, 수입 등의 객관적 조건이 행복을 결정하는 요인이라고 생각한다. 그러나 이런 요인들로는 행복의 이유를 10% 정도밖에 설명할 수 없다고 한다. 그렇다면 행복을 결정하는 요인은 무엇일까? 그것은 행복에 대해 가지는 믿음과 태도이다. 행복에 대한 태도는 행복의 유한성과 무한성 중 어느 한쪽을 선택함으로써 결정된다. 이 세상에 존재하는 행복의 ( ........................ ) 믿는 사람들은 항상 타인이 행복한 정도를 예의 주시 하는 특징이 관찰되었다. 남이 행복하면 내 행복이 줄어든다고 생각하는 사람에게는 타인의 행복이 자신의 행복에 위협적인 요소가 되기 때문이다. 반면 행복의 무한성을 믿는 사람들은 타인의 행복에 그다지 관심을 가지지 않는다. 따라서 행복하려면 행복이 무한한 것이라는 믿음을 가질 필요가 있다. 이러한 생각만으로도 행복감은 증대될 수 있으며 자신이 어떻게 할 때 행복해지는지에 집중할 수 있게 되기 때문이다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "행복에 대한 사람들의 태도는 대체로 유사하다.",
+          "행복은 결혼 여부나 수입 정도의 영향을 많이 받는다.",
+          "행복의 양이 유한하다고 믿는 사람들은 더 많이 행복할 수 있다.",
+          "행복이 무한하다고 믿는 사람들은 자신을 남과 잘 비교하지 않는다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 행복이 무한하다고 믿는 사람들은 자신을 남과 잘 비교하지 않는다."
+      }
+    ]
+  },
+  {
+    "id": "reading-091",
+    "title": "91st TOPIK II Reading Test",
+    "level": "TOPIK II",
+    "topic": "Official Reading Paper",
+    "source": "https://www.topikguide.com/mock-tests/91-TOPIK-II-Reading-Mock-Test.html",
+    "durationMinutes": 70,
+    "passage": "",
+    "questions": [
+      {
+        "id": "reading-091-q001",
+        "questionNumber": 1,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "나는 오래전에 설악산을( ........................ ).",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "등산하고 싶다",
+          "등산해도 된다",
+          "등산할 것 같다",
+          "등산한 적이 있다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 등산한 적이 있다"
+      },
+      {
+        "id": "reading-091-q002",
+        "questionNumber": 2,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "새집으로( ........................ ) 가구를 새로 샀다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "이사한 지",
+          "이사하거든",
+          "이사하려면",
+          "이사하고 나서"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 이사하고 나서"
+      },
+      {
+        "id": "reading-091-q003",
+        "questionNumber": 3,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "어려운 이웃을 <span class='underline'>돕고자</span> 매년 봉사 활동에 참여하고 있다.",
+        "question": "밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.",
+        "options": [
+          "돕기 위해서",
+          "돕는 대신에",
+          "돕기 무섭게",
+          "돕는 바람에"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 돕기 위해서"
+      },
+      {
+        "id": "reading-091-q004",
+        "questionNumber": 4,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "지난 3년 동안 영화를 한 편 봤으니 거의 안 <span class='underline'>본 셈이다</span>.",
+        "question": "밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.",
+        "options": [
+          "본 척했다",
+          "보기 나름이다",
+          "볼 수밖에 없었다",
+          "본 거나 마찬가지이다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 본 거나 마찬가지이다"
+      },
+      {
+        "id": "reading-091-q005",
+        "questionNumber": 5,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "비누",
+          "칫솔",
+          "안경",
+          "수건"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 칫솔",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T291R5.png"
+      },
+      {
+        "id": "reading-091-q006",
+        "questionNumber": 6,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "은행",
+          "서점",
+          "유치원",
+          "우체국"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 유치원",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T291R6.png"
+      },
+      {
+        "id": "reading-091-q007",
+        "questionNumber": 7,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "건강 관리",
+          "안전 운전",
+          "전화 예절",
+          "절약 습관"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 건강 관리",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T291R7.png"
+      },
+      {
+        "id": "reading-091-q008",
+        "questionNumber": 8,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "관람 규칙",
+          "제품 소개",
+          "사용 방법",
+          "예약 문의"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 관람 규칙",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T291R8.png"
+      },
+      {
+        "id": "reading-091-q009",
+        "questionNumber": 9,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "성인과 학생의 버스 요금이 같다.",
+          "이 버스는 별빛공원에서 출발한다.",
+          "매일 오전에 이 버스를 탈 수 있다.",
+          "이 버스를 타려면 미리 신청해야 한다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 이 버스를 타려면 미리 신청해야 한다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T291R9.png"
+      },
+      {
+        "id": "reading-091-q010",
+        "questionNumber": 10,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글 또는 그래프의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "자가용으로 출퇴근한다고 응답한 직장인들의 비율이 줄었다.",
+          "걸어서 출퇴근하는 직장인은 2012년보다 2022년이 더 적었다.",
+          "2022년에는 지하철을 타고 출퇴근하는 직장인이 가장 많았다.",
+          "2012년에 직장인들은 출퇴근할 때 버스를 제일 많이 이용했다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 걸어서 출퇴근하는 직장인은 2012년보다 2022년이 더 적었다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T291R10.png"
+      },
+      {
+        "id": "reading-091-q011",
+        "questionNumber": 11,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "인주시가 작년에 이어 올해도 10월 한 달간 '찾아가는 자전거 수리 센터'를 운영한다. 평일에는 여러 지역을 직접 방문해 고쳐 주고 주말에는 인주공원에서 수리 서비스를 제공한다. 전문 수리 기사가 자전거를 무료로 고쳐 주고 부품 교체가 필요한 경우에는 저렴한 가격으로 바꿔 준다. 시는 시민들의 자전거 타기 생활화를 위해 이 수리 센터를 운영하는 것이라고 밝혔다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 서비스는 일 년 내내 운영된다.",
+          "올해 처음으로 이 센터가 운영되기 시작했다.",
+          "주말에는 인주공원에서 수리를 받을 수 있다.",
+          "이 수리 센터에서는 무료로 부품을 교체해 준다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 주말에는 인주공원에서 수리를 받을 수 있다."
+      },
+      {
+        "id": "reading-091-q012",
+        "questionNumber": 12,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "피자 가게를 운영하는 김민수 씨의 사연이 잔잔한 감동을 주고 있다. 최근 김 씨는 피자를 배달하러 가다가 오토바이가 빗길에 미끄러지는 사고를 당했다. 다행히 사람이 다치는 피해는 없었지만 피자가 망가져서 배달에 문제가 생겼다. 배달이 늦어지는 것에 대해 김 씨가 고객에게 연락하자 고객은 \"천천히 오셔도 돼요. 몸은 괜찮나요?\"라며 따뜻한 말부터 전했다고 한다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "고객은 주문한 피자를 취소하겠다고 말했다.",
+          "사고가 생겨서 배달 중이던 피자가 망가졌다.",
+          "오토바이가 빗길에 미끄러져서 김 씨가 다쳤다.",
+          "김 씨는 피자를 시킨 고객에게 연락하다 사고가 났다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 사고가 생겨서 배달 중이던 피자가 망가졌다."
+      },
+      {
+        "id": "reading-091-q013",
+        "questionNumber": 13,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서에 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 짧게는 하루, 길게는 한 달 정도 반짝 운영하는 임시 매장이다.\n(나) 사람이 붐비는 장소에서 짧은 기간 동안 운영하는 매장이 유행이다.\n(다) 기업은 이 임시 매장을 이용해 주로 특정 제품을 팔거나 홍보를 한다.\n(라) 또 기업 이미지를 친숙하게 만들기 위해 재미있는 행사를 열기도 한다.",
+        "question": "다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(가) - (다) - (라) - (나)",
+          "(나) - (가) - (다) - (라)",
+          "(가) - (라) - (나) - (다)",
+          "(나) - (라) - (다) - (가)"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. (나) - (가) - (다) - (라)"
+      },
+      {
+        "id": "reading-091-q014",
+        "questionNumber": 14,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서에 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 그런데 전화를 끊고 뒤늦게 미안한 마음이 들었다.\n(나) 친구는 나의 합격 소식을 듣고 자신의 일처럼 기뻐했다.\n(다) 얼마 전 나는 회사 합격 소식을 듣고 친한 친구에게 전화했다.\n(라) 아직 취업 못 한 친구를 내가 배려하지 못했다는 생각 때문이었다.",
+        "question": "다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(나) - (다) - (라) - (가)",
+          "(나) - (라) - (가) - (다)",
+          "(다) - (나) - (가) - (라)",
+          "(다) - (나) - (라) - (가)"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. (다) - (나) - (가) - (라)"
+      },
+      {
+        "id": "reading-091-q015",
+        "questionNumber": 15,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서에 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 빵이나 고기를 구울 때 갈색으로 바뀌는 것이 그 예이다.\n(나) 갈색으로 바뀌면서 빵이나 고기의 맛도 더 깊어지고 풍부해진다.\n(다) 식품에 들어 있는 당과 단백질이 열을 만나면 색깔이 바뀌게 된다.\n(라) 만약 열이 너무 가해져서 검게 타게 되면 그런 맛을 낼 수가 없다.",
+        "question": "다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(가) - (나) - (라) - (다)",
+          "(다) - (가) - (나) - (라)",
+          "(가) - (다) - (라) - (나)",
+          "(다) - (라) - (나) - (가)"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. (다) - (가) - (나) - (라)"
+      },
+      {
+        "id": "reading-091-q016",
+        "questionNumber": 16,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "타조는 멀리서 적이 다가와도 머리를 모래에 파묻고 있다. 그래서 위험이나 위기를 모르는 척 피하는 사람을 타조에 비유하곤 한다. 그런데 사실 타조는 ( ........................ ) 위해 이런 행동을 한다. 시각보다 청각이 발달한 타조는 땅에서 울리는 발소리를 듣고 적이 오는지를 파악하려는 것이다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "적의 움직임을 알기",
+          "먹이를 빨리 구하기",
+          "머리를 깨끗이 씻기",
+          "다른 타조를 공격하기"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 적의 움직임을 알기"
+      },
+      {
+        "id": "reading-091-q017",
+        "questionNumber": 17,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "섬유 유연제는 섬유에 막을 씌워 옷감을 부드럽게 하고 향기도 남긴다. 그래서 세탁할 때 유연제를 넣는 사람들이 많다. 그런데 수건처럼 물기를 빠르게 흡수해야 하는 소재에는 유연제를 넣는 것이 좋은 것만은 아니다. 유연제가 만든 막이 오히려 섬유의( ........................ ) 때문이다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "향기를 없애기",
+          "색깔을 변형시키기",
+          "흡수력을 떨어뜨리기",
+          "촉감을 거칠게 만들기"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 흡수력을 떨어뜨리기"
+      },
+      {
+        "id": "reading-091-q018",
+        "questionNumber": 18,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "디지털 기기에 대한 의존도가 높아지면서 사람들이 무언가 직접 기억해야 할 일은 줄었다. 그래서 이전보다( ........................ ) 생각할 수 있다. 그런데 뇌를 사용하는 방식이 이전과 달라졌을 뿐 사용량이 줄어든 것이 아니다. 과거에는 단순히 정보를 기억하는 데 뇌를 썼다면 이제는 과거보다 압도적으로 많아진 정보를 처리하는 데 사용하고 있는 것이다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "뇌를 덜 사용한다고",
+          "기억력이 좋아졌다고",
+          "저장해야 할 정보가 많다고",
+          "디지털 기기를 많이 쓴다고"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 뇌를 덜 사용한다고"
+      },
+      {
+        "id": "reading-091-q019",
+        "questionNumber": 19,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "매서운 남극의 겨울, 황제펭귄들은 겹겹이 붙어 서로의 체온으로 추위를 견딘다. 무리 전체가 돌면서 바깥쪽과 안쪽에 있는 펭귄들이 계속 서로의 위치를 바꾼다. 안에서 몸을 데운 펭귄은 밖으로 나가고 밖에서 추위에 떨던 펭귄은 안으로 들어오는 것이다. ( ........................ ) 그 움직임은 아주 느리지만 쉬지 않고 이루어져 한 마리의 펭귄이 줄곧 찬바람을 맞고 서 있는 일이 없다. 그렇게 쉼 없이 둥글게 돌면서 펭귄들은 다 함께 살아남는다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "혹시",
+          "또는",
+          "비록",
+          "만약"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 비록"
+      },
+      {
+        "id": "reading-091-q020",
+        "questionNumber": 20,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "매서운 남극의 겨울, 황제펭귄들은 겹겹이 붙어 서로의 체온으로 추위를 견딘다. 무리 전체가 돌면서 바깥쪽과 안쪽에 있는 펭귄들이 계속 서로의 위치를 바꾼다. 안에서 몸을 데운 펭귄은 밖으로 나가고 밖에서 추위에 떨던 펭귄은 안으로 들어오는 것이다. ( ........................ ) 그 움직임은 아주 느리지만 쉬지 않고 이루어져 한 마리의 펭귄이 줄곧 찬바람을 맞고 서 있는 일이 없다. 그렇게 쉼 없이 둥글게 돌면서 펭귄들은 다 함께 살아남는다.",
+        "question": "윗글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "황제펭귄은 서로 도우면서 추위에 맞서 생존해 왔다.",
+          "황제펭귄은 둥글게 돌면서 날씨에 대한 정보를 알린다.",
+          "황제펭귄은 추위에서 살아남기 위해 움직임이 느려졌다.",
+          "황제펭귄은 무리 생활을 통해 경쟁에서 이기는 법을 배운다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 황제펭귄은 서로 도우면서 추위에 맞서 생존해 왔다."
+      },
+      {
+        "id": "reading-091-q021",
+        "questionNumber": 21,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "최근 미술 전시회 수요가 증가하면서 돈벌이에 급급한 전시회가 늘고 있다. 일부 전시 관계자들이 전시 포스터 등 홍보 자료에 복제품 전시임을 밝히지 않고 입장료 수입만을 챙기는 것이다. 전시장을 찾아와서야 이런 사실을 알게 된 관람객들은 불만을 쏟아 내고 있다. 전문가들은 이런 전시 행태가 미술계 발전의 ( ........................ ) 수 있다고 우려한다. 전시회에 실망한 사람들이 미술에 대한 관심을 아예 끊을 수 있기 때문이다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "입맛에 맞을",
+          "가슴을 울릴",
+          "발목을 잡을",
+          "손을 맞잡을"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 발목을 잡을"
+      },
+      {
+        "id": "reading-091-q022",
+        "questionNumber": 22,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "최근 미술 전시회 수요가 증가하면서 돈벌이에 급급한 전시회가 늘고 있다. 일부 전시 관계자들이 전시 포스터 등 홍보 자료에 복제품 전시임을 밝히지 않고 입장료 수입만을 챙기는 것이다. 전시장을 찾아와서야 이런 사실을 알게 된 관람객들은 불만을 쏟아 내고 있다. 전문가들은 이런 전시 행태가 미술계 발전의 ( ........................ ) 수 있다고 우려한다. 전시회에 실망한 사람들이 미술에 대한 관심을 아예 끊을 수 있기 때문이다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "복제품 전시회는 입장료를 받지 않는다.",
+          "최근 미술 전시회를 찾는 사람들이 많지 않다.",
+          "전시회에서 복제품을 전시하는 일이 점점 줄고 있다.",
+          "복제품 전시회인지 모르고 전시회를 방문한 관람객들이 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 복제품 전시회인지 모르고 전시회를 방문한 관람객들이 있다."
+      },
+      {
+        "id": "reading-091-q023",
+        "questionNumber": 23,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "꽃집을 지나다가 꽃말에 이끌려 금잔화 꽃씨를 샀다. 화분에 심어 사무실의 내 책상 위에 두었더니 어느 날 싹이 텄다. 때맞춰 물도 주며 나는 수시로 들여다보았다. 신기했다. 작고 여린 싹은 눈에 띄게 쑥쑥 자랐다. 그런데 내가 상상한 모습이 아니었다. <span class='underline'>도대체 여기서 어떻게 꽃이 핀다는 건지.</span> 무순처럼 길쭉하게 위로만 자라는 것이었다. 하루는 출근해 보니 금잔화가 쓰러져 있었다. 그럼 그렇지. 내가 무슨 식물을 키우나. 그날 나는 화분을 창가로 옮겨 놓았다. 죽을 것 같은 모습을 눈앞에서 보고 싶지 않았다. 그런데 어느 날부턴가 점점 줄기가 굵어지더니 잎도 제법 풍성해지기 시작했다. 어느 날에는 꽃망울도 올라와 있었다. 금잔화는 창문으로 들어오는 풍성한 햇볕 속에서 스스로 튼튼해졌다. 금잔화에게는 햇빛이 더 많이 필요했었나 보다. 사람도 식물도 사랑하려면 그 대상을 제대로 알아야 하는 건 똑같구나 싶었다. 씩씩하게 꽃피운 금잔화의 꽃말은 '반드시 올 행복'이다.",
+        "question": "밑줄 친 부분에 나타난 '나'의 심정으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "의심스럽다",
+          "고통스럽다",
+          "조심스럽다",
+          "부담스럽다"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 의심스럽다"
+      },
+      {
+        "id": "reading-091-q024",
+        "questionNumber": 24,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "꽃집을 지나다가 꽃말에 이끌려 금잔화 꽃씨를 샀다. 화분에 심어 사무실의 내 책상 위에 두었더니 어느 날 싹이 텄다. 때맞춰 물도 주며 나는 수시로 들여다보았다. 신기했다. 작고 여린 싹은 눈에 띄게 쑥쑥 자랐다. 그런데 내가 상상한 모습이 아니었다. <span class='underline'>도대체 여기서 어떻게 꽃이 핀다는 건지.</span> 무순처럼 길쭉하게 위로만 자라는 것이었다. 하루는 출근해 보니 금잔화가 쓰러져 있었다. 그럼 그렇지. 내가 무슨 식물을 키우나. 그날 나는 화분을 창가로 옮겨 놓았다. 죽을 것 같은 모습을 눈앞에서 보고 싶지 않았다. 그런데 어느 날부턴가 점점 줄기가 굵어지더니 잎도 제법 풍성해지기 시작했다. 어느 날에는 꽃망울도 올라와 있었다. 금잔화는 창문으로 들어오는 풍성한 햇볕 속에서 스스로 튼튼해졌다. 금잔화에게는 햇빛이 더 많이 필요했었나 보다. 사람도 식물도 사랑하려면 그 대상을 제대로 알아야 하는 건 똑같구나 싶었다. 씩씩하게 꽃피운 금잔화의 꽃말은 '반드시 올 행복'이다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "내 책상 위에 둔 금잔화는 금방 말라 죽었다.",
+          "나는 금잔화 화분에 물을 제대로 주지 못했다.",
+          "나는 꽃집에서 금잔화가 피어 있는 화분을 샀다.",
+          "내가 금잔화 화분을 옮긴 곳은 햇볕이 잘 들었다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 내가 금잔화 화분을 옮긴 곳은 햇볕이 잘 들었다."
+      },
+      {
+        "id": "reading-091-q025",
+        "questionNumber": 25,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "가수 진영, 3년 만의 콘서트에 구름 관중",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "가수 진영이 3년 만에 콘서트를 열자 수많은 관중이 몰렸다.",
+          "가수 진영이 3년 내에 다시 콘서트를 열기로 관중에게 약속했다.",
+          "가수 진영이 3년간 준비한 콘서트를 열었으나 관중의 호응이 적었다.",
+          "가수 진영이 3년 만에 하는 콘서트에 많은 관중을 모으려고 홍보했다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 가수 진영이 3년 만에 콘서트를 열자 수많은 관중이 몰렸다."
+      },
+      {
+        "id": "reading-091-q026",
+        "questionNumber": 26,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "한국 탁구의 간판 김수미, 올해 국제 대회 금메달 싹쓸이",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "올해 국제 탁구 대회에서 한국 대표 김수미의 금메달 가능성이 높아졌다.",
+          "한국 탁구계가 김수미를 내세워 올해 국제 대회의 금메달을 노리고 있다.",
+          "한국의 대표 탁구 선수 김수미가 올해 국제 대회에서 모두 금메달을 땄다.",
+          "한국 탁구 선수 김수미가 올해 국제 대회에서 금메달을 따고자 훈련 중이다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 한국의 대표 탁구 선수 김수미가 올해 국제 대회에서 모두 금메달을 땄다."
+      },
+      {
+        "id": "reading-091-q027",
+        "questionNumber": 27,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "대출 금리 하락세, 부동산 시장 기지개",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "대출 금리가 떨어지면서 부동산 시장이 살아나기 시작했다.",
+          "부동산 시장에 대한 규제가 대출 금리 하락에 영향을 미쳤다.",
+          "대출 금리가 하락했지만 부동산 시장의 거래는 줄어들고 있다.",
+          "부동산 시장을 활성화하려고 대출 금리 안정화 대책이 논의되고 있다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 대출 금리가 떨어지면서 부동산 시장이 살아나기 시작했다."
+      },
+      {
+        "id": "reading-091-q028",
+        "questionNumber": 28,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "선글라스는 보통 햇빛이 강할 때 눈 건강을 위해 쓴다. 그런데 선글라스의 렌즈는 사용 기한이 있다. 선글라스의 렌즈에는 자외선 차단을 위한 엷은 막이 입혀져 있는데 열에 계속 노출되면 자외선 차단 기능이 점점 떨어지게 된다. 자외선 차단 기능이 약해진 선글라스로는 눈을 보호하기 어려우므로 5년 정도 쓰고 나면( ........................ ) 것이 좋다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "렌즈를 바꿔 주는",
+          "렌즈를 꼼꼼히 잘 닦는",
+          "렌즈의 색을 어둡게 하는",
+          "렌즈의 엷은 막을 벗겨 내는"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 렌즈를 바꿔 주는"
+      },
+      {
+        "id": "reading-091-q029",
+        "questionNumber": 29,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "사진에서 구도는 전체적인 분위기를 살리는 중요한 요소이다. 보통 동적인 느낌을 주고 싶을 때는 대각선 구도를 쓰는데 도로나 폭포 등의 풍경 사진 등에 쓰여 생동감을 표현한다. 한편 전통적인 가족사진은( ........................ ) 위해서 삼각형 구도를 가장 많이 활용한다. 이 구도는 연장자를 중심으로 가족 구성원이 옆이나 뒤에 배치되어 전체적으로 편안하고 균형 잡힌 분위기를 만들어 낸다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "동적인 효과를 살리기",
+          "안정적인 느낌을 주기",
+          "풍경을 중앙에 배치하기",
+          "긴장된 분위기를 연출하기"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 안정적인 느낌을 주기"
+      },
+      {
+        "id": "reading-091-q030",
+        "questionNumber": 30,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "풍부한 자원은 경제 성장의 필요조건이지 충분조건은 아니다. 풍부한 천연 자원을 갖추고 있음에도( ........................ ) 경우도 있다. 풍부한 자원에만 의존해 경제 성장의 중심 산업인 제조업이나 서비스업 등에 투자를 하지 않게 되는 것이다. 반면에 천연자원이 빈약해도 새로운 기술 개발이나 교육을 통해 생산 능력을 높이는 나라도 있다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "제조업에 의존하려는",
+          "자원을 생산하지 못하는",
+          "경제 발전을 이루지 못하는",
+          "기술 개발에 무리하게 투자하는"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 경제 발전을 이루지 못하는"
+      },
+      {
+        "id": "reading-091-q031",
+        "questionNumber": 31,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31]( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "의사의 모습을 생각하면 우리는 보통 흰색 가운을 떠올리게 된다. 그런데 의사 가운이 처음부터 흰색이었던 것은 아니다. 중세 시대에는 성직자가 의사를 겸하는 경우가 많아 성직자용 검은색 가운을 입고 진료를 했다. 그런데 검은색 옷은 세균으로 오염된 얼룩이 잘 보이지 않았다. 이후 세균 감염의 위험성에 대한 인식이 높아지면서( ........................ ) 가운의 색이 흰색으로 바뀌었다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "염색하기 편하게",
+          "환자와 구분이 되도록",
+          "오염이 쉽게 눈에 띄도록",
+          "밝은 이미지를 줄 수 있게"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 오염이 쉽게 눈에 띄도록"
+      },
+      {
+        "id": "reading-091-q032",
+        "questionNumber": 32,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 글의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "당뇨 환자들을 위해 고추 품종인 '살리초'가 개발되었다. 고추는 보통 열매를 얻기 위해 재배하지만 살리초는 열매가 없고 잎을 먹는 품종이다. 일반 고추에 비해 혈당을 낮추는 성분이 10배 이상 많이 함유돼 있어 당뇨병, 비만증 등 성인병의 예방과 치료에 이용될 수 있다. 또한 살리초에는 칼슘, 비타민 등 각종 영양 성분이 풍부하다. 병해충에도 강하고 생육 기간도 짧아서 농가의 고소득 작물로 주목받고 있다.",
+        "question": "다음을 읽고 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "살리초는 해충에 취약하다는 단점이 있다.",
+          "살리초의 열매는 크고 영양 성분이 풍부하다.",
+          "살리초는 생육 기간이 길어 관심을 받지 못하고 있다.",
+          "살리초의 잎에는 혈당을 떨어뜨리는 성분이 들어 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 살리초의 잎에는 혈당을 떨어뜨리는 성분이 들어 있다."
+      },
+      {
+        "id": "reading-091-q033",
+        "questionNumber": 33,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 글의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "「임원경제지』는 조선 시대 서유구가 쓴 백과사전이다. 선비가 시골에서 살아가는 데 필요한 지식을 탐색한 것으로 농업, 건축, 의학 등 16개 분야를 정리했다. 서유구는 이 책을 쓸 때 조선의 생활상을 직접 관찰하고 여러 서적들을 참고했으며 거기에 자신의 논평을 첨부했다. 이 과정에서 인용한 책들을 밝혀 놓아 서지학적 가치도 크다. 총 52권의 책을 편찬했는데 개인이 완성했다고 보기 어려울 만큼 방대하고 전문적인 지식이 담겨 있다.",
+        "question": "다음을 읽고 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 책은 각 분야의 전문가가 모여 만든 책이다.",
+          "서유구는 집필하면서 참고한 문헌을 이 책에 기록해 놓았다.",
+          "서유구는 객관적인 책을 쓰기 위해 자신의 의견은 배제했다.",
+          "이 책은 내용이 특정 분야에 한정되어 서지학적 가치는 크지 않다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 서유구는 집필하면서 참고한 문헌을 이 책에 기록해 놓았다."
+      },
+      {
+        "id": "reading-091-q034",
+        "questionNumber": 34,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 글의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "코알라는 유칼립투스라는 나뭇잎을 먹고 산다. 이 나뭇잎은 독성이 강해서 일반적인 동물들은 먹을 수 없다. 하지만 코알라는 유칼립투스의 독을 해독하는 효소가 있어서 다른 동물들과 경쟁할 필요 없이 유칼립투스 잎을 충분히 먹을 수 있다. 다만 새끼 코알라는 독성을 분해하는 효소가 없어서 유칼립투스 잎 대신 어미의 배설물을 먹는다. 이를 먹다 보면 새끼 코알라의 몸속에도 유칼립투스의 독을 해독하는 효소가 생기게 된다.",
+        "question": "다음을 읽고 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "다양한 동물들이 유칼립투스 잎을 차지하기 위해 경쟁한다.",
+          "어미 코알라는 유칼립투스의 독성을 분해하는 효소를 가지고 있다.",
+          "코알라는 태어난 직후부터 많은 양의 유칼립투스 나뭇잎을 먹는다.",
+          "새끼 코알라는 유칼립투스의 독성 때문에 어미의 배설물을 먹지 않는다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 어미 코알라는 유칼립투스의 독성을 분해하는 효소를 가지고 있다."
+      },
+      {
+        "id": "reading-091-q035",
+        "questionNumber": 35,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "태양계에 존재하는 수많은 소행성에는 천문학적인 가치를 지닌 광물이 있는 것으로 예상된다. 그래서 많은 나라들이 이에 관심을 가지고 있다. 실제로 최근 몇몇 국가에서는 소행성에 있는 광물 시료를 채취하는 데 성공하기도 했다. 하지만 대부분의 나라들에서는 소행성 탐사가 아직 논의 단계에 머무르고 있다. 미래 자원을 확보하기 위해서 적극적으로 소행성 탐사에 대한 투자와 기술 개발에 나설 필요가 있다.",
+        "question": "다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "태양계에는 아직 발견되지 않은 소행성이 많이 존재한다.",
+          "소행성에서 자원을 가져오는 것은 실현 가능성이 희박하다.",
+          "소행성 탐사를 성공시키기 위해 국제 협력을 확대해야 한다.",
+          "미래 자원 확보를 위해 소행성 탐사에 대한 노력을 기울여야 한다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 미래 자원 확보를 위해 소행성 탐사에 대한 노력을 기울여야 한다."
+      },
+      {
+        "id": "reading-091-q036",
+        "questionNumber": 36,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "경기 침체에 빠지면 사람들은 소비보다는 저축을 늘리려고 한다. 그런데 저축이 언제나 긍정적인 것만은 아니다. 소비가 줄면 기업의 매출이 감소 해서 생산과 고용이 줄 수밖에 없고 결국 근로자들의 소득도 줄어들게 된다. 그러면 미래가 불확실해진 사람들이 더욱 소비를 줄여 전체 경기가 다시 침체에 빠지는 악순환이 되풀이된다. 개인 차원에서는 저축이 합리적인 행동 이지만 경제 전체적으로는 비합리적인 상황을 초래하게 되는 것이다.",
+        "question": "다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "불경기에는 비합리적인 소비로 인해 근로자들의 저축이 줄어든다.",
+          "경기가 침체하면 개인의 소득이 줄어들지 않도록 투자를 늘려야 한다.",
+          "경제 상황을 고려해서 생산과 고용을 적절히 조절하는 것이 중요하다.",
+          "경기 침체 시에는 저축이 국가 경제 전체에 부정적 영향을 줄 수 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 경기 침체 시에는 저축이 국가 경제 전체에 부정적 영향을 줄 수 있다."
+      },
+      {
+        "id": "reading-091-q037",
+        "questionNumber": 37,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "참치 쿼터제는 참치의 무분별한 포획을 막기 위해 어획량을 국가별로 정해 놓은 제도이다. 한국은 참치 어획량이 매우 적게 배정돼 있는데 이는 한국 연안에서는 참치가 거의 잡히지 않았기 때문이다. 최근 수온이 상승 함에 따라 한국 연안에 유입되는 참치가 급격히 늘어나고 있지만 쿼터제 때문에 그물에 걸린 참치를 대부분 바다에 버리고 있다. 쿼터제의 필요성은 인정하지만 국가별 개체 수 증감을 반영한 융통성 있는 조정이 필요하다.",
+        "question": "다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "국가별 상황에 따라 참치 쿼터제를 현실에 맞게 수정해야 한다.",
+          "참치의 무분별한 포획을 방지하기 위해 쿼터제를 도입해야 한다.",
+          "수온 상승으로부터 참치를 보호하기 위한 대책을 마련해야 한다.",
+          "참치의 유입량을 늘리기 위한 실질적인 연구가 이루어져야 한다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 국가별 상황에 따라 참치 쿼터제를 현실에 맞게 수정해야 한다."
+      },
+      {
+        "id": "reading-091-q038",
+        "questionNumber": 38,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "기업들은 기술 혁신을 통해 고객에게 편의와 혜택을 제공하려고 한다. 하지만 아무리 획기적인 혁신이라도 고객에게 낯설고 커다란 행동 변화를 요구한다면 외면당하기 쉽다. 예를 들어 초창기 전기 자동차는 전기로 오래 충전을 해야 하는 것이 낯설고 불편해서 큰 관심을 끌지 못했다. 반대로 전자 칠판과 전자 펜처럼 대단한 혁신은 아니지만 사용하는 방법이 고객 에게 익숙하고 간단해서 환영받는 경우도 있다.",
+        "question": "다음을 읽고 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "고객들의 무리한 요구 때문에 기술 혁신에 어려움을 겪게 된다.",
+          "혁신적인 기업은 고객들에게 신기술의 사용 방법을 잘 설명해 준다.",
+          "기술 혁신에 실패한 기업은 자연스럽게 고객들의 외면을 받게 된다.",
+          "기술 혁신은 고객이 쉽게 받아들일 수 있을 때 성공할 가능성이 높다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 기술 혁신은 고객이 쉽게 받아들일 수 있을 때 성공할 가능성이 높다."
+      },
+      {
+        "id": "reading-091-q039",
+        "questionNumber": 39,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "스포츠 경기를 진행할 때 득점이나 반칙 등의 판정은 심판에 의해서 이루어 진다.( ㉠ ) 이렇게 눈에 보이지 않는 곳에서 벌어진 상황에 대해서는 심판도 정확한 판단을 하기 어렵다. ( ㉡ ) 비디오 판독은 이런 스포츠 경기에서 초고속 카메라를 판정의 근거로 사용하는 기술이다. ( ㉢ ) 이처럼 비디오 판독을 활용하면 심판이 판단하기 어려운 부분을 객관적으로 확인할 수 있어 판정에 대한 신뢰도를 높일 수 있다. ( ㉣ )\n\n넣을 문장: 그런데 심판이 아무리 위치 선정을 잘해도 필연적으로 선수의 몸에 가려서 볼 수 없는 사각지대가 생긴다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 위치"
+      },
+      {
+        "id": "reading-091-q040",
+        "questionNumber": 40,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "유럽과 아시아, 아프리카 대륙으로 둘러싸인 바다를 지중해라고 한다.( ㉠ ) 오늘날 지중해 연안은 기후가 온화해서 살기 좋은 곳으로 손꼽힌다.( ㉡ ) 그런데 지중해는 오래전 사막이었던 적이 있었다. ( ㉢ ) 이 소금 퇴적층은 바닷물이 증발되고 남은 소금이 쌓여 만들어진 것으로 지중해가 이전에는 사막이었음을 보여 준다. ( ㉣ ) 사막이었던 지중해에 이후 큰 홍수가 발생하면서 다시 오늘날과 같은 바다가 되었다.\n\n넣을 문장: 그 증거로 지중해 전역에서 발견되고 있는 소금 퇴적층을 들 수 있다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 위치"
+      },
+      {
+        "id": "reading-091-q041",
+        "questionNumber": 41,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "최근 역사학자 김경민 씨가 『응답하라, 조선』을 펴냈다.( ㉠ ) 이 책은 왕과 신하의 소통을 다루고 있어 사람들의 관심을 끈다. ( ㉡ ) 그 소통의 내용 중에서 특히 왕의 노여움을 무릅쓰고 신하가 왕의 잘못을 지적한 상소문을 다룬 부분이 주목받고 있다. ( ㉢ ) 『응답하라, 조선』은 눈치를 살피며 윗사람의 잘못을 모르는 체 넘기곤 하는 현대인들을 깨우는 죽비인 것이다.( ㉣ )\n\n넣을 문장: 이런 상소문들을 저자는 왕을 향한 깨우침의 죽비 소리로 비유하고 있다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 위치"
+      },
+      {
+        "id": "reading-091-q042",
+        "questionNumber": 42,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "민욱이 주말에 친구 부부를 초대해도 되느냐고 물었을 때, 미연은 말없이 한참 뜸을 들였다. 그녀는 그날 민욱과 함께 아파트의 발코니 벽을 페인트 칠할 계획이었다. (중략) 그들은 육 개월 전에 도시의 아파트를 사서 이사 했다. 지은 지 이십 년도 더 된 낡은 아파트였지만, 누구의 도움도 받지 않고 그들 스스로 이룬 일이었다. 미연은 직접 발품을 팔아 수도부터 새시까지 새로 손을 보았다. 하지만 집수리는 대강 되었다고 해도, 미연이 생각해 둔 대로 인테리어가 완성되려면 아직 부족했다.<br><br>“<span class='underline'>손님 초대는 좀 이르지 않아? 집 단장도 덜 되었는데......</span>”<br><br>\"성재가 한국에 왔대\"<br><br>민욱이 무거운 목소리로 말했다. (중략) 미연은 자신이 연주의 이름을 오랫동안 잊고 있었다는 사실을 깨달았다. 더 이상 뭐라고 할 말이 없었다. (중략) 토요일 오전에 미연은 두 딸아이를 데리고 마트에 가서 고기와 채소를 샀다. 누군가를 초대해 음식을 대접하는 것이 정말로 오랜만이었다.",
+        "question": "밑줄 친 부분에 나타난 '미연'의 심정으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "후련하다",
+          "불만스럽다",
+          "허전하다",
+          "자랑스럽다"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 불만스럽다"
+      },
+      {
+        "id": "reading-091-q043",
+        "questionNumber": 43,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "민욱이 주말에 친구 부부를 초대해도 되느냐고 물었을 때, 미연은 말없이 한참 뜸을 들였다. 그녀는 그날 민욱과 함께 아파트의 발코니 벽을 페인트 칠할 계획이었다. (중략) 그들은 육 개월 전에 도시의 아파트를 사서 이사 했다. 지은 지 이십 년도 더 된 낡은 아파트였지만, 누구의 도움도 받지 않고 그들 스스로 이룬 일이었다. 미연은 직접 발품을 팔아 수도부터 새시까지 새로 손을 보았다. 하지만 집수리는 대강 되었다고 해도, 미연이 생각해 둔 대로 인테리어가 완성되려면 아직 부족했다.<br><br>“<span class='underline'>손님 초대는 좀 이르지 않아? 집 단장도 덜 되었는데......</span>”<br><br>\"성재가 한국에 왔대\"<br><br>민욱이 무거운 목소리로 말했다. (중략) 미연은 자신이 연주의 이름을 오랫동안 잊고 있었다는 사실을 깨달았다. 더 이상 뭐라고 할 말이 없었다. (중략) 토요일 오전에 미연은 두 딸아이를 데리고 마트에 가서 고기와 채소를 샀다. 누군가를 초대해 음식을 대접하는 것이 정말로 오랜만이었다.",
+        "question": "윗글의 내용으로 알 수 있는 것을 고르십시오.",
+        "options": [
+          "미연은 민욱과 성재를 통해 연주를 알게 되었다.",
+          "민욱은 주변 도움을 받아 도시의 새 아파트를 샀다.",
+          "미연은 육 개월 전에 산 아파트로 이사 갈 계획이다.",
+          "민욱은 인테리어를 완성한 후에 마트에 장을 보러 갔다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 미연은 민욱과 성재를 통해 연주를 알게 되었다."
+      },
+      {
+        "id": "reading-091-q044",
+        "questionNumber": 44,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "'수로왕 신화'는 왕이 알에서 탄생하는 여느 건국 신화와 유사하다. 고대에 아직 나라가 없던 낙동강 하류에 황금알 여섯 개가 하늘에서 내려왔다. 그중 맨 먼저 알을 깨고 나온 아이를 '수로'라 하였고 하늘의 뜻에 따라 수로는 지상의 첫 번째 왕이 되었다. ( ........................ ) 다섯 아이 역시 각각 왕이 되었다. 수로왕 신화는 이렇게 한꺼번에 여섯 개 알이 나타나 거기서 태어난 이가 모두 왕이 된다는 점에서 다른 건국 신화와 큰 차이가 있다. 당시 세워진 여섯 나라는 강력한 왕권 국가가 아니었다. 황금알은 하늘로부터 부여받은 절대적 권위를 상징하는데 수로가 알에서 최초로 탄생했다는 부분은 수로왕이 중심이 되어 여섯 나라를 하나의 강력한 국가 '가야'로 통합하려 했다는 것을 말해 준다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "알을 가지고 내려온",
+          "기존의 왕을 물리치고",
+          "수로에 이어 알에서 태어난",
+          "탄생을 축하하며 몹시 기뻐하던"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 수로에 이어 알에서 태어난"
+      },
+      {
+        "id": "reading-091-q045",
+        "questionNumber": 45,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "'수로왕 신화'는 왕이 알에서 탄생하는 여느 건국 신화와 유사하다. 고대에 아직 나라가 없던 낙동강 하류에 황금알 여섯 개가 하늘에서 내려왔다. 그중 맨 먼저 알을 깨고 나온 아이를 '수로'라 하였고 하늘의 뜻에 따라 수로는 지상의 첫 번째 왕이 되었다. ( ........................ ) 다섯 아이 역시 각각 왕이 되었다. 수로왕 신화는 이렇게 한꺼번에 여섯 개 알이 나타나 거기서 태어난 이가 모두 왕이 된다는 점에서 다른 건국 신화와 큰 차이가 있다. 당시 세워진 여섯 나라는 강력한 왕권 국가가 아니었다. 황금알은 하늘로부터 부여받은 절대적 권위를 상징하는데 수로가 알에서 최초로 탄생했다는 부분은 수로왕이 중심이 되어 여섯 나라를 하나의 강력한 국가 '가야'로 통합하려 했다는 것을 말해 준다.",
+        "question": "윗글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "이 신화는 전형적인 건국 신화의 특성을 지니고 있다.",
+          "이 신화는 낙동강 일대의 유용한 지리적 정보를 담고 있다.",
+          "이 신화는 고대의 문학 작품으로서 훌륭한 가치를 지니고 있다.",
+          "이 신화는 강력한 왕권 국가를 이루려고 한 통합 의식을 반영한다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 이 신화는 강력한 왕권 국가를 이루려고 한 통합 의식을 반영한다."
+      },
+      {
+        "id": "reading-091-q046",
+        "questionNumber": 46,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "주가 조작이나 공금 횡령 등의 경제 범죄는 사람에게 직접적인 상해를 가하는 흉악 범죄보다 범죄 정도가 낮다고 생각하기 쉽다. 그러나 경제 범죄의 수법이 날이 갈수록 다양해지고 지능화되어 사회에 미치는 충격과 피해가 막심하다. 최근 증권사 직원의 주가 조작으로 고객들이 천억 넘게 손해 본 사건만 해도 그렇다. 이러한 경제 범죄는 개인 손해를 넘어 국가 경제와도 직결될 수 있다. 따라서 이를 가벼이 여겨서는 안 되며 관대하게 처벌해서도 안 된다. 건전한 경제 질서를 확립하기 위해 경제 사범을 엄벌할 필요가 있다. '한탕 크게 해 먹고 몸으로 때우면 된다'는 한탕주의가 만연 하지 않도록 처벌 수준을 더 높여야 한다. 지금까지 미진했던 부당 이익 환수도 앞으로 잘 이루어져 경제 범죄가 재발되지 않도록 해야 할 것이다.",
+        "question": "윗글에 나타난 필자의 태도로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "경제 범죄가 사회에 미치는 영향을 부정하고 있다.",
+          "경제 사범에 대한 처벌을 강화하도록 촉구하고 있다.",
+          "경제 사범의 처벌로 생길 결과에 대해 우려하고 있다.",
+          "경제 범죄의 다양한 수법을 객관적으로 분석하고 있다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 경제 사범에 대한 처벌을 강화하도록 촉구하고 있다."
+      },
+      {
+        "id": "reading-091-q047",
+        "questionNumber": 47,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "주가 조작이나 공금 횡령 등의 경제 범죄는 사람에게 직접적인 상해를 가하는 흉악 범죄보다 범죄 정도가 낮다고 생각하기 쉽다. 그러나 경제 범죄의 수법이 날이 갈수록 다양해지고 지능화되어 사회에 미치는 충격과 피해가 막심하다. 최근 증권사 직원의 주가 조작으로 고객들이 천억 넘게 손해 본 사건만 해도 그렇다. 이러한 경제 범죄는 개인 손해를 넘어 국가 경제와도 직결될 수 있다. 따라서 이를 가벼이 여겨서는 안 되며 관대하게 처벌해서도 안 된다. 건전한 경제 질서를 확립하기 위해 경제 사범을 엄벌할 필요가 있다. '한탕 크게 해 먹고 몸으로 때우면 된다'는 한탕주의가 만연 하지 않도록 처벌 수준을 더 높여야 한다. 지금까지 미진했던 부당 이익 환수도 앞으로 잘 이루어져 경제 범죄가 재발되지 않도록 해야 할 것이다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "경제 범죄로 생긴 부당 이익을 문제없이 잘 환수해 왔다.",
+          "공금을 불법으로 가로채는 범죄는 경제 범죄에 포함된다.",
+          "개인이 저지른 주가 조작 범죄는 국가 경제와 큰 관련이 없다.",
+          "경제 범죄 수법이 교묘해졌지만 사회에 미치는 충격은 크지 않다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 공금을 불법으로 가로채는 범죄는 경제 범죄에 포함된다."
+      },
+      {
+        "id": "reading-091-q048",
+        "questionNumber": 48,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "예술인은 독창적인 문화를 창조하고 고유한 문화를 보존하는 동시에 예술 활동을 업으로 삼아 수익을 내서 생활하는 사람이다. 그런데 많은 예술인이 기본 생활이 불가능한 적은 수입 탓에 예술 활동을 포기한다. 그 결과 예술인이 감소하며 고령화되는 현상이 나타나고 있다. 2011년에는 생활고로 한 작가가 사망하는 사건까지 일어났다. 이 사건이 계기가 되어 2012년부터 예술인의 권리 보호를 위해 '예술인 복지법'이 시행되었다. 그러나 이는 예술 현장의 실상에 맞지 않아 많은 예술인이 여전히 ( ........................ ). 이런 상황에서 올해 예술 활동을 증명하지 못해 지원을 못 받았던 예술인을 위해 예술인 복지법이 개정되었다. 개정안은 이런 예술인도 일반 직업인과 같이 권리를 보호받을 수 있는 대상임을 명확히 하고 있다. 또 예술인이 불리한 처우를 받지 않도록 세부 조치를 마련하는 등 예술인의 고용 안정을 위한 여러 내용을 담고 있다. 앞으로는 이를 바탕으로 유능한 예술인이 활동을 포기하지 않도록 해야 할 것이다.",
+        "question": "윗글을 쓴 목적으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "예술인의 자질에 대해 분석하려고",
+          "예술 발전의 어려움을 토로하려고",
+          "예술 작품의 창작 활동을 설명하려고",
+          "예술인 생활 보장의 필요성을 강조하려고"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 예술인 생활 보장의 필요성을 강조하려고"
+      },
+      {
+        "id": "reading-091-q049",
+        "questionNumber": 49,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "예술인은 독창적인 문화를 창조하고 고유한 문화를 보존하는 동시에 예술 활동을 업으로 삼아 수익을 내서 생활하는 사람이다. 그런데 많은 예술인이 기본 생활이 불가능한 적은 수입 탓에 예술 활동을 포기한다. 그 결과 예술인이 감소하며 고령화되는 현상이 나타나고 있다. 2011년에는 생활고로 한 작가가 사망하는 사건까지 일어났다. 이 사건이 계기가 되어 2012년부터 예술인의 권리 보호를 위해 '예술인 복지법'이 시행되었다. 그러나 이는 예술 현장의 실상에 맞지 않아 많은 예술인이 여전히 ( ........................ ). 이런 상황에서 올해 예술 활동을 증명하지 못해 지원을 못 받았던 예술인을 위해 예술인 복지법이 개정되었다. 개정안은 이런 예술인도 일반 직업인과 같이 권리를 보호받을 수 있는 대상임을 명확히 하고 있다. 또 예술인이 불리한 처우를 받지 않도록 세부 조치를 마련하는 등 예술인의 고용 안정을 위한 여러 내용을 담고 있다. 앞으로는 이를 바탕으로 유능한 예술인이 활동을 포기하지 않도록 해야 할 것이다.",
+        "question": "( ........................ )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "안전을 중요시해야 한다",
+          "생계의 어려움을 겪고 있다",
+          "한 번에 큰돈을 모을 수 있다",
+          "창작에 관한 기밀을 지켜야 한다"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 생계의 어려움을 겪고 있다"
+      },
+      {
+        "id": "reading-091-q050",
+        "questionNumber": 50,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "예술인은 독창적인 문화를 창조하고 고유한 문화를 보존하는 동시에 예술 활동을 업으로 삼아 수익을 내서 생활하는 사람이다. 그런데 많은 예술인이 기본 생활이 불가능한 적은 수입 탓에 예술 활동을 포기한다. 그 결과 예술인이 감소하며 고령화되는 현상이 나타나고 있다. 2011년에는 생활고로 한 작가가 사망하는 사건까지 일어났다. 이 사건이 계기가 되어 2012년부터 예술인의 권리 보호를 위해 '예술인 복지법'이 시행되었다. 그러나 이는 예술 현장의 실상에 맞지 않아 많은 예술인이 여전히 ( ........................ ). 이런 상황에서 올해 예술 활동을 증명하지 못해 지원을 못 받았던 예술인을 위해 예술인 복지법이 개정되었다. 개정안은 이런 예술인도 일반 직업인과 같이 권리를 보호받을 수 있는 대상임을 명확히 하고 있다. 또 예술인이 불리한 처우를 받지 않도록 세부 조치를 마련하는 등 예술인의 고용 안정을 위한 여러 내용을 담고 있다. 앞으로는 이를 바탕으로 유능한 예술인이 활동을 포기하지 않도록 해야 할 것이다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "예술인 복지법은 한 번 신설된 후 개정된 적이 없다.",
+          "전국에서 예술 분야에 종사하는 사람들 수가 늘고 있다.",
+          "올해부터 예술인은 활동을 반드시 증명해야 지원을 받을 수 있다.",
+          "2012년의 예술인 복지법은 현장의 실상을 반영하는 데 한계가 있었다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 2012년의 예술인 복지법은 현장의 실상을 반영하는 데 한계가 있었다."
+      }
+    ]
+  },
+  {
+    "id": "reading-064",
+    "title": "64th TOPIK II Reading Test",
+    "level": "TOPIK II",
+    "topic": "Official Reading Paper",
+    "source": "https://www.topikguide.com/mock-tests/64-TOPIK-II-Reading-Mock-Test.html",
+    "durationMinutes": 70,
+    "passage": "",
+    "questions": [
+      {
+        "id": "reading-064-q001",
+        "questionNumber": 1,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "나는 주말에는 보통 영화를( ........................ ) 운동을 한다.",
+        "question": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "보지만",
+          "보거나",
+          "보려고",
+          "보더니"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 보거나"
+      },
+      {
+        "id": "reading-064-q002",
+        "questionNumber": 2,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "동생이 점점 아버지를( ........................ ).",
+        "question": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "닮아 간다",
+          "닮기도 한다",
+          "닮았나 보다",
+          "닮은 적이 없다"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 닮아 간다"
+      },
+      {
+        "id": "reading-064-q003",
+        "questionNumber": 3,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "정부는 일자리를 늘리고자 새로운 정책을 수립했다.",
+        "question": "다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+        "options": [
+          "늘리자마자",
+          "늘리더라도",
+          "늘리는 대신",
+          "늘리기 위해"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 늘리기 위해"
+      },
+      {
+        "id": "reading-064-q004",
+        "questionNumber": 4,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "태어난 지 얼마 안 되어 서울로 왔으니 서울이 고향인 셈이다 .",
+        "question": "다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+        "options": [
+          "고향일 뿐이다",
+          "고향이면 좋겠다",
+          "고향일 리가 없다",
+          "고향이나 마찬가지이다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 고향이나 마찬가지이다"
+      },
+      {
+        "id": "reading-064-q005",
+        "questionNumber": 5,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "에어컨",
+          "청소기",
+          "냉장고",
+          "세탁기"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 에어컨",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T264R5.png"
+      },
+      {
+        "id": "reading-064-q006",
+        "questionNumber": 6,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "병원",
+          "은행",
+          "여행사",
+          "체육관"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 은행",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T264R6.png"
+      },
+      {
+        "id": "reading-064-q007",
+        "questionNumber": 7,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "건강 관리",
+          "화재 예방",
+          "이웃 사랑",
+          "환경 보호"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 환경 보호",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T264R7.png"
+      },
+      {
+        "id": "reading-064-q008",
+        "questionNumber": 8,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "이용 안내",
+          "구입 문의",
+          "사용 순서",
+          "교환 방법"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 이용 안내",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T264R8.png"
+      },
+      {
+        "id": "reading-064-q009",
+        "questionNumber": 9,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 대회는 이번에 처음으로 열린다.",
+          "이 대회에는 누구나 참가할 수 있다.",
+          "이 대회에 참가하려면 돈을 내야 한다.",
+          "이 대회의 출발 장소는 인주기념관이다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 이 대회에는 누구나 참가할 수 있다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T264R9.png"
+      },
+      {
+        "id": "reading-064-q010",
+        "questionNumber": 10,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글 또는 그래프의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "1위 순위의 직업이 바뀌었다.",
+          "공무원은 순위의 변화가 없었다.",
+          "군인이 새롭게 5위 안에 들었다.",
+          "간호사는 4위로 순위가 떨어졌다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 군인이 새롭게 5위 안에 들었다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T264R10.png"
+      },
+      {
+        "id": "reading-064-q011",
+        "questionNumber": 11,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "지난 24일에 '제7회 소비자 선정 최고 브랜드 대상' 시상식이 인주신문사 대강당에서 개최됐다. 이 상은 소비자의 온라인 투표로 수상 브랜드가 선정되어 의미가 크다. 지난해와 같이 100개 브랜드가 상을 받았는데 올해는 처음으로 친환경 화장품 브랜드 두 개가 포함되었다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "소비자가 수상 브랜드를 선정했다.",
+          "기업들이 직접 온라인 투표에 참여했다.",
+          "지난해보다 더 많은 브랜드가 선정됐다.",
+          "친환경 화장품 브랜드는 상을 못 받았다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 소비자가 수상 브랜드를 선정했다."
+      },
+      {
+        "id": "reading-064-q012",
+        "questionNumber": 12,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "최근 한 나라에서 4,400년 전에 만들어진 무덤이 발견됐다. 이 무덤의 주인은 당시 왕으로 밝혀졌으며 무덤 벽에는 고대 문자와 다양한 색의 그림이 가득했다. 이 무덤은 오랜 시간이 지났지만 색이 거의 그대로 보존 되어 있어 역사적 가치가 높다고 전문가들은 전했다. 무덤의 일부는 일반인 에게도 곧 공개될 예정이다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "무덤의 주인이 누구인지 찾고 있다.",
+          "무덤 안을 구경하는 사람들이 많아졌다.",
+          "무덤 안의 그림은 색의 상태가 좋은 편이다.",
+          "무덤 바닥에서 다양한 문자와 그림이 발견됐다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 무덤 안의 그림은 색의 상태가 좋은 편이다."
+      },
+      {
+        "id": "reading-064-q013",
+        "questionNumber": 13,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 회사의 1층 로비를 외부인에게 개방하는 회사가 많아졌다. (나) 사람들은 작품을 감상하고 커피를 마시면서 시간을 보낸다. (다) 미술관과 카페를 만들어 사람들이 와서 즐길 수 있게 한 것이다. (라) 이 공간을 이용하는 사람이 늘면서 회사의 이미지도 좋아지고 있다.",
+        "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(가)-(다)-(나)-(라)",
+          "(나)-(라)-(다)-(가)",
+          "(다)-(나)-(라)-(가)",
+          "(라)-(나)-(가)-(다)"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. (가)-(다)-(나)-(라)"
+      },
+      {
+        "id": "reading-064-q014",
+        "questionNumber": 14,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 차에서 내려 앞차의 주인에게 사과하고 사정을 설명했다. (나) 앞차 주인은 큰 사고가 아니니 괜찮다며 그냥 가라고 했다. (다) 친절한 배려 덕분에 딸은 무사히 병원에 도착해 치료를 받았다. (라) 아픈 딸을 병원으로 급하게 데려가다가 앞차와 부딪쳐서 사고를 냈다.",
+        "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(나)-(가)-(다)-(라)",
+          "(나)-(가)-(라)-(다)",
+          "(라)-(가)-(나)-(다)",
+          "(라)-(가)-(다)-(나)"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. (라)-(가)-(나)-(다)"
+      },
+      {
+        "id": "reading-064-q015",
+        "questionNumber": 15,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 선택에 대한 부담으로 구매를 망설이다가 포기하기도 한다. (나) 선택에 대한 고객의 부담을 줄여 구매를 유도하려는 것이다. (다) 그래서 마트에서는 품목별로 몇 가지의 제품만 매장에 진열한다. (라) 소비자는 선택의 폭이 넓을수록 물건을 고를 때 어려움을 겪는다.",
+        "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(나)-(가)-(라)-(다)",
+          "(나)-(라)-(가)-(다)",
+          "(라)-(가)-(다)-(나)",
+          "(라)-(다)-(가)-(나)"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. (라)-(가)-(다)-(나)"
+      },
+      {
+        "id": "reading-064-q016",
+        "questionNumber": 16,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "상담을 통해 책을 추천해 주는 서점이 있어 화제가 되고 있다. 서점 주인은 손님과 오랜 시간 대화를 나눈 후( ........................ ) 책을 추천해 준다. 상처 받은 사람에게는 위로가 되는 책을, 자신감이 부족한 사람에게는 용기를 주는 책을 추천하는 방식으로 서비스를 제공한다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "내용이 재미있는",
+          "지식을 전달하는",
+          "사람들이 많이 읽는",
+          "손님의 상황에 맞는"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 손님의 상황에 맞는"
+      },
+      {
+        "id": "reading-064-q017",
+        "questionNumber": 17,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "샌드위치나 샐러드 등은 오래 보관할 수 없어 신선할 때 팔아야 한다. 이런 식품을 영업 마감 시간을 앞두고 사람들에게 할인된 가격으로 판매 하는 서비스가 큰 호응을 얻고 있다. 음식점은 남은 음식을 팔아 수익을 얻을 수 있고, 소비자는 ( ........................ ) 이용자들의 만족도가 높다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "자원을 아낄 수 있어서",
+          "식품을 저렴하게 살 수 있어서",
+          "요리법을 배울 수 있기 때문에",
+          "음식을 선택할 수 있기 때문에"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 식품을 저렴하게 살 수 있어서"
+      },
+      {
+        "id": "reading-064-q018",
+        "questionNumber": 18,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "뮤지컬은 보통 한 역할에 여러 명의 배우들이 출연한다. 배우에 따라 연기나 분위기가 다르기 때문에 같은 작품이라도 색다른 느낌을 받을 수 있다. 그래서 뮤지컬 팬들은( ........................ ) 작품을 즐기기 위해 공연을 반복해서 관람한다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "입장료를 할인해 주는",
+          "공연장에서 인기가 있는",
+          "유행하는 노래가 나오는",
+          "각 배우들의 개성이 담긴"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 각 배우들의 개성이 담긴"
+      },
+      {
+        "id": "reading-064-q019",
+        "questionNumber": 19,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "해파리는 몸의 95%가 물로 구성되어 있어 열량이 낮다. 그래서 해파리를 먹고 사는 동물이 거의 없다고 알려져 있었다. 하지만 새나 펭귄, 뱀장어 등 많은 동물들에게 해파리는 좋은 먹잇감이다. 해파리에는 비타민이나 콜라겐 같은 영양 성분이 있기 때문이다. ( ........................ ) 해파리는 바다 어디에나 있고 도망치지 않아 사냥하기 쉽기 때문이다.",
+        "question": "( ........................ )에 들어갈 알맞은 것을 고르십시오.",
+        "options": [
+          "과연",
+          "만약",
+          "게다가",
+          "이처럼"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 게다가"
+      },
+      {
+        "id": "reading-064-q020",
+        "questionNumber": 20,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "해파리는 몸의 95%가 물로 구성되어 있어 열량이 낮다. 그래서 해파리를 먹고 사는 동물이 거의 없다고 알려져 있었다. 하지만 새나 펭귄, 뱀장어 등 많은 동물들에게 해파리는 좋은 먹잇감이다. 해파리에는 비타민이나 콜라겐 같은 영양 성분이 있기 때문이다. ( ........................ ) 해파리는 바다 어디에나 있고 도망치지 않아 사냥하기 쉽기 때문이다.",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "해파리는 바다 생태계에 피해를 준다.",
+          "해파리는 잡기 어려운 먹이 자원이다.",
+          "해파리는 여러 동물의 먹이가 되고 있다.",
+          "해파리는 대부분 콜라겐으로 이루어져 있다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 해파리는 여러 동물의 먹이가 되고 있다."
+      },
+      {
+        "id": "reading-064-q021",
+        "questionNumber": 21,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "내비게이션은 목적지까지 길을 안내해 주는 기기이다. 내비게이션이 없이 낯선 곳에 갔다가 길을 못 찾아 ( ........................ ) 본 적이 있는 사람이라면 내비게이션이 얼마나 편리한지 느꼈을 것이다. 그러나 우리의 뇌는 스스로 정보를 찾았을 때 그 정보를 오래 기억하는 특성이 있다. 따라서 지나치게 디지털 기기에만 의존하다 보면 정보를 찾고 기억하는 능력이 점점 줄어들어 결국 그 능력을 사용할 수 없게 될지도 모른다.",
+        "question": "( ........................ )에 들어갈 알맞은 것을 고르십시오.",
+        "options": [
+          "앞뒤를 재어",
+          "진땀을 흘려",
+          "발목을 잡아",
+          "귀를 기울여"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 진땀을 흘려"
+      },
+      {
+        "id": "reading-064-q022",
+        "questionNumber": 22,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "내비게이션은 목적지까지 길을 안내해 주는 기기이다. 내비게이션이 없이 낯선 곳에 갔다가 길을 못 찾아 ( ........................ ) 본 적이 있는 사람이라면 내비게이션이 얼마나 편리한지 느꼈을 것이다. 그러나 우리의 뇌는 스스로 정보를 찾았을 때 그 정보를 오래 기억하는 특성이 있다. 따라서 지나치게 디지털 기기에만 의존하다 보면 정보를 찾고 기억하는 능력이 점점 줄어들어 결국 그 능력을 사용할 수 없게 될지도 모른다.",
+        "question": "위 글의 중심 생각을 고르십시오.",
+        "options": [
+          "디지털 기기는 편리한 생활을 위해 필요하다.",
+          "운전자에게 내비게이션은 활용도가 매우 높다.",
+          "스스로 정보를 찾고 기억하려는 노력을 해야 한다.",
+          "내비게이션을 잘 활용하면 기억력 향상에 도움이 된다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 스스로 정보를 찾고 기억하려는 노력을 해야 한다."
+      },
+      {
+        "id": "reading-064-q023",
+        "questionNumber": 23,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "놀이공원 매표소에서 아르바이트를 했다. 아르바이트가 처음이라 실수를 하지 않으려고 늘 긴장하면서 일을 했다. 어느 날, 놀러 온 한 가족에게 인원수만큼 표를 줬다. 그런데 그 가족을 보내고 나서 이용권 한 장의 값이 더 결제된 것을 알아차렸다. 바로 카드사로 전화해 고객의 전화번호를 물었지만 상담원은 알려 줄 수 없다고 했다. 하지만 내 연락처를 고객에게 전달해 주겠다고 했다. 일을 하는 내내 일이 손에 잡히지 않았다. 퇴근 시간 무렵 드디어 그 가족에게서 전화가 왔다. 내가 한 실수에 화를 낼지도 모른다는 생각에 떨리는 목소리로 상황을 설명하자 그 가족은 “놀이 기구를 타고 노느라 문자 메시지가 온 줄 몰랐어요. 많이 기다렸겠어요.”라고 하며 따뜻하게 말해 주었다.",
+        "question": "밑줄 친 부분에 나타난 '나'의 심정으로 알맞은 것을 고르십시오.",
+        "options": [
+          "걱정스럽다",
+          "불만스럽다",
+          "후회스럽다",
+          "당황스럽다"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 걱정스럽다"
+      },
+      {
+        "id": "reading-064-q024",
+        "questionNumber": 24,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "놀이공원 매표소에서 아르바이트를 했다. 아르바이트가 처음이라 실수를 하지 않으려고 늘 긴장하면서 일을 했다. 어느 날, 놀러 온 한 가족에게 인원수만큼 표를 줬다. 그런데 그 가족을 보내고 나서 이용권 한 장의 값이 더 결제된 것을 알아차렸다. 바로 카드사로 전화해 고객의 전화번호를 물었지만 상담원은 알려 줄 수 없다고 했다. 하지만 내 연락처를 고객에게 전달해 주겠다고 했다. 일을 하는 내내 일이 손에 잡히지 않았다. 퇴근 시간 무렵 드디어 그 가족에게서 전화가 왔다. 내가 한 실수에 화를 낼지도 모른다는 생각에 떨리는 목소리로 상황을 설명하자 그 가족은 “놀이 기구를 타고 노느라 문자 메시지가 온 줄 몰랐어요. 많이 기다렸겠어요.”라고 하며 따뜻하게 말해 주었다.",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "그 가족은 나에게 화를 냈다.",
+          "카드 회사는 그 가족에게 연락을 했다.",
+          "나는 그 가족에게 직접 전화를 걸었다.",
+          "나는 그 가족을 찾아다니느라 일을 못 했다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 카드 회사는 그 가족에게 연락을 했다."
+      },
+      {
+        "id": "reading-064-q025",
+        "questionNumber": 25,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "관광버스 추락, 안전벨트로 승객 전원 목숨 건져",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "관광버스가 추락했지만 승객들이 안전벨트 덕분에 모두 살았다.",
+          "관광버스 추락 사고 이후 안전벨트를 하는 승객이 더 많아졌다.",
+          "관광버스가 추락하자 일부 승객이 안전벨트를 풀고 탈출하였다.",
+          "관광버스가 추락하면서 안전벨트를 한 일부 승객이 크게 다쳤다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 관광버스가 추락했지만 승객들이 안전벨트 덕분에 모두 살았다."
+      },
+      {
+        "id": "reading-064-q026",
+        "questionNumber": 26,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "침묵 깬 김민수 의원, 대통령 선거 출마설 부인",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "김 의원이 대통령 선거에 나가느냐는 질문에 계속 답하지 않고 있다.",
+          "김 의원이 마음을 바꾸어 대통령 선거에 나가겠다고 최종 발표하였다.",
+          "김 의원이 대통령 선거에 나간다고 선언하자 사람들이 열렬히 환영했다.",
+          "김 의원이 대통령 선거에 나간다는 것이 사실이 아니라고 입장을 밝혔다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 김 의원이 대통령 선거에 나간다는 것이 사실이 아니라고 입장을 밝혔다."
+      },
+      {
+        "id": "reading-064-q027",
+        "questionNumber": 27,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "민간 우주선 무사 귀환, 우주여행 시대 '성큼'",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "사람들의 응원 속에 민간 우주선이 긴 우주여행을 마치고 돌아왔다.",
+          "사람들은 민간 우주선이 우주여행에서 무사히 돌아오기를 기대했다.",
+          "민간 우주선이 무사히 돌아오면서 우주여행의 가능성이 더욱 높아졌다.",
+          "민간 우주선이 돌아오지 않자 우주여행에 대한 우려의 목소리가 커졌다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 민간 우주선이 무사히 돌아오면서 우주여행의 가능성이 더욱 높아졌다."
+      },
+      {
+        "id": "reading-064-q028",
+        "questionNumber": 28,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "새해에 세운 목표를 효과적으로 이루려면 한 주 단위로 계획을 세우는 것이 좋다. 주마다 계획을 세우면( ........................ ) 때문이다. '건강한 식습관 기르기'라는 새해 결심이 한 주 단위가 되면 '라면 안 먹기', '채소 챙겨 먹기'처럼 구체적인 계획으로 바뀐다. 이렇게 하면 작은 목표를 달성 하는 횟수가 늘어 한 해의 목표에 가까워진다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "한 해의 목표를 확인하기",
+          "계획을 세우는 데 집중하기",
+          "자신의 능력을 보여 줄 수 있기",
+          "실천 가능한 계획을 세울 수 있기"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 실천 가능한 계획을 세울 수 있기"
+      },
+      {
+        "id": "reading-064-q029",
+        "questionNumber": 29,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "무지개는 빛이 공기 중의 물방울을 통과할 때 굴절되어 나타나는 현상이다. 그래서 비가 그친 직후 해가 뜰 때 무지개가 잘 생긴다. 이때 ( ........................ ) 않으면 무지개가 만들어지기 어렵다. 공기에 먼지 등의 오염 물질이 섞이면 물방울들이 먼지 주위로 모여 빛이 통과하는 것을 막기 때문이다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "해가 뜨지",
+          "비가 그치지",
+          "빛이 약하지",
+          "공기가 깨끗하지"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 공기가 깨끗하지"
+      },
+      {
+        "id": "reading-064-q030",
+        "questionNumber": 30,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "취재 경계선은 취재가 과열되어 발생할 수 있는 불상사를 예방하기 위해 설정한 것이다. 수백 명의 취재진이 화제의 인물에게 몰려들 경우 사고가 발생해 취재를 망칠 수 있다. 그래서 선을 그어 놓고 그 바깥에서 취재하자는 합의를 본 것이다. 비록 법으로 정해져 있지 않지만 언론계가 이 선을 지키려고 노력하는 것은 ( ........................ ) 순간 원활한 보도가 어려워진다는 것을 누구보다 잘 알고 있기 때문이다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "취재 정보를 공유하는",
+          "취재 경계선이 무너지는",
+          "취재 내용을 잘못 해석하는",
+          "취재 경계선이 새로 설정되는"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 취재 경계선이 무너지는"
+      },
+      {
+        "id": "reading-064-q031",
+        "questionNumber": 31,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "병원의 규모에 따라 개인이 부담해야 하는 약값을 달리하는 제도가 생겼다. 감기와 같이 비교적 가벼운 병에 걸렸을 때 종합병원에서 진료를 받으면( ........................ ) 만든 것이다. 같은 약을 동네 의원에서 받은 처방전으로 사게 되면 약값이 더 적게 나온다. 이 제도를 통해 환자들이 진료에 대한 신뢰 때문에 종합병원으로만 몰리는 현상을 줄일 수 있을 것으로 예상된다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "환자가 약값을 조금 더 내게",
+          "개인이 약값을 비교할 수 있게",
+          "병원에서 병원비를 올리지 못하게",
+          "병원비의 일부를 병원에서 지원하게"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 환자가 약값을 조금 더 내게"
+      },
+      {
+        "id": "reading-064-q032",
+        "questionNumber": 32,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+        "passage": "나비 박사 석주명은 나비의 종류를 분류하고 이름을 지어 준 생물학자 이다. 1931년부터 나비를 연구한 그는 한국의 나비가 총 844종이라는 당시의 분류를 248종으로 수정하였다. 날개 무늬나 모양이 조금만 달라도 다른 종이라고 판단한 기존의 분류가 틀렸음을 배추흰나비 16만여 마리의 무늬를 비교해서 밝혔다. 또한 그때까지 한자어나 외래어로 명명된 나비에 '떠들썩 팔랑나비'와 같은 고유어 이름을 지어 주는 데 앞장섰다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "석주명은 한국의 나비를 총 844종으로 분류하였다.",
+          "석주명은 나비 이름을 고유어로 바꾸려고 노력하였다.",
+          "석주명은 자신의 배추흰나비 연구에 문제가 있음을 알았다.",
+          "석주명은 나비의 날개 모양이 다르면 종이 달라짐을 밝혔다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 석주명은 나비 이름을 고유어로 바꾸려고 노력하였다."
+      },
+      {
+        "id": "reading-064-q033",
+        "questionNumber": 33,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+        "passage": "저축의 방식을 가로 저축과 세로 저축으로 나눠 비유하여 설명할 수 있다. 차량 구입이나 주택 마련과 같이 특정 목적을 위해 한 통장에 집중하여 저축하는 것이 세로 저축이다. 반면 장기적으로 다양한 목적에 따라 자금을 여러 통장에 분산하여 저축하는 것을 가로 저축이라고 한다. 단기적으로 빨리 목돈을 만들고 싶다면 세로 저축을, 은퇴 후의 생활까지 고려한다면 가로 저축을 선택하는 것이 좋다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "노후 준비에는 세로 저축이 유리하다.",
+          "세로 저축보다 가로 저축을 하는 것이 더 좋다.",
+          "저축의 목적이 다양하면 가로 저축이 유용하다.",
+          "가로 저축은 단기적인 계획이 있을 때 효율적이다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 저축의 목적이 다양하면 가로 저축이 유용하다."
+      },
+      {
+        "id": "reading-064-q034",
+        "questionNumber": 34,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+        "passage": "'책가도'는 책장과 책을 중심으로 하여 각종 문방구 등을 그린 그림이다. 학문을 중요시하는 왕의 바람과 출세를 원하는 양반의 마음이 더해져 책가도는 궁중과 사대부를 중심으로 발전하였다. 19세기에는 상인과 농민 계층으로도 확산되면서 그 형식도 자유로워졌다. 그림에서 책장 대신 작은 탁자가 활용되기도 하고 일상 용품이 함께 그려지기도 했다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "왕은 책가도에 대해 부정적 인식이 강했다.",
+          "점차 다양한 계층에서 책가도를 즐기게 되었다.",
+          "초기의 책가도에는 일상 용품이 주로 그려졌다.",
+          "책가도는 왕의 바람으로 그림의 형식이 바뀌었다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 점차 다양한 계층에서 책가도를 즐기게 되었다."
+      },
+      {
+        "id": "reading-064-q035",
+        "questionNumber": 35,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "문화재 복원 작업은 복원된 부분이 자연스러워야 하고 그 과정에서 문화재가 추가로 손상되지 않아야 한다. 이 때문에 정확한 측정으로 복원할 부분을 원래 모습과 동일하게 만들어 내는 것은 복원의 성공을 결정하는 중요한 요건이다. 최근 3D 스캐너와 프린터가 등장하여 이러한 요건을 충족할 수 있게 되면서 정밀하고 안전한 문화재 복원이 가능해졌다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "첨단 장비 덕분에 문화재 복원이 수월해졌다.",
+          "문화재는 손상 예방을 위한 사전 관리가 중요하다.",
+          "복원 환경 탓에 원본이 변형되는 경우가 많아지고 있다.",
+          "복원 기술자를 대상으로 한 3D 장치 사용 교육이 필요하다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 첨단 장비 덕분에 문화재 복원이 수월해졌다."
+      },
+      {
+        "id": "reading-064-q036",
+        "questionNumber": 36,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "아기는 주변 사물을 손으로 더듬고 만지면서 지각 능력을 발달시킨다. 그런데 이렇게 능동적인 경험뿐만 아니라 사람, 햇빛, 바람 등에 의한 접촉도 주요한 촉각 경험이 된다. 그중 주변 인물과의 피부 접촉은 사랑, 유대감, 신뢰감 등 유아의 정서 발달과 사회성 발달에 매우 중요하다. 연구에 따르면 아기가 태어난 후 몇 년 사이에 이루어진 피부 접촉은 정서 발달에 필수적인 호르몬 분비를 촉진할 뿐만 아니라 지능 발달에도 영향을 미친다고 한다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "인간은 촉각을 통해 주변 사물을 이해한다.",
+          "정서 발달과 지능 발달은 상관관계가 높다.",
+          "촉각 경험의 중요성에 대한 연구가 필요하다.",
+          "유아의 발달을 위해서는 피부 접촉이 중요하다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 유아의 발달을 위해서는 피부 접촉이 중요하다."
+      },
+      {
+        "id": "reading-064-q037",
+        "questionNumber": 37,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "나무에 붙어 자라는 버섯을 보면 나무로부터 양분을 받으며 별다른 노력 없이 살아간다고 생각하기 쉽다. 하지만 버섯은 나무에게 없어서는 안 될 중요한 존재이다. 나무들은 위기 상황이 발생해도 자리를 옮겨 이를 알릴 수 없기 때문에 뿌리로 소통하며 위험에 대비한다. 이때 뿌리가 짧아 서로 닿지 않는 나무들 사이에서는 실처럼 뻗은 버섯 균사체가 메시지 전달을 대신한다. 그래서 학자들은 버섯 균류를 '숲의 통신망'이라고 부른다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "버섯은 다른 식물이 있어야 자랄 수 있다.",
+          "나무의 뿌리가 숲에서 하는 기능은 다양하다.",
+          "버섯은 숲에서 나무들의 정보 교환을 돕는 역할을 한다.",
+          "나무의 생활환경에 대한 학자들의 관심이 높아지고 있다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 버섯은 숲에서 나무들의 정보 교환을 돕는 역할을 한다."
+      },
+      {
+        "id": "reading-064-q038",
+        "questionNumber": 38,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "음주 운전으로 인명 피해를 낸 사람에 대한 처벌 강화 법안이 국회에서 통과되었다. 하지만 새 법안은 원래 안건보다 처벌의 강도를 낮춘 것이라는 점에서 반쪽짜리 법안에 불과하다. 이 법안에 따르면 여전히 음주 운전 가해자의 처벌이 미뤄지거나 일정 기간이 지난 후 효력이 없어질 수도 있다. 이는 음주 운전에 대한 경각심을 높이고 재발 위험성을 낮추려던 본래의 취지에는 맞지 않는 것이다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "법안이 가진 본래의 취지를 널리 알려야 한다.",
+          "피해 정도에 따라 처벌의 수위를 조절해야 한다.",
+          "새 법안의 통과가 더 이상 미루어져서는 안 된다.",
+          "새 법안은 실질적 효과를 거두는 데 미흡한 점이 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 새 법안은 실질적 효과를 거두는 데 미흡한 점이 있다."
+      },
+      {
+        "id": "reading-064-q039",
+        "questionNumber": 39,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오. (각 2점)",
+        "passage": "왕관은 과거 지배 계층이 착용했던 대표적인 장신구이다. ( ㉠ ) 장식도 화려하게 더해져 그것을 쓴 왕의 지위를 더욱 돋보이게 했다.( ㉡ ) 오늘날 왕관이 가졌던 힘과 지위의 의미는 약화되었으나 고귀한 이미지는 남아 여러 디자인에서 발견된다.( ㉢ ) 아름다움이 강조되어야 할 신부의 머리 장식이나 여러 액세서리에 왕관이 활용되고 있는 것이다.( ㉣ ) 넣을 문장: 그래서 백성들이 구하기 힘든 매우 귀하고 값비싼 재료로 만들어졌다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 위치"
+      },
+      {
+        "id": "reading-064-q040",
+        "questionNumber": 40,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오. (각 2점)",
+        "passage": "멸종 위기에 처한 동물을 보호하려는 노력이 계속되고 있으나 주된 연구와 지원이 몇몇 동물에 쏠리고 있어 문제가 되고 있다. ( ㉠ ) 한 조사에 따르면 동물 보호 기금의 모금 액수도 북극곰, 판다같이 인기 있는 동물들 에게 편중되었다고 한다. ( ㉡ ) 이런 가운데 그간 관심을 받지 못했던 동물들을 보호하기 위한 단체가 등장했다. ( ㉢ ) 이러한 노력은 동물 보호를 위한 마음에도 편견이 깃들어 있었음을 일깨우고 있다. ( ㉣ ) 넣을 문장: 그들은 못생기고 혐오감을 준다는 이유만으로 외면당한 동물들을 대중에게 알리는 활동을 한다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 위치"
+      },
+      {
+        "id": "reading-064-q041",
+        "questionNumber": 41,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오. (각 2점)",
+        "passage": "'젊은 작가상'을 수상한 최은영이 두 번째 소설집 『내게 무해한 사람』을 펴냈다. ( ㉠ ) 2년여에 걸쳐 여러 지면에 발표했던 작품들을 한 권에 모은 것이다. ( ㉡ ) 그들처럼 누군가에 대한 배반, 원치 않았던 이별 등 매듭짓지 못한 일들을 다시 떠올린다는 것은 괴로운 과정일 것이다. ( ㉢ ) 그러나 작가는 이미 지나간 시간에 대해 후회할 필요는 없으며 상처도 힘이 될 수 있다는 메시지로 독자의 마음을 움직인다. ( ㉣ ) 넣을 문장: 일곱 편의 단편에는 오해와 잘못으로 멀어진 사람들에 대한 이야기가 담겨 있다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 위치"
+      },
+      {
+        "id": "reading-064-q042",
+        "questionNumber": 42,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "그때 소희네는 이사를 앞두고 있었는데 엄마는 그렇게 집을 나가 돌아 오지 않았다. 작별 인사는커녕 아무 신호도 낌새도 없이 사라졌다. (중략) 엄마가 집 나가고 열흘쯤 지났을 땐가, 소희가 텔레비전을 보고 있는데 본희가 현관에서 신을 신으며 잠깐 나갔다 오겠다고 했다. \"잠깐 어디?\" \"친구네.” “친구 누구?\" 소희가 눈을 맞추려 했지만 본희는 돌아보지 않았다. \"늦으면 친구네서 자고 올지도 몰라. 기다리지 말고 자.\" 돌아서 나가는 본희가 멘 가방이 이상하게 커 보여 소희는 자리에서 벌떡 일어났다. 가만히 서 있다가 갑자기 현관문을 열고 맨발로 뛰어나가 계단을 올라가는 본희 뒷모습에 대고 외쳤다. \"언니야, 올 거지?\" 본희는 멈춰 섰지만 돌아보지 않았다. 소희는 묻고 또 물었다. (중략) 한참 있다가, 몇 년은 지난 거 같은데 몇 시간쯤밖에 안 지난 한밤중에 언니가 문자를 했다. 소희는 언니가 올 때까지 휴대 전화를 손에 꼭 쥐고 문자를 보고 또 보았다. 그러지 않으면 문자가 감쪽같이 날아갈 것 같았다. 삼겹살 사가지고 가께, 라면 끓여먹지 말고 기다려.",
+        "question": "밑줄 친 부분에 나타난 '소희'의 심정으로 알맞은 것을 고르십시오.",
+        "options": [
+          "불안하다",
+          "흡족하다",
+          "실망스럽다",
+          "감격스럽다"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 불안하다"
+      },
+      {
+        "id": "reading-064-q043",
+        "questionNumber": 43,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "그때 소희네는 이사를 앞두고 있었는데 엄마는 그렇게 집을 나가 돌아 오지 않았다. 작별 인사는커녕 아무 신호도 낌새도 없이 사라졌다. (중략) 엄마가 집 나가고 열흘쯤 지났을 땐가, 소희가 텔레비전을 보고 있는데 본희가 현관에서 신을 신으며 잠깐 나갔다 오겠다고 했다. \"잠깐 어디?\" \"친구네.” “친구 누구?\" 소희가 눈을 맞추려 했지만 본희는 돌아보지 않았다. \"늦으면 친구네서 자고 올지도 몰라. 기다리지 말고 자.\" 돌아서 나가는 본희가 멘 가방이 이상하게 커 보여 소희는 자리에서 벌떡 일어났다. 가만히 서 있다가 갑자기 현관문을 열고 맨발로 뛰어나가 계단을 올라가는 본희 뒷모습에 대고 외쳤다. \"언니야, 올 거지?\" 본희는 멈춰 섰지만 돌아보지 않았다. 소희는 묻고 또 물었다. (중략) 한참 있다가, 몇 년은 지난 거 같은데 몇 시간쯤밖에 안 지난 한밤중에 언니가 문자를 했다. 소희는 언니가 올 때까지 휴대 전화를 손에 꼭 쥐고 문자를 보고 또 보았다. 그러지 않으면 문자가 감쪽같이 날아갈 것 같았다. 삼겹살 사가지고 가께, 라면 끓여먹지 말고 기다려.",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "본희는 밤늦게 소희에게 연락을 줬다.",
+          "엄마는 이사하는 날에 집으로 돌아왔다.",
+          "본희는 소희를 데리고 친구 집에 놀러 갔다.",
+          "소희는 엄마를 기다리며 휴대 전화를 놓지 못했다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 본희는 밤늦게 소희에게 연락을 줬다."
+      },
+      {
+        "id": "reading-064-q044",
+        "questionNumber": 44,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "성대하고 까다로운 제사 준비 탓에 유교 예법을 비판하는 사람들이 많다. 하지만 현재 우리가 지키고 있는 예법은 ( ........................ ) 잘못된 예법이 전해져 온 것이다. 유교 전문가들은 제사든 차례든 조상을 공경하는 마음과 자손들의 화목이 중요하다고 말한다. 선조들은 제사를 드릴 때 좋은 음식을 많이 준비하는 것보다 그 음식을 준비하는 마음과 정성을 중시했던 것이다. 유서 깊은 집안에서는 이러한 제사의 본질을 제대로 이해하여 상차림은 간소하게 하되 집안사람들이 모두 모여 함께 제사를 드리는 경우가 많다. 형식보다 정성이 중요하다는 유교의 가르침을 지키고 있는 것이다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "상차림이 간소화된",
+          "후손들의 바람이 반영된",
+          "유교의 본뜻을 살리지 못한",
+          "현실에 맞게 축소되지 않은"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 현실에 맞게 축소되지 않은"
+      },
+      {
+        "id": "reading-064-q045",
+        "questionNumber": 45,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "성대하고 까다로운 제사 준비 탓에 유교 예법을 비판하는 사람들이 많다. 하지만 현재 우리가 지키고 있는 예법은 ( ........................ ) 잘못된 예법이 전해져 온 것이다. 유교 전문가들은 제사든 차례든 조상을 공경하는 마음과 자손들의 화목이 중요하다고 말한다. 선조들은 제사를 드릴 때 좋은 음식을 많이 준비하는 것보다 그 음식을 준비하는 마음과 정성을 중시했던 것이다. 유서 깊은 집안에서는 이러한 제사의 본질을 제대로 이해하여 상차림은 간소하게 하되 집안사람들이 모두 모여 함께 제사를 드리는 경우가 많다. 형식보다 정성이 중요하다는 유교의 가르침을 지키고 있는 것이다.",
+        "question": "위 글의 주제로 알맞은 것을 고르십시오.",
+        "options": [
+          "조상을 모시는 제사상 차림은 점차 간소화되고 있다.",
+          "유교 문화는 후손들에 의해 유동적으로 변화되고 있다.",
+          "명절에 제사를 드리는 전통은 예법에 맞게 유지되고 있다.",
+          "유교 예법에서 중요한 것은 정성을 다해 예를 갖추는 것이다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 명절에 제사를 드리는 전통은 예법에 맞게 유지되고 있다."
+      },
+      {
+        "id": "reading-064-q046",
+        "questionNumber": 46,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오。 (각 2점)",
+        "passage": "1인 미디어 시대가 되면서 개인 방송을 이용한 새로운 시장 형태가 등장해 주목받고 있다. 이 시장은 SNS를 통해 제품이 유통되고 판매된다는 특징이 있다. ( ㉠ ) 대표적인 판매 방식은 1인 미디어 운영자가 방송 중에 특정 물건을 의도적으로 노출하여 구매를 유도하는 것이다. 이때 관심이 생긴 시청자는 그 운영자에게서 물건을 산다. ( ㉡ ) SNS 계정만 있으면 누구든지 판매를 시작할 수 있으며 제품 홍보부터 구매까지 모든 과정이 SNS상에서 이루어진다. ( ㉢ ) 덕분에 초기 사업 비용이 거의 들지 않는다는 장점이 있다. ( ㉣ ) 하지만 개별 사업자의 수가 무한 하게 늘 수 있기 때문에 향후 경제 변화를 이끌 핵심 시장으로의 성장이 예상된다. [Sentence to Insert: 이와 같은 시장 형태가 전체 소비 시장에 미치는 영향력은 아직 미미하다.] 넣을 문장: 이와 같은 시장 형태가 전체 소비 시장에 미치는 영향력은 아직 미미하다.",
+        "question": "위 글에서 <보기>의 글이 들어가기에 가장 알맞은 곳을 고르십시오。",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 위치"
+      },
+      {
+        "id": "reading-064-q047",
+        "questionNumber": 47,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오。 (각 2점)",
+        "passage": "1인 미디어 시대가 되면서 개인 방송을 이용한 새로운 시장 형태가 등장해 주목받고 있다. 이 시장은 SNS를 통해 제품이 유통되고 판매된다는 특징이 있다. ( ㉠ ) 대표적인 판매 방식은 1인 미디어 운영자가 방송 중에 특정 물건을 의도적으로 노출하여 구매를 유도하는 것이다. 이때 관심이 생긴 시청자는 그 운영자에게서 물건을 산다. ( ㉡ ) SNS 계정만 있으면 누구든지 판매를 시작할 수 있으며 제품 홍보부터 구매까지 모든 과정이 SNS상에서 이루어진다. ( ㉢ ) 덕분에 초기 사업 비용이 거의 들지 않는다는 장점이 있다. ( ㉣ ) 하지만 개별 사업자의 수가 무한 하게 늘 수 있기 때문에 향후 경제 변화를 이끌 핵심 시장으로의 성장이 예상된다. [Sentence to Insert: 이와 같은 시장 형태가 전체 소비 시장에 미치는 영향력은 아직 미미하다.] 넣을 문장: 이와 같은 시장 형태가 전체 소비 시장에 미치는 영향력은 아직 미미하다.",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "1인 미디어 운영자는 이 시장의 운영에 참여할 수 없다.",
+          "이 시장의 운영자들은 시장 경제에 부정적인 영향을 미친다.",
+          "1인 미디어 시청자는 방송을 보다가 제품을 구매할 수 있다.",
+          "이 시장을 처음 시작할 때는 충분한 자본 투자가 필수적이다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 1인 미디어 시청자는 방송을 보다가 제품을 구매할 수 있다."
+      },
+      {
+        "id": "reading-064-q048",
+        "questionNumber": 48,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "올해 '자치경찰제'가 전국으로 확대될 예정이다. 자치경찰제는 지방자치 단체가 경찰의 운영 및 관리를 담당하도록 하는 제도를 말한다. 이 제도가 실시되면 경찰이 지역 주민의 삶에 밀착돼 지역 특성에 맞는 다양한 서비 스를 주민들에게 제공할 수 있을 것으로 보인다. 그러나 제도적 취약점과 예측되는 부작용이 있을 수 있다. 무엇보다 현장에서의 혼선이 예상된다. 제도에 따르면 자치경찰은 교통사고나 가정 폭력 조사 등 생활 안전 부분을 담당하고 국가 보안이나 전국 단위의 수사는 지금처럼 국가경찰이 맡는다. 이처럼 경찰 조직이 이중 구조일 때 어려움을 겪는 것은 국민이 될 수 있다. 영역 구분이 애매한 사건이 발생하면 자치경찰과 국가경찰이 함께 출동 하거나 사건을 서로 떠넘기다가 신속하고 치밀한 대응이 이뤄지지 않을 수 있기 때문이다. ( ........................ ) 치안의 질이 떨어진다면 새 제도의 시행 의의가 퇴색될 수 있을 것이다.",
+        "question": "위 글을 쓴 목적으로 알맞은 것을 고르십시오.",
+        "options": [
+          "제도 확대 시행의 의의를 강조하기 위해서",
+          "제도 시행의 구체적 방안을 제시하기 위해서",
+          "제도의 취지와 주민 요구의 차이를 설명하기 위해서",
+          "제도 시행 후 생길 수 있는 문제를 지적하기 위해서"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 제도 시행 후 생길 수 있는 문제를 지적하기 위해서"
+      },
+      {
+        "id": "reading-064-q049",
+        "questionNumber": 49,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "올해 '자치경찰제'가 전국으로 확대될 예정이다. 자치경찰제는 지방자치 단체가 경찰의 운영 및 관리를 담당하도록 하는 제도를 말한다. 이 제도가 실시되면 경찰이 지역 주민의 삶에 밀착돼 지역 특성에 맞는 다양한 서비 스를 주민들에게 제공할 수 있을 것으로 보인다. 그러나 제도적 취약점과 예측되는 부작용이 있을 수 있다. 무엇보다 현장에서의 혼선이 예상된다. 제도에 따르면 자치경찰은 교통사고나 가정 폭력 조사 등 생활 안전 부분을 담당하고 국가 보안이나 전국 단위의 수사는 지금처럼 국가경찰이 맡는다. 이처럼 경찰 조직이 이중 구조일 때 어려움을 겪는 것은 국민이 될 수 있다. 영역 구분이 애매한 사건이 발생하면 자치경찰과 국가경찰이 함께 출동 하거나 사건을 서로 떠넘기다가 신속하고 치밀한 대응이 이뤄지지 않을 수 있기 때문이다. ( ........................ ) 치안의 질이 떨어진다면 새 제도의 시행 의의가 퇴색될 수 있을 것이다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "경찰들의 업무 과다로",
+          "업무의 충돌과 혼선으로",
+          "자치경찰의 배치 감소로",
+          "제도의 단계적 시행으로"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 업무의 충돌과 혼선으로"
+      },
+      {
+        "id": "reading-064-q050",
+        "questionNumber": 50,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "올해 '자치경찰제'가 전국으로 확대될 예정이다. 자치경찰제는 지방자치 단체가 경찰의 운영 및 관리를 담당하도록 하는 제도를 말한다. 이 제도가 실시되면 경찰이 지역 주민의 삶에 밀착돼 지역 특성에 맞는 다양한 서비 스를 주민들에게 제공할 수 있을 것으로 보인다. 그러나 제도적 취약점과 예측되는 부작용이 있을 수 있다. 무엇보다 현장에서의 혼선이 예상된다. 제도에 따르면 자치경찰은 교통사고나 가정 폭력 조사 등 생활 안전 부분을 담당하고 국가 보안이나 전국 단위의 수사는 지금처럼 국가경찰이 맡는다. 이처럼 경찰 조직이 이중 구조일 때 어려움을 겪는 것은 국민이 될 수 있다. 영역 구분이 애매한 사건이 발생하면 자치경찰과 국가경찰이 함께 출동 하거나 사건을 서로 떠넘기다가 신속하고 치밀한 대응이 이뤄지지 않을 수 있기 때문이다. ( ........................ ) 치안의 질이 떨어진다면 새 제도의 시행 의의가 퇴색될 수 있을 것이다.",
+        "question": "밑줄 친 부분에 나타난 필자의 태도로 알맞은 것을 고르십시오.",
+        "options": [
+          "자치경찰과 지역 주민의 관계 변화에 대해 예상하고 있다.",
+          "자치경찰제가 주민에게 미칠 긍정적 영향을 기대하고 있다.",
+          "자치경찰제가 제공해야 할 서비스의 조건을 강조하고 있다.",
+          "지역 친화적 서비스가 특정 지역에 쏠릴 것을 우려하고 있다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 자치경찰제가 주민에게 미칠 긍정적 영향을 기대하고 있다."
+      }
+    ]
+  },
+  {
+    "id": "reading-060",
+    "title": "60th TOPIK II Reading Test",
+    "level": "TOPIK II",
+    "topic": "Official Reading Paper",
+    "source": "https://www.topikguide.com/mock-tests/60-TOPIK-II-Reading-Mock-Test.html",
+    "durationMinutes": 70,
+    "passage": "",
+    "questions": [
+      {
+        "id": "reading-060-q001",
+        "questionNumber": 1,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "휴대 전화를( ........................ ) 내려야 할 역을 지나쳤다.",
+        "question": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "보든지",
+          "보다가",
+          "보려면",
+          "보고서"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 보다가"
+      },
+      {
+        "id": "reading-060-q002",
+        "questionNumber": 2,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "한국 친구 덕분에 한국 문화를 많이( ........................ ).",
+        "question": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "알게 되었다",
+          "알도록 했다",
+          "알아도 된다",
+          "알아야 한다"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 알게 되었다"
+      },
+      {
+        "id": "reading-060-q003",
+        "questionNumber": 3,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "동생은 차를 타기만 하면 멀미를 한다.",
+        "question": "다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+        "options": [
+          "탈 만해서",
+          "타는 탓에",
+          "탈 때마다",
+          "타는 동안"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 탈 때마다"
+      },
+      {
+        "id": "reading-060-q004",
+        "questionNumber": 4,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "이 컴퓨터는 낡아서 수리해 봐야 오래 쓰기 어렵다.",
+        "question": "다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+        "options": [
+          "수리해 보니까",
+          "수리하는 대로",
+          "수리하는 바람에",
+          "수리한다고 해도"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 수리한다고 해도"
+      },
+      {
+        "id": "reading-060-q005",
+        "questionNumber": 5,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "과자",
+          "안경",
+          "우유",
+          "신발"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 우유",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T260R5.png"
+      },
+      {
+        "id": "reading-060-q006",
+        "questionNumber": 6,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "우체국",
+          "여행사",
+          "편의점",
+          "빨래방"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 빨래방",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T260R6.png"
+      },
+      {
+        "id": "reading-060-q007",
+        "questionNumber": 7,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "건강 관리",
+          "전기 절약",
+          "화재 예방",
+          "교통 안전"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 화재 예방",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T260R7.png"
+      },
+      {
+        "id": "reading-060-q008",
+        "questionNumber": 8,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "상품 안내",
+          "주의 사항",
+          "사용 순서",
+          "장소 문의"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 주의 사항",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T260R8.png"
+      },
+      {
+        "id": "reading-060-q009",
+        "questionNumber": 9,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "주말에는 이용 요금을 더 받는다.",
+          "캠핑장은 1년 내내 이용할 수 있다.",
+          "예약은 이용 당일 홈페이지에서 하면 된다.",
+          "주차장을 이용하려면 돈을 따로 내야 한다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 주말에는 이용 요금을 더 받는다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T260R9.png"
+      },
+      {
+        "id": "reading-060-q010",
+        "questionNumber": 10,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글 또는 그래프의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "여성은 봉사 활동보다 취미 활동을 더 하고 싶어 한다.",
+          "종교 활동을 하고 싶어 하는 비율은 남성이 여성보다 높다.",
+          "남녀 모두 경제 활동을 하고 싶다는 응답이 절반을 넘는다.",
+          "경제 활동보다 봉사 활동을 하고 싶어 하는 남성들이 많다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 여성은 봉사 활동보다 취미 활동을 더 하고 싶어 한다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T260R10.png"
+      },
+      {
+        "id": "reading-060-q011",
+        "questionNumber": 11,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "인주시의 한 고등학교는 올해부터 여름 교복으로 티셔츠와 반바지를 입고 있다. 기존 정장형 교복은 활동할 때 불편하다는 학생들의 의견이 많았기 때문이다. 몸이 편해지니 학생들은 다양한 활동에 적극적으로 참여 하기 시작했고 공부에도 더 집중할 수 있어서 학습 효율이 올라갔다. 새 교복은 기존 교복보다 가격이 저렴해서 학부모에게도 인기다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "학부모들은 정장형 교복을 더 좋아한다.",
+          "새 교복은 정장형 교복보다 가격이 비싸다.",
+          "기존 교복에 비해 새 교복은 활동할 때 불편하다.",
+          "학교는 학생들의 의견을 받아들여서 교복을 바꿨다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 학교는 학생들의 의견을 받아들여서 교복을 바꿨다."
+      },
+      {
+        "id": "reading-060-q012",
+        "questionNumber": 12,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "최근 한 아파트에서는 힘들게 일하는 택배 기사, 청소원 등을 위한 무료 카페를 열어서 화제가 되고 있다. 이 카페는 언제든 부담 없이 음료를 마시면서 쉴 수 있는 곳이어서 이용자들이 만족해하고 있다. 주민들은 처음에는 관심을 안 보였지만 지금은 카페에 음료와 간식을 제공하는 등 많은 도움을 주고 있다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 카페에 간식을 가져다주는 주민들이 생겼다.",
+          "카페를 열 때 아파트 주민들이 적극적으로 도왔다.",
+          "이 카페는 아파트 주민들이 돈을 벌기 위해서 열었다.",
+          "택배 기사들이 카페의 운영에 참여해 화제가 되고 있다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 이 카페에 간식을 가져다주는 주민들이 생겼다."
+      },
+      {
+        "id": "reading-060-q013",
+        "questionNumber": 13,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 환경 보호를 위해 포장 없이 내용물만 판매하는 가게가 있다. (나) 사람들이 용기에 든 물품을 사려면 빈 통을 준비해 가야 한다. (다) 빈 통이 없는 사람들에게는 가게에서 통을 대여해 주기도 한다. (라) 이 가게에서는 밀가루나 샴푸 등을 커다란 용기에 담아 놓고 판매한다.",
+        "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(가)-(나)-(라)-(다)",
+          "(가)-(라)-(나)-(다)",
+          "(나)-(가)-(라)-(다)",
+          "(나)-(다)-(가)-(라)"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. (가)-(라)-(나)-(다)"
+      },
+      {
+        "id": "reading-060-q014",
+        "questionNumber": 14,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 요금을 내려고 보니 가방 어디에서도 지갑을 찾을 수 없었다. (나) 감사의 인사를 전하는 나에게 아주머니는 환하게 웃어 주셨다. (다) 회사에 지각할 것 같아서 막 출발하려는 버스를 뛰어가서 탔다. (라) 그냥 내리려는데 뒤에 서 있던 아주머니가 대신 요금을 내 주셨다.",
+        "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(가)-(다)-(나)-(라)",
+          "(가)-(라)-(다)-(나)",
+          "(다)-(가)-(라)-(나)",
+          "(다)-(나)-(라)-(가)"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. (다)-(가)-(라)-(나)"
+      },
+      {
+        "id": "reading-060-q015",
+        "questionNumber": 15,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 쉬어도 떨림이 계속된다면 마그네슘이 부족해서일 수도 있다. (나) 눈 밑 떨림의 주된 원인은 피로이므로 푹 쉬면 증상은 완화된다. (다) 이런 사람들은 마그네슘이 풍부한 견과류나 바나나를 먹으면 좋다. (라) 누구나 한 번쯤은 눈 밑이 떨리는 경험을 해 본 적이 있을 것이다.",
+        "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(나)-(다)-(라)-(가)",
+          "(나)-(라)-(다)-(가)",
+          "(라)-(가)-(다)-(나)",
+          "(라)-(나)-(가)-(다)"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. (라)-(나)-(가)-(다)"
+      },
+      {
+        "id": "reading-060-q016",
+        "questionNumber": 16,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "원래 악수는 상대를 안심시키기 위한 행동이었다. 중세 시대의 기사들은 칼과 같은 무기를 가지고 다니다가 적과 싸울 때 꺼내 들었다. 하지만 ( ........................ ) 때에는 악수를 하면서 손에 무기가 없음을 보여 주었다. 이렇게 안전을 확인시켜 주기 위한 행동이 오늘날에는 반가움과 존중을 표시하는 인사법이 되었다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "싸울 생각이 없을",
+          "상대의 도움을 받았을",
+          "자신의 잘못을 사과할",
+          "무기를 새로 구해야 할"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 싸울 생각이 없을"
+      },
+      {
+        "id": "reading-060-q017",
+        "questionNumber": 17,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "특별한 사건 없이 주인공의 단순하고 반복적인 일상을 다룬 한 영화가 인기를 끌고 있다. 주인공이 하루하루를 평범하게 보낼 뿐 별다른 일을 하지 않는데도 관객들은 영화에 빠져든다. 관객들은 그동안 잊고 지냈던 일상의 기쁨을 새삼 깨닫는 것이다. 그리고 행복은 크고 거창한 꿈에만 있는 것이 아니라( ........................ ) 일에서도 찾을 수 있음을 발견한다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "스스로 인정하지 않는",
+          "현실 속의 작고 소소한",
+          "평소 자주 하지 못하는",
+          "일상에서 하기 쉽지 않은"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 현실 속의 작고 소소한"
+      },
+      {
+        "id": "reading-060-q018",
+        "questionNumber": 18,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "'씨앗 저장고'는 미래의 식량 문제를 대비하기 위해 식물 자원을 영구적 으로 보호하는 시설이다. 이곳의 연구원들은 보관 중인 씨앗을 연구하는 일뿐만 아니라( ........................ ) 활동도 한다. 이들은 씨앗 하나를 구하기 위해 전국 곳곳을 찾아다닌다. 연구원들이 직접 가서 보지 않으면 보관할 가치가 있는 씨앗인지 알 수 없기 때문이다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "자원을 홍보하는",
+          "사람을 교육하는",
+          "씨앗을 수집하는",
+          "저장고를 관리하는"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 씨앗을 수집하는"
+      },
+      {
+        "id": "reading-060-q019",
+        "questionNumber": 19,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음 글을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "시각 장애인의 안내견은 주인과 있을 때 행인에게 관심을 두지 않는다. ( ........................ ) 안내견이 주인을 남겨 두고 행인에게 다가간다면 이는 주인이 위험에 처해 있다는 뜻이다. 안내견은 주인에게 문제가 발생하면 곧장 주변 사람에게 달려가 도움을 요청하도록 훈련을 받기 때문이다. 안내견이 행인의 주위를 맴돌면 안내견을 따라가 주인의 상태를 확인하고 구조 센터에 연락해야 한다.",
+        "question": "( ........................ )에 들어갈 알맞은 것을 고르십시오.",
+        "options": [
+          "비록",
+          "물론",
+          "만약",
+          "과연"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 만약"
+      },
+      {
+        "id": "reading-060-q020",
+        "questionNumber": 20,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음 글을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "시각 장애인의 안내견은 주인과 있을 때 행인에게 관심을 두지 않는다. ( ........................ ) 안내견이 주인을 남겨 두고 행인에게 다가간다면 이는 주인이 위험에 처해 있다는 뜻이다. 안내견은 주인에게 문제가 발생하면 곧장 주변 사람에게 달려가 도움을 요청하도록 훈련을 받기 때문이다. 안내견이 행인의 주위를 맴돌면 안내견을 따라가 주인의 상태를 확인하고 구조 센터에 연락해야 한다.",
+        "question": "이 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "안내견이 주인 곁을 떠나는 경우는 없다.",
+          "안내견은 문제가 생기면 구조 센터로 달려간다.",
+          "안내견이 다가오는 것은 위급한 상황이 생겼다는 뜻이다.",
+          "안내견은 항상 주변의 사람들에게 관심을 갖도록 훈련을 받는다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 안내견이 다가오는 것은 위급한 상황이 생겼다는 뜻이다."
+      },
+      {
+        "id": "reading-060-q021",
+        "questionNumber": 21,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음 글을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "문자 교육은 빠를수록 좋다고 믿는 부모들이 있다. 이들은 자신의 아이가 또래보다 글자를 더 빨리 깨치기를 바라며 문자 교육에( ........................ ). 그런데 나이가 어린 아이들은 아직 다양한 능력들이 완전히 발달하지 못해 온몸의 감각을 동원하여 정보를 얻는다. 이 시기에 글자를 읽는 것에 집중 하다 보면 다른 감각을 사용할 기회가 줄어 능력이 고르게 발달하는 데 어려움이 있을 수 있다.",
+        "question": "( ........................ )에 들어갈 알맞은 것을 고르십시오.",
+        "options": [
+          "손을 뗀다",
+          "이를 간다",
+          "담을 쌓는다",
+          "열을 올린다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 열을 올린다"
+      },
+      {
+        "id": "reading-060-q022",
+        "questionNumber": 22,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음 글을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "문자 교육은 빠를수록 좋다고 믿는 부모들이 있다. 이들은 자신의 아이가 또래보다 글자를 더 빨리 깨치기를 바라며 문자 교육에( ........................ ). 그런데 나이가 어린 아이들은 아직 다양한 능력들이 완전히 발달하지 못해 온몸의 감각을 동원하여 정보를 얻는다. 이 시기에 글자를 읽는 것에 집중 하다 보면 다른 감각을 사용할 기회가 줄어 능력이 고르게 발달하는 데 어려움이 있을 수 있다.",
+        "question": "이 글의 중심 생각을 고르십시오.",
+        "options": [
+          "문자 교육을 하는 방법이 다양해져야 한다.",
+          "아이의 감각을 기르는 데 문자 교육이 필요하다.",
+          "이른 문자 교육이 아이의 발달을 방해할 수 있다.",
+          "아이들은 서로 비슷한 시기에 글자를 배우는 것이 좋다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 이른 문자 교육이 아이의 발달을 방해할 수 있다."
+      },
+      {
+        "id": "reading-060-q023",
+        "questionNumber": 23,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음 글을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "고향에 사는 아버지가 오랜만에 우리 집에 오셨다. 나는 남편과 함께 아버지와 이런저런 이야기를 나누며 거실에 앉아 있었다. 그때 갑자기 남편이 아버지를 모시고 영화관에 가자고 했다. 그 말에 나는 \"영화관은 무슨? 아버지는 어둡고 갑갑해서 영화관 가는 거 안 좋아하셔.\" 하고 내뱉었다. 그래도 아버지에게 슬쩍 \"영화 보러 가실래요?\" 하고 물었는데 손사래를 치실 것 같던 아버지는 그저 가만히 계셨다. 그 순간 나는 아버지의 마음을 읽을 수 있었다. 나는 왜 아버지가 영화관에 가는 것을 안 좋아하실 거라고 생각했을까. 지금껏 내 기준에서 판단한 일들이 얼마나 많을까 생각하니 마음이 무거워졌다. 영화관에 갈 준비를 하며 옷도 살피고 모자도 쓰고 벗기를 반복하시는 아버지의 얼굴에는 미소가 가득했다. 그런 아버지를 보며 나는 앞으로 아버지가 무엇을 좋아하시는지 관심을 가지기로 했다.",
+        "question": "밑줄 친 부분에 나타난 나의 심정으로 알맞은 것을 고르십시오.",
+        "options": [
+          "부담스럽다",
+          "불만스럽다",
+          "짜증스럽다",
+          "죄송스럽다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 죄송스럽다"
+      },
+      {
+        "id": "reading-060-q024",
+        "questionNumber": 24,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음 글을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "고향에 사는 아버지가 오랜만에 우리 집에 오셨다. 나는 남편과 함께 아버지와 이런저런 이야기를 나누며 거실에 앉아 있었다. 그때 갑자기 남편이 아버지를 모시고 영화관에 가자고 했다. 그 말에 나는 \"영화관은 무슨? 아버지는 어둡고 갑갑해서 영화관 가는 거 안 좋아하셔.\" 하고 내뱉었다. 그래도 아버지에게 슬쩍 \"영화 보러 가실래요?\" 하고 물었는데 손사래를 치실 것 같던 아버지는 그저 가만히 계셨다. 그 순간 나는 아버지의 마음을 읽을 수 있었다. 나는 왜 아버지가 영화관에 가는 것을 안 좋아하실 거라고 생각했을까. 지금껏 내 기준에서 판단한 일들이 얼마나 많을까 생각하니 마음이 무거워졌다. 영화관에 갈 준비를 하며 옷도 살피고 모자도 쓰고 벗기를 반복하시는 아버지의 얼굴에는 미소가 가득했다. 그런 아버지를 보며 나는 앞으로 아버지가 무엇을 좋아하시는지 관심을 가지기로 했다.",
+        "question": "이 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "나는 아버지와 자주 영화를 보러 다녔다.",
+          "아버지는 내 질문에 아무 말도 하지 않았다.",
+          "아버지는 영화를 보러 가기 위해 우리 집에 왔다.",
+          "나는 아버지가 외출 준비하는 모습이 마음에 들지 않았다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 아버지는 내 질문에 아무 말도 하지 않았다."
+      },
+      {
+        "id": "reading-060-q025",
+        "questionNumber": 25,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "출산율 또 하락, 정부 대책 효과 없어",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "정부가 대책을 세워 노력했으나 출산율은 다시 떨어졌다.",
+          "정부는 출산율이 낮아지지 않도록 효과적인 정책을 마련하였다.",
+          "정부의 정책 중 시급히 개선되어야 할 부분이 출산 관련 정책이다.",
+          "출산과 관련한 정부의 지원이 축소되자 출산율이 급격히 낮아졌다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 정부가 대책을 세워 노력했으나 출산율은 다시 떨어졌다."
+      },
+      {
+        "id": "reading-060-q026",
+        "questionNumber": 26,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "놀이공원, 수익에만 치중 이용객 안전은 뒷전",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "놀이공원의 이용객들은 놀이공원에 안전시설 점검을 요구했다.",
+          "놀이공원이 이용객의 안전을 중시하기 시작한 후 수익이 증가했다.",
+          "놀이공원이 수익은 중요시하고 이용객의 안전은 중요시하지 않고 있다.",
+          "놀이공원은 수익이 감소해 이용객의 안전에 더 이상 투자하기 어려워졌다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 놀이공원이 수익은 중요시하고 이용객의 안전은 중요시하지 않고 있다."
+      },
+      {
+        "id": "reading-060-q027",
+        "questionNumber": 27,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "제2공장 정상 가동, 반도체 공급 안정은 미지수",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "제2공장이 정상적으로 가동됨에 따라 반도체 공급이 안정되었다.",
+          "제2공장이 반도체 생산을 시작했지만 공급이 안정될지는 불확실하다.",
+          "반도체가 안정적으로 공급되기 위해서는 제2공장의 가동이 필수적이다.",
+          "반도체 공급이 안정적으로 이루어지면서 제2공장도 정상 가동될 수 있었다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 제2공장이 반도체 생산을 시작했지만 공급이 안정될지는 불확실하다."
+      },
+      {
+        "id": "reading-060-q028",
+        "questionNumber": 28,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "수업에 게임 방식을 도입하면 열의를 갖고 참여하는 학생들이 많아진다. 학생들은 흥미진진한 퀴즈를 풀며 용어와 개념을 익힌다. 퀴즈의 정답을 맞힌 학생에게는 즉각적으로 점수가 부여되는데 어려운 문제를 빨리 맞힐수록 획득하는 점수가 크다. 이러한 방법을 활용하면 학생들이 ( ........................ ) 수 있다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "교실 환경을 살필",
+          "수업에 보다 집중할",
+          "게임에 흥미를 느낄",
+          "친구들과 더 소통할"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 수업에 보다 집중할"
+      },
+      {
+        "id": "reading-060-q029",
+        "questionNumber": 29,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "\"지구가 아파요!\"라는 문구가 새겨진 티셔츠나 잘려 나간 나무가 그려진 가방 등을 구매하는 사람들이 증가하고 있다. 사람들은 그 상품이 ( ........................ ) 때문에 구매를 한다. 그들은 구매한 물건을 일상에서 사용함으로써 사회 문제에 대한 입장을 표현한다. 그리고 주변 사람들이 그 상품을 보고 거기에 담긴 메시지에 대해 관심을 갖도록 한다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "세련되게 디자인되었기",
+          "천연 소재로 만들어졌기",
+          "본인의 체형을 보완해 주기",
+          "자신의 가치관을 드러낼 수 있기"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 자신의 가치관을 드러낼 수 있기"
+      },
+      {
+        "id": "reading-060-q030",
+        "questionNumber": 30,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "깨어져도 파편이 튀지 않는 안전유리는 한 과학자가 실험실 선반에서 떨어진 유리병에 주목하면서 발명되었다. 산산조각 난 다른 유리병과 달리 금이 간 채 형태를 유지하고 있는 유리병이 있었다. 이 병은 안에 담긴 용액이 마르면서 유리 표면에 생긴 막이 유리 조각을 붙잡고 있었다. 이 점에 착안하여( ........................ ) 안전유리를 제작하게 되었다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "파편 조각을 붙인",
+          "유리에 막을 입힌",
+          "유리를 여러 장 겹친",
+          "깨지지 않는 재료를 사용한"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 유리에 막을 입힌"
+      },
+      {
+        "id": "reading-060-q031",
+        "questionNumber": 31,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "보통 수학에서는 개념이 먼저 정립되고 기호가 등장한다. 그러나 수가 끝없이 커지는 상태를 가리키는 무한대의 경우에는 정반대이다. 무한대는 ( ........................ ) 후에도 한동안 개념이 정립되지 못했다. 왜냐하면 당시의 학자들은 무한대를 인간의 능력으로는 파악할 수 없다고 여겼기 때문이다. 그래서 수학계에서 무한대를 정의하는 것은 오랫동안 시도되지 않았다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "기호가 만들어진",
+          "의미가 여러 번 바뀐",
+          "학계에서 활발히 연구된",
+          "반대되는 이론이 등장한"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 기호가 만들어진"
+      },
+      {
+        "id": "reading-060-q032",
+        "questionNumber": 32,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+        "passage": "하루살이는 하루밖에 못 살 정도로 수명이 짧다고 해서 붙은 이름이다. 그러나 하루살이 애벌레는 성충이 되기 위해 약 1년을 물속에 살고 성충이 되어서는 1~2주 정도 산다. 하루살이 애벌레는 물속에 가라앉은 나뭇잎 등을 먹고 살지만 성충이 되면 입이 퇴화한다. 이런 까닭에 성충은 애벌레 때 몸속에 저장해 둔 영양분을 소모할 뿐 따로 먹이를 섭취하지 못한다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "하루살이의 수명은 하루를 넘지 않는다.",
+          "하루살이는 성충이 되는 데에 1~2주 정도 걸린다.",
+          "하루살이 성충은 애벌레 때 저장한 영양분으로 산다.",
+          "하루살이의 입은 성충이 되면서 기능이 더욱 발달한다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 하루살이 성충은 애벌레 때 저장한 영양분으로 산다."
+      },
+      {
+        "id": "reading-060-q033",
+        "questionNumber": 33,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+        "passage": "눈물은 약 98%가 물로 이루어져 있다. 나머지 성분은 눈물을 흘리는 상황에 따라 달라진다. 먼지 같은 외부의 물리적 자극 때문에 흘리는 눈물에는 세균에 저항할 수 있는 단백질이 포함되어 있다. 슬플 때 흘리는 눈물에는 항균 물질뿐만 아니라 스트레스로 인해 체내에 쌓인 물질도 들어 있다. 그래서 슬플 때 울고 나면 신체에 해로운 물질이 몸 밖으로 나가 기분이 나아진 것 같은 느낌을 받는다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "눈물 속에 있는 단백질은 기분을 좋게 만든다.",
+          "슬퍼서 흘리는 눈물에는 항균 물질이 빠져 있다.",
+          "슬플 때 흘리는 눈물 속에는 몸에 나쁜 물질이 포함되어 있다.",
+          "물리적 자극으로 흘리는 눈물이 슬플 때의 눈물보다 성분이 더 다양하다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 슬플 때 흘리는 눈물 속에는 몸에 나쁜 물질이 포함되어 있다."
+      },
+      {
+        "id": "reading-060-q034",
+        "questionNumber": 34,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+        "passage": "19세기 중반까지는 태양의 위치를 기준으로 시간을 정해서 지역마다 시간이 달랐다. 이는 철도 이용이 활발해지면서 문제가 되었다. 철도 회사는 본사가 있는 지역의 시간을 기준으로 열차를 운행했다. 그래서 승객은 다른 지역에서 온 열차를 탈 때마다 자기 지역의 시간과 열차 시간이 달라 불편을 겪었다. 이를 해결하고자 캐나다의 한 철도 기사가 지구의 경도를 기준으로 하는 표준시를 제안하였고 이것이 현재의 표준시가 되었다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "표준시 도입의 필요성은 철도 분야에서 제기되었다.",
+          "예전에는 철도 회사가 지역의 기준 시간을 결정했다.",
+          "캐나다에서는 19세기 이전부터 표준시를 사용해 왔다.",
+          "철도 승객들은 표준시의 적용으로 불편을 겪게 되었다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 표준시 도입의 필요성은 철도 분야에서 제기되었다."
+      },
+      {
+        "id": "reading-060-q035",
+        "questionNumber": 35,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "초소형 카메라는 의료용 및 산업용으로 만들어져 각 현장에서 유용하게 사용되고 있다. 그러나 원래의 목적에 맞지 않게 타인의 신체를 몰래 촬영 하는 용도로 악용되는 사례가 늘고 있다. 이러한 악용을 원천적으로 방지 하기 위해서는 신상 정보를 등록해야만 카메라의 판매 및 유통이 가능 하도록 법적 규제를 강화할 필요가 있다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "의료용 및 산업용 초소형 카메라의 사용처를 확대해야 한다.",
+          "초소형 카메라가 더 유용하게 사용될 수 있도록 개발해야 한다.",
+          "초소형 카메라가 악용되는 것을 막기 위한 대책이 마련되어야 한다.",
+          "원활한 판매 및 유통을 위해 초소형 카메라의 등록 과정을 간소화해야 한다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 초소형 카메라가 악용되는 것을 막기 위한 대책이 마련되어야 한다."
+      },
+      {
+        "id": "reading-060-q036",
+        "questionNumber": 36,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "정보의 양이 폭발적으로 증가하면서 핵심만 집어낸 요약형 정보를 찾는 사람들이 늘고 있다. 필요한 지식을 쉽고 빠르게 얻을 수 있기 때문이다. 그러나 짧게 정돈된 지식만을 취하다 보면 사물을 오랫동안 관찰하고 분석하는 능력이 떨어지거나 정보를 비판적으로 처리할 수 있는 능력이 무뎌질 수 있다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "요약형 정보는 가장 효율적인 정보 습득 방식이다.",
+          "요약형 정보는 사람들의 사고력 저하를 초래할 수 있다.",
+          "사람들이 습득해야 할 지식의 양이 크게 증가하고 있다.",
+          "짧게 정돈된 지식 덕분에 정보 처리 시간을 줄일 수 있다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 요약형 정보는 사람들의 사고력 저하를 초래할 수 있다."
+      },
+      {
+        "id": "reading-060-q037",
+        "questionNumber": 37,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "유명 드라마가 소설책으로 출간되는 일이 많아졌다. 소설이 인기를 끌면 그 후에 영상물로 제작되던 것과는 반대되는 현상이 생긴 것이다. 이러한 현상의 영향 탓인지 처음부터 영상물을 염두에 두고 글을 쓰는 소설가들이 늘고 있다. 그러나 이와 같이 영상물 중심으로 창작과 출판이 이루어진다면 순수 문학이 가진 고유한 특성들이 하나둘씩 사라질지도 모른다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "작가들의 창작열을 높이기 위한 보상 체계 마련이 시급하다.",
+          "출판물의 판매를 늘리기 위해 영상물을 활용한 홍보가 필요하다.",
+          "영상물이 책으로 많이 출간되어야 출판 시장이 활성화될 수 있다.",
+          "영상물이 갖는 영향력이 커지면 순수 문학이 위기를 맞을 수 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 영상물이 갖는 영향력이 커지면 순수 문학이 위기를 맞을 수 있다."
+      },
+      {
+        "id": "reading-060-q038",
+        "questionNumber": 38,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "분자 요리는 과학을 응용해 기존 식재료가 갖는 물리적인 제약에서 벗어나 새로운 형태와 식감의 음식을 만드는 요리법이다. 노란 망고 주스와 하얀 우유로 계란 모양의 요리를 만드는 것이 한 예다. 분자 요리는 식재료 고유의 맛과 향은 유지한 채 기존에는 볼 수 없었던 요리를 선보일 수 있다는 점에서 새로운 요리 문화를 이끌 것으로 기대하고 있다. 독특한 음식에 대한 설렘과 즐거움을 제공한다는 점도 이러한 기대감을 키운다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "분자 요리가 과학의 연구 영역을 더 넓히고 있다.",
+          "독특한 음식에 대한 소비자들의 요구가 늘고 있다.",
+          "식재료가 갖는 제약 탓에 요리법 개발이 정체되고 있다.",
+          "새로운 요리 문화를 이끌 요리법으로 분자 요리가 주목받고 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 새로운 요리 문화를 이끌 요리법으로 분자 요리가 주목받고 있다."
+      },
+      {
+        "id": "reading-060-q039",
+        "questionNumber": 39,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오. (각 2점)",
+        "passage": "도시의 거리는 온통 상점으로 가득 차 있다. ( ㉠ ) 하지만 상점은 거리에 활력을 불어넣어 걷고 싶은 거리를 만드는 데 중요한 역할을 한다. ( ㉡ ) 상점은 단순히 물건을 파는 공간이 아니라 보행자들에게 볼거리와 잔재미를 끊임없이 제공하는 거대한 미술관이 되어 준다. ( ㉢ ) 또 밤거리를 밝히는 가로등이며 보안등이자 거리의 청결함과 쾌적함을 지켜 주는 파수꾼이 되기도 한다. ( ㉣ ) 넣을 문장: 상업적 공간으로 채워진 거리를 보며 눈살을 찌푸리는 이들도 많다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 위치"
+      },
+      {
+        "id": "reading-060-q040",
+        "questionNumber": 40,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오. (각 2점)",
+        "passage": "『박철수의 거주 박물지』는 건축학자가 서울을 중심으로 한 거주 문화사를 소개한 책이다. ( ㉠ ) 아파트가 어떻게 중산층의 표준 욕망이 됐는가, 장독이 왜 아파트에서 사라졌는가와 같은 물음들을 도면과 신문 기사를 곁들여 풀어내는 식이다. ( ㉡ ) 그 과정에서 이웃과 정을 나누는 일 없이 각박하게 살아온 지난 수십 년의 세태를 지적하는 것도 놓치지 않고 있다. ( ㉢ ) 이웃과 정답게 살아가는 모습을 그려내고자 하는 미래의 건축학도에게 추천하고 싶다. ( ㉣ ) 넣을 문장: 무엇보다 독자들이 더 흥미롭게 읽을 수 있도록 문답의 형식으로 구성된 것이 돋보인다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 위치"
+      },
+      {
+        "id": "reading-060-q041",
+        "questionNumber": 41,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오. (각 2점)",
+        "passage": "최초의 동전은 값비싼 금과 은으로 제작되었다. ( ㉠ ) 이 동전의 가치가 매우 높았던 까닭에 주화를 조금씩 깎아 내서 이득을 보려는 사람들이 많았다. ( ㉡ ) 자연히 시장에서는 성한 금화나 은화를 찾아볼 수 없었고 주화를 발행하는 국가도 손실이 컸다. ( ㉢ ) 그래서 그 대안으로 주화들의 테두리에 톱니 모양을 새겨 훼손 여부가 잘 드러나도록 하였다. ( ㉣ ) 톱니 모양이 훼손된 주화는 육안으로 쉽게 구별할 수 있었고 그러한 돈은 사람들이 받지 않았기 때문이다. 넣을 문장: 그 효과는 기대 이상으로 빠르게 나타났다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 위치"
+      },
+      {
+        "id": "reading-060-q042",
+        "questionNumber": 42,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "어머니와 아버지가 프랜차이즈 빵집을 연다고 했을 때, 주영은 언젠가는 두 사람이 자기를 가게로 부를 것임을 알았다. 그러나 여름에 있을 지방직 9급 시험일까지는 기다려 줄 줄 알았다. (중략) 실제로 벌어진 일은 그런 예상과는 전혀 달랐다. 부모님이 주영에게 빵집으로 나와 일하라는 말을 한 것은 가게 문을 정식으로 연 당일 오후 였다. 어머니는 주영에게 전화를 걸어 이렇게 말했다. 네가 우리 가족 맞냐? 그러고는 바로 전화를 끊어 버렸다. (중략) 매장은 사람들로 북적였다. 개장 기념으로 식빵을 반값에 팔고, 어떤 제품을 사든지 아메리카노를 한 잔 무료로 제공하는 행사를 벌이는 중이 었다. 프랜차이즈 본사에서 나온 지원 인력들이 손님을 맞고 질문에 답변 하고 카드를 받고 계산을 했다. 아버지와 어머니는 하인들처럼 겁먹은 눈으로 예, 예, 굽실거리며 지원 인력들의 지시에 따랐다. 주영의 아버지와 어머니는 카드 결제조차 제대로 하지 못했다. 빵에는 바코드가 없었다. 제품이 어느 카테고리에 속하는지, 이름이 뭔지를 전부 외워야 단말기에 가격을 입력할 수 있었다. 아버지는 단말기 옆에서 빵을 봉투에 담으며 로프, 캉파뉴, 치아바타, 푸가스 같은 낯선 이름들을 외우려 애썼다.",
+        "question": "밑줄 친 부분에 나타난 '어머니'의 심정으로 알맞은 것을 고르십시오.",
+        "options": [
+          "억울하다",
+          "서운하다",
+          "걱정스럽다",
+          "혼란스럽다"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 서운하다"
+      },
+      {
+        "id": "reading-060-q043",
+        "questionNumber": 43,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "어머니와 아버지가 프랜차이즈 빵집을 연다고 했을 때, 주영은 언젠가는 두 사람이 자기를 가게로 부를 것임을 알았다. 그러나 여름에 있을 지방직 9급 시험일까지는 기다려 줄 줄 알았다. (중략) 실제로 벌어진 일은 그런 예상과는 전혀 달랐다. 부모님이 주영에게 빵집으로 나와 일하라는 말을 한 것은 가게 문을 정식으로 연 당일 오후 였다. 어머니는 주영에게 전화를 걸어 이렇게 말했다. 네가 우리 가족 맞냐? 그러고는 바로 전화를 끊어 버렸다. (중략) 매장은 사람들로 북적였다. 개장 기념으로 식빵을 반값에 팔고, 어떤 제품을 사든지 아메리카노를 한 잔 무료로 제공하는 행사를 벌이는 중이 었다. 프랜차이즈 본사에서 나온 지원 인력들이 손님을 맞고 질문에 답변 하고 카드를 받고 계산을 했다. 아버지와 어머니는 하인들처럼 겁먹은 눈으로 예, 예, 굽실거리며 지원 인력들의 지시에 따랐다. 주영의 아버지와 어머니는 카드 결제조차 제대로 하지 못했다. 빵에는 바코드가 없었다. 제품이 어느 카테고리에 속하는지, 이름이 뭔지를 전부 외워야 단말기에 가격을 입력할 수 있었다. 아버지는 단말기 옆에서 빵을 봉투에 담으며 로프, 캉파뉴, 치아바타, 푸가스 같은 낯선 이름들을 외우려 애썼다.",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "빵 가게는 개업식 날 손님이 많지 않았다.",
+          "주영은 시험을 마치자마자 부모님께 연락을 받았다.",
+          "아버지는 여러 종류의 빵 이름을 모두 알고 있었다.",
+          "부모님은 긴장한 채로 본사 직원이 시키는 일을 했다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 부모님은 긴장한 채로 본사 직원이 시키는 일을 했다."
+      },
+      {
+        "id": "reading-060-q044",
+        "questionNumber": 44,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "원고 마감이 임박하거나 시험공부 시간이 부족하면 사람은 본능적으로 놀라운 집중력을 발휘한다. 그래서 시간 부족 상태가 되어야만 일을 효율적 으로 할 수 있다고 믿는 사람들이 많다. 그러나 효율성만 믿고( ........................ ) 것은 어리석은 일이다. 시간에 쫓기면 사람들은 한 가지에만 집중할 뿐 그 외에 다른 것에는 주의를 기울이지 못하게 되기 때문이다. 이런 상황은 실제로 상당히 위험할 수 있다. 단적인 예로 소방관들은 구조 현장으로 이동하는 과정에서 안전벨트를 매지 않아 사고를 당하는 경우가 매우 많다. 일 초가 급한 상황에서 인명 구조에만 집중한 나머지 차 문을 닫거나 안전 벨트를 채우는 기본적인 일을 잊어서 생긴 결과이다. 이처럼 시간적 여유가 부족해지면 집중했던 일은 성공적으로 처리할 수 있겠지만 나머지 많은 것들은 놓칠 수 있다.",
+        "question": "위 글의 주제로 알맞은 것을 고르십시오.",
+        "options": [
+          "인간의 집중력은 시간적인 제약이 많을수록 높아진다.",
+          "인간에게 시간 부족은 효율적인 일 처리의 원동력이 된다.",
+          "단시간 내에 일을 처리해도 성공적으로 일을 마칠 수 있다.",
+          "시간 부족은 인간의 시야를 좁혀 부정적인 영향을 미칠 수 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 시간 부족은 인간의 시야를 좁혀 부정적인 영향을 미칠 수 있다."
+      },
+      {
+        "id": "reading-060-q045",
+        "questionNumber": 45,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "원고 마감이 임박하거나 시험공부 시간이 부족하면 사람은 본능적으로 놀라운 집중력을 발휘한다. 그래서 시간 부족 상태가 되어야만 일을 효율적 으로 할 수 있다고 믿는 사람들이 많다. 그러나 효율성만 믿고( ........................ ) 것은 어리석은 일이다. 시간에 쫓기면 사람들은 한 가지에만 집중할 뿐 그 외에 다른 것에는 주의를 기울이지 못하게 되기 때문이다. 이런 상황은 실제로 상당히 위험할 수 있다. 단적인 예로 소방관들은 구조 현장으로 이동하는 과정에서 안전벨트를 매지 않아 사고를 당하는 경우가 매우 많다. 일 초가 급한 상황에서 인명 구조에만 집중한 나머지 차 문을 닫거나 안전 벨트를 채우는 기본적인 일을 잊어서 생긴 결과이다. 이처럼 시간적 여유가 부족해지면 집중했던 일은 성공적으로 처리할 수 있겠지만 나머지 많은 것들은 놓칠 수 있다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "성급히 일을 처리하는",
+          "무턱대고 일을 미루는",
+          "관심사를 무한히 늘리는",
+          "전적으로 하나에만 매달리는"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 무턱대고 일을 미루는"
+      },
+      {
+        "id": "reading-060-q046",
+        "questionNumber": 46,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "우주는 지구와 환경이 상이해 지구에서 쓰는 방법으로는 쓰레기를 수거 하기가 어렵다. 처음에는 작살과 같이 물리적인 힘을 이용해서 쓰레기를 찍을 수 있는 도구가 거론되었다. ( ㉠ ) 이 때문에 테이프나 빨판같이 접착력이 있는 도구를 사용하자는 제안도 나왔다. ( ㉡ ) 점성이 강한 테이프의 경우는 우주에서의 극심한 온도 변화를 견디지 못했으며 빨판은 진공 상태에서는 소용이 없었다. ( ㉢ ) 그런데 최근 한 연구진이 도마뱀이 벽에 쉽게 달라붙어 떨어지지 않는 것에서 영감을 받아 접착력이 있는 도구를 개발하는 데 성공했다. ( ㉣ ) 도마뱀의 발바닥에 있는 수백만 개의 미세한 털들이 표면에 접촉할 때 생기는 힘을 응용한 것이다. [Sentence to Insert: 그러나 이 방법은 자칫하면 우주 쓰레기를 엉뚱한 곳으로 밀어낼 위험이 있었다.] 넣을 문장: 그러나 이 방법은 자칫하면 우주 쓰레기를 엉뚱한 곳으로 밀어낼 위험이 있었다.",
+        "question": "위 글에서 의 글이 들어가기에 가장 알맞은 곳을 고르십시오。",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 위치"
+      },
+      {
+        "id": "reading-060-q047",
+        "questionNumber": 47,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "우주는 지구와 환경이 상이해 지구에서 쓰는 방법으로는 쓰레기를 수거 하기가 어렵다. 처음에는 작살과 같이 물리적인 힘을 이용해서 쓰레기를 찍을 수 있는 도구가 거론되었다. ( ㉠ ) 이 때문에 테이프나 빨판같이 접착력이 있는 도구를 사용하자는 제안도 나왔다. ( ㉡ ) 점성이 강한 테이프의 경우는 우주에서의 극심한 온도 변화를 견디지 못했으며 빨판은 진공 상태에서는 소용이 없었다. ( ㉢ ) 그런데 최근 한 연구진이 도마뱀이 벽에 쉽게 달라붙어 떨어지지 않는 것에서 영감을 받아 접착력이 있는 도구를 개발하는 데 성공했다. ( ㉣ ) 도마뱀의 발바닥에 있는 수백만 개의 미세한 털들이 표면에 접촉할 때 생기는 힘을 응용한 것이다. [Sentence to Insert: 그러나 이 방법은 자칫하면 우주 쓰레기를 엉뚱한 곳으로 밀어낼 위험이 있었다.] 넣을 문장: 그러나 이 방법은 자칫하면 우주 쓰레기를 엉뚱한 곳으로 밀어낼 위험이 있었다.",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "테이프는 우주의 온도 변화 때문에 점성을 잃었다.",
+          "작살은 접착력을 이용한 도구의 좋은 대안이 되었다.",
+          "우주에서 쓰레기를 처리하는 방법은 지구와 유사하다.",
+          "접착력을 이용한 쓰레기 수거 방법은 결국 성공하지 못했다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 테이프는 우주의 온도 변화 때문에 점성을 잃었다."
+      },
+      {
+        "id": "reading-060-q048",
+        "questionNumber": 48,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "4차 산업은 그 분야가 다양하지만 연구 개발이 핵심 원동력이라는 점에서 공통점을 갖고 있다. 이러한 점을 고려하여 정부는 신성장 산업에 대한 세제 지원을 확대하기로 했다. 미래형 자동차, 바이오 산업 등 신성장 기술에 해당하는 연구를 할 경우 세금을 대폭 낮춰 준다는 점에서 고무적인 일이다. 하지만 현재의 지원 조건이라면 몇몇 대기업에만 유리한 지원이 될 수 있다. 해당 기술을 전담으로 담당하는 연구 부서를 두어야 하고 원천 기술이 국내에 있는 경우에만 지원이 가능하기 때문이다. 혜택이 큰 만큼 ( ........................ ) 정부의 입장을 이해하지 못하는 것은 아니다. 그러나 이번 정책의 목적이 단지 연구 개발 지원에 있는 것이 아니라 연구 개발을 유도하고 독려하고자 하는 것이라면 해당 조건을 완화하거나 단계적으로 적용할 필요가 있다.",
+        "question": "위 글을 쓴 목적으로 알맞은 것을 고르십시오.",
+        "options": [
+          "투자 정책이 야기할 혼란을 경고하려고",
+          "세제 지원 조건의 문제점을 지적하려고",
+          "연구 개발에 적절한 분야를 소개하려고",
+          "연구 개발의 중요성을 강조하려고"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 세제 지원 조건의 문제점을 지적하려고"
+      },
+      {
+        "id": "reading-060-q049",
+        "questionNumber": 49,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "4차 산업은 그 분야가 다양하지만 연구 개발이 핵심 원동력이라는 점에서 공통점을 갖고 있다. 이러한 점을 고려하여 정부는 신성장 산업에 대한 세제 지원을 확대하기로 했다. 미래형 자동차, 바이오 산업 등 신성장 기술에 해당하는 연구를 할 경우 세금을 대폭 낮춰 준다는 점에서 고무적인 일이다. 하지만 현재의 지원 조건이라면 몇몇 대기업에만 유리한 지원이 될 수 있다. 해당 기술을 전담으로 담당하는 연구 부서를 두어야 하고 원천 기술이 국내에 있는 경우에만 지원이 가능하기 때문이다. 혜택이 큰 만큼 ( ........................ ) 정부의 입장을 이해하지 못하는 것은 아니다. 그러나 이번 정책의 목적이 단지 연구 개발 지원에 있는 것이 아니라 연구 개발을 유도하고 독려하고자 하는 것이라면 해당 조건을 완화하거나 단계적으로 적용할 필요가 있다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "일정한 제약을 두려는",
+          "연구 기관을 늘리려는",
+          "투자 대상을 확대하려는",
+          "지원을 단계적으로 하려는"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 일정한 제약을 두려는"
+      },
+      {
+        "id": "reading-060-q050",
+        "questionNumber": 50,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "4차 산업은 그 분야가 다양하지만 연구 개발이 핵심 원동력이라는 점에서 공통점을 갖고 있다. 이러한 점을 고려하여 정부는 신성장 산업에 대한 세제 지원을 확대하기로 했다. 미래형 자동차, 바이오 산업 등 신성장 기술에 해당하는 연구를 할 경우 세금을 대폭 낮춰 준다는 점에서 고무적인 일이다. 하지만 현재의 지원 조건이라면 몇몇 대기업에만 유리한 지원이 될 수 있다. 해당 기술을 전담으로 담당하는 연구 부서를 두어야 하고 원천 기술이 국내에 있는 경우에만 지원이 가능하기 때문이다. 혜택이 큰 만큼 ( ........................ ) 정부의 입장을 이해하지 못하는 것은 아니다. 그러나 이번 정책의 목적이 단지 연구 개발 지원에 있는 것이 아니라 연구 개발을 유도하고 독려하고자 하는 것이라면 해당 조건을 완화하거나 단계적으로 적용할 필요가 있다.",
+        "question": "밑줄 친 부분에 나타난 필자의 태도로 알맞은 것을 고르십시오.",
+        "options": [
+          "자치경찰과 지역 주민의 관계 변화에 대해 예상하고 있다.",
+          "자치경찰제가 주민에게 미칠 긍정적 영향을 기대하고 있다.",
+          "자치경찰제가 제공해야 할 서비스의 조건을 강조하고 있다.",
+          "지역 친화적 서비스가 특정 지역에 쏠릴 것을 우려하고 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 지역 친화적 서비스가 특정 지역에 쏠릴 것을 우려하고 있다."
+      }
+    ]
+  },
+  {
+    "id": "reading-052",
+    "title": "52nd TOPIK II Reading Test",
+    "level": "TOPIK II",
+    "topic": "Official Reading Paper",
+    "source": "https://www.topikguide.com/mock-tests/52-TOPIK-II-Reading-Mock-Test.html",
+    "durationMinutes": 70,
+    "passage": "",
+    "questions": [
+      {
+        "id": "reading-052-q001",
+        "questionNumber": 1,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "해가 뜨는 것을( ........................ ) 아침 일찍 일어났다.",
+        "question": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "보아야",
+          "보려고",
+          "보거나",
+          "보는데"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 보려고"
+      },
+      {
+        "id": "reading-052-q002",
+        "questionNumber": 2,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "무슨 일을( ........................ ) 열심히 하는 것이 중요하다.",
+        "question": "( ........................ )에 들어갈 가장 알맞은 것을 고르십시오. (각 2점)",
+        "options": [
+          "하든지",
+          "하도록",
+          "하다가",
+          "하더니"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 하든지"
+      },
+      {
+        "id": "reading-052-q003",
+        "questionNumber": 3,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "계속 웃고 다니는 걸 보니 좋은 일이 있나 보다 .",
+        "question": "다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+        "options": [
+          "있는 척한다",
+          "있을 뿐이다",
+          "있을 지경이다",
+          "있는 모양이다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 있는 모양이다"
+      },
+      {
+        "id": "reading-052-q004",
+        "questionNumber": 4,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [3~4] 다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오. (각 2점)",
+        "passage": "다음 주가 개강이니 방학도 다 끝난 거나 마찬가지이다.",
+        "question": "다음 밑줄 친 부분과 의미가 비슷한 것을 고르십시오.",
+        "options": [
+          "끝난 셈이다",
+          "끝난 탓이다",
+          "끝나기 마련이다",
+          "끝나기 나름이다"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 끝난 셈이다"
+      },
+      {
+        "id": "reading-052-q005",
+        "questionNumber": 5,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "수건",
+          "침대",
+          "시계",
+          "신발"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 침대",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T252R5.png"
+      },
+      {
+        "id": "reading-052-q006",
+        "questionNumber": 6,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "은행",
+          "식당",
+          "세탁소",
+          "편의점"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 식당",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T252R6.png"
+      },
+      {
+        "id": "reading-052-q007",
+        "questionNumber": 7,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "자연 보호",
+          "시간 절약",
+          "자리 양보",
+          "안전 관리"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 자연 보호",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T252R7.png"
+      },
+      {
+        "id": "reading-052-q008",
+        "questionNumber": 8,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [5~8] 다음은 무엇에 대한 글인지 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음은 무엇에 대한 글인지 고르십시오.",
+        "options": [
+          "사용 설명",
+          "배달 안내",
+          "이용 순서",
+          "교환 방법"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 배달 안내",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T252R8.png"
+      },
+      {
+        "id": "reading-052-q009",
+        "questionNumber": 9,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "신청할 수 없는 책 종류가 있다.",
+          "책이 도착하면 전화로 연락해 준다.",
+          "사월 한 달 동안 도서 신청을 받는다.",
+          "필요한 책은 이메일로 신청을 해야 한다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 신청할 수 없는 책 종류가 있다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T252R9.png"
+      },
+      {
+        "id": "reading-052-q010",
+        "questionNumber": 10,
+        "points": 2,
+        "questionType": "image",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "",
+        "question": "다음 글 또는 그래프의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "직업의 안정성을 중요하게 생각하는 사람이 가장 적다.",
+          "월급과 적성을 중요하게 생각하는 사람의 비율이 같다.",
+          "개인의 발전보다 월급을 중요하게 생각하는 사람이 더 많다.",
+          "근무 조건을 중요하게 생각하는 사람이 전체의 반을 넘는다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 개인의 발전보다 월급을 중요하게 생각하는 사람이 더 많다.",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T252R10.png"
+      },
+      {
+        "id": "reading-052-q011",
+        "questionNumber": 11,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "지난 13일 인주경찰서에 편지 한 통이 배달되었다. 편지를 보낸 사람은 지난달 인주시를 방문했다가 지갑을 잃어버린 외국인 관광객 장 모 씨였다. 장 씨는 말이 통하지 않아 지갑을 찾는 데 어려움을 겪었다. 그때 한 경찰이 사전과 몸짓을 이용해 장 씨와 이야기하며 잃어버린 지갑을 찾는 데 도움을 주었다. 이에 장 씨가 고마움을 담은 감사 편지를 보낸 것이다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "관광객이 경찰에게 감사하는 마음을 표현했다.",
+          "관광객이 잃어버린 지갑을 찾지 못하고 돌아갔다.",
+          "경찰이 지갑을 잃어버린 관광객에게 편지를 썼다.",
+          "경찰이 관광객의 말을 이해하지 못해 도와줄 수 없었다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 관광객이 경찰에게 감사하는 마음을 표현했다."
+      },
+      {
+        "id": "reading-052-q012",
+        "questionNumber": 12,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [9~12] 다음 글 또는 그래프의 내용과 같은 것을 고르십시오. (각 2점)",
+        "passage": "최근 공연을 혼자 보는 사람들이 많아졌다. 친구나 연인이 함께 보는 장르로 생각했던 뮤지컬, 연극 등도 혼자 보는 사람들이 늘어난 것이다. 한 조사 결과에 따르면 열 명 중 네 명이 혼자 공연을 관람하는 것으로 나타났다. 혼자 공연을 보는 사람들은 함께 간 사람에게 신경을 쓰지 않고 공연에만 집중할 수 있어서 좋다고 말한다.",
+        "question": "다음 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "사람들은 연극과 뮤지컬을 혼자 보는 장르로 생각한다.",
+          "혼자 공연을 보면 공연에 집중할 수 있다는 장점이 있다.",
+          "사람들은 공연을 볼 때 다른 사람에게 신경을 쓰지 않는다.",
+          "조사 결과에 따르면 공연을 혼자 보는 사람들이 줄고 있다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 혼자 공연을 보면 공연에 집중할 수 있다는 장점이 있다."
+      },
+      {
+        "id": "reading-052-q013",
+        "questionNumber": 13,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 개와 고양이는 사이가 나쁜 것으로 유명하다. (나) 개가 앞발을 드는 행동은 함께 놀고 싶다는 의미이다. (다) 그런데 고양이는 이런 행동을 공격하는 것으로 오해하는 것이다. (라) 둘 사이가 안 좋은 이유는 표현을 서로 다르게 받아들이기 때문이다.",
+        "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(가)-(라)-(나)-(다)",
+          "(가)-(나)-(라)-(다)",
+          "(나)-(다)-(가)-(라)",
+          "(나)-(가)-(다)-(라)"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. (가)-(라)-(나)-(다)"
+      },
+      {
+        "id": "reading-052-q014",
+        "questionNumber": 14,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 시대가 변하면서 회식 문화가 바뀌고 있는 것이다. (나) 직장에서는 좋은 업무 분위기를 위해서 회식을 한다. (다) 예전에는 직장에서 회식을 할 때 주로 술을 많이 마셨다. (라) 그러나 요즘에는 회식 대신에 공연을 관람하거나 맛집을 탐방하는 경우가 늘고 있다.",
+        "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(나)-(다)-(가)-(라)",
+          "(나)-(다)-(라)-(가)",
+          "(다)-(가)-(나)-(라)",
+          "(다)-(나)-(라)-(가)"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. (나)-(다)-(라)-(가)"
+      },
+      {
+        "id": "reading-052-q015",
+        "questionNumber": 15,
+        "points": 2,
+        "questionType": "order",
+        "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
+        "passage": "(가) 아들은 보물을 찾기 위해 밭을 파 봤지만 아무것도 나오지 않았다. (나) 아들은 실망했지만 힘들게 밭을 판 것이 아까워서 밭에 씨를 뿌렸다. (다) 한 농부가 게으른 아들에게 밭에 보물을 숨겼다는 말을 남기고 죽었다. (라) 시간이 흘러 많은 열매가 맺혔고 아들은 그때서야 아버지의 뜻을 알게 되었다.",
+        "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
+        "options": [
+          "(가)-(라)-(나)-(다)",
+          "(가)-(나)-(라)-(다)",
+          "(다)-(가)-(나)-(라)",
+          "(다)-(나)-(가)-(라)"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. (다)-(가)-(나)-(라)"
+      },
+      {
+        "id": "reading-052-q016",
+        "questionNumber": 16,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "사람들은 일반적으로 쓴맛을 꺼린다. 이것은 ( ........................ ) 본능과 관계가 있다. 식물 중에는 독성이 있어 몸에 해로운 것들이 있다. 그런데 이런 독이 있는 식물은 보통 쓴맛이 난다. 따라서 사람들은 무의식적으로 쓴맛이 나는 것을 위험하다고 여기고 이를 거부하게 되는 것이다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "지나친 과식을 피하려는",
+          "자신의 몸을 보호하려는",
+          "맛없는 음식을 멀리하려는",
+          "입맛이 변하는 것을 막으려는"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 자신의 몸을 보호하려는"
+      },
+      {
+        "id": "reading-052-q017",
+        "questionNumber": 17,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "대화를 원활하게 하기 위해서는 상대방에게 내가 그의 말을 잘 듣고 있다는 느낌을 주어야 한다. 이때 ( ........................ ) 행동을 하면 좋다. 대부분의 나라에서 이런 행동은 긍정을 나타낸다. 따라서 머리를 위아래로 움직이는 행동을 하면 상대방을 존중하고 이야기에 공감하고 있다는 인상을 줄 수 있다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "손뼉을 치는",
+          "고개를 끄덕이는",
+          "질문하면서 듣는",
+          "들으면서 기록하는"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 고개를 끄덕이는"
+      },
+      {
+        "id": "reading-052-q018",
+        "questionNumber": 18,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [16~18] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "사용 여부에 관계없이 물건을 못 버리고 저장해 두는 사람들이 있다. 습관 이나 취미로 수집하는 정도를 넘어 생활에 방해가 될 정도로 심할 경우 이는 치료가 필요한 행동 장애로 본다. 연구에 따르면 주변 사람들에게 사랑을 충분히 받지 못한 사람이 물건에 지나치게 집착한다고 한다. 따라서 인간 관계에서 안정을 찾으면( ........................ ) 행동은 사라질 수 있다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "사람들을 피하려고 하는",
+          "불필요한 물건들을 사는",
+          "물건들을 집에 쌓아 두는",
+          "쓰레기를 함부로 버리는"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 물건들을 집에 쌓아 두는"
+      },
+      {
+        "id": "reading-052-q019",
+        "questionNumber": 19,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "인터넷으로 회원 가입을 할 때 설정하는 비밀번호는 초기에는 숫자 네 개면 충분했다. 하지만 최근에는 보안 강화를 위해 특수 문자까지 넣어 만들 어야 한다. ( ........................ ) 비밀번호 변경도 주기적으로 해야 한다. 이 때문에 가입자는 번거로운 것은 물론이고 자주 바뀌는 비밀번호를 기억하지 못해 스트레스를 받는다. 개인 정보 보호를 가입자에게만 요구하지 말고 기업도 보안 기술 개발에 적극 투자해야 한다.",
+        "question": "( ........................ )에 들어갈 알맞은 것을 고르십시오.",
+        "options": [
+          "그러면",
+          "게다가",
+          "반면에",
+          "이처럼"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 게다가"
+      },
+      {
+        "id": "reading-052-q020",
+        "questionNumber": 20,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "인터넷으로 회원 가입을 할 때 설정하는 비밀번호는 초기에는 숫자 네 개면 충분했다. 하지만 최근에는 보안 강화를 위해 특수 문자까지 넣어 만들 어야 한다. ( ........................ ) 비밀번호 변경도 주기적으로 해야 한다. 이 때문에 가입자는 번거로운 것은 물론이고 자주 바뀌는 비밀번호를 기억하지 못해 스트레스를 받는다. 개인 정보 보호를 가입자에게만 요구하지 말고 기업도 보안 기술 개발에 적극 투자해야 한다.",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "가입자는 비밀번호 변경으로 스트레스를 받는다.",
+          "초기의 비밀번호는 숫자 네 개로는 만들 수 없었다.",
+          "가입자는 기업에 비밀번호 설정을 까다롭게 요구한다.",
+          "비밀번호 설정 시에 숫자와 문자 중 하나를 선택해야 한다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 가입자는 비밀번호 변경으로 스트레스를 받는다."
+      },
+      {
+        "id": "reading-052-q021",
+        "questionNumber": 21,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "어떤 사람들은 연예인을 열광적으로 좋아하는 청소년들을 부정적으로 본다. 학교생활에는 소홀하면서( ........................ ) 무조건 연예인만 쫓아 다닌다고 생각하기 때문이다. 하지만 청소년들이 연예인을 좋아하는 것을 그렇게 부정적으로만 볼 일은 아니다. 취향이 비슷한 친구들을 사귈 수도 있고 또 공부나 입시로 인한 부담감에서 벗어날 수도 있기 때문이다. 그들을 너무 부정적으로만 보지 말고 이해하려는 노력이 필요하다.",
+        "question": "( ........................ )에 들어갈 알맞은 것을 고르십시오.",
+        "options": [
+          "앞뒤를 재고",
+          "발을 빼지 않고",
+          "발걸음을 맞추고",
+          "앞뒤를 가리지 않고"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 앞뒤를 가리지 않고"
+      },
+      {
+        "id": "reading-052-q022",
+        "questionNumber": 22,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "어떤 사람들은 연예인을 열광적으로 좋아하는 청소년들을 부정적으로 본다. 학교생활에는 소홀하면서( ........................ ) 무조건 연예인만 쫓아 다닌다고 생각하기 때문이다. 하지만 청소년들이 연예인을 좋아하는 것을 그렇게 부정적으로만 볼 일은 아니다. 취향이 비슷한 친구들을 사귈 수도 있고 또 공부나 입시로 인한 부담감에서 벗어날 수도 있기 때문이다. 그들을 너무 부정적으로만 보지 말고 이해하려는 노력이 필요하다.",
+        "question": "위 글의 중심 생각을 고르십시오.",
+        "options": [
+          "청소년 시기에 인간관계를 넓히는 것이 좋다.",
+          "연예인을 좋아해도 성적에 영향을 주면 안 된다.",
+          "청소년들에게 입시의 부담감을 지나치게 주지 않아야 한다.",
+          "연예인을 좋아하는 청소년에 대해 이해하는 마음을 가져야 한다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 연예인을 좋아하는 청소년에 대해 이해하는 마음을 가져야 한다."
+      },
+      {
+        "id": "reading-052-q023",
+        "questionNumber": 23,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "친정아버지가 손자들이 보고 싶다며 오랜만에 우리 집에 오셨다. 내가 집안일을 하는 사이에 아버지는 큰애를 데리고 놀이터에 다녀온다며 나가 셨다. 한 시간쯤 지났는데 아버지가 다급한 목소리로 전화를 하셨다. 아이가 다쳐서 병원 응급실로 데리고 가신다는 것이었다. 나는 너무 놀라 허둥 지둥 응급실로 달려갔다. 아이는 이마가 찢어져 치료를 받고 있었다. 나도 모르게 \"아버지, 애 좀 잘 보고 계시지 그러셨어요?\"라며 퉁명스럽게 말했다. 아버지는 아무 말씀 없이 치료받는 아이의 손만 꼭 잡고 계셨다. 집에 와서 아이를 재우고 나서야 아버지 손등의 상처가 눈에 들어왔다. 아이의 상처 에는 그렇게 가슴 아파하면서 아버지의 상처는 미처 살피지 못했다. 나는 아버지에게 홧김에 내뱉은 말을 생각하며 약을 발라 드렸다 .",
+        "question": "밑줄 친 부분에 나타난 '나'의 심정으로 알맞은 것을 고르십시오.",
+        "options": [
+          "억울하다",
+          "허전하다",
+          "후회스럽다",
+          "부담스럽다"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 후회스럽다"
+      },
+      {
+        "id": "reading-052-q024",
+        "questionNumber": 24,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "친정아버지가 손자들이 보고 싶다며 오랜만에 우리 집에 오셨다. 내가 집안일을 하는 사이에 아버지는 큰애를 데리고 놀이터에 다녀온다며 나가 셨다. 한 시간쯤 지났는데 아버지가 다급한 목소리로 전화를 하셨다. 아이가 다쳐서 병원 응급실로 데리고 가신다는 것이었다. 나는 너무 놀라 허둥 지둥 응급실로 달려갔다. 아이는 이마가 찢어져 치료를 받고 있었다. 나도 모르게 \"아버지, 애 좀 잘 보고 계시지 그러셨어요?\"라며 퉁명스럽게 말했다. 아버지는 아무 말씀 없이 치료받는 아이의 손만 꼭 잡고 계셨다. 집에 와서 아이를 재우고 나서야 아버지 손등의 상처가 눈에 들어왔다. 아이의 상처 에는 그렇게 가슴 아파하면서 아버지의 상처는 미처 살피지 못했다. 나는 아버지에게 홧김에 내뱉은 말을 생각하며 약을 발라 드렸다 .",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "나는 친정아버지를 모시고 살고 있다.",
+          "아버지는 다친 큰애를 데리고 응급실에 가셨다.",
+          "나는 병원에서 아이가 다쳤다는 전화를 받았다.",
+          "아버지는 매일 큰애와 놀이터에서 놀아 주셨다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 아버지는 다친 큰애를 데리고 응급실에 가셨다."
+      },
+      {
+        "id": "reading-052-q025",
+        "questionNumber": 25,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "소비 심리 '봄바람', 백화점 매출 기지개",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "소비자들의 구매 욕구가 살아나 백화점 매출이 늘어나고 있다.",
+          "날씨의 영향으로 백화점에서 물건을 구입하는 사람들이 많아졌다.",
+          "백화점에서 매출을 늘리기 위해 행사를 하자 사람들이 모여들었다.",
+          "소비자들의 심리를 반영한 백화점의 매출 전략이 호응을 얻고 있다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 소비자들의 구매 욕구가 살아나 백화점 매출이 늘어나고 있다."
+      },
+      {
+        "id": "reading-052-q026",
+        "questionNumber": 26,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "연휴 마지막 날 교통 체증, 고속도로 몸살 앓아",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "연휴의 마지막 날에 고속도로에서 심각한 교통사고가 발생했다.",
+          "연휴에 실시한 고속도로 공사 때문에 사람들이 큰 불편을 겪었다.",
+          "연휴가 끝나는 날 고속도로에 몰린 차들로 인해 길이 많이 막혔다.",
+          "연휴 때마다 발생하는 교통 혼잡을 해결하기 위해 고속도로를 확장했다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 연휴가 끝나는 날 고속도로에 몰린 차들로 인해 길이 많이 막혔다."
+      },
+      {
+        "id": "reading-052-q027",
+        "questionNumber": 27,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [25~27] 다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오. (각 2점)",
+        "passage": "시청자 사로잡는 드라마 음악, 시청률 상승 효과 '톡톡'",
+        "question": "다음 신문 기사의 제목을 가장 잘 설명한 것을 고르십시오.",
+        "options": [
+          "시청자에게 익숙한 음악을 활용해 드라마의 시청률을 높이려고 했다.",
+          "시청자들은 시청률이 높은 드라마에 더 많은 음악이 나오기를 원했다.",
+          "드라마 음악을 시청자와 함께 만들어 시청률에 긍정적인 영향을 주었다.",
+          "드라마 음악이 시청자에게 사랑을 받으며 시청률을 높이는 역할을 했다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 드라마 음악이 시청자에게 사랑을 받으며 시청률을 높이는 역할을 했다."
+      },
+      {
+        "id": "reading-052-q028",
+        "questionNumber": 28,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "한 연구에 따르면 과거에 비해 요즘 사람들의 손톱이 더 빨리 자란다고 한다. 80년 전 사람들은 손톱이 한 달에 3mm 정도 자랐지만 최근에는 그보다 길게 3.5mm 정도 자란다는 것이다. 손톱 주변을( ........................ ) 세포 활동이 활발해져 손톱이 더 빨리 자란다. 연구팀은 최근 컴퓨터나 휴대전화의 자판을 누르는 등 손가락 끝을 사용하는 일이 많아지면서 손톱이 자라는 것에 영향을 준 것으로 보았다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "깨끗하게 관리하면",
+          "감싸서 보호해 주면",
+          "자극하는 활동을 하면",
+          "건조하지 않게 해 주면"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 자극하는 활동을 하면"
+      },
+      {
+        "id": "reading-052-q029",
+        "questionNumber": 29,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "한국에서는 보통 명절에 여러 가지 나물을 만들어 먹는다. 집집마다 조금씩 다르지만 뿌리채소, 줄기채소, 잎채소를 재료로 해서 세 가지 종류의 나물을 만드는 것이 기본이다. 이 세 가지 나물은 ( ........................ ) 상징적 의미를 담고 있다. 뿌리는 조상, 줄기는 부모, 잎은 자손을 뜻하기 때문이다. 뿌리, 줄기, 잎이 어우러져 하나의 나무가 되듯 한 집안도 이러한 결합을 통해 이루어짐을 나타내는 것이다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "식물의 성장과 번식이라는",
+          "조상과 후손의 연결이라는",
+          "자연과 인간의 화합이라는",
+          "음식의 장만과 나눔이라는"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 조상과 후손의 연결이라는"
+      },
+      {
+        "id": "reading-052-q030",
+        "questionNumber": 30,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "전자레인지는 보통 음식을 따뜻하게 데울 때 사용된다. 그런데 전자레인 지는 직접 열을 가하는 것이 아니라 음식에 포함된 물 분자의 움직임을 이용하여 음식을 데운다. 음식물에 전자레인지의 전자파가 닿으면 음식물 안에 있는 물 분자들이 진동하면서 열이 발생하는 것이다. 한편 얼음은 전자 레인지의 전자파가 닿아도 녹지 않는다. 얼음 속의 물 분자가 얼어 있어서 ( ........................ ) 때문이다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "부피가 커지기",
+          "결합이 안 되기",
+          "움직이지 못하기",
+          "열을 모두 반사하기"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 움직이지 못하기"
+      },
+      {
+        "id": "reading-052-q031",
+        "questionNumber": 31,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [28~31] 다음을 읽고 ( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "최근 일부 대기업을 중심으로 '기업 쪼개기'가 이루어지고 있다. 이는 ( ........................ )의도에서 비롯된 것이다. 그동안 대기업들은 큰 몸집 탓에 복잡한 결재 절차를 거쳐야 했다. 그런데 최근 시장 환경이 급변하면서 의사 결정 속도가 곧 기업의 경쟁력인 시대가 되었다. 이에 기업들은 계열사를 독립적인 회사로 분리하고 각 회사에 최종 결정 권한을 넘김으로써 시장 변화에 신속히 대처하고 있다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "회사의 이미지를 바꾸려는",
+          "시장의 흐름을 변화시키려는",
+          "기업 간에 정보를 공유하려는",
+          "의사 결정 단계를 단순화하려는"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 의사 결정 단계를 단순화하려는"
+      },
+      {
+        "id": "reading-052-q032",
+        "questionNumber": 32,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+        "passage": "물감은 섞거나 덧칠할수록 색이 탁해진다. 그래서 19세기 화가들은 점을 찍어 색을 표현하는 점묘법을 생각해 냈다. 이 기법은 예를 들어 빨간색과 파란 색의 작은 점을 촘촘히 찍어서, 조금 떨어진 곳에서 볼 때 점들이 섞여 보라색 으로 보이도록 한 것이다. 이렇게 표현한 색은 물감을 섞어서 만든 색보다 훨씬 더 맑고 부드러운 느낌을 준다. 이 때문에 점묘법은 회화의 대표적인 표현 기법으로 자리 잡게 되었고 현대 화가들도 즐겨 사용하고 있다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "이 기법으로 그림을 그리면 그림이 부드럽게 느껴진다.",
+          "이 기법은 19세기 이후에는 화가들의 외면을 받게 되었다.",
+          "이 기법은 가까운 곳에서 봐야 색이 섞여 보이는 효과가 있다.",
+          "이 기법으로 그림을 그릴 때는 넓은 간격으로 점을 찍어야 한다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 이 기법으로 그림을 그리면 그림이 부드럽게 느껴진다."
+      },
+      {
+        "id": "reading-052-q033",
+        "questionNumber": 33,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+        "passage": "생물들은 환경 변화에 민감하게 반응하기 때문에 환경오염을 나타내는 지표 역할을 한다. 한 예로 나팔꽃은 대기 오염의 지표가 된다. 나팔꽃에 흰색 반점이 생기면 공기가 오염되었다는 것을 알 수 있다. 또 물고기는 수질 오염 정도를 보여 준다. 은어가 살면 깨끗한 1급수의 물이라는 것을, 미꾸라지가 살면 깨끗하지 않은 3급수의 물이라는 것을 뜻한다. 이처럼 복잡한 측정 장비 없이도 지표 생물로 그 지역 환경의 오염 정도를 알 수 있다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "대기 오염의 여부는 지표 생물로 판별하기 어렵다.",
+          "자연 환경이 깨끗한 곳에서는 미꾸라지를 발견할 수 있다.",
+          "물속에 사는 물고기의 종류로 물이 오염되었는지 파악할 수 있다.",
+          "나팔꽃은 크기의 변화를 통해 환경 변화를 알려 주는 지표 생물이다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 물속에 사는 물고기의 종류로 물이 오염되었는지 파악할 수 있다."
+      },
+      {
+        "id": "reading-052-q034",
+        "questionNumber": 34,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [32~34] 다음을 읽고 내용이 같은 것을 고르십시오. (각 2점)",
+        "passage": "정부는 환자의 의약품 처방 이력을 제공하는 '의약품 안전 사용 서비스'를 실시하고 있다. 이 제도는 의료 기관에서 의약품을 처방하기 전에 환자가 다른 기관에서 어떤 약을 처방받았는지 온라인으로 점검하도록 하는 것이다. 함께 먹으면 안 되는 약이나 같은 약이 여러 번 처방될 경우 생기는 부작용을 방지하려는 목적이다. 이 제도를 통한 적절한 의약품 처방이 국민의 건강 증진에 도움이 될 것으로 기대된다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오.",
+        "options": [
+          "이 제도를 온라인에서 이용할 수 있도록 할 예정이다.",
+          "환자들은 의약품을 처방받기 전에 이 제도를 이용해야 한다.",
+          "환자들은 의료 기관에 방문하지 않고 의약품을 처방받을 수 있다.",
+          "의약품의 부적절한 처방을 예방하기 위해 이 제도가 시행되고 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 의약품의 부적절한 처방을 예방하기 위해 이 제도가 시행되고 있다."
+      },
+      {
+        "id": "reading-052-q035",
+        "questionNumber": 35,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "현대인들은 통계를 이용해 실상을 파악하는 경우가 많다. 하지만 통계가 절대적인 사실을 반영하는 것만은 아니다. 예컨대 오이의 가격이 1월에 1,000원이고 2월에 3,000원이며 현재 2,000원이라고 가정해 보자. 현재의 오이 값을 통계에 근거해서 평가할 때 1월을 기준으로 하면 물가가 큰 폭으로 오른 것이 되고 2월을 기준으로 삼으면 대폭 하락한 것으로 이해될 수 있는 것이다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "통계 수치에 근거하면 실상을 파악할 수 있다.",
+          "현실이 반영되지 않는 통계 수치는 무의미하다.",
+          "통계를 통해 물가 상승률과 하락률을 알 수 있다.",
+          "통계는 기준 설정에 따라 다양하게 해석될 수 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 통계는 기준 설정에 따라 다양하게 해석될 수 있다."
+      },
+      {
+        "id": "reading-052-q036",
+        "questionNumber": 36,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "철새는 종에 따라 수만에서 수십만 개체가 무리를 지어 일정한 대형으로 이동한다. 이때 대형의 선두에서 나는 새가 무리의 리더인데, 이 새는 무리를 안전하게 이끄는 역할을 맡는다. 이를 위해서 이 새는 거친 바람을 맨 앞에서 맞서 비행하며 최적의 항로와 고도를 찾아낼 수 있는 경험을 두루 갖추고 있어야 한다. 또한 어떤 위기 상황이 발생하더라도 신속하게 대처할 수 있는 판단 능력도 있어야 된다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "철새는 최적의 항로로 신속하게 이동해야 한다.",
+          "철새의 리더는 경험과 판단 능력을 갖춰야 한다.",
+          "철새는 위험에 대처하기 위해 무리를 지어야 한다.",
+          "철새의 리더가 되려면 대형의 선두에서 비행해야 한다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 철새의 리더는 경험과 판단 능력을 갖춰야 한다."
+      },
+      {
+        "id": "reading-052-q037",
+        "questionNumber": 37,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "어떤 사람들은 경제적 여유를 얻게 되면서 삶의 무료함을 느끼기도 한다. 그런데 사람들은 이런 무료함을 별것 아닌 사소한 것으로 여기는 경향이 있다. 하지만 무료함은 개인의 행복한 삶을 저해하는 하나의 요소가 될 수도 있다. 돈이나 명예로는 남부럽지 않을 것 같은 사람들이 무료함 때문에 사회적 일탈 행동을 하기도 하고 무료함이 심해져 우울증으로까지 발전하는 경우도 있기 때문이다. 무료함은 간과해도 되는 사소한 것이 아니다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "경제적 여유가 있는 사람들이 무료함에 빠지기 쉽다.",
+          "사회적 일탈 행동은 돈과 명예가 없는 데에서 기인한다.",
+          "무료함을 가볍게 여기지 말고 그 심각성을 인식해야 한다.",
+          "행복한 삶을 위해서는 우울증을 예방하려고 노력해야 한다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 무료함을 가볍게 여기지 말고 그 심각성을 인식해야 한다."
+      },
+      {
+        "id": "reading-052-q038",
+        "questionNumber": 38,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [35~38] 다음 글의 주제로 가장 알맞은 것을 고르십시오. (각 2점)",
+        "passage": "사과를 할 때 진심 없이 건성으로 하는 사람들이 있다. 또한 어떤 사람 들은 사과를 할 때 선한 의도로 행한 것이었음을 강조하면서 행위에 대한 책임을 회피하려고 한다. 하지만 사과는 어떤 일의 결과에 책임을 지는 행위가 되어야 한다. 의도가 선한 것이었든 악한 것이었든 자신의 행위가 상대방에게 고통을 주었다면 그에 대한 책임을 져야 진정한 사과가 되는 것이다. 사과를 하는 사람들이 먼저 알아야 하는 것이 바로 이것이다.",
+        "question": "다음 글의 주제로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "일의 결과를 책임지는 것이 진정한 사과이다.",
+          "잘못을 해도 의도가 선하다면 용서를 해야 한다.",
+          "사과는 잘못을 반복하지 않기 위해 하는 것이다.",
+          "악의적인 의도로 상대방에게 고통을 주면 안 된다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 일의 결과를 책임지는 것이 진정한 사과이다."
+      },
+      {
+        "id": "reading-052-q039",
+        "questionNumber": 39,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오. (각 2점)",
+        "passage": "한 연구팀이 냄새가 나지 않는 무취 상태의 조건을 알아냈다.( ㉠ ) 사람의 코는 다양한 냄새 중에 농도가 짙은 것 위주로 냄새를 맡는다. ( ㉡ ) 그런데 서로 다른 냄새 입자를 동일한 양으로 섞으면 사람의 코는 냄새가 거의 나지 않는 것처럼 느낀다는 것이다. ( ㉢ ) 여기에서 착안해 악취를 없애는 기술을 연구하고 있다. ( ㉣ ) 이 기술이 개발 되면 심한 악취 환경에서 작업하는 사람들의 어려움을 줄여 줄 수 있을 것이다. 넣을 문장: 악취에 동일한 양의 다른 냄새들을 더해 악취를 느끼지 못하게 하는 것이 목표이다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 위치"
+      },
+      {
+        "id": "reading-052-q040",
+        "questionNumber": 40,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오. (각 2점)",
+        "passage": "요리사 박찬일 씨가 에세이집 『미식가의 허기』를 펴냈다. ( ㉠ ) 이 책에는 서민들이 일상적으로 먹던 음식들이 계절별로 소개되어 있다. ( ㉡ ) 그러나 음식에 대한 내용만 담겨 있는 것은 아니다. ( ㉢ ) 산지에서 음식 재료를 생산하기 위해 애쓰는 사람들, 그 재료로 뜨거운 불 앞에서 음식을 준비하는 사람들에 대한 이야기도 있다. ( ㉣ ) 이 책은 미각을 자극하기보다는 한 끼 식사가 마련되는 과정의 어려움을 일깨운다. 넣을 문장: 작가는 따뜻한 한 끼의 음식과 그것을 만들기까지 수고한 사람들에 대한 이야기를 담고 싶었던 것이다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 위치"
+      },
+      {
+        "id": "reading-052-q041",
+        "questionNumber": 41,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [39~41] 주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오. (각 2점)",
+        "passage": "지금 우리는 기계가 인간의 인지적인 영역까지 대신하는 제2의 기계 시대로 접어들고 있다. ( ㉠ ) 이러한 비약적인 기계 발전의 시대가 인간의 삶을 더 윤택하게 할지 더 소외시킬지 단정 지을 수는 없다. ( ㉡ ) 하지만 급속한 기술의 발달로 현재의 산업 구조가 크게 바뀐다는 것만은 분명하다. ( ㉢ ) 그래서 지금 초등학교에 진학하는 아이들의 65%는 현재에는 없는 직업을 갖게 될 것으로 전망된다. ( ㉣ ) 넣을 문장: 산업 구조의 변화에 따라 당연히 일자리의 변동성도 커질 것이다.",
+        "question": "주어진 문장이 들어갈 곳으로 가장 알맞은 곳을 고르십시오.",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 위치"
+      },
+      {
+        "id": "reading-052-q042",
+        "questionNumber": 42,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음 글을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "예쁘고 멋쟁이인 박영은 선생님을 새 담임으로 맞이한 것은 우리 모두 에게 가슴 떨리는 일이었다. 먼젓번 담임 선생님의 말은 죽어라고 안 듣던 말썽꾸러기들이 박 선생님 앞에서는 고개도 제대로 못 들고 수줍어했다. 우리 반은 당장 전교에서 제일 말 잘 듣고 가장 깨끗한 반이 되었다. 나도 박 선생님에게 잘 보이고 싶은 마음이 태산 같았지만 늘 그렇듯이 머리가 따라 주지를 않았다. 아마 이번 시험에서도 모든 과목이 50점을 넘지 못했을 것이다. 아이들이 모두 떠난 교실에서 나는 몸을 비비 꼬며 창밖에서 놀고 있는 아이들에게 시선을 주고 있었다. (중략) 선생님이 마침내 입을 연 것은 20분이나 시간이 지나서였다. (중략) \"동구를 가만히 보면, 아는데 말을 못하는 적도 많은 것 같아. 그러다 보니 자신감도 없어지고.\" 나의 간지럽고 아픈 부분을 이렇게나 간결하게 짚어 준 사람이 내 인생에 또 있으랴. 공부 못하는 죄를 추궁당하는 것이 아니라 공부 못하는 서러움을 이해받는 것은 생애 처음 있는 일이었다. 안 그래도 물러 터진 내 마음은 완전히 물에 만 휴지처럼 흐물흐물해져서, 예쁘고 멋진 데다 현명하기까지 한 박 선생님 앞에서 때 아닌 눈물까지 한 방울 선을 보일 뻔했다.",
+        "question": "밑줄 친 부분에 나타난 '나'의 심정으로 알맞은 것을 고르십시오.",
+        "options": [
+          "난처하다",
+          "담담하다",
+          "감격스럽다",
+          "의심스럽다"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 감격스럽다"
+      },
+      {
+        "id": "reading-052-q043",
+        "questionNumber": 43,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [42~43] 다음 글을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "예쁘고 멋쟁이인 박영은 선생님을 새 담임으로 맞이한 것은 우리 모두 에게 가슴 떨리는 일이었다. 먼젓번 담임 선생님의 말은 죽어라고 안 듣던 말썽꾸러기들이 박 선생님 앞에서는 고개도 제대로 못 들고 수줍어했다. 우리 반은 당장 전교에서 제일 말 잘 듣고 가장 깨끗한 반이 되었다. 나도 박 선생님에게 잘 보이고 싶은 마음이 태산 같았지만 늘 그렇듯이 머리가 따라 주지를 않았다. 아마 이번 시험에서도 모든 과목이 50점을 넘지 못했을 것이다. 아이들이 모두 떠난 교실에서 나는 몸을 비비 꼬며 창밖에서 놀고 있는 아이들에게 시선을 주고 있었다. (중략) 선생님이 마침내 입을 연 것은 20분이나 시간이 지나서였다. (중략) \"동구를 가만히 보면, 아는데 말을 못하는 적도 많은 것 같아. 그러다 보니 자신감도 없어지고.\" 나의 간지럽고 아픈 부분을 이렇게나 간결하게 짚어 준 사람이 내 인생에 또 있으랴. 공부 못하는 죄를 추궁당하는 것이 아니라 공부 못하는 서러움을 이해받는 것은 생애 처음 있는 일이었다. 안 그래도 물러 터진 내 마음은 완전히 물에 만 휴지처럼 흐물흐물해져서, 예쁘고 멋진 데다 현명하기까지 한 박 선생님 앞에서 때 아닌 눈물까지 한 방울 선을 보일 뻔했다.",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "나는 담임 선생님께 인정을 받고 싶다.",
+          "반 아이들은 요즘 교실 청소를 잘 하지 않는다.",
+          "반 아이들은 예전 담임 선생님 말을 잘 들었다.",
+          "담임 선생님은 내가 공부를 못해서 화를 내셨다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 나는 담임 선생님께 인정을 받고 싶다."
+      },
+      {
+        "id": "reading-052-q044",
+        "questionNumber": 44,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "보편적 디자인이란 성별, 연령, 장애의 유무 등에 관계없이 누구나 편리 하게 이용할 수 있도록 제품이나 사용 환경을 만드는 것을 말한다. 산업 혁명 시대에는 대량 생산을 목적으로 생산의 효율성을 추구하였다. 따라서 디자인을 할 때( ........................ ). 그러다 보니 여기에 속하지 못한 대상들은 불편을 겪을 수밖에 없었다. 이에 대한 비판과 반성에서 출발한 것이 보편적 디자인이다. 대표적인 예가 계단이 없는 저상 버스인데 이 버스는 타고 내리기 쉬워 어린이와 노인, 임산부와 장애인 등 모두가 편리 하게 이용할 수 있다. 다양한 대상의 특성을 고려한 보편적 디자인은 최대한 많은 사람들이 차별 없이 생활할 수 있는 환경을 조성하는 데 큰 몫을 하고 있다.",
+        "question": "위 글의 주제로 알맞은 것을 고르십시오.",
+        "options": [
+          "과거와는 다른 새로운 디자인의 개발이 요구된다.",
+          "보편적 디자인을 사용해야 제품의 대량 생산이 가능하다.",
+          "보편적 디자인은 사회의 여러 계층을 고려한 디자인이다.",
+          "제품을 디자인할 때 가장 중요한 것은 생산의 효율성이다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 보편적 디자인은 사회의 여러 계층을 고려한 디자인이다."
+      },
+      {
+        "id": "reading-052-q045",
+        "questionNumber": 45,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [44~45] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "보편적 디자인이란 성별, 연령, 장애의 유무 등에 관계없이 누구나 편리 하게 이용할 수 있도록 제품이나 사용 환경을 만드는 것을 말한다. 산업 혁명 시대에는 대량 생산을 목적으로 생산의 효율성을 추구하였다. 따라서 디자인을 할 때( ........................ ). 그러다 보니 여기에 속하지 못한 대상들은 불편을 겪을 수밖에 없었다. 이에 대한 비판과 반성에서 출발한 것이 보편적 디자인이다. 대표적인 예가 계단이 없는 저상 버스인데 이 버스는 타고 내리기 쉬워 어린이와 노인, 임산부와 장애인 등 모두가 편리 하게 이용할 수 있다. 다양한 대상의 특성을 고려한 보편적 디자인은 최대한 많은 사람들이 차별 없이 생활할 수 있는 환경을 조성하는 데 큰 몫을 하고 있다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "생산할 제품의 특성을 최대한 반영하였다",
+          "편리한 사용 환경을 마련해 주고자 하였다",
+          "당시 널리 퍼져 있던 유행의 흐름을 따랐다",
+          "표준이라 여기는 다수만을 기준으로 하였다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 표준이라 여기는 다수만을 기준으로 하였다"
+      },
+      {
+        "id": "reading-052-q046",
+        "questionNumber": 46,
+        "points": 2,
+        "questionType": "insert",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "보수와 진보의 개념은 정치뿐만 아니라 경제 분야에서도 사용된다. ( ㉠ ) 자유를 중시하는 보수주의자들은 자유가 최대한 보장될 때 경제 성장이 가능하다고 본다. 그래서 경제를 시장의 자율에 맡기고 정부는 최소한의 역할만을 담당해야 한다고 주장한다. ( ㉡ ) 반면 평등을 우선시하는 진보주의자들은 시장을 자율에 맡기기보다 국가가 개입해야 한다고 생각한다. ( ㉢ ) 그래야 시장 경제 체제의 문제점인 불평등을 해소할 수 있다고 주장한다. 보수와 진보 중 어느 하나의 입장만이 옳다고 단정하기는 어렵다. 경제 발전을 위해서는 보수가 추구하는 바가 필요하며 경제 발전에 따른 문제점을 해결하기 위해서는 진보의 정책들이 요구된다. 보수와 진보가 서로 보완하여 상호 균형을 이룰 때 경제는 더 발전적인 방향으로 나아갈 수 있을 것이다. ( ㉣ ) [Sentence to Insert: 경제적 관점에서 보수와 진보는 시장 경제를 조절하는 두 축인 시장과 국가의 역할에 대한 견해에 따라 구분된다.] 넣을 문장: 경제적 관점에서 보수와 진보는 시장 경제를 조절하는 두 축인 시장과 국가의 역할에 대한 견해에 따라 구분된다。",
+        "question": "위 글에서 의 글이 들어가기에 가장 알맞은 곳을 고르십시오。",
+        "options": [
+          "위치",
+          "위치",
+          "위치",
+          "위치"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 위치"
+      },
+      {
+        "id": "reading-052-q047",
+        "questionNumber": 47,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [46~47] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "보수와 진보의 개념은 정치뿐만 아니라 경제 분야에서도 사용된다. ( ㉠ ) 자유를 중시하는 보수주의자들은 자유가 최대한 보장될 때 경제 성장이 가능하다고 본다. 그래서 경제를 시장의 자율에 맡기고 정부는 최소한의 역할만을 담당해야 한다고 주장한다. ( ㉡ ) 반면 평등을 우선시하는 진보주의자들은 시장을 자율에 맡기기보다 국가가 개입해야 한다고 생각한다. ( ㉢ ) 그래야 시장 경제 체제의 문제점인 불평등을 해소할 수 있다고 주장한다. 보수와 진보 중 어느 하나의 입장만이 옳다고 단정하기는 어렵다. 경제 발전을 위해서는 보수가 추구하는 바가 필요하며 경제 발전에 따른 문제점을 해결하기 위해서는 진보의 정책들이 요구된다. 보수와 진보가 서로 보완하여 상호 균형을 이룰 때 경제는 더 발전적인 방향으로 나아갈 수 있을 것이다. ( ㉣ ) [Sentence to Insert: 경제적 관점에서 보수와 진보는 시장 경제를 조절하는 두 축인 시장과 국가의 역할에 대한 견해에 따라 구분된다.] 넣을 문장: 경제적 관점에서 보수와 진보는 시장 경제를 조절하는 두 축인 시장과 국가의 역할에 대한 견해에 따라 구분된다。",
+        "question": "위 글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "경제 성장을 위해서는 국가가 시장을 주도해야 한다.",
+          "시장 경제를 제어할 수 있는 주체는 시장이 유일하다.",
+          "진보주의자가 보수주의자에 비해 자유에 더 가치를 둔다.",
+          "경제 성장으로 인한 문제 해결에는 진보적 관점이 필요하다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 경제 성장으로 인한 문제 해결에는 진보적 관점이 필요하다."
+      },
+      {
+        "id": "reading-052-q048",
+        "questionNumber": 48,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "특허법은 독창적인 기술을 최초로 발명한 사람에게 기술에 대한 독점적 사용권을 부여하는 대신 그 기술을 사회에 공개할 의무를 부과한다. 공개된 기술 공유를 통해 사회 전체의 기술력을 높이는 것이 특허의 취지이다. 이런 취지에 부합하여 실제로 특허 제도는 기술 혁신과 산업 발전에 크게 이바지해 왔다. 그런데 최근 들어 특허의 본래 취지가 변질되어 기술 개발보다 독점권 확보를 우선하는 현상이 두드러지게 나타나고 있다. ( ........................ ) 상태에서 마구잡이 특허 출원으로 권리부터 선점해 놓고 기술을 개발하려는 경우가 비일비재한 것이다. 이 때문에 정작 신기술 개발에 힘들게 성공한 사람들이 권리를 확보하지 못하는 경우가 자주 발생하곤 한다. 특허는 발명의 대가로 당연히 보호받을 가치가 있다. 하지만 그것은 기술 개발에 성공해 사회 발전에 공헌하는 경우에 한해서이다. 무분별한 특허 출원으로 기술 발전을 저해한다면 이는 특허가 가진 본래의 취지를 훼손하는 것이다.",
+        "question": "위 글을 쓴 목적으로 알맞은 것을 고르십시오.",
+        "options": [
+          "특허 심사 절차를 설명하기 위해서",
+          "특허권의 필요성을 역설하기 위해서",
+          "특허의 실질적 가치를 분석하기 위해서",
+          "특허 출원 남용의 문제를 제기하기 위해서"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 특허 출원 남용의 문제를 제기하기 위해서"
+      },
+      {
+        "id": "reading-052-q049",
+        "questionNumber": 49,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "특허법은 독창적인 기술을 최초로 발명한 사람에게 기술에 대한 독점적 사용권을 부여하는 대신 그 기술을 사회에 공개할 의무를 부과한다. 공개된 기술 공유를 통해 사회 전체의 기술력을 높이는 것이 특허의 취지이다. 이런 취지에 부합하여 실제로 특허 제도는 기술 혁신과 산업 발전에 크게 이바지해 왔다. 그런데 최근 들어 특허의 본래 취지가 변질되어 기술 개발보다 독점권 확보를 우선하는 현상이 두드러지게 나타나고 있다. ( ........................ ) 상태에서 마구잡이 특허 출원으로 권리부터 선점해 놓고 기술을 개발하려는 경우가 비일비재한 것이다. 이 때문에 정작 신기술 개발에 힘들게 성공한 사람들이 권리를 확보하지 못하는 경우가 자주 발생하곤 한다. 특허는 발명의 대가로 당연히 보호받을 가치가 있다. 하지만 그것은 기술 개발에 성공해 사회 발전에 공헌하는 경우에 한해서이다. 무분별한 특허 출원으로 기술 발전을 저해한다면 이는 특허가 가진 본래의 취지를 훼손하는 것이다.",
+        "question": "( ........................ )에 들어갈 내용으로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "특허가 만료되지 않은",
+          "신기술을 특허로 인정받은",
+          "기술이 완벽하게 개발되지 않은",
+          "기존의 기술과 차별성을 확인한"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 기술이 완벽하게 개발되지 않은"
+      },
+      {
+        "id": "reading-052-q050",
+        "questionNumber": 50,
+        "points": 2,
+        "questionType": "text",
+        "instruction": "※ [48~50] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "passage": "특허법은 독창적인 기술을 최초로 발명한 사람에게 기술에 대한 독점적 사용권을 부여하는 대신 그 기술을 사회에 공개할 의무를 부과한다. 공개된 기술 공유를 통해 사회 전체의 기술력을 높이는 것이 특허의 취지이다. 이런 취지에 부합하여 실제로 특허 제도는 기술 혁신과 산업 발전에 크게 이바지해 왔다. 그런데 최근 들어 특허의 본래 취지가 변질되어 기술 개발보다 독점권 확보를 우선하는 현상이 두드러지게 나타나고 있다. ( ........................ ) 상태에서 마구잡이 특허 출원으로 권리부터 선점해 놓고 기술을 개발하려는 경우가 비일비재한 것이다. 이 때문에 정작 신기술 개발에 힘들게 성공한 사람들이 권리를 확보하지 못하는 경우가 자주 발생하곤 한다. 특허는 발명의 대가로 당연히 보호받을 가치가 있다. 하지만 그것은 기술 개발에 성공해 사회 발전에 공헌하는 경우에 한해서이다. 무분별한 특허 출원으로 기술 발전을 저해한다면 이는 특허가 가진 본래의 취지를 훼손하는 것이다.",
+        "question": "밑줄 친 부분에 나타난 필자의 태도로 알맞은 것을 고르십시오.",
+        "options": [
+          "특허 출원 감소를 심각하게 우려하고 있다.",
+          "특허권자의 독점권을 강하게 옹호하고 있다.",
+          "특허 제도의 정책적 보완을 강력히 요구하고 있다.",
+          "특허 제도가 사회에 기여한 바를 높이 평가하고 있다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 특허 제도가 사회에 기여한 바를 높이 평가하고 있다."
+      }
+    ]
   }
 ];

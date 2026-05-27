@@ -15865,5 +15865,305 @@ export const vocabulary = [
     example: '가족사진을 앨범에 넣었습니다.',
     exampleMeaning: 'I put family photos in the album.',
     tags: ['object', 'photo']
+  },
+  {
+    id: 'vocab-1553',
+    word: '야간',
+    meaning: 'nighttime',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '야간 수업을 듣고 있습니다.',
+    exampleMeaning: 'I am taking a nighttime class.',
+    tags: ['time', 'study']
+  },
+  {
+    id: 'vocab-1554',
+    word: '야경',
+    meaning: 'night view',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '서울의 야경이 아름답습니다.',
+    exampleMeaning: 'The night view of Seoul is beautiful.',
+    tags: ['view', 'travel']
+  },
+  {
+    id: 'vocab-1555',
+    word: '야근',
+    meaning: 'night work; overtime',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '오늘은 야근을 해야 합니다.',
+    exampleMeaning: 'I have to work overtime today.',
+    tags: ['work', 'time']
+  },
+  {
+    id: 'vocab-1556',
+    word: '야단맞다',
+    meaning: 'to get scolded',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '늦어서 선생님께 야단맞았습니다.',
+    exampleMeaning: 'I got scolded by the teacher because I was late.',
+    tags: ['action', 'school']
+  },
+  {
+    id: 'vocab-1557',
+    word: '야단치다',
+    meaning: 'to scold',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '어머니가 아이를 야단쳤습니다.',
+    exampleMeaning: 'The mother scolded the child.',
+    tags: ['action', 'family']
+  },
+  {
+    id: 'vocab-1558',
+    word: '야외',
+    meaning: 'outdoors',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '야외에서 점심을 먹었습니다.',
+    exampleMeaning: 'We ate lunch outdoors.',
+    tags: ['place', 'daily life']
+  },
+  {
+    id: 'vocab-1559',
+    word: '야유회',
+    meaning: 'picnic; company outing',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '회사 야유회가 다음 주에 있습니다.',
+    exampleMeaning: 'The company outing is next week.',
+    tags: ['event', 'work']
+  },
+  {
+    id: 'vocab-1560',
+    word: '약하다',
+    meaning: 'to be weak',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '동생은 몸이 약합니다.',
+    exampleMeaning: 'My younger sibling has a weak body.',
+    tags: ['health', 'description']
+  },
+  {
+    id: 'vocab-1561',
+    word: '약혼',
+    meaning: 'engagement',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '두 사람은 약혼을 했습니다.',
+    exampleMeaning: 'The two people got engaged.',
+    tags: ['marriage', 'relationship']
+  },
+  {
+    id: 'vocab-1562',
+    word: '약혼자',
+    meaning: 'fiance; fiancee',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '그녀는 약혼자와 여행을 갔습니다.',
+    exampleMeaning: 'She went on a trip with her fiance.',
+    tags: ['marriage', 'person']
+  },
+  {
+    id: 'vocab-1563',
+    word: '얌전하다',
+    meaning: 'to be calm and polite',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '그 아이는 얌전하게 앉아 있습니다.',
+    exampleMeaning: 'The child is sitting calmly.',
+    tags: ['personality', 'description']
+  },
+  {
+    id: 'vocab-1564',
+    word: '양념',
+    meaning: 'seasoning',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '고기에 양념을 넣었습니다.',
+    exampleMeaning: 'I put seasoning on the meat.',
+    tags: ['food', 'cooking']
+  },
+  {
+    id: 'vocab-1565',
+    word: '양로원',
+    meaning: 'nursing home',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '학생들이 양로원에서 봉사했습니다.',
+    exampleMeaning: 'The students volunteered at a nursing home.',
+    tags: ['place', 'society']
+  },
+  {
+    id: 'vocab-1566',
+    word: '양반',
+    meaning: 'noble person; gentleman',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '옛날에는 양반이 높은 신분이었습니다.',
+    exampleMeaning: 'Long ago, nobles had a high social position.',
+    tags: ['culture', 'history']
+  },
+  {
+    id: 'vocab-1567',
+    word: '양보',
+    meaning: 'yielding; giving way',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '버스에서 자리를 양보했습니다.',
+    exampleMeaning: 'I gave up my seat on the bus.',
+    tags: ['action', 'manners']
+  },
+  {
+    id: 'vocab-1568',
+    word: '양쪽',
+    meaning: 'both sides',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '길 양쪽에 나무가 많습니다.',
+    exampleMeaning: 'There are many trees on both sides of the road.',
+    tags: ['position', 'place']
+  },
+  {
+    id: 'vocab-1569',
+    word: '얘',
+    meaning: 'this child; this person',
+    partOfSpeech: 'pronoun',
+    level: 'TOPIK II',
+    example: '얘는 제 동생입니다.',
+    exampleMeaning: 'This person is my younger sibling.',
+    tags: ['pronoun', 'people']
+  },
+  {
+    id: 'vocab-1570',
+    word: '어기다',
+    meaning: 'to break a rule',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '교통 규칙을 어기면 안 됩니다.',
+    exampleMeaning: 'You must not break traffic rules.',
+    tags: ['rule', 'action']
+  },
+  {
+    id: 'vocab-1571',
+    word: '어느새',
+    meaning: 'before one knows it',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '어느새 겨울이 되었습니다.',
+    exampleMeaning: 'Before I knew it, winter came.',
+    tags: ['time', 'adverb']
+  },
+  {
+    id: 'vocab-1572',
+    word: '어떠하다',
+    meaning: 'to be how; to be what kind',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '그 문제에 대한 생각이 어떠합니까?',
+    exampleMeaning: 'What is your thought about that problem?',
+    tags: ['question', 'description']
+  },
+  {
+    id: 'vocab-1573',
+    word: '어떡하다',
+    meaning: 'what to do',
+    partOfSpeech: 'verb',
+    level: 'TOPIK II',
+    example: '지갑을 잃어버렸는데 어떡하죠?',
+    exampleMeaning: 'I lost my wallet. What should I do?',
+    tags: ['expression', 'question']
+  },
+  {
+    id: 'vocab-1574',
+    word: '어려움',
+    meaning: 'difficulty',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '어려움이 있어도 포기하지 마세요.',
+    exampleMeaning: 'Even if there is difficulty, do not give up.',
+    tags: ['problem', 'life']
+  },
+  {
+    id: 'vocab-1575',
+    word: '어린아이',
+    meaning: 'young child',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '어린아이가 길을 건넙니다.',
+    exampleMeaning: 'A young child is crossing the street.',
+    tags: ['people', 'age']
+  },
+  {
+    id: 'vocab-1576',
+    word: '어린이날',
+    meaning: 'Children\'s Day',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '어린이날에 놀이공원에 갔습니다.',
+    exampleMeaning: 'We went to an amusement park on Children\'s Day.',
+    tags: ['holiday', 'culture']
+  },
+  {
+    id: 'vocab-1577',
+    word: '어버이날',
+    meaning: 'Parents\' Day',
+    partOfSpeech: 'noun',
+    level: 'TOPIK II',
+    example: '어버이날에 부모님께 꽃을 드렸습니다.',
+    exampleMeaning: 'I gave flowers to my parents on Parents\' Day.',
+    tags: ['holiday', 'family']
+  },
+  {
+    id: 'vocab-1578',
+    word: '어색하다',
+    meaning: 'to be awkward',
+    partOfSpeech: 'adjective',
+    level: 'TOPIK II',
+    example: '처음 만났을 때 조금 어색했습니다.',
+    exampleMeaning: 'It was a little awkward when we first met.',
+    tags: ['feeling', 'description']
+  },
+  {
+    id: 'vocab-1579',
+    word: '어쨌든',
+    meaning: 'anyway',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '어쨌든 약속은 지켜야 합니다.',
+    exampleMeaning: 'Anyway, you should keep a promise.',
+    tags: ['adverb', 'expression']
+  },
+  {
+    id: 'vocab-1580',
+    word: '어쩌다가',
+    meaning: 'by chance; somehow',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '어쩌다가 그 사람을 다시 만났습니다.',
+    exampleMeaning: 'I met that person again by chance.',
+    tags: ['adverb', 'chance']
+  },
+  {
+    id: 'vocab-1581',
+    word: '어쩌면',
+    meaning: 'maybe; perhaps',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '어쩌면 내일 눈이 올지도 모릅니다.',
+    exampleMeaning: 'Maybe it will snow tomorrow.',
+    tags: ['adverb', 'guess']
+  },
+  {
+    id: 'vocab-1582',
+    word: '어쩐지',
+    meaning: 'somehow; no wonder',
+    partOfSpeech: 'adverb',
+    level: 'TOPIK II',
+    example: '어쩐지 오늘 길이 조용했습니다.',
+    exampleMeaning: 'Somehow the street was quiet today.',
+    tags: ['adverb', 'feeling']
   }
 ];
