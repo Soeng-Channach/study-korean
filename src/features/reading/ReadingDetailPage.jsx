@@ -37,7 +37,7 @@ function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, reveal
         <h3 className="min-w-0 flex-1 text-xl font-black leading-8 text-slate-950 dark:text-white sm:text-2xl">
           {question.question}
         </h3>
-        <div className="flex w-12 shrink-0 flex-col items-center justify-center rounded-md bg-slate-200 px-2 py-2 text-base font-black leading-5 text-slate-900 dark:bg-slate-700 dark:text-white">
+        <div className="inline-flex shrink-0 items-center gap-0.5 rounded-md bg-coral-100 px-2 py-1 text-sm font-black leading-none text-coral-700 dark:bg-coral-500/20 dark:text-coral-100">
           <span>{points}</span>
           <span>점</span>
         </div>
