@@ -11,6 +11,7 @@ const initialState = {
   completedReadingIds: [],
   completedListeningIds: [],
   grammarCoreOverrides: {},
+  vocabMeaningOverrides: {},
   vocabularyStats: {
     totalAnswered: 0,
     correctAnswers: 0,
@@ -109,6 +110,23 @@ function learningReducer(state, action) {
       const { [action.id]: _removed, ...rest } = state.grammarCoreOverrides;
       return { ...state, grammarCoreOverrides: rest };
     }
+    case 'update-vocab-meaning': {
+      const trimmed = (action.meaning || '').trim();
+      if (!trimmed) return state;
+      return {
+        ...state,
+        vocabMeaningOverrides: {
+          ...(state.vocabMeaningOverrides || {}),
+          [action.id]: trimmed
+        }
+      };
+    }
+    case 'reset-vocab-meaning': {
+      const overrides = state.vocabMeaningOverrides || {};
+      if (!overrides[action.id]) return state;
+      const { [action.id]: _removed, ...rest } = overrides;
+      return { ...state, vocabMeaningOverrides: rest };
+    }
     case 'reset-progress':
       return initialState;
     default:
@@ -154,7 +172,10 @@ export function LearningProvider({ children }) {
       isListeningCompleted: (id) => (state.completedListeningIds || []).includes(id),
       getGrammarCoreMeaning: (lesson) =>
         (lesson && state.grammarCoreOverrides[lesson.id]) || lesson?.coreMeaning,
-      isGrammarMeaningEdited: (id) => Boolean(state.grammarCoreOverrides[id])
+      isGrammarMeaningEdited: (id) => Boolean(state.grammarCoreOverrides[id]),
+      getVocabMeaning: (word) =>
+        (word && (state.vocabMeaningOverrides || {})[word.id]) || word?.meaning,
+      isVocabMeaningEdited: (id) => Boolean((state.vocabMeaningOverrides || {})[id])
     };
   }, [isHydrated, state]);
 

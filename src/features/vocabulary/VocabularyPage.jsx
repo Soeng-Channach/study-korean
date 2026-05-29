@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Search, Sparkles, Star, X } from 'lucide-react';
+import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -12,7 +13,7 @@ import { usePageMeta } from '../../hooks/usePageMeta';
 
 export default function VocabularyPage() {
   usePageMeta('Vocabulary', 'Review TOPIK II vocabulary and start offline quizzes.');
-  const { vocabProgress, state, isVocabBookmarked, dispatch } = useLearning();
+  const { vocabProgress, state, isVocabBookmarked, dispatch, getVocabMeaning } = useLearning();
   const [query, setQuery] = useState('');
   const [posFilter, setPosFilter] = useState('all');
   const [showSavedOnly, setShowSavedOnly] = useState(false);
@@ -30,13 +31,15 @@ export default function VocabularyPage() {
       if (showSavedOnly && !savedIds.includes(word.id)) return false;
       if (posFilter !== 'all' && word.partOfSpeech !== posFilter) return false;
       if (!q) return true;
+      const meaning = getVocabMeaning(word);
       return (
         word.word.toLowerCase().includes(q) ||
         word.meaning.toLowerCase().includes(q) ||
+        (meaning && meaning.toLowerCase().includes(q)) ||
         (word.example && word.example.toLowerCase().includes(q))
       );
     });
-  }, [query, posFilter, showSavedOnly, state.bookmarkedVocabIds]);
+  }, [query, posFilter, showSavedOnly, state.bookmarkedVocabIds, getVocabMeaning]);
 
   return (
     <div className="space-y-5">
@@ -183,16 +186,7 @@ export default function VocabularyPage() {
                       className="inline-flex items-center justify-center rounded-full p-1.5 text-coral-600 transition hover:bg-coral-100 hover:text-coral-700 active:scale-95 dark:text-coral-100 dark:hover:bg-coral-500/15"
                       label={`Play pronunciation of ${word.word}`}
                     />
-                    <span className="inline-flex items-center gap-1 text-sm font-semibold text-coral-700 dark:text-coral-100">
-                      — {word.meaning}
-                      <SpeakButton
-                        text={word.meaning}
-                        lang="en-US"
-                        size={14}
-                        className="inline-flex items-center justify-center rounded-full p-1 text-coral-600 transition hover:bg-coral-100 hover:text-slate-900 active:scale-95 active:text-slate-900 dark:text-coral-100 dark:hover:bg-coral-500/15 dark:hover:text-white dark:active:text-white"
-                        label={`Play English meaning ${word.meaning}`}
-                      />
-                    </span>
+                    <VocabMeaningRow word={word} />
                   </div>
                 </div>
                 <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 dark:border-slate-800 dark:bg-slate-800/60">

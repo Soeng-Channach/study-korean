@@ -1,5 +1,6 @@
 import { Star } from 'lucide-react';
 import GrammarCard from '../../components/learning/GrammarCard';
+import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
 import Badge from '../../components/ui/Badge';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
@@ -77,16 +78,7 @@ export default function BookmarksPage() {
                       className="inline-flex items-center justify-center rounded-full p-1.5 text-coral-600 transition hover:bg-coral-100 hover:text-coral-700 active:scale-95 dark:text-coral-100 dark:hover:bg-coral-500/15"
                       label={`Play pronunciation of ${word.word}`}
                     />
-                    <span className="inline-flex items-center gap-1 text-sm font-semibold text-coral-700 dark:text-coral-100">
-                      — {word.meaning}
-                      <SpeakButton
-                        text={word.meaning}
-                        lang="en-US"
-                        size={14}
-                        className="inline-flex items-center justify-center rounded-full p-1 text-coral-600 transition hover:bg-coral-100 hover:text-slate-900 active:scale-95 active:text-slate-900 dark:text-coral-100 dark:hover:bg-coral-500/15 dark:hover:text-white dark:active:text-white"
-                        label={`Play English meaning ${word.meaning}`}
-                      />
-                    </span>
+                    <VocabMeaningRow word={word} />
                   </div>
                 </div>
                 <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 dark:border-slate-800 dark:bg-slate-800/60">
