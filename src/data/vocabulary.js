@@ -34182,5 +34182,798 @@ export const vocabulary = [
       "certainty",
       "adjective"
     ]
+  },
+  {
+    "id": "vocab-2604",
+    "word": "환기",
+    "meaning": "ventilation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '환기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '환기'.",
+    "tags": [
+      "home",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2605",
+    "word": "환불",
+    "meaning": "refund",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '환불'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '환불'.",
+    "tags": [
+      "shopping",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2606",
+    "word": "환상적",
+    "meaning": "fantastic",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '환상적'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '환상적'.",
+    "tags": [
+      "description",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2607",
+    "word": "환송회",
+    "meaning": "farewell party",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '환송회'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '환송회'.",
+    "tags": [
+      "event",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2608",
+    "word": "환영회",
+    "meaning": "welcome party",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '환영회'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '환영회'.",
+    "tags": [
+      "event",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2609",
+    "word": "환율",
+    "meaning": "exchange rate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '환율'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '환율'.",
+    "tags": [
+      "money",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2610",
+    "word": "환전",
+    "meaning": "money exchange",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '환전'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '환전'.",
+    "tags": [
+      "money",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2611",
+    "word": "환절기",
+    "meaning": "change of seasons",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '환절기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '환절기'.",
+    "tags": [
+      "weather",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2612",
+    "word": "활동",
+    "meaning": "activity",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '활동'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '활동'.",
+    "tags": [
+      "action",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2613",
+    "word": "활동적",
+    "meaning": "active",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '활동적'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '활동적'.",
+    "tags": [
+      "personality",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2614",
+    "word": "활발하다",
+    "meaning": "to be active; lively",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK II",
+    "example": "오늘 '활발하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '활발하다'.",
+    "tags": [
+      "personality",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-2615",
+    "word": "활용",
+    "meaning": "use; application",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '활용'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '활용'.",
+    "tags": [
+      "action",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2616",
+    "word": "활짝",
+    "meaning": "wide open; brightly",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK II",
+    "example": "문장에서 '활짝'를 사용했습니다.",
+    "exampleMeaning": "I used '활짝' in a sentence.",
+    "tags": [
+      "description",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-2617",
+    "word": "황당하다",
+    "meaning": "to be absurd; ridiculous",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK II",
+    "example": "오늘 '황당하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '황당하다'.",
+    "tags": [
+      "feeling",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-2618",
+    "word": "황사",
+    "meaning": "yellow dust",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '황사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '황사'.",
+    "tags": [
+      "weather",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2619",
+    "word": "〜회",
+    "meaning": "time; round; meeting",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '〜회'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '〜회'.",
+    "tags": [
+      "counter",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2620",
+    "word": "회갑",
+    "meaning": "60th birthday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '회갑'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회갑'.",
+    "tags": [
+      "culture",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2621",
+    "word": "회복",
+    "meaning": "recovery",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '회복'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회복'.",
+    "tags": [
+      "health",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2622",
+    "word": "회비",
+    "meaning": "membership fee",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '회비'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회비'.",
+    "tags": [
+      "money",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2623",
+    "word": "회식",
+    "meaning": "company dinner",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '회식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회식'.",
+    "tags": [
+      "work",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2624",
+    "word": "회원",
+    "meaning": "member",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '회원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회원'.",
+    "tags": [
+      "people",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2625",
+    "word": "회의장",
+    "meaning": "meeting hall",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '회의장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회의장'.",
+    "tags": [
+      "place",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2626",
+    "word": "회장",
+    "meaning": "president; chairperson",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '회장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회장'.",
+    "tags": [
+      "people",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2627",
+    "word": "횟수",
+    "meaning": "number of times",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '횟수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '횟수'.",
+    "tags": [
+      "number",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2628",
+    "word": "효과",
+    "meaning": "effect",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '효과'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '효과'.",
+    "tags": [
+      "effect",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2629",
+    "word": "효과적",
+    "meaning": "effective",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '효과적'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '효과적'.",
+    "tags": [
+      "description",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2630",
+    "word": "효녀",
+    "meaning": "good daughter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '효녀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '효녀'.",
+    "tags": [
+      "family",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2631",
+    "word": "효율적",
+    "meaning": "efficient",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '효율적'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '효율적'.",
+    "tags": [
+      "quality",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2632",
+    "word": "후문",
+    "meaning": "back gate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '후문'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '후문'.",
+    "tags": [
+      "place",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2633",
+    "word": "후반",
+    "meaning": "second half",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '후반'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '후반'.",
+    "tags": [
+      "time",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2634",
+    "word": "후반전",
+    "meaning": "second half of a game",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '후반전'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '후반전'.",
+    "tags": [
+      "sports",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2635",
+    "word": "후보",
+    "meaning": "candidate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '후보'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '후보'.",
+    "tags": [
+      "people",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2636",
+    "word": "후식",
+    "meaning": "dessert",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '후식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '후식'.",
+    "tags": [
+      "food",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2637",
+    "word": "후회",
+    "meaning": "regret",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '후회'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '후회'.",
+    "tags": [
+      "feeling",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2638",
+    "word": "훈련",
+    "meaning": "training",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '훈련'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '훈련'.",
+    "tags": [
+      "exercise",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2639",
+    "word": "훌륭하다",
+    "meaning": "to be excellent",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK II",
+    "example": "오늘 '훌륭하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '훌륭하다'.",
+    "tags": [
+      "quality",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-2640",
+    "word": "훔치다",
+    "meaning": "to steal",
+    "partOfSpeech": "verb",
+    "level": "TOPIK II",
+    "example": "오늘 '훔치다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '훔치다'.",
+    "tags": [
+      "law",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-2641",
+    "word": "훨씬",
+    "meaning": "much more",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK II",
+    "example": "문장에서 '훨씬'를 사용했습니다.",
+    "exampleMeaning": "I used '훨씬' in a sentence.",
+    "tags": [
+      "degree",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-2642",
+    "word": "휘발유",
+    "meaning": "gasoline",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '휘발유'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휘발유'.",
+    "tags": [
+      "transportation",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2643",
+    "word": "휴가철",
+    "meaning": "vacation season",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '휴가철'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴가철'.",
+    "tags": [
+      "time",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2644",
+    "word": "휴게실",
+    "meaning": "rest room; lounge",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '휴게실'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴게실'.",
+    "tags": [
+      "place",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2645",
+    "word": "휴대",
+    "meaning": "carrying; portable",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '휴대'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴대'.",
+    "tags": [
+      "object",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2646",
+    "word": "휴대폰",
+    "meaning": "mobile phone",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '휴대폰'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴대폰'.",
+    "tags": [
+      "technology",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2647",
+    "word": "휴식",
+    "meaning": "rest",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '휴식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴식'.",
+    "tags": [
+      "health",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2648",
+    "word": "휴양지",
+    "meaning": "resort area",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '휴양지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴양지'.",
+    "tags": [
+      "travel",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2649",
+    "word": "휴학",
+    "meaning": "leave of absence from school",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '휴학'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴학'.",
+    "tags": [
+      "school",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2650",
+    "word": "흐르다",
+    "meaning": "to flow",
+    "partOfSpeech": "verb",
+    "level": "TOPIK II",
+    "example": "오늘 '흐르다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '흐르다'.",
+    "tags": [
+      "movement",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-2651",
+    "word": "흔들다",
+    "meaning": "to shake",
+    "partOfSpeech": "verb",
+    "level": "TOPIK II",
+    "example": "오늘 '흔들다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '흔들다'.",
+    "tags": [
+      "action",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-2652",
+    "word": "흔들리다",
+    "meaning": "to be shaken",
+    "partOfSpeech": "verb",
+    "level": "TOPIK II",
+    "example": "오늘 '흔들리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '흔들리다'.",
+    "tags": [
+      "movement",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-2653",
+    "word": "흔하다",
+    "meaning": "to be common",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK II",
+    "example": "오늘 '흔하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '흔하다'.",
+    "tags": [
+      "description",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-2654",
+    "word": "흔히",
+    "meaning": "commonly; often",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK II",
+    "example": "문장에서 '흔히'를 사용했습니다.",
+    "exampleMeaning": "I used '흔히' in a sentence.",
+    "tags": [
+      "frequency",
+      "adverb"
+    ]
+  },
+  {
+    "id": "vocab-2655",
+    "word": "흘리다",
+    "meaning": "to spill; to shed",
+    "partOfSpeech": "verb",
+    "level": "TOPIK II",
+    "example": "오늘 '흘리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '흘리다'.",
+    "tags": [
+      "action",
+      "verb"
+    ]
+  },
+  {
+    "id": "vocab-2656",
+    "word": "흙",
+    "meaning": "soil; dirt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '흙'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '흙'.",
+    "tags": [
+      "nature",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2657",
+    "word": "흡연",
+    "meaning": "smoking",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '흡연'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '흡연'.",
+    "tags": [
+      "health",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2658",
+    "word": "흥미",
+    "meaning": "interest",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '흥미'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '흥미'.",
+    "tags": [
+      "feeling",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2659",
+    "word": "흥분",
+    "meaning": "excitement",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '흥분'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '흥분'.",
+    "tags": [
+      "feeling",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2660",
+    "word": "희다",
+    "meaning": "to be white",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK II",
+    "example": "오늘 '희다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '희다'.",
+    "tags": [
+      "color",
+      "adjective"
+    ]
+  },
+  {
+    "id": "vocab-2661",
+    "word": "희망",
+    "meaning": "hope",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '희망'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '희망'.",
+    "tags": [
+      "feeling",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2662",
+    "word": "희망자",
+    "meaning": "applicant; person who wants",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '희망자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '희망자'.",
+    "tags": [
+      "people",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2663",
+    "word": "희생자",
+    "meaning": "victim",
+    "partOfSpeech": "noun",
+    "level": "TOPIK II",
+    "example": "수업에서 '희생자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '희생자'.",
+    "tags": [
+      "people",
+      "noun"
+    ]
+  },
+  {
+    "id": "vocab-2664",
+    "word": "힘껏",
+    "meaning": "with all one’s strength",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK II",
+    "example": "문장에서 '힘껏'를 사용했습니다.",
+    "exampleMeaning": "I used '힘껏' in a sentence.",
+    "tags": [
+      "effort",
+      "adverb"
+    ]
   }
 ];
