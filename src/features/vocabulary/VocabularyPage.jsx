@@ -10,24 +10,36 @@ import SpeakButton from '../../components/ui/SpeakButton';
 import { useLearning } from '../../context/LearningContext';
 import { vocabulary } from '../../data/vocabulary';
 import { usePageMeta } from '../../hooks/usePageMeta';
+import LevelTabs from '../../components/ui/LevelTabs';
+import { countByLevel, levelOf } from '../../lib/levels';
 
 export default function VocabularyPage() {
-  usePageMeta('Vocabulary', 'Review TOPIK II vocabulary and start offline quizzes.');
+  usePageMeta('Vocabulary', 'Review TOPIK I and TOPIK II vocabulary and start offline quizzes.');
   const { vocabProgress, state, isVocabBookmarked, dispatch, getVocabMeaning } = useLearning();
+  const [level, setLevel] = useState('TOPIK II');
   const [query, setQuery] = useState('');
   const [posFilter, setPosFilter] = useState('all');
   const [showSavedOnly, setShowSavedOnly] = useState(false);
   const savedCount = (state.bookmarkedVocabIds || []).length;
 
+  const levelCounts = useMemo(() => countByLevel(vocabulary), []);
+
+  const levelWords = useMemo(() => vocabulary.filter((w) => levelOf(w) === level), [level]);
+
   const partsOfSpeech = useMemo(() => {
-    const set = new Set(vocabulary.map((w) => w.partOfSpeech).filter(Boolean));
+    const set = new Set(levelWords.map((w) => w.partOfSpeech).filter(Boolean));
     return ['all', ...Array.from(set).sort()];
-  }, []);
+  }, [levelWords]);
+
+  const selectLevel = (next) => {
+    setLevel(next);
+    setPosFilter('all');
+  };
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
     const savedIds = state.bookmarkedVocabIds || [];
-    return vocabulary.filter((word) => {
+    return levelWords.filter((word) => {
       if (showSavedOnly && !savedIds.includes(word.id)) return false;
       if (posFilter !== 'all' && word.partOfSpeech !== posFilter) return false;
       if (!q) return true;
@@ -39,7 +51,7 @@ export default function VocabularyPage() {
         (word.example && word.example.toLowerCase().includes(q))
       );
     });
-  }, [query, posFilter, showSavedOnly, state.bookmarkedVocabIds, getVocabMeaning]);
+  }, [levelWords, query, posFilter, showSavedOnly, state.bookmarkedVocabIds, getVocabMeaning]);
 
   return (
     <div className="space-y-5">
@@ -61,11 +73,13 @@ export default function VocabularyPage() {
               {savedCount}
             </span>
           </Link>
-          <Link to="/vocabulary/quiz">
-            <Button icon={Sparkles}>Start quiz</Button>
+          <Link to={`/vocabulary/quiz?level=${encodeURIComponent(level)}`}>
+            <Button icon={Sparkles} disabled={levelWords.length === 0}>Start quiz</Button>
           </Link>
         </div>
       </div>
+
+      <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
 
       <Card>
         <ProgressBar value={vocabProgress} label="Words mastered" />
@@ -132,7 +146,7 @@ export default function VocabularyPage() {
             );
           })}
           <span className="ml-auto self-center text-xs font-semibold text-slate-500 dark:text-slate-400">
-            {filtered.length} of {vocabulary.length}
+            {filtered.length} of {levelWords.length}
           </span>
         </div>
       </div>
@@ -140,14 +154,18 @@ export default function VocabularyPage() {
       {filtered.length === 0 ? (
         <Card className="text-center">
           <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">
-            {showSavedOnly && savedCount === 0
-              ? 'No saved words yet.'
-              : 'No words match your filter.'}
+            {levelWords.length === 0
+              ? `No ${level} words yet.`
+              : showSavedOnly && savedCount === 0
+                ? 'No saved words yet.'
+                : 'No words match your filter.'}
           </p>
           <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
-            {showSavedOnly && savedCount === 0
-              ? 'Tap the star on any word to save it for quick review.'
-              : 'Try clearing the search or selecting another category.'}
+            {levelWords.length === 0
+              ? `Add words with level: '${level}' to src/data/vocabulary.js and they will appear here.`
+              : showSavedOnly && savedCount === 0
+                ? 'Tap the star on any word to save it for quick review.'
+                : 'Try clearing the search or selecting another category.'}
           </p>
         </Card>
       ) : (

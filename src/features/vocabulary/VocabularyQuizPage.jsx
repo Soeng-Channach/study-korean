@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, ArrowRight, Flame, RotateCcw, Sparkles, Target } from 'lucide-react';
 import QuizOption from '../../components/learning/QuizOption';
 import Button from '../../components/ui/Button';
@@ -19,16 +19,25 @@ function shuffle(arr) {
   return a;
 }
 
-function buildOptions(word) {
-  const pool = vocabulary.filter((item) => item.id !== word.id && item.meaning !== word.meaning);
-  const distractors = shuffle(pool).slice(0, 3).map((item) => item.meaning);
+function buildOptions(word, pool) {
+  const distractorPool = pool.filter((item) => item.id !== word.id && item.meaning !== word.meaning);
+  const distractors = shuffle(distractorPool).slice(0, 3).map((item) => item.meaning);
   return shuffle([word.meaning, ...distractors]);
 }
 
 export default function VocabularyQuizPage() {
-  usePageMeta('Vocabulary Quiz', 'Offline TOPIK II vocabulary quiz.');
+  const [searchParams] = useSearchParams();
+  const level = searchParams.get('level');
+  usePageMeta(
+    level ? `${level} Vocabulary Quiz` : 'Vocabulary Quiz',
+    `Offline ${level || 'TOPIK'} vocabulary quiz.`
+  );
   const { dispatch } = useLearning();
-  const [order, setOrder] = useState(() => shuffle(vocabulary.map((_, i) => i)));
+  const levelWords = useMemo(
+    () => (level ? vocabulary.filter((w) => w.level === level) : vocabulary),
+    [level]
+  );
+  const [order, setOrder] = useState(() => shuffle(levelWords.map((_, i) => i)));
   const [index, setIndex] = useState(0);
   const [selected, setSelected] = useState(null);
   const [revealed, setRevealed] = useState(false);
@@ -37,8 +46,8 @@ export default function VocabularyQuizPage() {
   const [bestStreak, setBestStreak] = useState(0);
 
   const finished = index >= order.length;
-  const word = finished ? null : vocabulary[order[index]];
-  const options = useMemo(() => (word ? buildOptions(word) : []), [word]);
+  const word = finished ? null : levelWords[order[index]];
+  const options = useMemo(() => (word ? buildOptions(word, levelWords) : []), [word, levelWords]);
   const correctIndex = word ? options.indexOf(word.meaning) : -1;
   const isLast = index + 1 === order.length;
 
@@ -66,14 +75,14 @@ export default function VocabularyQuizPage() {
   }, []);
 
   const restart = useCallback(() => {
-    setOrder(shuffle(vocabulary.map((_, i) => i)));
+    setOrder(shuffle(levelWords.map((_, i) => i)));
     setIndex(0);
     setSelected(null);
     setRevealed(false);
     setCorrectCount(0);
     setStreak(0);
     setBestStreak(0);
-  }, []);
+  }, [levelWords]);
 
   useEffect(() => {
     function onKey(e) {
@@ -88,6 +97,22 @@ export default function VocabularyQuizPage() {
     window.addEventListener('keydown', onKey);
     return () => window.removeEventListener('keydown', onKey);
   }, [options.length, revealed, selected, submit, next]);
+
+  if (levelWords.length === 0) {
+    return (
+      <div className="mx-auto max-w-2xl space-y-5">
+        <Link to="/vocabulary" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 dark:text-brand-100">
+          <ArrowLeft size={16} /> Back to vocabulary
+        </Link>
+        <Card className="text-center">
+          <h2 className="text-xl font-bold text-slate-950 dark:text-white">No {level} words yet</h2>
+          <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
+            Add {level} vocabulary to start a quiz for this level.
+          </p>
+        </Card>
+      </div>
+    );
+  }
 
   if (finished) {
     const total = order.length;

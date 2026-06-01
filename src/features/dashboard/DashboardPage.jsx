@@ -5,6 +5,7 @@ import { useConfirm } from '../../components/ui/ConfirmDialog';
 import ProgressBar from '../../components/ui/ProgressBar';
 import { useLearning } from '../../context/LearningContext';
 import { usePageMeta } from '../../hooks/usePageMeta';
+import { countByLevel } from '../../lib/levels';
 import { grammarLessons } from '../../data/grammar';
 import { listeningTests } from '../../data/listening';
 import { mockTests } from '../../data/mockTests';
@@ -12,7 +13,7 @@ import { readings } from '../../data/reading';
 import { vocabulary } from '../../data/vocabulary';
 
 export default function DashboardPage() {
-  usePageMeta('Dashboard', 'Track TOPIK II grammar, reading, vocabulary, and mock test progress.');
+  usePageMeta('Dashboard', 'Track TOPIK I and TOPIK II grammar, reading, vocabulary, and mock test progress.');
   const { state, grammarProgress, vocabProgress, dispatch } = useLearning();
   const confirm = useConfirm();
 
@@ -29,9 +30,17 @@ export default function DashboardPage() {
   const quickLinks = [
     { label: 'Grammar', path: '/grammar', icon: BookMarked, count: `${grammarLessons.length} lessons` },
     { label: 'Reading', path: '/reading', icon: Newspaper, count: `${readings.length} passages` },
-    { label: 'Listening', path: '/listening', icon: Headphones, count: `${listeningTests.length} test` },
+    { label: 'Listening', path: '/listening', icon: Headphones, count: `${listeningTests.length} tests` },
     { label: 'Vocabulary', path: '/vocabulary', icon: Languages, count: `${vocabulary.length} words` },
     { label: 'Mock Tests', path: '/mock-tests', icon: ClipboardCheck, count: `${mockTests.length} tests` }
+  ];
+
+  const libraryRows = [
+    { label: 'Grammar', counts: countByLevel(grammarLessons) },
+    { label: 'Vocabulary', counts: countByLevel(vocabulary) },
+    { label: 'Reading', counts: countByLevel(readings) },
+    { label: 'Listening', counts: countByLevel(listeningTests) },
+    { label: 'Mock tests', counts: countByLevel(mockTests) }
   ];
 
   return (
@@ -40,7 +49,7 @@ export default function DashboardPage() {
         <div className="max-w-3xl">
           <p className="text-xs font-semibold text-mint-100 sm:text-sm">Offline-ready Korean learning</p>
           <h2 className="mt-2 text-2xl font-bold leading-tight sm:text-3xl xl:text-4xl">
-            Build steady TOPIK II skill, one focused session at a time.
+            Build steady TOPIK I &amp; II skill, one focused session at a time.
           </h2>
           <p className="mt-3 max-w-2xl text-sm leading-6 text-slate-300">
             Study grammar patterns, practice reading, review vocabulary, save favorites, and keep your progress on this device.
@@ -88,32 +97,26 @@ export default function DashboardPage() {
         </Card>
         <Card>
           <h3 className="text-lg font-bold text-slate-950 dark:text-white">Library</h3>
-          <dl className="mt-5 space-y-4 text-sm">
-            <div className="flex justify-between">
-              <dt className="text-slate-500 dark:text-slate-400">Grammar</dt>
-              <dd className="font-bold">{grammarLessons.length}</dd>
+          <dl className="mt-5 text-sm">
+            <div className="grid grid-cols-[1fr_3.25rem_3.25rem] gap-x-3 pb-2 text-[11px] font-semibold uppercase tracking-wide text-slate-400 dark:text-slate-500">
+              <span />
+              <span className="text-right">TOPIK I</span>
+              <span className="text-right">TOPIK II</span>
             </div>
-            <div className="flex justify-between">
-              <dt className="text-slate-500 dark:text-slate-400">Vocabulary</dt>
-              <dd className="font-bold">{vocabulary.length}</dd>
-            </div>
-            <div className="flex justify-between">
-              <dt className="text-slate-500 dark:text-slate-400">Reading</dt>
-              <dd className="font-bold">{readings.length}</dd>
-            </div>
-            <div className="flex justify-between">
-              <dt className="text-slate-500 dark:text-slate-400">Listening</dt>
-              <dd className="font-bold">{listeningTests.length}</dd>
-            </div>
-            <div className="flex justify-between">
-              <dt className="text-slate-500 dark:text-slate-400">Mock tests</dt>
-              <dd className="font-bold">{mockTests.length}</dd>
-            </div>
-            <div className="flex justify-between">
+            {libraryRows.map((row) => (
+              <div key={row.label} className="grid grid-cols-[1fr_3.25rem_3.25rem] gap-x-3 border-t border-slate-100 py-2 dark:border-slate-800">
+                <dt className="text-slate-500 dark:text-slate-400">{row.label}</dt>
+                <dd className={`text-right font-bold ${row.counts['TOPIK I'] ? '' : 'text-slate-300 dark:text-slate-600'}`}>
+                  {row.counts['TOPIK I']}
+                </dd>
+                <dd className="text-right font-bold">{row.counts['TOPIK II']}</dd>
+              </div>
+            ))}
+            <div className="mt-3 flex justify-between border-t border-slate-100 pt-3 dark:border-slate-800">
               <dt className="text-slate-500 dark:text-slate-400">Saved</dt>
               <dd className="font-bold">{state.bookmarkedGrammarIds.length}</dd>
             </div>
-            <div className="flex justify-between">
+            <div className="mt-3 flex justify-between">
               <dt className="text-slate-500 dark:text-slate-400">Test attempts</dt>
               <dd className="font-bold">{state.mockTestAttempts.length}</dd>
             </div>

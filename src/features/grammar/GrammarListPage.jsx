@@ -1,18 +1,26 @@
+import { useMemo, useState } from 'react';
 import { Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import GrammarCard from '../../components/learning/GrammarCard';
+import Card from '../../components/ui/Card';
+import LevelTabs from '../../components/ui/LevelTabs';
+import { countByLevel, levelOf } from '../../lib/levels';
 import { useLearning } from '../../context/LearningContext';
 import { grammarLessons } from '../../data/grammar';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
 export default function GrammarListPage() {
-  usePageMeta('Grammar', 'Learn essential TOPIK II grammar patterns with examples and bookmarks.');
+  usePageMeta('Grammar', 'Learn essential TOPIK I and TOPIK II grammar patterns with examples and bookmarks.');
   const { state } = useLearning();
   const savedCount = state.bookmarkedGrammarIds.length;
+  const [level, setLevel] = useState('TOPIK II');
+
+  const levelCounts = useMemo(() => countByLevel(grammarLessons), []);
+  const lessons = useMemo(() => grammarLessons.filter((l) => levelOf(l) === level), [level]);
 
   return (
-    <div>
-      <div className="mb-5 flex flex-wrap items-start justify-between gap-3">
+    <div className="space-y-5">
+      <div className="flex flex-wrap items-start justify-between gap-3">
         <div className="min-w-0 flex-1">
           <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Grammar learning</h2>
           <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
@@ -30,11 +38,23 @@ export default function GrammarListPage() {
           </span>
         </Link>
       </div>
-      <div className="grid gap-4 md:grid-cols-2">
-        {grammarLessons.map((lesson) => (
-          <GrammarCard key={lesson.id} lesson={lesson} />
-        ))}
-      </div>
+
+      <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+
+      {lessons.length === 0 ? (
+        <Card className="text-center">
+          <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">No {level} lessons yet.</p>
+          <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+            Add lessons with level: &#39;{level}&#39; to src/data/grammar.js and they will appear here.
+          </p>
+        </Card>
+      ) : (
+        <div className="grid gap-4 md:grid-cols-2">
+          {lessons.map((lesson) => (
+            <GrammarCard key={lesson.id} lesson={lesson} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }

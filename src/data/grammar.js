@@ -2651,6 +2651,1602 @@ const grammarLessonData = [
     ],
     similarPatterns: ['-에 비해(서)', '-답게'],
     tags: ['evaluation', 'comparison']
+  },
+  {
+    "id": "topik-i-grammar-001",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "이/가",
+    "meaning": "subject marker",
+    "explanation": "Shows the subject of the sentence.",
+    "examples": [
+      {
+        "korean": "날씨가 좋아요.",
+        "english": "The weather is good."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-002",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "은/는",
+    "meaning": "topic marker",
+    "explanation": "Shows the topic you are talking about.",
+    "examples": [
+      {
+        "korean": "선생님은 지금 안 계세요.",
+        "english": "The teacher is not here now."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-003",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "을/를",
+    "meaning": "object marker",
+    "explanation": "Shows the object of an action.",
+    "examples": [
+      {
+        "korean": "책을 읽어요.",
+        "english": "I am reading a book."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-004",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "와/과",
+    "meaning": "and",
+    "explanation": "Connects nouns. Use 와 after a vowel and 과 after a consonant.",
+    "examples": [
+      {
+        "korean": "소설책과 교과서를 가져왔어요.",
+        "english": "I brought a novel and a textbook."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-005",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "(이)랑",
+    "meaning": "and",
+    "explanation": "Connects nouns in casual speech.",
+    "examples": [
+      {
+        "korean": "설렁탕이랑 김밥 주세요.",
+        "english": "Please give me seolleongtang and kimbap."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-006",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "(이)랑",
+    "meaning": "with",
+    "explanation": "Means together with someone or something.",
+    "examples": [
+      {
+        "korean": "친구랑 같이 왔어요.",
+        "english": "I came with a friend."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-007",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "하고",
+    "meaning": "and",
+    "explanation": "Connects nouns in speech.",
+    "examples": [
+      {
+        "korean": "양념 치킨하고 맥주 주세요.",
+        "english": "Please give me yangnyeom chicken and beer."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-008",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "도",
+    "meaning": "also",
+    "explanation": "Adds the meaning also or too.",
+    "examples": [
+      {
+        "korean": "내일도 오늘도 비가 와요.",
+        "english": "It is raining today and tomorrow too."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-009",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "에",
+    "meaning": "to",
+    "explanation": "Shows a destination, place, or time.",
+    "examples": [
+      {
+        "korean": "남대문 시장에 가고 싶어요.",
+        "english": "I want to go to Namdaemun market."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-010",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "에서",
+    "meaning": "from; at",
+    "explanation": "Shows where an action happens or starts.",
+    "examples": [
+      {
+        "korean": "공항에서 지하철 타고 왔어요.",
+        "english": "I came by subway from the airport."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-011",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "까지",
+    "meaning": "until; to",
+    "explanation": "Shows the end point.",
+    "examples": [
+      {
+        "korean": "강남까지 가고 싶어요.",
+        "english": "I want to go to Gangnam."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-012",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "부터",
+    "meaning": "from",
+    "explanation": "Shows the start point.",
+    "examples": [
+      {
+        "korean": "지하철은 아침 5시부터 운영해요.",
+        "english": "The subway runs from 5 a.m."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-013",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "(으)로",
+    "meaning": "to; by; with",
+    "explanation": "Shows direction, tool, or method.",
+    "examples": [
+      {
+        "korean": "저는 부산으로 가요.",
+        "english": "I am going to Busan."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-014",
+    "level": "TOPIK I",
+    "category": "Honorifics",
+    "pattern": "께",
+    "meaning": "to (polite)",
+    "explanation": "Polite form of 에게.",
+    "examples": [
+      {
+        "korean": "부모님께 드리고 싶어요.",
+        "english": "I want to give it to my parents."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "honorifics"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-015",
+    "level": "TOPIK I",
+    "category": "Honorifics",
+    "pattern": "께서",
+    "meaning": "subject marker (honorific)",
+    "explanation": "Polite subject marker for respected people.",
+    "examples": [
+      {
+        "korean": "할머니께서 부탁하셨어요.",
+        "english": "My grandmother asked me."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "honorifics"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-016",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "에게",
+    "meaning": "to",
+    "explanation": "Shows the person receiving something.",
+    "examples": [
+      {
+        "korean": "우리 엄마에게 주고 싶어요.",
+        "english": "I want to give it to my mother."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-017",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "에게서",
+    "meaning": "from",
+    "explanation": "Shows the person something comes from.",
+    "examples": [
+      {
+        "korean": "호텔 직원에게서 받았어요.",
+        "english": "I got it from the hotel staff."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-018",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "한테",
+    "meaning": "to",
+    "explanation": "Casual spoken form of 에게.",
+    "examples": [
+      {
+        "korean": "백화점 안내원한테 물어보세요.",
+        "english": "Please ask the department store receptionist."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-019",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "한테서",
+    "meaning": "from",
+    "explanation": "Casual spoken form of 에게서.",
+    "examples": [
+      {
+        "korean": "이거는 친구한테서 선물로 받은 거예요.",
+        "english": "I got this as a present from my friend."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-020",
+    "level": "TOPIK I",
+    "category": "Choice",
+    "pattern": "(이)나",
+    "meaning": "or",
+    "explanation": "Shows a choice between nouns.",
+    "examples": [
+      {
+        "korean": "버스나 지하철 타고 갈게요.",
+        "english": "I will take a bus or subway."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "choice"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-021",
+    "level": "TOPIK I",
+    "category": "Choice",
+    "pattern": "(이)나",
+    "meaning": "rather",
+    "explanation": "Shows a casual choice when something is not special.",
+    "examples": [
+      {
+        "korean": "밥이나 먹으러 가고 싶어요.",
+        "english": "I just want to go eat."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "choice"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-022",
+    "level": "TOPIK I",
+    "category": "Emphasis",
+    "pattern": "(이)나",
+    "meaning": "even",
+    "explanation": "Shows the amount is more than expected.",
+    "examples": [
+      {
+        "korean": "쇼핑하는데 열 시간이나 걸렸어요.",
+        "english": "It took even ten hours to shop."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "emphasis"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-023",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "만",
+    "meaning": "only",
+    "explanation": "Shows only this and nothing else.",
+    "examples": [
+      {
+        "korean": "지금 5000원만 있어요.",
+        "english": "I only have 5000 won now."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-024",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "의",
+    "meaning": "of; possessive",
+    "explanation": "Shows possession or relation.",
+    "examples": [
+      {
+        "korean": "내 친구의 그림은 아주 멋져요.",
+        "english": "My friend’s drawing is very nice."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-025",
+    "level": "TOPIK I",
+    "category": "Time",
+    "pattern": "마다",
+    "meaning": "every; whenever",
+    "explanation": "Means every time or each.",
+    "examples": [
+      {
+        "korean": "한국에 올 때마다 이 가게를 찾아요.",
+        "english": "I visit this shop whenever I come to Korea."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-026",
+    "level": "TOPIK I",
+    "category": "Particles",
+    "pattern": "밖에",
+    "meaning": "only",
+    "explanation": "Used with negative words to mean only.",
+    "examples": [
+      {
+        "korean": "시간이 한 시간밖에 없어요.",
+        "english": "There is only one hour."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "particles"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-027",
+    "level": "TOPIK I",
+    "category": "Comparison",
+    "pattern": "보다",
+    "meaning": "than",
+    "explanation": "Compares two things.",
+    "examples": [
+      {
+        "korean": "이것보다 이게 더 어울려요.",
+        "english": "This looks better than this one."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "comparison"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-028",
+    "level": "TOPIK I",
+    "category": "Comparison",
+    "pattern": "처럼",
+    "meaning": "like",
+    "explanation": "Means similar to or like.",
+    "examples": [
+      {
+        "korean": "배우처럼 생기셨네요.",
+        "english": "You look like an actor."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "comparison"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-029",
+    "level": "TOPIK I",
+    "category": "Guess",
+    "pattern": "(으)ㄴ 것 같다",
+    "meaning": "I think",
+    "explanation": "Use for a guess about a present or past state.",
+    "examples": [
+      {
+        "korean": "택시 비용이 좀 비싼 것 같아요.",
+        "english": "I think the taxi fare is a little expensive."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "guess"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-030",
+    "level": "TOPIK I",
+    "category": "Guess",
+    "pattern": "(으)ㄹ 것 같다",
+    "meaning": "I guess",
+    "explanation": "Use for a guess about the future.",
+    "examples": [
+      {
+        "korean": "이 화장품은 인기가 많을 것 같아요.",
+        "english": "I guess this cosmetic will be popular."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "guess"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-031",
+    "level": "TOPIK I",
+    "category": "Experience",
+    "pattern": "(으)ㄴ 적이 있다",
+    "meaning": "have done",
+    "explanation": "Says you have had an experience.",
+    "examples": [
+      {
+        "korean": "이 가게에 와 본 적이 있어요.",
+        "english": "I have been to this store."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "experience"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-032",
+    "level": "TOPIK I",
+    "category": "Experience",
+    "pattern": "(으)ㄴ 적이 없다",
+    "meaning": "have not done",
+    "explanation": "Says you have not had an experience.",
+    "examples": [
+      {
+        "korean": "저는 한국에 가 본 적이 없어요.",
+        "english": "I have not been to Korea."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "experience"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-033",
+    "level": "TOPIK I",
+    "category": "Time",
+    "pattern": "(으)ㄴ 지",
+    "meaning": "how long since",
+    "explanation": "Asks how much time has passed since something happened.",
+    "examples": [
+      {
+        "korean": "이 가게가 생긴 지 얼마나 됐어요?",
+        "english": "How long has it been since this store opened?"
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-034",
+    "level": "TOPIK I",
+    "category": "Time",
+    "pattern": "(으)ㄴ 지",
+    "meaning": "since",
+    "explanation": "Says time has passed since something happened.",
+    "examples": [
+      {
+        "korean": "한국에 온 지 3일이 지났습니다.",
+        "english": "Three days have passed since I came to Korea."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-035",
+    "level": "TOPIK I",
+    "category": "Time",
+    "pattern": "(으)ㄴ 후에",
+    "meaning": "after",
+    "explanation": "Means after doing something.",
+    "examples": [
+      {
+        "korean": "쇼핑한 후에 밥 먹었습니다.",
+        "english": "I ate after shopping."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-036",
+    "level": "TOPIK I",
+    "category": "Contrast",
+    "pattern": "(으)ㄴ데요",
+    "meaning": "although",
+    "explanation": "Gives background or a soft contrast.",
+    "examples": [
+      {
+        "korean": "역에서 좀 먼데요.",
+        "english": "It is a little far from the station."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "contrast"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-037",
+    "level": "TOPIK I",
+    "category": "Softener",
+    "pattern": "(으)ㄴ데요",
+    "meaning": "but",
+    "explanation": "Softly starts a request or question.",
+    "examples": [
+      {
+        "korean": "죄송한데요, 길 좀 알려 줄 수 있어요?",
+        "english": "Excuse me, but can you tell me the way?"
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "softener"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-038",
+    "level": "TOPIK I",
+    "category": "Reason",
+    "pattern": "(으)니까",
+    "meaning": "because; since",
+    "explanation": "Gives a reason.",
+    "examples": [
+      {
+        "korean": "달러밖에 없으니까 환전해야 돼요.",
+        "english": "I need to exchange money because I only have dollars."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "reason"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-039",
+    "level": "TOPIK I",
+    "category": "Future",
+    "pattern": "(으)ㄹ 것이다",
+    "meaning": "will",
+    "explanation": "Talks about the future or a guess.",
+    "examples": [
+      {
+        "korean": "여기 식당은 맛있을 거예요.",
+        "english": "The restaurant here will be delicious."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "future"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-040",
+    "level": "TOPIK I",
+    "category": "Time",
+    "pattern": "(으)ㄹ 때",
+    "meaning": "when",
+    "explanation": "Means when something happens.",
+    "examples": [
+      {
+        "korean": "내가 버스 타고 있었을 때 잃어버렸어요.",
+        "english": "I lost it when I was on the bus."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-041",
+    "level": "TOPIK I",
+    "category": "Ability",
+    "pattern": "(으)ㄹ 수 있다",
+    "meaning": "can",
+    "explanation": "Shows ability or possibility.",
+    "examples": [
+      {
+        "korean": "저는 한국말 조금 할 수 있어요.",
+        "english": "I can speak Korean a little."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "ability"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-042",
+    "level": "TOPIK I",
+    "category": "Ability",
+    "pattern": "(으)ㄹ 수 없다",
+    "meaning": "cannot",
+    "explanation": "Shows no ability or no possibility.",
+    "examples": [
+      {
+        "korean": "여기서는 사진을 찍을 수 없어요.",
+        "english": "You cannot take photos here."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "ability"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-043",
+    "level": "TOPIK I",
+    "category": "Promise",
+    "pattern": "(으)ㄹ게요",
+    "meaning": "I will",
+    "explanation": "Shows the speaker’s promise or decision.",
+    "examples": [
+      {
+        "korean": "제가 할게요.",
+        "english": "I will do it."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "promise"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-044",
+    "level": "TOPIK I",
+    "category": "Plan",
+    "pattern": "(으)ㄹ까 하다",
+    "meaning": "thinking of",
+    "explanation": "Shows a plan you are thinking about.",
+    "examples": [
+      {
+        "korean": "명동에 갈까 해요.",
+        "english": "I am thinking of going to Myeongdong."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "plan"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-045",
+    "level": "TOPIK I",
+    "category": "Worry",
+    "pattern": "(으)ㄹ까 봐",
+    "meaning": "worried that",
+    "explanation": "Shows worry about something.",
+    "examples": [
+      {
+        "korean": "현금이 모자랄까 봐 걱정했어요.",
+        "english": "I was worried that I would not have enough cash."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "worry"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-046",
+    "level": "TOPIK I",
+    "category": "Suggestion",
+    "pattern": "(으)ㄹ까요?",
+    "meaning": "should we?",
+    "explanation": "Asks for suggestion or opinion.",
+    "examples": [
+      {
+        "korean": "여기서 걸어갈까요?",
+        "english": "Should we walk from here?"
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "suggestion"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-047",
+    "level": "TOPIK I",
+    "category": "Choice",
+    "pattern": "(으)ㄹ래요",
+    "meaning": "I will; I want",
+    "explanation": "Shows the speaker’s choice or wish.",
+    "examples": [
+      {
+        "korean": "저는 이걸로 할래요.",
+        "english": "I will choose this one."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "choice"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-048",
+    "level": "TOPIK I",
+    "category": "Question",
+    "pattern": "(으)ㄹ래요?",
+    "meaning": "would you like?",
+    "explanation": "Asks another person’s choice.",
+    "examples": [
+      {
+        "korean": "이걸로 계산하실래요?",
+        "english": "Would you like to pay with this?"
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "question"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-049",
+    "level": "TOPIK I",
+    "category": "Purpose",
+    "pattern": "(으)러 가다",
+    "meaning": "go to do",
+    "explanation": "Means go somewhere in order to do something.",
+    "examples": [
+      {
+        "korean": "한국에 관광하러 갈 거예요.",
+        "english": "I will go to Korea to travel."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "purpose"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-050",
+    "level": "TOPIK I",
+    "category": "Purpose",
+    "pattern": "(으)러 오다",
+    "meaning": "come to do",
+    "explanation": "Means come somewhere in order to do something.",
+    "examples": [
+      {
+        "korean": "여기에 예약하러 왔어요.",
+        "english": "I came here to make a reservation."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "purpose"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-051",
+    "level": "TOPIK I",
+    "category": "Plan",
+    "pattern": "(으)려고",
+    "meaning": "going to",
+    "explanation": "Shows intention or plan.",
+    "examples": [
+      {
+        "korean": "한국말을 공부하려고 해요.",
+        "english": "I am going to study Korean."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "plan"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-052",
+    "level": "TOPIK I",
+    "category": "Plan",
+    "pattern": "(으)려고요",
+    "meaning": "planning to",
+    "explanation": "Softly says a plan.",
+    "examples": [
+      {
+        "korean": "아이돌 콘서트에 가려고요.",
+        "english": "I am going to go to an idol concert."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "plan"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-053",
+    "level": "TOPIK I",
+    "category": "Condition",
+    "pattern": "(으)면",
+    "meaning": "if",
+    "explanation": "Shows a condition.",
+    "examples": [
+      {
+        "korean": "부산에 가면 뭘 볼 수 있을까요?",
+        "english": "What can I see if I go to Busan?"
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "condition"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-054",
+    "level": "TOPIK I",
+    "category": "Time",
+    "pattern": "(으)면서",
+    "meaning": "while",
+    "explanation": "Shows two actions happen together.",
+    "examples": [
+      {
+        "korean": "핸드폰을 보면서 걷지 마세요.",
+        "english": "Do not walk while looking at your phone."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-055",
+    "level": "TOPIK I",
+    "category": "Suggestion",
+    "pattern": "(으)ㅂ시다",
+    "meaning": "let’s",
+    "explanation": "Makes a polite suggestion.",
+    "examples": [
+      {
+        "korean": "순두부를 주문해 봅시다.",
+        "english": "Let’s order sundubu."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "suggestion"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-056",
+    "level": "TOPIK I",
+    "category": "Request",
+    "pattern": "(으)세요",
+    "meaning": "please do",
+    "explanation": "Polite request or command.",
+    "examples": [
+      {
+        "korean": "삼겹살 2인분 주세요.",
+        "english": "Please give us two servings of samgyeopsal."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "request"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-057",
+    "level": "TOPIK I",
+    "category": "Request",
+    "pattern": "(으)십시오",
+    "meaning": "please do",
+    "explanation": "Formal polite request or command.",
+    "examples": [
+      {
+        "korean": "또 놀러 오십시오.",
+        "english": "Please visit us again."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "request"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-058",
+    "level": "TOPIK I",
+    "category": "Confirmation",
+    "pattern": "(이)지요?",
+    "meaning": "right?",
+    "explanation": "Checks if something is true.",
+    "examples": [
+      {
+        "korean": "카드로 계산 되지요?",
+        "english": "I can pay by card, right?"
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "confirmation"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-059",
+    "level": "TOPIK I",
+    "category": "Choice",
+    "pattern": "거나",
+    "meaning": "or",
+    "explanation": "Connects actions as choices.",
+    "examples": [
+      {
+        "korean": "시장에 가거나 카페에 가고 싶어요.",
+        "english": "I want to go to a market or a cafe."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "choice"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-060",
+    "level": "TOPIK I",
+    "category": "Adverb",
+    "pattern": "게",
+    "meaning": "in a way",
+    "explanation": "Changes an adjective into an adverb.",
+    "examples": [
+      {
+        "korean": "싸게 해 주세요.",
+        "english": "Please make it cheap."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-061",
+    "level": "TOPIK I",
+    "category": "Change",
+    "pattern": "게 되다",
+    "meaning": "happen to",
+    "explanation": "Shows a change or result.",
+    "examples": [
+      {
+        "korean": "한국에 오게 됐어요.",
+        "english": "I happened to come to Korea."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "change"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-062",
+    "level": "TOPIK I",
+    "category": "Connection",
+    "pattern": "고",
+    "meaning": "and then",
+    "explanation": "Connects actions or states.",
+    "examples": [
+      {
+        "korean": "밥 먹고 자요.",
+        "english": "I will eat and sleep."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "connection"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-063",
+    "level": "TOPIK I",
+    "category": "Wish",
+    "pattern": "고 싶다",
+    "meaning": "want to",
+    "explanation": "Shows desire.",
+    "examples": [
+      {
+        "korean": "약국에 가고 싶어요.",
+        "english": "I want to go to the pharmacy."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "wish"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-064",
+    "level": "TOPIK I",
+    "category": "Progress",
+    "pattern": "고 있다",
+    "meaning": "be doing",
+    "explanation": "Shows an action is happening now.",
+    "examples": [
+      {
+        "korean": "지금 무슨 말 할까 생각하고 있어요.",
+        "english": "I am thinking about what to say now."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "progress"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-065",
+    "level": "TOPIK I",
+    "category": "Realization",
+    "pattern": "군요",
+    "meaning": "I see",
+    "explanation": "Shows you newly realize something.",
+    "examples": [
+      {
+        "korean": "여기 쭉 가면 되는군요.",
+        "english": "I see, I can go straight this way."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "realization"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-066",
+    "level": "TOPIK I",
+    "category": "Reason",
+    "pattern": "기 때문에",
+    "meaning": "because",
+    "explanation": "Gives a reason.",
+    "examples": [
+      {
+        "korean": "너무 많이 걸었기 때문에 다리가 아파요.",
+        "english": "My legs hurt because I walked too much."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "reason"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-067",
+    "level": "TOPIK I",
+    "category": "Time",
+    "pattern": "기 전에",
+    "meaning": "before",
+    "explanation": "Means before doing something.",
+    "examples": [
+      {
+        "korean": "결제하기 전에 확인하고 싶은 게 있는데요.",
+        "english": "I want to check something before paying."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-068",
+    "level": "TOPIK I",
+    "category": "Decision",
+    "pattern": "기로 하다",
+    "meaning": "decide to",
+    "explanation": "Shows a decision.",
+    "examples": [
+      {
+        "korean": "오늘은 쇼핑하기로 했어요.",
+        "english": "I decided to go shopping today."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "decision"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-069",
+    "level": "TOPIK I",
+    "category": "Realization",
+    "pattern": "네요",
+    "meaning": "I see; right?",
+    "explanation": "Shows surprise or realization.",
+    "examples": [
+      {
+        "korean": "다 합쳐서 4000원이네요.",
+        "english": "So it is 4000 won all together."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "realization"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-070",
+    "level": "TOPIK I",
+    "category": "Advice",
+    "pattern": "는 게 좋겠다",
+    "meaning": "it is better to",
+    "explanation": "Gives advice.",
+    "examples": [
+      {
+        "korean": "시간이 없으니까 빨리 가는 게 좋겠어요.",
+        "english": "We should hurry because we do not have time."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "advice"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-071",
+    "level": "TOPIK I",
+    "category": "Time",
+    "pattern": "는데",
+    "meaning": "for; while",
+    "explanation": "Shows time used for an action.",
+    "examples": [
+      {
+        "korean": "입국심사하는데 별로 많이 안 기다렸어요.",
+        "english": "I did not wait long for immigration."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-072",
+    "level": "TOPIK I",
+    "category": "Formal Style",
+    "pattern": "ㅂ/습니까?",
+    "meaning": "formal question",
+    "explanation": "Formal polite question ending.",
+    "examples": [
+      {
+        "korean": "언제 한국에 갑니까?",
+        "english": "When are you going to Korea?"
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "formal-style"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-073",
+    "level": "TOPIK I",
+    "category": "Formal Style",
+    "pattern": "ㅂ/습니다",
+    "meaning": "formal statement",
+    "explanation": "Formal polite statement ending.",
+    "examples": [
+      {
+        "korean": "내일 한국에 갑니다.",
+        "english": "I am going to Korea tomorrow."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "formal-style"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-074",
+    "level": "TOPIK I",
+    "category": "Try",
+    "pattern": "아/어/여 보다",
+    "meaning": "try doing",
+    "explanation": "Means try doing something.",
+    "examples": [
+      {
+        "korean": "이것도 시식해 보세요.",
+        "english": "Please try eating this too."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "try"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-075",
+    "level": "TOPIK I",
+    "category": "Help",
+    "pattern": "아/어/여 주다",
+    "meaning": "do for someone",
+    "explanation": "Shows doing something for someone.",
+    "examples": [
+      {
+        "korean": "알려줘서 고마워요.",
+        "english": "Thank you for telling me."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "help"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-076",
+    "level": "TOPIK I",
+    "category": "Need",
+    "pattern": "아/어/여야 되다",
+    "meaning": "need to; must",
+    "explanation": "Shows obligation or need.",
+    "examples": [
+      {
+        "korean": "한국어를 공부해야 돼요.",
+        "english": "I need to study Korean."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "need"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-077",
+    "level": "TOPIK I",
+    "category": "Need",
+    "pattern": "아/어/여야 하다",
+    "meaning": "need to; must",
+    "explanation": "Shows obligation or need.",
+    "examples": [
+      {
+        "korean": "차 타고 가야 해요.",
+        "english": "I need to go by car."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "need"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-078",
+    "level": "TOPIK I",
+    "category": "Polite Style",
+    "pattern": "아/어요",
+    "meaning": "polite ending",
+    "explanation": "Informal polite sentence ending.",
+    "examples": [
+      {
+        "korean": "좋아요.",
+        "english": "That is good."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "polite-style"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-079",
+    "level": "TOPIK I",
+    "category": "Wish",
+    "pattern": "았/었/였으면 좋겠다",
+    "meaning": "hope; wish",
+    "explanation": "Shows hope or wish.",
+    "examples": [
+      {
+        "korean": "빨리 배달 왔으면 좋겠어요.",
+        "english": "I hope the delivery comes soon."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "wish"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-080",
+    "level": "TOPIK I",
+    "category": "Prohibition",
+    "pattern": "지 말다",
+    "meaning": "do not",
+    "explanation": "Tells someone not to do something.",
+    "examples": [
+      {
+        "korean": "담배 피우지 마세요.",
+        "english": "Please do not smoke."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "prohibition"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-081",
+    "level": "TOPIK I",
+    "category": "Inability",
+    "pattern": "지 못하다",
+    "meaning": "cannot",
+    "explanation": "Shows inability or failure.",
+    "examples": [
+      {
+        "korean": "도와주지 못해서 죄송해요.",
+        "english": "I am sorry that I cannot help."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "inability"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-082",
+    "level": "TOPIK I",
+    "category": "Negative",
+    "pattern": "지 않다",
+    "meaning": "not",
+    "explanation": "Makes a verb or adjective negative.",
+    "examples": [
+      {
+        "korean": "지하철 타지 않고 걸어갈게요.",
+        "english": "I will not take the subway and will walk."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "negative"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-083",
+    "level": "TOPIK I",
+    "category": "Contrast",
+    "pattern": "지만",
+    "meaning": "but",
+    "explanation": "Connects a contrast.",
+    "examples": [
+      {
+        "korean": "오래 전에 주문했지만 요리가 아직 안 왔어요.",
+        "english": "We ordered a while ago, but the food is not here yet."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "contrast"
+    ]
+  },
+  {
+    "id": "topik-i-grammar-084",
+    "level": "TOPIK I",
+    "category": "Negative",
+    "pattern": "이/가 아니다",
+    "meaning": "not be",
+    "explanation": "Says something is not a noun.",
+    "examples": [
+      {
+        "korean": "제 물건이 아니에요.",
+        "english": "That is not mine."
+      }
+    ],
+    "similarPatterns": [],
+    "tags": [
+      "topik-i",
+      "negative"
+    ]
   }
 ];
 
@@ -3603,8 +5199,102 @@ const usageOverrides = {
   }
 };
 
+const topikIUsageOverrides = Object.fromEntries([
+  ['001', 'Not used directly', 'Not used directly', 'N이/가', 'Use after a noun to show the subject.'],
+  ['002', 'Not used directly', 'Not used directly', 'N은/는', 'Use after a noun to show the topic.'],
+  ['003', 'Not used directly', 'Not used directly', 'N을/를', 'Use after a noun to show the object.'],
+  ['004', 'Not used directly', 'Not used directly', 'N와/과 N', 'Use between two nouns.'],
+  ['005', 'Not used directly', 'Not used directly', 'N(이)랑 N', 'Use between two nouns in speech.'],
+  ['006', 'Not used directly', 'Not used directly', 'N(이)랑', 'Use after a noun to mean with someone.'],
+  ['007', 'Not used directly', 'Not used directly', 'N하고 N', 'Use between two nouns in speech.'],
+  ['008', 'Not used directly', 'Not used directly', 'N도', 'Use after a noun to mean also.'],
+  ['009', 'Not used directly', 'Not used directly', 'N에', 'Use after a place or time noun.'],
+  ['010', 'Not used directly', 'Not used directly', 'N에서', 'Use after a place where an action happens.'],
+  ['011', 'Not used directly', 'Not used directly', 'N까지', 'Use after a noun to show the end point.'],
+  ['012', 'Not used directly', 'Not used directly', 'N부터', 'Use after a noun to show the start point.'],
+  ['013', 'Not used directly', 'Not used directly', 'N(으)로', 'Use after a noun for way, tool, or direction.'],
+  ['014', 'Not used directly', 'Not used directly', 'N께', 'Polite form of 에게.'],
+  ['015', 'Not used directly', 'Not used directly', 'N께서', 'Polite form of 이/가.'],
+  ['016', 'Not used directly', 'Not used directly', 'N에게', 'Use after a person or animal.'],
+  ['017', 'Not used directly', 'Not used directly', 'N에게서', 'Use after a person to mean from.'],
+  ['018', 'Not used directly', 'Not used directly', 'N한테', 'Spoken form of 에게.'],
+  ['019', 'Not used directly', 'Not used directly', 'N한테서', 'Spoken form of 에게서.'],
+  ['020', 'Not used directly', 'Not used directly', 'N(이)나', 'Use after a noun to show choice.'],
+  ['021', 'Not used directly', 'Not used directly', 'N(이)나', 'Use after a noun to show amount is more than expected.'],
+  ['022', 'Not used directly', 'Not used directly', 'N(이)나', 'Use after a noun to mean or so.'],
+  ['023', 'Not used directly', 'Not used directly', 'N만', 'Use after a noun to mean only.'],
+  ['024', 'Not used directly', 'Not used directly', 'N의 N', 'Use between nouns to show possession or relation.'],
+  ['025', 'Not used directly', 'Not used directly', 'N마다', 'Use after a noun to mean every.'],
+  ['026', 'Not used directly', 'Not used directly', 'N밖에 + negative', 'Use with a negative verb to mean only.'],
+  ['027', 'Not used directly', 'Not used directly', 'N보다', 'Use after the thing you compare with.'],
+  ['028', 'Not used directly', 'Not used directly', 'N처럼', 'Use after a noun to mean like.'],
+  ['029', 'V-(으)ㄴ 것 같다', 'A-(으)ㄴ 것 같다', 'N인 것 같다', 'Use for a guess about now or the past.'],
+  ['030', 'V-(으)ㄹ 것 같다', 'A-(으)ㄹ 것 같다', 'N일 것 같다', 'Use for a guess about the future.'],
+  ['031', 'V-(으)ㄴ 적이 있다', 'Not used', 'Not used', 'Use with action verbs for past experience.'],
+  ['032', 'V-(으)ㄴ 적이 없다', 'Not used', 'Not used', 'Use with action verbs for no past experience.'],
+  ['033', 'V-(으)ㄴ 지 + time', 'Not used', 'Not used', 'Use with action verbs to show time since an action.'],
+  ['034', 'V-(으)ㄴ 지 알다/모르다', 'A-(으)ㄴ지 알다/모르다', 'N인지 알다/모르다', 'Use to say know or do not know.'],
+  ['035', 'V-(으)ㄴ 후에', 'Not used', 'N 후에', 'Use to say after something.'],
+  ['036', 'V-(으)ㄴ데요', 'A-(으)ㄴ데요', 'N인데요', 'Use as a soft sentence ending.'],
+  ['037', 'V-(으)ㄴ데요', 'A-(으)ㄴ데요', 'N인데요', 'Use to give background softly.'],
+  ['038', 'V-(으)니까', 'A-(으)니까', 'N이니까', 'Use to give a reason.'],
+  ['039', 'V-(으)ㄹ 것이다', 'A-(으)ㄹ 것이다', 'N일 것이다', 'Use for future or guess.'],
+  ['040', 'V-(으)ㄹ 때', 'A-(으)ㄹ 때', 'N일 때', 'Use to mean when.'],
+  ['041', 'V-(으)ㄹ 수 있다', 'Not used', 'Not used', 'Use with action verbs to say can.'],
+  ['042', 'V-(으)ㄹ 수 없다', 'Not used', 'Not used', 'Use with action verbs to say cannot.'],
+  ['043', 'V-(으)ㄹ게요', 'Not used', 'Not used', 'Use with action verbs to make a promise.'],
+  ['044', 'V-(으)ㄹ까 하다', 'Not used', 'Not used', 'Use with action verbs for a soft plan.'],
+  ['045', 'V-(으)ㄹ까 봐', 'A-(으)ㄹ까 봐', 'N일까 봐', 'Use when you worry something may happen.'],
+  ['046', 'V-(으)ㄹ까요?', 'A-(으)ㄹ까요?', 'N일까요?', 'Use to ask for an idea or suggestion.'],
+  ['047', 'V-(으)ㄹ래요', 'Not used', 'Not used', 'Use with action verbs to say I want or I will.'],
+  ['048', 'V-(으)ㄹ래요?', 'Not used', 'Not used', 'Use with action verbs to ask what someone wants.'],
+  ['049', 'V-(으)러 가다', 'Not used', 'Not used', 'Use with action verbs to show purpose for going.'],
+  ['050', 'V-(으)러 오다', 'Not used', 'Not used', 'Use with action verbs to show purpose for coming.'],
+  ['051', 'V-(으)려고', 'Not used', 'Not used', 'Use with action verbs to show intention.'],
+  ['052', 'V-(으)려고요', 'Not used', 'Not used', 'Use with action verbs to answer with a plan.'],
+  ['053', 'V-(으)면', 'A-(으)면', 'N이면', 'Use to mean if.'],
+  ['054', 'V-(으)면서', 'Not commonly used', 'N이면서', 'Use to show two things happen or are true together.'],
+  ['055', 'V-(으)ㅂ시다', 'Not used', 'Not used', 'Use with action verbs to say let us.'],
+  ['056', 'V-(으)세요', 'Not used', 'Not used', 'Use with action verbs for a polite command.'],
+  ['057', 'V-(으)십시오', 'Not used', 'Not used', 'Use with action verbs for a formal command.'],
+  ['058', 'V-지요?', 'A-지요?', 'N(이)지요?', 'Use to confirm something.'],
+  ['059', 'V-거나', 'A-거나', 'N이거나', 'Use to mean or.'],
+  ['060', 'V-게', 'A-게', 'Not used directly', 'Use to change a verb or adjective into an adverb form.'],
+  ['061', 'V-게 되다', 'A-게 되다', 'Not used', 'Use to show a change or result.'],
+  ['062', 'V-고', 'A-고', 'N이고', 'Use to connect two ideas.'],
+  ['063', 'V-고 싶다', 'Not used', 'Not used', 'Use with action verbs to say want to.'],
+  ['064', 'V-고 있다', 'Not used', 'Not used', 'Use with action verbs to show now doing.'],
+  ['065', 'V-는군요', 'A-군요', 'N이군요', 'Use when you notice something.'],
+  ['066', 'V-기 때문에', 'A-기 때문에', 'N이기 때문에', 'Use to give a reason.'],
+  ['067', 'V-기 전에', 'Not used', 'N 전에', 'Use to say before something.'],
+  ['068', 'V-기로 하다', 'Not used', 'Not used', 'Use with action verbs to say decided to.'],
+  ['069', 'V-네요', 'A-네요', 'N이네요', 'Use when you notice something.'],
+  ['070', 'V-는 게 좋겠다', 'Not used', 'Not used', 'Use with action verbs to give advice.'],
+  ['071', 'V-는데', 'A-(으)ㄴ데', 'N인데', 'Use for background or contrast.'],
+  ['072', 'V/A-ㅂ니까? / 습니까?', 'V/A-ㅂ니까? / 습니까?', 'N입니까?', 'Use for a formal question.'],
+  ['073', 'V/A-ㅂ니다 / 습니다', 'V/A-ㅂ니다 / 습니다', 'N입니다', 'Use for a formal statement.'],
+  ['074', 'V-아/어/여 보다', 'Not used', 'Not used', 'Use with action verbs to mean try doing.'],
+  ['075', 'V-아/어/여 주다', 'Not used', 'Not used', 'Use with action verbs to mean do for someone.'],
+  ['076', 'V-아/어/여야 되다', 'A-아/어/여야 되다', 'N이어야/여야 되다', 'Use to mean must.'],
+  ['077', 'V-아/어/여야 하다', 'A-아/어/여야 하다', 'N이어야/여야 하다', 'Use to mean must.'],
+  ['078', 'V-아/어요', 'A-아/어요', 'N이에요/예요', 'Use for polite present speech.'],
+  ['079', 'V-았/었/였으면 좋겠다', 'A-았/었/였으면 좋겠다', 'N이었으면 좋겠다', 'Use to say I hope or I wish.'],
+  ['080', 'V-지 말다', 'Not used', 'Not used', 'Use with action verbs to say do not.'],
+  ['081', 'V-지 못하다', 'Not used', 'Not used', 'Use with action verbs to say cannot.'],
+  ['082', 'V-지 않다', 'A-지 않다', 'N이/가 아니다', 'Use to make a negative sentence.'],
+  ['083', 'V-지만', 'A-지만', 'N이지만', 'Use to mean but.'],
+  ['084', 'Not used', 'Not used', 'N이/가 아니다', 'Use after a noun to say it is not that noun.']
+].map(([num, verb, adjective, noun, note]) => [
+  `topik-i-grammar-${num}`,
+  { verb, adjective, noun, note }
+]));
+
 function inferUsageGuide(lesson) {
   const pattern = lesson.pattern;
+
+  if (topikIUsageOverrides[lesson.id]) {
+    return topikIUsageOverrides[lesson.id];
+  }
 
   if (usageOverrides[lesson.id]) {
     return usageOverrides[lesson.id];

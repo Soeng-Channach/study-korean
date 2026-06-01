@@ -1,28 +1,60 @@
+import { useMemo, useState } from 'react';
 import { Check } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import Badge from '../../components/ui/Badge';
 import Card from '../../components/ui/Card';
+import LevelTabs from '../../components/ui/LevelTabs';
+import { countByLevel, levelOf } from '../../lib/levels';
 import { useLearning } from '../../context/LearningContext';
 import { readings } from '../../data/reading';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
-function testNumber(reading) {
+function examRound(reading) {
   const match = (reading.id || reading.title || '').match(/(\d+)/);
   return match ? parseInt(match[1], 10) : 0;
+}
+
+function isOfficial(reading) {
+  return reading.topic === 'Official Reading Paper';
 }
 
 export default function ReadingListPage() {
   usePageMeta('Reading', 'Practice TOPIK reading passages and comprehension questions.');
   const { isReadingCompleted, dispatch } = useLearning();
+  const [level, setLevel] = useState('TOPIK II');
 
-  const orderedReadings = [...readings].sort((a, b) => testNumber(a) - testNumber(b));
+  const levelCounts = useMemo(() => countByLevel(readings), []);
+  const levelReadings = useMemo(() => readings.filter((r) => levelOf(r) === level), [level]);
+
+  const orderedReadings = [...levelReadings].sort((a, b) => {
+    // Official papers first, then short themed practice passages.
+    if (isOfficial(a) !== isOfficial(b)) return isOfficial(a) ? -1 : 1;
+    // Official papers newest-first; themed passages in natural order.
+    if (isOfficial(a)) {
+      if (examRound(a) !== examRound(b)) return examRound(b) - examRound(a);
+      // Same exam round: show TOPIK II before TOPIK I.
+      return (a.level === 'TOPIK II' ? 0 : 1) - (b.level === 'TOPIK II' ? 0 : 1);
+    }
+    return examRound(a) - examRound(b);
+  });
 
   return (
-    <div>
-      <div className="mb-5">
+    <div className="space-y-5">
+      <div>
         <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Reading practice</h2>
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Short passages with immediate answer review.</p>
       </div>
+
+      <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+
+      {orderedReadings.length === 0 ? (
+        <Card className="text-center">
+          <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">No {level} reading tests yet.</p>
+          <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+            Add passages with level: &#39;{level}&#39; to src/data/reading.js and they will appear here.
+          </p>
+        </Card>
+      ) : (
       <div className="grid gap-4 md:grid-cols-2">
         {orderedReadings.map((reading) => {
           const preview = reading.passage || `${reading.questions.length} questions on one page`;
@@ -65,6 +97,7 @@ export default function ReadingListPage() {
           );
         })}
       </div>
+      )}
     </div>
   );
 }

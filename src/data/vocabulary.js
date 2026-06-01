@@ -34975,5 +34975,21728 @@ export const vocabulary = [
       "effort",
       "adverb"
     ]
+  },
+  {
+    "id": "topik-i-vocab-0001",
+    "word": "가게",
+    "meaning": "store; shop",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가게'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가게'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0002",
+    "word": "가격",
+    "meaning": "price",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가격'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가격'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0003",
+    "word": "가구",
+    "meaning": "furniture",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0004",
+    "word": "가깝다",
+    "meaning": "close",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가깝다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가깝다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0005",
+    "word": "가끔",
+    "meaning": "sometimes",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '가끔'를 사용했습니다.",
+    "exampleMeaning": "I used '가끔' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0006",
+    "word": "가다",
+    "meaning": "go",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0007",
+    "word": "가르치다",
+    "meaning": "teach",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가르치다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가르치다'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0008",
+    "word": "가방",
+    "meaning": "bag",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가방'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가방'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0009",
+    "word": "가볍다",
+    "meaning": "light",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가볍다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가볍다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0010",
+    "word": "가수",
+    "meaning": "singer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가수'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0011",
+    "word": "가슴",
+    "meaning": "chest; breast",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가슴'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가슴'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0012",
+    "word": "가요",
+    "meaning": "song",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가요'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가요'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0013",
+    "word": "가운데",
+    "meaning": "middle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가운데'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가운데'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0014",
+    "word": "가위",
+    "meaning": "scissors",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가위'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가위'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0015",
+    "word": "가을",
+    "meaning": "autumn; fall",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가을'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가을'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0016",
+    "word": "가장",
+    "meaning": "most",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0017",
+    "word": "가져가다",
+    "meaning": "take away",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '가져가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '가져가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0018",
+    "word": "가져오다",
+    "meaning": "bring",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '가져오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '가져오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0019",
+    "word": "가족",
+    "meaning": "family",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가족'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가족'.",
+    "tags": [
+      "topik-i",
+      "family"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0020",
+    "word": "가지",
+    "meaning": "branch",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0021",
+    "word": "가지다",
+    "meaning": "have",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '가지다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '가지다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0022",
+    "word": "각",
+    "meaning": "each",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '각'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '각'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0023",
+    "word": "간",
+    "meaning": "while",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '간'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '간'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0024",
+    "word": "간단하다",
+    "meaning": "simple; easy",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '간단하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '간단하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0025",
+    "word": "간단히",
+    "meaning": "simply",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '간단히'를 사용했습니다.",
+    "exampleMeaning": "I used '간단히' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0026",
+    "word": "간식",
+    "meaning": "snack",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '간식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '간식'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0027",
+    "word": "간장",
+    "meaning": "soy sauce",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '간장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '간장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0028",
+    "word": "간호사",
+    "meaning": "nurse",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '간호사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '간호사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0029",
+    "word": "갈비",
+    "meaning": "Galvi; spareribs",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '갈비'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '갈비'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0030",
+    "word": "갈비탕",
+    "meaning": "Galbitang; spareribs soup",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '갈비탕'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '갈비탕'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0031",
+    "word": "갈색",
+    "meaning": "brown",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '갈색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '갈색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0032",
+    "word": "갈아타다",
+    "meaning": "transfer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '갈아타다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '갈아타다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0033",
+    "word": "감",
+    "meaning": "persimmon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0034",
+    "word": "감기",
+    "meaning": "cold",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0035",
+    "word": "감기약",
+    "meaning": "cold medicine",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감기약'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감기약'.",
+    "tags": [
+      "topik-i",
+      "health"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0036",
+    "word": "감다",
+    "meaning": "close (eyes)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0037",
+    "word": "감동",
+    "meaning": "sensation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감동'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감동'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0038",
+    "word": "감동하다",
+    "meaning": "be impressed",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '감동하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '감동하다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0039",
+    "word": "감사",
+    "meaning": "thank",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0040",
+    "word": "감사드립니다",
+    "meaning": "thank you",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감사드립니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감사드립니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0041",
+    "word": "감사하다",
+    "meaning": "thank; appreciate",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '감사하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '감사하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0042",
+    "word": "감사합니다",
+    "meaning": "thank you",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감사합니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감사합니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0043",
+    "word": "감자",
+    "meaning": "potato",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0044",
+    "word": "감자탕",
+    "meaning": "Gamjatang; potato soup",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '감자탕'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '감자탕'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0045",
+    "word": "갑자기",
+    "meaning": "suddenly",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '갑자기'를 사용했습니다.",
+    "exampleMeaning": "I used '갑자기' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0046",
+    "word": "값",
+    "meaning": "price",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '값'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '값'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0047",
+    "word": "강",
+    "meaning": "river",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '강'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '강'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0048",
+    "word": "강아지",
+    "meaning": "puppy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '강아지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '강아지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0049",
+    "word": "강좌",
+    "meaning": "lecture",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '강좌'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '강좌'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0050",
+    "word": "갖다",
+    "meaning": "have",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '갖다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '갖다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0051",
+    "word": "같다",
+    "meaning": "same",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '같다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '같다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0052",
+    "word": "같이",
+    "meaning": "together",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '같이'를 사용했습니다.",
+    "exampleMeaning": "I used '같이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0053",
+    "word": "개",
+    "meaning": "dog; piece (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '개'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '개'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0054",
+    "word": "개나리",
+    "meaning": "forsythia",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '개나리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '개나리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0055",
+    "word": "개인",
+    "meaning": "individual",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '개인'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '개인'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0056",
+    "word": "거기",
+    "meaning": "there",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '거기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '거기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0057",
+    "word": "거리",
+    "meaning": "street",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '거리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '거리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0058",
+    "word": "거실",
+    "meaning": "living room",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '거실'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '거실'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0059",
+    "word": "거울",
+    "meaning": "mirror",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '거울'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '거울'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0060",
+    "word": "거의",
+    "meaning": "almost; nearly",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '거의'를 사용했습니다.",
+    "exampleMeaning": "I used '거의' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0061",
+    "word": "거짓말",
+    "meaning": "lie",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '거짓말'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '거짓말'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0062",
+    "word": "걱정",
+    "meaning": "anxiety; concern",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '걱정'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '걱정'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0063",
+    "word": "걱정하다",
+    "meaning": "worry",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '걱정하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '걱정하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0064",
+    "word": "건강",
+    "meaning": "health",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '건강'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '건강'.",
+    "tags": [
+      "topik-i",
+      "health"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0065",
+    "word": "건강하다",
+    "meaning": "be healthy",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '건강하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '건강하다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0066",
+    "word": "건너가다",
+    "meaning": "cross (a road)",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '건너가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '건너가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0067",
+    "word": "건너다",
+    "meaning": "cross over",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '건너다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '건너다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0068",
+    "word": "건너편",
+    "meaning": "other side; opposite side",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '건너편'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '건너편'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0069",
+    "word": "건물",
+    "meaning": "building",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '건물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '건물'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0070",
+    "word": "건배",
+    "meaning": "cheers; toast",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '건배'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '건배'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0071",
+    "word": "걷다",
+    "meaning": "walk",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '걷다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '걷다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0072",
+    "word": "걸다",
+    "meaning": "bet; call",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '걸다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '걸다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0073",
+    "word": "걸리다",
+    "meaning": "get caught; take (time)",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '걸리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '걸리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0074",
+    "word": "걸어가다",
+    "meaning": "walk (go)",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '걸어가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '걸어가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0075",
+    "word": "걸어오다",
+    "meaning": "walk (come)",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '걸어오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '걸어오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0076",
+    "word": "검은색",
+    "meaning": "black",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '검은색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '검은색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0077",
+    "word": "것",
+    "meaning": "that; thing; it",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '것'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '것'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0078",
+    "word": "게임",
+    "meaning": "game",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '게임'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '게임'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0079",
+    "word": "겨울",
+    "meaning": "winter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '겨울'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '겨울'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0080",
+    "word": "겨울방학",
+    "meaning": "winter vacation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '겨울방학'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '겨울방학'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0081",
+    "word": "결과",
+    "meaning": "result",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '결과'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '결과'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0082",
+    "word": "결정",
+    "meaning": "decision",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '결정'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '결정'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0083",
+    "word": "결정하다",
+    "meaning": "decide",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '결정하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '결정하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0084",
+    "word": "결혼",
+    "meaning": "marriage",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '결혼'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '결혼'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0085",
+    "word": "결혼식",
+    "meaning": "wedding ceremony",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '결혼식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '결혼식'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0086",
+    "word": "결혼하다",
+    "meaning": "get married",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '결혼하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '결혼하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0087",
+    "word": "경기",
+    "meaning": "competition; game",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '경기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '경기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0088",
+    "word": "경기장",
+    "meaning": "stadium; arena",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '경기장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '경기장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0089",
+    "word": "경복궁",
+    "meaning": "Gyeongbokgung",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '경복궁'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '경복궁'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0090",
+    "word": "경주",
+    "meaning": "Gyeongju",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '경주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '경주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0091",
+    "word": "경찰",
+    "meaning": "police",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '경찰'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '경찰'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0092",
+    "word": "경찰관",
+    "meaning": "police officer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '경찰관'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '경찰관'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0093",
+    "word": "경찰서",
+    "meaning": "police office",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '경찰서'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '경찰서'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0094",
+    "word": "경치",
+    "meaning": "view; landscape",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '경치'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '경치'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0095",
+    "word": "경험",
+    "meaning": "experience",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '경험'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '경험'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0096",
+    "word": "계단",
+    "meaning": "stairs",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '계단'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '계단'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0097",
+    "word": "계란",
+    "meaning": "egg",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '계란'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '계란'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0098",
+    "word": "계산하다",
+    "meaning": "calculate",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '계산하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '계산하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0099",
+    "word": "계속",
+    "meaning": "continue",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '계속'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '계속'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0100",
+    "word": "계시다",
+    "meaning": "be; exist (polite form)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '계시다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '계시다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0101",
+    "word": "계절",
+    "meaning": "season",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '계절'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '계절'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0102",
+    "word": "계획",
+    "meaning": "plan",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '계획'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '계획'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0103",
+    "word": "고기",
+    "meaning": "meat",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0104",
+    "word": "고등학교",
+    "meaning": "high school",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고등학교'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고등학교'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0105",
+    "word": "고등학생",
+    "meaning": "high school student",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고등학생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고등학생'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0106",
+    "word": "고르다",
+    "meaning": "choose",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0107",
+    "word": "고마웠습니다",
+    "meaning": "Thank you (past)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고마웠습니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고마웠습니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0108",
+    "word": "고맙다",
+    "meaning": "thank",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고맙다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고맙다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0109",
+    "word": "고맙습니다",
+    "meaning": "Thank you",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고맙습니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고맙습니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0110",
+    "word": "고모",
+    "meaning": "paternal aunt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고모'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고모'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0111",
+    "word": "고모부",
+    "meaning": "paternal uncle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고모부'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고모부'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0112",
+    "word": "고속버스",
+    "meaning": "express bus",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고속버스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고속버스'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0113",
+    "word": "고양이",
+    "meaning": "cat",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '고양이'를 사용했습니다.",
+    "exampleMeaning": "I used '고양이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0114",
+    "word": "고장",
+    "meaning": "broken; malfunction",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0115",
+    "word": "고추",
+    "meaning": "red pepper",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고추'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고추'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0116",
+    "word": "고추장",
+    "meaning": "Kochujang; red pepper paste",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고추장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고추장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0117",
+    "word": "고치다",
+    "meaning": "fix",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고치다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고치다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0118",
+    "word": "고프다",
+    "meaning": "hungry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고프다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고프다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0119",
+    "word": "고향",
+    "meaning": "hometown",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '고향'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '고향'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0120",
+    "word": "곧",
+    "meaning": "soon",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '곧'를 사용했습니다.",
+    "exampleMeaning": "I used '곧' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0121",
+    "word": "골목",
+    "meaning": "alley",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '골목'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '골목'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0122",
+    "word": "골프",
+    "meaning": "golf",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '골프'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '골프'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0123",
+    "word": "곱다",
+    "meaning": "beautiful",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '곱다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '곱다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0124",
+    "word": "곳",
+    "meaning": "place",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '곳'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '곳'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0125",
+    "word": "공",
+    "meaning": "ball",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0126",
+    "word": "공간",
+    "meaning": "space",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공간'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공간'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0127",
+    "word": "공기",
+    "meaning": "air",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0128",
+    "word": "공무원",
+    "meaning": "public official",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공무원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공무원'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0129",
+    "word": "공부",
+    "meaning": "study",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공부'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공부'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0130",
+    "word": "공부하다",
+    "meaning": "study",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '공부하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '공부하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0131",
+    "word": "공연",
+    "meaning": "show; public performance",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공연'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공연'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0132",
+    "word": "공원",
+    "meaning": "park",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공원'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0133",
+    "word": "공중전화",
+    "meaning": "payphone; public phone",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공중전화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공중전화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0134",
+    "word": "공짜",
+    "meaning": "free",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공짜'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공짜'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0135",
+    "word": "공책",
+    "meaning": "notebook; note",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공책'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공책'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0136",
+    "word": "공항",
+    "meaning": "airport",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공항'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공항'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0137",
+    "word": "공휴일",
+    "meaning": "public holiday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '공휴일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '공휴일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0138",
+    "word": "과",
+    "meaning": "division",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '과'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '과'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0139",
+    "word": "과거",
+    "meaning": "past",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '과거'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '과거'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0140",
+    "word": "과일",
+    "meaning": "fruit",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '과일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '과일'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0141",
+    "word": "과자",
+    "meaning": "snack",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '과자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '과자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0142",
+    "word": "과학",
+    "meaning": "science",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '과학'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '과학'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0143",
+    "word": "관계",
+    "meaning": "relation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '관계'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '관계'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0144",
+    "word": "관광하다",
+    "meaning": "travel; sightsee",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '관광하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '관광하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0145",
+    "word": "관심",
+    "meaning": "attention; interest",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '관심'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '관심'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0146",
+    "word": "광고",
+    "meaning": "advertisement",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '광고'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '광고'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0147",
+    "word": "괜찮다",
+    "meaning": "be okay",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '괜찮다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '괜찮다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0148",
+    "word": "괜찮습니다",
+    "meaning": "It's fine.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '괜찮습니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '괜찮습니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0149",
+    "word": "교과서",
+    "meaning": "textbook",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '교과서'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '교과서'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0150",
+    "word": "교수",
+    "meaning": "professor",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '교수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '교수'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0151",
+    "word": "교실",
+    "meaning": "classroom",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '교실'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '교실'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0152",
+    "word": "교체",
+    "meaning": "substitute; change",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '교체'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '교체'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0153",
+    "word": "교통",
+    "meaning": "traffic",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '교통'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '교통'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0154",
+    "word": "교통사고",
+    "meaning": "traffic accident",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '교통사고'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '교통사고'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0155",
+    "word": "교회",
+    "meaning": "church",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '교회'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '교회'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0156",
+    "word": "구",
+    "meaning": "9",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0157",
+    "word": "구경하다",
+    "meaning": "take a look",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '구경하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '구경하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0158",
+    "word": "구두",
+    "meaning": "shoes",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '구두'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '구두'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0159",
+    "word": "구름",
+    "meaning": "cloud",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '구름'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '구름'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0160",
+    "word": "구십",
+    "meaning": "90",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '구십'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '구십'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0161",
+    "word": "구월",
+    "meaning": "September",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '구월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '구월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0162",
+    "word": "구하다",
+    "meaning": "save; seek; get",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '구하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '구하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0163",
+    "word": "국",
+    "meaning": "soup",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '국'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0164",
+    "word": "국내",
+    "meaning": "domestic",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '국내'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '국내'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0165",
+    "word": "국립",
+    "meaning": "nationalestablished; state",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '국립'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '국립'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0166",
+    "word": "국수",
+    "meaning": "noodle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '국수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '국수'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0167",
+    "word": "국어",
+    "meaning": "Korean language",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '국어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '국어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0168",
+    "word": "국적",
+    "meaning": "nationality; country of citizenship",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '국적'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '국적'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0169",
+    "word": "국제",
+    "meaning": "international",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '국제'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '국제'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0170",
+    "word": "군인",
+    "meaning": "soldier; military personnel",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '군인'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '군인'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0171",
+    "word": "굽다",
+    "meaning": "bake",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '굽다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '굽다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0172",
+    "word": "권",
+    "meaning": "book (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '권'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '권'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0173",
+    "word": "귀",
+    "meaning": "ear",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '귀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '귀'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0174",
+    "word": "귀엽다",
+    "meaning": "cute",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '귀엽다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '귀엽다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0175",
+    "word": "규칙",
+    "meaning": "rule",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '규칙'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '규칙'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0176",
+    "word": "귤",
+    "meaning": "mandarin orange",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '귤'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '귤'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0177",
+    "word": "그",
+    "meaning": "it",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0178",
+    "word": "그거",
+    "meaning": "it",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그거'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그거'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0179",
+    "word": "그것",
+    "meaning": "it",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그것'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그것'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0180",
+    "word": "그곳",
+    "meaning": "there",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그곳'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그곳'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0181",
+    "word": "그날",
+    "meaning": "that day",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그날'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그날'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0182",
+    "word": "그냥",
+    "meaning": "just; as it is",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '그냥'를 사용했습니다.",
+    "exampleMeaning": "I used '그냥' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0183",
+    "word": "그동안",
+    "meaning": "meantime; meanwhile; up to now",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그동안'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그동안'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0184",
+    "word": "그들",
+    "meaning": "them; they",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그들'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그들'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0185",
+    "word": "그때",
+    "meaning": "then; at that time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그때'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그때'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0186",
+    "word": "그래",
+    "meaning": "Yes; Yeah",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그래'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그래'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0187",
+    "word": "그래서",
+    "meaning": "so; thus",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그래서'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그래서'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0188",
+    "word": "그램",
+    "meaning": "gram",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그램'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그램'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0189",
+    "word": "그러나",
+    "meaning": "but; however",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그러나'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그러나'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0190",
+    "word": "그러니까",
+    "meaning": "so; because",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그러니까'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그러니까'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0191",
+    "word": "그러면",
+    "meaning": "then; if so",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그러면'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그러면'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0192",
+    "word": "그런",
+    "meaning": "then; such",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그런'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그런'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0193",
+    "word": "그런데",
+    "meaning": "by the way; however",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그런데'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그런데'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0194",
+    "word": "그럼",
+    "meaning": "then",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그럼'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그럼'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0195",
+    "word": "그렇게",
+    "meaning": "like that; so",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그렇게'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그렇게'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0196",
+    "word": "그렇구나",
+    "meaning": "well; I see.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그렇구나'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그렇구나'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0197",
+    "word": "그렇다",
+    "meaning": "Yes; that's it.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그렇다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그렇다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0198",
+    "word": "그렇습니다",
+    "meaning": "That's right.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그렇습니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그렇습니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0199",
+    "word": "그렇지만",
+    "meaning": "nevertheless; but",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그렇지만'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그렇지만'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0200",
+    "word": "그릇",
+    "meaning": "bowl; container; tableware",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그릇'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그릇'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0201",
+    "word": "그리고",
+    "meaning": "and",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그리고'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그리고'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0202",
+    "word": "그리다",
+    "meaning": "draw",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '그리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '그리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0203",
+    "word": "그림",
+    "meaning": "drawing; picture",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그림'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그림'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0204",
+    "word": "그만",
+    "meaning": "stop; finish",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그만'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그만'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0205",
+    "word": "그분",
+    "meaning": "his; the person",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그분'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그분'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0206",
+    "word": "그저께",
+    "meaning": "day before yesterday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그저께'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그저께'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0207",
+    "word": "그중",
+    "meaning": "among them",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그중'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그중'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0208",
+    "word": "그쪽",
+    "meaning": "there; the person",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0209",
+    "word": "그치다",
+    "meaning": "stop; end; cease",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '그치다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '그치다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0210",
+    "word": "극장",
+    "meaning": "theater; cinema",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '극장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '극장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0211",
+    "word": "근처",
+    "meaning": "nearby; neighborhood",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '근처'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '근처'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0212",
+    "word": "글",
+    "meaning": "post; sentence; character",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '글'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '글'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0213",
+    "word": "글쎄요",
+    "meaning": "I do not know.; well; I guess",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '글쎄요'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '글쎄요'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0214",
+    "word": "금방",
+    "meaning": "soon; a little while ago",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '금방'를 사용했습니다.",
+    "exampleMeaning": "I used '금방' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0215",
+    "word": "금연",
+    "meaning": "no smoking",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '금연'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '금연'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0216",
+    "word": "금요일",
+    "meaning": "Friday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '금요일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '금요일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0217",
+    "word": "금주",
+    "meaning": "abstinence; temperance",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '금주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '금주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0218",
+    "word": "급",
+    "meaning": "class; grade",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '급'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '급'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0219",
+    "word": "급하다",
+    "meaning": "hurry; urgent",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '급하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '급하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0220",
+    "word": "기간",
+    "meaning": "term; period",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기간'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기간'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0221",
+    "word": "기다리다",
+    "meaning": "wait",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '기다리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '기다리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0222",
+    "word": "기르다",
+    "meaning": "cultivate; grow",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0223",
+    "word": "기름",
+    "meaning": "oil; gasoline",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기름'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기름'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0224",
+    "word": "기분",
+    "meaning": "feeling",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기분'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기분'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0225",
+    "word": "기뻐하다",
+    "meaning": "glad; delight",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '기뻐하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '기뻐하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0226",
+    "word": "기쁘다",
+    "meaning": "happy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기쁘다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기쁘다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0227",
+    "word": "기사",
+    "meaning": "article; driver; engineer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0228",
+    "word": "기숙사",
+    "meaning": "dormitory",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기숙사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기숙사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0229",
+    "word": "기억하다",
+    "meaning": "remember",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '기억하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '기억하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0230",
+    "word": "기온",
+    "meaning": "temperature",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기온'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기온'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0231",
+    "word": "기자",
+    "meaning": "reporter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0232",
+    "word": "기차",
+    "meaning": "train",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기차'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기차'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0233",
+    "word": "기침",
+    "meaning": "cough",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기침'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기침'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0234",
+    "word": "기타",
+    "meaning": "other",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '기타'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '기타'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0235",
+    "word": "긴장되다",
+    "meaning": "be nervous",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '긴장되다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '긴장되다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0236",
+    "word": "길",
+    "meaning": "way; road",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '길'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '길'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0237",
+    "word": "길다",
+    "meaning": "long",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '길다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '길다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0238",
+    "word": "김",
+    "meaning": "seaweed",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '김'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '김'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0239",
+    "word": "김밥",
+    "meaning": "Kimbab",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '김밥'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '김밥'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0240",
+    "word": "김치",
+    "meaning": "Kimchi",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '김치'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '김치'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0241",
+    "word": "김치찌개",
+    "meaning": "Kimchi stew",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '김치찌개'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '김치찌개'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0242",
+    "word": "김포공항",
+    "meaning": "Gimpo International Airport",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '김포공항'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '김포공항'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0243",
+    "word": "까만색",
+    "meaning": "black color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '까만색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '까만색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0244",
+    "word": "까맣다",
+    "meaning": "black",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '까맣다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '까맣다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0245",
+    "word": "깎다",
+    "meaning": "cut; shave",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '깎다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '깎다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0246",
+    "word": "깜짝",
+    "meaning": "startled; surprised",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '깜짝'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '깜짝'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0247",
+    "word": "깨끗하다",
+    "meaning": "clean",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '깨끗하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '깨끗하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0248",
+    "word": "깨다",
+    "meaning": "wake up; crack; break",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '깨다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '깨다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0249",
+    "word": "깨지다",
+    "meaning": "chip; crack; break",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '깨지다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '깨지다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0250",
+    "word": "꺼내다",
+    "meaning": "take out",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '꺼내다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '꺼내다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0251",
+    "word": "껌",
+    "meaning": "chewing gum",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '껌'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '껌'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0252",
+    "word": "꼭",
+    "meaning": "exactly; absolutely",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '꼭'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '꼭'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0253",
+    "word": "꽃",
+    "meaning": "flower",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '꽃'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '꽃'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0254",
+    "word": "꽃집",
+    "meaning": "florist",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '꽃집'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '꽃집'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0255",
+    "word": "꾸다",
+    "meaning": "dream",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '꾸다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '꾸다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0256",
+    "word": "꿈",
+    "meaning": "dream",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '꿈'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '꿈'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0257",
+    "word": "끄다",
+    "meaning": "turn off; extinguish; stop",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '끄다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '끄다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0258",
+    "word": "끓이다",
+    "meaning": "boil",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '끓이다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '끓이다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0259",
+    "word": "끝",
+    "meaning": "end",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '끝'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '끝'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0260",
+    "word": "끝나다",
+    "meaning": "finish; end",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '끝나다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '끝나다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0261",
+    "word": "끝내다",
+    "meaning": "finish",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '끝내다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '끝내다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0262",
+    "word": "끼다",
+    "meaning": "put on; plug; (fog) rolls in",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '끼다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '끼다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0263",
+    "word": "나",
+    "meaning": "I",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0264",
+    "word": "나가다",
+    "meaning": "go out; get out",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '나가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '나가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0265",
+    "word": "나누다",
+    "meaning": "share; divide",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나누다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나누다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0266",
+    "word": "나다",
+    "meaning": "occur; come out",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0267",
+    "word": "나라",
+    "meaning": "country",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나라'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나라'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0268",
+    "word": "나무",
+    "meaning": "tree",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나무'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나무'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0269",
+    "word": "나빠지다",
+    "meaning": "spoil; deteriorate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나빠지다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나빠지다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0270",
+    "word": "나쁘다",
+    "meaning": "bad",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나쁘다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나쁘다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0271",
+    "word": "나오다",
+    "meaning": "come out; appear",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '나오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '나오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0272",
+    "word": "나이",
+    "meaning": "age; old",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '나이'를 사용했습니다.",
+    "exampleMeaning": "I used '나이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0273",
+    "word": "나중",
+    "meaning": "later; after",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나중'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나중'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0274",
+    "word": "나타나다",
+    "meaning": "appear",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나타나다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나타나다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0275",
+    "word": "나흘",
+    "meaning": "four days",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '나흘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '나흘'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0276",
+    "word": "낚시",
+    "meaning": "fishing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '낚시'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '낚시'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0277",
+    "word": "날",
+    "meaning": "day",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '날'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '날'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0278",
+    "word": "날씨",
+    "meaning": "weather",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '날씨'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '날씨'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0279",
+    "word": "날짜",
+    "meaning": "date",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '날짜'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '날짜'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0280",
+    "word": "남",
+    "meaning": "south; man",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0281",
+    "word": "남기다",
+    "meaning": "leave",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남기다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남기다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0282",
+    "word": "남녀",
+    "meaning": "men and women",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남녀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남녀'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0283",
+    "word": "남대문시장",
+    "meaning": "Namdaemun market",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남대문시장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남대문시장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0284",
+    "word": "남동생",
+    "meaning": "younger brother",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남동생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남동생'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0285",
+    "word": "남미",
+    "meaning": "South America",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남미'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남미'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0286",
+    "word": "남북",
+    "meaning": "north and south",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남북'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남북'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0287",
+    "word": "남자",
+    "meaning": "man",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0288",
+    "word": "남쪽",
+    "meaning": "south",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0289",
+    "word": "남편",
+    "meaning": "husband",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남편'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남편'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0290",
+    "word": "남학생",
+    "meaning": "male student",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '남학생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '남학생'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0291",
+    "word": "낮",
+    "meaning": "day; noon; during the day",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '낮'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '낮'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0292",
+    "word": "낮다",
+    "meaning": "low",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '낮다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '낮다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0293",
+    "word": "내",
+    "meaning": "of mine; my",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '내'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '내'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0294",
+    "word": "내가",
+    "meaning": "I",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '내가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '내가'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0295",
+    "word": "내과",
+    "meaning": "internal medicine",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '내과'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '내과'.",
+    "tags": [
+      "topik-i",
+      "health"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0296",
+    "word": "내년",
+    "meaning": "next year",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '내년'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '내년'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0297",
+    "word": "내다",
+    "meaning": "pay; put out",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '내다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '내다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0298",
+    "word": "내려가다",
+    "meaning": "go down",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '내려가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '내려가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0299",
+    "word": "내려오다",
+    "meaning": "come down",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '내려오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '내려오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0300",
+    "word": "내리다",
+    "meaning": "go down",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '내리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '내리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0301",
+    "word": "내용",
+    "meaning": "content",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '내용'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '내용'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0302",
+    "word": "내일",
+    "meaning": "tomorrow",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '내일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '내일'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0303",
+    "word": "냄비",
+    "meaning": "pot",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '냄비'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '냄비'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0304",
+    "word": "냄새",
+    "meaning": "smell",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '냄새'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '냄새'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0305",
+    "word": "냉면",
+    "meaning": "cold noodle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '냉면'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '냉면'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0306",
+    "word": "냉장고",
+    "meaning": "refrigerator",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '냉장고'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '냉장고'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0307",
+    "word": "너",
+    "meaning": "you",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '너'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '너'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0308",
+    "word": "너무",
+    "meaning": "too; very",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '너무'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '너무'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0309",
+    "word": "넓다",
+    "meaning": "wide",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '넓다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '넓다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0310",
+    "word": "넘다",
+    "meaning": "exceed; more than",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '넘다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '넘다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0311",
+    "word": "넘어지다",
+    "meaning": "fall down; fall",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '넘어지다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '넘어지다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0312",
+    "word": "넣다",
+    "meaning": "put in",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '넣다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '넣다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0313",
+    "word": "네",
+    "meaning": "yes; 4",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '네'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '네'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0314",
+    "word": "넥타이",
+    "meaning": "necktie",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '넥타이'를 사용했습니다.",
+    "exampleMeaning": "I used '넥타이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0315",
+    "word": "넷",
+    "meaning": "4",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '넷'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '넷'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0316",
+    "word": "넷째",
+    "meaning": "fourth",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '넷째'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '넷째'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0317",
+    "word": "년",
+    "meaning": "year",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '년'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '년'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0318",
+    "word": "노란색",
+    "meaning": "yellow color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '노란색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '노란색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0319",
+    "word": "노랗다",
+    "meaning": "yellow",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '노랗다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '노랗다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0320",
+    "word": "노래",
+    "meaning": "song",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '노래'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '노래'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0321",
+    "word": "노래방",
+    "meaning": "Karaoke shop",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '노래방'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '노래방'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0322",
+    "word": "노래하다",
+    "meaning": "sing",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '노래하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '노래하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0323",
+    "word": "노력하다",
+    "meaning": "endeavor; strive",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '노력하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '노력하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0324",
+    "word": "노트",
+    "meaning": "note",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '노트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '노트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0325",
+    "word": "녹색",
+    "meaning": "green",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '녹색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '녹색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0326",
+    "word": "녹차",
+    "meaning": "green tea",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '녹차'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '녹차'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0327",
+    "word": "놀다",
+    "meaning": "play",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '놀다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '놀다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0328",
+    "word": "놀라다",
+    "meaning": "be surprised",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '놀라다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '놀라다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0329",
+    "word": "농구",
+    "meaning": "basketball",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '농구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '농구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0330",
+    "word": "높다",
+    "meaning": "high",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '높다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '높다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0331",
+    "word": "놓다",
+    "meaning": "put",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '놓다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '놓다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0332",
+    "word": "누가",
+    "meaning": "who",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '누가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '누가'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0333",
+    "word": "누구",
+    "meaning": "who",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '누구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '누구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0334",
+    "word": "누나",
+    "meaning": "sister (as seen from the younger brother)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '누나'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '누나'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0335",
+    "word": "누르다",
+    "meaning": "press down; push",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '누르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '누르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0336",
+    "word": "눈",
+    "meaning": "eye; snow",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '눈'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '눈'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0337",
+    "word": "눈물",
+    "meaning": "tear",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '눈물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '눈물'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0338",
+    "word": "눈사람",
+    "meaning": "snowman",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '눈사람'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '눈사람'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0339",
+    "word": "눈싸움",
+    "meaning": "staring contest; snowball fight",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '눈싸움'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '눈싸움'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0340",
+    "word": "눕다",
+    "meaning": "lie down; sleep",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '눕다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '눕다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0341",
+    "word": "뉴스",
+    "meaning": "news",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뉴스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뉴스'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0342",
+    "word": "뉴욕",
+    "meaning": "New York",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뉴욕'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뉴욕'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0343",
+    "word": "느끼다",
+    "meaning": "feel",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '느끼다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '느끼다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0344",
+    "word": "느낌",
+    "meaning": "feeling",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '느낌'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '느낌'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0345",
+    "word": "느리다",
+    "meaning": "slow",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '느리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '느리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0346",
+    "word": "늘",
+    "meaning": "always",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '늘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '늘'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0347",
+    "word": "늘다",
+    "meaning": "gain; increase",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '늘다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '늘다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0348",
+    "word": "능력",
+    "meaning": "ability",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '능력'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '능력'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0349",
+    "word": "늦다",
+    "meaning": "late; delay",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '늦다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '늦다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0350",
+    "word": "늦잠",
+    "meaning": "overslept; sleeping in late",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '늦잠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '늦잠'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0351",
+    "word": "님",
+    "meaning": "Sir",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '님'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '님'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0352",
+    "word": "다",
+    "meaning": "all; whole",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0353",
+    "word": "다녀오다",
+    "meaning": "return; come back",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '다녀오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '다녀오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0354",
+    "word": "다니다",
+    "meaning": "go; commute",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '다니다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '다니다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0355",
+    "word": "다르다",
+    "meaning": "different",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0356",
+    "word": "다른",
+    "meaning": "other ; another ; different",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다른'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다른'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0357",
+    "word": "다리",
+    "meaning": "bridge; leg; foot",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0358",
+    "word": "다섯",
+    "meaning": "5",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다섯'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다섯'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0359",
+    "word": "다시",
+    "meaning": "again",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다시'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다시'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0360",
+    "word": "다음",
+    "meaning": "next; after",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다음'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다음'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0361",
+    "word": "다음달",
+    "meaning": "next month",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다음달'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다음달'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0362",
+    "word": "다음주",
+    "meaning": "next week",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다음주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다음주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0363",
+    "word": "다음해",
+    "meaning": "next year; following year",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다음해'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다음해'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0364",
+    "word": "다이어트",
+    "meaning": "diet",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다이어트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다이어트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0365",
+    "word": "다치다",
+    "meaning": "hurt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '다치다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '다치다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0366",
+    "word": "닦다",
+    "meaning": "wipe; polish",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '닦다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '닦다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0367",
+    "word": "단어",
+    "meaning": "word",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '단어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '단어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0368",
+    "word": "단점",
+    "meaning": "disadvantage; shortcoming; drawback",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '단점'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '단점'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0369",
+    "word": "닫다",
+    "meaning": "close",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '닫다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '닫다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0370",
+    "word": "닫히다",
+    "meaning": "shut; close",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '닫히다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '닫히다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0371",
+    "word": "달",
+    "meaning": "month; moon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '달'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '달'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0372",
+    "word": "달걀",
+    "meaning": "egg",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '달걀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '달걀'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0373",
+    "word": "달다",
+    "meaning": "sweet",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '달다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '달다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0374",
+    "word": "달러",
+    "meaning": "dollar",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '달러'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '달러'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0375",
+    "word": "달력",
+    "meaning": "calendar",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '달력'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '달력'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0376",
+    "word": "달리다",
+    "meaning": "run",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '달리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '달리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0377",
+    "word": "닭",
+    "meaning": "chicken; hen",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '닭'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '닭'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0378",
+    "word": "닭고기",
+    "meaning": "chicken",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '닭고기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '닭고기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0379",
+    "word": "닮다",
+    "meaning": "resemble",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '닮다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '닮다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0380",
+    "word": "담그다",
+    "meaning": "dip; pickle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '담그다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '담그다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0381",
+    "word": "담배",
+    "meaning": "tobacco",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '담배'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '담배'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0382",
+    "word": "답장",
+    "meaning": "reply",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '답장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '답장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0383",
+    "word": "당근",
+    "meaning": "carrot",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '당근'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '당근'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0384",
+    "word": "당신",
+    "meaning": "you",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '당신'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '당신'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0385",
+    "word": "대",
+    "meaning": "versus; large",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0386",
+    "word": "대답",
+    "meaning": "answer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대답'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대답'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0387",
+    "word": "대답하다",
+    "meaning": "answer; reply",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '대답하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '대답하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0388",
+    "word": "대부분",
+    "meaning": "mostly; almost",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대부분'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대부분'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0389",
+    "word": "대사관",
+    "meaning": "embassy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대사관'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대사관'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0390",
+    "word": "대학",
+    "meaning": "university; college",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대학'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대학'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0391",
+    "word": "대학교",
+    "meaning": "university; college",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대학교'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대학교'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0392",
+    "word": "대학생",
+    "meaning": "college student",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대학생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대학생'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0393",
+    "word": "대학원",
+    "meaning": "graduate school",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대학원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대학원'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0394",
+    "word": "대학원생",
+    "meaning": "postgraduate student; graduate student",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대학원생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대학원생'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0395",
+    "word": "대한민국",
+    "meaning": "Republic of Korea; South Korea",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대한민국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대한민국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0396",
+    "word": "대화",
+    "meaning": "conversation; dialogue",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0397",
+    "word": "대회",
+    "meaning": "competition; tournament",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '대회'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '대회'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0398",
+    "word": "댁",
+    "meaning": "house",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '댁'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '댁'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0399",
+    "word": "더",
+    "meaning": "more",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '더'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '더'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0400",
+    "word": "더럽다",
+    "meaning": "dirty",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '더럽다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '더럽다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0401",
+    "word": "더운물",
+    "meaning": "hot water",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '더운물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '더운물'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0402",
+    "word": "덕분",
+    "meaning": "thanks for; thanks to",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '덕분'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '덕분'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0403",
+    "word": "덥다",
+    "meaning": "hot",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '덥다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '덥다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0404",
+    "word": "덮다",
+    "meaning": "cover",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '덮다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '덮다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0405",
+    "word": "데리다",
+    "meaning": "bring; take along",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '데리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '데리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0406",
+    "word": "데이트",
+    "meaning": "date; dating",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '데이트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '데이트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0407",
+    "word": "도로",
+    "meaning": "road",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '도로'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '도로'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0408",
+    "word": "도서관",
+    "meaning": "library",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '도서관'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '도서관'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0409",
+    "word": "도시",
+    "meaning": "city",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '도시'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '도시'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0410",
+    "word": "도와주다",
+    "meaning": "help",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '도와주다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '도와주다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0411",
+    "word": "도움",
+    "meaning": "help; assistance",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '도움'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '도움'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0412",
+    "word": "도착",
+    "meaning": "arrival",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '도착'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '도착'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0413",
+    "word": "도착하다",
+    "meaning": "arrive",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '도착하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '도착하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0414",
+    "word": "도쿄",
+    "meaning": "Tokyo",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '도쿄'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '도쿄'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0415",
+    "word": "독서",
+    "meaning": "reading",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '독서'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '독서'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0416",
+    "word": "독서실",
+    "meaning": "reading room",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '독서실'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '독서실'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0417",
+    "word": "독서하다",
+    "meaning": "read",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '독서하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '독서하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0418",
+    "word": "독일",
+    "meaning": "Germany",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '독일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '독일'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0419",
+    "word": "돈",
+    "meaning": "money",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '돈'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '돈'.",
+    "tags": [
+      "topik-i",
+      "money"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0420",
+    "word": "돌아가다",
+    "meaning": "return; go back",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '돌아가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '돌아가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0421",
+    "word": "돌아오다",
+    "meaning": "come back; come home",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '돌아오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '돌아오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0422",
+    "word": "돕다",
+    "meaning": "help",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '돕다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '돕다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0423",
+    "word": "동네",
+    "meaning": "town; neighborhood",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '동네'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '동네'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0424",
+    "word": "동대문시장",
+    "meaning": "Dongdaemun market",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '동대문시장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '동대문시장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0425",
+    "word": "동물",
+    "meaning": "animal",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '동물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '동물'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0426",
+    "word": "동생",
+    "meaning": "brother; sister",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '동생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '동생'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0427",
+    "word": "동아리",
+    "meaning": "club; group",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '동아리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '동아리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0428",
+    "word": "동안",
+    "meaning": "during; between",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '동안'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '동안'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0429",
+    "word": "동양",
+    "meaning": "eastern; orient",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '동양'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '동양'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0430",
+    "word": "동전",
+    "meaning": "coin",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '동전'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '동전'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0431",
+    "word": "동쪽",
+    "meaning": "east",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '동쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '동쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0432",
+    "word": "돼지",
+    "meaning": "pig",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '돼지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '돼지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0433",
+    "word": "돼지고기",
+    "meaning": "pork",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '돼지고기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '돼지고기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0434",
+    "word": "되다",
+    "meaning": "become",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '되다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '되다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0435",
+    "word": "된장",
+    "meaning": "fermented soybean paste",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '된장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '된장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0436",
+    "word": "된장국",
+    "meaning": "soybean paste soup",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '된장국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '된장국'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0437",
+    "word": "된장찌개",
+    "meaning": "soybean paste stew",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '된장찌개'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '된장찌개'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0438",
+    "word": "두",
+    "meaning": "two",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '두'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '두'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0439",
+    "word": "두껍다",
+    "meaning": "thick",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '두껍다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '두껍다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0440",
+    "word": "두다",
+    "meaning": "put",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '두다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '두다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0441",
+    "word": "두부",
+    "meaning": "tofu",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '두부'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '두부'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0442",
+    "word": "두부찌개",
+    "meaning": "tofu soup",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '두부찌개'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '두부찌개'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0443",
+    "word": "둘",
+    "meaning": "2",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '둘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '둘'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0444",
+    "word": "둘째",
+    "meaning": "second; the second of",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '둘째'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '둘째'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0445",
+    "word": "뒤",
+    "meaning": "rear; back",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뒤'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뒤'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0446",
+    "word": "뒤쪽",
+    "meaning": "behind; back; towards the rear",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뒤쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뒤쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0447",
+    "word": "드라마",
+    "meaning": "drama",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '드라마'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '드라마'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0448",
+    "word": "드리다",
+    "meaning": "give",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '드리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '드리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0449",
+    "word": "드시다",
+    "meaning": "eat (polite form)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '드시다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '드시다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0450",
+    "word": "듣기",
+    "meaning": "listening; hearing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '듣기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '듣기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0451",
+    "word": "듣다",
+    "meaning": "listen",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '듣다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '듣다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0452",
+    "word": "들",
+    "meaning": "field; s;",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '들'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '들'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0453",
+    "word": "들다",
+    "meaning": "hold; enter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '들다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '들다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0454",
+    "word": "들어가다",
+    "meaning": "go in; enter",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '들어가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '들어가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0455",
+    "word": "들어오다",
+    "meaning": "come in; enter",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '들어오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '들어오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0456",
+    "word": "등",
+    "meaning": "etc; back",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '등'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '등'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0457",
+    "word": "등산",
+    "meaning": "hiking; mountain-climbing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '등산'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '등산'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0458",
+    "word": "등산복",
+    "meaning": "mountaineering clothing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '등산복'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '등산복'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0459",
+    "word": "등산화",
+    "meaning": "hiking boots; climbing shoes",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '등산화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '등산화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0460",
+    "word": "디브이디",
+    "meaning": "DVD",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '디브이디'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '디브이디'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0461",
+    "word": "디자인",
+    "meaning": "design",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '디자인'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '디자인'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0462",
+    "word": "따뜻하다",
+    "meaning": "warm",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '따뜻하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '따뜻하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0463",
+    "word": "따라가다",
+    "meaning": "follow",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '따라가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '따라가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0464",
+    "word": "따라오다",
+    "meaning": "come with; follow",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '따라오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '따라오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0465",
+    "word": "따로",
+    "meaning": "separately",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '따로'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '따로'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0466",
+    "word": "따르다",
+    "meaning": "follow",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '따르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '따르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0467",
+    "word": "딸",
+    "meaning": "daughter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '딸'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '딸'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0468",
+    "word": "딸기",
+    "meaning": "strawberry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '딸기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '딸기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0469",
+    "word": "땀",
+    "meaning": "sweat",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '땀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '땀'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0470",
+    "word": "때",
+    "meaning": "time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '때'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '때'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0471",
+    "word": "때문",
+    "meaning": "because; for ; so",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '때문'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '때문'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0472",
+    "word": "떠나다",
+    "meaning": "leave",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '떠나다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '떠나다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0473",
+    "word": "떠들다",
+    "meaning": "chatter; make a noise",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '떠들다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '떠들다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0474",
+    "word": "떡",
+    "meaning": "rice cake",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '떡'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '떡'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0475",
+    "word": "떡국",
+    "meaning": "rice cake soup",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '떡국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '떡국'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0476",
+    "word": "떡볶이",
+    "meaning": "Toppogi",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '떡볶이'를 사용했습니다.",
+    "exampleMeaning": "I used '떡볶이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0477",
+    "word": "떨어지다",
+    "meaning": "drop",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '떨어지다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '떨어지다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0478",
+    "word": "또",
+    "meaning": "in addition; again",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '또'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '또'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0479",
+    "word": "또는",
+    "meaning": "or",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '또는'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '또는'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0480",
+    "word": "똑같다",
+    "meaning": "same",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '똑같다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '똑같다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0481",
+    "word": "똑바로",
+    "meaning": "upright; straight",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '똑바로'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '똑바로'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0482",
+    "word": "뛰다",
+    "meaning": "run",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뛰다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뛰다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0483",
+    "word": "뜨겁다",
+    "meaning": "hot",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뜨겁다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뜨겁다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0484",
+    "word": "뜨다",
+    "meaning": "rise; open (the eyes)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뜨다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뜨다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0485",
+    "word": "뜻",
+    "meaning": "meaning",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뜻'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뜻'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0486",
+    "word": "라디오",
+    "meaning": "radio",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '라디오'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '라디오'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0487",
+    "word": "라면",
+    "meaning": "ramen",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '라면'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '라면'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0488",
+    "word": "러시아",
+    "meaning": "Russia",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '러시아'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '러시아'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0489",
+    "word": "로션",
+    "meaning": "skin lotion",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '로션'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '로션'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0490",
+    "word": "마늘",
+    "meaning": "garlic",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '마늘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '마늘'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0491",
+    "word": "마르다",
+    "meaning": "dry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '마르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '마르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0492",
+    "word": "마리",
+    "meaning": "animal (s); head (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '마리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '마리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0493",
+    "word": "마시다",
+    "meaning": "drink",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '마시다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '마시다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0494",
+    "word": "마음",
+    "meaning": "mind; feeling",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '마음'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '마음'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0495",
+    "word": "마지막",
+    "meaning": "last",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '마지막'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '마지막'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0496",
+    "word": "마치다",
+    "meaning": "finish; end",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '마치다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '마치다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0497",
+    "word": "마흔",
+    "meaning": "40",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '마흔'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '마흔'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0498",
+    "word": "막히다",
+    "meaning": "be blocked; be clogged",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '막히다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '막히다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0499",
+    "word": "만",
+    "meaning": "only; ten thousand",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '만'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '만'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0500",
+    "word": "만나다",
+    "meaning": "meet",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '만나다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '만나다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0501",
+    "word": "만두",
+    "meaning": "dumpling",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '만두'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '만두'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0502",
+    "word": "만들다",
+    "meaning": "make; create",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '만들다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '만들다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0503",
+    "word": "만일",
+    "meaning": "if; should",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '만일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '만일'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0504",
+    "word": "만지다",
+    "meaning": "touch",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '만지다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '만지다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0505",
+    "word": "만화",
+    "meaning": "comic book; cartoon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '만화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '만화'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0506",
+    "word": "많다",
+    "meaning": "many",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '많다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '많다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0507",
+    "word": "많이",
+    "meaning": "a lot of; many",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '많이'를 사용했습니다.",
+    "exampleMeaning": "I used '많이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0508",
+    "word": "말",
+    "meaning": "word; talk",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '말'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '말'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0509",
+    "word": "말씀",
+    "meaning": "words; remarks",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '말씀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '말씀'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0510",
+    "word": "말씀하다",
+    "meaning": "talk",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '말씀하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '말씀하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0511",
+    "word": "말하기",
+    "meaning": "speaking",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '말하기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '말하기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0512",
+    "word": "말하다",
+    "meaning": "say; talk",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '말하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '말하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0513",
+    "word": "맑다",
+    "meaning": "clear; clean",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맑다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맑다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0514",
+    "word": "맛",
+    "meaning": "flavor; taste",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맛'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맛'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0515",
+    "word": "맛없다",
+    "meaning": "not delicious",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맛없다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맛없다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0516",
+    "word": "맛있다",
+    "meaning": "delicious",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맛있다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맛있다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0517",
+    "word": "맞다",
+    "meaning": "right; fit; correct",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맞다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맞다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0518",
+    "word": "맞습니다",
+    "meaning": "That's right.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맞습니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맞습니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0519",
+    "word": "맞아요",
+    "meaning": "That's right.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맞아요'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맞아요'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0520",
+    "word": "맞은편",
+    "meaning": "across; the other side; opposite",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맞은편'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맞은편'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0521",
+    "word": "매다",
+    "meaning": "tie",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '매다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '매다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0522",
+    "word": "매우",
+    "meaning": "extremely; very",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '매우'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '매우'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0523",
+    "word": "매일",
+    "meaning": "everyday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '매일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '매일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0524",
+    "word": "매주",
+    "meaning": "every week",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '매주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '매주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0525",
+    "word": "맥주",
+    "meaning": "beer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맥주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맥주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0526",
+    "word": "맵다",
+    "meaning": "spicy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '맵다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '맵다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0527",
+    "word": "머리",
+    "meaning": "head; hair",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '머리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '머리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0528",
+    "word": "먹다",
+    "meaning": "eat",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '먹다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '먹다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0529",
+    "word": "먼저",
+    "meaning": "first; first of all; before",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '먼저'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '먼저'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0530",
+    "word": "멀다",
+    "meaning": "far; distant; long",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '멀다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '멀다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0531",
+    "word": "멋있다",
+    "meaning": "cool; nice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '멋있다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '멋있다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0532",
+    "word": "메뉴",
+    "meaning": "menu",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '메뉴'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '메뉴'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0533",
+    "word": "메다",
+    "meaning": "shoulder; carry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '메다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '메다'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0534",
+    "word": "메모",
+    "meaning": "memo",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '메모'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '메모'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0535",
+    "word": "메시지",
+    "meaning": "message",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '메시지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '메시지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0536",
+    "word": "멕시코",
+    "meaning": "Mexico",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '멕시코'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '멕시코'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0537",
+    "word": "며칠",
+    "meaning": "a few days; what date",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '며칠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '며칠'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0538",
+    "word": "면도",
+    "meaning": "razor; shaving",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '면도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '면도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0539",
+    "word": "명",
+    "meaning": "person (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '명'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '명'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0540",
+    "word": "명절",
+    "meaning": "holidays; annual events",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '명절'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '명절'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0541",
+    "word": "몇",
+    "meaning": "a few; a number of",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '몇'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '몇'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0542",
+    "word": "모두",
+    "meaning": "all; everyone",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '모두'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '모두'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0543",
+    "word": "모레",
+    "meaning": "the day after tomorrow",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '모레'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '모레'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0544",
+    "word": "모르겠습니다",
+    "meaning": "I don't know.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '모르겠습니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '모르겠습니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0545",
+    "word": "모르다",
+    "meaning": "do not know",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '모르다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '모르다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0546",
+    "word": "모시다",
+    "meaning": "take you; serve you (polite form)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '모시다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '모시다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0547",
+    "word": "모양",
+    "meaning": "shape; form; style",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '모양'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '모양'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0548",
+    "word": "모으다",
+    "meaning": "collect; gather",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '모으다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '모으다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0549",
+    "word": "모이다",
+    "meaning": "gather; get together",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '모이다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '모이다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0550",
+    "word": "모임",
+    "meaning": "meeting; gathering",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '모임'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '모임'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0551",
+    "word": "모자",
+    "meaning": "hat",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '모자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '모자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0552",
+    "word": "목",
+    "meaning": "neck; throat",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '목'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '목'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0553",
+    "word": "목걸이",
+    "meaning": "necklace",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '목걸이'를 사용했습니다.",
+    "exampleMeaning": "I used '목걸이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0554",
+    "word": "목소리",
+    "meaning": "voice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '목소리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '목소리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0555",
+    "word": "목요일",
+    "meaning": "Thursday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '목요일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '목요일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0556",
+    "word": "목욕",
+    "meaning": "bath; bathing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '목욕'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '목욕'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0557",
+    "word": "목욕하다",
+    "meaning": "take a bath",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '목욕하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '목욕하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0558",
+    "word": "목적",
+    "meaning": "purpose",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '목적'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '목적'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0559",
+    "word": "몸",
+    "meaning": "body",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '몸'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '몸'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0560",
+    "word": "몸살",
+    "meaning": "sickness; disease that comes from fatigue",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '몸살'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '몸살'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0561",
+    "word": "못하다",
+    "meaning": "can not do",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '못하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '못하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0562",
+    "word": "몽골",
+    "meaning": "Mongolia",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '몽골'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '몽골'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0563",
+    "word": "무",
+    "meaning": "radish",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0564",
+    "word": "무겁다",
+    "meaning": "heavy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무겁다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무겁다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0565",
+    "word": "무궁화",
+    "meaning": "rose of sharon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무궁화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무궁화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0566",
+    "word": "무료",
+    "meaning": "free",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무료'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무료'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0567",
+    "word": "무릎",
+    "meaning": "knee",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무릎'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무릎'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0568",
+    "word": "무리",
+    "meaning": "swarm; unreasonable",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0569",
+    "word": "무섭다",
+    "meaning": "scary",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무섭다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무섭다'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0570",
+    "word": "무슨",
+    "meaning": "what",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무슨'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무슨'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0571",
+    "word": "무엇",
+    "meaning": "what",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무엇'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무엇'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0572",
+    "word": "무엇이",
+    "meaning": "what",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '무엇이'를 사용했습니다.",
+    "exampleMeaning": "I used '무엇이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0573",
+    "word": "무역",
+    "meaning": "trade",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무역'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무역'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0574",
+    "word": "무용",
+    "meaning": "dance",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무용'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무용'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0575",
+    "word": "무척",
+    "meaning": "very",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '무척'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '무척'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0576",
+    "word": "문",
+    "meaning": "door; gate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '문'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '문'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0577",
+    "word": "문구점",
+    "meaning": "stationery store",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '문구점'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '문구점'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0578",
+    "word": "문장",
+    "meaning": "sentence",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '문장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '문장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0579",
+    "word": "문제",
+    "meaning": "problem",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '문제'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '문제'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0580",
+    "word": "문화",
+    "meaning": "culture",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '문화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '문화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0581",
+    "word": "묻다",
+    "meaning": "ask",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '묻다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '묻다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0582",
+    "word": "물",
+    "meaning": "water",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '물'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0583",
+    "word": "물건",
+    "meaning": "stuff; thing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '물건'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '물건'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0584",
+    "word": "물론",
+    "meaning": "sure; of course",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '물론'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '물론'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0585",
+    "word": "물어보다",
+    "meaning": "ask",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '물어보다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '물어보다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0586",
+    "word": "뭐",
+    "meaning": "what",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뭐'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뭐'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0587",
+    "word": "미국",
+    "meaning": "The United States",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '미국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '미국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0588",
+    "word": "미래",
+    "meaning": "future",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '미래'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '미래'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0589",
+    "word": "미리",
+    "meaning": "in advance; beforehand",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '미리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '미리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0590",
+    "word": "미술",
+    "meaning": "art",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '미술'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '미술'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0591",
+    "word": "미술관",
+    "meaning": "art gallery; art museum",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '미술관'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '미술관'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0592",
+    "word": "미안하다",
+    "meaning": "sorry",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '미안하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '미안하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0593",
+    "word": "미안합니다",
+    "meaning": "I'm sorry.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '미안합니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '미안합니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0594",
+    "word": "미용실",
+    "meaning": "beauty salon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '미용실'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '미용실'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0595",
+    "word": "미터",
+    "meaning": "meter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '미터'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '미터'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0596",
+    "word": "민속촌",
+    "meaning": "folk village",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '민속촌'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '민속촌'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0597",
+    "word": "밀가루",
+    "meaning": "flour",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '밀가루'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '밀가루'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0598",
+    "word": "밀리다",
+    "meaning": "be shaved; be pushed",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '밀리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '밀리다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0599",
+    "word": "밑",
+    "meaning": "bottom; below",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '밑'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '밑'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0600",
+    "word": "바꾸다",
+    "meaning": "change",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바꾸다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바꾸다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0601",
+    "word": "바뀌다",
+    "meaning": "be changed",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '바뀌다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '바뀌다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0602",
+    "word": "바나나",
+    "meaning": "banana",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바나나'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바나나'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0603",
+    "word": "바다",
+    "meaning": "sea",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0604",
+    "word": "바닷가",
+    "meaning": "beach",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바닷가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바닷가'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0605",
+    "word": "바라다",
+    "meaning": "hope",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바라다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바라다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0606",
+    "word": "바람",
+    "meaning": "wind",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바람'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바람'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0607",
+    "word": "바로",
+    "meaning": "immediately; soon; just",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바로'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바로'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0608",
+    "word": "바르다",
+    "meaning": "right; paint; wear",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0609",
+    "word": "바쁘다",
+    "meaning": "busy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바쁘다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바쁘다'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0610",
+    "word": "바이올린",
+    "meaning": "violin",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바이올린'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바이올린'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0611",
+    "word": "바지",
+    "meaning": "pants",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '바지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '바지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0612",
+    "word": "박물관",
+    "meaning": "museum",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '박물관'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '박물관'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0613",
+    "word": "박수",
+    "meaning": "clap; applause",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '박수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '박수'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0614",
+    "word": "밖",
+    "meaning": "out; outside",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '밖'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '밖'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0615",
+    "word": "반",
+    "meaning": "half; group",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '반'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '반'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0616",
+    "word": "반갑다",
+    "meaning": "nice to meet; happy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '반갑다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '반갑다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0617",
+    "word": "반갑습니다",
+    "meaning": "Nice to meet you.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '반갑습니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '반갑습니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0618",
+    "word": "반년",
+    "meaning": "half a year",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '반년'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '반년'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0619",
+    "word": "반달",
+    "meaning": "half-moon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '반달'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '반달'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0620",
+    "word": "반바지",
+    "meaning": "shorts",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '반바지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '반바지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0621",
+    "word": "반지",
+    "meaning": "ring",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '반지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '반지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0622",
+    "word": "반찬",
+    "meaning": "side dish",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '반찬'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '반찬'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0623",
+    "word": "받다",
+    "meaning": "receive",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '받다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '받다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0624",
+    "word": "발",
+    "meaning": "foot; leg",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '발'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '발'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0625",
+    "word": "발가락",
+    "meaning": "toe (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '발가락'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '발가락'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0626",
+    "word": "발음",
+    "meaning": "pronunciation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '발음'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '발음'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0627",
+    "word": "발전",
+    "meaning": "development",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '발전'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '발전'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0628",
+    "word": "발표",
+    "meaning": "announcement; presentation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '발표'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '발표'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0629",
+    "word": "밝다",
+    "meaning": "bright",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '밝다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '밝다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0630",
+    "word": "밤",
+    "meaning": "night",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '밤'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '밤'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0631",
+    "word": "밥",
+    "meaning": "rice; meal",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '밥'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '밥'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0632",
+    "word": "방",
+    "meaning": "room",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '방'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '방'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0633",
+    "word": "방법",
+    "meaning": "way; method",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '방법'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '방법'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0634",
+    "word": "방송",
+    "meaning": "broadcast",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '방송'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '방송'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0635",
+    "word": "방송국",
+    "meaning": "broadcast stations",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '방송국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '방송국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0636",
+    "word": "방학",
+    "meaning": "vacation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '방학'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '방학'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0637",
+    "word": "배",
+    "meaning": "ship; stomach; pear",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '배'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '배'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0638",
+    "word": "배고프다",
+    "meaning": "hungry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '배고프다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '배고프다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0639",
+    "word": "배구",
+    "meaning": "volleyball",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '배구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '배구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0640",
+    "word": "배달",
+    "meaning": "delivery",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '배달'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '배달'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0641",
+    "word": "배부르다",
+    "meaning": "be full (I am full.)",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '배부르다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '배부르다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0642",
+    "word": "배우",
+    "meaning": "actor",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '배우'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '배우'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0643",
+    "word": "배우다",
+    "meaning": "learn",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '배우다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '배우다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0644",
+    "word": "배탈",
+    "meaning": "stomachache",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '배탈'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '배탈'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0645",
+    "word": "백",
+    "meaning": "100",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '백'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '백'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0646",
+    "word": "백화점",
+    "meaning": "department store",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '백화점'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '백화점'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0647",
+    "word": "버리다",
+    "meaning": "abandon; throw away",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '버리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '버리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0648",
+    "word": "버스",
+    "meaning": "bus",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '버스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '버스'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0649",
+    "word": "번",
+    "meaning": "time (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '번'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '번'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0650",
+    "word": "번호",
+    "meaning": "number",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '번호'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '번호'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0651",
+    "word": "벌다",
+    "meaning": "earn; make money",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '벌다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '벌다'.",
+    "tags": [
+      "topik-i",
+      "money"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0652",
+    "word": "벌써",
+    "meaning": "already",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '벌써'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '벌써'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0653",
+    "word": "벗다",
+    "meaning": "take off (clothes; shoes)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '벗다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '벗다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0654",
+    "word": "벚꽃",
+    "meaning": "cherry blossom",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '벚꽃'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '벚꽃'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0655",
+    "word": "베이징",
+    "meaning": "Beijing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '베이징'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '베이징'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0656",
+    "word": "베트남",
+    "meaning": "Vietnam",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '베트남'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '베트남'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0657",
+    "word": "벽",
+    "meaning": "wall",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '벽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '벽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0658",
+    "word": "변호사",
+    "meaning": "lawyer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '변호사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '변호사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0659",
+    "word": "별",
+    "meaning": "star",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '별'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '별'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0660",
+    "word": "별로",
+    "meaning": "not really",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '별로'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '별로'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0661",
+    "word": "병",
+    "meaning": "illness; bottle (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '병'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '병'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0662",
+    "word": "병원",
+    "meaning": "hospital",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '병원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '병원'.",
+    "tags": [
+      "topik-i",
+      "health"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0663",
+    "word": "보내다",
+    "meaning": "send; spend",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '보내다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '보내다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0664",
+    "word": "보다",
+    "meaning": "see",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '보다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '보다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0665",
+    "word": "보도",
+    "meaning": "sidewalk; report",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '보도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '보도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0666",
+    "word": "보이다",
+    "meaning": "show; look",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '보이다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '보이다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0667",
+    "word": "보통",
+    "meaning": "usually; normally; in general",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '보통'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '보통'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0668",
+    "word": "복숭아",
+    "meaning": "peach",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '복숭아'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '복숭아'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0669",
+    "word": "복잡하다",
+    "meaning": "complicated; crowded",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '복잡하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '복잡하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0670",
+    "word": "볶다",
+    "meaning": "fry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '볶다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '볶다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0671",
+    "word": "볶음밥",
+    "meaning": "fried rice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '볶음밥'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '볶음밥'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0672",
+    "word": "볼펜",
+    "meaning": "ballpoint pen",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '볼펜'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '볼펜'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0673",
+    "word": "봄",
+    "meaning": "spring",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '봄'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '봄'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0674",
+    "word": "봉지",
+    "meaning": "bag",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '봉지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '봉지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0675",
+    "word": "봉투",
+    "meaning": "envelope",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '봉투'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '봉투'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0676",
+    "word": "뵙다",
+    "meaning": "meet",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뵙다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뵙다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0677",
+    "word": "부동산",
+    "meaning": "real estate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부동산'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부동산'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0678",
+    "word": "부드럽다",
+    "meaning": "soft; friendly",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부드럽다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부드럽다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0679",
+    "word": "부르다",
+    "meaning": "call; sing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0680",
+    "word": "부모",
+    "meaning": "parents",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부모'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부모'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0681",
+    "word": "부부",
+    "meaning": "couple; husband and wife; married couple",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부부'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부부'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0682",
+    "word": "부산",
+    "meaning": "Busan",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부산'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부산'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0683",
+    "word": "부업",
+    "meaning": "sideline",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부업'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부업'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0684",
+    "word": "부엌",
+    "meaning": "kitchen",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부엌'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부엌'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0685",
+    "word": "부인",
+    "meaning": "wife; Mrs.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부인'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부인'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0686",
+    "word": "부장",
+    "meaning": "director",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0687",
+    "word": "부지런하다",
+    "meaning": "diligent",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '부지런하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '부지런하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0688",
+    "word": "부치다",
+    "meaning": "send; fry; transmit",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부치다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부치다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0689",
+    "word": "부탁",
+    "meaning": "request; please",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '부탁'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '부탁'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0690",
+    "word": "부탁하다",
+    "meaning": "beg; ask",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '부탁하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '부탁하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0691",
+    "word": "북쪽",
+    "meaning": "North",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '북쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '북쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0692",
+    "word": "분",
+    "meaning": "person (s); minute (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '분'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '분'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0693",
+    "word": "분위기",
+    "meaning": "#N; A",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '분위기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '분위기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0694",
+    "word": "불",
+    "meaning": "fire; electrical light",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '불'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '불'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0695",
+    "word": "불고기",
+    "meaning": "Bulgogi; grilled meat",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '불고기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '불고기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0696",
+    "word": "불다",
+    "meaning": "blow (wind or whistle; musical instruments; etc.)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '불다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '불다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0697",
+    "word": "불편하다",
+    "meaning": "uncomfortable; inconvenient",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '불편하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '불편하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0698",
+    "word": "붓다",
+    "meaning": "pour",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '붓다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '붓다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0699",
+    "word": "붙다",
+    "meaning": "stick; pass a test",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '붙다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '붙다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0700",
+    "word": "붙이다",
+    "meaning": "attach; stick",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '붙이다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '붙이다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0701",
+    "word": "브라질",
+    "meaning": "Brazil",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '브라질'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '브라질'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0702",
+    "word": "블라우스",
+    "meaning": "blouse",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '블라우스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '블라우스'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0703",
+    "word": "비",
+    "meaning": "rain",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '비'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '비'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0704",
+    "word": "비누",
+    "meaning": "soap",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '비누'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '비누'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0705",
+    "word": "비디오",
+    "meaning": "video",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '비디오'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '비디오'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0706",
+    "word": "비밀",
+    "meaning": "secret",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '비밀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '비밀'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0707",
+    "word": "비빔밥",
+    "meaning": "Bibimbap; mixed rice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '비빔밥'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '비빔밥'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0708",
+    "word": "비슷하다",
+    "meaning": "similar; like",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '비슷하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '비슷하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0709",
+    "word": "비싸다",
+    "meaning": "expensive",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '비싸다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '비싸다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0710",
+    "word": "비행기",
+    "meaning": "airplane",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '비행기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '비행기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0711",
+    "word": "비행장",
+    "meaning": "airfield; airport",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '비행장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '비행장'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0712",
+    "word": "빌딩",
+    "meaning": "building",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빌딩'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빌딩'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0713",
+    "word": "빌리다",
+    "meaning": "borrow; lend",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '빌리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '빌리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0714",
+    "word": "빠르다",
+    "meaning": "fast",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빠르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빠르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0715",
+    "word": "빨간색",
+    "meaning": "red color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빨간색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빨간색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0716",
+    "word": "빨갛다",
+    "meaning": "red",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빨갛다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빨갛다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0717",
+    "word": "빨다",
+    "meaning": "suck; do laundry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빨다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빨다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0718",
+    "word": "빨래",
+    "meaning": "laundry; wash",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빨래'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빨래'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0719",
+    "word": "빨리",
+    "meaning": "quickly",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빨리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빨리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0720",
+    "word": "빵",
+    "meaning": "bread",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빵'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빵'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0721",
+    "word": "빵집",
+    "meaning": "bakery",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빵집'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빵집'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0722",
+    "word": "빼다",
+    "meaning": "remove; pull; pull out",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '빼다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '빼다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0723",
+    "word": "뿐",
+    "meaning": "only",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '뿐'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '뿐'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0724",
+    "word": "사",
+    "meaning": "4",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0725",
+    "word": "사거리",
+    "meaning": "intersection; four corners",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사거리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사거리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0726",
+    "word": "사계절",
+    "meaning": "four seasons",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사계절'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사계절'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0727",
+    "word": "사고",
+    "meaning": "accident",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사고'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사고'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0728",
+    "word": "사과",
+    "meaning": "apple",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사과'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사과'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0729",
+    "word": "사다",
+    "meaning": "buy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0730",
+    "word": "사람",
+    "meaning": "person; man",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사람'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사람'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0731",
+    "word": "사랑",
+    "meaning": "love",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사랑'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사랑'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0732",
+    "word": "사랑하다",
+    "meaning": "love",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '사랑하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '사랑하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0733",
+    "word": "사례",
+    "meaning": "case; example",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사례'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사례'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0734",
+    "word": "사무실",
+    "meaning": "office",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사무실'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사무실'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0735",
+    "word": "사물",
+    "meaning": "object; thing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사물'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0736",
+    "word": "사십",
+    "meaning": "40",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사십'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사십'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0737",
+    "word": "사업가",
+    "meaning": "entrepreneur; businessman",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사업가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사업가'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0738",
+    "word": "사용하다",
+    "meaning": "use",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '사용하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '사용하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0739",
+    "word": "사원",
+    "meaning": "temple; employee",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사원'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0740",
+    "word": "사월",
+    "meaning": "April",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0741",
+    "word": "사이",
+    "meaning": "between; while",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '사이'를 사용했습니다.",
+    "exampleMeaning": "I used '사이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0742",
+    "word": "사이다",
+    "meaning": "cider",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사이다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사이다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0743",
+    "word": "사이즈",
+    "meaning": "size",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사이즈'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사이즈'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0744",
+    "word": "사인하다",
+    "meaning": "sign",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '사인하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '사인하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0745",
+    "word": "사장",
+    "meaning": "CEO; the president",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0746",
+    "word": "사전",
+    "meaning": "dictionary",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사전'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사전'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0747",
+    "word": "사진",
+    "meaning": "picture; photo",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사진'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사진'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0748",
+    "word": "사진기",
+    "meaning": "camera",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사진기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사진기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0749",
+    "word": "사촌",
+    "meaning": "cousin",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사촌'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사촌'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0750",
+    "word": "사탕",
+    "meaning": "candy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사탕'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사탕'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0751",
+    "word": "사흘",
+    "meaning": "3 days",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '사흘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '사흘'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0752",
+    "word": "산",
+    "meaning": "mountain",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '산'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '산'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0753",
+    "word": "산책",
+    "meaning": "walk",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '산책'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '산책'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0754",
+    "word": "살",
+    "meaning": "flesh; year (s) old",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '살'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '살'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0755",
+    "word": "살다",
+    "meaning": "live",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '살다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '살다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0756",
+    "word": "삼",
+    "meaning": "3",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '삼'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '삼'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0757",
+    "word": "삼거리",
+    "meaning": "intersection; three-way intersection",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '삼거리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '삼거리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0758",
+    "word": "삼계탕",
+    "meaning": "Samgyetang",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '삼계탕'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '삼계탕'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0759",
+    "word": "삼십",
+    "meaning": "30",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '삼십'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '삼십'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0760",
+    "word": "삼월",
+    "meaning": "March",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '삼월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '삼월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0761",
+    "word": "삼촌",
+    "meaning": "paternal uncle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '삼촌'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '삼촌'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0762",
+    "word": "상관",
+    "meaning": "relation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '상관'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '상관'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0763",
+    "word": "상자",
+    "meaning": "box",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '상자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '상자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0764",
+    "word": "상처",
+    "meaning": "wound; scratch",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '상처'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '상처'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0765",
+    "word": "상품",
+    "meaning": "product",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '상품'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '상품'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0766",
+    "word": "새",
+    "meaning": "bird; new",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '새'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '새'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0767",
+    "word": "새로",
+    "meaning": "newly",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '새로'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '새로'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0768",
+    "word": "새벽",
+    "meaning": "dawn; late at night; early morning",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '새벽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '새벽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0769",
+    "word": "새우",
+    "meaning": "shrimp",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '새우'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '새우'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0770",
+    "word": "색",
+    "meaning": "color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0771",
+    "word": "색깔",
+    "meaning": "color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '색깔'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '색깔'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0772",
+    "word": "샌드위치",
+    "meaning": "sandwich",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '샌드위치'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '샌드위치'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0773",
+    "word": "생각",
+    "meaning": "thinking; thought",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '생각'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '생각'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0774",
+    "word": "생각되다",
+    "meaning": "be considered; it seems",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '생각되다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '생각되다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0775",
+    "word": "생각하다",
+    "meaning": "think",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '생각하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '생각하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0776",
+    "word": "생기다",
+    "meaning": "form; arise",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '생기다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '생기다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0777",
+    "word": "생선",
+    "meaning": "fish",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '생선'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '생선'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0778",
+    "word": "생신",
+    "meaning": "birthday (polite form)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '생신'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '생신'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0779",
+    "word": "생일",
+    "meaning": "birthday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '생일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '생일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0780",
+    "word": "생활",
+    "meaning": "life",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '생활'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '생활'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0781",
+    "word": "샤워하다",
+    "meaning": "take a shower",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '샤워하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '샤워하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0782",
+    "word": "샴푸",
+    "meaning": "shampoo",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '샴푸'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '샴푸'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0783",
+    "word": "서다",
+    "meaning": "stand",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0784",
+    "word": "서로",
+    "meaning": "each other; both",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서로'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서로'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0785",
+    "word": "서류",
+    "meaning": "document",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서류'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서류'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0786",
+    "word": "서른",
+    "meaning": "30",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서른'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서른'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0787",
+    "word": "서비스",
+    "meaning": "service",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서비스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서비스'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0788",
+    "word": "서양",
+    "meaning": "western; west",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서양'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서양'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0789",
+    "word": "서울",
+    "meaning": "Seoul",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서울'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서울'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0790",
+    "word": "서울역",
+    "meaning": "Seoul station",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서울역'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서울역'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0791",
+    "word": "서점",
+    "meaning": "bookstore",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서점'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서점'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0792",
+    "word": "서쪽",
+    "meaning": "west; western",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '서쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '서쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0793",
+    "word": "선물",
+    "meaning": "gift; present",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '선물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '선물'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0794",
+    "word": "선배",
+    "meaning": "elder; senior",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '선배'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '선배'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0795",
+    "word": "선생님",
+    "meaning": "teacher",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '선생님'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '선생님'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0796",
+    "word": "선수",
+    "meaning": "player",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '선수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '선수'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0797",
+    "word": "선택하다",
+    "meaning": "choose; select",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '선택하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '선택하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0798",
+    "word": "선풍기",
+    "meaning": "fan",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '선풍기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '선풍기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0799",
+    "word": "설거지",
+    "meaning": "washing dishes; dish-washing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '설거지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '설거지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0800",
+    "word": "설날",
+    "meaning": "Lunar New Year",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '설날'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '설날'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0801",
+    "word": "설렁탕",
+    "meaning": "Seolleongtang",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '설렁탕'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '설렁탕'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0802",
+    "word": "설명",
+    "meaning": "explanation; description",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '설명'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '설명'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0803",
+    "word": "설명하다",
+    "meaning": "explain",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '설명하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '설명하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0804",
+    "word": "설악산",
+    "meaning": "Mt. Seorak",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '설악산'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '설악산'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0805",
+    "word": "설탕",
+    "meaning": "sugar",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '설탕'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '설탕'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0806",
+    "word": "섬",
+    "meaning": "island",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '섬'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '섬'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0807",
+    "word": "성",
+    "meaning": "castle; last name",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '성'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '성'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0808",
+    "word": "성격",
+    "meaning": "personality",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '성격'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '성격'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0809",
+    "word": "성함",
+    "meaning": "name",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '성함'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '성함'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0810",
+    "word": "세계",
+    "meaning": "world",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '세계'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '세계'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0811",
+    "word": "세수하다",
+    "meaning": "wash",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '세수하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '세수하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0812",
+    "word": "세우다",
+    "meaning": "set up; formulate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '세우다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '세우다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0813",
+    "word": "세일하다",
+    "meaning": "have a sale",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '세일하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '세일하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0814",
+    "word": "세탁기",
+    "meaning": "washing machine",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '세탁기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '세탁기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0815",
+    "word": "세탁소",
+    "meaning": "dry cleaners; laundromat",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '세탁소'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '세탁소'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0816",
+    "word": "센터",
+    "meaning": "center",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '센터'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '센터'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0817",
+    "word": "센티미터",
+    "meaning": "centimeter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '센티미터'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '센티미터'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0818",
+    "word": "셋",
+    "meaning": "3",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '셋'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '셋'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0819",
+    "word": "셋째",
+    "meaning": "third",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '셋째'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '셋째'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0820",
+    "word": "소",
+    "meaning": "small; cow",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0821",
+    "word": "소개",
+    "meaning": "introduction",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소개'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소개'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0822",
+    "word": "소개하다",
+    "meaning": "introduce",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '소개하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '소개하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0823",
+    "word": "소고기",
+    "meaning": "beef",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소고기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소고기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0824",
+    "word": "소금",
+    "meaning": "salt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소금'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소금'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0825",
+    "word": "소리",
+    "meaning": "sound; voice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0826",
+    "word": "소설",
+    "meaning": "novel",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소설'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소설'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0827",
+    "word": "소설가",
+    "meaning": "novelist",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소설가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소설가'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0828",
+    "word": "소식",
+    "meaning": "news",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소식'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0829",
+    "word": "소파",
+    "meaning": "sofa",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소파'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소파'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0830",
+    "word": "소포",
+    "meaning": "parcel",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소포'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소포'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0831",
+    "word": "소풍",
+    "meaning": "picnic; trip",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소풍'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소풍'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0832",
+    "word": "소화제",
+    "meaning": "peptic; digestive",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '소화제'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '소화제'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0833",
+    "word": "속",
+    "meaning": "inside",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '속'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '속'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0834",
+    "word": "손",
+    "meaning": "hand",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '손'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '손'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0835",
+    "word": "손가락",
+    "meaning": "finger",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '손가락'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '손가락'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0836",
+    "word": "손님",
+    "meaning": "customer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '손님'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '손님'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0837",
+    "word": "손수건",
+    "meaning": "handkerchief",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '손수건'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '손수건'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0838",
+    "word": "송이",
+    "meaning": "bunch; flower; cluster",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '송이'를 사용했습니다.",
+    "exampleMeaning": "I used '송이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0839",
+    "word": "쇼핑",
+    "meaning": "shopping",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쇼핑'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쇼핑'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0840",
+    "word": "수건",
+    "meaning": "towel; washcloth",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수건'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수건'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0841",
+    "word": "수도",
+    "meaning": "capital; water supply",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0842",
+    "word": "수돗물",
+    "meaning": "tap water",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수돗물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수돗물'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0843",
+    "word": "수박",
+    "meaning": "watermelon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수박'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수박'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0844",
+    "word": "수술하다",
+    "meaning": "operate on for",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '수술하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '수술하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0845",
+    "word": "수업",
+    "meaning": "class; lesson",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수업'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수업'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0846",
+    "word": "수영",
+    "meaning": "swimming",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수영'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수영'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0847",
+    "word": "수영복",
+    "meaning": "swimsuit",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수영복'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수영복'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0848",
+    "word": "수영장",
+    "meaning": "swimming pool",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수영장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수영장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0849",
+    "word": "수요일",
+    "meaning": "Wednesday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수요일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수요일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0850",
+    "word": "수저",
+    "meaning": "chopsticks and a spoon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수저'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수저'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0851",
+    "word": "수첩",
+    "meaning": "note; notebook",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수첩'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수첩'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0852",
+    "word": "수학",
+    "meaning": "mathematics",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '수학'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '수학'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0853",
+    "word": "숙제",
+    "meaning": "homework",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '숙제'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '숙제'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0854",
+    "word": "순서",
+    "meaning": "order; turn",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '순서'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '순서'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0855",
+    "word": "숟가락",
+    "meaning": "spoon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '숟가락'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '숟가락'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0856",
+    "word": "술",
+    "meaning": "alcohol; liquor",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '술'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '술'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0857",
+    "word": "쉬다",
+    "meaning": "rest",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쉬다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쉬다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0858",
+    "word": "쉰",
+    "meaning": "50",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쉰'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쉰'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0859",
+    "word": "쉽다",
+    "meaning": "easy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쉽다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쉽다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0860",
+    "word": "슈퍼마켓",
+    "meaning": "supermarket",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '슈퍼마켓'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '슈퍼마켓'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0861",
+    "word": "스물",
+    "meaning": "20",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스물'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0862",
+    "word": "스웨터",
+    "meaning": "sweater",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스웨터'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스웨터'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0863",
+    "word": "스케이트",
+    "meaning": "skate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스케이트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스케이트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0864",
+    "word": "스키",
+    "meaning": "ski; skiing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스키'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스키'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0865",
+    "word": "스키장",
+    "meaning": "ski resort",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스키장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스키장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0866",
+    "word": "스타",
+    "meaning": "star",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스타'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스타'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0867",
+    "word": "스타킹",
+    "meaning": "stockings",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스타킹'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스타킹'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0868",
+    "word": "스트레스",
+    "meaning": "stress",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스트레스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스트레스'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0869",
+    "word": "스페인어",
+    "meaning": "Spanish",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스페인어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스페인어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0870",
+    "word": "스포츠",
+    "meaning": "sport",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '스포츠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '스포츠'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0871",
+    "word": "슬퍼하다",
+    "meaning": "sorrow; mourn",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '슬퍼하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '슬퍼하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0872",
+    "word": "슬프다",
+    "meaning": "sad",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '슬프다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '슬프다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0873",
+    "word": "습관",
+    "meaning": "habit",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '습관'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '습관'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0874",
+    "word": "시",
+    "meaning": "city; time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0875",
+    "word": "시간",
+    "meaning": "time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시간'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시간'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0876",
+    "word": "시간표",
+    "meaning": "schedule; timetable",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시간표'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시간표'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0877",
+    "word": "시계",
+    "meaning": "clock",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시계'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시계'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0878",
+    "word": "시골",
+    "meaning": "countryside",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시골'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시골'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0879",
+    "word": "시끄럽다",
+    "meaning": "noisy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시끄럽다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시끄럽다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0880",
+    "word": "시내",
+    "meaning": "downtown; city; stream",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시내'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시내'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0881",
+    "word": "시다",
+    "meaning": "sour",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0882",
+    "word": "시디",
+    "meaning": "CD",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시디'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시디'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0883",
+    "word": "시민",
+    "meaning": "citizen",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시민'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시민'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0884",
+    "word": "시설",
+    "meaning": "facility",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시설'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시설'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0885",
+    "word": "시외",
+    "meaning": "suburbs",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시외'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시외'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0886",
+    "word": "시원하다",
+    "meaning": "cool; refresh",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '시원하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '시원하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0887",
+    "word": "시월",
+    "meaning": "October",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0888",
+    "word": "시작",
+    "meaning": "start",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시작'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시작'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0889",
+    "word": "시작되다",
+    "meaning": "begin",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '시작되다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '시작되다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0890",
+    "word": "시작하다",
+    "meaning": "start; begin",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '시작하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '시작하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0891",
+    "word": "시장",
+    "meaning": "market",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0892",
+    "word": "시청",
+    "meaning": "city hall",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시청'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시청'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0893",
+    "word": "시키다",
+    "meaning": "make someone do; order",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시키다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시키다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0894",
+    "word": "시험",
+    "meaning": "exam; test",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '시험'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '시험'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0895",
+    "word": "식당",
+    "meaning": "restaurant; cafeteria",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '식당'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '식당'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0896",
+    "word": "식사",
+    "meaning": "meal",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '식사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '식사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0897",
+    "word": "식탁",
+    "meaning": "table",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '식탁'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '식탁'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0898",
+    "word": "신",
+    "meaning": "god; new",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '신'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '신'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0899",
+    "word": "신다",
+    "meaning": "put on; wear",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '신다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '신다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0900",
+    "word": "신문",
+    "meaning": "newspaper",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '신문'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '신문'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0901",
+    "word": "신발",
+    "meaning": "shoes; footwear",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '신발'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '신발'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0902",
+    "word": "신청서",
+    "meaning": "application forms",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '신청서'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '신청서'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0903",
+    "word": "신청하다",
+    "meaning": "put in for; apply for",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '신청하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '신청하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0904",
+    "word": "실례",
+    "meaning": "excuse",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '실례'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '실례'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0905",
+    "word": "실례하다",
+    "meaning": "be excused",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '실례하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '실례하다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0906",
+    "word": "실수",
+    "meaning": "mistake; failure",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '실수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '실수'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0907",
+    "word": "싫다",
+    "meaning": "hate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '싫다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '싫다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0908",
+    "word": "싫어하다",
+    "meaning": "dislike; hate",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '싫어하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '싫어하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0909",
+    "word": "심하다",
+    "meaning": "severe; terrible",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '심하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '심하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0910",
+    "word": "십",
+    "meaning": "10",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '십'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '십'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0911",
+    "word": "십이월",
+    "meaning": "December",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '십이월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '십이월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0912",
+    "word": "십일월",
+    "meaning": "November",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '십일월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '십일월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0913",
+    "word": "싱겁다",
+    "meaning": "not salty",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '싱겁다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '싱겁다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0914",
+    "word": "싶다",
+    "meaning": "want",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '싶다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '싶다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0915",
+    "word": "싸다",
+    "meaning": "cheap; wrap",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '싸다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '싸다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0916",
+    "word": "싸우다",
+    "meaning": "fight",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '싸우다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '싸우다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0917",
+    "word": "쌀",
+    "meaning": "rice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쌀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쌀'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0918",
+    "word": "쌀밥",
+    "meaning": "cooked rice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쌀밥'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쌀밥'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0919",
+    "word": "쌓이다",
+    "meaning": "stack up; pile up",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쌓이다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쌓이다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0920",
+    "word": "썰다",
+    "meaning": "chop; cut",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '썰다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '썰다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0921",
+    "word": "쓰기",
+    "meaning": "writing; dictation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쓰기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쓰기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0922",
+    "word": "쓰다",
+    "meaning": "write; use; wear (glasses)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쓰다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쓰다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0923",
+    "word": "쓰레기",
+    "meaning": "garbage",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쓰레기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쓰레기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0924",
+    "word": "쓰이다",
+    "meaning": "be written; be used",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '쓰이다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '쓰이다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0925",
+    "word": "씨",
+    "meaning": "seed; Mr.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '씨'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '씨'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0926",
+    "word": "씩",
+    "meaning": "each; every; per",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '씩'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '씩'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0927",
+    "word": "씹다",
+    "meaning": "chew; bite",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '씹다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '씹다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0928",
+    "word": "씻다",
+    "meaning": "wash",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '씻다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '씻다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0929",
+    "word": "아가씨",
+    "meaning": "Miss; daughter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아가씨'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아가씨'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0930",
+    "word": "아기",
+    "meaning": "baby; toddler",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0931",
+    "word": "아까",
+    "meaning": "earlier; while ago",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아까'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아까'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0932",
+    "word": "아내",
+    "meaning": "wife",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아내'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아내'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0933",
+    "word": "아뇨",
+    "meaning": "no",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아뇨'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아뇨'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0934",
+    "word": "아니다",
+    "meaning": "no",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0935",
+    "word": "아니오",
+    "meaning": "no",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아니오'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아니오'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0936",
+    "word": "아니요",
+    "meaning": "no",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아니요'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아니요'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0937",
+    "word": "아들",
+    "meaning": "son",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아들'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아들'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0938",
+    "word": "아랍어",
+    "meaning": "Arabic",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아랍어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아랍어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0939",
+    "word": "아래",
+    "meaning": "bottom; under",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아래'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아래'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0940",
+    "word": "아름답다",
+    "meaning": "beautiful",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아름답다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아름답다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0941",
+    "word": "아마",
+    "meaning": "maybe; perhaps",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아마'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아마'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0942",
+    "word": "아무",
+    "meaning": "any",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아무'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아무'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0943",
+    "word": "아버님",
+    "meaning": "father",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아버님'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아버님'.",
+    "tags": [
+      "topik-i",
+      "family"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0944",
+    "word": "아버지",
+    "meaning": "father",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아버지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아버지'.",
+    "tags": [
+      "topik-i",
+      "family"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0945",
+    "word": "아빠",
+    "meaning": "dad",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아빠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아빠'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0946",
+    "word": "아시아",
+    "meaning": "Asia",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아시아'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아시아'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0947",
+    "word": "아이",
+    "meaning": "child",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '아이'를 사용했습니다.",
+    "exampleMeaning": "I used '아이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0948",
+    "word": "아이스크림",
+    "meaning": "ice cream",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아이스크림'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아이스크림'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0949",
+    "word": "아저씨",
+    "meaning": "uncle; mister",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아저씨'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아저씨'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0950",
+    "word": "아주",
+    "meaning": "very; completely",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0951",
+    "word": "아주머니",
+    "meaning": "old lady; madame; aunt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아주머니'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아주머니'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0952",
+    "word": "아줌마",
+    "meaning": "old lady; madame; aunt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아줌마'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아줌마'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0953",
+    "word": "아직",
+    "meaning": "yet; still",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아직'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아직'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0954",
+    "word": "아침",
+    "meaning": "morning; breakfast",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아침'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아침'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0955",
+    "word": "아침밥",
+    "meaning": "breakfast",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아침밥'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아침밥'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0956",
+    "word": "아침식사",
+    "meaning": "breakfast",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아침식사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아침식사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0957",
+    "word": "아파트",
+    "meaning": "apartment; mansion",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아파트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아파트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0958",
+    "word": "아프다",
+    "meaning": "painful; sick",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아프다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아프다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0959",
+    "word": "아프리카",
+    "meaning": "Africa",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아프리카'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아프리카'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0960",
+    "word": "아홉",
+    "meaning": "9",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아홉'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아홉'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0961",
+    "word": "아흔",
+    "meaning": "90",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '아흔'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '아흔'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0962",
+    "word": "악기",
+    "meaning": "musical instrument",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '악기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '악기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0963",
+    "word": "안",
+    "meaning": "within; not",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '안'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '안'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0964",
+    "word": "안경",
+    "meaning": "glasses",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '안경'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '안경'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0965",
+    "word": "안내하다",
+    "meaning": "guide; invite",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '안내하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '안내하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0966",
+    "word": "안녕하세요",
+    "meaning": "hi; hello",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '안녕하세요'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '안녕하세요'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0967",
+    "word": "안녕하십니까",
+    "meaning": "hello",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '안녕하십니까'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '안녕하십니까'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0968",
+    "word": "안다",
+    "meaning": "embrace; cradle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '안다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '안다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0969",
+    "word": "안전하다",
+    "meaning": "safe",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '안전하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '안전하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0970",
+    "word": "앉다",
+    "meaning": "sit",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '앉다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '앉다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0971",
+    "word": "알다",
+    "meaning": "know",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '알다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '알다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0972",
+    "word": "알리다",
+    "meaning": "inform",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '알리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '알리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0973",
+    "word": "알맞다",
+    "meaning": "fit; appropriate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '알맞다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '알맞다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0974",
+    "word": "알았습니다",
+    "meaning": "I understood.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '알았습니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '알았습니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0975",
+    "word": "앞",
+    "meaning": "front; previous",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '앞'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '앞'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0976",
+    "word": "애",
+    "meaning": "child",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '애'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '애'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0977",
+    "word": "액세서리",
+    "meaning": "accessory",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '액세서리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '액세서리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0978",
+    "word": "야구",
+    "meaning": "baseball",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '야구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '야구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0979",
+    "word": "야채",
+    "meaning": "vegetable",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '야채'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '야채'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0980",
+    "word": "약",
+    "meaning": "about; medicine",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '약'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '약'.",
+    "tags": [
+      "topik-i",
+      "health"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0981",
+    "word": "약간",
+    "meaning": "slightly; a little",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '약간'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '약간'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0982",
+    "word": "약국",
+    "meaning": "pharmacy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '약국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '약국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0983",
+    "word": "약사",
+    "meaning": "pharmacist",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '약사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '약사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0984",
+    "word": "약속",
+    "meaning": "appointment; promise",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '약속'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '약속'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0985",
+    "word": "얇다",
+    "meaning": "thin",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '얇다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '얇다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0986",
+    "word": "양",
+    "meaning": "amount; sheep",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '양'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '양'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0987",
+    "word": "양말",
+    "meaning": "socks",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '양말'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '양말'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0988",
+    "word": "양복",
+    "meaning": "suit",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '양복'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '양복'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0989",
+    "word": "양식",
+    "meaning": "form; western style",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '양식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '양식'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0990",
+    "word": "양파",
+    "meaning": "onion",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '양파'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '양파'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0991",
+    "word": "얘기하다",
+    "meaning": "talk",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '얘기하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '얘기하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0992",
+    "word": "어깨",
+    "meaning": "shoulder",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어깨'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어깨'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0993",
+    "word": "어느",
+    "meaning": "which; how",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어느'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어느'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0994",
+    "word": "어둡다",
+    "meaning": "dark",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어둡다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어둡다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0995",
+    "word": "어디",
+    "meaning": "where",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어디'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어디'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0996",
+    "word": "어떤",
+    "meaning": "which; what",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어떤'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어떤'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0997",
+    "word": "어떻게",
+    "meaning": "how",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어떻게'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어떻게'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0998",
+    "word": "어떻다",
+    "meaning": "how",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어떻다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어떻다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-0999",
+    "word": "어떻습니까 ?",
+    "meaning": "How is it?",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어떻습니까 ?'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어떻습니까 ?'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1000",
+    "word": "어렵다",
+    "meaning": "difficult",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어렵다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어렵다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1001",
+    "word": "어른",
+    "meaning": "adult",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어른'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어른'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1002",
+    "word": "어리다",
+    "meaning": "young",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '어리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '어리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1003",
+    "word": "어린이",
+    "meaning": "child",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '어린이'를 사용했습니다.",
+    "exampleMeaning": "I used '어린이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1004",
+    "word": "어머",
+    "meaning": "oh; well",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어머'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어머'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1005",
+    "word": "어머니",
+    "meaning": "mother",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어머니'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어머니'.",
+    "tags": [
+      "topik-i",
+      "family"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1006",
+    "word": "어머님",
+    "meaning": "mother",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어머님'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어머님'.",
+    "tags": [
+      "topik-i",
+      "family"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1007",
+    "word": "어서",
+    "meaning": "hurry; quickly",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어서'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어서'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1008",
+    "word": "어울리다",
+    "meaning": "look good on; befit",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '어울리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '어울리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1009",
+    "word": "어저께",
+    "meaning": "yesterday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어저께'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어저께'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1010",
+    "word": "어제",
+    "meaning": "yesterday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어제'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어제'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1011",
+    "word": "어젯밤",
+    "meaning": "last night",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '어젯밤'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '어젯밤'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1012",
+    "word": "언니",
+    "meaning": "sister (as seen from the younger sister)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '언니'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '언니'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1013",
+    "word": "언제",
+    "meaning": "when",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '언제'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '언제'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1014",
+    "word": "언제나",
+    "meaning": "always; anytime",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '언제나'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '언제나'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1015",
+    "word": "얼굴",
+    "meaning": "face",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '얼굴'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '얼굴'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1016",
+    "word": "얼마나",
+    "meaning": "how much",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '얼마나'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '얼마나'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1017",
+    "word": "얼음",
+    "meaning": "ice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '얼음'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '얼음'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1018",
+    "word": "엄마",
+    "meaning": "mom",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '엄마'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '엄마'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1019",
+    "word": "없다",
+    "meaning": "none; no; not",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '없다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '없다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1020",
+    "word": "없이",
+    "meaning": "without",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '없이'를 사용했습니다.",
+    "exampleMeaning": "I used '없이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1021",
+    "word": "에어컨",
+    "meaning": "air conditioner",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '에어컨'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '에어컨'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1022",
+    "word": "엔",
+    "meaning": "yen",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '엔'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '엔'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1023",
+    "word": "엘리베이터",
+    "meaning": "elevator",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '엘리베이터'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '엘리베이터'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1024",
+    "word": "여권",
+    "meaning": "passport",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여권'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여권'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1025",
+    "word": "여기",
+    "meaning": "here",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1026",
+    "word": "여기저기",
+    "meaning": "here and there",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여기저기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여기저기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1027",
+    "word": "여덟",
+    "meaning": "8",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여덟'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여덟'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1028",
+    "word": "여동생",
+    "meaning": "younger sister",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여동생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여동생'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1029",
+    "word": "여든",
+    "meaning": "80",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여든'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여든'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1030",
+    "word": "여러",
+    "meaning": "various; many",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여러'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여러'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1031",
+    "word": "여러가지",
+    "meaning": "several; various",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여러가지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여러가지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1032",
+    "word": "여러분",
+    "meaning": "everyone; ladies and gentlemen",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여러분'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여러분'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1033",
+    "word": "여름",
+    "meaning": "summer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여름'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여름'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1034",
+    "word": "여보세요",
+    "meaning": "hello",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여보세요'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여보세요'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1035",
+    "word": "여섯",
+    "meaning": "6",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여섯'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여섯'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1036",
+    "word": "여자",
+    "meaning": "woman",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1037",
+    "word": "여학생",
+    "meaning": "female student",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여학생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여학생'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1038",
+    "word": "여행",
+    "meaning": "travel",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여행'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여행'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1039",
+    "word": "여행사",
+    "meaning": "travel agency; travel firm",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '여행사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '여행사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1040",
+    "word": "역",
+    "meaning": "station",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '역'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '역'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1041",
+    "word": "역사",
+    "meaning": "history",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '역사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '역사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1042",
+    "word": "연락처",
+    "meaning": "contact information",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '연락처'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '연락처'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1043",
+    "word": "연세",
+    "meaning": "age (polite form)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '연세'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '연세'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1044",
+    "word": "연습",
+    "meaning": "practice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '연습'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '연습'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1045",
+    "word": "연습하다",
+    "meaning": "practice",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '연습하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '연습하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1046",
+    "word": "연예인",
+    "meaning": "celebrity",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '연예인'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '연예인'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1047",
+    "word": "연필",
+    "meaning": "pencil",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '연필'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '연필'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1048",
+    "word": "연휴",
+    "meaning": "consecutive holidays",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '연휴'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '연휴'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1049",
+    "word": "열",
+    "meaning": "10",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '열'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '열'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1050",
+    "word": "열다",
+    "meaning": "open",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '열다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '열다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1051",
+    "word": "열리다",
+    "meaning": "be opened",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '열리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '열리다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1052",
+    "word": "열쇠",
+    "meaning": "key",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '열쇠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '열쇠'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1053",
+    "word": "열심히",
+    "meaning": "hard; enthusiastic",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '열심히'를 사용했습니다.",
+    "exampleMeaning": "I used '열심히' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1054",
+    "word": "열차",
+    "meaning": "train",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '열차'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '열차'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1055",
+    "word": "엽서",
+    "meaning": "postcard",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '엽서'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '엽서'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1056",
+    "word": "영",
+    "meaning": "spirit; zero",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1057",
+    "word": "영국",
+    "meaning": "The United Kingdom",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1058",
+    "word": "영상",
+    "meaning": "video",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영상'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영상'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1060",
+    "word": "영어회화",
+    "meaning": "English conversation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영어회화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영어회화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1061",
+    "word": "영하",
+    "meaning": "minus; below zero",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영하'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영하'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1062",
+    "word": "영화",
+    "meaning": "movie",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1063",
+    "word": "영화관",
+    "meaning": "movie theater",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영화관'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영화관'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1064",
+    "word": "영화배우",
+    "meaning": "movie star",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영화배우'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영화배우'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1065",
+    "word": "영화표",
+    "meaning": "movie ticket",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영화표'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영화표'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1066",
+    "word": "옆",
+    "meaning": "side",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '옆'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '옆'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1067",
+    "word": "예",
+    "meaning": "yes",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '예'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '예'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1068",
+    "word": "예문",
+    "meaning": "example; model sentence",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '예문'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '예문'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1069",
+    "word": "예쁘다",
+    "meaning": "pretty; beautiful",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '예쁘다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '예쁘다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1070",
+    "word": "예순",
+    "meaning": "60",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '예순'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '예순'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1071",
+    "word": "예약",
+    "meaning": "reservation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '예약'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '예약'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1072",
+    "word": "옛날",
+    "meaning": "a long ago; olden days",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '옛날'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '옛날'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1073",
+    "word": "오",
+    "meaning": "5",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1074",
+    "word": "오늘",
+    "meaning": "today",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오늘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오늘'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1075",
+    "word": "오다",
+    "meaning": "come",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1076",
+    "word": "오래",
+    "meaning": "long; much",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오래'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오래'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1077",
+    "word": "오래간만",
+    "meaning": "after a long time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오래간만'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오래간만'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1078",
+    "word": "오래간만입니다",
+    "meaning": "Long time no see.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오래간만입니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오래간만입니다'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1079",
+    "word": "오랜만",
+    "meaning": "after a long time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오랜만'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오랜만'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1080",
+    "word": "오랜만에",
+    "meaning": "after a long time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오랜만에'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오랜만에'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1081",
+    "word": "오랫동안",
+    "meaning": "for a long time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오랫동안'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오랫동안'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1082",
+    "word": "오렌지",
+    "meaning": "orange",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오렌지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오렌지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1083",
+    "word": "오르다",
+    "meaning": "climb",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1084",
+    "word": "오른쪽",
+    "meaning": "right side; right",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오른쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오른쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1085",
+    "word": "오리",
+    "meaning": "duck",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1086",
+    "word": "오빠",
+    "meaning": "brother (as seen from the younger sister)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오빠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오빠'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1087",
+    "word": "오십",
+    "meaning": "50",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오십'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오십'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1088",
+    "word": "오월",
+    "meaning": "May",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1089",
+    "word": "오이",
+    "meaning": "cucumber",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '오이'를 사용했습니다.",
+    "exampleMeaning": "I used '오이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1090",
+    "word": "오전",
+    "meaning": "morning; a.m.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오전'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오전'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1091",
+    "word": "오징어",
+    "meaning": "squid",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오징어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오징어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1092",
+    "word": "오후",
+    "meaning": "afternoon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '오후'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '오후'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1093",
+    "word": "올라가다",
+    "meaning": "go up",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '올라가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '올라가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1094",
+    "word": "올라오다",
+    "meaning": "come up",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '올라오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '올라오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1095",
+    "word": "올려놓다",
+    "meaning": "put on; place",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '올려놓다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '올려놓다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1096",
+    "word": "올림픽",
+    "meaning": "olympic",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '올림픽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '올림픽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1097",
+    "word": "올해",
+    "meaning": "this year",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '올해'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '올해'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1098",
+    "word": "옮기다",
+    "meaning": "move; transfer; translate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '옮기다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '옮기다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1099",
+    "word": "옷",
+    "meaning": "dress; clothes",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '옷'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '옷'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1100",
+    "word": "옷가게",
+    "meaning": "clothing store",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '옷가게'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '옷가게'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1101",
+    "word": "옷장",
+    "meaning": "closet",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '옷장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '옷장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1102",
+    "word": "와이셔츠",
+    "meaning": "shirt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '와이셔츠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '와이셔츠'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1103",
+    "word": "왜",
+    "meaning": "why",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '왜'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '왜'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1104",
+    "word": "왜냐하면",
+    "meaning": "because",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '왜냐하면'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '왜냐하면'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1105",
+    "word": "외국",
+    "meaning": "foreign country",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '외국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '외국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1106",
+    "word": "외국어",
+    "meaning": "foreign language",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '외국어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '외국어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1107",
+    "word": "외국인",
+    "meaning": "foreigner",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '외국인'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '외국인'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1108",
+    "word": "외롭다",
+    "meaning": "lonely",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '외롭다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '외롭다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1109",
+    "word": "외삼촌",
+    "meaning": "maternal uncle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '외삼촌'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '외삼촌'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1110",
+    "word": "외숙모",
+    "meaning": "maternal aunt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '외숙모'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '외숙모'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1111",
+    "word": "외출하다",
+    "meaning": "go out",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '외출하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '외출하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1112",
+    "word": "외할머니",
+    "meaning": "maternal grandmother",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '외할머니'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '외할머니'.",
+    "tags": [
+      "topik-i",
+      "family"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1113",
+    "word": "외할아버지",
+    "meaning": "maternal grandfather",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '외할아버지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '외할아버지'.",
+    "tags": [
+      "topik-i",
+      "family"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1114",
+    "word": "왼쪽",
+    "meaning": "left",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '왼쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '왼쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1115",
+    "word": "요금",
+    "meaning": "fee",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '요금'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '요금'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1116",
+    "word": "요르단",
+    "meaning": "Jordan",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '요르단'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '요르단'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1117",
+    "word": "요리",
+    "meaning": "cooking; cuisine",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '요리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '요리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1118",
+    "word": "요일",
+    "meaning": "day of the week",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '요일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '요일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1119",
+    "word": "요즘",
+    "meaning": "nowadays; around this time; lately",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '요즘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '요즘'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1120",
+    "word": "우리",
+    "meaning": "we; us",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '우리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '우리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1121",
+    "word": "우리나라",
+    "meaning": "our country; South Korea",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '우리나라'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '우리나라'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1122",
+    "word": "우산",
+    "meaning": "umbrella",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '우산'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '우산'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1123",
+    "word": "우선",
+    "meaning": "first",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '우선'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '우선'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1124",
+    "word": "우유",
+    "meaning": "milk",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '우유'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '우유'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1125",
+    "word": "우체국",
+    "meaning": "post office",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '우체국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '우체국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1126",
+    "word": "우표",
+    "meaning": "stamp",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '우표'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '우표'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1127",
+    "word": "운동",
+    "meaning": "exercise",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '운동'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '운동'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1128",
+    "word": "운동복",
+    "meaning": "sportswear; gym clothes",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '운동복'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '운동복'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1129",
+    "word": "운동선수",
+    "meaning": "athlete",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '운동선수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '운동선수'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1130",
+    "word": "운동장",
+    "meaning": "playground; athletic field",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '운동장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '운동장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1131",
+    "word": "운동하다",
+    "meaning": "exercise",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '운동하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '운동하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1132",
+    "word": "운동화",
+    "meaning": "sports shoes",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '운동화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '운동화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1133",
+    "word": "운전하다",
+    "meaning": "drive",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '운전하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '운전하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1134",
+    "word": "울다",
+    "meaning": "cry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '울다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '울다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1135",
+    "word": "울리다",
+    "meaning": "make cry; chime",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '울리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '울리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1136",
+    "word": "움직이다",
+    "meaning": "move",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '움직이다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '움직이다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1137",
+    "word": "웃기다",
+    "meaning": "funny; make someone laugh",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '웃기다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '웃기다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1138",
+    "word": "웃다",
+    "meaning": "laugh",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '웃다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '웃다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1139",
+    "word": "원",
+    "meaning": "won (currency units of Korea)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '원'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1140",
+    "word": "원피스",
+    "meaning": "one-piece dress",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '원피스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '원피스'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1141",
+    "word": "원하다",
+    "meaning": "want; wish; desire",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '원하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '원하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1142",
+    "word": "월",
+    "meaning": "month",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '월'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1143",
+    "word": "월급",
+    "meaning": "monthly salary",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '월급'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '월급'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1144",
+    "word": "월드컵",
+    "meaning": "world cup",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '월드컵'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '월드컵'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1145",
+    "word": "월세",
+    "meaning": "monthly rent",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '월세'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '월세'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1146",
+    "word": "월요일",
+    "meaning": "Monday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '월요일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '월요일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1147",
+    "word": "웬일",
+    "meaning": "for some reason; What was it?",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '웬일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '웬일'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1148",
+    "word": "위",
+    "meaning": "top; up",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '위'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '위'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1149",
+    "word": "위치",
+    "meaning": "location; position",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '위치'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '위치'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1150",
+    "word": "위하다",
+    "meaning": "for; in favor of; for the sake of",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '위하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '위하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1151",
+    "word": "위험하다",
+    "meaning": "dangerous",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '위험하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '위험하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1152",
+    "word": "유럽",
+    "meaning": "Europe",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '유럽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '유럽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1153",
+    "word": "유리",
+    "meaning": "glass",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '유리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '유리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1154",
+    "word": "유명하다",
+    "meaning": "famous",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '유명하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '유명하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1155",
+    "word": "유월",
+    "meaning": "June",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '유월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '유월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1156",
+    "word": "유학",
+    "meaning": "study abroad",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '유학'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '유학'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1157",
+    "word": "유학생",
+    "meaning": "foreign student; international student",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '유학생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '유학생'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1158",
+    "word": "유행",
+    "meaning": "trend",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '유행'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '유행'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1159",
+    "word": "육",
+    "meaning": "6",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '육'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '육'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1160",
+    "word": "육십",
+    "meaning": "60",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '육십'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '육십'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1161",
+    "word": "은행",
+    "meaning": "bank",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '은행'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '은행'.",
+    "tags": [
+      "topik-i",
+      "money"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1162",
+    "word": "은행원",
+    "meaning": "bank clerk",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '은행원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '은행원'.",
+    "tags": [
+      "topik-i",
+      "money"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1163",
+    "word": "음료수",
+    "meaning": "drink; soft drink",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '음료수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '음료수'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1164",
+    "word": "음반",
+    "meaning": "record",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '음반'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '음반'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1165",
+    "word": "음식",
+    "meaning": "food; cooking",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '음식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '음식'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1166",
+    "word": "음악",
+    "meaning": "music",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '음악'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '음악'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1167",
+    "word": "음악가",
+    "meaning": "musician",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '음악가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '음악가'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1168",
+    "word": "응",
+    "meaning": "Yeah (answer)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '응'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '응'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1169",
+    "word": "의미",
+    "meaning": "meaning",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '의미'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '의미'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1170",
+    "word": "의사",
+    "meaning": "doctor",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '의사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '의사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1171",
+    "word": "의자",
+    "meaning": "chair",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '의자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '의자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1172",
+    "word": "이",
+    "meaning": "this; tooth; 2",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '이'를 사용했습니다.",
+    "exampleMeaning": "I used '이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1173",
+    "word": "이거",
+    "meaning": "this",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이거'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이거'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1174",
+    "word": "이것",
+    "meaning": "this",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이것'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이것'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1175",
+    "word": "이곳",
+    "meaning": "this place; here",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이곳'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이곳'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1176",
+    "word": "이따가",
+    "meaning": "later",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이따가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이따가'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1177",
+    "word": "이런",
+    "meaning": "this; such",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이런'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이런'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1178",
+    "word": "이렇게",
+    "meaning": "like this; so; in this way",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이렇게'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이렇게'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1179",
+    "word": "이렇다",
+    "meaning": "like this",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이렇다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이렇다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1180",
+    "word": "이름",
+    "meaning": "name",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이름'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이름'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1181",
+    "word": "이메일",
+    "meaning": "e-mail",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이메일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이메일'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1182",
+    "word": "이모",
+    "meaning": "maternal aunt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이모'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이모'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1183",
+    "word": "이모부",
+    "meaning": "maternal uncle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이모부'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이모부'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1184",
+    "word": "이번",
+    "meaning": "this time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이번'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이번'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1185",
+    "word": "이분",
+    "meaning": "this person",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이분'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이분'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1186",
+    "word": "이사",
+    "meaning": "move; moving",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1187",
+    "word": "이상",
+    "meaning": "more than; strange",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이상'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이상'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1188",
+    "word": "이상하다",
+    "meaning": "strange; funny; weird",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '이상하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '이상하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1189",
+    "word": "이십",
+    "meaning": "20",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이십'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이십'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1190",
+    "word": "이야기",
+    "meaning": "story",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이야기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이야기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1191",
+    "word": "이야기하다",
+    "meaning": "talk",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '이야기하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '이야기하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1192",
+    "word": "이용",
+    "meaning": "usage",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이용'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이용'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1193",
+    "word": "이용하다",
+    "meaning": "use",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '이용하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '이용하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1194",
+    "word": "이월",
+    "meaning": "February",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1195",
+    "word": "이유",
+    "meaning": "reason",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이유'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이유'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1196",
+    "word": "이제",
+    "meaning": "now",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이제'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이제'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1197",
+    "word": "이집트",
+    "meaning": "Egypt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이집트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이집트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1198",
+    "word": "이쪽",
+    "meaning": "this way; here; this person",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1199",
+    "word": "이틀",
+    "meaning": "two days",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이틀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이틀'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1200",
+    "word": "이해",
+    "meaning": "understanding",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '이해'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '이해'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1201",
+    "word": "이해하다",
+    "meaning": "understand",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '이해하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '이해하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1202",
+    "word": "인",
+    "meaning": "sign; person (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1203",
+    "word": "인구",
+    "meaning": "population",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1204",
+    "word": "인기",
+    "meaning": "popularity",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1205",
+    "word": "인기스타",
+    "meaning": "popular star",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인기스타'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인기스타'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1206",
+    "word": "인도",
+    "meaning": "India",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1207",
+    "word": "인사",
+    "meaning": "greetings",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1208",
+    "word": "인사하다",
+    "meaning": "greet",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '인사하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '인사하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1209",
+    "word": "인삼",
+    "meaning": "ginseng",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인삼'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인삼'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1210",
+    "word": "인상",
+    "meaning": "impression",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인상'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인상'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1211",
+    "word": "인천",
+    "meaning": "Incheon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인천'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인천'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1212",
+    "word": "인터넷",
+    "meaning": "internet",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인터넷'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인터넷'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1213",
+    "word": "인터뷰하다",
+    "meaning": "interview",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '인터뷰하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '인터뷰하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1214",
+    "word": "인형",
+    "meaning": "doll",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '인형'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '인형'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1215",
+    "word": "일",
+    "meaning": "work; 1; day",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1216",
+    "word": "일곱",
+    "meaning": "7",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일곱'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일곱'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1217",
+    "word": "일기",
+    "meaning": "diary",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1218",
+    "word": "일기예보",
+    "meaning": "weather forecast",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일기예보'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일기예보'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1219",
+    "word": "일본",
+    "meaning": "Japan",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일본'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일본'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1220",
+    "word": "일본드라마",
+    "meaning": "Japanese drama",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일본드라마'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일본드라마'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1221",
+    "word": "일본말",
+    "meaning": "Japanese language",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일본말'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일본말'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1222",
+    "word": "일본사람",
+    "meaning": "Japanese people",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일본사람'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일본사람'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1223",
+    "word": "일본어",
+    "meaning": "Japanese language",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일본어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일본어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1224",
+    "word": "일본요리",
+    "meaning": "Japanese food",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일본요리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일본요리'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1225",
+    "word": "일상생활",
+    "meaning": "everyday life",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일상생활'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일상생활'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1226",
+    "word": "일식",
+    "meaning": "Japanese style; Japanese food",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일식'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1227",
+    "word": "일어나다",
+    "meaning": "rise; stand; occur",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일어나다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일어나다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1228",
+    "word": "일어서다",
+    "meaning": "get up; stand up",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일어서다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일어서다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1229",
+    "word": "일요일",
+    "meaning": "Sunday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일요일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일요일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1230",
+    "word": "일월",
+    "meaning": "January",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1231",
+    "word": "일주일",
+    "meaning": "one week",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일주일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일주일'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1232",
+    "word": "일찍",
+    "meaning": "early",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일찍'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일찍'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1233",
+    "word": "일하다",
+    "meaning": "work",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '일하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '일하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1234",
+    "word": "일흔",
+    "meaning": "70",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '일흔'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '일흔'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1235",
+    "word": "읽기",
+    "meaning": "reading",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '읽기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '읽기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1236",
+    "word": "읽다",
+    "meaning": "read",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '읽다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '읽다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1237",
+    "word": "잃다",
+    "meaning": "lose",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잃다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잃다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1238",
+    "word": "잃어버리다",
+    "meaning": "lose",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '잃어버리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '잃어버리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1239",
+    "word": "입",
+    "meaning": "mouth",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '입'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '입'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1240",
+    "word": "입구",
+    "meaning": "entrance",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '입구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '입구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1241",
+    "word": "입다",
+    "meaning": "put on; wear",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '입다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '입다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1242",
+    "word": "입원하다",
+    "meaning": "hospitalize",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '입원하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '입원하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1243",
+    "word": "입학",
+    "meaning": "admission",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '입학'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '입학'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1244",
+    "word": "있다",
+    "meaning": "have; there",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '있다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '있다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1245",
+    "word": "잊다",
+    "meaning": "forget",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잊다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잊다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1246",
+    "word": "잊어버리다",
+    "meaning": "forget",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '잊어버리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '잊어버리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1247",
+    "word": "자",
+    "meaning": "character; Here we go.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1248",
+    "word": "자기",
+    "meaning": "myself; own",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1249",
+    "word": "자다",
+    "meaning": "sleep",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1250",
+    "word": "자동차",
+    "meaning": "car; automobile",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자동차'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자동차'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1251",
+    "word": "자동차회사",
+    "meaning": "car company",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자동차회사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자동차회사'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1252",
+    "word": "자료",
+    "meaning": "material; document",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자료'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자료'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1253",
+    "word": "자르다",
+    "meaning": "cut",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자르다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자르다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1254",
+    "word": "자리",
+    "meaning": "seat; location",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1255",
+    "word": "자신",
+    "meaning": "myself; own",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자신'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자신'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1256",
+    "word": "자연",
+    "meaning": "nature",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자연'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자연'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1257",
+    "word": "자유",
+    "meaning": "freedom",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자유'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자유'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1258",
+    "word": "자장면",
+    "meaning": "Jajangmyeon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자장면'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자장면'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1259",
+    "word": "자전거",
+    "meaning": "bicycle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자전거'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자전거'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1260",
+    "word": "자주",
+    "meaning": "often",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '자주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '자주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1261",
+    "word": "작년",
+    "meaning": "last year",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '작년'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '작년'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1262",
+    "word": "작다",
+    "meaning": "small",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '작다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '작다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1263",
+    "word": "작은아버지",
+    "meaning": "uncle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '작은아버지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '작은아버지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1264",
+    "word": "작은어머니",
+    "meaning": "aunt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '작은어머니'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '작은어머니'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1265",
+    "word": "잔",
+    "meaning": "glass; cup (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잔'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잔'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1266",
+    "word": "잔치",
+    "meaning": "party; feast",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잔치'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잔치'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1267",
+    "word": "잘",
+    "meaning": "well",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잘'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1268",
+    "word": "잘못",
+    "meaning": "mistake",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잘못'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잘못'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1269",
+    "word": "잘생기다",
+    "meaning": "handsome",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잘생기다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잘생기다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1270",
+    "word": "잘하다",
+    "meaning": "do well; good at",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '잘하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '잘하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1271",
+    "word": "잠",
+    "meaning": "slumbers; sleep",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잠'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1272",
+    "word": "잠깐",
+    "meaning": "for a while; a little",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잠깐'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잠깐'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1273",
+    "word": "잠시",
+    "meaning": "for a bit; for a while; a little",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잠시'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잠시'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1274",
+    "word": "잠자다",
+    "meaning": "sleep; go to bed",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잠자다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잠자다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1275",
+    "word": "잡다",
+    "meaning": "catch; grab; hold",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잡다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잡다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1276",
+    "word": "잡수시다",
+    "meaning": "eat (polite form)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잡수시다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잡수시다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1277",
+    "word": "잡지",
+    "meaning": "magazine",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '잡지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '잡지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1278",
+    "word": "장",
+    "meaning": "chapter (s); sheet (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1279",
+    "word": "장갑",
+    "meaning": "gloves",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '장갑'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '장갑'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1280",
+    "word": "장마",
+    "meaning": "rainy season",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '장마'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '장마'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1281",
+    "word": "장마철",
+    "meaning": "rainy season",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '장마철'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '장마철'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1282",
+    "word": "장미",
+    "meaning": "rose",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '장미'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '장미'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1283",
+    "word": "장소",
+    "meaning": "place",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '장소'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '장소'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1284",
+    "word": "장점",
+    "meaning": "advantage",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '장점'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '장점'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1285",
+    "word": "재료",
+    "meaning": "material",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '재료'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '재료'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1286",
+    "word": "재미없다",
+    "meaning": "not funny; uninteresting",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '재미없다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '재미없다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1287",
+    "word": "재미있다",
+    "meaning": "interesting",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '재미있다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '재미있다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1288",
+    "word": "재킷",
+    "meaning": "jacket",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '재킷'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '재킷'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1289",
+    "word": "저",
+    "meaning": "that",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1290",
+    "word": "저거",
+    "meaning": "that",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저거'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저거'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1291",
+    "word": "저것",
+    "meaning": "that",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저것'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저것'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1292",
+    "word": "저곳",
+    "meaning": "over there",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저곳'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저곳'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1293",
+    "word": "저기",
+    "meaning": "there; over there",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1294",
+    "word": "저녁",
+    "meaning": "dinner; evening; night",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저녁'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저녁'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1295",
+    "word": "저녁식사",
+    "meaning": "dinner",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저녁식사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저녁식사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1296",
+    "word": "저렇게",
+    "meaning": "like that; in that way",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저렇게'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저렇게'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1297",
+    "word": "저분",
+    "meaning": "that person",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저분'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저분'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1298",
+    "word": "저쪽",
+    "meaning": "there; over there",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1299",
+    "word": "저희",
+    "meaning": "we",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '저희'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '저희'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1300",
+    "word": "적",
+    "meaning": "enemy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '적'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '적'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1301",
+    "word": "적다",
+    "meaning": "be few; write down",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '적다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '적다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1302",
+    "word": "전",
+    "meaning": "all; before",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '전'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '전'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1303",
+    "word": "전공",
+    "meaning": "major",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '전공'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '전공'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1304",
+    "word": "전기자동차",
+    "meaning": "electric car",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '전기자동차'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '전기자동차'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1305",
+    "word": "전자사전",
+    "meaning": "electronic dictionary",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '전자사전'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '전자사전'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1306",
+    "word": "전하다",
+    "meaning": "tell",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '전하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '전하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1307",
+    "word": "전혀",
+    "meaning": "not at all",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '전혀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '전혀'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1308",
+    "word": "전화",
+    "meaning": "telephone",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '전화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '전화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1309",
+    "word": "전화기",
+    "meaning": "telephone",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '전화기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '전화기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1310",
+    "word": "전화번호",
+    "meaning": "phone number",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '전화번호'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '전화번호'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1311",
+    "word": "절",
+    "meaning": "section (s); temple",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '절'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '절'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1312",
+    "word": "절대",
+    "meaning": "never; absolutely",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '절대'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '절대'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1313",
+    "word": "젊다",
+    "meaning": "young",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '젊다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '젊다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1314",
+    "word": "점",
+    "meaning": "point",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '점'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '점'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1315",
+    "word": "점수",
+    "meaning": "score; point",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '점수'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '점수'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1316",
+    "word": "점심",
+    "meaning": "lunch",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '점심'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '점심'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1317",
+    "word": "점심시간",
+    "meaning": "lunchtime",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '점심시간'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '점심시간'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1318",
+    "word": "점심식사",
+    "meaning": "lunch",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '점심식사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '점심식사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1319",
+    "word": "점원",
+    "meaning": "clerk",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '점원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '점원'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1320",
+    "word": "점퍼",
+    "meaning": "jacket",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '점퍼'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '점퍼'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1321",
+    "word": "젓가락",
+    "meaning": "chopsticks",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '젓가락'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '젓가락'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1322",
+    "word": "정거장",
+    "meaning": "station; depot",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '정거장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '정거장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1323",
+    "word": "정도",
+    "meaning": "degree",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '정도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '정도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1324",
+    "word": "정류장",
+    "meaning": "station; bus stop",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '정류장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '정류장'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1325",
+    "word": "정리하다",
+    "meaning": "straighten out; organize",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '정리하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '정리하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1326",
+    "word": "정말",
+    "meaning": "really; truly",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '정말'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '정말'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1327",
+    "word": "정문",
+    "meaning": "front door; main gate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '정문'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '정문'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1328",
+    "word": "정보",
+    "meaning": "information",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '정보'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '정보'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1329",
+    "word": "정하다",
+    "meaning": "choose; establish",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '정하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '정하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1330",
+    "word": "제가",
+    "meaning": "I",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '제가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '제가'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1331",
+    "word": "제목",
+    "meaning": "title",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '제목'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '제목'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1332",
+    "word": "제일",
+    "meaning": "most",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '제일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '제일'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1333",
+    "word": "제주도",
+    "meaning": "Jeju Island",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '제주도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '제주도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1334",
+    "word": "조금",
+    "meaning": "a little",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '조금'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '조금'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1335",
+    "word": "조사하다",
+    "meaning": "investigate",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '조사하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '조사하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1336",
+    "word": "조선",
+    "meaning": "shipbuilding; Korea",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '조선'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '조선'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1337",
+    "word": "조선말",
+    "meaning": "Korean language",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '조선말'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '조선말'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1338",
+    "word": "조선어",
+    "meaning": "Korean language",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '조선어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '조선어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1339",
+    "word": "조심하다",
+    "meaning": "be careful; warn",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '조심하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '조심하다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1340",
+    "word": "조용하다",
+    "meaning": "silent; quiet",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '조용하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '조용하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1341",
+    "word": "조용히",
+    "meaning": "quietly",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '조용히'를 사용했습니다.",
+    "exampleMeaning": "I used '조용히' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1342",
+    "word": "조카",
+    "meaning": "nephew",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '조카'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '조카'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1343",
+    "word": "졸업",
+    "meaning": "graduation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '졸업'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '졸업'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1344",
+    "word": "졸업하다",
+    "meaning": "graduate",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '졸업하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '졸업하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1345",
+    "word": "좀",
+    "meaning": "a little",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '좀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '좀'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1346",
+    "word": "좀더",
+    "meaning": "a little more",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '좀더'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '좀더'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1347",
+    "word": "좁다",
+    "meaning": "narrow",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '좁다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '좁다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1348",
+    "word": "종로",
+    "meaning": "Jong-ro",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '종로'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '종로'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1349",
+    "word": "종류",
+    "meaning": "kind; type",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '종류'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '종류'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1350",
+    "word": "종업원",
+    "meaning": "employee",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '종업원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '종업원'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1351",
+    "word": "종이",
+    "meaning": "paper",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '종이'를 사용했습니다.",
+    "exampleMeaning": "I used '종이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1352",
+    "word": "종일",
+    "meaning": "all day",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '종일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '종일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1353",
+    "word": "좋다",
+    "meaning": "good",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '좋다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '좋다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1354",
+    "word": "좋아하다",
+    "meaning": "like",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '좋아하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '좋아하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1355",
+    "word": "죄송하다",
+    "meaning": "sorry",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '죄송하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '죄송하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1356",
+    "word": "주",
+    "meaning": "week",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1357",
+    "word": "주다",
+    "meaning": "give",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1358",
+    "word": "주로",
+    "meaning": "mainly",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주로'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주로'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1359",
+    "word": "주말",
+    "meaning": "weekend",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주말'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주말'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1360",
+    "word": "주머니",
+    "meaning": "pocket; pouch",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주머니'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주머니'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1361",
+    "word": "주무시다",
+    "meaning": "sleep; rest",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주무시다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주무시다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1362",
+    "word": "주문하다",
+    "meaning": "order",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '주문하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '주문하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1363",
+    "word": "주변",
+    "meaning": "around",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주변'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주변'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1364",
+    "word": "주부",
+    "meaning": "housewife",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주부'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주부'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1365",
+    "word": "주사",
+    "meaning": "injection",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1366",
+    "word": "주소",
+    "meaning": "address",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주소'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주소'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1367",
+    "word": "주스",
+    "meaning": "juice",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주스'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1368",
+    "word": "주위",
+    "meaning": "around",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주위'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주위'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1369",
+    "word": "주인",
+    "meaning": "owner",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주인'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주인'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1370",
+    "word": "주차장",
+    "meaning": "parking lot",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주차장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주차장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1371",
+    "word": "주차하다",
+    "meaning": "park",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '주차하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '주차하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1372",
+    "word": "주황색",
+    "meaning": "orange color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '주황색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '주황색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1373",
+    "word": "죽",
+    "meaning": "bamboo; porridge",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '죽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '죽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1374",
+    "word": "죽다",
+    "meaning": "die",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '죽다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '죽다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1375",
+    "word": "준비",
+    "meaning": "preparation",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '준비'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '준비'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1376",
+    "word": "준비하다",
+    "meaning": "prepare",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '준비하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '준비하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1377",
+    "word": "줄",
+    "meaning": "line; column; string",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '줄'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '줄'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1378",
+    "word": "줄다",
+    "meaning": "shrink; decrease",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '줄다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '줄다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1379",
+    "word": "중",
+    "meaning": "medium; during",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '중'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '중'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1380",
+    "word": "중국",
+    "meaning": "China",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '중국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '중국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1381",
+    "word": "중국어",
+    "meaning": "Chinese",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '중국어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '중국어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1382",
+    "word": "중국집",
+    "meaning": "Chinese restaurant",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '중국집'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '중국집'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1383",
+    "word": "중식",
+    "meaning": "Chinese cuisine",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '중식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '중식'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1384",
+    "word": "중심",
+    "meaning": "center",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '중심'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '중심'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1385",
+    "word": "중요",
+    "meaning": "importance",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '중요'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '중요'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1386",
+    "word": "중요하다",
+    "meaning": "important",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '중요하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '중요하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1387",
+    "word": "중학교",
+    "meaning": "middle school; Junior high school",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '중학교'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '중학교'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1388",
+    "word": "중학생",
+    "meaning": "middle school student",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '중학생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '중학생'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1389",
+    "word": "즐거워하다",
+    "meaning": "have fun",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '즐거워하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '즐거워하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1390",
+    "word": "즐겁다",
+    "meaning": "fun; be pleasant",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '즐겁다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '즐겁다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1391",
+    "word": "즐기다",
+    "meaning": "enjoy; have fun",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '즐기다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '즐기다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1392",
+    "word": "증세",
+    "meaning": "symptom; medical condition",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '증세'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '증세'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1393",
+    "word": "지각",
+    "meaning": "tardy; being late",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지각'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지각'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1394",
+    "word": "지갑",
+    "meaning": "wallet",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지갑'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지갑'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1395",
+    "word": "지금",
+    "meaning": "now",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지금'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지금'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1396",
+    "word": "지나다",
+    "meaning": "pass by",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지나다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지나다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1397",
+    "word": "지난달",
+    "meaning": "last month",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지난달'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지난달'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1398",
+    "word": "지난번",
+    "meaning": "last time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지난번'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지난번'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1399",
+    "word": "지난주",
+    "meaning": "last week",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지난주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지난주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1400",
+    "word": "지내다",
+    "meaning": "stay; spend; live",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지내다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지내다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1401",
+    "word": "지다",
+    "meaning": "lose",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1402",
+    "word": "지도",
+    "meaning": "map",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1403",
+    "word": "지방",
+    "meaning": "fat; region",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지방'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지방'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1404",
+    "word": "지우개",
+    "meaning": "eraser",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지우개'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지우개'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1405",
+    "word": "지키다",
+    "meaning": "protect",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지키다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지키다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1406",
+    "word": "지하",
+    "meaning": "underground",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지하'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지하'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1407",
+    "word": "지하도",
+    "meaning": "underpass",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지하도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지하도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1408",
+    "word": "지하철",
+    "meaning": "subway",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지하철'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지하철'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1409",
+    "word": "지하철역",
+    "meaning": "subway station",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '지하철역'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '지하철역'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1410",
+    "word": "직업",
+    "meaning": "job; profession",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '직업'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '직업'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1411",
+    "word": "직원",
+    "meaning": "employee; staff",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '직원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '직원'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1412",
+    "word": "직장",
+    "meaning": "workplace",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '직장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '직장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1413",
+    "word": "직접",
+    "meaning": "directly; direct",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '직접'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '직접'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1414",
+    "word": "진달래",
+    "meaning": "azalea",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '진달래'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '진달래'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1415",
+    "word": "질",
+    "meaning": "quality",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '질'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '질'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1416",
+    "word": "질문",
+    "meaning": "question",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '질문'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '질문'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1417",
+    "word": "질문하다",
+    "meaning": "ask a question",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '질문하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '질문하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1418",
+    "word": "짐",
+    "meaning": "load; baggage",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '짐'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '짐'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1419",
+    "word": "집",
+    "meaning": "house; shop",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '집'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '집'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1420",
+    "word": "짓다",
+    "meaning": "build; create",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '짓다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '짓다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1421",
+    "word": "짜다",
+    "meaning": "salty; make (the plan)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '짜다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '짜다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1422",
+    "word": "짜리",
+    "meaning": "a value (won coin)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '짜리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '짜리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1423",
+    "word": "짧다",
+    "meaning": "short",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '짧다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '짧다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1424",
+    "word": "쪽",
+    "meaning": "side; page",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쪽'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쪽'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1425",
+    "word": "쯤",
+    "meaning": "about; around",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '쯤'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '쯤'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1426",
+    "word": "찌개",
+    "meaning": "stew; soup",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '찌개'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '찌개'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1427",
+    "word": "찍다",
+    "meaning": "pierce; take (a photo); press",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '찍다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '찍다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1428",
+    "word": "차",
+    "meaning": "car; tea",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '차'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '차'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1429",
+    "word": "차갑다",
+    "meaning": "cold",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '차갑다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '차갑다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1430",
+    "word": "차다",
+    "meaning": "kick",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '차다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '차다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1431",
+    "word": "차리다",
+    "meaning": "prepare; arrange",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '차리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '차리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1432",
+    "word": "착하다",
+    "meaning": "be good; friendly",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '착하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '착하다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1433",
+    "word": "참",
+    "meaning": "really; very",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '참'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '참'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1434",
+    "word": "창문",
+    "meaning": "window",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '창문'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '창문'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1435",
+    "word": "찾다",
+    "meaning": "find; visit",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '찾다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '찾다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1436",
+    "word": "찾아가다",
+    "meaning": "go to visit",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '찾아가다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '찾아가다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1437",
+    "word": "찾아오다",
+    "meaning": "come to visit",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '찾아오다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '찾아오다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1438",
+    "word": "채소",
+    "meaning": "vegetable",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '채소'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '채소'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1439",
+    "word": "책",
+    "meaning": "book",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '책'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '책'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1440",
+    "word": "책방",
+    "meaning": "bookstore",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '책방'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '책방'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1441",
+    "word": "책상",
+    "meaning": "desk",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '책상'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '책상'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1442",
+    "word": "책임",
+    "meaning": "responsibility",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '책임'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '책임'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1443",
+    "word": "책장",
+    "meaning": "bookshelf",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '책장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '책장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1444",
+    "word": "처음",
+    "meaning": "first; for the first time",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '처음'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '처음'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1445",
+    "word": "처음 뵙겠습니다",
+    "meaning": "Nice to meet you.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '처음 뵙겠습니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '처음 뵙겠습니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1446",
+    "word": "천",
+    "meaning": "1000",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '천'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '천'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1447",
+    "word": "천천히",
+    "meaning": "slowly",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '천천히'를 사용했습니다.",
+    "exampleMeaning": "I used '천천히' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1448",
+    "word": "철",
+    "meaning": "iron; season",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '철'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '철'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1449",
+    "word": "첫",
+    "meaning": "first",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '첫'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '첫'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1450",
+    "word": "첫째",
+    "meaning": "first",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '첫째'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '첫째'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1451",
+    "word": "청바지",
+    "meaning": "blue jeans",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '청바지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '청바지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1452",
+    "word": "청소기",
+    "meaning": "vacuum cleaner",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '청소기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '청소기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1453",
+    "word": "청소하다",
+    "meaning": "sweep; clean",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '청소하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '청소하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1454",
+    "word": "초",
+    "meaning": "second (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '초'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '초'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1455",
+    "word": "초대하다",
+    "meaning": "invite",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '초대하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '초대하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1456",
+    "word": "초등학교",
+    "meaning": "elementary school",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '초등학교'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '초등학교'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1457",
+    "word": "초등학생",
+    "meaning": "elementary student",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '초등학생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '초등학생'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1458",
+    "word": "초록색",
+    "meaning": "green color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '초록색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '초록색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1459",
+    "word": "초콜릿",
+    "meaning": "chocolate",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '초콜릿'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '초콜릿'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1460",
+    "word": "촬영하다",
+    "meaning": "take a picture",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '촬영하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '촬영하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1461",
+    "word": "최고",
+    "meaning": "best; the highest",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '최고'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '최고'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1462",
+    "word": "추다",
+    "meaning": "dance",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '추다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '추다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1463",
+    "word": "추석",
+    "meaning": "Chusoku (Korean Thanksgiving Day)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '추석'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '추석'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1464",
+    "word": "추억",
+    "meaning": "memory",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '추억'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '추억'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1465",
+    "word": "축구",
+    "meaning": "football; soccer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '축구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '축구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1466",
+    "word": "축제",
+    "meaning": "festival",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '축제'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '축제'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1467",
+    "word": "축하",
+    "meaning": "celebration",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '축하'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '축하'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1468",
+    "word": "축하하다",
+    "meaning": "celebrate",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '축하하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '축하하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1469",
+    "word": "축하합니다",
+    "meaning": "congratulations",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '축하합니다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '축하합니다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1470",
+    "word": "출구",
+    "meaning": "exit",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '출구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '출구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1471",
+    "word": "출근하다",
+    "meaning": "go to work",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '출근하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '출근하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1472",
+    "word": "출발",
+    "meaning": "start; departure",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '출발'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '출발'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1473",
+    "word": "출발하다",
+    "meaning": "depart",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '출발하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '출발하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1474",
+    "word": "출장",
+    "meaning": "business trip",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '출장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '출장'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1475",
+    "word": "춤",
+    "meaning": "dance",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '춤'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '춤'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1476",
+    "word": "춤추다",
+    "meaning": "dance",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '춤추다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '춤추다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1477",
+    "word": "춥다",
+    "meaning": "cold",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '춥다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '춥다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1478",
+    "word": "취미",
+    "meaning": "hobby",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '취미'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '취미'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1479",
+    "word": "취소하다",
+    "meaning": "cancel",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '취소하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '취소하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1480",
+    "word": "취직하다",
+    "meaning": "get a job",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '취직하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '취직하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1481",
+    "word": "층",
+    "meaning": "layer; floor",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '층'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '층'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1482",
+    "word": "치과",
+    "meaning": "dentist; dentistry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '치과'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '치과'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1483",
+    "word": "치료하다",
+    "meaning": "treat",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '치료하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '치료하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1484",
+    "word": "치마",
+    "meaning": "skirt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '치마'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '치마'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1485",
+    "word": "치약",
+    "meaning": "toothpaste",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '치약'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '치약'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1486",
+    "word": "친구",
+    "meaning": "friend",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '친구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '친구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1487",
+    "word": "친절하다",
+    "meaning": "be kind",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '친절하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '친절하다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1488",
+    "word": "친척",
+    "meaning": "relative",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '친척'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '친척'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1489",
+    "word": "친하다",
+    "meaning": "close; familiar",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '친하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '친하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1490",
+    "word": "칠",
+    "meaning": "7",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '칠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '칠'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1491",
+    "word": "칠십",
+    "meaning": "70",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '칠십'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '칠십'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1492",
+    "word": "칠월",
+    "meaning": "July",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '칠월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '칠월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1493",
+    "word": "칠판",
+    "meaning": "blackboard",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '칠판'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '칠판'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1494",
+    "word": "침대",
+    "meaning": "bed",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '침대'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '침대'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1495",
+    "word": "칫솔",
+    "meaning": "toothbrush",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '칫솔'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '칫솔'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1496",
+    "word": "카드",
+    "meaning": "card",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '카드'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '카드'.",
+    "tags": [
+      "topik-i",
+      "transportation"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1497",
+    "word": "카레",
+    "meaning": "curry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '카레'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '카레'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1498",
+    "word": "카메라",
+    "meaning": "camera",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '카메라'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '카메라'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1499",
+    "word": "카페",
+    "meaning": "cafe; coffee shops",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '카페'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '카페'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1500",
+    "word": "칼",
+    "meaning": "knife; cutlery; swords",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '칼'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '칼'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1501",
+    "word": "캐나다",
+    "meaning": "Canada",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '캐나다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '캐나다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1502",
+    "word": "커피",
+    "meaning": "coffee",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '커피'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '커피'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1503",
+    "word": "커피숍",
+    "meaning": "coffee shop",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '커피숍'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '커피숍'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1504",
+    "word": "컴퓨터",
+    "meaning": "computer; PC",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '컴퓨터'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '컴퓨터'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1505",
+    "word": "컵",
+    "meaning": "cup",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '컵'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '컵'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1506",
+    "word": "케이크",
+    "meaning": "cake",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '케이크'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '케이크'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1507",
+    "word": "켜다",
+    "meaning": "turn on (the light; the power; etc.)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '켜다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '켜다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1508",
+    "word": "코",
+    "meaning": "nose",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '코'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '코'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1509",
+    "word": "코트",
+    "meaning": "coat",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '코트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '코트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1510",
+    "word": "코피",
+    "meaning": "nosebleed",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '코피'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '코피'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1511",
+    "word": "콜라",
+    "meaning": "Coke",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '콜라'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '콜라'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1512",
+    "word": "콧노래",
+    "meaning": "humming",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '콧노래'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '콧노래'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1513",
+    "word": "콧물",
+    "meaning": "snot; nasal discharge",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '콧물'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '콧물'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1514",
+    "word": "콩",
+    "meaning": "bean; soy",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '콩'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '콩'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1515",
+    "word": "크기",
+    "meaning": "size",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '크기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '크기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1516",
+    "word": "크다",
+    "meaning": "big; large",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '크다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '크다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1517",
+    "word": "크리스마스",
+    "meaning": "Christmas",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '크리스마스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '크리스마스'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1518",
+    "word": "큰아버지",
+    "meaning": "uncle",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '큰아버지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '큰아버지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1519",
+    "word": "큰어머니",
+    "meaning": "aunt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '큰어머니'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '큰어머니'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1520",
+    "word": "키",
+    "meaning": "key; height",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '키'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '키'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1521",
+    "word": "킬로그램",
+    "meaning": "kilogram",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '킬로그램'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '킬로그램'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1522",
+    "word": "킬로미터",
+    "meaning": "kilometer",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '킬로미터'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '킬로미터'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1523",
+    "word": "타다",
+    "meaning": "ride; get on",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '타다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '타다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1524",
+    "word": "타월",
+    "meaning": "towel",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '타월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '타월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1525",
+    "word": "탁구",
+    "meaning": "table tennis",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '탁구'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '탁구'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1526",
+    "word": "태국",
+    "meaning": "Thailand",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '태국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '태국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1527",
+    "word": "태권도",
+    "meaning": "Taekwondo",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '태권도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '태권도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1528",
+    "word": "태어나다",
+    "meaning": "be born",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '태어나다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '태어나다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1529",
+    "word": "태풍",
+    "meaning": "typhoon",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '태풍'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '태풍'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1530",
+    "word": "택시",
+    "meaning": "taxi",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '택시'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '택시'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1531",
+    "word": "탤런트",
+    "meaning": "entertainers",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '탤런트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '탤런트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1532",
+    "word": "터미널",
+    "meaning": "terminal",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '터미널'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '터미널'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1533",
+    "word": "테니스",
+    "meaning": "tennis",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '테니스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '테니스'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1534",
+    "word": "테이블",
+    "meaning": "table",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '테이블'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '테이블'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1535",
+    "word": "텔레비전",
+    "meaning": "TV",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '텔레비전'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '텔레비전'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1536",
+    "word": "토마토",
+    "meaning": "tomato",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '토마토'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '토마토'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1537",
+    "word": "토요일",
+    "meaning": "Saturday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '토요일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '토요일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1538",
+    "word": "통",
+    "meaning": "barrel; package (s)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '통'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '통'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1539",
+    "word": "통장",
+    "meaning": "bank book; (deposit) passbook",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '통장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '통장'.",
+    "tags": [
+      "topik-i",
+      "money"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1540",
+    "word": "통하다",
+    "meaning": "pass; lead",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '통하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '통하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1541",
+    "word": "퇴근하다",
+    "meaning": "leave the office",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '퇴근하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '퇴근하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1542",
+    "word": "특별히",
+    "meaning": "especially",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '특별히'를 사용했습니다.",
+    "exampleMeaning": "I used '특별히' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1543",
+    "word": "특징",
+    "meaning": "characteristic; feature",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '특징'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '특징'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1544",
+    "word": "특히",
+    "meaning": "especially; in particular",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '특히'를 사용했습니다.",
+    "exampleMeaning": "I used '특히' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1545",
+    "word": "틀다",
+    "meaning": "turn on (the switch)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '틀다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '틀다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1546",
+    "word": "틀리다",
+    "meaning": "wrong",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '틀리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '틀리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1547",
+    "word": "티셔츠",
+    "meaning": "t-shirt",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '티셔츠'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '티셔츠'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1548",
+    "word": "팀",
+    "meaning": "team",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '팀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '팀'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1549",
+    "word": "파",
+    "meaning": "wave; green onion",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '파'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '파'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1550",
+    "word": "파란색",
+    "meaning": "blue color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '파란색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '파란색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1551",
+    "word": "파랗다",
+    "meaning": "blue",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '파랗다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '파랗다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1552",
+    "word": "파티",
+    "meaning": "party",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '파티'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '파티'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1553",
+    "word": "팔",
+    "meaning": "8",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '팔'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '팔'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1554",
+    "word": "팔다",
+    "meaning": "sell",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '팔다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '팔다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1555",
+    "word": "팔리다",
+    "meaning": "sell; be sold",
+    "partOfSpeech": "adjective",
+    "level": "TOPIK I",
+    "example": "오늘 '팔리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '팔리다'.",
+    "tags": [
+      "topik-i",
+      "adjective"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1556",
+    "word": "팔십",
+    "meaning": "80",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '팔십'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '팔십'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1557",
+    "word": "팔월",
+    "meaning": "August",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '팔월'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '팔월'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1558",
+    "word": "패션",
+    "meaning": "fashion",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '패션'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '패션'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1559",
+    "word": "퍼센트",
+    "meaning": "percent",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '퍼센트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '퍼센트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1560",
+    "word": "페이지",
+    "meaning": "page",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '페이지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '페이지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1561",
+    "word": "펜",
+    "meaning": "pen",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '펜'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '펜'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1562",
+    "word": "펴다",
+    "meaning": "spread; stretch",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '펴다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '펴다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1563",
+    "word": "편",
+    "meaning": "side; episode",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '편'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '편'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1564",
+    "word": "편지",
+    "meaning": "letter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '편지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '편지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1565",
+    "word": "편하다",
+    "meaning": "comfortable; easy; convenient",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '편하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '편하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1566",
+    "word": "평양",
+    "meaning": "Pyongyang",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '평양'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '평양'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1567",
+    "word": "평일",
+    "meaning": "weekday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '평일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '평일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1568",
+    "word": "포도",
+    "meaning": "grape",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '포도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '포도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1569",
+    "word": "포장",
+    "meaning": "packing",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '포장'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '포장'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1570",
+    "word": "표",
+    "meaning": "table; ticket",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '표'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '표'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1571",
+    "word": "표현",
+    "meaning": "expression",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '표현'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '표현'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1572",
+    "word": "푹",
+    "meaning": "deeply",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '푹'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '푹'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1573",
+    "word": "풀",
+    "meaning": "pool; grass",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '풀'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '풀'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1574",
+    "word": "풀다",
+    "meaning": "solve",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '풀다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '풀다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1575",
+    "word": "프랑스",
+    "meaning": "France",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '프랑스'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '프랑스'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1576",
+    "word": "프로그램",
+    "meaning": "program",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '프로그램'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '프로그램'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1577",
+    "word": "프린트",
+    "meaning": "print",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '프린트'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '프린트'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1578",
+    "word": "피",
+    "meaning": "blood",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '피'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '피'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1579",
+    "word": "피곤하다",
+    "meaning": "tired",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '피곤하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '피곤하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1580",
+    "word": "피다",
+    "meaning": "bloom",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '피다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '피다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1581",
+    "word": "피아노",
+    "meaning": "piano",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '피아노'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '피아노'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1582",
+    "word": "피우다",
+    "meaning": "smoke; bloom",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '피우다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '피우다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1583",
+    "word": "피자",
+    "meaning": "pizza",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '피자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '피자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1584",
+    "word": "필름",
+    "meaning": "film",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '필름'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '필름'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1585",
+    "word": "필요",
+    "meaning": "necessity",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '필요'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '필요'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1586",
+    "word": "필요하다",
+    "meaning": "need",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '필요하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '필요하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1587",
+    "word": "필통",
+    "meaning": "pencil case",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '필통'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '필통'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1588",
+    "word": "하나",
+    "meaning": "1",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '하나'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '하나'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1589",
+    "word": "하늘",
+    "meaning": "sky",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '하늘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '하늘'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1590",
+    "word": "하늘색",
+    "meaning": "sky blue; light blue",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '하늘색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '하늘색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1591",
+    "word": "하다",
+    "meaning": "do; say",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1592",
+    "word": "하루",
+    "meaning": "one day",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '하루'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '하루'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1593",
+    "word": "하숙",
+    "meaning": "boarding house; lodging house",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '하숙'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '하숙'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1594",
+    "word": "하숙집",
+    "meaning": "boarding house; lodging house",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '하숙집'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '하숙집'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1595",
+    "word": "하얀색",
+    "meaning": "white color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '하얀색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '하얀색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1596",
+    "word": "하얗다",
+    "meaning": "white",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '하얗다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '하얗다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1597",
+    "word": "하지만",
+    "meaning": "but; however",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '하지만'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '하지만'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1598",
+    "word": "학",
+    "meaning": "crane",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '학'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '학'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1599",
+    "word": "학교",
+    "meaning": "school",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '학교'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '학교'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1600",
+    "word": "학기",
+    "meaning": "semester",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '학기'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '학기'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1601",
+    "word": "학년",
+    "meaning": "grade; school year",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '학년'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '학년'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1602",
+    "word": "학생",
+    "meaning": "student",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '학생'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '학생'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1603",
+    "word": "학생증",
+    "meaning": "student ID card",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '학생증'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '학생증'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1604",
+    "word": "학원",
+    "meaning": "academy; school",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '학원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '학원'.",
+    "tags": [
+      "topik-i",
+      "school"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1605",
+    "word": "한",
+    "meaning": "one; one of the",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1606",
+    "word": "한강",
+    "meaning": "Han River; Hangang",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한강'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한강'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1607",
+    "word": "한국",
+    "meaning": "Korea",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한국'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한국'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1608",
+    "word": "한국드라마",
+    "meaning": "Korean drama",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한국드라마'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한국드라마'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1609",
+    "word": "한국말",
+    "meaning": "Korean language",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한국말'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한국말'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1610",
+    "word": "한국사람",
+    "meaning": "Korean people",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한국사람'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한국사람'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1611",
+    "word": "한국어",
+    "meaning": "Korean language",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한국어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한국어'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1612",
+    "word": "한국요리",
+    "meaning": "Korean cuisine",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한국요리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한국요리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1614",
+    "word": "한번",
+    "meaning": "once",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한번'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한번'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1615",
+    "word": "한복",
+    "meaning": "Hanbok; Korean traditional clothes",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한복'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한복'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1616",
+    "word": "한식",
+    "meaning": "Korean cuisine",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한식'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한식'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1617",
+    "word": "한자",
+    "meaning": "Chinese character",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1618",
+    "word": "할머니",
+    "meaning": "grandmother",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '할머니'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '할머니'.",
+    "tags": [
+      "topik-i",
+      "family"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1619",
+    "word": "할아버지",
+    "meaning": "grandfather",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '할아버지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '할아버지'.",
+    "tags": [
+      "topik-i",
+      "family"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1620",
+    "word": "할인",
+    "meaning": "sale; discount",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '할인'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '할인'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1621",
+    "word": "함께",
+    "meaning": "together",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '함께'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '함께'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1622",
+    "word": "합격",
+    "meaning": "pass",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '합격'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '합격'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1623",
+    "word": "항상",
+    "meaning": "always",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '항상'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '항상'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1624",
+    "word": "해",
+    "meaning": "year; sun",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '해'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '해'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1625",
+    "word": "해외",
+    "meaning": "overseas",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '해외'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '해외'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1626",
+    "word": "해외여행",
+    "meaning": "overseas trip",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '해외여행'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '해외여행'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1627",
+    "word": "핸드폰",
+    "meaning": "cell phone; mobile phone",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '핸드폰'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '핸드폰'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1628",
+    "word": "햄버거",
+    "meaning": "hamburger",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '햄버거'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '햄버거'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1629",
+    "word": "햇빛",
+    "meaning": "sunshine; sunlight",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '햇빛'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '햇빛'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1630",
+    "word": "행복",
+    "meaning": "happiness",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '행복'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '행복'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1631",
+    "word": "행복하다",
+    "meaning": "happy",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '행복하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '행복하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1632",
+    "word": "행사",
+    "meaning": "event",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '행사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '행사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1633",
+    "word": "허리",
+    "meaning": "waist; hip",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '허리'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '허리'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1634",
+    "word": "현금",
+    "meaning": "cash",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '현금'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '현금'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1635",
+    "word": "현재",
+    "meaning": "now; current",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '현재'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '현재'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1636",
+    "word": "형",
+    "meaning": "brother (as seen from the younger brother)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '형'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '형'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1637",
+    "word": "형님",
+    "meaning": "big brother (polite form)",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '형님'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '형님'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1638",
+    "word": "형제",
+    "meaning": "sibling",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '형제'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '형제'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1639",
+    "word": "호",
+    "meaning": "No.",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '호'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '호'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1640",
+    "word": "호랑이",
+    "meaning": "tiger",
+    "partOfSpeech": "adverb",
+    "level": "TOPIK I",
+    "example": "문장에서 '호랑이'를 사용했습니다.",
+    "exampleMeaning": "I used '호랑이' in a sentence.",
+    "tags": [
+      "topik-i",
+      "adverb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1641",
+    "word": "호주",
+    "meaning": "Australia",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '호주'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '호주'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1642",
+    "word": "호텔",
+    "meaning": "hotel",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '호텔'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '호텔'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1643",
+    "word": "혼자",
+    "meaning": "alone",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '혼자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '혼자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1644",
+    "word": "홈페이지",
+    "meaning": "home page",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '홈페이지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '홈페이지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1645",
+    "word": "홍차",
+    "meaning": "black tea",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '홍차'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '홍차'.",
+    "tags": [
+      "topik-i",
+      "food"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1646",
+    "word": "화",
+    "meaning": "anger",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1647",
+    "word": "화가",
+    "meaning": "artist; painter",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '화가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '화가'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1648",
+    "word": "화나다",
+    "meaning": "angry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '화나다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '화나다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1649",
+    "word": "화내다",
+    "meaning": "get angry",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '화내다'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '화내다'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1650",
+    "word": "화요일",
+    "meaning": "Tuesday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '화요일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '화요일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1651",
+    "word": "화장실",
+    "meaning": "restroom; toilet; lavatory",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '화장실'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '화장실'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1652",
+    "word": "화장품",
+    "meaning": "cosmetics",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '화장품'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '화장품'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1653",
+    "word": "화장하다",
+    "meaning": "makeup",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '화장하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '화장하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1654",
+    "word": "확인하다",
+    "meaning": "confirm; check",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '확인하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '확인하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1655",
+    "word": "환영하다",
+    "meaning": "welcome",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '환영하다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '환영하다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1656",
+    "word": "환자",
+    "meaning": "patient",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '환자'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '환자'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1657",
+    "word": "회사",
+    "meaning": "company",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '회사'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회사'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1658",
+    "word": "회사원",
+    "meaning": "employee",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '회사원'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회사원'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1659",
+    "word": "회색",
+    "meaning": "grey",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '회색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1660",
+    "word": "회의",
+    "meaning": "conference",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '회의'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '회의'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1661",
+    "word": "횡단보도",
+    "meaning": "crosswalk",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '횡단보도'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '횡단보도'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1662",
+    "word": "후",
+    "meaning": "after",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '후'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '후'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1663",
+    "word": "후배",
+    "meaning": "Junior",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '후배'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '후배'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1664",
+    "word": "휴가",
+    "meaning": "vacation; holiday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '휴가'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴가'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1665",
+    "word": "휴대전화",
+    "meaning": "cell phone; mobile phone",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '휴대전화'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴대전화'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1666",
+    "word": "휴일",
+    "meaning": "holiday",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '휴일'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴일'.",
+    "tags": [
+      "topik-i",
+      "time"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1667",
+    "word": "휴지",
+    "meaning": "toilet paper",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '휴지'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴지'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1668",
+    "word": "휴지통",
+    "meaning": "trash can",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '휴지통'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '휴지통'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1669",
+    "word": "흐리다",
+    "meaning": "cloudy",
+    "partOfSpeech": "verb",
+    "level": "TOPIK I",
+    "example": "오늘 '흐리다'의 뜻을 배웠습니다.",
+    "exampleMeaning": "Today I learned the meaning of '흐리다'.",
+    "tags": [
+      "topik-i",
+      "verb"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1670",
+    "word": "흰색",
+    "meaning": "white color",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '흰색'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '흰색'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1671",
+    "word": "힘",
+    "meaning": "power",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '힘'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '힘'.",
+    "tags": [
+      "topik-i",
+      "noun"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1059",
+    "word": "영어",
+    "meaning": "English",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '영어'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '영어'.",
+    "tags": [
+      "topik-i",
+      "language"
+    ]
+  },
+  {
+    "id": "topik-i-vocab-1613",
+    "word": "한글",
+    "meaning": "Hangeul; Korean alphabet",
+    "partOfSpeech": "noun",
+    "level": "TOPIK I",
+    "example": "수업에서 '한글'에 대해 배웠습니다.",
+    "exampleMeaning": "In class, I learned about '한글'.",
+    "tags": [
+      "topik-i",
+      "language"
+    ]
   }
 ];

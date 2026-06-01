@@ -1,8 +1,11 @@
+import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Check, Headphones } from 'lucide-react';
 import Badge from '../../components/ui/Badge';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
+import LevelTabs from '../../components/ui/LevelTabs';
+import { countByLevel, levelOf } from '../../lib/levels';
 import { useLearning } from '../../context/LearningContext';
 import { listeningTests } from '../../data/listening';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -10,6 +13,10 @@ import { usePageMeta } from '../../hooks/usePageMeta';
 export default function ListeningListPage() {
   usePageMeta('Listening', 'Practice TOPIK listening tests with audio and answer review.');
   const { isListeningCompleted, dispatch } = useLearning();
+  const [level, setLevel] = useState('TOPIK II');
+
+  const levelCounts = useMemo(() => countByLevel(listeningTests), []);
+  const levelTests = useMemo(() => listeningTests.filter((t) => levelOf(t) === level), [level]);
 
   return (
     <div className="space-y-5">
@@ -24,12 +31,13 @@ export default function ListeningListPage() {
         </p>
       </div>
 
-      {listeningTests.length ? (
+      <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+
+      {levelTests.length ? (
         <div className="grid gap-4 md:grid-cols-2">
           {(() => {
-            const pinned = listeningTests.filter((t) => t.id === 'listening-052');
-            const rest = [...listeningTests].reverse().filter((t) => t.id !== 'listening-052');
-            return [...pinned, ...rest];
+            const examRound = (t) => parseInt(t.id.replace('listening-', ''), 10) || 0;
+            return [...levelTests].sort((a, b) => examRound(b) - examRound(a));
           })().map((test) => {
             const done = isListeningCompleted(test.id);
             return (
@@ -74,8 +82,8 @@ export default function ListeningListPage() {
         </div>
       ) : (
         <EmptyState
-          title="No listening tests available"
-          message="Add your own listening tests to src/data/listening.local.js with matching audio files in public/listening/."
+          title={`No ${level} listening tests yet`}
+          message={`Add ${level} listening tests to src/data/listening.local.js with matching audio files in public/listening/.`}
         />
       )}
     </div>

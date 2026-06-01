@@ -1,8 +1,19 @@
 import { grammarLessons } from './grammar.js';
 import { vocabulary } from './vocabulary.js';
+import { LEVELS, levelOf } from '../lib/levels.js';
 
 const QUESTIONS_PER_GRAMMAR_TEST = 10;
 const QUESTIONS_PER_VOCAB_TEST = 20;
+
+// Build tests per level so each TOPIK level has its own coverage/recall sets.
+const LEVEL_SLUGS = {
+  'TOPIK I': 'topik-i',
+  'TOPIK II': 'topik-ii'
+};
+
+function pad(n) {
+  return String(n).padStart(3, '0');
+}
 
 function chunkItems(items, size) {
   return Array.from({ length: Math.ceil(items.length / size) }, (_, index) =>
@@ -11,7 +22,9 @@ function chunkItems(items, size) {
 }
 
 function placeCorrectOption(correct, distractors, seed) {
-  const answer = seed % 4;
+  // Modulo by the real option count so the answer index stays valid even when
+  // fewer than 3 unique distractors are available.
+  const answer = seed % (distractors.length + 1);
   const options = [...distractors];
   options.splice(answer, 0, correct);
 
@@ -22,13 +35,17 @@ function placeCorrectOption(correct, distractors, seed) {
 // Grammar tests
 // -----------------------------------------------------------------------------
 
-function getMeaningDistractors(currentLesson, currentIndex) {
+function getMeaningDistractors(currentLesson, currentIndex, pool) {
   const offsets = [7, 19, 31, 43, 59, 71, 89, 103];
   const distractors = [];
 
   for (const offset of offsets) {
-    const lesson = grammarLessons[(currentIndex + offset) % grammarLessons.length];
-    if (lesson.id !== currentLesson.id && !distractors.includes(lesson.coreMeaning)) {
+    const lesson = pool[(currentIndex + offset) % pool.length];
+    if (
+      lesson.id !== currentLesson.id &&
+      lesson.coreMeaning !== currentLesson.coreMeaning &&
+      !distractors.includes(lesson.coreMeaning)
+    ) {
       distractors.push(lesson.coreMeaning);
     }
     if (distractors.length === 3) break;
@@ -37,13 +54,17 @@ function getMeaningDistractors(currentLesson, currentIndex) {
   return distractors;
 }
 
-function getPatternDistractors(currentLesson, currentIndex) {
+function getPatternDistractors(currentLesson, currentIndex, pool) {
   const offsets = [13, 29, 41, 57, 73, 91, 109, 127];
   const distractors = [];
 
   for (const offset of offsets) {
-    const lesson = grammarLessons[(currentIndex + offset) % grammarLessons.length];
-    if (lesson.id !== currentLesson.id && !distractors.includes(lesson.pattern)) {
+    const lesson = pool[(currentIndex + offset) % pool.length];
+    if (
+      lesson.id !== currentLesson.id &&
+      lesson.pattern !== currentLesson.pattern &&
+      !distractors.includes(lesson.pattern)
+    ) {
       distractors.push(lesson.pattern);
     }
     if (distractors.length === 3) break;
@@ -52,89 +73,99 @@ function getPatternDistractors(currentLesson, currentIndex) {
   return distractors;
 }
 
-function createGrammarMeaningQuestion(lesson, index) {
+function createGrammarMeaningQuestion(lesson, index, pool, slug) {
   const { options, answer } = placeCorrectOption(
     lesson.coreMeaning,
-    getMeaningDistractors(lesson, index),
+    getMeaningDistractors(lesson, index, pool),
     index
   );
 
   return {
-    id: `grammar-coverage-q-${String(index + 1).padStart(3, '0')}`,
+    id: `grammar-coverage-${slug}-q-${pad(index + 1)}`,
     prompt: `What is the core meaning of ${lesson.pattern}?`,
     options,
     answer
   };
 }
 
-function createGrammarPatternQuestion(lesson, index) {
+function createGrammarPatternQuestion(lesson, index, pool, slug) {
   const { options, answer } = placeCorrectOption(
     lesson.pattern,
-    getPatternDistractors(lesson, index),
+    getPatternDistractors(lesson, index, pool),
     index + 1
   );
 
   return {
-    id: `grammar-pattern-q-${String(index + 1).padStart(3, '0')}`,
+    id: `grammar-pattern-${slug}-q-${pad(index + 1)}`,
     prompt: `Which pattern expresses "${lesson.coreMeaning}"?`,
     options,
     answer
   };
 }
 
-const grammarCoverageTests = chunkItems(grammarLessons, QUESTIONS_PER_GRAMMAR_TEST).map((lessons, index) => {
-  const start = index * QUESTIONS_PER_GRAMMAR_TEST + 1;
-  const end = start + lessons.length - 1;
+function buildGrammarTests(lessons, level, slug) {
+  const coverage = chunkItems(lessons, QUESTIONS_PER_GRAMMAR_TEST).map((group, index) => {
+    const start = index * QUESTIONS_PER_GRAMMAR_TEST + 1;
+    const end = start + group.length - 1;
 
-  return {
-    id: `grammar-coverage-${String(index + 1).padStart(3, '0')}`,
-    type: 'grammar',
-    title: `Grammar Coverage Test ${index + 1}`,
-    description: `Core meaning practice for grammar ${start}-${end}.`,
-    durationMinutes: Math.max(8, lessons.length * 2),
-    sections: [
-      {
-        type: 'grammar',
-        questions: lessons.map((lesson, lessonIndex) =>
-          createGrammarMeaningQuestion(lesson, index * QUESTIONS_PER_GRAMMAR_TEST + lessonIndex)
-        )
-      }
-    ]
-  };
-});
+    return {
+      id: `grammar-coverage-${slug}-${pad(index + 1)}`,
+      type: 'grammar',
+      level,
+      title: `${level} Grammar Coverage Test ${index + 1}`,
+      description: `Core meaning practice for ${level} grammar ${start}-${end}.`,
+      durationMinutes: Math.max(8, group.length * 2),
+      sections: [
+        {
+          type: 'grammar',
+          questions: group.map((lesson, lessonIndex) =>
+            createGrammarMeaningQuestion(lesson, index * QUESTIONS_PER_GRAMMAR_TEST + lessonIndex, lessons, slug)
+          )
+        }
+      ]
+    };
+  });
 
-const grammarPatternTests = chunkItems(grammarLessons, QUESTIONS_PER_GRAMMAR_TEST).map((lessons, index) => {
-  const start = index * QUESTIONS_PER_GRAMMAR_TEST + 1;
-  const end = start + lessons.length - 1;
+  const pattern = chunkItems(lessons, QUESTIONS_PER_GRAMMAR_TEST).map((group, index) => {
+    const start = index * QUESTIONS_PER_GRAMMAR_TEST + 1;
+    const end = start + group.length - 1;
 
-  return {
-    id: `grammar-pattern-${String(index + 1).padStart(3, '0')}`,
-    type: 'grammar',
-    title: `Grammar Pattern Match Test ${index + 1}`,
-    description: `Pick the pattern that matches each meaning for grammar ${start}-${end}.`,
-    durationMinutes: Math.max(8, lessons.length * 2),
-    sections: [
-      {
-        type: 'grammar',
-        questions: lessons.map((lesson, lessonIndex) =>
-          createGrammarPatternQuestion(lesson, index * QUESTIONS_PER_GRAMMAR_TEST + lessonIndex)
-        )
-      }
-    ]
-  };
-});
+    return {
+      id: `grammar-pattern-${slug}-${pad(index + 1)}`,
+      type: 'grammar',
+      level,
+      title: `${level} Grammar Pattern Match Test ${index + 1}`,
+      description: `Pick the pattern that matches each meaning for ${level} grammar ${start}-${end}.`,
+      durationMinutes: Math.max(8, group.length * 2),
+      sections: [
+        {
+          type: 'grammar',
+          questions: group.map((lesson, lessonIndex) =>
+            createGrammarPatternQuestion(lesson, index * QUESTIONS_PER_GRAMMAR_TEST + lessonIndex, lessons, slug)
+          )
+        }
+      ]
+    };
+  });
+
+  return [...coverage, ...pattern];
+}
 
 // -----------------------------------------------------------------------------
 // Vocabulary tests
 // -----------------------------------------------------------------------------
 
-function getVocabMeaningDistractors(currentWord, currentIndex) {
+function getVocabMeaningDistractors(currentWord, currentIndex, pool) {
   const offsets = [11, 23, 37, 53, 67, 79, 97, 113];
   const distractors = [];
 
   for (const offset of offsets) {
-    const word = vocabulary[(currentIndex + offset) % vocabulary.length];
-    if (word.id !== currentWord.id && !distractors.includes(word.meaning)) {
+    const word = pool[(currentIndex + offset) % pool.length];
+    if (
+      word.id !== currentWord.id &&
+      word.meaning !== currentWord.meaning &&
+      !distractors.includes(word.meaning)
+    ) {
       distractors.push(word.meaning);
     }
     if (distractors.length === 3) break;
@@ -143,13 +174,17 @@ function getVocabMeaningDistractors(currentWord, currentIndex) {
   return distractors;
 }
 
-function getVocabWordDistractors(currentWord, currentIndex) {
+function getVocabWordDistractors(currentWord, currentIndex, pool) {
   const offsets = [17, 29, 43, 61, 73, 89, 101, 127];
   const distractors = [];
 
   for (const offset of offsets) {
-    const word = vocabulary[(currentIndex + offset) % vocabulary.length];
-    if (word.id !== currentWord.id && !distractors.includes(word.word)) {
+    const word = pool[(currentIndex + offset) % pool.length];
+    if (
+      word.id !== currentWord.id &&
+      word.word !== currentWord.word &&
+      !distractors.includes(word.word)
+    ) {
       distractors.push(word.word);
     }
     if (distractors.length === 3) break;
@@ -158,77 +193,95 @@ function getVocabWordDistractors(currentWord, currentIndex) {
   return distractors;
 }
 
-function createVocabMeaningQuestion(word, index) {
+function createVocabMeaningQuestion(word, index, pool, slug) {
   const { options, answer } = placeCorrectOption(
     word.meaning,
-    getVocabMeaningDistractors(word, index),
+    getVocabMeaningDistractors(word, index, pool),
     index
   );
 
   return {
-    id: `vocab-coverage-q-${String(index + 1).padStart(3, '0')}`,
+    id: `vocab-coverage-${slug}-q-${pad(index + 1)}`,
     prompt: `What does ${word.word} mean?`,
     options,
     answer
   };
 }
 
-function createVocabWordQuestion(word, index) {
+function createVocabWordQuestion(word, index, pool, slug) {
   const { options, answer } = placeCorrectOption(
     word.word,
-    getVocabWordDistractors(word, index),
+    getVocabWordDistractors(word, index, pool),
     index + 1
   );
 
   return {
-    id: `vocab-recall-q-${String(index + 1).padStart(3, '0')}`,
+    id: `vocab-recall-${slug}-q-${pad(index + 1)}`,
     prompt: `Which Korean word means "${word.meaning}"?`,
     options,
     answer
   };
 }
 
-const vocabularyCoverageTests = chunkItems(vocabulary, QUESTIONS_PER_VOCAB_TEST).map((words, index) => {
-  const start = index * QUESTIONS_PER_VOCAB_TEST + 1;
-  const end = start + words.length - 1;
+function buildVocabularyTests(words, level, slug) {
+  const coverage = chunkItems(words, QUESTIONS_PER_VOCAB_TEST).map((group, index) => {
+    const start = index * QUESTIONS_PER_VOCAB_TEST + 1;
+    const end = start + group.length - 1;
 
-  return {
-    id: `vocab-coverage-${String(index + 1).padStart(3, '0')}`,
-    type: 'vocabulary',
-    title: `Vocabulary Coverage Test ${index + 1}`,
-    description: `Word meaning practice for vocabulary ${start}-${end}.`,
-    durationMinutes: Math.max(15, words.length),
-    sections: [
-      {
-        type: 'vocabulary',
-        questions: words.map((word, wordIndex) =>
-          createVocabMeaningQuestion(word, index * QUESTIONS_PER_VOCAB_TEST + wordIndex)
-        )
-      }
-    ]
-  };
-});
+    return {
+      id: `vocab-coverage-${slug}-${pad(index + 1)}`,
+      type: 'vocabulary',
+      level,
+      title: `${level} Vocabulary Coverage Test ${index + 1}`,
+      description: `Word meaning practice for ${level} vocabulary ${start}-${end}.`,
+      durationMinutes: Math.max(15, group.length),
+      sections: [
+        {
+          type: 'vocabulary',
+          questions: group.map((word, wordIndex) =>
+            createVocabMeaningQuestion(word, index * QUESTIONS_PER_VOCAB_TEST + wordIndex, words, slug)
+          )
+        }
+      ]
+    };
+  });
 
-const vocabularyRecallTests = chunkItems(vocabulary, QUESTIONS_PER_VOCAB_TEST).map((words, index) => {
-  const start = index * QUESTIONS_PER_VOCAB_TEST + 1;
-  const end = start + words.length - 1;
+  const recall = chunkItems(words, QUESTIONS_PER_VOCAB_TEST).map((group, index) => {
+    const start = index * QUESTIONS_PER_VOCAB_TEST + 1;
+    const end = start + group.length - 1;
 
-  return {
-    id: `vocab-recall-${String(index + 1).padStart(3, '0')}`,
-    type: 'vocabulary',
-    title: `Vocabulary Recall Test ${index + 1}`,
-    description: `Pick the matching Korean word for vocabulary ${start}-${end}.`,
-    durationMinutes: Math.max(15, words.length),
-    sections: [
-      {
-        type: 'vocabulary',
-        questions: words.map((word, wordIndex) =>
-          createVocabWordQuestion(word, index * QUESTIONS_PER_VOCAB_TEST + wordIndex)
-        )
-      }
-    ]
-  };
-});
+    return {
+      id: `vocab-recall-${slug}-${pad(index + 1)}`,
+      type: 'vocabulary',
+      level,
+      title: `${level} Vocabulary Recall Test ${index + 1}`,
+      description: `Pick the matching Korean word for ${level} vocabulary ${start}-${end}.`,
+      durationMinutes: Math.max(15, group.length),
+      sections: [
+        {
+          type: 'vocabulary',
+          questions: group.map((word, wordIndex) =>
+            createVocabWordQuestion(word, index * QUESTIONS_PER_VOCAB_TEST + wordIndex, words, slug)
+          )
+        }
+      ]
+    };
+  });
+
+  return [...coverage, ...recall];
+}
+
+// -----------------------------------------------------------------------------
+// Generate level-scoped test sets
+// -----------------------------------------------------------------------------
+
+const grammarTests = LEVELS.flatMap((level) =>
+  buildGrammarTests(grammarLessons.filter((lesson) => levelOf(lesson) === level), level, LEVEL_SLUGS[level])
+);
+
+const vocabularyTests = LEVELS.flatMap((level) =>
+  buildVocabularyTests(vocabulary.filter((word) => levelOf(word) === level), level, LEVEL_SLUGS[level])
+);
 
 // -----------------------------------------------------------------------------
 // Hand-written vocabulary mini tests (kept for variety / sample questions)
@@ -238,6 +291,7 @@ const vocabularyMiniTests = [
   {
     id: 'vocab-mini-001',
     type: 'vocabulary',
+    level: 'TOPIK II',
     title: 'Vocabulary Mini Test 1',
     description: 'Review common TOPIK II words from the vocabulary deck.',
     durationMinutes: 8,
@@ -270,6 +324,7 @@ const vocabularyMiniTests = [
   {
     id: 'vocab-mini-002',
     type: 'vocabulary',
+    level: 'TOPIK II',
     title: 'Vocabulary Mini Test 2',
     description: 'Practice word meaning through short TOPIK-style prompts.',
     durationMinutes: 8,
@@ -301,10 +356,4 @@ const vocabularyMiniTests = [
   }
 ];
 
-export const mockTests = [
-  ...grammarCoverageTests,
-  ...grammarPatternTests,
-  ...vocabularyMiniTests,
-  ...vocabularyCoverageTests,
-  ...vocabularyRecallTests
-];
+export const mockTests = [...grammarTests, ...vocabularyTests, ...vocabularyMiniTests];

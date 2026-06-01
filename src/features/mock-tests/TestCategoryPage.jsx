@@ -1,6 +1,10 @@
+import { useMemo, useState } from 'react';
 import { ArrowLeft, BookOpenCheck, Languages } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
+import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
+import LevelTabs from '../../components/ui/LevelTabs';
+import { countByLevel, levelOf } from '../../lib/levels';
 import { mockTests } from '../../data/mockTests';
 import { usePageMeta } from '../../hooks/usePageMeta';
 import TestCard from './TestCard';
@@ -8,12 +12,12 @@ import TestCard from './TestCard';
 const categoryConfig = {
   grammar: {
     title: 'Grammar Test',
-    description: 'Focused TOPIK II grammar tests. Each test covers core meaning questions in 10-question sets.',
+    description: 'Focused TOPIK I and II grammar tests. Each test covers core meaning questions in 10-question sets.',
     icon: BookOpenCheck
   },
   vocabulary: {
     title: 'Vocabulary Test',
-    description: 'Focused TOPIK II vocabulary tests for word meanings, context, and recognition.',
+    description: 'Focused TOPIK I and II vocabulary tests for word meanings, context, and recognition.',
     icon: Languages
   }
 };
@@ -22,10 +26,14 @@ export default function TestCategoryPage({ category }) {
   const params = useParams();
   const type = category ?? params.type;
   const config = categoryConfig[type];
-  const tests = mockTests.filter((test) => test.type === type);
   const Icon = config?.icon;
+  const [level, setLevel] = useState('TOPIK II');
 
-  usePageMeta(config?.title || 'Tests', config?.description || 'TOPIK II tests.');
+  const typeTests = useMemo(() => mockTests.filter((test) => test.type === type), [type]);
+  const levelCounts = useMemo(() => countByLevel(typeTests), [typeTests]);
+  const tests = useMemo(() => typeTests.filter((test) => levelOf(test) === level), [typeTests, level]);
+
+  usePageMeta(config?.title || 'Tests', config?.description || 'TOPIK tests.');
 
   if (!config) {
     return <EmptyState title="Test type not found" message="Choose grammar or vocabulary tests from the tests page." />;
@@ -63,11 +71,22 @@ export default function TestCategoryPage({ category }) {
         </Link>
       </div>
 
-      <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-        {tests.map((test) => (
-          <TestCard key={test.id} test={test} />
-        ))}
-      </div>
+      <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+
+      {tests.length === 0 ? (
+        <Card className="text-center">
+          <p className="text-sm font-semibold text-slate-700 dark:text-slate-200">No {level} {config.title.toLowerCase()}s yet.</p>
+          <p className="mt-1 text-xs text-slate-500 dark:text-slate-400">
+            Add tests with level: &#39;{level}&#39; to src/data/mockTests.js and they will appear here.
+          </p>
+        </Card>
+      ) : (
+        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+          {tests.map((test) => (
+            <TestCard key={test.id} test={test} />
+          ))}
+        </div>
+      )}
     </div>
   );
 }
