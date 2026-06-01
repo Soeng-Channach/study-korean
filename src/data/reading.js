@@ -11013,5 +11013,701 @@ export const readings = [
         "explanation": "Correct answer: 4. 사회적 갈등의 긍정적인 측면을 인정하고 있다."
       }
     ]
+  },
+  {
+    "id": "reading-102-topik-i",
+    "title": "102nd TOPIK I Reading Test",
+    "level": "TOPIK I",
+    "topic": "Official Reading Paper",
+    "source": "https://www.topikguide.com/mock-tests/102-TOPIK-I-Reading-Mock-Test.html",
+    "durationMinutes": 60,
+    "passage": "",
+    "questions": [
+      {
+        "id": "reading-102-topik-i-q001",
+        "instruction": "※ [1~3] 무엇에 대한 내용입니까? 와 같이 알맞은 것을 고르십시오.",
+        "questionNumber": 1,
+        "points": 2,
+        "questionType": "text",
+        "passage": "저는 누나가 있습니다. 동생도 있습니다.",
+        "question": "무엇에 대한 내용입니까? (2점)",
+        "options": [
+          "나라",
+          "나이",
+          "운동",
+          "가족"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 가족"
+      },
+      {
+        "id": "reading-102-topik-i-q002",
+        "instruction": "※ [1~3] 무엇에 대한 내용입니까? 와 같이 알맞은 것을 고르십시오.",
+        "questionNumber": 2,
+        "points": 2,
+        "questionType": "text",
+        "passage": "지금은 저녁입니다. 일곱 시입니다.",
+        "question": "무엇에 대한 내용입니까? (2점)",
+        "options": [
+          "시간",
+          "직업",
+          "날짜",
+          "휴일"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 시간"
+      },
+      {
+        "id": "reading-102-topik-i-q003",
+        "instruction": "※ [1~3] 무엇에 대한 내용입니까? 와 같이 알맞은 것을 고르십시오.",
+        "questionNumber": 3,
+        "points": 2,
+        "questionType": "text",
+        "passage": "저는 등산을 좋아합니다. 산에 자주 갑니다.",
+        "question": "무엇에 대한 내용입니까? (2점)",
+        "options": [
+          "쇼핑",
+          "교통",
+          "계절",
+          "취미"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 취미"
+      },
+      {
+        "id": "reading-102-topik-i-q004",
+        "instruction": "※ [4~9] 와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "questionNumber": 4,
+        "points": 2,
+        "questionType": "text",
+        "passage": "저는 의사입니다. ( )에서 일합니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (2점)",
+        "options": [
+          "병원",
+          "서점",
+          "미용실",
+          "우체국"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 병원"
+      },
+      {
+        "id": "reading-102-topik-i-q005",
+        "instruction": "※ [4~9] 와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "questionNumber": 5,
+        "points": 2,
+        "questionType": "text",
+        "passage": "저는 일이 많습니다. 그래서 조금 ( ).",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (2점)",
+        "options": [
+          "작습니다",
+          "비쌉니다",
+          "무겁습니다",
+          "피곤합니다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 피곤합니다"
+      },
+      {
+        "id": "reading-102-topik-i-q006",
+        "instruction": "※ [4~9] 와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "questionNumber": 6,
+        "points": 2,
+        "questionType": "text",
+        "passage": "친구를 만났습니다. 우리는 ( ) 공부를 했습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (2점)",
+        "options": [
+          "가장",
+          "아직",
+          "별로",
+          "같이"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 같이"
+      },
+      {
+        "id": "reading-102-topik-i-q007",
+        "instruction": "※ [4~9] 와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "questionNumber": 7,
+        "points": 3,
+        "questionType": "text",
+        "passage": "방이 덥습니다. 창문( ) 엽니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (3점)",
+        "options": [
+          "에",
+          "의",
+          "을",
+          "이"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 을"
+      },
+      {
+        "id": "reading-102-topik-i-q008",
+        "instruction": "※ [4~9] 와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "questionNumber": 8,
+        "points": 3,
+        "questionType": "text",
+        "passage": "선물을 삽니다. 친구에게 ( ).",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (3점)",
+        "options": [
+          "줍니다",
+          "듣습니다",
+          "다닙니다",
+          "가르칩니다"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 줍니다"
+      },
+      {
+        "id": "reading-102-topik-i-q009",
+        "instruction": "※ [4~9] 와 같이 ( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "questionNumber": 9,
+        "points": 2,
+        "questionType": "text",
+        "passage": "민수 씨하고 약속이 있습니다. 저는 민수 씨를 ( ).",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (2점)",
+        "options": [
+          "내립니다",
+          "넣습니다",
+          "구경합니다",
+          "기다립니다"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 기다립니다"
+      },
+      {
+        "id": "reading-102-topik-i-q010",
+        "instruction": "※ [10~12] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
+        "questionNumber": 10,
+        "points": 3,
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T1102R10.png",
+        "passage": "",
+        "question": "다음을 읽고 맞지 않는 것을 고르십시오.",
+        "options": [
+          "일요일은 맑습니다.",
+          "오늘은 비가 옵니다.",
+          "내일은 토요일입니다.",
+          "인주시의 날씨입니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 오늘은 비가 옵니다."
+      },
+      {
+        "id": "reading-102-topik-i-q011",
+        "instruction": "※ [10~12] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
+        "questionNumber": 11,
+        "points": 3,
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T1102R11.png",
+        "passage": "",
+        "question": "다음을 읽고 맞지 않는 것을 고르십시오.",
+        "options": [
+          "주말에 파티를 합니다.",
+          "유미의 생일 파티입니다.",
+          "파티는 오전에 시작합니다.",
+          "호텔 삼 층에서 파티를 합니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 파티는 오전에 시작합니다."
+      },
+      {
+        "id": "reading-102-topik-i-q012",
+        "instruction": "※ [10~12] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
+        "questionNumber": 12,
+        "points": 3,
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T1102R12.png",
+        "passage": "",
+        "question": "다음을 읽고 맞지 않는 것을 고르십시오.",
+        "options": [
+          "지영 씨는 지금 집에 있습니다.",
+          "마이클 씨는 모임에 안 갔습니다.",
+          "지영 씨는 내일 학교에 갈 겁니다.",
+          "마이클 씨는 오늘 지영 씨를 만났습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 마이클 씨는 모임에 안 갔습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q013",
+        "instruction": "※ [13~15] 다음을 읽고 내용이 같은 것을 고르십시오.",
+        "questionNumber": 13,
+        "points": 3,
+        "questionType": "text",
+        "passage": "저는 은행에서 일합니다. 은행에 외국인 손님이 많이 옵니다. 저는 그 손님들하고 영어로 이야기합니다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오. (3점)",
+        "options": [
+          "저는 영어를 할 수 없습니다.",
+          "저는 요즘 일을 하지 않습니다.",
+          "저는 은행에서 일을 하려고 합니다.",
+          "저는 은행에서 외국 사람을 많이 만납니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 저는 은행에서 외국 사람을 많이 만납니다."
+      },
+      {
+        "id": "reading-102-topik-i-q014",
+        "instruction": "※ [13~15] 다음을 읽고 내용이 같은 것을 고르십시오.",
+        "questionNumber": 14,
+        "points": 2,
+        "questionType": "text",
+        "passage": "오늘 집에서 비누를 만들었습니다. 비누에 레몬을 넣었습니다. 이 비누로 손을 씻었는데 냄새가 좋았습니다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오. (2점)",
+        "options": [
+          "이 비누에 레몬이 들어갔습니다.",
+          "이 비누는 냄새가 나지 않습니다.",
+          "저는 오늘 레몬 비누를 샀습니다.",
+          "저는 이 비누를 사용하지 않았습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 이 비누에 레몬이 들어갔습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q015",
+        "instruction": "※ [13~15] 다음을 읽고 내용이 같은 것을 고르십시오.",
+        "questionNumber": 15,
+        "points": 3,
+        "questionType": "text",
+        "passage": "고향에 계신 부모님이 과자를 보내 주셨습니다. 제가 좋아하는 고향 과자가 많이 있었습니다. 방 친구와 같이 과자를 먹었습니다.",
+        "question": "다음을 읽고 내용이 같은 것을 고르십시오. (3점)",
+        "options": [
+          "저는 부모님과 같이 삽니다.",
+          "저는 과자를 혼자 먹었습니다.",
+          "저는 부모님에게 과자를 받았습니다.",
+          "저는 고향의 과자를 좋아하지 않습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 저는 부모님에게 과자를 받았습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q016",
+        "instruction": "※ [16~18] 다음을 읽고 중심 내용을 고르십시오.",
+        "questionNumber": 16,
+        "points": 3,
+        "questionType": "text",
+        "passage": "요즘 춤을 배우고 있습니다. 춤을 추는 것이 아주 재미있습니다. 그래서 매일 춤 연습을 합니다.",
+        "question": "다음을 읽고 중심 내용을 고르십시오. (3점)",
+        "options": [
+          "저는 춤을 오래 배웠습니다.",
+          "저는 춤을 배우는 것이 즐겁습니다.",
+          "저는 요즘 춤을 출 시간이 없습니다.",
+          "저는 친구와 춤 연습을 하고 싶습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 저는 춤을 배우는 것이 즐겁습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q017",
+        "instruction": "※ [16~18] 다음을 읽고 중심 내용을 고르십시오.",
+        "questionNumber": 17,
+        "points": 3,
+        "questionType": "text",
+        "passage": "저는 주말마다 테니스를 칩니다. 지난주에는 비가 와서 테니스를 못 쳤습니다. 이번 주는 비가 안 오면 좋겠습니다.",
+        "question": "다음을 읽고 중심 내용을 고르십시오. (3점)",
+        "options": [
+          "저는 테니스를 배우려고 합니다.",
+          "저는 테니스 보는 것을 좋아합니다.",
+          "저는 테니스를 잘 치면 좋겠습니다.",
+          "저는 이번 주말에 테니스를 치고 싶습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 저는 이번 주말에 테니스를 치고 싶습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q018",
+        "instruction": "※ [16~18] 다음을 읽고 중심 내용을 고르십시오.",
+        "questionNumber": 18,
+        "points": 2,
+        "questionType": "text",
+        "passage": "얼마 전에 운동화를 샀습니다. 이 운동화는 가볍고 아주 편합니다. 저는 매일 이 운동화를 신고 다닙니다.",
+        "question": "다음을 읽고 중심 내용을 고르십시오. (2점)",
+        "options": [
+          "저는 운동화를 사려고 합니다.",
+          "저는 이 운동화를 선물할 겁니다.",
+          "저는 이 운동화가 마음에 듭니다.",
+          "저는 운동화가 많으면 좋겠습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 저는 이 운동화가 마음에 듭니다."
+      },
+      {
+        "id": "reading-102-topik-i-q019",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "questionNumber": 19,
+        "points": 2,
+        "questionType": "text",
+        "passage": "우리 가족은 오랫동안 외국에 살았습니다. 그곳의 미용실은 가격이 비쌌습니다. 그래서 우리 가족은 미용실에 가지 않았습니다. 남편과 아이의 머리는 제가 잘라 주었습니다. 처음에는 잘 못 ( ) 나중에는 잘 자르게 되었습니다. 지금 우리 가족은 한국에서 살고 있습니다. 저는 요즘도 가족들의 머리를 잘라 줍니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "자르면",
+          "자르니까",
+          "잘랐거나",
+          "잘랐지만"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 잘랐지만"
+      },
+      {
+        "id": "reading-102-topik-i-q020",
+        "instruction": "※ [19~20] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "questionNumber": 20,
+        "points": 2,
+        "questionType": "text",
+        "passage": "우리 가족은 오랫동안 외국에 살았습니다. 그곳의 미용실은 가격이 비쌌습니다. 그래서 우리 가족은 미용실에 가지 않았습니다. 남편과 아이의 머리는 제가 잘라 주었습니다. 처음에는 잘 못 ( ) 나중에는 잘 자르게 되었습니다. 지금 우리 가족은 한국에서 살고 있습니다. 저는 요즘도 가족들의 머리를 잘라 줍니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "우리 가족은 한국에 돌아왔습니다.",
+          "외국의 미용실은 가격이 쌌습니다.",
+          "요즘은 아이의 머리를 잘라 주지 않습니다.",
+          "우리 가족은 외국에서 미용실에 자주 갔습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 우리 가족은 한국에 돌아왔습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q021",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 21,
+        "points": 3,
+        "questionType": "text",
+        "passage": "인주시에서는 매년 가을에 떡볶이 축제를 합니다. 이 축제에서는 '매운 떡볶이 먹기 대회'가 열리는데 축제에 온 사람은 누구나 이 대회에 참가할 수 있습니다. ( ) 이 축제에서 한국의 유명한 떡볶이를 모두 먹어 볼 수 있습니다. 떡볶이 재료를 싸게 살 수도 있고 공연도 볼 수 있어서 이 축제를 찾는 사람이 많습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (3점)",
+        "options": [
+          "그리고",
+          "그래도",
+          "그렇지만",
+          "왜냐하면"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 그리고"
+      },
+      {
+        "id": "reading-102-topik-i-q022",
+        "instruction": "※ [21~22] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 22,
+        "points": 2,
+        "questionType": "text",
+        "passage": "인주시에서는 매년 가을에 떡볶이 축제를 합니다. 이 축제에서는 '매운 떡볶이 먹기 대회'가 열리는데 축제에 온 사람은 누구나 이 대회에 참가할 수 있습니다. ( ) 이 축제에서 한국의 유명한 떡볶이를 모두 먹어 볼 수 있습니다. 떡볶이 재료를 싸게 살 수도 있고 공연도 볼 수 있어서 이 축제를 찾는 사람이 많습니다.",
+        "question": "무엇에 대한 내용인지 맞는 것을 고르십시오. (2점)",
+        "options": [
+          "이 축제를 하는 장소",
+          "이 축제를 하는 날짜",
+          "이 축제에서 할 수 있는 일",
+          "이 축제에서 볼 수 있는 공연"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 이 축제에서 할 수 있는 일"
+      },
+      {
+        "id": "reading-102-topik-i-q023",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 23,
+        "points": 2,
+        "questionType": "text",
+        "passage": "제 친구는 회사원인데 그림을 잘 그립니다. 오늘 친구가 첫 번째 전시회를 열었습니다. 저는 ( ) 그 친구의 전시회에 갔다 왔습니다. 전시회 에는 꽃 그림이 많았습니다. 저는 장미꽃 그림을 하나 샀습니다. 오늘 이 그림을 제 방에 걸었습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (2점)",
+        "options": [
+          "퇴근하러",
+          "퇴근한 지",
+          "퇴근하려면",
+          "퇴근한 후에"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 퇴근한 후에"
+      },
+      {
+        "id": "reading-102-topik-i-q024",
+        "instruction": "※ [23~24] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 24,
+        "points": 3,
+        "questionType": "text",
+        "passage": "제 친구는 회사원인데 그림을 잘 그립니다. 오늘 친구가 첫 번째 전시회를 열었습니다. 저는 ( ) 그 친구의 전시회에 갔다 왔습니다. 전시회 에는 꽃 그림이 많았습니다. 저는 장미꽃 그림을 하나 샀습니다. 오늘 이 그림을 제 방에 걸었습니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오. (3점)",
+        "options": [
+          "제 친구는 직업이 화가입니다.",
+          "저는 친구의 그림을 하나 샀습니다.",
+          "제 친구는 전시회를 여러 번 했습니다.",
+          "저는 장미꽃 그림을 회사에 가져갔습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 저는 친구의 그림을 하나 샀습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q025",
+        "instruction": "※ [25~26] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 25,
+        "points": 2,
+        "questionType": "text",
+        "passage": "인주시에는 유명한 '옷 거리'가 있습니다. 이곳은 가게마다 다른 종류의 옷을 팔아서 구경하는 재미가 있습니다. 여러 가게 중에서 인기가 많은 가게는 예전에 유행한 옷을 파는 가게와 특별한 디자인의 청바지를 파는 가게입니다. 다른 곳에서 팔지 않는 옷이 ( ). 그래서 자기만의 특별한 옷을 사고 싶어 하는 사람들이 많이 찾아옵니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (2점)",
+        "options": [
+          "많아도 됩니다",
+          "많아야 합니다",
+          "많기 때문입니다",
+          "많은 적이 있습니다"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 많기 때문입니다"
+      },
+      {
+        "id": "reading-102-topik-i-q026",
+        "instruction": "※ [25~26] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 26,
+        "points": 3,
+        "questionType": "text",
+        "passage": "인주시에는 유명한 '옷 거리'가 있습니다. 이곳은 가게마다 다른 종류의 옷을 팔아서 구경하는 재미가 있습니다. 여러 가게 중에서 인기가 많은 가게는 예전에 유행한 옷을 파는 가게와 특별한 디자인의 청바지를 파는 가게입니다. 다른 곳에서 팔지 않는 옷이 ( ). 그래서 자기만의 특별한 옷을 사고 싶어 하는 사람들이 많이 찾아옵니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오. (3점)",
+        "options": [
+          "이 거리에 청바지 가게가 생기지 않았습니다.",
+          "이 거리에서 예전에 유행한 옷을 살 수 있습니다.",
+          "이 거리는 사람들에게 많이 알려지지 않았습니다.",
+          "이 거리에 같은 종류의 옷을 파는 가게들이 모여 있습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 이 거리에서 예전에 유행한 옷을 살 수 있습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q027",
+        "instruction": "※ [27~28] 다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "questionNumber": 27,
+        "points": 3,
+        "questionType": "text",
+        "passage": "(가) 저는 친구들과 함께 방송국을 구경하러 갔습니다.\n(나) 저는 뛰어가서 그 배우와 함께 사진을 찍었습니다.\n(다) 그때 제가 좋아하는 배우가 저쪽으로 지나갔습니다.\n(라) 우리는 방송국 일 층에서 안내 직원을 기다리고 있었습니다.",
+        "question": "(3점)",
+        "options": [
+          "(가)-(나)-(다)-(라)",
+          "(가)-(라)-(다)-(나)",
+          "(라)-(가)-(나)-(다)",
+          "(라)-(나)-(다)-(가)"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. (가)-(라)-(다)-(나)"
+      },
+      {
+        "id": "reading-102-topik-i-q028",
+        "instruction": "※ [27~28] 다음을 순서에 맞게 배열한 것을 고르십시오.",
+        "questionNumber": 28,
+        "points": 2,
+        "questionType": "text",
+        "passage": "(가) 그것을 확인하는 방법은 아주 간단합니다.\n(나) 그럴 때는 정말 배가 고파서 그런 것인지 확인하는 게 좋습니다.\n(다) 싫어하는 음식을 생각해도 먹고 싶다면 정말 배가 고픈 것입니다.\n(라) 식사를 했는데도 금방 음식을 먹고 싶은 생각이 들 때가 있습니다.",
+        "question": "(2점)",
+        "options": [
+          "(가)-(다)-(나)-(라)",
+          "(다)-(나)-(가)-(라)",
+          "(라)-(나)-(가)-(다)",
+          "(라)-(다)-(가)-(나)"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. (라)-(나)-(가)-(다)"
+      },
+      {
+        "id": "reading-102-topik-i-q029",
+        "instruction": "※ [29~30] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 29,
+        "points": 2,
+        "questionType": "text",
+        "passage": "Sentence to insert: 반가운 마음에 저는 초등학교로 찾아갔습니다.\n\n얼마 전에 제가 초등학교 때 쓴 일기장을 보았습니다. ( ① ) 거기에는 제가 선생님께 칭찬을 듣고 기뻐하는 이야기가 써 있었습니다. ( ② ) 일기를 보고 갑자기 선생님이 생각나서 학교로 전화를 해 봤습니다. 선생님은 아직 그 초등학교에 계셨습니다. ( ③ ) 선생님을 만나서 초등학교 때의 이야기를 나누었습니다. ( ④ )",
+        "question": "다음 문장이 들어갈 곳으로 가장 알맞은 것을 고르십시오. (2점)",
+        "options": [
+          "①",
+          "②",
+          "③",
+          "④"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. ③"
+      },
+      {
+        "id": "reading-102-topik-i-q030",
+        "instruction": "※ [29~30] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 30,
+        "points": 3,
+        "questionType": "text",
+        "passage": "Sentence to insert: 반가운 마음에 저는 초등학교로 찾아갔습니다.\n\n얼마 전에 제가 초등학교 때 쓴 일기장을 보았습니다. ( ① ) 거기에는 제가 선생님께 칭찬을 듣고 기뻐하는 이야기가 써 있었습니다. ( ② ) 일기를 보고 갑자기 선생님이 생각나서 학교로 전화를 해 봤습니다. 선생님은 아직 그 초등학교에 계셨습니다. ( ③ ) 선생님을 만나서 초등학교 때의 이야기를 나누었습니다. ( ④ )",
+        "question": "윗글의 내용과 같은 것을 고르십시오. (3점)",
+        "options": [
+          "저는 선생님을 만나러 갔습니다.",
+          "선생님이 저에게 전화를 하셨습니다.",
+          "선생님은 지금 다른 학교에 계십니다.",
+          "저는 초등학교 때의 일기장을 잃어버렸습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 저는 선생님을 만나러 갔습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q031",
+        "instruction": "※ [31~32] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "questionNumber": 31,
+        "points": 2,
+        "questionType": "text",
+        "passage": "저는 드라마를 만드는 사람과 함께 일을 합니다. 드라마에 잘 맞는 ( ㉠ ) 일입니다. 이번에 시작하는 드라마는 바닷가 시골 마을 사람들의 이야기 입니다. 그래서 부산과 제주도의 작은 바닷가 마을들을 여기저기 다녔습니다. 한 달이 걸려서 드라마에 딱 맞는 곳을 찾을 수 있었습니다. 이번 주말에 드라마 촬영이 시작됩니다. 이 드라마가 인기가 있으면 좋겠습니다.",
+        "question": "㉠에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "장소를 찾는",
+          "배우를 찾는",
+          "옷을 만드는",
+          "음악을 만드는"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 장소를 찾는"
+      },
+      {
+        "id": "reading-102-topik-i-q032",
+        "instruction": "※ [31~32] 다음을 읽고 물음에 답하십시오. (각 2점)",
+        "questionNumber": 32,
+        "points": 2,
+        "questionType": "text",
+        "passage": "저는 드라마를 만드는 사람과 함께 일을 합니다. 드라마에 잘 맞는 ( ㉠ ) 일입니다. 이번에 시작하는 드라마는 바닷가 시골 마을 사람들의 이야기 입니다. 그래서 부산과 제주도의 작은 바닷가 마을들을 여기저기 다녔습니다. 한 달이 걸려서 드라마에 딱 맞는 곳을 찾을 수 있었습니다. 이번 주말에 드라마 촬영이 시작됩니다. 이 드라마가 인기가 있으면 좋겠습니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 드라마는 이번 주말에 끝납니다.",
+          "이번 일을 위해서 부산과 제주도에 갔습니다.",
+          "이번에 도시 사람들의 이야기를 드라마로 찍습니다.",
+          "이번 일 때문에 일주일 동안 여기저기를 다녔습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 이번 일을 위해서 부산과 제주도에 갔습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q033",
+        "instruction": "※ [33~34] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 33,
+        "points": 2,
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T1102R33.png",
+        "passage": "",
+        "question": "왜 윗글을 썼는지 맞는 것을 고르십시오. (2점)",
+        "options": [
+          "자전거 주차장의 요금을 바꾸려고",
+          "자전거 주차장의 위치를 확인하려고",
+          "자전거 주차장에서 일할 직원을 찾으려고",
+          "자전거 주차장이 생기는 것을 안내하려고"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 자전거 주차장이 생기는 것을 안내하려고"
+      },
+      {
+        "id": "reading-102-topik-i-q034",
+        "instruction": "※ [33~34] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 34,
+        "points": 3,
+        "questionType": "text",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T1102R33.png",
+        "passage": "",
+        "question": "윗글의 내용과 같은 것을 고르십시오. (3점)",
+        "options": [
+          "새 주차장은 관리실 근처에 있습니다.",
+          "이 아파트에는 자전거 주차장이 없었습니다.",
+          "새 주차장은 십이월부터 이용할 수 있습니다.",
+          "아파트 입구에 있는 자전거는 옮기지 않아도 됩니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 새 주차장은 관리실 근처에 있습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q035",
+        "instruction": "※ [35~36] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 35,
+        "points": 2,
+        "questionType": "text",
+        "passage": "토끼는 혼자서 생활하는 동물입니다. 보통 산에 사는데 무서운 동물을 만날 때가 많습니다. 그럴 때 토끼가 ( ㉠ ) 방법에는 여러 가지가 있습니다. 토끼는 튼튼한 다리로 빠르고 멀리 뛸 수 있습니다. 또 먼 곳에 있는 동물도 냄새로 알 수 있습니다. 귀를 움직여서 소리가 나는 위치도 정확하게 찾습니다. 그래서 무서운 동물이 오는 것을 미리 알 수 있습니다.",
+        "question": "㉠에 들어갈 말로 가장 알맞은 것을 고르십시오. (2점)",
+        "options": [
+          "잠을 자는",
+          "자기를 지키는",
+          "음식을 구하는",
+          "상처를 치료하는"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 자기를 지키는"
+      },
+      {
+        "id": "reading-102-topik-i-q036",
+        "instruction": "※ [35~36] 다음을 읽고 물음에 답하십시오.",
+        "questionNumber": 36,
+        "points": 3,
+        "questionType": "text",
+        "passage": "토끼는 혼자서 생활하는 동물입니다. 보통 산에 사는데 무서운 동물을 만날 때가 많습니다. 그럴 때 토끼가 ( ㉠ ) 방법에는 여러 가지가 있습니다. 토끼는 튼튼한 다리로 빠르고 멀리 뛸 수 있습니다. 또 먼 곳에 있는 동물도 냄새로 알 수 있습니다. 귀를 움직여서 소리가 나는 위치도 정확하게 찾습니다. 그래서 무서운 동물이 오는 것을 미리 알 수 있습니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오. (3점)",
+        "options": [
+          "산에 사는 토끼는 모여서 생활합니다.",
+          "토끼는 냄새가 나는 것을 잘 못 느낍니다.",
+          "토끼는 소리가 나는 위치를 정확하게 압니다.",
+          "산에 사는 토끼는 빠른 속도로 뛸 수 없습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 토끼는 소리가 나는 위치를 정확하게 압니다."
+      },
+      {
+        "id": "reading-102-topik-i-q037",
+        "instruction": "※ [37~38] 다음을 읽고 물음에 답하십시오. (각 3점)",
+        "questionNumber": 37,
+        "points": 3,
+        "questionType": "text",
+        "passage": "인주도서관에는 '독서 로봇'이 있습니다. 아이들에게 책을 읽어 주는 로봇 입니다. 아이들이 책을 펴서 한 장씩 보여 주면 로봇이 읽어 줍니다. 모양도 귀엽고 재미있는 목소리로 책을 읽어 줘서 한글을 모르는 아이들이 좋아 합니다. 도서관을 방문한 아이는 누구나 이용할 수 있고, 인터넷으로 미리 신청 하면 집에 빌려 갈 수도 있습니다. 이 로봇 덕분에 인주도서관에 ( ) 있습니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "한글 책이 줄고",
+          "새 직원이 들어오고",
+          "아이들 손님이 늘고",
+          "높은 책장이 없어지고"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 아이들 손님이 늘고"
+      },
+      {
+        "id": "reading-102-topik-i-q038",
+        "instruction": "※ [37~38] 다음을 읽고 물음에 답하십시오. (각 3점)",
+        "questionNumber": 38,
+        "points": 3,
+        "questionType": "text",
+        "passage": "인주도서관에는 '독서 로봇'이 있습니다. 아이들에게 책을 읽어 주는 로봇 입니다. 아이들이 책을 펴서 한 장씩 보여 주면 로봇이 읽어 줍니다. 모양도 귀엽고 재미있는 목소리로 책을 읽어 줘서 한글을 모르는 아이들이 좋아 합니다. 도서관을 방문한 아이는 누구나 이용할 수 있고, 인터넷으로 미리 신청 하면 집에 빌려 갈 수도 있습니다. 이 로봇 덕분에 인주도서관에 ( ) 있습니다.",
+        "question": "윗글의 내용과 같은 것을 고르십시오.",
+        "options": [
+          "이 로봇은 아이들에게 책을 골라 줍니다.",
+          "이 로봇은 한글을 몰라도 이용할 수 있습니다.",
+          "이 로봇은 모양 때문에 아이들에게 인기가 없습니다.",
+          "이 로봇을 빌리려면 도서관에 가서 신청해야 합니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 이 로봇은 한글을 몰라도 이용할 수 있습니다."
+      },
+      {
+        "id": "reading-102-topik-i-q039",
+        "instruction": "※ [39~40] 다음을 읽고 물음에 답하십시오. (각 3점)",
+        "questionNumber": 39,
+        "points": 3,
+        "questionType": "text",
+        "passage": "10년 넘게 키운 강아지가 하늘나라로 떠나서 이제 만날 수 없습니다. 저는 강아지와 함께한 시간을 기억하고 싶어서 휴대폰 게임을 만들었 습니다. 주인공과 강아지가 함께 ( ) 게임입니다. 저는 주인공이 되어 강아지와 높은 산도 오르고 파도가 심한 바다도 건닙니다. 나쁜 사람을 만나면 함께 싸우기도 합니다. 여행을 마치고 집으로 돌아오면 게임이 끝납니다. 저는 강아지가 보고 싶을 때마다 이 게임을 합니다.",
+        "question": "( )에 들어갈 말로 가장 알맞은 것을 고르십시오.",
+        "options": [
+          "집을 짓는",
+          "여행을 떠나는",
+          "가족을 만나는",
+          "사람들을 돕는"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 여행을 떠나는"
+      },
+      {
+        "id": "reading-102-topik-i-q040",
+        "instruction": "※ [39~40] 다음을 읽고 물음에 답하십시오. (각 3점)",
+        "questionNumber": 40,
+        "points": 3,
+        "questionType": "text",
+        "passage": "10년 넘게 키운 강아지가 하늘나라로 떠나서 이제 만날 수 없습니다. 저는 강아지와 함께한 시간을 기억하고 싶어서 휴대폰 게임을 만들었 습니다. 주인공과 강아지가 함께 ( ) 게임입니다. 저는 주인공이 되어 강아지와 높은 산도 오르고 파도가 심한 바다도 건닙니다. 나쁜 사람을 만나면 함께 싸우기도 합니다. 여행을 마치고 집으로 돌아오면 게임이 끝납니다. 저는 강아지가 보고 싶을 때마다 이 게임을 합니다.",
+        "question": "윗글의 내용으로 알 수 있는 것을 고르십시오.",
+        "options": [
+          "저는 강아지를 그리워하고 있습니다.",
+          "저는 강아지를 키우는 게임을 샀습니다.",
+          "저는 오랫동안 이 게임을 하지 못했습니다.",
+          "저는 강아지와 매일 놀아 주는 것이 힘들었습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 저는 강아지를 그리워하고 있습니다."
+      }
+    ]
   }
 ];
