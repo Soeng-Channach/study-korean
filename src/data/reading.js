@@ -163,6 +163,7 @@ export const readings = [
       },
       {
         "id": "reading-083-topik-i-q040",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T183R10.png",
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
         "questionNumber": 40,
         "points": 3,
@@ -180,6 +181,7 @@ export const readings = [
       },
       {
         "id": "reading-083-topik-i-q041",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T183R11.png",
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
         "questionNumber": 41,
         "points": 3,
@@ -197,6 +199,7 @@ export const readings = [
       },
       {
         "id": "reading-083-topik-i-q042",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T183R12.png",
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
         "questionNumber": 42,
         "points": 3,
@@ -554,6 +557,7 @@ export const readings = [
       },
       {
         "id": "reading-083-topik-i-q063",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T183R33.png",
         "instruction": "※ [63~64] 다음을 읽고 물음에 답하십시오.",
         "questionNumber": 63,
         "points": 2,
@@ -571,6 +575,7 @@ export const readings = [
       },
       {
         "id": "reading-083-topik-i-q064",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T183R33.png",
         "instruction": "※ [63~64] 다음을 읽고 물음에 답하십시오.",
         "questionNumber": 64,
         "points": 3,
@@ -854,6 +859,7 @@ export const readings = [
       },
       {
         "id": "reading-096-topik-i-q040",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T196R10.png",
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
         "questionNumber": 40,
         "points": 3,
@@ -871,6 +877,7 @@ export const readings = [
       },
       {
         "id": "reading-096-topik-i-q041",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T196R11.png",
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
         "questionNumber": 41,
         "points": 3,
@@ -888,6 +895,7 @@ export const readings = [
       },
       {
         "id": "reading-096-topik-i-q042",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T196R12.png",
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
         "questionNumber": 42,
         "points": 3,
@@ -1245,6 +1253,7 @@ export const readings = [
       },
       {
         "id": "reading-096-topik-i-q063",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T196R33.png",
         "instruction": "※ [63~64] 다음을 읽고 물음에 답하십시오.",
         "questionNumber": 63,
         "points": 2,
@@ -1262,6 +1271,7 @@ export const readings = [
       },
       {
         "id": "reading-096-topik-i-q064",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T196R33.png",
         "instruction": "※ [63~64] 다음을 읽고 물음에 답하십시오.",
         "questionNumber": 64,
         "points": 3,
@@ -3254,6 +3264,7 @@ export const readings = [
         },
         {
           "id": "reading-091-topik-i-q040",
+          "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R10.png",
           "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
           "questionNumber": 40,
           "points": 3,
@@ -3271,6 +3282,7 @@ export const readings = [
         },
         {
           "id": "reading-091-topik-i-q041",
+          "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R11.png",
           "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
           "questionNumber": 41,
           "points": 3,
@@ -3288,6 +3300,7 @@ export const readings = [
         },
         {
           "id": "reading-091-topik-i-q042",
+          "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R12.png",
           "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
           "questionNumber": 42,
           "points": 3,
@@ -3645,6 +3658,7 @@ export const readings = [
         },
         {
           "id": "reading-091-topik-i-q063",
+          "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R33.png",
           "instruction": "※ [63~64] 다음을 읽고 물음에 답하십시오.",
           "questionNumber": 63,
           "points": 2,
@@ -3662,6 +3676,7 @@ export const readings = [
         },
         {
           "id": "reading-091-topik-i-q064",
+          "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T191R33.png",
           "instruction": "※ [63~64] 다음을 읽고 물음에 답하십시오.",
           "questionNumber": 64,
           "points": 3,

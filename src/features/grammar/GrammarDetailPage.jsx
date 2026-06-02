@@ -213,7 +213,7 @@ export default function GrammarDetailPage() {
         </div>
       </Card>
 
-      <div className="fixed inset-x-0 bottom-[calc(3.5rem+max(env(safe-area-inset-bottom),0.5rem))] z-30 border-t border-slate-200 bg-white px-4 py-3 shadow-[0_-12px_28px_rgba(15,23,42,0.10)] dark:border-slate-800 dark:bg-slate-900 lg:static lg:mx-0 lg:border-0 lg:bg-transparent lg:p-0 lg:shadow-none lg:dark:bg-transparent">
+      <div className="fixed inset-x-0 bottom-[calc(3.5rem+max(env(safe-area-inset-bottom),0.5rem))] z-30 border-t border-slate-200 bg-white px-4 py-3 shadow-[0_-12px_28px_rgba(15,23,42,0.10)] dark:border-slate-800 dark:bg-slate-900 lg:sticky lg:-bottom-10 lg:mx-0 lg:rounded-lg lg:border lg:bg-white lg:p-4 lg:shadow-soft lg:dark:bg-slate-900">
         <div className="mx-auto max-w-3xl">
           <Button
             className="w-full"
