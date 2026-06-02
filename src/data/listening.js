@@ -10570,5 +10570,2760 @@ export const listeningTests = [
         "transcript": "남자: 김수미 선수, 축하합니다. 열일곱 살의 나이에 전국 탁구 대회에서 일등을 하셨는데요. 기분이 어떠세요?\n여자: 한국 최고의 대회에서 일등을 해서 기뻐요. 그동안 정말 열심히 했는데 올해 다른 대회에서는 계속 결과가 안 좋아서 힘들었거든요.\n남자: 그랬겠네요. 그런데 언제부터 탁구 선수가 되고 싶으셨어요?\n여자: 초등학생 때 아버지가 탁구를 가르쳐 주셨어요. 취미로만 치다가 대회장에서 탁구 경기를 보고, 그게 너무 멋있어서 선수가 되기로 했죠.\n남자: 그렇군요. 앞으로 어떤 계획이 있으신가요?\n여자: 먼저 친구들하고 좀 놀고 싶어요. 그리고 바로 내년 봄에 있는 세계 대회를 준비하려고 합니다."
       }
     ]
+  },
+  {
+    "id": "listening-096-topik-i",
+    "title": "96th TOPIK I Listening Test",
+    "level": "TOPIK I",
+    "topic": "Official Listening Paper",
+    "source": "https://www.topikguide.com/mock-tests/96-TOPIK-I-Listening-Mock-Test.html",
+    "audioSrc": "https://files.topikguide.com/listening/96-TOPIK-I-Listening-Audio-File.mp3",
+    "durationMinutes": 42,
+    "questions": [
+      {
+        "id": "listening-096-topik-i-q001",
+        "questionNumber": 1,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 모자가 없어요.",
+          "아니요, 모자예요.",
+          "네, 모자가 많아요.",
+          "아니요, 모자가 싸요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 네, 모자가 많아요.",
+        "transcript": "남자: 모자가 많아요?\n여자: 네, 모자가 많아요."
+      },
+      {
+        "id": "listening-096-topik-i-q002",
+        "questionNumber": 2,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 커피가 싫어요.",
+          "아니요, 커피를 마셔요.",
+          "네, 커피가 아니에요.",
+          "아니요, 커피를 안 좋아해요."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 아니요, 커피를 안 좋아해요.",
+        "transcript": "여자: 커피를 좋아해요?\n남자: 아니요, 커피를 안 좋아해요."
+      },
+      {
+        "id": "listening-096-topik-i-q003",
+        "questionNumber": 3,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "혼자 가요.",
+          "동생이 가요.",
+          "걸어서 가요.",
+          "한 시에 가요."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 한 시에 가요.",
+        "transcript": "남자: 몇 시에 공항에 가요?\n여자: 한 시에 가요."
+      },
+      {
+        "id": "listening-096-topik-i-q004",
+        "questionNumber": 4,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "어제 공부했어요.",
+          "오후에 공부했어요.",
+          "친구하고 공부했어요.",
+          "한국어를 공부했어요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 친구하고 공부했어요.",
+        "transcript": "여자: 누구하고 공부했어요?\n남자: 친구하고 공부했어요."
+      },
+      {
+        "id": "listening-096-topik-i-q005",
+        "questionNumber": 5,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 들어오세요.",
+          "네, 오랜만이에요.",
+          "네, 안녕히 계세요.",
+          "네, 여기 앉으세요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 네, 안녕히 계세요.",
+        "transcript": "남자: 안녕히 가세요.\n여자: 네, 안녕히 계세요."
+      },
+      {
+        "id": "listening-096-topik-i-q006",
+        "questionNumber": 6,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "알겠습니다.",
+          "좋겠습니다.",
+          "반갑습니다.",
+          "환영합니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 알겠습니다.",
+        "transcript": "여자: 잠깐만 기다리세요.\n남자: 알겠습니다."
+      },
+      {
+        "id": "listening-096-topik-i-q007",
+        "questionNumber": 7,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "학교",
+          "꽃집",
+          "미용실",
+          "사진관"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 꽃집",
+        "transcript": "남자: 이 장미는 얼마예요?\n여자: 한 송이에 이천 원입니다, 손님."
+      },
+      {
+        "id": "listening-096-topik-i-q008",
+        "questionNumber": 8,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "식당",
+          "은행",
+          "공원",
+          "서점"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 공원",
+        "transcript": "여자: 민수 씨는 여기에서 자주 산책해요?\n남자: 네. 나무가 많아서 자주 와요."
+      },
+      {
+        "id": "listening-096-topik-i-q009",
+        "questionNumber": 9,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "빵집",
+          "약국",
+          "도서관",
+          "우체국"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 약국",
+        "transcript": "남자: 손님, 어디가 아파서 오셨어요?\n여자: 머리가 좀 아파서요."
+      },
+      {
+        "id": "listening-096-topik-i-q010",
+        "questionNumber": 10,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "병원",
+          "극장",
+          "운동장",
+          "가구점"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 가구점",
+        "transcript": "여자: 저, 책상을 사러 왔는데요.\n남자: 네, 책상은 이쪽에 있습니다."
+      },
+      {
+        "id": "listening-096-topik-i-q011",
+        "questionNumber": 11,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "시간",
+          "나이",
+          "이름",
+          "요일"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 이름",
+        "transcript": "남자: 안녕하세요? 저는 김민수입니다.\n여자: 저는 이지영입니다."
+      },
+      {
+        "id": "listening-096-topik-i-q012",
+        "questionNumber": 12,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "장소",
+          "취미",
+          "운동",
+          "날씨"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 장소",
+        "transcript": "여자: 우리, 어디에서 만날까요?\n남자: 학교 앞 카페는 어때요?"
+      },
+      {
+        "id": "listening-096-topik-i-q013",
+        "questionNumber": 13,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "교통",
+          "휴일",
+          "위치",
+          "고향"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 휴일",
+        "transcript": "남자: 수미 씨, 내일 쉬어요?\n여자: 네. 토요일이라서 회사에 안 가요."
+      },
+      {
+        "id": "listening-096-topik-i-q014",
+        "questionNumber": 14,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "계절",
+          "색깔",
+          "생일",
+          "주말"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 계절",
+        "transcript": "여자: 민수 씨는 봄이 좋아요, 가을이 좋아요?\n남자: 저는 봄이 더 좋아요."
+      },
+      {
+        "id": "listening-096-topik-i-q015",
+        "questionNumber": 15,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음을 듣고 가장 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T196L15-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T196L15-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T196L15-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T196L15-4.png"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1.",
+        "transcript": "여자: 어서 오세요, 손님. 뭘 도와드릴까요?\n남자: 남자 옷은 몇 층에 있어요?"
+      },
+      {
+        "id": "listening-096-topik-i-q016",
+        "questionNumber": 16,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음을 듣고 가장 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T196L16-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T196L16-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T196L16-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T196L16-4.png"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2.",
+        "transcript": "남자: 수미 씨, 이 사진 여기에 걸까요?\n여자: 음, 조금 더 위에 걸어 주세요."
+      },
+      {
+        "id": "listening-096-topik-i-q017",
+        "questionNumber": 17,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 지금 고향에 있습니다.",
+          "여자는 내일 시험이 없습니다.",
+          "남자는 오늘 부모님을 만날 겁니다.",
+          "여자는 주말에 집에서 쉬려고 합니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 여자는 주말에 집에서 쉬려고 합니다.",
+        "transcript": "여자: 내일 시험 끝나고 주말에 뭐 할 거예요?\n남자: 부모님을 만나러 고향에 가려고 해요. 수미 씨는요?\n여자: 전 그냥 집에서 책도 보고 푹 쉬려고요."
+      },
+      {
+        "id": "listening-096-topik-i-q018",
+        "questionNumber": 18,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "여자는 어제 결혼식에 다녀왔습니다.",
+          "남자는 결혼식에서 여자를 만났습니다.",
+          "여자는 결혼식에서 사진을 못 찍었습니다.",
+          "남자는 일이 끝난 후에 결혼식에 갔습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 여자는 어제 결혼식에 다녀왔습니다.",
+        "transcript": "남자: 어제 수미 씨 결혼식에 다녀왔어요?\n여자: 네. 결혼식에서 수미 씨가 한복을 입었는데 정말 예뻤어요.\n남자: 저도 가고 싶었는데 일이 많아서 못 갔어요.\n여자: 제가 결혼식에서 사진을 많이 찍었는데 보여 줄까요?"
+      },
+      {
+        "id": "listening-096-topik-i-q019",
+        "questionNumber": 19,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 오늘 늦게 출근했습니다.",
+          "여자는 요즘 운동을 자주 합니다.",
+          "남자는 아침에 자전거를 타고 왔습니다.",
+          "여자는 남자와 함께 자전거로 출근합니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 남자는 아침에 자전거를 타고 왔습니다.",
+        "transcript": "여자: 민수 씨, 일찍 왔네요. 오늘도 자전거로 출근했어요?\n남자: 네. 따로 운동할 시간이 없어서 자전거를 타고 왔어요.\n여자: 그렇게 하면 운동이 많이 돼요? 저도 요즘 운동을 자주 못해서요.\n남자: 네. 생각보다 운동도 많이 되고 아침마다 기분도 좋아요."
+      },
+      {
+        "id": "listening-096-topik-i-q020",
+        "questionNumber": 20,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 그림에 별로 관심이 없습니다.",
+          "남자는 여자의 그림을 본 적이 없습니다.",
+          "여자는 남자에게 그림을 직접 가르쳤습니다.",
+          "여자는 인터넷으로 그림 그리는 것을 배웁니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 여자는 인터넷으로 그림 그리는 것을 배웁니다.",
+        "transcript": "남자: 와, 이 그림 멋있네요. 수미 씨가 직접 그린 거예요?\n여자: 네. 요즘 그림 그리는 걸 인터넷으로 배우고 있어요.\n남자: 그래요? 저도 그림에 관심이 많은데, 어떤 영상을 봐야 돼요?\n여자: 인터넷에 쉽게 가르쳐 주는 영상이 많아요. 제가 알려 줄게요."
+      },
+      {
+        "id": "listening-096-topik-i-q021",
+        "questionNumber": 21,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "여자는 비빔밥을 하나 주문했습니다.",
+          "남자는 여자에게 음식을 주었습니다.",
+          "남자는 여자와 함께 식당에 왔습니다.",
+          "여자는 식당에서 음식을 먹을 겁니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 여자는 비빔밥을 하나 주문했습니다.",
+        "transcript": "여자: 저, 지금 음식을 주문할 수 있어요?\n남자: 네, 손님. 그런데 저희가 삼십 분 뒤에 식당 문을 닫습니다.\n여자: 그럼 그냥 음식을 가져가서 먹을게요. 비빔밥 하나 포장해 주세요.\n남자: 네. 금방 포장해 드릴게요. 잠깐만 기다려 주세요."
+      },
+      {
+        "id": "listening-096-topik-i-q022",
+        "questionNumber": 22,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "이사를 하는 것이 힘들었습니다.",
+          "새로 이사한 곳이 마음에 듭니다.",
+          "교통이 편한 곳에서 살고 싶습니다.",
+          "집과 학교는 가까운 것이 좋습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 새로 이사한 곳이 마음에 듭니다.",
+        "transcript": "남자: 수미 씨, 새로 이사한 집은 어때요?\n여자: 동네가 조용하고 공기도 깨끗해서 좋아요.\n남자: 잘됐네요. 그런데 학교에서 좀 멀지 않아요?\n여자: 네. 그렇지만 집 앞에 학교까지 가는 버스가 있어서 괜찮아요."
+      },
+      {
+        "id": "listening-096-topik-i-q023",
+        "questionNumber": 23,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "노트북은 디자인이 중요합니다.",
+          "가벼운 노트북을 사고 싶습니다.",
+          "인기가 많은 노트북을 사야 합니다.",
+          "노트북 종류가 다양하면 좋겠습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 가벼운 노트북을 사고 싶습니다.",
+        "transcript": "남자: 손님, 이 노트북은 어떠세요? 요즘 인기가 많습니다.\n여자: 디자인은 좋은데 좀 무겁네요. 전 가벼운 걸 찾고 있어서요.\n남자: 그럼 이걸로 한번 보시겠어요? 좀 더 가벼운 노트북입니다.\n여자: 아, 이게 좋겠네요. 이걸로 주세요."
+      },
+      {
+        "id": "listening-096-topik-i-q024",
+        "questionNumber": 24,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "여행을 자주 가고 싶습니다.",
+          "휴가 기간에 여행을 가야 합니다.",
+          "여행을 길게 가는 것이 좋습니다.",
+          "가까운 곳으로 여행을 가면 좋겠습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 가까운 곳으로 여행을 가면 좋겠습니다.",
+        "transcript": "여자: 우리, 이번 여행은 가까운 곳으로 갈까요?\n남자: 왜요? 휴가 기간도 긴데 멀리 가는 게 좋지 않을까요?\n여자: 먼 곳으로 가면 차도 오래 타야 하고 좀 피곤할 것 같아서요.\n남자: 알겠어요. 그럼 이번엔 근처에 있는 곳으로 여행을 가요."
+      },
+      {
+        "id": "listening-096-topik-i-q025",
+        "questionNumber": 25,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "여자가 왜 이 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "행사의 신청 방법을 알리기 위해",
+          "행사에 온 사람들을 소개하기 위해",
+          "행사가 열리는 장소를 안내하기 위해",
+          "행사가 끝나는 시간을 알려 주기 위해"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 행사가 열리는 장소를 안내하기 위해",
+        "transcript": "여자: (딩동댕) 한강 축제에 오신 여러분께 안내 말씀드립니다. 오늘 노래 대회는 하늘정원에서 열립니다. 하늘정원은 정문 주차장에서 오른쪽으로 오시면 됩니다. 노래 대회가 끝나면 같은 장소에서 무료 축하 공연도 열릴 예정입니다. 관심 있는 분들은 지금 하늘정원으로 와 주십시오. 감사합니다. (댕동딩)"
+      },
+      {
+        "id": "listening-096-topik-i-q026",
+        "questionNumber": 26,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "공연을 보려면 돈을 내야 합니다.",
+          "노래 대회는 조금 전에 끝났습니다.",
+          "하늘정원은 주차장 왼쪽에 있습니다.",
+          "노래 대회가 끝나고 축하 공연을 합니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 노래 대회가 끝나고 축하 공연을 합니다.",
+        "transcript": "여자: (딩동댕) 한강 축제에 오신 여러분께 안내 말씀드립니다. 오늘 노래 대회는 하늘정원에서 열립니다. 하늘정원은 정문 주차장에서 오른쪽으로 오시면 됩니다. 노래 대회가 끝나면 같은 장소에서 무료 축하 공연도 열릴 예정입니다. 관심 있는 분들은 지금 하늘정원으로 와 주십시오. 감사합니다. (댕동딩)"
+      },
+      {
+        "id": "listening-096-topik-i-q027",
+        "questionNumber": 27,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "대학생들을 위한 요리 교실",
+          "대학생들이 자주 가는 식당",
+          "대학생들이 요즘 좋아하는 음식",
+          "대학생들에게 인기 있는 요리 방법"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 대학생들을 위한 요리 교실",
+        "transcript": "남자: 어제 학생 식당에서 열리는 요리 교실에 갔는데 재미있었어요.\n여자: 우리 학교에 요리 수업이 있었어요? 전 몰랐어요.\n남자: 네. 저처럼 외식을 자주 하거나 요리를 못하는 대학생들을 위한 수업이에요. 간단하고 빠르게 만들 수 있는 요리를 가르쳐 줘요.\n여자: 그거 좋네요. 저도 요리를 잘 못하는데 한번 가 봐야겠어요.\n남자: 다음 주에도 요리 교실이 열리는데, 같이 갈래요?\n여자: 좋아요. 우리 같이 신청해요."
+      },
+      {
+        "id": "listening-096-topik-i-q028",
+        "questionNumber": 28,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "여자는 요리를 아주 잘합니다.",
+          "남자는 어제 학생 식당에 갔습니다.",
+          "남자는 평소에 외식을 잘 안 합니다.",
+          "여자는 혼자 요리를 배우러 갈 겁니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 남자는 어제 학생 식당에 갔습니다.",
+        "transcript": "남자: 어제 학생 식당에서 열리는 요리 교실에 갔는데 재미있었어요.\n여자: 우리 학교에 요리 수업이 있었어요? 전 몰랐어요.\n남자: 네. 저처럼 외식을 자주 하거나 요리를 못하는 대학생들을 위한 수업이에요. 간단하고 빠르게 만들 수 있는 요리를 가르쳐 줘요.\n여자: 그거 좋네요. 저도 요리를 잘 못하는데 한번 가 봐야겠어요.\n남자: 다음 주에도 요리 교실이 열리는데, 같이 갈래요?\n여자: 좋아요. 우리 같이 신청해요."
+      },
+      {
+        "id": "listening-096-topik-i-q029",
+        "questionNumber": 29,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "남자가 이 방송을 만든 이유를 고르십시오.",
+        "context": "",
+        "options": [
+          "많은 사람들을 만나 보고 싶어서",
+          "방송 일의 즐거움을 알리고 싶어서",
+          "다양한 시장의 모습을 소개하고 싶어서",
+          "유명한 사람들의 생활을 보여 주고 싶어서"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 다양한 시장의 모습을 소개하고 싶어서",
+        "transcript": "여자: 감독님께서는 전국의 시장을 소개하는 방송으로 유명하신데요. 처음에 어떻게 이 방송을 만들게 되셨어요?\n남자: 제가 방송 일을 하면서 전국의 많은 곳을 다녔어요. 그때 재미있고 특별한 시장들을 알게 되었어요. 이런 다양한 시장을 방송으로 보여 드리고 싶어서 시작하게 되었습니다.\n여자: 그렇군요. 이번에 시장에 대한 내용으로 책도 쓰셨지요?\n남자: 네. 지난 10년 동안 이 방송을 하면서 시장 분들의 재미있는 이야기를 많이 들었는데요. 그 이야기들을 모아서 책으로 썼습니다.\n여자: 내년에는 더욱 특별한 내용을 계획하고 계시다고요?\n남자: 네. 외국에 있는 시장도 소개해 드리려고 준비하고 있습니다."
+      },
+      {
+        "id": "listening-096-topik-i-q030",
+        "questionNumber": 30,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "남자는 책을 쓴 적이 없습니다.",
+          "이 방송은 올해 처음 시작했습니다.",
+          "이 방송은 아직 유명하지 않습니다.",
+          "남자는 앞으로 계속 방송을 만들 겁니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 남자는 앞으로 계속 방송을 만들 겁니다.",
+        "transcript": "여자: 감독님께서는 전국의 시장을 소개하는 방송으로 유명하신데요. 처음에 어떻게 이 방송을 만들게 되셨어요?\n남자: 제가 방송 일을 하면서 전국의 많은 곳을 다녔어요. 그때 재미있고 특별한 시장들을 알게 되었어요. 이런 다양한 시장을 방송으로 보여 드리고 싶어서 시작하게 되었습니다.\n여자: 그렇군요. 이번에 시장에 대한 내용으로 책도 쓰셨지요?\n남자: 네. 지난 10년 동안 이 방송을 하면서 시장 분들의 재미있는 이야기를 많이 들었는데요. 그 이야기들을 모아서 책으로 썼습니다.\n여자: 내년에는 더욱 특별한 내용을 계획하고 계시다고요?\n남자: 네. 외국에 있는 시장도 소개해 드리려고 준비하고 있습니다."
+      }
+    ]
+  },
+  {
+    "id": "listening-091-topik-i",
+    "title": "91st TOPIK I Listening Test",
+    "level": "TOPIK I",
+    "topic": "Official Listening Paper",
+    "source": "https://www.topikguide.com/mock-tests/91-TOPIK-I-Listening-Mock-Test.html",
+    "audioSrc": "https://files.topikguide.com/listening/91-TOPIK-I-Listening-Audio-File.mp3",
+    "durationMinutes": 42,
+    "questions": [
+      {
+        "id": "listening-091-topik-i-q001",
+        "questionNumber": 1,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 학생이에요.",
+          "네, 학생이 없어요.",
+          "아니요, 학생이 와요.",
+          "아니요, 학생이 좋아요."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 네, 학생이에요.",
+        "transcript": "남자: 학생이에요?\n여자: 네, 학생이에요."
+      },
+      {
+        "id": "listening-091-topik-i-q002",
+        "questionNumber": 2,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 과자가 비싸요.",
+          "네, 과자가 아니에요.",
+          "아니요, 과자를 먹어요.",
+          "아니요, 과자를 안 좋아해요."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 아니요, 과자를 안 좋아해요.",
+        "transcript": "여자 : 과자를 좋아해요?\n남자: 아니요, 과자를 안 좋아해요."
+      },
+      {
+        "id": "listening-091-topik-i-q003",
+        "questionNumber": 3,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "매일 마셔요.",
+          "제가 마셔요.",
+          "우유를 마셔요.",
+          "집에서 마셔요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 우유를 마셔요.",
+        "transcript": "남자: 지금 무엇을 마셔요?\n여자 : 우유를 마셔요."
+      },
+      {
+        "id": "listening-091-topik-i-q004",
+        "questionNumber": 4,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "내일 가요.",
+          "공원에 가요.",
+          "동생이 가요.",
+          "지하철로 가요."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 지하철로 가요.",
+        "transcript": "여자: 학교에 어떻게 가요?\n남자: 지하철로 가요."
+      },
+      {
+        "id": "listening-091-topik-i-q005",
+        "questionNumber": 5,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "고맙습니다.",
+          "반갑습니다.",
+          "실례합니다.",
+          "환영합니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 고맙습니다.",
+        "transcript": "남자: 많이 드세요.\n여자: 고맙습니다."
+      },
+      {
+        "id": "listening-091-topik-i-q006",
+        "questionNumber": 6,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 어서 오세요.",
+          "네, 잘 다녀오세요.",
+          "네, 안녕히 주무세요.",
+          "네, 잠깐만 기다리세요."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 네, 잠깐만 기다리세요.",
+        "transcript": "여자 : 여보세요. 수미 씨 좀 바꿔 주세요.\n남자: 네, 잠깐만 기다리세요."
+      },
+      {
+        "id": "listening-091-topik-i-q007",
+        "questionNumber": 7,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "극장",
+          "병원",
+          "은행",
+          "식당"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 극장",
+        "transcript": "남자: 한 시 영화표 두 장 주세요.\n여자: 네, 여기 있습니다."
+      },
+      {
+        "id": "listening-091-topik-i-q008",
+        "questionNumber": 8,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "미용실",
+          "정류장",
+          "우체국",
+          "사진관"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 정류장",
+        "transcript": "여자: 민수 씨, 삼번 버스 타요?\n남자 : 네. 저기 오네요. 저 먼저 갈게요."
+      },
+      {
+        "id": "listening-091-topik-i-q009",
+        "questionNumber": 9,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "꽃집",
+          "서점",
+          "약국",
+          "빵집"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 서점",
+        "transcript": "남자: 요리책은 어디 있어요?\n여자 : 이 층으로 가세요, 손님."
+      },
+      {
+        "id": "listening-091-topik-i-q010",
+        "questionNumber": 10,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "가구점",
+          "여행사",
+          "신발 가게",
+          "안경 가게"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 신발 가게",
+        "transcript": "여자 : 이 운동화 신어 봐도 돼요?\n남자 : 네. 이쪽에 앉아서 신어 보세요."
+      },
+      {
+        "id": "listening-091-topik-i-q011",
+        "questionNumber": 11,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "값",
+          "맛",
+          "주말",
+          "시간"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 맛",
+        "transcript": "남자: 수미 씨, 떡볶이가 어때요?\n여자: 조금 매워요."
+      },
+      {
+        "id": "listening-091-topik-i-q012",
+        "questionNumber": 12,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "운동",
+          "요일",
+          "나라",
+          "장소"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 장소",
+        "transcript": "여자: 우리 내일 카페에서 만날까요?\n남자: 좋아요. 인주카페에서 만나요."
+      },
+      {
+        "id": "listening-091-topik-i-q013",
+        "questionNumber": 13,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "계획",
+          "날씨",
+          "약속",
+          "위치"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 날씨",
+        "transcript": "남자: 오늘 좀 춥네요.\n여자 : 네. 춥고 바람도 많이 불어요."
+      },
+      {
+        "id": "listening-091-topik-i-q014",
+        "questionNumber": 14,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "고향",
+          "여행",
+          "취미",
+          "휴일"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 고향",
+        "transcript": "여자: 민수 씨는 부산에서 태어났어요?\n남자 : 네. 부산에서 고등학생 때까지 살았어요."
+      },
+      {
+        "id": "listening-091-topik-i-q015",
+        "questionNumber": 15,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음을 듣고 가장 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T191L15-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T191L15-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T191L15-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T191L15-4.png"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1.",
+        "transcript": "남자: 이것보다 작은 가방 있어요?\n여자: 네, 가게 안에 있어요. 들어와서 보세요."
+      },
+      {
+        "id": "listening-091-topik-i-q016",
+        "questionNumber": 16,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음을 듣고 가장 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T191L16-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T191L16-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T191L16-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T191L16-4.png"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2.",
+        "transcript": "여자 : 책상 위에 물이 있네요.\n남자: 그럼 이걸로 닦으세요."
+      },
+      {
+        "id": "listening-091-topik-i-q017",
+        "questionNumber": 17,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 방학에 공부를 했습니다.",
+          "여자는 여행을 가지 못했습니다.",
+          "여자는 방학에 남자를 자주 만났습니다.",
+          "남자는 아르바이트를 한 적이 없습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 남자는 방학에 공부를 했습니다.",
+        "transcript": "여자: 민수 씨, 오랜만이에요. 방학 잘 보냈어요?\n남자 : 네. 외국어 공부도 하고 아르바이트도 했어요. 수미 씨는요?\n여자 : 저는 이번에 여행을 많이 했어요."
+      },
+      {
+        "id": "listening-091-topik-i-q018",
+        "questionNumber": 18,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 김준 씨를 모릅니다.",
+          "여자는 김준 씨를 좋아합니다.",
+          "여자는 어제 김준 씨를 만났습니다.",
+          "남자는 김준 씨와 사진을 찍지 못했습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 여자는 김준 씨를 좋아합니다.",
+        "transcript": "남자: 어제 제가 일하는 곳에 가수 김준 씨가 왔어요.\n여자: 정말요? 제가 좋아하는 가수예요.\n남자: 같이 사진도 찍었는데 볼래요?\n여자 : 네. (잠시 후)와, 멋있네요. 저도 한번 만나 보고 싶어요."
+      },
+      {
+        "id": "listening-091-topik-i-q019",
+        "questionNumber": 19,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 오늘 수업이 없습니다.",
+          "남자는 여자와 축구를 볼 겁니다.",
+          "여자는 오후에 남자의 집에 가려고 합니다.",
+          "여자는 축구를 보기 전에 저녁을 먹을 겁니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 남자는 여자와 축구를 볼 겁니다.",
+        "transcript": "여자: 오후에 친구들하고 축구를 보기로 했는데 민수 씨도 올래요?\n남자: 어디에서 볼 거예요?\n여자 : 우리 집에서 볼 거예요. 축구 본 후에 저녁도 같이 먹어요.\n남자: 좋아요. 수업 끝나고 바로 갈게요."
+      },
+      {
+        "id": "listening-091-topik-i-q020",
+        "questionNumber": 20,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 주말에 바쁩니다.",
+          "여자는 오 년 동안 기타를 쳤습니다.",
+          "여자는 혼자 기타 연습을 했습니다.",
+          "남자는 여자에게 기타를 배우려고 합니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 여자는 혼자 기타 연습을 했습니다.",
+        "transcript": "여자: 민수 씨는 기타를 정말 잘 치네요. 얼마나 쳤어요?\n남자: 저는 오년 정도 기타를 쳤어요.\n여자: 전한 달 전에 치기 시작했어요. 그런데 혼자 연습하니까 어렵네요.\n남자: 그럼 제가 좀 가르쳐 줄까요? 주말에는 시간이 있으니까 연락 주세요."
+      },
+      {
+        "id": "listening-091-topik-i-q021",
+        "questionNumber": 21,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 새 휴대 전화를 받았습니다.",
+          "남자는 휴대 전화를 찾으러 왔습니다.",
+          "남자의 휴대 전화는 고칠 수 없습니다.",
+          "남자의 휴대 전화는 소리가 들리지 않습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 남자의 휴대 전화는 소리가 들리지 않습니다.",
+        "transcript": "여자: 손님, 무엇을 도와 드릴까요?\n남자: 이 휴대 전화요. 소리가 안 들려서요.\n여자: 음, 고칠 수는 있는데 한 시간 정도 걸릴 것 같습니다.\n남자: 네, 알겠습니다. 그럼 여기서 기다릴게요."
+      },
+      {
+        "id": "listening-091-topik-i-q022",
+        "questionNumber": 22,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "이번 시험을 잘 보고 싶습니다.",
+          "친구와 같이 공부하고 싶습니다.",
+          "아침 일찍 일어나는 것이 좋습니다.",
+          "피곤할 때 더 많이 자는 것이 좋습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 아침 일찍 일어나는 것이 좋습니다.",
+        "transcript": "남자: 시험 때문에 아침에 일찍 일어나니까 공부도 안 되고 힘드네요.\n여자: 그래요? 전 아침 일찍 공부하면 더 잘 되는데요.\n남자: 전 일찍 일어나면 너무 피곤해요. 수미 씨는 괜찮아요?\n여자 : 네. 저는 피곤하지 않고 기분이 더 좋아요."
+      },
+      {
+        "id": "listening-091-topik-i-q023",
+        "questionNumber": 23,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "냉면을 만들어 먹고 싶습니다.",
+          "음식을 바로 주문해야 합니다.",
+          "냉면이 빨리 나오면 좋겠습니다.",
+          "음식을 배달해서 먹는 것이 좋습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 냉면이 빨리 나오면 좋겠습니다.",
+        "transcript": "여자: 저기요. 아까 냉면을 주문했는데 언제 나와요?\n남자: 조금만 더 기다려 주세요. 오늘은 손님이 좀 많아서요.\n여자: 시간이 없어서 그런데 빨리 좀 주실 수 있어요?\n남자 : 네. 죄송합니다. 바로 확인해 보겠습니다."
+      },
+      {
+        "id": "listening-091-topik-i-q024",
+        "questionNumber": 24,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "수첩을 찾으러 가고 싶습니다.",
+          "수업 시간에 늦으면 안 됩니다.",
+          "수첩을 새로 사는 것이 좋습니다.",
+          "중요한 일은 천천히 해야 합니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 수첩을 찾으러 가고 싶습니다.",
+        "transcript": "남자: 미영 씨, 이제 수업 시작하는데 어디 가요?\n여자: 수첩이 없어서 찾으러 가요. 음악실에 두고 온 것 같아요.\n남자: 나중에 찾으러 가요. 그때 가서 없으면 새로 사고요.\n여자 : 중요한 수첩이라서요. 수업 전에 올 수 있어요."
+      },
+      {
+        "id": "listening-091-topik-i-q025",
+        "questionNumber": 25,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "여자가 왜 이 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "마트의 위치를 가르쳐 주려고",
+          "마트의 할인 상품을 소개하려고",
+          "마트를 이용할 수 있는 시간을 안내하려고",
+          "마트가 새로 문을 여는 것을 알려 주려고"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 마트를 이용할 수 있는 시간을 안내하려고",
+        "transcript": "여자 : (딩동댕) 주말에도 우리 마트를 찾아 주신 손님 여러분, 감사합니다. 신선한 채소, 맛있는 과일이 있는 인주마트입니다. 마트 이용 시간은 평일 오전 아홉 시부터 밤 아홉 시까지입니다. 주말에는 밤 열 시까지 이용할 수 있으니 편안하게 한 시간 더 쇼핑하십시오. 많은 이용 부탁드리겠습니다. 감사합니다. (댕동딩)"
+      },
+      {
+        "id": "listening-091-topik-i-q026",
+        "questionNumber": 26,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "이 마트는 오늘 이용할 수 없습니다.",
+          "이 마트에서는 채소를 팔지 않습니다.",
+          "이 마트는 매일 오전 열 시에 시작합니다.",
+          "이 마트는 주말에 평일보다 늦게 문을 닫습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 이 마트는 주말에 평일보다 늦게 문을 닫습니다.",
+        "transcript": "여자 : (딩동댕) 주말에도 우리 마트를 찾아 주신 손님 여러분, 감사합니다. 신선한 채소, 맛있는 과일이 있는 인주마트입니다. 마트 이용 시간은 평일 오전 아홉 시부터 밤 아홉 시까지입니다. 주말에는 밤 열 시까지 이용할 수 있으니 편안하게 한 시간 더 쇼핑하십시오. 많은 이용 부탁드리겠습니다. 감사합니다. (댕동딩)"
+      },
+      {
+        "id": "listening-091-topik-i-q027",
+        "questionNumber": 27,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "미술관이 있는 장소",
+          "미술관에서 일하는 사람",
+          "미술관에 갈 수 있는 날",
+          "미술관에서 할 수 있는 일"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 미술관에서 할 수 있는 일",
+        "transcript": "남자: 수미 씨, 저 어제 인주시에 있는 종이 미술관에 갔다 왔어요.\n여자: 그래요? 저는 못 가 봤는데 어땠어요?\n남자: 여러 나라의 종이가 많았어요. 그리고 종이로 만든 옷이나 그릇도 구경했는데 그건 살 수도 있었어요.\n여자: 아, 그럼 이 필통도 거기서 산 거예요?\n남자: 아니요. 이건 제가 만든 거예요. 거기서 필통이나 인형 같은 것도 만들어 볼 수 있어요.\n여자: 재미있었겠네요. 저도 이번 주말에 가 봐야겠어요."
+      },
+      {
+        "id": "listening-091-topik-i-q028",
+        "questionNumber": 28,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "남자는 이 미술관에 가 본 적이 있습니다.",
+          "여자는 이 미술관에서 인형을 만들었습니다.",
+          "여자는 이 미술관에서 산 옷을 입고 있습니다.",
+          "남자는 이 미술관에서 산 필통을 가지고 있습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 남자는 이 미술관에 가 본 적이 있습니다.",
+        "transcript": "남자: 수미 씨, 저 어제 인주시에 있는 종이 미술관에 갔다 왔어요.\n여자: 그래요? 저는 못 가 봤는데 어땠어요?\n남자: 여러 나라의 종이가 많았어요. 그리고 종이로 만든 옷이나 그릇도 구경했는데 그건 살 수도 있었어요.\n여자: 아, 그럼 이 필통도 거기서 산 거예요?\n남자: 아니요. 이건 제가 만든 거예요. 거기서 필통이나 인형 같은 것도 만들어 볼 수 있어요.\n여자: 재미있었겠네요. 저도 이번 주말에 가 봐야겠어요."
+      },
+      {
+        "id": "listening-091-topik-i-q029",
+        "questionNumber": 29,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "여자가 수영을 배우게 된 이유를 고르십시오.",
+        "context": "",
+        "options": [
+          "수영을 가르치고 싶어서",
+          "수영이 건강에 도움이 돼서",
+          "아버지가 유명한 수영 선수라서",
+          "어렸을 때 본 선수처럼 되고 싶어서"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 어렸을 때 본 선수처럼 되고 싶어서",
+        "transcript": "남자: 김수미 선수, 전국 수영 대회 일등 축하드립니다. 기분이 어떠세요?\n여자 : 작년에는 팔을 다쳐서 대회에 못 나왔는데 올해는 이렇게 상을 받아서 정말 기쁩니다.\n남자 : 네. 그런데 김수미 선수는 어떻게 수영을 시작하게 됐어요?\n여자 : 초등학생 때 수영 경기를 본 적이 있어요. 한 선수가 가장 늦게 출발했는데 끝까지 열심히 해서 마지막에는 일등을 했어요. 그 모습이 너무 멋있었어요. 그 선수처럼 되고 싶어서 그때부터 수영을 배웠어요.\n남자: 그렇군요. 다음 달에 열리는 수영 대회에도 참가하시나요?\n여자: 그럼요. 그 대회가 끝나면 바로 외국에서 열리는 대회에도 나갈 겁니다."
+      },
+      {
+        "id": "listening-091-topik-i-q030",
+        "questionNumber": 30,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "여자는 작년에 수영 대회에 나갔습니다.",
+          "여자는 중학생 때 수영을 시작했습니다.",
+          "여자는 다음 달 수영 대회에 참가할 겁니다.",
+          "여자는 수영 대회에서 상을 못 받았습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 여자는 다음 달 수영 대회에 참가할 겁니다.",
+        "transcript": "남자: 김수미 선수, 전국 수영 대회 일등 축하드립니다. 기분이 어떠세요?\n여자 : 작년에는 팔을 다쳐서 대회에 못 나왔는데 올해는 이렇게 상을 받아서 정말 기쁩니다.\n남자 : 네. 그런데 김수미 선수는 어떻게 수영을 시작하게 됐어요?\n여자 : 초등학생 때 수영 경기를 본 적이 있어요. 한 선수가 가장 늦게 출발했는데 끝까지 열심히 해서 마지막에는 일등을 했어요. 그 모습이 너무 멋있었어요. 그 선수처럼 되고 싶어서 그때부터 수영을 배웠어요.\n남자: 그렇군요. 다음 달에 열리는 수영 대회에도 참가하시나요?\n여자: 그럼요. 그 대회가 끝나면 바로 외국에서 열리는 대회에도 나갈 겁니다."
+      }
+    ]
+  },
+  {
+    "id": "listening-083-topik-i",
+    "title": "83rd TOPIK I Listening Test",
+    "level": "TOPIK I",
+    "topic": "Official Listening Paper",
+    "source": "https://www.topikguide.com/mock-tests/83-TOPIK-I-Listening-Mock-Test.html",
+    "audioSrc": "https://files.topikguide.com/listening/83-TOPIK-I-Listening-Audio-File.mp3",
+    "durationMinutes": 42,
+    "questions": [
+      {
+        "id": "listening-083-topik-i-q001",
+        "questionNumber": 1,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네. 학생이에요.",
+          "네. 학생이 없어요.",
+          "아니요. 학생이 와요.",
+          "아니요. 학생이 많아요."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 네. 학생이에요.",
+        "transcript": "남자: 학생이에요?\n여자: 네. 학생이에요."
+      },
+      {
+        "id": "listening-083-topik-i-q002",
+        "questionNumber": 2,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네. 책을 싫어해요.",
+          "네. 책이 아니에요.",
+          "아니요. 책이 있어요.",
+          "아니요. 책을 안 읽어요."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 아니요. 책을 안 읽어요.",
+        "transcript": "여자: 책을 읽어요?\n남자: 아니요. 책을 안 읽어요."
+      },
+      {
+        "id": "listening-083-topik-i-q003",
+        "questionNumber": 3,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "지금 해요.",
+          "우리가 해요.",
+          "카페에서 해요.",
+          "동생하고 해요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 카페에서 해요.",
+        "transcript": "남자: 우리 어디에서 이야기해요?\n여자: 카페에서 해요."
+      },
+      {
+        "id": "listening-083-topik-i-q004",
+        "questionNumber": 4,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "어제 갔어요.",
+          "자주 갔어요.",
+          "친구가 갔어요.",
+          "지하철로 갔어요."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 지하철로 갔어요.",
+        "transcript": "여자: 공항에 어떻게 갔어요?\n남자: 지하철로 갔어요."
+      },
+      {
+        "id": "listening-083-topik-i-q005",
+        "questionNumber": 5,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "축하해요.",
+          "아니에요.",
+          "고마워요.",
+          "반가워요."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 아니에요.",
+        "transcript": "남자: 미안해요.\n여자: 아니에요."
+      },
+      {
+        "id": "listening-083-topik-i-q006",
+        "questionNumber": 6,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "잘 먹겠습니다.",
+          "잘 지냈습니다.",
+          "네. 알겠습니다.",
+          "네. 그렇습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 네. 알겠습니다.",
+        "transcript": "여자: 잠깐만 기다리세요.\n남자: 네. 알겠습니다."
+      },
+      {
+        "id": "listening-083-topik-i-q007",
+        "questionNumber": 7,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "꽃집",
+          "극장",
+          "학교",
+          "시장"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 시장",
+        "transcript": "남자: 어서 오세요. 뭘 드릴까요?\n여자: 오렌지 열 개 주세요."
+      },
+      {
+        "id": "listening-083-topik-i-q008",
+        "questionNumber": 8,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "은행",
+          "식당",
+          "도서관",
+          "문구점"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 식당",
+        "transcript": "여자: 여기는 비빔밥이 맛있어요.\n남자: 그럼, 우리 비빔밥을 먹어요."
+      },
+      {
+        "id": "listening-083-topik-i-q009",
+        "questionNumber": 9,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "백화점",
+          "여행사",
+          "우체국",
+          "박물관"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 백화점",
+        "transcript": "남자: 이 구두를 신어 보고 싶어요.\n여자: 네. 이쪽으로 오세요."
+      },
+      {
+        "id": "listening-083-topik-i-q010",
+        "questionNumber": 10,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "서점",
+          "약국",
+          "미용실",
+          "사진관"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 약국",
+        "transcript": "여자: 식사 후에 이 약을 드세요.\n남자: 감사합니다. 얼마예요?"
+      },
+      {
+        "id": "listening-083-topik-i-q011",
+        "questionNumber": 11,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "나라",
+          "가족",
+          "이름",
+          "주말"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 가족",
+        "transcript": "남자: 수미 씨, 오빠가 있어요?\n여자: 아니요. 언니가 있어요."
+      },
+      {
+        "id": "listening-083-topik-i-q012",
+        "questionNumber": 12,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "취미",
+          "날씨",
+          "시간",
+          "음식"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 시간",
+        "transcript": "여자: 내일 시험이 몇 시예요?\n남자: 두 시예요."
+      },
+      {
+        "id": "listening-083-topik-i-q013",
+        "questionNumber": 13,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "직업",
+          "운동",
+          "날짜",
+          "고향"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 운동",
+        "transcript": "남자: 저는 농구를 좋아해요. 수미 씨는요?\n여자: 저는 테니스를 좋아해요."
+      },
+      {
+        "id": "listening-083-topik-i-q014",
+        "questionNumber": 14,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "값",
+          "맛",
+          "위치",
+          "계절"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 값",
+        "transcript": "여자: 그 가방 좋네요. 비싼 거예요?\n남자: 아니요. 비싸지 않아요. 이만 원이에요."
+      },
+      {
+        "id": "listening-083-topik-i-q015",
+        "questionNumber": 15,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음을 듣고 가장 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T183L15-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T183L15-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T183L15-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T183L15-4.png"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1.",
+        "transcript": "남자: 저, 우산은 어디에 있어요?\n여자: 저기 창문 밑에 있습니다."
+      },
+      {
+        "id": "listening-083-topik-i-q016",
+        "questionNumber": 16,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음을 듣고 가장 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T183L16-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T183L16-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T183L16-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T183L16-4.png"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4.",
+        "transcript": "여자: 우리 15번 버스를 타지요?\n남자: 네. 이 정류장에서 탈 수 있네요."
+      },
+      {
+        "id": "listening-083-topik-i-q017",
+        "questionNumber": 17,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 주말에 드라마를 봤습니다.",
+          "남자는 일요일에 친구를 만났습니다.",
+          "여자는 일요일에 집에서 쉬었습니다.",
+          "여자는 주말에 이 남자와 수영장에 갔습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 남자는 주말에 드라마를 봤습니다.",
+        "transcript": "여자: 민수 씨, 주말에 뭐 했어요?\n남자: 드라마도 보고 집에서 쉬었어요. 수미 씨는요?\n여자: 저는 일요일에 친구하고 수영장에 갔어요."
+      },
+      {
+        "id": "listening-083-topik-i-q018",
+        "questionNumber": 18,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 요리를 아주 잘합니다.",
+          "남자는 지금 김치찌개를 만듭니다.",
+          "여자는 어머니에게서 요리를 배웁니다.",
+          "여자는 어머니와 요리를 하고 있습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 여자는 어머니에게서 요리를 배웁니다.",
+        "transcript": "남자: 와, 김치찌개 맛있네요.\n여자: 그래요? 우리 어머니한테 배웠는데 괜찮아요?\n남자: 네. 맛있어요. 저는 요리 잘 못하는데\n여자: 저도 아직 잘 못해서 어머니한테 가끔 배워요."
+      },
+      {
+        "id": "listening-083-topik-i-q019",
+        "questionNumber": 19,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "여자는 극장에서 남자를 만났습니다.",
+          "남자는 이따가 한강공원에 갈 겁니다.",
+          "남자는 오늘 수업이 모두 끝났습니다.",
+          "여자는 지금 영화를 보고 싶어 합니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 남자는 이따가 한강공원에 갈 겁니다.",
+        "transcript": "남자: 우리 이따가 수업 끝나고 영화 보러 갈래요?\n여자: 음.... 날씨도 좋은데 한강공원은 어때요?\n남자: 좋아요. 거기 가요. 수업 끝나고 가면 시원하고 좋을 것 같아요.\n여자: 그래요. 다음에는 영화 보러 가요."
+      },
+      {
+        "id": "listening-083-topik-i-q020",
+        "questionNumber": 20,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "여자는 책상을 사고 싶어 합니다.",
+          "남자는 여자에게 책상을 팔 겁니다.",
+          "남자는 인터넷으로 물건을 팔아 봤습니다.",
+          "여자는 인터넷 사이트에서 책상을 팔았습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 남자는 인터넷으로 물건을 팔아 봤습니다.",
+        "transcript": "여자: 민수 씨, 인터넷으로 안 쓰는 물건 팔아 봤어요?\n남자: 네. 많이 팔아 봤어요. 왜요? 뭐 팔고 싶은 거 있어요?\n여자: 작은 책상이 하나 있는데 팔고 싶어서요.\n남자: 그런 물건을 팔 수 있는 인터넷 사이트가 많아요. 제가 알려 드릴게요."
+      },
+      {
+        "id": "listening-083-topik-i-q021",
+        "questionNumber": 21,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 병원에서 일합니다.",
+          "여자는 오전에 예약을 했습니다.",
+          "여자는 남자와 같이 병원에 갑니다.",
+          "남자는 수요일에 병원에 갈 겁니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 남자는 수요일에 병원에 갈 겁니다.",
+        "transcript": "남자: 여보세요. 거기 사랑병원이지요? 수요일 오후에 예약하고 싶은데요.\n여자: 수요일요? 잠시만요. 몇 시쯤 오시겠어요?\n남자: 세 시쯤 가도 될까요?\n여자: 네. 됩니다. 이름과 전화번호를 말씀해 주세요."
+      },
+      {
+        "id": "listening-083-topik-i-q022",
+        "questionNumber": 22,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "마이클 씨처럼 친구가 많았으면 좋겠습니다.",
+          "마이클 씨하고 외국어 공부를 하고 싶습니다.",
+          "마이클 씨에게 한국어를 더 가르쳐 주고 싶습니다.",
+          "마이클 씨가 말하기 연습을 많이 하면 좋겠습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 마이클 씨가 말하기 연습을 많이 하면 좋겠습니다.",
+        "transcript": "여자: 마이클 씨, 한국어 말하기 연습 많이 해요?\n남자: 네. 선생님. 우리 반 친구들하고 자주 만나서 연습해요.\n여자: 한국 사람하고도 이야기를 많이 해 보세요. 도움이 될 거예요.\n남자: 네. 저도 한국 사람하고 이야기 많이 하고 싶어요."
+      },
+      {
+        "id": "listening-083-topik-i-q023",
+        "questionNumber": 23,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "새 시계를 구경해 보고 싶습니다.",
+          "시계를 오늘 바로 고쳐야 합니다.",
+          "시계를 고쳐서 오래 쓰고 싶습니다.",
+          "좋은 시계로 바꾸어 주면 좋겠습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 시계를 고쳐서 오래 쓰고 싶습니다.",
+        "transcript": "여자: 시계가 고장 났는데 고칠 수 있을까요?\n남자: 한번 볼게요. 꽤 오래된 시계네요.\n여자: 이거 제가 정말 좋아하는 시계예요. 계속 쓰고 싶어요.\n남자: 네. 그럼 고쳐 보고 연락드리겠습니다."
+      },
+      {
+        "id": "listening-083-topik-i-q024",
+        "questionNumber": 24,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "가수들의 공연이 많아져서 좋습니다.",
+          "춤도 잘 추고 노래도 잘하는 가수가 좋습니다.",
+          "K-POP 가수들의 공연장에 가 보고 싶습니다.",
+          "K-POP 가수들은 춤을 출 때가 특히 멋있습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. K-POP 가수들은 춤을 출 때가 특히 멋있습니다.",
+        "transcript": "남자: 와, 케이팝 가수들은 노래도 잘하고 춤도 잘 추네요.\n여자: 맞아요. 그런데 저는 춤을 추는 게 특히 멋있어 보여요.\n남자: 그래요? 노래를 잘하는 게 더 멋있지 않아요?\n여자: 아니에요. 공연장에 한번 가 보세요. 춤이 정말 최고예요."
+      },
+      {
+        "id": "listening-083-topik-i-q025",
+        "questionNumber": 25,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "여자가 왜 이 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "식당 위치를 설명하려고",
+          "행사 신청 기간을 안내하려고",
+          "회사에서 하는 행사를 알리려고",
+          "회사 직원에게 감사 인사를 하려고"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 회사에서 하는 행사를 알리려고",
+        "transcript": "여자: (딩동댕) 잠시 안내 말씀드립니다. 우리 회사에서는 '사랑의 아침밥' 행사를 엽니다. 식사를 못 하고 출근하시는 분들을 위해 내일부터 한 달 동안 아침 식사를 무료로 드립니다. 건강에 좋고 맛있는 식사가 준비됩니다. 1층 식당에 오셔서 아침을 드시고 즐거운 하루를 시작하시기 바랍니다. 감사합니다. (댕동딩)"
+      },
+      {
+        "id": "listening-083-topik-i-q026",
+        "questionNumber": 26,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "건강에 좋은 아침 식사가 준비됩니다.",
+          "오늘은 무료로 식사를 할 수 있습니다.",
+          "행사 기간 동안에 식당 문을 닫습니다.",
+          "한 달 전부터 이 행사를 하고 있습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 건강에 좋은 아침 식사가 준비됩니다.",
+        "transcript": "여자: (딩동댕) 잠시 안내 말씀드립니다. 우리 회사에서는 '사랑의 아침밥' 행사를 엽니다. 식사를 못 하고 출근하시는 분들을 위해 내일부터 한 달 동안 아침 식사를 무료로 드립니다. 건강에 좋고 맛있는 식사가 준비됩니다. 1층 식당에 오셔서 아침을 드시고 즐거운 하루를 시작하시기 바랍니다. 감사합니다. (댕동딩)"
+      },
+      {
+        "id": "listening-083-topik-i-q027",
+        "questionNumber": 27,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "자주 사는 꽃",
+          "꽃을 사는 이유",
+          "꽃을 선물할 사람",
+          "특별한 날에 사는 꽃"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 꽃을 사는 이유",
+        "transcript": "남자: 수미 씨, 꽃이 예쁘네요. 선물 받은 거예요?\n여자: 아니요. 제가 산 거예요.\n남자: 아, 왜요? 누구 생일이에요?\n여자: 그냥 제 책상 위에 놓으려고요. 예쁜 꽃을 보면 기분이 좋아져서 자주 사요.\n남자: 아, 그렇군요. 저는 선물하려고 가끔 사는데 그게 아니면 잘 안 사요.\n여자: 보통 그래요. 특별한 날에 많이 사지요."
+      },
+      {
+        "id": "listening-083-topik-i-q028",
+        "questionNumber": 28,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "남자는 꽃을 자주 사지 않습니다.",
+          "여자는 생일 선물로 꽃을 받았습니다.",
+          "여자는 꽃을 별로 좋아하지 않습니다.",
+          "남자는 여자에게 주려고 꽃을 샀습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 남자는 꽃을 자주 사지 않습니다.",
+        "transcript": "남자: 수미 씨, 꽃이 예쁘네요. 선물 받은 거예요?\n여자: 아니요. 제가 산 거예요.\n남자: 아, 왜요? 누구 생일이에요?\n여자: 그냥 제 책상 위에 놓으려고요. 예쁜 꽃을 보면 기분이 좋아져서 자주 사요.\n남자: 아, 그렇군요. 저는 선물하려고 가끔 사는데 그게 아니면 잘 안 사요.\n여자: 보통 그래요. 특별한 날에 많이 사지요."
+      },
+      {
+        "id": "listening-083-topik-i-q029",
+        "questionNumber": 29,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "남자가 이 책을 쓴 이유를 고르십시오.",
+        "context": "",
+        "options": [
+          "글을 쓰는 재미를 알리고 싶어서",
+          "힘들고 어려운 아이들에게 도움이 되고 싶어서",
+          "경찰이 되는 여러 가지 방법을 알려 주고 싶어서",
+          "경찰이 되어서 경험한 행복한 일을 소개하고 싶어서"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 경찰이 되어서 경험한 행복한 일을 소개하고 싶어서",
+        "transcript": "여자: 김민수 경찰관님, 이번에 책을 쓰셨지요? 어떤 책입니까?\n남자: 제가 경찰이 된 지 8년이 됐는데요. 그 동안 경험한 일을 쓴 겁니다.\n여자: 네. 특별히 이 책을 쓰신 이유가 있으세요?\n남자: 사람들의 생각처럼 경찰관은 힘든 일을 많이 합니다. 하지만 기쁘고 행복한 일도 많아요. 이런 일들을 알려 주려고 작년부터 글을 쓰기 시작했습니다.\n여자: 아, 행복한 일들요. 어떤 일들이지요?\n남자: 몇 달 전에 제가 어떤 아이의 가방을 찾아 줬어요. 그런데 그 아이가 일을 잘했다고 저에게 상을 주는 거예요. 아이가 직접 만든 상과 편지를 받았는데, 칭찬을 받은 것 같아서 행복했어요."
+      },
+      {
+        "id": "listening-083-topik-i-q030",
+        "questionNumber": 30,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "남자는 작년에 경찰이 되었습니다.",
+          "남자는 8년 동안 책을 쓰고 있습니다.",
+          "남자는 아이의 가방을 찾아 준 적이 있습니다.",
+          "남자는 아이에게 편지와 상을 줘서 행복했습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 남자는 아이의 가방을 찾아 준 적이 있습니다.",
+        "transcript": "여자: 김민수 경찰관님, 이번에 책을 쓰셨지요? 어떤 책입니까?\n남자: 제가 경찰이 된 지 8년이 됐는데요. 그 동안 경험한 일을 쓴 겁니다.\n여자: 네. 특별히 이 책을 쓰신 이유가 있으세요?\n남자: 사람들의 생각처럼 경찰관은 힘든 일을 많이 합니다. 하지만 기쁘고 행복한 일도 많아요. 이런 일들을 알려 주려고 작년부터 글을 쓰기 시작했습니다.\n여자: 아, 행복한 일들요. 어떤 일들이지요?\n남자: 몇 달 전에 제가 어떤 아이의 가방을 찾아 줬어요. 그런데 그 아이가 일을 잘했다고 저에게 상을 주는 거예요. 아이가 직접 만든 상과 편지를 받았는데, 칭찬을 받은 것 같아서 행복했어요."
+      }
+    ]
+  },
+  {
+    "id": "listening-064-topik-i",
+    "title": "64th TOPIK I Listening Test",
+    "level": "TOPIK I",
+    "topic": "Official Listening Paper",
+    "source": "https://www.topikguide.com/mock-tests/64-TOPIK-I-Listening-Mock-Test.html",
+    "audioSrc": "https://files.topikguide.com/listening/64-TOPIK-I-Listening-Audio-File.mp3",
+    "durationMinutes": 42,
+    "questions": [
+      {
+        "id": "listening-064-topik-i-q001",
+        "questionNumber": 1,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 책이 없어요.",
+          "네, 책을 읽어요.",
+          "아니요, 책이 많아요.",
+          "아니요, 책을 좋아해요."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 네, 책을 읽어요.",
+        "transcript": "남자: 책을 읽어요?\n여자: 네, 책을 읽어요."
+      },
+      {
+        "id": "listening-064-topik-i-q002",
+        "questionNumber": 2,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 구두예요.",
+          "네, 구두가 예뻐요.",
+          "아니요, 구두가 작아요.",
+          "아니요, 구두가 있어요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 아니요, 구두가 작아요.",
+        "transcript": "여자: 구두가 커요?\n남자: 아니요, 구두가 있어요."
+      },
+      {
+        "id": "listening-064-topik-i-q003",
+        "questionNumber": 3,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "자주 먹어요.",
+          "집에서 먹어요.",
+          "김밥을 먹어요.",
+          "언니하고 먹어요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 김밥을 먹어요.",
+        "transcript": "남자: 지금 뭐 먹어요?\n여자: 김밥을 먹어요."
+      },
+      {
+        "id": "listening-064-topik-i-q004",
+        "questionNumber": 4,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "세 명이에요.",
+          "친구 집에 가요.",
+          "같이 숙제해요.",
+          "두 시에 만나요."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 두 시에 만나요.",
+        "transcript": "여자: 친구를 몇 시에 만나요?\n남자: 두 시에 만나요."
+      },
+      {
+        "id": "listening-064-topik-i-q005",
+        "questionNumber": 5,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "괜찮아요.",
+          "반가워요.",
+          "여기 있어요.",
+          "잘 지냈어요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 여기 있어요.",
+        "transcript": "남자: 수미 씨, 연필 좀 주세요.\n여자: 여기 있어요."
+      },
+      {
+        "id": "listening-064-topik-i-q006",
+        "questionNumber": 6,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "미안해요.",
+          "아니에요.",
+          "부탁해요.",
+          "좋겠어요."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 아니에요.",
+        "transcript": "여자: 오늘 도와줘서 고마웠어요.\n남자: 아니에요."
+      },
+      {
+        "id": "listening-064-topik-i-q007",
+        "questionNumber": 7,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "꽃집",
+          "식당",
+          "교실",
+          "약국"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 꽃집",
+        "transcript": "여자: 뭘 드릴까요?\n남자: 장미가 예쁘네요. 장미 주세요."
+      },
+      {
+        "id": "listening-064-topik-i-q008",
+        "questionNumber": 8,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "공항",
+          "택시",
+          "우체국",
+          "백화점"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 택시",
+        "transcript": "남자: 어서 오세요, 손님. 어디까지 가세요?\n여자: 한국대학교로 가 주세요."
+      },
+      {
+        "id": "listening-064-topik-i-q009",
+        "questionNumber": 9,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "호텔",
+          "회사",
+          "극장",
+          "빵집"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 호텔",
+        "transcript": "여자: 방은 5층이고요, 501호입니다.\n남자: 네. 아침 식사 시간은 언제예요?"
+      },
+      {
+        "id": "listening-064-topik-i-q010",
+        "questionNumber": 10,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "서점",
+          "공원",
+          "사진관",
+          "미용실"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 공원",
+        "transcript": "남자: 저 여기 산책하러 자주 오는데 참 좋지요?\n여자: 네. 나무도 많고 넓어서 좋네요."
+      },
+      {
+        "id": "listening-064-topik-i-q011",
+        "questionNumber": 11,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "일",
+          "맛",
+          "시간",
+          "이름"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 맛",
+        "transcript": "남자: 아주머니, 이 음식 매워요?\n여자: 네, 조금 매워요."
+      },
+      {
+        "id": "listening-064-topik-i-q012",
+        "questionNumber": 12,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "나라",
+          "장소",
+          "날짜",
+          "운동"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 운동",
+        "transcript": "여자: 민수 씨, 야구를 좋아해요?\n남자: 아니요. 저는 축구가 좋아요."
+      },
+      {
+        "id": "listening-064-topik-i-q013",
+        "questionNumber": 13,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "계획",
+          "날씨",
+          "주말",
+          "취미"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 계획",
+        "transcript": "남자: 저는 방학 때 제주도에 갈 거예요. 수미 씨는요?\n여자: 저는 고향에 갈 거예요."
+      },
+      {
+        "id": "listening-064-topik-i-q014",
+        "questionNumber": 14,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "약속",
+          "교통",
+          "위치",
+          "소개"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 위치",
+        "transcript": "여자: 저, 행복마트가 어디에 있어요?\n남자: 저기 은행 있지요? 은행 뒤로 가세요."
+      },
+      {
+        "id": "listening-064-topik-i-q015",
+        "questionNumber": 15,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음을 듣고 가장 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T164L15-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T164L15-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T164L15-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T164L15-4.png"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3.",
+        "transcript": "여자: 어디가 아파서 오셨어요?\n남자: 어제부터 계속 배가 아파서요."
+      },
+      {
+        "id": "listening-064-topik-i-q016",
+        "questionNumber": 16,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음을 듣고 가장 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T164L16-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T164L16-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T164L16-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T164L16-4.png"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1.",
+        "transcript": "남자: 식탁이 무거운데 같이 좀 들어 줄래요?\n여자: 네. 제가 여기를 들게요."
+      },
+      {
+        "id": "listening-064-topik-i-q017",
+        "questionNumber": 17,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 출장을 갑니다.",
+          "여자는 아침에 출발합니다.",
+          "여자는 내일 회사에 안 갑니다.",
+          "남자는 내일 여자를 만날 겁니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 남자는 내일 여자를 만날 겁니다.",
+        "transcript": "남자: 수미 씨, 내일 출장 가지요? 잘 다녀오세요.\n여자: 아침에는 회사에 올 거예요. 저녁에 출발해요.\n남자: 아, 그래요? 그럼 내일 봐요."
+      },
+      {
+        "id": "listening-064-topik-i-q018",
+        "questionNumber": 18,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "여자는 식빵을 못 샀습니다.",
+          "남자는 여자에게 빵을 줬습니다.",
+          "여자는 이 곳에 세 시에 왔습니다.",
+          "남자는 지금 빵집에 다녀올 겁니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 여자는 식빵을 못 샀습니다.",
+        "transcript": "여자: 저, 식빵은 없어요?\n남자: 네. 다 팔려서 지금 다시 만들고 있습니다.\n여자: 그럼 언제쯤 오면 돼요?\n남자: 세 시쯤 오시면 됩니다."
+      },
+      {
+        "id": "listening-064-topik-i-q019",
+        "questionNumber": 19,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 혼자 결혼식에 갈 겁니다.",
+          "여자는 일곱 시에 남자를 만날 겁니다.",
+          "여자는 지하철로 결혼식장에 갈 겁니다.",
+          "남자는 결혼식에 차를 가지고 갈 겁니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 여자는 지하철로 결혼식장에 갈 겁니다.",
+        "transcript": "남자: 수미 씨, 미영 씨 결혼식이 일곱 시지요? 이제 가야겠어요.\n여자: 네. 그런데 우리 어떻게 갈까요? 차를 가지고 갈까요?\n남자: 거기 너무 복잡하니까 지하철로 가는 게 어때요?\n여자: 그래요. 길이 막힐 수도 있으니까 지하철로 가요."
+      },
+      {
+        "id": "listening-064-topik-i-q020",
+        "questionNumber": 20,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 지금 카드가 없습니다.",
+          "남자는 인터넷으로 예약했습니다.",
+          "여자는 이 식당에 처음 왔습니다.",
+          "여자는 남자와 같이 식사를 했습니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 남자는 인터넷으로 예약했습니다.",
+        "transcript": "여자: 손님, 식사 맛있게 하셨어요?\n남자: 네, 맛있었어요. 얼마예요?\n여자: 이만 원입니다. 인터넷으로 예약을 하셔서 오천 원 할인되었습니다.\n남자: 네, 이 카드로 계산해 주세요."
+      },
+      {
+        "id": "listening-064-topik-i-q021",
+        "questionNumber": 21,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "여자는 남자와 같은 일을 합니다.",
+          "여자는 박물관에서 일하고 있습니다.",
+          "남자는 박물관에서 일을 해 봤습니다.",
+          "남자는 아르바이트를 안 하려고 합니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 여자는 박물관에서 일하고 있습니다.",
+        "transcript": "여자: 민수 씨, 아르바이트할 곳을 찾았어요?\n남자: 아니요. 아직 못 찾았어요.\n여자: 제가 일하는 박물관에서 아르바이트할 사람을 찾고 있는데, 생각 있어요?\n남자: 박물관 아르바이트는 안 해 봤는데 한번 해 보고 싶네요."
+      },
+      {
+        "id": "listening-064-topik-i-q022",
+        "questionNumber": 22,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "재미있는 영화를 보고 싶습니다.",
+          "영화는 여러 번 봐도 재미있습니다.",
+          "이 영화는 많은 사람이 봐야 합니다.",
+          "이 영화는 영화관에서 보는 게 좋습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 이 영화는 영화관에서 보는 게 좋습니다.",
+        "transcript": "여자: 민수 씨, 이 영화 봤어요? 정말 재미있어요. 꼭 보세요.\n남자: 아, 이 영화요? 저는 나중에 집에서 보려고요.\n여자: 이 영화는 영화관에서 크게 봐야 돼요. 안 그러면 재미없어요.\n남자: 그래요? 그럼 저도 가서 봐야겠어요."
+      },
+      {
+        "id": "listening-064-topik-i-q023",
+        "questionNumber": 23,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "반이 더 많아져야 합니다.",
+          "쉬운 수업을 듣고 싶습니다.",
+          "수업을 더 듣는 것이 좋습니다.",
+          "영어 수업이 많이 도움이 됩니다."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 쉬운 수업을 듣고 싶습니다.",
+        "transcript": "남자: 무엇을 도와 드릴까요?\n여자: 제가 지금 영어 수업을 들었는데 혹시 다른 반은 없어요?\n남자: 왜 그러세요? 무슨 문제가 있으세요?\n여자: 네. 좀 어려워서요. 다른 수업을 들었으면 좋겠어요."
+      },
+      {
+        "id": "listening-064-topik-i-q024",
+        "questionNumber": 24,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "쓰레기를 모아서 버려야 합니다.",
+          "물건을 많이 살 필요가 없습니다.",
+          "쓰레기를 버리는 곳이 많이 필요합니다.",
+          "물건을 안 버리고 다시 쓰는 게 좋습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 물건을 안 버리고 다시 쓰는 게 좋습니다.",
+        "transcript": "남자: 수미 씨, 이거 주스 병 아니에요?\n여자: 네. 주스 병을 버리지 않고 꽃병으로 쓰고 있어요.\n남자: 전 이런 생각 못 했는데 이렇게 하면 쓰레기도 안 생기고 좋겠네요.\n여자: 맞아요. 생각해 보면 버리지 않고 다시 쓸 수 있는 게 많아요."
+      },
+      {
+        "id": "listening-064-topik-i-q025",
+        "questionNumber": 25,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "여자가 왜 이 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "신청을 더 받으려고",
+          "신청 방법이 바뀌어서",
+          "대회 내용을 설명하려고",
+          "대회 날짜를 알려 주려고"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 신청을 더 받으려고",
+        "transcript": "여자: (딩동댕) 잠시 안내 말씀 드립니다. 다음 달에 열리는 '회사 사랑 걷기 대회'의 참가 신청이 이번 주 금요일까지입니다. 그런데 아직 신청을 하신 분이 많지 않습니다. 올해는 특히 많은 선물이 준비되어 있으니 많이 참가해 주시기 바랍니다. 자세한 내용은 홈페이지를 확인해 주세요. (댕동딩)"
+      },
+      {
+        "id": "listening-064-topik-i-q026",
+        "questionNumber": 26,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "이 대회는 이번 달에 합니다.",
+          "홈페이지에 대회 내용이 없습니다.",
+          "금요일까지 참가 신청을 할 수 있습니다.",
+          "이 대회에 참가 신청을 한 사람이 많습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 금요일까지 참가 신청을 할 수 있습니다.",
+        "transcript": "여자: (딩동댕) 잠시 안내 말씀 드립니다. 다음 달에 열리는 '회사 사랑 걷기 대회'의 참가 신청이 이번 주 금요일까지입니다. 그런데 아직 신청을 하신 분이 많지 않습니다. 올해는 특히 많은 선물이 준비되어 있으니 많이 참가해 주시기 바랍니다. 자세한 내용은 홈페이지를 확인해 주세요. (댕동딩)"
+      },
+      {
+        "id": "listening-064-topik-i-q027",
+        "questionNumber": 27,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "인기 있는 드라마",
+          "기억에 남는 여행",
+          "원하는 휴가 기간",
+          "드라마에 나온 장소"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 드라마에 나온 장소",
+        "transcript": "여자: 민수 씨, 어제 드라마 '첫사랑' 봤어요? 거기에서 두 사람이 어떤 섬에 갔는데 정말 아름다웠어요.\n남자: 아, 저도 그거 봤어요. 거기 제가 작년 여름휴가 때 간 곳이에요.\n여자: 정말요? 그 섬이 어디예요?\n남자: 여수에 있는 섬인데, 경치가 아름다워서 드라마에 자주 나와요.\n여자: 아, 그래요? 저도 다음에 한번 가 보고 싶어요.\n남자: 가기 전에 궁금한 거 있으면 물어보세요."
+      },
+      {
+        "id": "listening-064-topik-i-q028",
+        "questionNumber": 28,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "남자는 작년 여름에 섬에 갔습니다.",
+          "여자는 어제 드라마를 못 봤습니다.",
+          "남자는 여수에 가 본 적이 없습니다.",
+          "여자는 여수에서 휴가를 보냈습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 남자는 작년 여름에 섬에 갔습니다.",
+        "transcript": "여자: 민수 씨, 어제 드라마 '첫사랑' 봤어요? 거기에서 두 사람이 어떤 섬에 갔는데 정말 아름다웠어요.\n남자: 아, 저도 그거 봤어요. 거기 제가 작년 여름휴가 때 간 곳이에요.\n여자: 정말요? 그 섬이 어디예요?\n남자: 여수에 있는 섬인데, 경치가 아름다워서 드라마에 자주 나와요.\n여자: 아, 그래요? 저도 다음에 한번 가 보고 싶어요.\n남자: 가기 전에 궁금한 거 있으면 물어보세요."
+      },
+      {
+        "id": "listening-064-topik-i-q029",
+        "questionNumber": 29,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "남자가 그림을 배우게 된 이유를 고르십시오.",
+        "context": "",
+        "options": [
+          "새로운 취미를 갖고 싶어서",
+          "그림을 보면 기분이 좋아져서",
+          "좋아하는 사람을 그리고 싶어서",
+          "영화에서 화가 역할을 하게 되어서"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 영화에서 화가 역할을 하게 되어서",
+        "transcript": "여자: 영화배우 김민수 씨, 요즘은 그림도 그리고 계시는데요. 언제부터 그림을 그리셨어요?\n남자: 3년 전에 영화에서 화가 역할을 한 적이 있어요. 직접 그림을 그려야 해서 배우게 됐는데, 지금까지 취미로 그리고 있어요.\n여자: 그렇군요. 주로 어떤 그림을 그리세요?\n남자: 처음엔 산을 많이 그렸는데 요즘은 사람들의 얼굴을 그리고 있어요.\n여자: 곧 첫 번째 전시회를 하신다고요?\n남자: 네. 같이 그림 그리는 친구들과 전시회를 하기로 했어요."
+      },
+      {
+        "id": "listening-064-topik-i-q030",
+        "questionNumber": 30,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "남자는 요즘 주로 산을 그립니다.",
+          "남자는 어릴 때부터 그림을 배웠습니다.",
+          "남자는 그림 전시회를 한 적이 있습니다.",
+          "남자는 다른 사람과 함께 전시회를 합니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 남자는 다른 사람과 함께 전시회를 합니다.",
+        "transcript": "여자: 영화배우 김민수 씨, 요즘은 그림도 그리고 계시는데요. 언제부터 그림을 그리셨어요?\n남자: 3년 전에 영화에서 화가 역할을 한 적이 있어요. 직접 그림을 그려야 해서 배우게 됐는데, 지금까지 취미로 그리고 있어요.\n여자: 그렇군요. 주로 어떤 그림을 그리세요?\n남자: 처음엔 산을 많이 그렸는데 요즘은 사람들의 얼굴을 그리고 있어요.\n여자: 곧 첫 번째 전시회를 하신다고요?\n남자: 네. 같이 그림 그리는 친구들과 전시회를 하기로 했어요."
+      }
+    ]
+  },
+  {
+    "id": "listening-060-topik-i",
+    "title": "60th TOPIK I Listening Test",
+    "level": "TOPIK I",
+    "topic": "Official Listening Paper",
+    "source": "https://www.topikguide.com/mock-tests/60-TOPIK-I-Listening-Mock-Test.html",
+    "audioSrc": "https://files.topikguide.com/listening/60-TOPIK-I-Listening-Audio-File.mp3",
+    "durationMinutes": 42,
+    "questions": [
+      {
+        "id": "listening-060-topik-i-q001",
+        "questionNumber": 1,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 사과가 없어요.",
+          "네, 사과가 맛있어요.",
+          "아니요, 사과가 비싸요.",
+          "아니요, 사과가 좋아요."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 네, 사과가 맛있어요.",
+        "transcript": "남자: 사과가 맛있어요?\n여자: 네, 사과가 맛있어요."
+      },
+      {
+        "id": "listening-060-topik-i-q002",
+        "questionNumber": 2,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "네, 학교가 작아요.",
+          "네, 학교가 아니에요.",
+          "아니요, 학교에 안 가요.",
+          "아니요, 학교에 있어요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 아니요, 학교에 안 가요.",
+        "transcript": "여자: 오늘 학교에 가요?\n남자: 아니요, 학교에 안 가요."
+      },
+      {
+        "id": "listening-060-topik-i-q003",
+        "questionNumber": 3,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "조금 샀어요.",
+          "친구가 샀어요.",
+          "한 시에 샀어요.",
+          "시장에서 샀어요."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 시장에서 샀어요.",
+        "transcript": "남자: 이거 어디에서 샀어요?\n여자: 시장에서 샀어요."
+      },
+      {
+        "id": "listening-060-topik-i-q004",
+        "questionNumber": 4,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [1~4] 다음을 듣고 와 같이 물음에 맞는 대답을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "자주 해요.",
+          "편지를 써요.",
+          "내일 만나요.",
+          "정말 좋아해요."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 편지를 써요.",
+        "transcript": "여자: 지금 뭐해요?\n남자: 편지를 써요."
+      },
+      {
+        "id": "listening-060-topik-i-q005",
+        "questionNumber": 5,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "미안해요.",
+          "고마워요.",
+          "반가워요.",
+          "괜찮아요."
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 고마워요.",
+        "transcript": "남자: 생일 축하해요.\n여자: 고마워요."
+      },
+      {
+        "id": "listening-060-topik-i-q006",
+        "questionNumber": 6,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [5~6] 다음을 듣고 와 같이 이어지는 말을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "잘 지냈어요.",
+          "어서 오세요.",
+          "네, 안녕히 계세요.",
+          "네, 오랜만이에요."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 네, 안녕히 계세요.",
+        "transcript": "여자: 민수 씨, 잘 가요.\n남자: 네, 안녕히 계세요."
+      },
+      {
+        "id": "listening-060-topik-i-q007",
+        "questionNumber": 7,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "꽃집",
+          "식당",
+          "우체국",
+          "백화점"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 백화점",
+        "transcript": "여자: 남자 옷은 어디 있어요?\n남자: 3층에 있습니다."
+      },
+      {
+        "id": "listening-060-topik-i-q008",
+        "questionNumber": 8,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "시장",
+          "약국",
+          "도서관",
+          "여행사"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 도서관",
+        "transcript": "남자: 모두 두 권입니까?\n여자: 네. 이 책 두 권 빌려 주세요."
+      },
+      {
+        "id": "listening-060-topik-i-q009",
+        "questionNumber": 9,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "은행",
+          "교실",
+          "극장",
+          "공원"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 은행",
+        "transcript": "여자: 이거 한국 돈으로 바꾸고 싶어요.\n남자: 얼마나 바꿔 드릴까요?"
+      },
+      {
+        "id": "listening-060-topik-i-q010",
+        "questionNumber": 10,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [7~10] 여기는 어디입니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "정류장",
+          "미술관",
+          "운동장",
+          "박물관"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 정류장",
+        "transcript": "남자: 수미 씨, 5번 버스 왔어요.\n여자: 그럼 저 먼저 갈게요."
+      },
+      {
+        "id": "listening-060-topik-i-q011",
+        "questionNumber": 11,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "일",
+          "집",
+          "시간",
+          "가족"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 집",
+        "transcript": "남자: 방이 몇 개예요?\n여자: 두 개예요."
+      },
+      {
+        "id": "listening-060-topik-i-q012",
+        "questionNumber": 12,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "취미",
+          "이름",
+          "음식",
+          "장소"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 취미",
+        "transcript": "여자: 저는 영화를 좋아해요. 민수 씨는요?\n남자: 저는 운동을 좋아해요."
+      },
+      {
+        "id": "listening-060-topik-i-q013",
+        "questionNumber": 13,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "위치",
+          "휴일",
+          "날씨",
+          "수업"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 휴일",
+        "transcript": "남자: 여기 일요일에 쉬어요?\n여자: 아니요. 저희는 월요일에 쉽니다."
+      },
+      {
+        "id": "listening-060-topik-i-q014",
+        "questionNumber": 14,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [11~14] 다음은 무엇에 대해 말하고 있습니까? 와 같이 알맞은 것을 고르십시오.",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "건강",
+          "직업",
+          "고향",
+          "교통"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 고향",
+        "transcript": "여자: 민수 씨는 계속 서울에 살았어요?\n남자: 네. 저는 서울에서 태어났어요."
+      },
+      {
+        "id": "listening-060-topik-i-q015",
+        "questionNumber": 15,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음 대화를 듣고 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T160L15-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T160L15-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T160L15-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T160L15-4.png"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2.",
+        "transcript": "여자: 이 수박 얼마예요?\n남자: 만 원이에요. 하나 드릴까요?"
+      },
+      {
+        "id": "listening-060-topik-i-q016",
+        "questionNumber": 16,
+        "points": 4,
+        "questionType": "image_choice",
+        "instruction": "※ [15~16] 다음 대화를 듣고 알맞은 그림을 고르십시오. (각 4점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T160L16-1.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T160L16-2.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T160L16-3.png",
+          "https://www.topikguide.com/wp-content/uploads/2025/09/T160L16-4.png"
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1.",
+        "transcript": "남자: 수미 씨, 늦어서 미안해요.\n여자: 아직 영화 시작 안 했어요. 들어가요."
+      },
+      {
+        "id": "listening-060-topik-i-q017",
+        "questionNumber": 17,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "여자는 요리를 잘합니다.",
+          "여자는 요리를 자주 합니다.",
+          "남자는 요즘 밥을 잘 못 먹습니다.",
+          "남자는 보통 집에서 저녁을 먹습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 남자는 보통 집에서 저녁을 먹습니다.",
+        "transcript": "여자: 민수 씨는 보통 저녁을 집에서 먹어요?\n남자: 네. 요리하는 걸 좋아해서 만들어서 먹어요. 수미 씨는요?\n여자: 저는 요리를 잘 못해요. 그래서 밖에서 자주 먹어요."
+      },
+      {
+        "id": "listening-060-topik-i-q018",
+        "questionNumber": 18,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "여자는 옷을 입어 봤습니다.",
+          "남자는 삼만 원을 받았습니다.",
+          "남자는 티셔츠를 사려고 합니다.",
+          "여자는 남자에게 선물을 합니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 남자는 티셔츠를 사려고 합니다.",
+        "transcript": "남자: 저, 어머니 선물을 좀 사려고 하는데요.\n여자: 이 티셔츠는 어떠세요?\n남자: 예쁘네요. 그걸로 주세요. 얼마예요?\n여자: 삼만 원입니다."
+      },
+      {
+        "id": "listening-060-topik-i-q019",
+        "questionNumber": 19,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 오늘 집에서 쉽니다.",
+          "남자는 어제 많이 아팠습니다.",
+          "여자는 오늘 몸이 안 좋습니다.",
+          "여자는 어제 학교에 안 갔습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 여자는 어제 학교에 안 갔습니다.",
+        "transcript": "남자: 수미 씨, 어제는 왜 학교에 안 왔어요?\n여자: 몸이 안 좋아서 집에 있었어요.\n남자: 그랬어요? 지금은 괜찮아요?\n여자: 네, 푹 쉬어서 이제 괜찮아요."
+      },
+      {
+        "id": "listening-060-topik-i-q020",
+        "questionNumber": 20,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 회의에 못 갑니다.",
+          "여자는 회의를 늦게 할 겁니다.",
+          "남자는 지금부터 회의 준비를 합니다.",
+          "여자는 남자와 같이 회의를 할 겁니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 여자는 남자와 같이 회의를 할 겁니다.",
+        "transcript": "여자: 민수 씨, 회의 준비 다 했어요?\n남자: 네, 조금 전에 다 했습니다.\n여자: 그럼 지금 회의 시작할까요?\n남자: 네. 회의실로 가겠습니다."
+      },
+      {
+        "id": "listening-060-topik-i-q021",
+        "questionNumber": 21,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [17~21] 다음을 듣고 와 같이 대화 내용과 같은 것을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "남자는 그림을 배우고 있습니다.",
+          "여자는 요즘 미술관에 자주 갑니다.",
+          "남자는 그림 보는 것을 좋아합니다.",
+          "여자는 지금 미술관에 가고 있습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 남자는 그림 보는 것을 좋아합니다.",
+        "transcript": "여자: 오랜만에 미술관에 오니까 좋네요. 같이 와 줘서 고마워요.\n남자: 아니에요. 저도 오고 싶었어요.\n여자: 그런데 혹시 그림을 배운 적이 있어요? 그림을 잘 아는 것 같아서요.\n남자: 아니요. 그림을 좋아해서 평소에 많이 봐요."
+      },
+      {
+        "id": "listening-060-topik-i-q022",
+        "questionNumber": 22,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "운전 연습을 많이 해야 합니다.",
+          "피곤할 때는 운전을 하면 안 됩니다.",
+          "지하철로 회사에 가는 것이 더 좋습니다.",
+          "회사에서 지하철역이 가까워서 좋습니다."
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 지하철로 회사에 가는 것이 더 좋습니다.",
+        "transcript": "남자: 수미 씨는 회사에 차를 안 가지고 다녀요?\n여자: 네. 저는 지하철로 다녀요.\n남자: 운전해서 다니는 게 편하지 않아요?\n여자: 아니요. 길이 막혀서 지하철을 타는 게 편해요."
+      },
+      {
+        "id": "listening-060-topik-i-q023",
+        "questionNumber": 23,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "창문 쪽에 앉고 싶습니다.",
+          "밖에서 먹는 것이 좋습니다.",
+          "기다리지 않고 바로 먹고 싶습니다.",
+          "사람이 적은 식당에 가는 것이 좋습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 창문 쪽에 앉고 싶습니다.",
+        "transcript": "남자: 손님, 두 분이세요? 저기 안쪽 자리 어떠세요?\n여자: 창문 쪽은 오래 기다려야 돼요?\n남자: 30분 정도 기다리셔야 합니다.\n여자: 그럼 기다릴게요. 창문 밖 경치가 좋아서요."
+      },
+      {
+        "id": "listening-060-topik-i-q024",
+        "questionNumber": 24,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [22~24] 다음을 듣고 여자의 중심 생각을 고르십시오. (각 3점)",
+        "question": "Choose the correct answer.",
+        "context": "",
+        "options": [
+          "혼자 여행을 가고 싶습니다.",
+          "여행 계획을 세우기 어렵습니다.",
+          "오랫동안 여행을 하는 것이 좋습니다.",
+          "계획을 세우고 여행을 가면 좋겠습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 계획을 세우고 여행을 가면 좋겠습니다.",
+        "transcript": "여자: 우리 여행 가서 뭐 할까요? 이제 계획을 세워야죠.\n남자: 가서 정하는 게 어때요? 다 정하고 가면 재미가 없을 것 같아요.\n여자: 그렇지만 미리 계획을 하고 가면 시간을 잘 쓸 수 있잖아요.\n남자: 거기에 가서 알아보면 더 좋은 곳이 있을 수도 있어요."
+      },
+      {
+        "id": "listening-060-topik-i-q025",
+        "questionNumber": 25,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "여자가 왜 이 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "신청 방법을 말해 주려고",
+          "행사 장소를 알려 주려고",
+          "행사 날짜를 정하고 싶어서",
+          "더 많은 신청을 받고 싶어서"
+        ],
+        "answer": 1,
+        "explanation": "Correct answer: 2. 행사 장소를 알려 주려고",
+        "transcript": "여자: (딩동댕) 학생회에서 알립니다. 다음 주 금요일에 열리는 '동아리 발표회' 행사가 올해는 체육관에서 열립니다. 작년보다 많은 동아리가 신청을 해서 발표회를 체육관에서 하게 되었습니다. 학생회관으로 가지 마시고, 체육관으로 와 주시기 바랍니다. 재미있는 공연도 볼 수 있으니까 많이 와 주세요. 감사합니다. (댕동딩)"
+      },
+      {
+        "id": "listening-060-topik-i-q026",
+        "questionNumber": 26,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [25~26] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "금요일에 행사 신청을 받습니다.",
+          "공연은 이번 주에 볼 수 있습니다.",
+          "학생회관에서 동아리 발표회를 합니다.",
+          "작년보다 발표를 신청한 동아리가 많습니다."
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 작년보다 발표를 신청한 동아리가 많습니다.",
+        "transcript": "여자: (딩동댕) 학생회에서 알립니다. 다음 주 금요일에 열리는 '동아리 발표회' 행사가 올해는 체육관에서 열립니다. 작년보다 많은 동아리가 신청을 해서 발표회를 체육관에서 하게 되었습니다. 학생회관으로 가지 마시고, 체육관으로 와 주시기 바랍니다. 재미있는 공연도 볼 수 있으니까 많이 와 주세요. 감사합니다. (댕동딩)"
+      },
+      {
+        "id": "listening-060-topik-i-q027",
+        "questionNumber": 27,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "두 사람이 무엇에 대해 이야기를 하고 있는지 고르십시오.",
+        "context": "",
+        "options": [
+          "인기 있는 운동",
+          "운동을 하는 이유",
+          "인터넷 수업의 좋은 점",
+          "인터넷으로 많이 하는 일"
+        ],
+        "answer": 2,
+        "explanation": "Correct answer: 3. 인터넷 수업의 좋은 점",
+        "transcript": "남자: 나도 운동 좀 해야 하는데....... 수미 씨는 요즘 무슨 운동 하세요?\n여자: 저는 인터넷으로 요가 수업을 듣고 있는데, 생각보다 괜찮아요.\n남자: 아, 인터넷으로 운동을 하면 집에서 할 수 있으니까 좋겠네요.\n여자: 네. 그리고 어려우면 화면을 멈추고 자세히 볼 수 있어서 좋아요.\n남자: 필요하면 다시 봐도 되고요.\n여자: 맞아요. 또 시간이 없으면 밤늦게 하거나 아침 일찍 해도 돼요."
+      },
+      {
+        "id": "listening-060-topik-i-q028",
+        "questionNumber": 28,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [27~28] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "여자는 요가를 배우고 있습니다.",
+          "남자는 운동을 열심히 하고 있습니다.",
+          "여자는 남자와 같이 운동을 할 겁니다.",
+          "남자는 여자에게 운동을 소개했습니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 여자는 요가를 배우고 있습니다.",
+        "transcript": "남자: 나도 운동 좀 해야 하는데....... 수미 씨는 요즘 무슨 운동 하세요?\n여자: 저는 인터넷으로 요가 수업을 듣고 있는데, 생각보다 괜찮아요.\n남자: 아, 인터넷으로 운동을 하면 집에서 할 수 있으니까 좋겠네요.\n여자: 네. 그리고 어려우면 화면을 멈추고 자세히 볼 수 있어서 좋아요.\n남자: 필요하면 다시 봐도 되고요.\n여자: 맞아요. 또 시간이 없으면 밤늦게 하거나 아침 일찍 해도 돼요."
+      },
+      {
+        "id": "listening-060-topik-i-q029",
+        "questionNumber": 29,
+        "points": 3,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "남자가 이 책을 쓴 이유를 고르십시오.",
+        "context": "",
+        "options": [
+          "글을 쓰는 것을 좋아해서",
+          "특별한 이야기를 쓰고 싶어서",
+          "한국 문화에 대한 책이 인기가 있어서",
+          "한국 사람의 생활 모습을 소개하고 싶어서"
+        ],
+        "answer": 3,
+        "explanation": "Correct answer: 4. 한국 사람의 생활 모습을 소개하고 싶어서",
+        "transcript": "여자: 작가님의 책이 외국인들에게 인기가 많습니다. 어떤 책인가요?\n남자: 한국인의 재미있는 생활 모습에 대한 책이에요. 방에 신발을 벗고 들어가거나 음식을 자를 때 가위를 사용하는 것처럼요.\n여자: 그런데 어떻게 이런 책을 쓰셨어요?\n남자: 제가 호텔에서 일했는데, 그때 외국 손님들이 한국에 대한 질문을 많이 했어요. 그래서 이런 책을 생각하게 됐죠.\n여자: 그렇군요. 두 번째 책도 준비하고 계세요?\n남자: 네, 외국인들에게 알려 주고 싶은 것이 아직 많아요. 이번에는 한국의 아름다운 장소를 소개하는 책을 써 보려고요."
+      },
+      {
+        "id": "listening-060-topik-i-q030",
+        "questionNumber": 30,
+        "points": 4,
+        "questionType": "text",
+        "instruction": "※ [29~30] 다음을 듣고 물음에 답하십시오. (각 3점)",
+        "question": "들은 내용과 같은 것을 고르십시오.",
+        "context": "",
+        "options": [
+          "남자는 호텔에서 일을 한 적이 있습니다.",
+          "남자는 외국 사람에게 질문을 많이 했습니다.",
+          "남자는 외국인을 위한 책을 여러 권 썼습니다.",
+          "남자는 앞으로 외국 문화에 대한 책을 쓸 겁니다."
+        ],
+        "answer": 0,
+        "explanation": "Correct answer: 1. 남자는 호텔에서 일을 한 적이 있습니다.",
+        "transcript": "여자: 작가님의 책이 외국인들에게 인기가 많습니다. 어떤 책인가요?\n남자: 한국인의 재미있는 생활 모습에 대한 책이에요. 방에 신발을 벗고 들어가거나 음식을 자를 때 가위를 사용하는 것처럼요.\n여자: 그런데 어떻게 이런 책을 쓰셨어요?\n남자: 제가 호텔에서 일했는데, 그때 외국 손님들이 한국에 대한 질문을 많이 했어요. 그래서 이런 책을 생각하게 됐죠.\n여자: 그렇군요. 두 번째 책도 준비하고 계세요?\n남자: 네, 외국인들에게 알려 주고 싶은 것이 아직 많아요. 이번에는 한국의 아름다운 장소를 소개하는 책을 써 보려고요."
+      }
+    ]
   }
 ];
