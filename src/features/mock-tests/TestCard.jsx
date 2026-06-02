@@ -21,7 +21,9 @@ export default function TestCard({ test }) {
         {questionCount} questions
       </p>
       <Link to={`/mock-tests/${test.id}`}>
-        <Button className="mt-5 w-full">Start {isGrammar ? 'grammar' : 'vocabulary'} test</Button>
+        <Button variant={isGrammar ? 'primary' : 'vocab'} className="mt-5 w-full">
+          Start {isGrammar ? 'grammar' : 'vocabulary'} test
+        </Button>
       </Link>
     </Card>
   );

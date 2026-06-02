@@ -2,6 +2,7 @@ import clsx from 'clsx';
 
 const variants = {
   primary: 'bg-brand-600 text-white hover:bg-brand-700 focus-visible:ring-brand-500',
+  vocab: 'bg-gradient-to-r from-coral-500 to-pink-500 text-white shadow-md shadow-coral-500/30 hover:from-coral-600 hover:to-pink-600 focus-visible:ring-coral-500',
   secondary:
     'bg-white text-slate-800 ring-1 ring-slate-200 hover:bg-slate-50 dark:bg-slate-900 dark:text-slate-100 dark:ring-slate-700 dark:hover:bg-slate-800',
   ghost: 'text-slate-700 hover:bg-slate-100 dark:text-slate-200 dark:hover:bg-slate-800',

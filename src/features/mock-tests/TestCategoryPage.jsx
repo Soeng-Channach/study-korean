@@ -1,9 +1,10 @@
 import { useMemo, useState } from 'react';
-import { ArrowLeft, BookOpenCheck, Languages } from 'lucide-react';
+import { BookOpenCheck, Languages } from 'lucide-react';
 import { Link, useParams } from 'react-router-dom';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
 import LevelTabs from '../../components/ui/LevelTabs';
+import StickyHeader from '../../components/ui/StickyHeader';
 import { countByLevel, levelOf } from '../../lib/levels';
 import { mockTests } from '../../data/mockTests';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -27,7 +28,7 @@ export default function TestCategoryPage({ category }) {
   const type = category ?? params.type;
   const config = categoryConfig[type];
   const Icon = config?.icon;
-  const [level, setLevel] = useState('TOPIK II');
+  const [level, setLevel] = useState('TOPIK I');
 
   const typeTests = useMemo(() => mockTests.filter((test) => test.type === type), [type]);
   const levelCounts = useMemo(() => countByLevel(typeTests), [typeTests]);
@@ -46,14 +47,13 @@ export default function TestCategoryPage({ category }) {
 
   return (
     <div className="space-y-5">
-      <Link
-        to="/mock-tests"
-        className="group inline-flex items-center gap-1.5 self-start rounded-full bg-white px-3.5 py-1.5 text-sm font-semibold text-brand-600 shadow-sm ring-1 ring-slate-200 transition hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-slate-900 dark:text-brand-100 dark:ring-slate-700 dark:hover:bg-slate-800 dark:hover:text-brand-100 dark:focus-visible:ring-offset-slate-900"
-      >
-        <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
-        Back to test types
-      </Link>
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+      <StickyHeader>
+        <Link
+          to={isGrammar ? '/mock-tests/vocabulary' : '/mock-tests/grammar'}
+          className={`inline-flex w-fit items-center justify-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-950 ${switchClass}`}
+        >
+          {isGrammar ? 'Vocabulary' : 'Grammar'} Test
+        </Link>
         <div className="flex items-start gap-3">
           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
             <Icon size={24} aria-hidden="true" />
@@ -63,15 +63,8 @@ export default function TestCategoryPage({ category }) {
             <p className="mt-2 max-w-2xl text-sm text-slate-600 dark:text-slate-300">{config.description}</p>
           </div>
         </div>
-        <Link
-          to={isGrammar ? '/mock-tests/vocabulary' : '/mock-tests/grammar'}
-          className={`inline-flex shrink-0 items-center justify-center gap-1.5 self-start rounded-lg px-3 py-1.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-950 ${switchClass}`}
-        >
-          {isGrammar ? 'Vocabulary' : 'Grammar'} Test
-        </Link>
-      </div>
-
-      <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+        <LevelTabs value={level} onChange={setLevel} counts={levelCounts} accent={isGrammar ? 'brand' : 'coral'} />
+      </StickyHeader>
 
       {tests.length === 0 ? (
         <Card className="text-center">

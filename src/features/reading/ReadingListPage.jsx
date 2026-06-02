@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom';
 import Badge from '../../components/ui/Badge';
 import Card from '../../components/ui/Card';
 import LevelTabs from '../../components/ui/LevelTabs';
+import StickyHeader from '../../components/ui/StickyHeader';
 import { countByLevel, levelOf } from '../../lib/levels';
 import { useLearning } from '../../context/LearningContext';
 import { readings } from '../../data/reading';
@@ -21,7 +22,7 @@ function isOfficial(reading) {
 export default function ReadingListPage() {
   usePageMeta('Reading', 'Practice TOPIK reading passages and comprehension questions.');
   const { isReadingCompleted, dispatch } = useLearning();
-  const [level, setLevel] = useState('TOPIK II');
+  const [level, setLevel] = useState('TOPIK I');
 
   const levelCounts = useMemo(() => countByLevel(readings), []);
   const levelReadings = useMemo(() => readings.filter((r) => levelOf(r) === level), [level]);
@@ -40,12 +41,13 @@ export default function ReadingListPage() {
 
   return (
     <div className="space-y-5">
-      <div>
-        <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Reading practice</h2>
-        <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Short passages with immediate answer review.</p>
-      </div>
-
-      <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+      <StickyHeader>
+        <div>
+          <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Reading practice</h2>
+          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Short passages with immediate answer review.</p>
+        </div>
+        <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+      </StickyHeader>
 
       {orderedReadings.length === 0 ? (
         <Card className="text-center">

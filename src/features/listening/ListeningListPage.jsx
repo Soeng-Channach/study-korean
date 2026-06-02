@@ -5,6 +5,7 @@ import Badge from '../../components/ui/Badge';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
 import LevelTabs from '../../components/ui/LevelTabs';
+import StickyHeader from '../../components/ui/StickyHeader';
 import { countByLevel, levelOf } from '../../lib/levels';
 import { useLearning } from '../../context/LearningContext';
 import { listeningTests } from '../../data/listening';
@@ -13,25 +14,26 @@ import { usePageMeta } from '../../hooks/usePageMeta';
 export default function ListeningListPage() {
   usePageMeta('Listening', 'Practice TOPIK listening tests with audio and answer review.');
   const { isListeningCompleted, dispatch } = useLearning();
-  const [level, setLevel] = useState('TOPIK II');
+  const [level, setLevel] = useState('TOPIK I');
 
   const levelCounts = useMemo(() => countByLevel(listeningTests), []);
   const levelTests = useMemo(() => listeningTests.filter((t) => levelOf(t) === level), [level]);
 
   return (
     <div className="space-y-5">
-      <div>
-        <div className="flex items-center gap-2 text-brand-600 dark:text-brand-100">
-          <Headphones size={18} aria-hidden="true" />
-          <p className="text-sm font-semibold">Listening test</p>
+      <StickyHeader>
+        <div>
+          <div className="flex items-center gap-2 text-brand-600 dark:text-brand-100">
+            <Headphones size={18} aria-hidden="true" />
+            <p className="text-sm font-semibold">Listening test</p>
+          </div>
+          <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">Listening library</h2>
+          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+            Play the official audio, answer on one page, then review with transcripts.
+          </p>
         </div>
-        <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">Listening library</h2>
-        <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-          Play the official audio, answer on one page, then review with transcripts.
-        </p>
-      </div>
-
-      <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+        <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+      </StickyHeader>
 
       {levelTests.length ? (
         <div className="grid gap-4 md:grid-cols-2">

@@ -157,7 +157,7 @@ export default function VocabularyQuizPage() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-5">
-      <div className="flex items-center justify-between gap-3">
+      <div className="sticky top-0 z-30 -mx-4 -mt-5 flex items-center justify-between gap-3 border-b border-slate-200 bg-white px-4 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:static sm:mx-0 sm:mt-0 sm:border-0 sm:bg-transparent sm:p-0 sm:shadow-none sm:dark:bg-transparent">
         <Link to="/vocabulary" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 dark:text-brand-100">
           <ArrowLeft size={16} /> Back to vocabulary
         </Link>

@@ -43,7 +43,8 @@ export default function MockTestPage() {
       correct,
       total: questions.length,
       completedAt: new Date().toISOString(),
-      timeExpired: reason === 'timeout'
+      timeExpired: reason === 'timeout',
+      answers: { ...answers }
     };
     dispatch({ type: 'record-test-attempt', attempt });
     navigate(`/mock-tests/${test.id}/result`, { state: attempt });
@@ -88,7 +89,7 @@ export default function MockTestPage() {
 
   return (
     <div className="mx-auto max-w-3xl space-y-4 pb-[calc(7.5rem+env(safe-area-inset-bottom))] sm:space-y-5 lg:pb-0">
-      <div className="sticky -top-5 z-30 -mx-4 -mt-5 border-b border-slate-200 bg-white/95 px-4 py-2.5 shadow-sm backdrop-blur supports-[backdrop-filter]:bg-white/80 dark:border-slate-800 dark:bg-slate-900/95 dark:supports-[backdrop-filter]:bg-slate-900/80 sm:static sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:bg-white sm:px-5 sm:py-3 sm:shadow-soft sm:backdrop-blur-none sm:dark:bg-slate-900">
+      <div className="sticky -top-5 z-30 -mx-4 -mt-5 border-b border-slate-200 bg-white px-4 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:static sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
         <div className="flex items-center justify-between gap-3">
           <div className="min-w-0">
             <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 dark:text-brand-100 sm:text-[11px]">Test progress</p>

@@ -1,10 +1,11 @@
-import { Award, CalendarDays, CheckCircle2, ScanLine, Sparkles, Star, Trophy } from 'lucide-react';
-import { QRCodeSVG } from 'qrcode.react';
+import { ArrowLeft, CalendarDays, CheckCircle2, Target, Trophy, XCircle } from 'lucide-react';
 import { Link, useLocation, useParams } from 'react-router-dom';
+import QuizOption from '../../components/learning/QuizOption';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
 import { useLearning } from '../../context/LearningContext';
+import { mockTests } from '../../data/mockTests';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
 function formatCompletedDate(value) {
@@ -18,7 +19,7 @@ function formatCompletedDate(value) {
 }
 
 export default function MockTestResultPage() {
-  usePageMeta('Mock Test Result', 'Review your TOPIK II mock test score.');
+  usePageMeta('Mock Test Result', 'Review your answers and see which were right or wrong.');
   const { id } = useParams();
   const location = useLocation();
   const { state } = useLearning();
@@ -28,120 +29,109 @@ export default function MockTestResultPage() {
     return <EmptyState title="No result yet" message="Take the mock test first to see a result." />;
   }
 
+  const test = mockTests.find((item) => item.id === attempt.testId);
+  const questions = test ? test.sections.flatMap((section) => section.questions) : [];
+  const answers = attempt.answers || {};
+  const hasAnswers = Object.keys(answers).length > 0;
   const completedDate = formatCompletedDate(attempt.completedAt);
-  const performanceLabel =
-    attempt.score >= 90 ? 'Outstanding Achievement' : attempt.score >= 75 ? 'Strong Completion' : 'Course Completion';
-  const certificateUrl = typeof window !== 'undefined' ? window.location.href : '';
-  const certificateId = `${attempt.testId.toUpperCase()}-${attempt.completedAt ? new Date(attempt.completedAt).getTime() : 'COMPLETE'}`;
+  const passed = attempt.score >= 60;
 
   return (
-    <div className="mx-auto max-w-5xl space-y-5">
-      <div>
-        <p className="text-sm font-semibold text-brand-600 dark:text-brand-100">Test completed</p>
-        <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">Your certificate is ready</h2>
-      </div>
+    <div className="mx-auto max-w-3xl space-y-5">
+      <Link to="/mock-tests" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 dark:text-brand-100">
+        <ArrowLeft size={16} /> Back to tests
+      </Link>
 
-      <section className="relative overflow-hidden rounded-2xl p-[3px] shadow-[0_20px_60px_-15px_rgba(15,23,42,0.25)]">
-        <div className="absolute inset-0 animate-[spin_18s_linear_infinite] bg-[conic-gradient(from_0deg,#fbbf24,#f43f5e,#a855f7,#6366f1,#10b981,#fbbf24)]" aria-hidden="true" />
-        <div className="relative overflow-hidden rounded-[14px] bg-[radial-gradient(circle_at_top_left,#fef3c7,transparent_28%),radial-gradient(circle_at_bottom_right,#e0e7ff,transparent_30%),linear-gradient(135deg,#ffffff_0%,#f8fafc_56%,#eef2ff_100%)] p-6 sm:p-12">
-          <div className="absolute left-5 top-5 h-14 w-14 rounded-tl-xl border-l-[3px] border-t-[3px] border-amber-500/80" aria-hidden="true" />
-          <div className="absolute right-5 top-5 h-14 w-14 rounded-tr-xl border-r-[3px] border-t-[3px] border-amber-500/80" aria-hidden="true" />
-          <div className="absolute bottom-5 left-5 h-14 w-14 rounded-bl-xl border-b-[3px] border-l-[3px] border-amber-500/80" aria-hidden="true" />
-          <div className="absolute bottom-5 right-5 h-14 w-14 rounded-br-xl border-b-[3px] border-r-[3px] border-amber-500/80" aria-hidden="true" />
-
-          <Sparkles className="absolute right-10 top-16 hidden text-amber-400/50 sm:block" size={32} aria-hidden="true" />
-          <Sparkles className="absolute left-12 bottom-24 hidden text-indigo-400/40 sm:block" size={22} aria-hidden="true" />
-          <Star className="absolute right-20 bottom-40 hidden text-rose-400/40 sm:block" size={16} aria-hidden="true" />
-
-          <div className="relative mx-auto max-w-3xl text-center">
-            <div className="relative mx-auto inline-block">
-              <div className="absolute -inset-4 animate-pulse rounded-full bg-amber-300/40 blur-2xl" aria-hidden="true" />
-              <div className="relative mx-auto flex h-24 w-24 items-center justify-center rounded-full bg-gradient-to-br from-amber-300 via-amber-500 to-amber-700 text-white shadow-lg shadow-amber-500/40 ring-4 ring-amber-100">
-                <Trophy aria-hidden="true" size={44} />
-              </div>
-            </div>
-
-            <p className="mt-6 text-xs font-bold uppercase tracking-[0.4em] text-brand-700">TOPIK II Practice</p>
-            <h1 className="mt-3 bg-gradient-to-br from-slate-950 via-brand-700 to-indigo-700 bg-clip-text text-4xl font-black leading-tight text-transparent sm:text-5xl">
-              Certificate of Completion
-            </h1>
-            <p className="mx-auto mt-4 max-w-xl text-sm leading-6 text-slate-600">
-              Awarded for completing a Korean TOPIK II mock test and showing steady commitment to study.
+      <Card className="text-center">
+        <div
+          className={
+            passed
+              ? 'mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-mint-500 to-brand-500 text-white shadow-lg shadow-brand-600/30'
+              : 'mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-coral-500 to-pink-500 text-white shadow-lg shadow-coral-500/30'
+          }
+        >
+          <Trophy size={28} />
+        </div>
+        <h2 className="mt-4 text-2xl font-bold text-slate-950 dark:text-white">{attempt.title}</h2>
+        <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+          {attempt.timeExpired ? 'Time expired — submitted automatically.' : 'Test completed.'}
+        </p>
+        <div className="mt-5 grid grid-cols-3 gap-3">
+          <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+            <p className="text-2xl font-bold text-brand-700 dark:text-brand-100">{attempt.score}%</p>
+            <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Score</p>
+          </div>
+          <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+            <p className="inline-flex items-center gap-1 text-2xl font-bold text-mint-700 dark:text-mint-100">
+              <Target size={18} /> {attempt.correct}/{attempt.total}
             </p>
-
-            <div className="my-8 flex items-center justify-center gap-3">
-              <div className="h-px max-w-xs flex-1 bg-gradient-to-r from-transparent to-amber-400" />
-              <Star className="text-amber-500" size={14} aria-hidden="true" />
-              <div className="h-px max-w-xs flex-1 bg-gradient-to-l from-transparent to-amber-400" />
-            </div>
-
-            <p className="text-xs font-bold uppercase tracking-[0.3em] text-slate-500">Awarded for</p>
-            <h2 className="mt-2 text-3xl font-extrabold text-brand-700 sm:text-4xl">{attempt.title}</h2>
-
-            <div className="mt-8 grid gap-3 sm:grid-cols-3">
-              <div className="rounded-xl border border-amber-200/70 bg-white/80 p-4 shadow-sm backdrop-blur transition hover:-translate-y-0.5 hover:shadow-md">
-                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-brand-50 text-brand-600">
-                  <Award size={20} aria-hidden="true" />
-                </div>
-                <p className="mt-2 text-[10px] font-bold uppercase tracking-wider text-slate-500">Score</p>
-                <p className="mt-1 text-3xl font-black text-slate-950">{attempt.score}%</p>
-              </div>
-              <div className="rounded-xl border border-amber-200/70 bg-white/80 p-4 shadow-sm backdrop-blur transition hover:-translate-y-0.5 hover:shadow-md">
-                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-emerald-50 text-emerald-600">
-                  <CheckCircle2 size={20} aria-hidden="true" />
-                </div>
-                <p className="mt-2 text-[10px] font-bold uppercase tracking-wider text-slate-500">Accuracy</p>
-                <p className="mt-1 text-3xl font-black text-slate-950">{attempt.correct}/{attempt.total}</p>
-              </div>
-              <div className="rounded-xl border border-amber-200/70 bg-white/80 p-4 shadow-sm backdrop-blur transition hover:-translate-y-0.5 hover:shadow-md">
-                <div className="mx-auto flex h-10 w-10 items-center justify-center rounded-full bg-coral-100 text-coral-600">
-                  <CalendarDays size={20} aria-hidden="true" />
-                </div>
-                <p className="mt-2 text-[10px] font-bold uppercase tracking-wider text-slate-500">Date</p>
-                <p className="mt-2 text-sm font-bold text-slate-950">{completedDate}</p>
-              </div>
-            </div>
-
-            <div className="mt-8 inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-slate-950 via-indigo-900 to-slate-950 px-6 py-3 text-sm font-bold text-white shadow-lg shadow-indigo-900/30 ring-2 ring-amber-300/60">
-              <Award aria-hidden="true" size={18} className="text-amber-300" />
-              {performanceLabel}
-            </div>
-
-            <div className="mt-10 grid gap-6 border-t border-amber-200/70 pt-6 sm:grid-cols-3 sm:items-end">
-              <div className="text-left">
-                <p className="text-[10px] font-bold uppercase tracking-[0.25em] text-slate-500">Certificate ID</p>
-                <p className="mt-2 break-all font-mono text-xs font-bold text-slate-800">{certificateId}</p>
-              </div>
-
-              <div className="flex flex-col items-center">
-                <div className="rounded-xl bg-white p-2 shadow-md ring-1 ring-slate-200">
-                  {certificateUrl ? (
-                    <QRCodeSVG
-                      value={certificateUrl}
-                      size={104}
-                      level="M"
-                      marginSize={2}
-                      bgColor="#ffffff"
-                      fgColor="#0f172a"
-                    />
-                  ) : null}
-                </div>
-                <p className="mt-2 inline-flex items-center gap-1 text-[10px] font-bold uppercase tracking-[0.2em] text-slate-500">
-                  <ScanLine size={12} aria-hidden="true" />
-                  Scan to verify
-                </p>
-              </div>
-
-              <div className="text-center sm:text-right">
-                <div className="inline-block min-w-36 border-t-2 border-slate-950 pt-2">
-                  <p className="text-sm font-bold text-slate-950">Korean TOPIK II</p>
-                  <p className="text-xs text-slate-500">Practice Certificate</p>
-                </div>
-              </div>
-            </div>
+            <p className="text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Correct</p>
+          </div>
+          <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+            <p className="inline-flex items-center gap-1 text-sm font-bold text-slate-950 dark:text-white">
+              <CalendarDays size={16} /> {completedDate}
+            </p>
+            <p className="mt-1 text-[11px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">Date</p>
           </div>
         </div>
-      </section>
+      </Card>
+
+      {questions.length === 0 ? (
+        <Card>
+          <p className="text-sm text-slate-600 dark:text-slate-300">
+            This test is no longer available, so the per-question review can&#39;t be shown.
+          </p>
+        </Card>
+      ) : (
+        <div className="space-y-4">
+          <div className="flex items-center justify-between">
+            <h3 className="text-lg font-bold text-slate-950 dark:text-white">Answer review</h3>
+            {!hasAnswers ? (
+              <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">
+                Showing correct answers (your choices weren&#39;t saved for this attempt)
+              </span>
+            ) : null}
+          </div>
+
+          {questions.map((question, index) => {
+            const userAnswer = hasAnswers ? answers[question.id] : undefined;
+            const answered = userAnswer !== undefined && userAnswer !== null;
+            const isCorrect = answered && userAnswer === question.answer;
+            return (
+              <Card key={question.id} className="p-4 sm:p-5">
+                <div className="flex items-start justify-between gap-3">
+                  <h4 className="text-sm font-bold leading-6 text-slate-950 [overflow-wrap:anywhere] dark:text-white sm:text-base">
+                    {index + 1}. {question.prompt}
+                  </h4>
+                  {hasAnswers ? (
+                    isCorrect ? (
+                      <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-mint-100 px-2.5 py-1 text-[11px] font-bold text-mint-700 dark:bg-mint-500/15 dark:text-mint-100">
+                        <CheckCircle2 size={13} /> Correct
+                      </span>
+                    ) : (
+                      <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-coral-100 px-2.5 py-1 text-[11px] font-bold text-coral-700 dark:bg-coral-500/15 dark:text-coral-100">
+                        <XCircle size={13} /> {answered ? 'Wrong' : 'Skipped'}
+                      </span>
+                    )
+                  ) : null}
+                </div>
+                <div className="mt-3 space-y-2.5">
+                  {question.options.map((option, optionIndex) => (
+                    <QuizOption
+                      key={option}
+                      option={option}
+                      selected={userAnswer === optionIndex}
+                      correct={question.answer === optionIndex}
+                      revealed
+                      onClick={() => {}}
+                    />
+                  ))}
+                </div>
+              </Card>
+            );
+          })}
+        </div>
+      )}
 
       <Card>
         <div className="flex flex-col gap-3 sm:flex-row">

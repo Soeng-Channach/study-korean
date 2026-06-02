@@ -11,12 +11,13 @@ import { useLearning } from '../../context/LearningContext';
 import { vocabulary } from '../../data/vocabulary';
 import { usePageMeta } from '../../hooks/usePageMeta';
 import LevelTabs from '../../components/ui/LevelTabs';
+import StickyHeader from '../../components/ui/StickyHeader';
 import { countByLevel, levelOf } from '../../lib/levels';
 
 export default function VocabularyPage() {
   usePageMeta('Vocabulary', 'Review TOPIK I and TOPIK II vocabulary and start offline quizzes.');
   const { vocabProgress, state, isVocabBookmarked, dispatch, getVocabMeaning } = useLearning();
-  const [level, setLevel] = useState('TOPIK II');
+  const [level, setLevel] = useState('TOPIK I');
   const [query, setQuery] = useState('');
   const [posFilter, setPosFilter] = useState('all');
   const [showSavedOnly, setShowSavedOnly] = useState(false);
@@ -55,31 +56,32 @@ export default function VocabularyPage() {
 
   return (
     <div className="space-y-5">
-      <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-        <div className="min-w-0 flex-1">
-          <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Vocabulary</h2>
-          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
-            Review key words and test recognition with a randomized quiz.
-          </p>
+      <StickyHeader>
+        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+          <div className="min-w-0 flex-1">
+            <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Vocabulary</h2>
+            <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+              Review key words and test recognition with a randomized quiz.
+            </p>
+          </div>
+          <div className="flex flex-wrap items-center gap-2">
+            <Link
+              to="/bookmarks"
+              className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1.5 text-sm font-semibold text-amber-700 ring-1 ring-amber-200 transition hover:bg-amber-200 dark:bg-amber-500/15 dark:text-amber-100 dark:ring-amber-500/30 dark:hover:bg-amber-500/25"
+            >
+              <Star size={14} fill="currentColor" />
+              Saved
+              <span className="rounded-full bg-white px-1.5 py-0.5 text-[10px] font-bold text-amber-700 dark:bg-amber-500/20 dark:text-amber-100">
+                {savedCount}
+              </span>
+            </Link>
+            <Link to={`/vocabulary/quiz?level=${encodeURIComponent(level)}`}>
+              <Button icon={Sparkles} disabled={levelWords.length === 0}>Start quiz</Button>
+            </Link>
+          </div>
         </div>
-        <div className="flex flex-wrap items-center gap-2">
-          <Link
-            to="/bookmarks"
-            className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1.5 text-sm font-semibold text-amber-700 ring-1 ring-amber-200 transition hover:bg-amber-200 dark:bg-amber-500/15 dark:text-amber-100 dark:ring-amber-500/30 dark:hover:bg-amber-500/25"
-          >
-            <Star size={14} fill="currentColor" />
-            Saved
-            <span className="rounded-full bg-white px-1.5 py-0.5 text-[10px] font-bold text-amber-700 dark:bg-amber-500/20 dark:text-amber-100">
-              {savedCount}
-            </span>
-          </Link>
-          <Link to={`/vocabulary/quiz?level=${encodeURIComponent(level)}`}>
-            <Button icon={Sparkles} disabled={levelWords.length === 0}>Start quiz</Button>
-          </Link>
-        </div>
-      </div>
-
-      <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
+        <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
+      </StickyHeader>
 
       <Card>
         <ProgressBar value={vocabProgress} label="Words mastered" />
