@@ -10026,7 +10026,7 @@ export const listeningTests = [
     "level": "TOPIK I",
     "topic": "Official Listening Paper",
     "source": "https://www.topikguide.com/mock-tests/102-TOPIK-I-Listening-Mock-Test.html",
-    "audioSrc": "/listening/102nd-topik-i-listening.mp3",
+    "audioSrc": "https://files.topikguide.com/listening/102-TOPIK-I-Listening-Audio-File.mp3",
     "durationMinutes": 42,
     "questions": [
       {
