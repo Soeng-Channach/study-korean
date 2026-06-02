@@ -32,14 +32,20 @@ export default function MockTestResultPage() {
   const test = mockTests.find((item) => item.id === attempt.testId);
   const questions = test ? test.sections.flatMap((section) => section.questions) : [];
   const answers = attempt.answers || {};
-  const hasAnswers = Object.keys(answers).length > 0;
+  // An attempt records `answers` (an object, possibly empty if every question was skipped).
+  // Older attempts saved before answers were tracked have no field — fall back to showing
+  // only the correct answers for those.
+  const hasAnswerData = attempt.answers != null;
   const completedDate = formatCompletedDate(attempt.completedAt);
   const passed = attempt.score >= 60;
 
   return (
     <div className="mx-auto max-w-3xl space-y-5">
-      <Link to="/mock-tests" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 dark:text-brand-100">
-        <ArrowLeft size={16} /> Back to tests
+      <Link
+        to="/mock-tests"
+        className="group sticky -top-5 z-20 inline-flex w-fit items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-3.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900"
+      >
+        <ArrowLeft size={16} className="transition-transform group-hover:-translate-x-0.5" /> Back to tests
       </Link>
 
       <Card className="text-center">
@@ -86,7 +92,7 @@ export default function MockTestResultPage() {
         <div className="space-y-4">
           <div className="flex items-center justify-between">
             <h3 className="text-lg font-bold text-slate-950 dark:text-white">Answer review</h3>
-            {!hasAnswers ? (
+            {!hasAnswerData ? (
               <span className="text-xs font-semibold text-slate-500 dark:text-slate-400">
                 Showing correct answers (your choices weren&#39;t saved for this attempt)
               </span>
@@ -94,7 +100,7 @@ export default function MockTestResultPage() {
           </div>
 
           {questions.map((question, index) => {
-            const userAnswer = hasAnswers ? answers[question.id] : undefined;
+            const userAnswer = hasAnswerData ? answers[question.id] : undefined;
             const answered = userAnswer !== undefined && userAnswer !== null;
             const isCorrect = answered && userAnswer === question.answer;
             return (
@@ -103,7 +109,7 @@ export default function MockTestResultPage() {
                   <h4 className="text-sm font-bold leading-6 text-slate-950 [overflow-wrap:anywhere] dark:text-white sm:text-base">
                     {index + 1}. {question.prompt}
                   </h4>
-                  {hasAnswers ? (
+                  {hasAnswerData ? (
                     isCorrect ? (
                       <span className="inline-flex shrink-0 items-center gap-1 rounded-full bg-mint-100 px-2.5 py-1 text-[11px] font-bold text-mint-700 dark:bg-mint-500/15 dark:text-mint-100">
                         <CheckCircle2 size={13} /> Correct

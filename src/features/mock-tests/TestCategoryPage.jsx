@@ -1,11 +1,11 @@
 import { useMemo, useState } from 'react';
 import { BookOpenCheck, Languages } from 'lucide-react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
 import LevelTabs from '../../components/ui/LevelTabs';
 import StickyHeader from '../../components/ui/StickyHeader';
-import { countByLevel, levelOf } from '../../lib/levels';
+import { countByLevel, levelOf, LEVELS } from '../../lib/levels';
 import { mockTests } from '../../data/mockTests';
 import { usePageMeta } from '../../hooks/usePageMeta';
 import TestCard from './TestCard';
@@ -25,10 +25,16 @@ const categoryConfig = {
 
 export default function TestCategoryPage({ category }) {
   const params = useParams();
+  const [searchParams] = useSearchParams();
   const type = category ?? params.type;
   const config = categoryConfig[type];
   const Icon = config?.icon;
-  const [level, setLevel] = useState('TOPIK I');
+  // Open the tab matching the level passed back from a test (e.g. "Back to tests"),
+  // falling back to TOPIK I for direct visits.
+  const requestedLevel = searchParams.get('level');
+  const [level, setLevel] = useState(
+    LEVELS.includes(requestedLevel) ? requestedLevel : 'TOPIK I'
+  );
 
   const typeTests = useMemo(() => mockTests.filter((test) => test.type === type), [type]);
   const levelCounts = useMemo(() => countByLevel(typeTests), [typeTests]);

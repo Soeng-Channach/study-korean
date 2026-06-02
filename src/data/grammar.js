@@ -4514,8 +4514,8 @@ function getEasyCoreMeaning(lesson) {
 }
 
 function getEasyExplanation(lesson, coreMeaning) {
-  const tip = easyCategoryTips[lesson.category] ?? 'Use it to make this meaning in a sentence.';
-  return `Use this grammar to mean "${coreMeaning}". ${tip}`;
+  const tip = easyCategoryTips[lesson.category] ?? 'Use it in a sentence to show this meaning.';
+  return `This grammar means "${coreMeaning}". ${tip}`;
 }
 
 const usageOverrides = {

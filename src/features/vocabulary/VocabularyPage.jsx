@@ -81,77 +81,77 @@ export default function VocabularyPage() {
           </div>
         </div>
         <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
-      </StickyHeader>
 
-      <Card>
-        <ProgressBar value={vocabProgress} label="Words mastered" />
-        <p className="mt-3 text-sm text-slate-500 dark:text-slate-400">
-          {state.vocabularyStats.correctAnswers} correct from {state.vocabularyStats.totalAnswered} answers
-        </p>
-      </Card>
+        <Card>
+          <ProgressBar value={vocabProgress} label="Words mastered" />
+          <p className="mt-3 text-sm text-slate-500 dark:text-slate-400">
+            {state.vocabularyStats.correctAnswers} correct from {state.vocabularyStats.totalAnswered} answers
+          </p>
+        </Card>
 
-      <div className="space-y-3">
-        <div className="relative">
-          <Search
-            size={16}
-            className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"
-            aria-hidden="true"
-          />
-          <input
-            type="search"
-            value={query}
-            onChange={(e) => setQuery(e.target.value)}
-            placeholder="Search Korean, meaning, or example..."
-            className="w-full rounded-lg border border-slate-200 bg-white py-2.5 pl-9 pr-9 text-sm text-slate-800 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500"
-          />
-          {query ? (
+        <div className="space-y-3">
+          <div className="relative">
+            <Search
+              size={16}
+              className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"
+              aria-hidden="true"
+            />
+            <input
+              type="search"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search Korean, meaning, or example..."
+              className="w-full rounded-lg border border-slate-200 bg-white py-2.5 pl-9 pr-9 text-sm text-slate-800 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500"
+            />
+            {query ? (
+              <button
+                type="button"
+                onClick={() => setQuery('')}
+                className="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200"
+                aria-label="Clear search"
+              >
+                <X size={14} />
+              </button>
+            ) : null}
+          </div>
+
+          <div className="flex flex-wrap gap-2">
             <button
               type="button"
-              onClick={() => setQuery('')}
-              className="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200"
-              aria-label="Clear search"
+              onClick={() => setShowSavedOnly((v) => !v)}
+              className={
+                showSavedOnly
+                  ? 'inline-flex items-center gap-1 rounded-full bg-amber-500 px-3 py-1 text-xs font-semibold text-white shadow-sm'
+                  : 'inline-flex items-center gap-1 rounded-full border border-amber-300 bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700 transition hover:bg-amber-100 dark:border-amber-500/40 dark:bg-amber-500/10 dark:text-amber-100 dark:hover:bg-amber-500/20'
+              }
+              aria-pressed={showSavedOnly}
             >
-              <X size={14} />
+              <Star size={12} fill="currentColor" />
+              Saved
             </button>
-          ) : null}
+            {partsOfSpeech.map((pos) => {
+              const active = posFilter === pos;
+              return (
+                <button
+                  key={pos}
+                  type="button"
+                  onClick={() => setPosFilter(pos)}
+                  className={
+                    active
+                      ? 'rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold capitalize text-white shadow-sm'
+                      : 'rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold capitalize text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
+                  }
+                >
+                  {pos}
+                </button>
+              );
+            })}
+            <span className="ml-auto self-center text-xs font-semibold text-slate-500 dark:text-slate-400">
+              {filtered.length} of {levelWords.length}
+            </span>
+          </div>
         </div>
-
-        <div className="flex flex-wrap gap-2">
-          <button
-            type="button"
-            onClick={() => setShowSavedOnly((v) => !v)}
-            className={
-              showSavedOnly
-                ? 'inline-flex items-center gap-1 rounded-full bg-amber-500 px-3 py-1 text-xs font-semibold text-white shadow-sm'
-                : 'inline-flex items-center gap-1 rounded-full border border-amber-300 bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700 transition hover:bg-amber-100 dark:border-amber-500/40 dark:bg-amber-500/10 dark:text-amber-100 dark:hover:bg-amber-500/20'
-            }
-            aria-pressed={showSavedOnly}
-          >
-            <Star size={12} fill="currentColor" />
-            Saved
-          </button>
-          {partsOfSpeech.map((pos) => {
-            const active = posFilter === pos;
-            return (
-              <button
-                key={pos}
-                type="button"
-                onClick={() => setPosFilter(pos)}
-                className={
-                  active
-                    ? 'rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold capitalize text-white shadow-sm'
-                    : 'rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold capitalize text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
-                }
-              >
-                {pos}
-              </button>
-            );
-          })}
-          <span className="ml-auto self-center text-xs font-semibold text-slate-500 dark:text-slate-400">
-            {filtered.length} of {levelWords.length}
-          </span>
-        </div>
-      </div>
+      </StickyHeader>
 
       {filtered.length === 0 ? (
         <Card className="text-center">

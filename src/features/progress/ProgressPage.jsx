@@ -1,4 +1,5 @@
-import { BookOpen, Headphones, Lock, Newspaper } from 'lucide-react';
+import { ArrowLeft, BookOpen, Headphones, Lock, Newspaper } from 'lucide-react';
+import { useNavigate } from 'react-router-dom';
 import CompletionCertificate from '../../components/learning/CompletionCertificate';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -13,7 +14,19 @@ const pct = (done, total) => (total ? Math.round((done / total) * 100) : 0);
 
 export default function ProgressPage() {
   usePageMeta('Progress', 'Track offline TOPIK study progress and earn your certificate.');
+  const navigate = useNavigate();
   const { state, grammarProgress, vocabProgress, dispatch } = useLearning();
+
+  // Return to the previous screen (e.g. the test result page), falling back to the
+  // dashboard when there is no in-app history — Progress isn't on the mobile nav bar.
+  const handleBack = () => {
+    const historyIndex = window.history.state?.idx;
+    if (typeof historyIndex === 'number' && historyIndex > 0) {
+      navigate(-1);
+    } else {
+      navigate('/');
+    }
+  };
 
   const grammarDone = state.completedGrammarIds.length;
   const readingDone = state.completedReadingIds.length;
@@ -38,6 +51,13 @@ export default function ProgressPage() {
 
   return (
     <div className="space-y-5">
+      <button
+        type="button"
+        onClick={handleBack}
+        className="group sticky -top-5 z-20 inline-flex w-fit items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-3.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900"
+      >
+        <ArrowLeft size={16} className="transition-transform group-hover:-translate-x-0.5" /> Back
+      </button>
       <div>
         <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Progress tracking</h2>
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Your progress is stored offline on this device.</p>
