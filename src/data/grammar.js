@@ -5099,8 +5099,47 @@ function getEasyCoreMeaning(lesson) {
   return easyMeaningOverrides[lesson.id] ?? lesson.coreMeaning ?? lesson.meaning;
 }
 
+function polishTopikIExplanation(explanation) {
+  if (!explanation) return explanation;
+
+  const replacements = [
+    [/^Talks about the future or a guess\.$/, 'Used to talk about the future or make a guess.'],
+    [/^Shows (.+)\.$/, 'Used to show $1.'],
+    [/^Means (.+)\.$/, 'Used to mean $1.'],
+    [/^Gives (.+)\.$/, 'Used to give $1.'],
+    [/^Says (.+)\.$/, 'Used to say $1.'],
+    [/^Asks (.+)\.$/, 'Used to ask $1.'],
+    [/^Connects (.+)\.$/, 'Used to connect $1.'],
+    [/^Compares (.+)\.$/, 'Used to compare $1.'],
+    [/^Tells (.+)\.$/, 'Used to tell $1.'],
+    [/^Makes (.+)\.$/, 'Used to make $1.'],
+    [/^Checks (.+)\.$/, 'Used to check $1.'],
+    [/^Softly starts (.+)\.$/, 'Used to softly start $1.'],
+    [/^Softly says (.+)\.$/, 'Used to softly say $1.'],
+    [/^Use for (.+)\.$/, 'Used for $1.'],
+    [/^Use to (.+)\.$/, 'Used to $1.'],
+    [/^Polite request or command\.$/, 'Used as a polite request or command.'],
+    [/^Formal polite request or command\.$/, 'Used as a formal polite request or command.'],
+    [/^Formal polite question ending\.$/, 'Used as a formal polite question ending.'],
+    [/^Formal polite statement ending\.$/, 'Used as a formal polite statement ending.'],
+    [/^Informal polite sentence ending\.$/, 'Used as an informal polite sentence ending.']
+  ];
+
+  for (const [pattern, replacement] of replacements) {
+    if (pattern.test(explanation)) {
+      return explanation.replace(pattern, replacement);
+    }
+  }
+
+  return explanation;
+}
+
 function getEasyExplanation(lesson, coreMeaning) {
-  if (lesson.explanation) return lesson.explanation;
+  if (lesson.explanation) {
+    return lesson.level === 'TOPIK I'
+      ? polishTopikIExplanation(lesson.explanation)
+      : lesson.explanation;
+  }
 
   const tip = easyCategoryTips[lesson.category] ?? 'Use it in a sentence to show this meaning.';
   return `${lesson.pattern} expresses ${coreMeaning}. ${tip}`;
