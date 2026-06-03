@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { Star } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import GrammarCard from '../../components/learning/GrammarCard';
 import Card from '../../components/ui/Card';
 import LevelTabs from '../../components/ui/LevelTabs';
@@ -14,7 +14,11 @@ export default function GrammarListPage() {
   usePageMeta('Grammar', 'Learn essential TOPIK I and TOPIK II grammar patterns with examples and bookmarks.');
   const { state } = useLearning();
   const savedCount = state.bookmarkedGrammarIds.length;
-  const [level, setLevel] = useState('TOPIK I');
+  // Keep the selected level in the URL so it survives navigating into a lesson
+  // and back (both the in-app "Back" link and the browser back button).
+  const [searchParams, setSearchParams] = useSearchParams();
+  const level = searchParams.get('level') === 'TOPIK II' ? 'TOPIK II' : 'TOPIK I';
+  const setLevel = (next) => setSearchParams({ level: next }, { replace: true });
 
   const levelCounts = useMemo(() => countByLevel(grammarLessons), []);
   const lessons = useMemo(() => grammarLessons.filter((l) => levelOf(l) === level), [level]);
@@ -53,7 +57,7 @@ export default function GrammarListPage() {
       ) : (
         <div className="grid gap-4 md:grid-cols-2">
           {lessons.map((lesson) => (
-            <GrammarCard key={lesson.id} lesson={lesson} />
+            <GrammarCard key={lesson.id} lesson={lesson} level={level} />
           ))}
         </div>
       )}

@@ -5,11 +5,13 @@ import Badge from '../ui/Badge';
 import Card from '../ui/Card';
 import { UsageGuideCompact } from './UsageGuide';
 
-export default function GrammarCard({ lesson }) {
+export default function GrammarCard({ lesson, level }) {
   const { isGrammarBookmarked, isGrammarCompleted, dispatch, getGrammarCoreMeaning } = useLearning();
   const bookmarked = isGrammarBookmarked(lesson.id);
   const completed = isGrammarCompleted(lesson.id);
   const coreMeaning = getGrammarCoreMeaning(lesson);
+  // Carry the originating level so the detail page can return to the same tab.
+  const detailPath = level ? `/grammar/${lesson.id}?level=${encodeURIComponent(level)}` : `/grammar/${lesson.id}`;
 
   return (
     <Card className="transition hover:-translate-y-0.5 hover:shadow-soft">
@@ -30,7 +32,7 @@ export default function GrammarCard({ lesson }) {
         </button>
       </div>
       <div className="mt-3 rounded-xl border-2 border-coral-500/80 bg-gradient-to-br from-coral-100/60 via-white to-white p-3 shadow-[0_4px_18px_-8px_rgba(244,63,94,0.4)] dark:from-coral-500/10 dark:via-slate-900 dark:to-slate-900 sm:p-4">
-        <Link to={`/grammar/${lesson.id}`} className="text-xl font-bold text-slate-950 hover:text-coral-700 dark:text-white dark:hover:text-coral-100">
+        <Link to={detailPath} className="text-xl font-bold text-slate-950 hover:text-coral-700 dark:text-white dark:hover:text-coral-100">
           {lesson.pattern}
         </Link>
         <div className="mt-2.5 rounded-lg border border-coral-200 bg-white/80 px-3 py-2 dark:border-coral-500/30 dark:bg-slate-800/60">
@@ -46,7 +48,7 @@ export default function GrammarCard({ lesson }) {
       </div>
       <div className="mt-4 flex items-center justify-center">
         <Link
-          to={`/grammar/${lesson.id}`}
+          to={detailPath}
           className="group inline-flex items-center justify-center gap-2 rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-5 py-2 text-sm font-semibold text-white shadow-md shadow-brand-600/25 transition hover:-translate-y-0.5 hover:shadow-lg hover:shadow-brand-600/40 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-400 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900 sm:px-6 sm:py-2.5"
         >
           Study lesson

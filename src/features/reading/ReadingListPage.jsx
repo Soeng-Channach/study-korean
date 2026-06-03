@@ -1,6 +1,6 @@
-import { useMemo, useState } from 'react';
+import { useMemo } from 'react';
 import { Check } from 'lucide-react';
-import { Link } from 'react-router-dom';
+import { Link, useSearchParams } from 'react-router-dom';
 import Badge from '../../components/ui/Badge';
 import Card from '../../components/ui/Card';
 import LevelTabs from '../../components/ui/LevelTabs';
@@ -22,7 +22,11 @@ function isOfficial(reading) {
 export default function ReadingListPage() {
   usePageMeta('Reading', 'Practice TOPIK reading passages and comprehension questions.');
   const { isReadingCompleted, dispatch } = useLearning();
-  const [level, setLevel] = useState('TOPIK I');
+  // Keep the selected level in the URL so it survives opening a reading and
+  // coming back (both the in-app "Back" link and the browser back button).
+  const [searchParams, setSearchParams] = useSearchParams();
+  const level = searchParams.get('level') === 'TOPIK II' ? 'TOPIK II' : 'TOPIK I';
+  const setLevel = (next) => setSearchParams({ level: next }, { replace: true });
 
   const levelCounts = useMemo(() => countByLevel(readings), []);
   const levelReadings = useMemo(() => readings.filter((r) => levelOf(r) === level), [level]);
@@ -65,7 +69,7 @@ export default function ReadingListPage() {
             : reading.passage || `${questionCount} questions on one page`;
           const done = isReadingCompleted(reading.id);
           return (
-          <Link key={reading.id} to={`/reading/${reading.id}`}>
+          <Link key={reading.id} to={`/reading/${reading.id}?level=${encodeURIComponent(level)}`}>
             <Card className="h-full transition hover:-translate-y-0.5 hover:shadow-soft">
               <div className="flex items-start justify-between gap-2">
                 <div className="flex flex-wrap gap-2">

@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
-import { Link, useParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, Check, Clock, Download, FileText } from 'lucide-react';
 import PdfViewer from '../../components/library/PdfViewer';
 import Badge from '../../components/ui/Badge';
@@ -107,6 +107,9 @@ function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, reveal
 
 export default function ReadingDetailPage() {
   const { id } = useParams();
+  const [searchParams] = useSearchParams();
+  const backLevel = searchParams.get('level');
+  const backToReading = backLevel ? `/reading?level=${encodeURIComponent(backLevel)}` : '/reading';
   const reading = readings.find((item) => item.id === id);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [revealed, setRevealed] = useState(false);
@@ -177,7 +180,7 @@ export default function ReadingDetailPage() {
       <article className="mx-auto flex h-[calc(100vh-12rem)] max-w-5xl flex-col gap-3 lg:h-[calc(100vh-7rem)]">
         <div className="flex flex-wrap items-center gap-2">
           <Link
-            to="/reading"
+            to={backToReading}
             className="group inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1.5 text-sm font-semibold text-brand-600 shadow-sm ring-1 ring-slate-200 transition hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-200 dark:bg-slate-900 dark:text-brand-100 dark:ring-slate-700 dark:hover:bg-slate-800"
           >
             <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
@@ -275,7 +278,7 @@ export default function ReadingDetailPage() {
   return (
     <article className="mx-auto max-w-4xl space-y-5 pb-[calc(7rem+max(env(safe-area-inset-bottom),0.5rem))] lg:pb-0">
       <Link
-        to="/reading"
+        to={backToReading}
         className="group sticky -top-5 z-40 inline-flex w-fit items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-3.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900"
       >
         <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
