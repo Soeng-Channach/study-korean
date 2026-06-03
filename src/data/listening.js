@@ -12243,8 +12243,11 @@ export const listeningTests = [
     "level": "TOPIK I",
     "topic": "Official Listening Paper",
     "source": "https://www.topikguide.com/mock-tests/64-TOPIK-I-Listening-Mock-Test.html",
-    "audioSrc": "https://files.topikguide.com/listening/64-TOPIK-I-Listening-Audio-File.mp3",
+    "paperSrc": "/topik/64/64th-TOPIK-I-Listening-Test-Paper.pdf",
+    "answerSheetSrc": "/topik/64/64th-TOPIK-I-Listening-Answers.pdf",
+    "audioSrc": "/topik/64/64-TOPIK-I-Listening-Audio-File.mp3",
     "durationMinutes": 42,
+    "questionCount": 30,
     "questions": [
       {
         "id": "listening-064-topik-i-q001",

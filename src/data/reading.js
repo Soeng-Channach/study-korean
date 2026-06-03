@@ -1,5 +1,18 @@
 export const readings = [
   {
+    "id": "reading-064-topik-i",
+    "title": "64th TOPIK I Reading Test",
+    "level": "TOPIK I",
+    "topic": "Official Reading Paper",
+    "source": "Local official paper",
+    "paperSrc": "/topik/64/64th-TOPIK-I-Reading-Test-Paper.pdf",
+    "answerSheetSrc": "/topik/64/64th-TOPIK-I-Reading-Answers.pdf",
+    "durationMinutes": 60,
+    "questionCount": 40,
+    "passage": "",
+    "questions": []
+  },
+  {
     "id": "reading-035-topik-i",
     "title": "35th TOPIK I Reading Test",
     "level": "TOPIK I",
