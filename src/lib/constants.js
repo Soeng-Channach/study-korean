@@ -7,11 +7,11 @@ export const STORAGE_KEYS = {
 
 export const navItems = [
   { label: 'Home', path: '/', icon: 'LayoutDashboard' },
+  { label: 'Vocab', path: '/vocabulary', icon: 'Languages' },
   { label: 'Grammar', path: '/grammar', icon: 'BookOpen' },
   { label: 'Reading', path: '/reading', icon: 'Newspaper' },
-  { label: 'Vocab', path: '/vocabulary', icon: 'Languages' },
-  { label: 'Tests', path: '/mock-tests', icon: 'ClipboardCheck' },
   { label: 'Listen', path: '/listening', icon: 'Headphones' },
+  { label: 'Tests', path: '/mock-tests', icon: 'ClipboardCheck' },
   { label: 'Saved', path: '/bookmarks', icon: 'Star' },
   { label: 'Progress', path: '/progress', icon: 'ChartNoAxesColumnIncreasing' }
 ];
