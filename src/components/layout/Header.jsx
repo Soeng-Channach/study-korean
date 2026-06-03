@@ -1,7 +1,8 @@
-import { Moon, Search, Sun } from 'lucide-react';
+import { Moon, Sun } from 'lucide-react';
 import { useTheme } from '../../context/ThemeContext';
 import { useOnlineStatus } from '../../hooks/useOnlineStatus';
 import Badge from '../ui/Badge';
+import GlobalSearch from './GlobalSearch';
 
 export default function Header() {
   const { isDark, toggleTheme } = useTheme();
@@ -17,9 +18,8 @@ export default function Header() {
           <h1 className="truncate text-lg font-bold text-slate-950 dark:text-white">Study dashboard</h1>
         </div>
         <div className="hidden min-w-0 flex-1 items-center justify-center md:flex">
-          <div className="flex w-full max-w-sm items-center gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2 text-sm text-slate-500 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-400">
-            <Search size={16} aria-hidden="true" />
-            <span>Search lessons, words, tests</span>
+          <div className="w-full max-w-md">
+            <GlobalSearch />
           </div>
         </div>
         <div className="flex items-center gap-2">

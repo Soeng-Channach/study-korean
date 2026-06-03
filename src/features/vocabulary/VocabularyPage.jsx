@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
+import { useEffect, useMemo, useState } from 'react';
+import { Link, useSearchParams } from 'react-router-dom';
 import { Search, Sparkles, Star, X } from 'lucide-react';
 import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
 import Badge from '../../components/ui/Badge';
@@ -17,9 +17,21 @@ import { countByLevel, levelOf } from '../../lib/levels';
 export default function VocabularyPage() {
   usePageMeta('Vocabulary', 'Review TOPIK I and TOPIK II vocabulary and start offline quizzes.');
   const { vocabProgress, state, isVocabBookmarked, dispatch, getVocabMeaning } = useLearning();
-  const [level, setLevel] = useState('TOPIK I');
-  const [query, setQuery] = useState('');
+  const [searchParams] = useSearchParams();
+  const paramLevel = searchParams.get('level');
+  const [level, setLevel] = useState(() =>
+    paramLevel === 'TOPIK I' || paramLevel === 'TOPIK II' ? paramLevel : 'TOPIK I'
+  );
+  const [query, setQuery] = useState(() => searchParams.get('q') || '');
   const [posFilter, setPosFilter] = useState('all');
+
+  // Sync with the global search when it deep-links here (e.g. /vocabulary?q=환경).
+  useEffect(() => {
+    const q = searchParams.get('q');
+    const l = searchParams.get('level');
+    if (q !== null) setQuery(q);
+    if (l === 'TOPIK I' || l === 'TOPIK II') setLevel(l);
+  }, [searchParams]);
   const [showSavedOnly, setShowSavedOnly] = useState(false);
   const savedCount = (state.bookmarkedVocabIds || []).length;
 
