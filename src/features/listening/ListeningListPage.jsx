@@ -42,6 +42,7 @@ export default function ListeningListPage() {
             return [...levelTests].sort((a, b) => examRound(b) - examRound(a));
           })().map((test) => {
             const done = isListeningCompleted(test.id);
+            const questionCount = test.questionCount || test.questions.length;
             return (
               <Link key={test.id} to={`/listening/${test.id}`}>
                 <Card className="h-full transition hover:-translate-y-0.5 hover:shadow-soft">
@@ -49,7 +50,7 @@ export default function ListeningListPage() {
                     <div className="flex flex-wrap gap-2">
                       <Badge tone="blue">{test.level}</Badge>
                       {test.topic && test.topic !== 'Official Listening Paper' ? <Badge>{test.topic}</Badge> : null}
-                      <Badge tone="slate">{test.questions.length} questions</Badge>
+                      <Badge tone="slate">{questionCount} questions</Badge>
                       {done ? <Badge tone="green">Completed</Badge> : null}
                     </div>
                     <button
@@ -75,7 +76,9 @@ export default function ListeningListPage() {
                   </div>
                   <h3 className="mt-4 text-xl font-bold text-slate-950 dark:text-white">{test.title}</h3>
                   <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
-                    {test.durationMinutes} minutes with local audio and instant answer review.
+                    {test.paperSrc
+                      ? `${test.durationMinutes} minutes with official PDF paper and audio.`
+                      : `${test.durationMinutes} minutes with local audio and instant answer review.`}
                   </p>
                 </Card>
               </Link>

@@ -2663,9 +2663,17 @@ const grammarLessonData = [
       {
         "korean": "날씨가 좋아요.",
         "english": "The weather is good."
+      },
+      {
+        "korean": "책이 재미있어요.",
+        "english": "The book is interesting."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "은/는",
+      "께서",
+      "이/가 아니다"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2682,9 +2690,16 @@ const grammarLessonData = [
       {
         "korean": "선생님은 지금 안 계세요.",
         "english": "The teacher is not here now."
+      },
+      {
+        "korean": "저는 학생이에요.",
+        "english": "I am a student."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "이/가",
+      "도"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2701,9 +2716,16 @@ const grammarLessonData = [
       {
         "korean": "책을 읽어요.",
         "english": "I am reading a book."
+      },
+      {
+        "korean": "영화를 봐요.",
+        "english": "I watch a movie."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "이/가",
+      "은/는"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2720,9 +2742,16 @@ const grammarLessonData = [
       {
         "korean": "소설책과 교과서를 가져왔어요.",
         "english": "I brought a novel and a textbook."
+      },
+      {
+        "korean": "엄마와 아빠가 오셨어요.",
+        "english": "My mom and dad came."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(이)랑",
+      "하고"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2739,9 +2768,16 @@ const grammarLessonData = [
       {
         "korean": "설렁탕이랑 김밥 주세요.",
         "english": "Please give me seolleongtang and kimbap."
+      },
+      {
+        "korean": "사과랑 바나나를 샀어요.",
+        "english": "I bought apples and bananas."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "하고",
+      "와/과"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2758,9 +2794,16 @@ const grammarLessonData = [
       {
         "korean": "친구랑 같이 왔어요.",
         "english": "I came with a friend."
+      },
+      {
+        "korean": "동생이랑 영화를 봤어요.",
+        "english": "I watched a movie with my younger sibling."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "하고",
+      "와/과"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2777,9 +2820,16 @@ const grammarLessonData = [
       {
         "korean": "양념 치킨하고 맥주 주세요.",
         "english": "Please give me yangnyeom chicken and beer."
+      },
+      {
+        "korean": "빵하고 우유를 먹어요.",
+        "english": "I eat bread and milk."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "와/과",
+      "(이)랑"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2796,9 +2846,16 @@ const grammarLessonData = [
       {
         "korean": "내일도 오늘도 비가 와요.",
         "english": "It is raining today and tomorrow too."
+      },
+      {
+        "korean": "저도 가고 싶어요.",
+        "english": "I want to go too."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "은/는",
+      "만"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2815,9 +2872,16 @@ const grammarLessonData = [
       {
         "korean": "남대문 시장에 가고 싶어요.",
         "english": "I want to go to Namdaemun market."
+      },
+      {
+        "korean": "학교에 가요.",
+        "english": "I go to school."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "에서",
+      "(으)로"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2834,9 +2898,16 @@ const grammarLessonData = [
       {
         "korean": "공항에서 지하철 타고 왔어요.",
         "english": "I came by subway from the airport."
+      },
+      {
+        "korean": "집에서 쉬어요.",
+        "english": "I rest at home."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "에",
+      "부터"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2853,9 +2924,16 @@ const grammarLessonData = [
       {
         "korean": "강남까지 가고 싶어요.",
         "english": "I want to go to Gangnam."
+      },
+      {
+        "korean": "저녁까지 일했어요.",
+        "english": "I worked until evening."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "부터",
+      "에"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2872,9 +2950,16 @@ const grammarLessonData = [
       {
         "korean": "지하철은 아침 5시부터 운영해요.",
         "english": "The subway runs from 5 a.m."
+      },
+      {
+        "korean": "오늘부터 운동할 거예요.",
+        "english": "I will exercise from today."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "까지",
+      "에서"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2891,9 +2976,16 @@ const grammarLessonData = [
       {
         "korean": "저는 부산으로 가요.",
         "english": "I am going to Busan."
+      },
+      {
+        "korean": "젓가락으로 먹어요.",
+        "english": "I eat with chopsticks."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "에",
+      "에서"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2910,9 +3002,16 @@ const grammarLessonData = [
       {
         "korean": "부모님께 드리고 싶어요.",
         "english": "I want to give it to my parents."
+      },
+      {
+        "korean": "선생님께 질문했어요.",
+        "english": "I asked the teacher a question."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "에게",
+      "한테"
+    ],
     "tags": [
       "topik-i",
       "honorifics"
@@ -2929,9 +3028,16 @@ const grammarLessonData = [
       {
         "korean": "할머니께서 부탁하셨어요.",
         "english": "My grandmother asked me."
+      },
+      {
+        "korean": "아버지께서 신문을 읽으세요.",
+        "english": "My father reads the newspaper."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "이/가",
+      "께"
+    ],
     "tags": [
       "topik-i",
       "honorifics"
@@ -2948,9 +3054,16 @@ const grammarLessonData = [
       {
         "korean": "우리 엄마에게 주고 싶어요.",
         "english": "I want to give it to my mother."
+      },
+      {
+        "korean": "친구에게 편지를 썼어요.",
+        "english": "I wrote a letter to my friend."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "한테",
+      "께"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2967,9 +3080,16 @@ const grammarLessonData = [
       {
         "korean": "호텔 직원에게서 받았어요.",
         "english": "I got it from the hotel staff."
+      },
+      {
+        "korean": "친구에게서 연락이 왔어요.",
+        "english": "I got a call from my friend."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "한테서",
+      "에게"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -2986,9 +3106,16 @@ const grammarLessonData = [
       {
         "korean": "백화점 안내원한테 물어보세요.",
         "english": "Please ask the department store receptionist."
+      },
+      {
+        "korean": "동생한테 선물을 줬어요.",
+        "english": "I gave a present to my younger sibling."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "에게",
+      "께"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -3005,9 +3132,16 @@ const grammarLessonData = [
       {
         "korean": "이거는 친구한테서 선물로 받은 거예요.",
         "english": "I got this as a present from my friend."
+      },
+      {
+        "korean": "엄마한테서 용돈을 받았어요.",
+        "english": "I got allowance from my mom."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "에게서",
+      "한테"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -3024,9 +3158,16 @@ const grammarLessonData = [
       {
         "korean": "버스나 지하철 타고 갈게요.",
         "english": "I will take a bus or subway."
+      },
+      {
+        "korean": "커피나 차를 마셔요.",
+        "english": "I drink coffee or tea."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "거나",
+      "(이)랑"
+    ],
     "tags": [
       "topik-i",
       "choice"
@@ -3043,9 +3184,16 @@ const grammarLessonData = [
       {
         "korean": "밥이나 먹으러 가고 싶어요.",
         "english": "I just want to go eat."
+      },
+      {
+        "korean": "심심한데 영화나 볼까요?",
+        "english": "I'm bored, shall we just watch a movie?"
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "거나",
+      "(으)ㄹ래요"
+    ],
     "tags": [
       "topik-i",
       "choice"
@@ -3062,9 +3210,16 @@ const grammarLessonData = [
       {
         "korean": "쇼핑하는데 열 시간이나 걸렸어요.",
         "english": "It took even ten hours to shop."
+      },
+      {
+        "korean": "사람이 백 명이나 왔어요.",
+        "english": "As many as a hundred people came."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "밖에",
+      "만"
+    ],
     "tags": [
       "topik-i",
       "emphasis"
@@ -3081,9 +3236,16 @@ const grammarLessonData = [
       {
         "korean": "지금 5000원만 있어요.",
         "english": "I only have 5000 won now."
+      },
+      {
+        "korean": "물만 마셨어요.",
+        "english": "I drank only water."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "밖에",
+      "도"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -3100,9 +3262,16 @@ const grammarLessonData = [
       {
         "korean": "내 친구의 그림은 아주 멋져요.",
         "english": "My friend’s drawing is very nice."
+      },
+      {
+        "korean": "한국의 음식은 맛있어요.",
+        "english": "Korean food is delicious."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "이/가",
+      "은/는"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -3119,9 +3288,16 @@ const grammarLessonData = [
       {
         "korean": "한국에 올 때마다 이 가게를 찾아요.",
         "english": "I visit this shop whenever I come to Korea."
+      },
+      {
+        "korean": "주말마다 등산해요.",
+        "english": "I go hiking every weekend."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ 때",
+      "기 전에"
+    ],
     "tags": [
       "topik-i",
       "time"
@@ -3138,9 +3314,16 @@ const grammarLessonData = [
       {
         "korean": "시간이 한 시간밖에 없어요.",
         "english": "There is only one hour."
+      },
+      {
+        "korean": "천 원밖에 없어요.",
+        "english": "I have only a thousand won."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "만",
+      "도"
+    ],
     "tags": [
       "topik-i",
       "particles"
@@ -3157,9 +3340,15 @@ const grammarLessonData = [
       {
         "korean": "이것보다 이게 더 어울려요.",
         "english": "This looks better than this one."
+      },
+      {
+        "korean": "오늘이 어제보다 더워요.",
+        "english": "Today is hotter than yesterday."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "처럼"
+    ],
     "tags": [
       "topik-i",
       "comparison"
@@ -3176,9 +3365,16 @@ const grammarLessonData = [
       {
         "korean": "배우처럼 생기셨네요.",
         "english": "You look like an actor."
+      },
+      {
+        "korean": "눈처럼 하얘요.",
+        "english": "It is as white as snow."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "보다",
+      "(으)ㄴ 것 같다"
+    ],
     "tags": [
       "topik-i",
       "comparison"
@@ -3195,9 +3391,16 @@ const grammarLessonData = [
       {
         "korean": "택시 비용이 좀 비싼 것 같아요.",
         "english": "I think the taxi fare is a little expensive."
+      },
+      {
+        "korean": "비가 온 것 같아요.",
+        "english": "I think it rained."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ 것 같다",
+      "(으)ㄹ 것이다"
+    ],
     "tags": [
       "topik-i",
       "guess"
@@ -3214,9 +3417,16 @@ const grammarLessonData = [
       {
         "korean": "이 화장품은 인기가 많을 것 같아요.",
         "english": "I guess this cosmetic will be popular."
+      },
+      {
+        "korean": "내일 비가 올 것 같아요.",
+        "english": "I guess it will rain tomorrow."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄴ 것 같다",
+      "(으)ㄹ 것이다"
+    ],
     "tags": [
       "topik-i",
       "guess"
@@ -3233,9 +3443,16 @@ const grammarLessonData = [
       {
         "korean": "이 가게에 와 본 적이 있어요.",
         "english": "I have been to this store."
+      },
+      {
+        "korean": "제주도에 가 본 적이 있어요.",
+        "english": "I have been to Jeju Island."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄴ 적이 없다",
+      "아/어/여 보다"
+    ],
     "tags": [
       "topik-i",
       "experience"
@@ -3252,9 +3469,16 @@ const grammarLessonData = [
       {
         "korean": "저는 한국에 가 본 적이 없어요.",
         "english": "I have not been to Korea."
+      },
+      {
+        "korean": "그 영화를 본 적이 없어요.",
+        "english": "I have never seen that movie."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄴ 적이 있다",
+      "지 않다"
+    ],
     "tags": [
       "topik-i",
       "experience"
@@ -3271,9 +3495,16 @@ const grammarLessonData = [
       {
         "korean": "이 가게가 생긴 지 얼마나 됐어요?",
         "english": "How long has it been since this store opened?"
+      },
+      {
+        "korean": "한국어를 배운 지 얼마나 됐어요?",
+        "english": "How long has it been since you started learning Korean?"
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄴ 후에",
+      "기 전에"
+    ],
     "tags": [
       "topik-i",
       "time"
@@ -3290,9 +3521,16 @@ const grammarLessonData = [
       {
         "korean": "한국에 온 지 3일이 지났습니다.",
         "english": "Three days have passed since I came to Korea."
+      },
+      {
+        "korean": "결혼한 지 5년이 됐어요.",
+        "english": "It has been five years since I got married."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄴ 후에",
+      "기 전에"
+    ],
     "tags": [
       "topik-i",
       "time"
@@ -3309,9 +3547,16 @@ const grammarLessonData = [
       {
         "korean": "쇼핑한 후에 밥 먹었습니다.",
         "english": "I ate after shopping."
+      },
+      {
+        "korean": "운동한 후에 샤워해요.",
+        "english": "I shower after exercising."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "기 전에",
+      "(으)ㄴ 지"
+    ],
     "tags": [
       "topik-i",
       "time"
@@ -3328,9 +3573,16 @@ const grammarLessonData = [
       {
         "korean": "역에서 좀 먼데요.",
         "english": "It is a little far from the station."
+      },
+      {
+        "korean": "지금 좀 바쁜데요.",
+        "english": "I'm a bit busy right now."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "지만",
+      "는데"
+    ],
     "tags": [
       "topik-i",
       "contrast"
@@ -3347,9 +3599,16 @@ const grammarLessonData = [
       {
         "korean": "죄송한데요, 길 좀 알려 줄 수 있어요?",
         "english": "Excuse me, but can you tell me the way?"
+      },
+      {
+        "korean": "여보세요, 김 선생님 찾는데요.",
+        "english": "Hello, I'm looking for Mr. Kim."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "는데",
+      "지만"
+    ],
     "tags": [
       "topik-i",
       "softener"
@@ -3366,9 +3625,16 @@ const grammarLessonData = [
       {
         "korean": "달러밖에 없으니까 환전해야 돼요.",
         "english": "I need to exchange money because I only have dollars."
+      },
+      {
+        "korean": "비가 오니까 우산을 가져가세요.",
+        "english": "Take an umbrella because it's raining."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "기 때문에",
+      "(으)ㄹ까 봐"
+    ],
     "tags": [
       "topik-i",
       "reason"
@@ -3385,9 +3651,16 @@ const grammarLessonData = [
       {
         "korean": "여기 식당은 맛있을 거예요.",
         "english": "The restaurant here will be delicious."
+      },
+      {
+        "korean": "내년에 한국에 갈 거예요.",
+        "english": "I will go to Korea next year."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ 것 같다",
+      "(으)려고"
+    ],
     "tags": [
       "topik-i",
       "future"
@@ -3404,9 +3677,16 @@ const grammarLessonData = [
       {
         "korean": "내가 버스 타고 있었을 때 잃어버렸어요.",
         "english": "I lost it when I was on the bus."
+      },
+      {
+        "korean": "밥을 먹을 때 텔레비전을 봐요.",
+        "english": "I watch TV when I eat."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)면",
+      "(으)면서"
+    ],
     "tags": [
       "topik-i",
       "time"
@@ -3423,9 +3703,16 @@ const grammarLessonData = [
       {
         "korean": "저는 한국말 조금 할 수 있어요.",
         "english": "I can speak Korean a little."
+      },
+      {
+        "korean": "저는 수영할 수 있어요.",
+        "english": "I can swim."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ 수 없다",
+      "지 못하다"
+    ],
     "tags": [
       "topik-i",
       "ability"
@@ -3442,9 +3729,16 @@ const grammarLessonData = [
       {
         "korean": "여기서는 사진을 찍을 수 없어요.",
         "english": "You cannot take photos here."
+      },
+      {
+        "korean": "저는 매운 음식을 먹을 수 없어요.",
+        "english": "I cannot eat spicy food."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ 수 있다",
+      "지 못하다"
+    ],
     "tags": [
       "topik-i",
       "ability"
@@ -3461,9 +3755,16 @@ const grammarLessonData = [
       {
         "korean": "제가 할게요.",
         "english": "I will do it."
+      },
+      {
+        "korean": "내일 다시 전화할게요.",
+        "english": "I'll call again tomorrow."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ래요",
+      "(으)ㄹ 것이다"
+    ],
     "tags": [
       "topik-i",
       "promise"
@@ -3480,9 +3781,16 @@ const grammarLessonData = [
       {
         "korean": "명동에 갈까 해요.",
         "english": "I am thinking of going to Myeongdong."
+      },
+      {
+        "korean": "주말에 여행을 갈까 해요.",
+        "english": "I'm thinking of traveling this weekend."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)려고",
+      "(으)ㄹ래요"
+    ],
     "tags": [
       "topik-i",
       "plan"
@@ -3499,9 +3807,16 @@ const grammarLessonData = [
       {
         "korean": "현금이 모자랄까 봐 걱정했어요.",
         "english": "I was worried that I would not have enough cash."
+      },
+      {
+        "korean": "늦을까 봐 택시를 탔어요.",
+        "english": "I took a taxi because I was worried I'd be late."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "기 때문에",
+      "(으)니까"
+    ],
     "tags": [
       "topik-i",
       "worry"
@@ -3518,9 +3833,16 @@ const grammarLessonData = [
       {
         "korean": "여기서 걸어갈까요?",
         "english": "Should we walk from here?"
+      },
+      {
+        "korean": "같이 점심 먹을까요?",
+        "english": "Shall we have lunch together?"
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㅂ시다",
+      "(으)ㄹ래요?"
+    ],
     "tags": [
       "topik-i",
       "suggestion"
@@ -3537,9 +3859,16 @@ const grammarLessonData = [
       {
         "korean": "저는 이걸로 할래요.",
         "english": "I will choose this one."
+      },
+      {
+        "korean": "저는 집에 갈래요.",
+        "english": "I want to go home."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ게요",
+      "(으)ㄹ까 하다"
+    ],
     "tags": [
       "topik-i",
       "choice"
@@ -3556,9 +3885,16 @@ const grammarLessonData = [
       {
         "korean": "이걸로 계산하실래요?",
         "english": "Would you like to pay with this?"
+      },
+      {
+        "korean": "커피 마실래요?",
+        "english": "Would you like to drink coffee?"
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ까요?",
+      "(으)세요"
+    ],
     "tags": [
       "topik-i",
       "question"
@@ -3575,9 +3911,16 @@ const grammarLessonData = [
       {
         "korean": "한국에 관광하러 갈 거예요.",
         "english": "I will go to Korea to travel."
+      },
+      {
+        "korean": "도서관에 공부하러 가요.",
+        "english": "I go to the library to study."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)러 오다",
+      "(으)려고"
+    ],
     "tags": [
       "topik-i",
       "purpose"
@@ -3594,9 +3937,16 @@ const grammarLessonData = [
       {
         "korean": "여기에 예약하러 왔어요.",
         "english": "I came here to make a reservation."
+      },
+      {
+        "korean": "친구가 놀러 왔어요.",
+        "english": "My friend came over to hang out."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)러 가다",
+      "(으)려고"
+    ],
     "tags": [
       "topik-i",
       "purpose"
@@ -3613,9 +3963,16 @@ const grammarLessonData = [
       {
         "korean": "한국말을 공부하려고 해요.",
         "english": "I am going to study Korean."
+      },
+      {
+        "korean": "살을 빼려고 운동해요.",
+        "english": "I exercise to lose weight."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)려고요",
+      "(으)러 가다"
+    ],
     "tags": [
       "topik-i",
       "plan"
@@ -3632,9 +3989,16 @@ const grammarLessonData = [
       {
         "korean": "아이돌 콘서트에 가려고요.",
         "english": "I am going to go to an idol concert."
+      },
+      {
+        "korean": "내일 일찍 일어나려고요.",
+        "english": "I'm planning to get up early tomorrow."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)려고",
+      "(으)ㄹ까 하다"
+    ],
     "tags": [
       "topik-i",
       "plan"
@@ -3651,9 +4015,16 @@ const grammarLessonData = [
       {
         "korean": "부산에 가면 뭘 볼 수 있을까요?",
         "english": "What can I see if I go to Busan?"
+      },
+      {
+        "korean": "시간이 있으면 만나요.",
+        "english": "Let's meet if you have time."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)면서",
+      "(으)니까"
+    ],
     "tags": [
       "topik-i",
       "condition"
@@ -3670,9 +4041,16 @@ const grammarLessonData = [
       {
         "korean": "핸드폰을 보면서 걷지 마세요.",
         "english": "Do not walk while looking at your phone."
+      },
+      {
+        "korean": "음악을 들으면서 공부해요.",
+        "english": "I study while listening to music."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "고",
+      "(으)ㄹ 때"
+    ],
     "tags": [
       "topik-i",
       "time"
@@ -3689,9 +4067,16 @@ const grammarLessonData = [
       {
         "korean": "순두부를 주문해 봅시다.",
         "english": "Let’s order sundubu."
+      },
+      {
+        "korean": "이제 출발합시다.",
+        "english": "Let’s leave now."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ까요?",
+      "(으)세요"
+    ],
     "tags": [
       "topik-i",
       "suggestion"
@@ -3708,9 +4093,16 @@ const grammarLessonData = [
       {
         "korean": "삼겹살 2인분 주세요.",
         "english": "Please give us two servings of samgyeopsal."
+      },
+      {
+        "korean": "여기 앉으세요.",
+        "english": "Please sit here."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)십시오",
+      "(으)ㅂ시다"
+    ],
     "tags": [
       "topik-i",
       "request"
@@ -3727,9 +4119,16 @@ const grammarLessonData = [
       {
         "korean": "또 놀러 오십시오.",
         "english": "Please visit us again."
+      },
+      {
+        "korean": "안녕히 가십시오.",
+        "english": "Please go safely (goodbye)."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)세요",
+      "ㅂ/습니다"
+    ],
     "tags": [
       "topik-i",
       "request"
@@ -3746,9 +4145,16 @@ const grammarLessonData = [
       {
         "korean": "카드로 계산 되지요?",
         "english": "I can pay by card, right?"
+      },
+      {
+        "korean": "한국 사람이지요?",
+        "english": "You're Korean, right?"
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "네요",
+      "(으)ㄴ데요"
+    ],
     "tags": [
       "topik-i",
       "confirmation"
@@ -3765,9 +4171,16 @@ const grammarLessonData = [
       {
         "korean": "시장에 가거나 카페에 가고 싶어요.",
         "english": "I want to go to a market or a cafe."
+      },
+      {
+        "korean": "주말에는 자거나 쉬어요.",
+        "english": "On weekends I sleep or rest."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(이)나",
+      "지만"
+    ],
     "tags": [
       "topik-i",
       "choice"
@@ -3784,9 +4197,15 @@ const grammarLessonData = [
       {
         "korean": "싸게 해 주세요.",
         "english": "Please make it cheap."
+      },
+      {
+        "korean": "방을 깨끗하게 청소했어요.",
+        "english": "I cleaned the room until it was spotless."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "게 되다"
+    ],
     "tags": [
       "topik-i",
       "adverb"
@@ -3803,9 +4222,15 @@ const grammarLessonData = [
       {
         "korean": "한국에 오게 됐어요.",
         "english": "I happened to come to Korea."
+      },
+      {
+        "korean": "한국 음식을 좋아하게 됐어요.",
+        "english": "I came to like Korean food."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "게"
+    ],
     "tags": [
       "topik-i",
       "change"
@@ -3822,9 +4247,16 @@ const grammarLessonData = [
       {
         "korean": "밥 먹고 자요.",
         "english": "I will eat and sleep."
+      },
+      {
+        "korean": "손을 씻고 밥을 먹어요.",
+        "english": "I wash my hands and then eat."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)면서",
+      "고 있다"
+    ],
     "tags": [
       "topik-i",
       "connection"
@@ -3841,9 +4273,16 @@ const grammarLessonData = [
       {
         "korean": "약국에 가고 싶어요.",
         "english": "I want to go to the pharmacy."
+      },
+      {
+        "korean": "물을 마시고 싶어요.",
+        "english": "I want to drink water."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "았/었/였으면 좋겠다",
+      "(으)ㄹ래요"
+    ],
     "tags": [
       "topik-i",
       "wish"
@@ -3860,9 +4299,16 @@ const grammarLessonData = [
       {
         "korean": "지금 무슨 말 할까 생각하고 있어요.",
         "english": "I am thinking about what to say now."
+      },
+      {
+        "korean": "지금 밥을 먹고 있어요.",
+        "english": "I'm eating now."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "고",
+      "(으)면서"
+    ],
     "tags": [
       "topik-i",
       "progress"
@@ -3879,9 +4325,16 @@ const grammarLessonData = [
       {
         "korean": "여기 쭉 가면 되는군요.",
         "english": "I see, I can go straight this way."
+      },
+      {
+        "korean": "여기가 유명한 곳이군요.",
+        "english": "So this is the famous place."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "네요",
+      "(으)ㄴ데요"
+    ],
     "tags": [
       "topik-i",
       "realization"
@@ -3898,9 +4351,16 @@ const grammarLessonData = [
       {
         "korean": "너무 많이 걸었기 때문에 다리가 아파요.",
         "english": "My legs hurt because I walked too much."
+      },
+      {
+        "korean": "아프기 때문에 학교에 못 가요.",
+        "english": "I can't go to school because I'm sick."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)니까",
+      "(으)ㄹ까 봐"
+    ],
     "tags": [
       "topik-i",
       "reason"
@@ -3917,9 +4377,16 @@ const grammarLessonData = [
       {
         "korean": "결제하기 전에 확인하고 싶은 게 있는데요.",
         "english": "I want to check something before paying."
+      },
+      {
+        "korean": "자기 전에 이를 닦아요.",
+        "english": "I brush my teeth before sleeping."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄴ 후에",
+      "(으)ㄹ 때"
+    ],
     "tags": [
       "topik-i",
       "time"
@@ -3936,9 +4403,16 @@ const grammarLessonData = [
       {
         "korean": "오늘은 쇼핑하기로 했어요.",
         "english": "I decided to go shopping today."
+      },
+      {
+        "korean": "내일부터 일찍 일어나기로 했어요.",
+        "english": "I decided to get up early from tomorrow."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)려고",
+      "(으)ㄹ게요"
+    ],
     "tags": [
       "topik-i",
       "decision"
@@ -3955,9 +4429,16 @@ const grammarLessonData = [
       {
         "korean": "다 합쳐서 4000원이네요.",
         "english": "So it is 4000 won all together."
+      },
+      {
+        "korean": "날씨가 정말 좋네요.",
+        "english": "The weather is really nice."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "군요",
+      "(이)지요?"
+    ],
     "tags": [
       "topik-i",
       "realization"
@@ -3974,9 +4455,16 @@ const grammarLessonData = [
       {
         "korean": "시간이 없으니까 빨리 가는 게 좋겠어요.",
         "english": "We should hurry because we do not have time."
+      },
+      {
+        "korean": "약을 먹는 게 좋겠어요.",
+        "english": "You'd better take some medicine."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "아/어/여야 되다",
+      "(으)세요"
+    ],
     "tags": [
       "topik-i",
       "advice"
@@ -3993,9 +4481,16 @@ const grammarLessonData = [
       {
         "korean": "입국심사하는데 별로 많이 안 기다렸어요.",
         "english": "I did not wait long for immigration."
+      },
+      {
+        "korean": "밥을 먹는데 전화가 왔어요.",
+        "english": "I was eating when the phone rang."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄴ데요",
+      "(으)면서"
+    ],
     "tags": [
       "topik-i",
       "time"
@@ -4012,9 +4507,16 @@ const grammarLessonData = [
       {
         "korean": "언제 한국에 갑니까?",
         "english": "When are you going to Korea?"
+      },
+      {
+        "korean": "이름이 무엇입니까?",
+        "english": "What is your name?"
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "ㅂ/습니다",
+      "(으)십시오"
+    ],
     "tags": [
       "topik-i",
       "formal-style"
@@ -4031,9 +4533,16 @@ const grammarLessonData = [
       {
         "korean": "내일 한국에 갑니다.",
         "english": "I am going to Korea tomorrow."
+      },
+      {
+        "korean": "저는 회사원입니다.",
+        "english": "I am an office worker."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "ㅂ/습니까?",
+      "아/어요"
+    ],
     "tags": [
       "topik-i",
       "formal-style"
@@ -4050,9 +4559,16 @@ const grammarLessonData = [
       {
         "korean": "이것도 시식해 보세요.",
         "english": "Please try eating this too."
+      },
+      {
+        "korean": "이 옷을 입어 보세요.",
+        "english": "Please try on these clothes."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄴ 적이 있다",
+      "아/어/여 주다"
+    ],
     "tags": [
       "topik-i",
       "try"
@@ -4069,9 +4585,16 @@ const grammarLessonData = [
       {
         "korean": "알려줘서 고마워요.",
         "english": "Thank you for telling me."
+      },
+      {
+        "korean": "사진 좀 찍어 주세요.",
+        "english": "Please take a photo for me."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "아/어/여 보다",
+      "(으)세요"
+    ],
     "tags": [
       "topik-i",
       "help"
@@ -4088,9 +4611,16 @@ const grammarLessonData = [
       {
         "korean": "한국어를 공부해야 돼요.",
         "english": "I need to study Korean."
+      },
+      {
+        "korean": "지금 가야 돼요.",
+        "english": "I have to go now."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "아/어/여야 하다",
+      "는 게 좋겠다"
+    ],
     "tags": [
       "topik-i",
       "need"
@@ -4107,9 +4637,16 @@ const grammarLessonData = [
       {
         "korean": "차 타고 가야 해요.",
         "english": "I need to go by car."
+      },
+      {
+        "korean": "예약을 해야 해요.",
+        "english": "I have to make a reservation."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "아/어/여야 되다",
+      "는 게 좋겠다"
+    ],
     "tags": [
       "topik-i",
       "need"
@@ -4126,9 +4663,16 @@ const grammarLessonData = [
       {
         "korean": "좋아요.",
         "english": "That is good."
+      },
+      {
+        "korean": "학교에 가요.",
+        "english": "I go to school."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "ㅂ/습니다",
+      "(으)세요"
+    ],
     "tags": [
       "topik-i",
       "polite-style"
@@ -4145,9 +4689,16 @@ const grammarLessonData = [
       {
         "korean": "빨리 배달 왔으면 좋겠어요.",
         "english": "I hope the delivery comes soon."
+      },
+      {
+        "korean": "시험에 합격했으면 좋겠어요.",
+        "english": "I hope I pass the exam."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "고 싶다",
+      "(으)면"
+    ],
     "tags": [
       "topik-i",
       "wish"
@@ -4164,9 +4715,16 @@ const grammarLessonData = [
       {
         "korean": "담배 피우지 마세요.",
         "english": "Please do not smoke."
+      },
+      {
+        "korean": "여기에 쓰레기를 버리지 마세요.",
+        "english": "Please don't throw trash here."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "지 않다",
+      "(으)세요"
+    ],
     "tags": [
       "topik-i",
       "prohibition"
@@ -4183,9 +4741,16 @@ const grammarLessonData = [
       {
         "korean": "도와주지 못해서 죄송해요.",
         "english": "I am sorry that I cannot help."
+      },
+      {
+        "korean": "바빠서 가지 못했어요.",
+        "english": "I couldn't go because I was busy."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄹ 수 없다",
+      "지 않다"
+    ],
     "tags": [
       "topik-i",
       "inability"
@@ -4202,9 +4767,16 @@ const grammarLessonData = [
       {
         "korean": "지하철 타지 않고 걸어갈게요.",
         "english": "I will not take the subway and will walk."
+      },
+      {
+        "korean": "저는 고기를 먹지 않아요.",
+        "english": "I don't eat meat."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "지 못하다",
+      "이/가 아니다"
+    ],
     "tags": [
       "topik-i",
       "negative"
@@ -4221,9 +4793,16 @@ const grammarLessonData = [
       {
         "korean": "오래 전에 주문했지만 요리가 아직 안 왔어요.",
         "english": "We ordered a while ago, but the food is not here yet."
+      },
+      {
+        "korean": "비싸지만 사고 싶어요.",
+        "english": "It's expensive, but I want to buy it."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "(으)ㄴ데요",
+      "는데"
+    ],
     "tags": [
       "topik-i",
       "contrast"
@@ -4240,9 +4819,16 @@ const grammarLessonData = [
       {
         "korean": "제 물건이 아니에요.",
         "english": "That is not mine."
+      },
+      {
+        "korean": "이건 제 가방이 아니에요.",
+        "english": "This is not my bag."
       }
     ],
-    "similarPatterns": [],
+    "similarPatterns": [
+      "지 않다",
+      "이/가"
+    ],
     "tags": [
       "topik-i",
       "negative"
@@ -4514,8 +5100,10 @@ function getEasyCoreMeaning(lesson) {
 }
 
 function getEasyExplanation(lesson, coreMeaning) {
+  if (lesson.explanation) return lesson.explanation;
+
   const tip = easyCategoryTips[lesson.category] ?? 'Use it in a sentence to show this meaning.';
-  return `This grammar means "${coreMeaning}". ${tip}`;
+  return `${lesson.pattern} expresses ${coreMeaning}. ${tip}`;
 }
 
 const usageOverrides = {
@@ -5362,20 +5950,619 @@ function inferUsageGuide(lesson) {
   };
 }
 
+const secondExampleOverrides = {
+  'grammar-001': {
+    korean: '이사하느라고 주말에 쉬지 못했어요.',
+    english: 'I could not rest on the weekend because I was moving.'
+  },
+  'grammar-002': {
+    korean: '가격이 비싸기는 하지만 품질이 좋아요.',
+    english: 'It is expensive, but the quality is good.'
+  },
+  'grammar-003': {
+    korean: '문제를 해결하고자 회의를 열었습니다.',
+    english: 'We held a meeting in order to solve the problem.'
+  },
+  'grammar-004': {
+    korean: '이미 절반을 끝냈으니 거의 다 한 셈이에요.',
+    english: 'Since I already finished half, it is almost like I am done.'
+  },
+  'grammar-005': {
+    korean: '불을 켜 둔 채로 집을 나왔어요.',
+    english: 'I left home with the lights still on.'
+  },
+  'grammar-006': {
+    korean: '목소리가 쉰 걸 보니 감기에 걸린 것 같아요.',
+    english: 'Seeing that your voice is hoarse, it seems you caught a cold.'
+  },
+  'grammar-007': {
+    korean: '도서관에 가는 김에 책도 반납할게요.',
+    english: 'Since I am going to the library, I will return the book too.'
+  },
+  'grammar-008': {
+    korean: '노력한 만큼 실력도 늘 거예요.',
+    english: 'Your skills will improve as much as you work hard.'
+  },
+  'grammar-009': {
+    korean: '도시는 편리한 반면에 생활비가 비싸요.',
+    english: 'The city is convenient, whereas living costs are high.'
+  },
+  'grammar-010': {
+    korean: '열심히 연습하면 실력이 느는 법이에요.',
+    english: 'If you practice hard, your skills naturally improve.'
+  },
+  'grammar-011': {
+    korean: '눈이 많이 온 탓에 비행기가 늦었어요.',
+    english: 'The plane was delayed because of the heavy snow.'
+  },
+  'grammar-012': {
+    korean: '가방이 없는 걸 보니 이미 나간 모양이에요.',
+    english: 'Seeing that the bag is gone, it seems they already left.'
+  },
+  'grammar-013': {
+    korean: '시험이 이렇게 어려울 줄 몰랐어요.',
+    english: 'I did not know the exam would be this difficult.'
+  },
+  'grammar-014': {
+    korean: '그 길이 더 빠른 줄 알았어요.',
+    english: 'I thought that road was faster.'
+  },
+  'grammar-015': {
+    korean: '그 사람이 언제 도착할지 모르겠어요.',
+    english: 'I do not know when that person will arrive.'
+  },
+  'grammar-016': {
+    korean: '저는 커피를 못 마시는걸요.',
+    english: 'Actually, I cannot drink coffee.'
+  },
+  'grammar-017': {
+    korean: '지금 바쁜데 나중에 전화해도 될까요?',
+    english: 'I am busy now, so may I call later?'
+  },
+  'grammar-018': {
+    korean: '아무리 설명한들 그가 이해하겠어요?',
+    english: 'Even if we explain it, would he understand?'
+  },
+  'grammar-019': {
+    korean: '하늘이 흐린 걸 보니 비가 올까 봐요.',
+    english: 'Seeing that the sky is cloudy, I guess it may rain.'
+  },
+  'grammar-020': {
+    korean: '이 음식이 많이 매운가요?',
+    english: 'Is this food very spicy?'
+  },
+  'grammar-021': {
+    korean: '지금 공부하나 마나 시험에는 늦었어요.',
+    english: 'Whether I study now or not, it is too late for the exam.'
+  },
+  'grammar-022': {
+    korean: '길이 막히니까요. 조금 늦을 것 같아요.',
+    english: 'Because there is traffic, I think I will be a little late.'
+  },
+  'grammar-023': {
+    korean: '처음 하는 일이니만큼 실수할 수도 있어요.',
+    english: 'Since it is your first time doing it, you may make mistakes.'
+  },
+  'grammar-024': {
+    korean: '바람도 쐴 겸 해서 공원에 다녀왔어요.',
+    english: 'I went to the park partly to get some fresh air.'
+  },
+  'grammar-025': {
+    korean: '매일 연습했으니 실패할 리가 없어요.',
+    english: 'Since you practiced every day, there is no way you will fail.'
+  },
+  'grammar-026': {
+    korean: '이 식당은 기다려서 먹을 만해요.',
+    english: 'This restaurant is worth waiting for.'
+  },
+  'grammar-027': {
+    korean: '계단에서 넘어질 뻔했어요.',
+    english: 'I almost fell on the stairs.'
+  },
+  'grammar-028': {
+    korean: '그 영화는 재미있을 뿐만 아니라 감동적이에요.',
+    english: 'That movie is not only fun but also moving.'
+  },
+  'grammar-029': {
+    korean: '저는 사실을 말했을 뿐입니다.',
+    english: 'I only told the truth.'
+  },
+  'grammar-030': {
+    korean: '일이 많아서 야근할 수밖에 없었어요.',
+    english: 'I had no choice but to work overtime because there was a lot to do.'
+  },
+  'grammar-031': {
+    korean: '목소리가 들리지 않을 정도로 시끄러웠어요.',
+    english: 'It was so noisy that I could not hear the voice.'
+  },
+  'grammar-032': {
+    korean: '일이 밀려서 주말에도 일해야 할 지경이에요.',
+    english: 'Work has piled up to the point that I have to work on the weekend.'
+  },
+  'grammar-033': {
+    korean: '제가 먼저 갈 테니까 천천히 오세요.',
+    english: 'I will go first, so please come slowly.'
+  },
+  'grammar-034': {
+    korean: '비가 올 텐데 우산을 가져가세요.',
+    english: 'It will probably rain, so take an umbrella.'
+  },
+  'grammar-035': {
+    korean: '그때 솔직하게 말할걸 그랬어요.',
+    english: 'I should have spoken honestly then.'
+  },
+  'grammar-036': {
+    korean: '새 노트북을 살까 말까 생각 중이에요.',
+    english: 'I am thinking about whether to buy a new laptop or not.'
+  },
+  'grammar-037': {
+    korean: '이 책은 읽을수록 더 깊이가 느껴져요.',
+    english: 'The more I read this book, the more depth I feel.'
+  },
+  'grammar-038': {
+    korean: '길이 미끄러울지도 모르니까 조심하세요.',
+    english: 'The road might be slippery, so be careful.'
+  },
+  'grammar-039': {
+    korean: '결과가 좋지 않을지라도 끝까지 해 보겠습니다.',
+    english: 'Even if the result is not good, I will try until the end.'
+  },
+  'grammar-040': {
+    korean: '친구가 저녁에 같이 먹자고 했어요.',
+    english: 'My friend said we should eat dinner together.'
+  },
+  'grammar-041': {
+    korean: '운동을 시작하려다가 시간이 없어서 못 했어요.',
+    english: 'I was going to start exercising, but I could not because I had no time.'
+  },
+  'grammar-042': {
+    korean: '마침 점심을 먹으려던 참이었어요.',
+    english: 'I was just about to eat lunch.'
+  },
+  'grammar-043': {
+    korean: '좋은 점수를 받으려면 복습을 자주 해야 해요.',
+    english: 'If you want to get a good score, you need to review often.'
+  },
+  'grammar-044': {
+    korean: '공사로 인해 지하철 운행이 지연되었습니다.',
+    english: 'Subway service was delayed due to construction.'
+  },
+  'grammar-045': {
+    korean: '대표로서 책임감을 가져야 합니다.',
+    english: 'As a representative, you must have a sense of responsibility.'
+  },
+  'grammar-046': {
+    korean: '그 사람은 능력이 뛰어나며 성격도 좋아요.',
+    english: 'That person is capable and also has a good personality.'
+  },
+  'grammar-047': {
+    korean: '궁금한 점은 이메일로 물어보면 됩니다.',
+    english: 'If you have questions, you just need to ask by email.'
+  },
+  'grammar-048': {
+    korean: '날씨가 추우므로 따뜻하게 입으세요.',
+    english: 'Since the weather is cold, please dress warmly.'
+  },
+  'grammar-049': {
+    korean: '남녀나 나이나 할 것 없이 모두 참여할 수 있어요.',
+    english: 'Everyone can participate regardless of gender or age.'
+  },
+  'grammar-050': {
+    korean: '문제가 있거든 바로 연락하세요.',
+    english: 'If there is a problem, contact me right away.'
+  },
+  'grammar-051': {
+    korean: '부모님은 제가 일찍 자게 하셨어요.',
+    english: 'My parents made me go to bed early.'
+  },
+  'grammar-052': {
+    korean: '설명을 듣고 나니까 이해가 됐어요.',
+    english: 'After listening to the explanation, I understood.'
+  },
+  'grammar-053': {
+    korean: '청소를 하고 나면 기분이 좋아져요.',
+    english: 'After cleaning, I feel better.'
+  },
+  'grammar-054': {
+    korean: '회의가 끝나고 나서 다시 전화드릴게요.',
+    english: 'I will call you again after the meeting ends.'
+  },
+  'grammar-055': {
+    korean: '물론 도와드리고 말고요.',
+    english: 'Of course I will help you.'
+  },
+  'grammar-056': {
+    korean: '결국 계획을 포기하고 말았어요.',
+    english: 'In the end, I gave up the plan.'
+  },
+  'grammar-057': {
+    korean: '지나고 보면 그때가 좋은 경험이었어요.',
+    english: 'Looking back, that time was a good experience.'
+  },
+  'grammar-058': {
+    korean: '어릴 때 가족과 자주 여행을 가곤 했어요.',
+    english: 'When I was young, I used to travel often with my family.'
+  },
+  'grammar-059': {
+    korean: '겨울에는 감기에 걸리기 쉬워요.',
+    english: 'It is easy to catch a cold in winter.'
+  },
+  'grammar-060': {
+    korean: '준비 없이 시작하면 실패하기 십상이에요.',
+    english: 'If you start without preparation, you are likely to fail.'
+  },
+  'grammar-061': {
+    korean: '이 내용은 혼자 이해하기 어려워요.',
+    english: 'This content is difficult to understand alone.'
+  },
+  'grammar-062': {
+    korean: '취업하기 위해서 자격증을 준비하고 있어요.',
+    english: 'I am preparing a certificate in order to get a job.'
+  },
+  'grammar-063': {
+    korean: '노력하면 결과가 좋아지기 마련이에요.',
+    english: 'If you make an effort, the result is bound to improve.'
+  },
+  'grammar-064': {
+    korean: '제가 화를 내기는요. 그냥 걱정했어요.',
+    english: 'Me, angry? I was just worried.'
+  },
+  'grammar-065': {
+    korean: '버튼을 누르기만 하면 예약이 완료됩니다.',
+    english: 'You only need to press the button for the reservation to be completed.'
+  },
+  'grammar-066': {
+    korean: '혼자 하기에는 일이 너무 많아요.',
+    english: 'There is too much work to do alone.'
+  },
+  'grammar-067': {
+    korean: '길이 막히길래 지하철을 탔어요.',
+    english: 'Since there was traffic, I took the subway.'
+  },
+  'grammar-068': {
+    korean: '모르는 척하지 말고 솔직히 말하세요.',
+    english: 'Do not pretend not to know, and speak honestly.'
+  },
+  'grammar-069': {
+    korean: '나는 매일 아침 일찍 일어난다.',
+    english: 'I wake up early every morning.'
+  },
+  'grammar-070': {
+    korean: '책을 읽는다거나 음악을 들으면서 쉬어요.',
+    english: 'I rest by doing things like reading books or listening to music.'
+  },
+  'grammar-071': {
+    korean: '그 말이 사실이라고 쳐도 문제는 남아 있어요.',
+    english: 'Even assuming that statement is true, the problem remains.'
+  },
+  'grammar-072': {
+    korean: '뉴스에서 내일 눈이 온다고 했어요.',
+    english: 'The news said it will snow tomorrow.'
+  },
+  'grammar-073': {
+    korean: '시간이 부족하다고 해도 포기하면 안 돼요.',
+    english: 'Even if you do not have enough time, you should not give up.'
+  },
+  'grammar-074': {
+    korean: '뭐라고요? 지금 출발한다고요?',
+    english: 'What? You are leaving now?'
+  },
+  'grammar-075': {
+    korean: '그 사람이 회사를 그만둔다니 정말 놀랐어요.',
+    english: 'I was really surprised to hear that he is quitting the company.'
+  },
+  'grammar-076': {
+    korean: '시간이 없다니까 빨리 준비하세요.',
+    english: 'I said there is no time, so get ready quickly.'
+  },
+  'grammar-077': {
+    korean: '운동을 시작한다더니 아직도 안 했어요?',
+    english: 'You said you were starting to exercise, but you still have not?'
+  },
+  'grammar-078': {
+    korean: '친구가 다음 달에 결혼한다더라.',
+    english: 'I heard my friend is getting married next month.'
+  },
+  'grammar-079': {
+    korean: '그 식당이 맛있다던데 같이 가 볼까요?',
+    english: 'I heard that restaurant is good, so shall we go together?'
+  },
+  'grammar-080': {
+    korean: '시간이 된다면 같이 산책하고 싶어요.',
+    english: 'If I have time, I would like to take a walk together.'
+  },
+  'grammar-081': {
+    korean: '이번 프로젝트에 참여한다면서요?',
+    english: 'I heard you are participating in this project, right?'
+  },
+  'grammar-082': {
+    korean: '창문이 열려 있는 걸 보니 누가 왔나 봐요.',
+    english: 'Seeing that the window is open, it seems someone came.'
+  },
+  'grammar-083': {
+    korean: '요즘 회사 일이 많이 바쁜가요?',
+    english: 'Are things very busy at work these days?'
+  },
+  'grammar-084': {
+    korean: '동생이 언제 오냐고 했어요.',
+    english: 'My younger sibling asked when you are coming.'
+  },
+  'grammar-085': {
+    korean: '수업을 듣는 도중에 전화가 왔어요.',
+    english: 'I got a call while I was taking class.'
+  },
+  'grammar-086': {
+    korean: '집에 가는 길에 우유를 사 왔어요.',
+    english: 'I bought milk on my way home.'
+  },
+  'grammar-087': {
+    korean: '회의가 끝나는 대로 결과를 알려 드리겠습니다.',
+    english: 'I will let you know the result as soon as the meeting ends.'
+  },
+  'grammar-088': {
+    korean: '커피를 마시는 대신에 차를 마셨어요.',
+    english: 'I drank tea instead of coffee.'
+  },
+  'grammar-089': {
+    korean: '친구가 도와준 덕분에 일을 빨리 끝냈어요.',
+    english: 'Thanks to my friend helping me, I finished the work quickly.'
+  },
+  'grammar-090': {
+    korean: '늦잠을 자는 바람에 버스를 놓쳤어요.',
+    english: 'Because I overslept, I missed the bus.'
+  },
+  'grammar-091': {
+    korean: '잠깐 나간 사이에 택배가 왔어요.',
+    english: 'A package arrived while I briefly went out.'
+  },
+  'grammar-092': {
+    korean: '이번 일은 좋은 경험을 하는 셈 치고 해 보세요.',
+    english: 'Try doing this as if you are getting good experience.'
+  },
+  'grammar-093': {
+    korean: '비밀번호를 잊어버리는 수가 있으니 적어 두세요.',
+    english: 'You might forget the password, so write it down.'
+  },
+  'grammar-094': {
+    korean: '약속을 지키려면 서두르는 수밖에 없어요.',
+    english: 'If we want to keep the appointment, we have no choice but to hurry.'
+  },
+  'grammar-095': {
+    korean: '저는 지금 보고서를 쓰는 중이에요.',
+    english: 'I am writing a report now.'
+  },
+  'grammar-096': {
+    korean: '비가 많이 오는 통에 행사가 취소됐어요.',
+    english: 'Because it rained heavily, the event was canceled.'
+  },
+  'grammar-097': {
+    korean: '저는 잠을 일찍 자는 편이에요.',
+    english: 'I tend to go to bed early.'
+  },
+  'grammar-098': {
+    korean: '건강한 한 계속 일을 하고 싶어요.',
+    english: 'As long as I am healthy, I want to keep working.'
+  },
+  'grammar-099': {
+    korean: '그는 회사에 다니는 한편 대학원도 다녀요.',
+    english: 'He works at a company while also attending graduate school.'
+  },
+  'grammar-100': {
+    korean: '칭찬은커녕 오히려 혼이 났어요.',
+    english: 'Far from being praised, I was scolded instead.'
+  },
+  'grammar-101': {
+    korean: '벌써 봄이 왔구나.',
+    english: 'Oh, spring has already come.'
+  },
+  'grammar-102': {
+    korean: '너 지금 뭐 하니?',
+    english: 'What are you doing now?'
+  },
+  'grammar-103': {
+    korean: '매일 운동하다 보니까 몸이 가벼워졌어요.',
+    english: 'As I exercised every day, my body became lighter.'
+  },
+  'grammar-104': {
+    korean: '계속 연습하다 보면 익숙해질 거예요.',
+    english: 'If you keep practicing, you will get used to it.'
+  },
+  'grammar-105': {
+    korean: '책을 읽다가 잠이 들었어요.',
+    english: 'I fell asleep while reading a book.'
+  },
+  'grammar-106': {
+    korean: '선생님도 말씀하시다시피 복습이 중요해요.',
+    english: 'As the teacher also said, review is important.'
+  },
+  'grammar-107': {
+    korean: '계획한 대로 여행을 다녀왔어요.',
+    english: 'I went on the trip as planned.'
+  },
+  'grammar-108': {
+    korean: '그 식당 음식이 정말 맛있더군요.',
+    english: 'I found that the food at that restaurant was really good.'
+  },
+  'grammar-109': {
+    korean: '아침에는 맑더니 오후에는 비가 왔어요.',
+    english: 'It was clear in the morning, but it rained in the afternoon.'
+  },
+  'grammar-110': {
+    korean: '그 사람이 벌써 떠났더라.',
+    english: 'I found out that person had already left.'
+  },
+  'grammar-111': {
+    korean: '생각보다 시험이 어렵더라고요.',
+    english: 'The exam was harder than I expected.'
+  },
+  'grammar-112': {
+    korean: '힘들더라도 끝까지 포기하지 마세요.',
+    english: 'Even if it is hard, do not give up until the end.'
+  },
+  'grammar-113': {
+    korean: '예전에 살던 동네에 다시 가 봤어요.',
+    english: 'I visited the neighborhood where I used to live.'
+  },
+  'grammar-114': {
+    korean: '그 일이 언제였던가요?',
+    english: 'When was that again?'
+  },
+  'grammar-115': {
+    korean: '밖이 춥던데 코트를 입고 가세요.',
+    english: 'It was cold outside, so wear a coat.'
+  },
+  'grammar-116': {
+    korean: '아이들이 이해하도록 천천히 설명했어요.',
+    english: 'I explained slowly so the children could understand.'
+  },
+  'grammar-117': {
+    korean: '주말에는 영화를 보든지 집에서 쉬든지 하려고요.',
+    english: 'On the weekend, I plan to either watch a movie or rest at home.'
+  },
+  'grammar-118': {
+    korean: '친구가 말하듯이 건강이 제일 중요해요.',
+    english: 'As my friend says, health is the most important.'
+  },
+  'grammar-119': {
+    korean: '바쁘면 문자라도 보내 주세요.',
+    english: 'If you are busy, please at least send a text.'
+  },
+  'grammar-120': {
+    korean: '이 방법은 예전 방법만 못해요.',
+    english: 'This method is not as good as the old one.'
+  },
+  'grammar-121': {
+    korean: '새 옷을 입으니까 더 어려 보여요.',
+    english: 'You look younger wearing the new clothes.'
+  },
+  'grammar-122': {
+    korean: '잠을 못 자서 그런지 머리가 아파요.',
+    english: 'Maybe because I could not sleep, my head hurts.'
+  },
+  'grammar-123': {
+    korean: '비가 와도 축제는 예정대로 열립니다.',
+    english: 'Even if it rains, the festival will be held as scheduled.'
+  },
+  'grammar-124': {
+    korean: '선생님께서 조용히 하라고 하셨어요.',
+    english: 'The teacher told us to be quiet.'
+  },
+  'grammar-125': {
+    korean: '일찍 출발해야 늦지 않아요.',
+    english: 'You have to leave early in order not to be late.'
+  },
+  'grammar-126': {
+    korean: '내일은 꼭 병원에 가야지요.',
+    english: 'You really should go to the hospital tomorrow.'
+  },
+  'grammar-127': {
+    korean: '운동을 시작한 후 몸이 건강해졌어요.',
+    english: 'After starting exercise, my body became healthier.'
+  },
+  'grammar-128': {
+    korean: '그때 더 열심히 했더라면 결과가 달랐을 거예요.',
+    english: 'If I had worked harder then, the result would have been different.'
+  },
+  'grammar-129': {
+    korean: '어제 그 사람이 많이 피곤했던 것 같아요.',
+    english: 'I think that person was very tired yesterday.'
+  },
+  'grammar-130': {
+    korean: '부모님이 오래오래 건강하셨으면 해요.',
+    english: 'I hope my parents stay healthy for a long time.'
+  },
+  'grammar-131': {
+    korean: '오늘이야말로 새롭게 시작하기 좋은 날이에요.',
+    english: 'Today is truly a good day to start anew.'
+  },
+  'grammar-132': {
+    korean: '한국 역사에 관해서 발표할 예정입니다.',
+    english: 'I plan to give a presentation about Korean history.'
+  },
+  'grammar-133': {
+    korean: '그 문제에 대해 더 이야기해 봅시다.',
+    english: 'Let us talk more about that issue.'
+  },
+  'grammar-134': {
+    korean: '계절에 따라 입는 옷이 달라져요.',
+    english: 'The clothes people wear change depending on the season.'
+  },
+  'grammar-135': {
+    korean: '이 작품은 많은 사람들에 의해 완성되었습니다.',
+    english: 'This work was completed by many people.'
+  },
+  'grammar-136': {
+    korean: '국에다 밥을 넣어서 먹었어요.',
+    english: 'I put rice into the soup and ate it.'
+  },
+  'grammar-137': {
+    korean: '서울을 비롯한 여러 도시에서 행사가 열렸어요.',
+    english: 'Events were held in several cities, including Seoul.'
+  },
+  'grammar-138': {
+    korean: '인터넷을 통해서 필요한 정보를 찾았어요.',
+    english: 'I found the needed information through the internet.'
+  },
+  'grammar-139': {
+    korean: '문을 열자 찬바람이 들어왔어요.',
+    english: 'As soon as I opened the door, cold wind came in.'
+  },
+  'grammar-140': {
+    korean: '친구가 주말에 등산 가자고 했어요.',
+    english: 'My friend suggested going hiking this weekend.'
+  },
+  'grammar-141': {
+    korean: '수업이 끝나자마자 집에 갔어요.',
+    english: 'As soon as class ended, I went home.'
+  },
+  'grammar-142': {
+    korean: '어제 같이 이야기했잖아요.',
+    english: 'You know, we talked about it together yesterday.'
+  },
+  'grammar-143': {
+    korean: '친한 친구마저 제 말을 믿지 않았어요.',
+    english: 'Even my close friend did not believe what I said.'
+  },
+  'grammar-144': {
+    korean: '기대한 만큼 결과가 좋았어요.',
+    english: 'The result was as good as I expected.'
+  },
+  'grammar-145': {
+    korean: '배가 고프면 아무거나 먹어도 돼요.',
+    english: 'If you are hungry, you can eat anything.'
+  },
+  'grammar-146': {
+    korean: '아무도 그 사실을 몰랐어요.',
+    english: 'Nobody knew that fact.'
+  },
+  'grammar-147': {
+    korean: '얼마나 바쁜지 점심도 못 먹었어요.',
+    english: 'I was so busy that I could not even eat lunch.'
+  },
+  'grammar-148': {
+    korean: '가족조차 제 결정을 이해하지 못했어요.',
+    english: 'Even my family could not understand my decision.'
+  },
+  'grammar-149': {
+    korean: '초보자치고는 발음이 아주 정확해요.',
+    english: 'For a beginner, your pronunciation is very accurate.'
+  }
+};
+
 function buildLessonExamples(lesson) {
   const examples = lesson.examples || [];
   const coreMeaning = lesson.coreMeaning ?? lesson.meaning;
+  const selectedExamples = examples.slice(0, 2);
 
-  if (examples.length >= 2) {
-    return examples.slice(0, 3);
+  if (selectedExamples.length >= 2) {
+    return selectedExamples;
   }
 
   return [
-    ...examples,
-    {
+    ...selectedExamples,
+    secondExampleOverrides[lesson.id] ?? {
       korean: `${lesson.pattern}은/는 '${coreMeaning}'의 의미를 나타낼 때 사용합니다.`,
-      english: `Use ${lesson.pattern} to express "${coreMeaning}".`,
-      type: 'practice'
+      english: `${lesson.pattern} is used to express "${coreMeaning}".`
     }
   ];
 }

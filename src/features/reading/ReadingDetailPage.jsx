@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, Check, Clock } from 'lucide-react';
+import { ArrowLeft, Check, Clock, Download, FileText } from 'lucide-react';
+import PdfViewer from '../../components/library/PdfViewer';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -169,6 +170,75 @@ export default function ReadingDetailPage() {
 
   if (!reading) {
     return <EmptyState title="Reading not found" message="This passage is not available in the offline library." />;
+  }
+
+  if (reading.paperSrc) {
+    return (
+      <article className="mx-auto flex h-[calc(100vh-12rem)] max-w-5xl flex-col gap-3 lg:h-[calc(100vh-7rem)]">
+        <div className="flex flex-wrap items-center gap-2">
+          <Link
+            to="/reading"
+            className="group inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1.5 text-sm font-semibold text-brand-600 shadow-sm ring-1 ring-slate-200 transition hover:bg-brand-50 hover:text-brand-700 hover:ring-brand-200 dark:bg-slate-900 dark:text-brand-100 dark:ring-slate-700 dark:hover:bg-slate-800"
+          >
+            <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
+            Reading
+          </Link>
+          <h2 className="min-w-0 flex-1 truncate text-sm font-bold text-slate-950 dark:text-white sm:text-base">
+            {reading.title}
+          </h2>
+          {reading.answerSheetSrc ? (
+            <a
+              href={reading.answerSheetSrc}
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 shadow-sm ring-1 ring-slate-200 transition hover:bg-slate-50 dark:bg-slate-900 dark:text-slate-200 dark:ring-slate-700 dark:hover:bg-slate-800"
+            >
+              <Download size={14} /> Answer sheet
+            </a>
+          ) : null}
+          <button
+            type="button"
+            onClick={() =>
+              dispatch({
+                type: isReadingCompleted(reading.id) ? 'uncomplete-reading' : 'complete-reading',
+                id: reading.id
+              })
+            }
+            className={
+              isReadingCompleted(reading.id)
+                ? 'inline-flex items-center gap-1.5 rounded-full bg-mint-100 px-3 py-1.5 text-xs font-semibold text-mint-700 transition hover:bg-mint-200 dark:bg-mint-500/15 dark:text-mint-100 dark:hover:bg-mint-500/25'
+                : 'inline-flex items-center gap-1.5 rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-slate-700 shadow-sm ring-1 ring-slate-200 transition hover:bg-slate-50 dark:bg-slate-900 dark:text-slate-200 dark:ring-slate-700 dark:hover:bg-slate-800'
+            }
+          >
+            <Check size={14} /> {isReadingCompleted(reading.id) ? 'Done' : 'Mark done'}
+          </button>
+        </div>
+
+        <Card className="p-4 sm:p-5">
+          <div className="flex flex-wrap items-center gap-2">
+            <Badge tone="blue">{reading.level}</Badge>
+            <Badge>{reading.topic}</Badge>
+            <Badge tone="slate">{reading.questionCount || 40} questions</Badge>
+            <Badge tone="slate">{reading.durationMinutes} minutes</Badge>
+          </div>
+          <div className="mt-3 flex items-start gap-3">
+            <div className="rounded-lg bg-brand-50 p-3 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
+              <FileText size={22} aria-hidden="true" />
+            </div>
+            <div>
+              <h1 className="text-2xl font-bold text-slate-950 dark:text-white">{reading.title}</h1>
+              <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
+                Official paper PDF for timed reading practice.
+              </p>
+            </div>
+          </div>
+        </Card>
+
+        <div className="relative min-h-0 flex-1 overflow-hidden rounded-xl border border-slate-200 bg-slate-100 shadow-sm dark:border-slate-800 dark:bg-slate-900">
+          <PdfViewer src={reading.paperSrc} />
+        </div>
+      </article>
+    );
   }
 
   const answeredCount = questions.filter((question) => selectedAnswers[question.id] !== undefined).length;

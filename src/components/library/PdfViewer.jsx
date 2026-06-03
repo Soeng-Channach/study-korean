@@ -8,13 +8,13 @@ pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
 const options = { cMapUrl: 'cmaps/', cMapPacked: true };
 
-export default function PdfViewer({ blob, className = '' }) {
+export default function PdfViewer({ blob, src, className = '' }) {
   const containerRef = useRef(null);
   const [containerWidth, setContainerWidth] = useState(0);
   const [numPages, setNumPages] = useState(null);
   const [error, setError] = useState(null);
 
-  const file = useMemo(() => blob ?? null, [blob]);
+  const file = useMemo(() => src ?? blob ?? null, [blob, src]);
 
   useEffect(() => {
     if (!containerRef.current) return undefined;

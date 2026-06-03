@@ -59,7 +59,10 @@ export default function ReadingListPage() {
       ) : (
       <div className="grid gap-4 md:grid-cols-2">
         {orderedReadings.map((reading) => {
-          const preview = reading.passage || `${reading.questions.length} questions on one page`;
+          const questionCount = reading.questionCount || reading.questions.length;
+          const preview = reading.paperSrc
+            ? `${questionCount} questions with official PDF paper`
+            : reading.passage || `${questionCount} questions on one page`;
           const done = isReadingCompleted(reading.id);
           return (
           <Link key={reading.id} to={`/reading/${reading.id}`}>
@@ -68,7 +71,7 @@ export default function ReadingListPage() {
                 <div className="flex flex-wrap gap-2">
                   <Badge tone="blue">{reading.level}</Badge>
                   {reading.topic && reading.topic !== 'Official Reading Paper' ? <Badge>{reading.topic}</Badge> : null}
-                  {reading.questions.length > 1 ? <Badge tone="slate">{reading.questions.length} questions</Badge> : null}
+                  {questionCount > 1 ? <Badge tone="slate">{questionCount} questions</Badge> : null}
                   {done ? <Badge tone="green">Completed</Badge> : null}
                 </div>
                 <button
