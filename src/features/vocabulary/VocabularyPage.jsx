@@ -5,7 +5,6 @@ import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
-import ProgressBar from '../../components/ui/ProgressBar';
 import SpeakButton from '../../components/ui/SpeakButton';
 import { useLearning } from '../../context/LearningContext';
 import { vocabulary } from '../../data/vocabulary';
@@ -16,7 +15,7 @@ import { countByLevel, levelOf } from '../../lib/levels';
 
 export default function VocabularyPage() {
   usePageMeta('Vocabulary', 'Review TOPIK I and TOPIK II vocabulary and start offline quizzes.');
-  const { vocabProgress, state, isVocabBookmarked, dispatch, getVocabMeaning } = useLearning();
+  const { state, isVocabBookmarked, dispatch, getVocabMeaning } = useLearning();
   const [searchParams] = useSearchParams();
   const paramLevel = searchParams.get('level');
   const [level, setLevel] = useState(() =>
@@ -93,13 +92,6 @@ export default function VocabularyPage() {
           </div>
         </div>
         <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
-
-        <Card>
-          <ProgressBar value={vocabProgress} label="Words mastered" />
-          <p className="mt-3 text-sm text-slate-500 dark:text-slate-400">
-            {state.vocabularyStats.correctAnswers} correct from {state.vocabularyStats.totalAnswered} answers
-          </p>
-        </Card>
 
         <div className="space-y-3">
           <div className="relative">
