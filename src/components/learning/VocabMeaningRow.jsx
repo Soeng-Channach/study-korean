@@ -61,12 +61,12 @@ export default function VocabMeaningRow({ word }) {
   }
 
   return (
-    <span className="inline-flex items-center gap-1 text-sm font-semibold text-coral-700 dark:text-coral-100">
+    <span className="inline-flex items-center gap-1 font-semibold text-coral-700 dark:text-coral-100">
       — {currentMeaning}
       <SpeakButton
         text={currentMeaning}
         lang="en-US"
-        size={14}
+        size={16}
         className="inline-flex items-center justify-center rounded-full p-1 text-coral-600 transition hover:bg-coral-100 hover:text-slate-900 active:scale-95 active:text-slate-900 dark:text-coral-100 dark:hover:bg-coral-500/15 dark:hover:text-white dark:active:text-white"
         label={`Play English meaning ${currentMeaning}`}
       />
