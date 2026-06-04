@@ -203,7 +203,7 @@ export default function VocabularyPage() {
                 </div>
                 <div className="mt-3 rounded-xl border-2 border-coral-500/80 bg-gradient-to-br from-coral-100/60 via-white to-white p-4 shadow-[0_4px_18px_-8px_rgba(244,63,94,0.4)] dark:from-coral-500/10 dark:via-slate-900 dark:to-slate-900">
                   <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
-                    <h3 className="text-2xl font-bold text-slate-950 dark:text-white">{word.word}</h3>
+                    <h3 className="font-bold text-slate-950 dark:text-white">{word.word}</h3>
                     <SpeakButton
                       text={word.word}
                       size={16}

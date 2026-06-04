@@ -8,9 +8,17 @@ const rows = [
 
 const isNotUsedValue = (value = '') => value.toLowerCase().startsWith('not used');
 
+// Noun forms are stored as "N인", "N이/가" (no hyphen) while verb/adjective forms use
+// "V-"/"A-". Add the matching hyphen so a noun reads "N-인", "N-이/가" — including each
+// segment of multi-form values like "N인 / N일" -> "N-인 / N-일". Only an "N" directly
+// bound to a following particle/ending is touched, so "N 도중에" (separate word) and a
+// trailing bare "N" ("...비롯한 N") stay as-is, and "N-..." is left idempotent.
+const withNounHyphen = (value = '') => value.replace(/N(?=[^\s\-/])/g, 'N-');
+
 function UsageValueBadge({ short, value }) {
-  const displayValue = value === 'Not used directly' ? 'Not used' : value;
-  const notUsed = isNotUsedValue(displayValue);
+  const normalized = value === 'Not used directly' ? 'Not used' : value;
+  const notUsed = isNotUsedValue(normalized);
+  const displayValue = !notUsed && short === 'N' ? withNounHyphen(normalized) : normalized;
   const valueStartsWithLetter = displayValue.startsWith(short);
 
   return (
@@ -47,11 +55,19 @@ export function UsageGuideCompact({ usage }) {
 export default function UsageGuide({ usage }) {
   if (!usage) return null;
 
+  const usedRows = rows.filter(([, key]) => {
+    const value = usage[key];
+    return value && !isNotUsedValue(value);
+  });
+
+  const colsClass =
+    usedRows.length >= 3 ? 'sm:grid-cols-3' : usedRows.length === 2 ? 'sm:grid-cols-2' : 'sm:grid-cols-1';
+
   return (
     <Card>
       <h3 className="text-lg font-bold text-slate-950 dark:text-white">Structure</h3>
-      <div className="mt-4 grid gap-3 sm:grid-cols-3">
-        {rows.map(([label, key, short]) => (
+      <div className={`mt-4 grid gap-3 ${colsClass}`}>
+        {usedRows.map(([label, key, short]) => (
           <div key={key} className="rounded-lg bg-slate-50 p-4 dark:bg-slate-800">
             <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
               {label}
