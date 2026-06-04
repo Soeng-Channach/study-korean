@@ -5,21 +5,32 @@ import Badge from '../ui/Badge';
 import Card from '../ui/Card';
 import { UsageGuideCompact } from './UsageGuide';
 
+function titleCase(value = '') {
+  return value
+    .split(' ')
+    .map((word) => (word ? `${word[0].toUpperCase()}${word.slice(1)}` : word))
+    .join(' ');
+}
+
 export default function GrammarCard({ lesson, level }) {
   const { isGrammarBookmarked, isGrammarCompleted, dispatch, getGrammarCoreMeaning } = useLearning();
   const bookmarked = isGrammarBookmarked(lesson.id);
   const completed = isGrammarCompleted(lesson.id);
   const coreMeaning = getGrammarCoreMeaning(lesson);
+  const categoryLabel =
+    lesson.level === 'TOPIK I' && lesson.category === 'Particles'
+      ? titleCase(lesson.meaning)
+      : lesson.category;
   // Carry the originating level so the detail page can return to the same tab.
   const detailPath = level ? `/grammar/${lesson.id}?level=${encodeURIComponent(level)}` : `/grammar/${lesson.id}`;
 
   return (
     <Card className="transition hover:-translate-y-0.5 hover:shadow-soft">
       <div className="flex items-start justify-between gap-2">
-        <div className="flex flex-wrap gap-1.5">
-          <Badge tone="blue">{lesson.level}</Badge>
-          <Badge>{lesson.category}</Badge>
-          {completed ? <Badge tone="green">Done</Badge> : null}
+        <div className="flex min-w-0 flex-wrap gap-2">
+          <Badge tone="blue" className="px-3">{lesson.level}</Badge>
+          <Badge className="px-3">{categoryLabel}</Badge>
+          {completed ? <Badge tone="green" className="px-3">Done</Badge> : null}
         </div>
         <button
           type="button"
