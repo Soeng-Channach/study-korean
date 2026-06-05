@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react';
+import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { Search, Sparkles, Star, X } from 'lucide-react';
 import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
@@ -12,6 +12,10 @@ import { usePageMeta } from '../../hooks/usePageMeta';
 import LevelTabs from '../../components/ui/LevelTabs';
 import StickyHeader from '../../components/ui/StickyHeader';
 import { countByLevel, levelOf } from '../../lib/levels';
+
+// There are thousands of vocabulary words; rendering every card at once freezes
+// the page. Render a page at a time and grow the window as the user scrolls.
+const PAGE_SIZE = 48;
 
 export default function VocabularyPage() {
   usePageMeta('Vocabulary', 'Review TOPIK I and TOPIK II vocabulary and start offline quizzes.');
@@ -64,6 +68,34 @@ export default function VocabularyPage() {
       );
     });
   }, [levelWords, query, posFilter, showSavedOnly, state.bookmarkedVocabIds, getVocabMeaning]);
+
+  // Only render a growing window of the filtered list so the page stays responsive.
+  const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
+  const visible = filtered.slice(0, visibleCount);
+  const hasMore = visibleCount < filtered.length;
+
+  // Start over from the top whenever the filters change the result set.
+  useEffect(() => {
+    setVisibleCount(PAGE_SIZE);
+  }, [level, query, posFilter, showSavedOnly]);
+
+  // Auto-load the next page as the sentinel scrolls into view.
+  const sentinelRef = useRef(null);
+  useEffect(() => {
+    if (!hasMore) return undefined;
+    const el = sentinelRef.current;
+    if (!el) return undefined;
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (entries[0].isIntersecting) {
+          setVisibleCount((count) => Math.min(count + PAGE_SIZE, filtered.length));
+        }
+      },
+      { rootMargin: '600px' }
+    );
+    observer.observe(el);
+    return () => observer.disconnect();
+  }, [hasMore, visibleCount, filtered.length]);
 
   return (
     <div className="space-y-5">
@@ -175,8 +207,9 @@ export default function VocabularyPage() {
           </p>
         </Card>
       ) : (
+        <>
         <div className="grid gap-4 md:grid-cols-2">
-          {filtered.map((word) => {
+          {visible.map((word) => {
             const mastered = state.vocabularyStats.masteredWordIds.includes(word.id);
             const bookmarked = isVocabBookmarked(word.id);
             return (
@@ -227,6 +260,17 @@ export default function VocabularyPage() {
             );
           })}
         </div>
+        {hasMore ? (
+          <div ref={sentinelRef} className="flex justify-center pt-1">
+            <Button
+              variant="secondary"
+              onClick={() => setVisibleCount((count) => Math.min(count + PAGE_SIZE, filtered.length))}
+            >
+              Load more ({filtered.length - visibleCount} remaining)
+            </Button>
+          </div>
+        ) : null}
+        </>
       )}
     </div>
   );
