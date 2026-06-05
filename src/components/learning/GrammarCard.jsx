@@ -25,7 +25,9 @@ export default function GrammarCard({ lesson, level }) {
   const detailPath = level ? `/grammar/${lesson.id}?level=${encodeURIComponent(level)}` : `/grammar/${lesson.id}`;
 
   return (
-    <Card className="transition hover:-translate-y-0.5 hover:shadow-soft">
+    // id + scroll-margin let the list scroll this card back into view (clear of
+    // the sticky header) when you return from studying the lesson.
+    <Card id={`grammar-${lesson.id}`} className="scroll-mt-44 transition hover:-translate-y-0.5 hover:shadow-soft">
       <div className="flex items-start justify-between gap-2">
         <div className="flex min-w-0 flex-wrap gap-2">
           <Badge tone="blue" className="px-3">{lesson.level}</Badge>

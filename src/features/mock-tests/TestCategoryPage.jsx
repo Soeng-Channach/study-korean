@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useEffect, useMemo, useState } from 'react';
 import { BookOpenCheck, Languages } from 'lucide-react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import Card from '../../components/ui/Card';
@@ -25,7 +25,7 @@ const categoryConfig = {
 
 export default function TestCategoryPage({ category }) {
   const params = useParams();
-  const [searchParams] = useSearchParams();
+  const [searchParams, setSearchParams] = useSearchParams();
   const type = category ?? params.type;
   const config = categoryConfig[type];
   const Icon = config?.icon;
@@ -39,6 +39,18 @@ export default function TestCategoryPage({ category }) {
   const typeTests = useMemo(() => mockTests.filter((test) => test.type === type), [type]);
   const levelCounts = useMemo(() => countByLevel(typeTests), [typeTests]);
   const tests = useMemo(() => typeTests.filter((test) => levelOf(test) === level), [typeTests, level]);
+
+  // When returning from a test, scroll its card back into view rather than
+  // landing at the top, then drop the marker so it doesn't linger in the URL.
+  const lastTestId = searchParams.get('test');
+  useEffect(() => {
+    if (!lastTestId) return;
+    document.getElementById(`test-${lastTestId}`)?.scrollIntoView({ block: 'start' });
+    const next = new URLSearchParams(searchParams);
+    next.delete('test');
+    setSearchParams(next, { replace: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lastTestId]);
 
   usePageMeta(config?.title || 'Tests', config?.description || 'TOPIK tests.');
 

@@ -56,6 +56,12 @@ export default function MockTestPage() {
     submittedRef.current = false;
   }, [test?.id, totalSeconds]);
 
+  // Open each test from the top of the scroll area (the shared <main> keeps its
+  // previous offset, which would otherwise drop you partway down).
+  useEffect(() => {
+    document.querySelector('main')?.scrollTo({ top: 0 });
+  }, [id]);
+
   useEffect(() => {
     if (!test || remainingSeconds <= 0) return undefined;
 
@@ -91,7 +97,7 @@ export default function MockTestPage() {
   return (
     <div className="mx-auto max-w-3xl space-y-4 pb-[calc(7.5rem+env(safe-area-inset-bottom))] sm:space-y-5 lg:pb-0">
       <Link
-        to={`/mock-tests/${test.type}?level=${encodeURIComponent(levelOf(test))}`}
+        to={`/mock-tests/${test.type}?level=${encodeURIComponent(levelOf(test))}&test=${encodeURIComponent(test.id)}`}
         className="group sticky -top-5 z-40 inline-flex w-fit items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-3.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900"
       >
         <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />

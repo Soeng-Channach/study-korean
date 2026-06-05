@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import { Star } from 'lucide-react';
 import { Link, useSearchParams } from 'react-router-dom';
 import GrammarCard from '../../components/learning/GrammarCard';
@@ -22,6 +22,18 @@ export default function GrammarListPage() {
 
   const levelCounts = useMemo(() => countByLevel(grammarLessons), []);
   const lessons = useMemo(() => grammarLessons.filter((l) => levelOf(l) === level), [level]);
+
+  // When returning from a lesson, scroll its card back into view rather than
+  // landing at the top, then drop the marker so it doesn't linger in the URL.
+  const lastLessonId = searchParams.get('lesson');
+  useEffect(() => {
+    if (!lastLessonId) return;
+    document.getElementById(`grammar-${lastLessonId}`)?.scrollIntoView({ block: 'start' });
+    const next = new URLSearchParams(searchParams);
+    next.delete('lesson');
+    setSearchParams(next, { replace: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lastLessonId]);
 
   return (
     <div className="space-y-5">

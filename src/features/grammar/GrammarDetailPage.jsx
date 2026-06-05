@@ -14,7 +14,12 @@ export default function GrammarDetailPage() {
   const { id } = useParams();
   const [searchParams] = useSearchParams();
   const backLevel = searchParams.get('level');
-  const backToGrammar = backLevel ? `/grammar?level=${encodeURIComponent(backLevel)}` : '/grammar';
+  // Carry the lesson id back so the list can scroll this card into view instead
+  // of resetting to the top.
+  const backParams = new URLSearchParams();
+  if (backLevel) backParams.set('level', backLevel);
+  backParams.set('lesson', id);
+  const backToGrammar = `/grammar?${backParams.toString()}`;
   const lesson = grammarLessons.find((item) => item.id === id);
   const {
     dispatch,
@@ -33,6 +38,12 @@ export default function GrammarDetailPage() {
     setEditing(false);
     setDraft(currentCoreMeaning);
   }, [lesson?.id, currentCoreMeaning]);
+
+  // Open each lesson from the top of the scroll area (the shared <main> keeps its
+  // previous offset, which would otherwise drop you partway down the lesson).
+  useEffect(() => {
+    document.querySelector('main')?.scrollTo({ top: 0 });
+  }, [id]);
 
   usePageMeta(lesson?.pattern || 'Grammar lesson', lesson?.explanation || 'TOPIK II grammar lesson.');
 

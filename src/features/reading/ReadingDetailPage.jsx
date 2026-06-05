@@ -109,7 +109,12 @@ export default function ReadingDetailPage() {
   const { id } = useParams();
   const [searchParams] = useSearchParams();
   const backLevel = searchParams.get('level');
-  const backToReading = backLevel ? `/reading?level=${encodeURIComponent(backLevel)}` : '/reading';
+  // Carry the reading id back so the list can scroll this card into view instead
+  // of resetting to the top.
+  const backParams = new URLSearchParams();
+  if (backLevel) backParams.set('level', backLevel);
+  backParams.set('reading', id);
+  const backToReading = `/reading?${backParams.toString()}`;
   const reading = readings.find((item) => item.id === id);
   const [selectedAnswers, setSelectedAnswers] = useState({});
   const [revealed, setRevealed] = useState(false);
@@ -130,6 +135,12 @@ export default function ReadingDetailPage() {
     setRemainingSeconds(totalSeconds);
     autoCheckedRef.current = false;
   }, [reading?.id, totalSeconds]);
+
+  // Open each reading from the top of the scroll area (the shared <main> keeps
+  // its previous offset, which would otherwise drop you partway down).
+  useEffect(() => {
+    document.querySelector('main')?.scrollTo({ top: 0 });
+  }, [id]);
 
   // Tick the countdown while the test is in progress
   useEffect(() => {

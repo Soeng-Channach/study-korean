@@ -9,7 +9,9 @@ export default function TestCard({ test }) {
   const isGrammar = test.type === 'grammar';
 
   return (
-    <Card>
+    // id + scroll-margin let the category list scroll this card back into view
+    // (clear of the sticky header) when you return from taking the test.
+    <Card id={`test-${test.id}`} className="scroll-mt-56">
       <div className="flex flex-wrap gap-2">
         <Badge tone={isGrammar ? 'blue' : 'green'}>{isGrammar ? 'Grammar' : 'Vocabulary'}</Badge>
         <Badge>{test.durationMinutes} min</Badge>

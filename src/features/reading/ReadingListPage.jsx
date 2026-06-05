@@ -1,4 +1,4 @@
-import { useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
 import { Check } from 'lucide-react';
 import { Link, useSearchParams } from 'react-router-dom';
 import Badge from '../../components/ui/Badge';
@@ -27,6 +27,18 @@ export default function ReadingListPage() {
   const [searchParams, setSearchParams] = useSearchParams();
   const level = searchParams.get('level') === 'TOPIK II' ? 'TOPIK II' : 'TOPIK I';
   const setLevel = (next) => setSearchParams({ level: next }, { replace: true });
+
+  // When returning from a reading, scroll its card back into view rather than
+  // landing at the top, then drop the marker so it doesn't linger in the URL.
+  const lastReadingId = searchParams.get('reading');
+  useEffect(() => {
+    if (!lastReadingId) return;
+    document.getElementById(`reading-${lastReadingId}`)?.scrollIntoView({ block: 'start' });
+    const next = new URLSearchParams(searchParams);
+    next.delete('reading');
+    setSearchParams(next, { replace: true });
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [lastReadingId]);
 
   const levelCounts = useMemo(() => countByLevel(readings), []);
   const levelReadings = useMemo(() => readings.filter((r) => levelOf(r) === level), [level]);
@@ -69,7 +81,12 @@ export default function ReadingListPage() {
             : reading.passage || `${questionCount} questions on one page`;
           const done = isReadingCompleted(reading.id);
           return (
-          <Link key={reading.id} to={`/reading/${reading.id}?level=${encodeURIComponent(level)}`}>
+          <Link
+            key={reading.id}
+            id={`reading-${reading.id}`}
+            to={`/reading/${reading.id}?level=${encodeURIComponent(level)}`}
+            className="scroll-mt-44"
+          >
             <Card className="h-full transition hover:-translate-y-0.5 hover:shadow-soft">
               <div className="flex items-start justify-between gap-2">
                 <div className="flex flex-wrap gap-2">
