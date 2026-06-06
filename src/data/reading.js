@@ -166,7 +166,8 @@ export const readings = [
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
         "questionNumber": 40,
         "points": 3,
-        "questionType": "text",
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T164R10.png",
         "passage": "[축구 동아리 모임]\n언제: 매주 금요일 저녁 6시\n어디서: 학교 운동장",
         "question": "맞지 않는 것을 고르십시오.",
         "options": [
@@ -183,7 +184,8 @@ export const readings = [
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
         "questionNumber": 41,
         "points": 3,
-        "questionType": "text",
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T164R11.png",
         "passage": "[행복 김치 라면]\n계란이 들어 있어요!\n1,200원",
         "question": "맞지 않는 것을 고르십시오.",
         "options": [
@@ -200,7 +202,8 @@ export const readings = [
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오. (각 3점)",
         "questionNumber": 42,
         "points": 3,
-        "questionType": "text",
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T164R12.png",
         "passage": "(김미영) 마이클 씨, 오늘 시간이 있어요? 친구들이 우리 집에 와요. 같이 집에서 영화를 볼 거예요. 마이클 씨도 오세요.",
         "question": "맞지 않는 것을 고르십시오.",
         "options": [
@@ -557,7 +560,8 @@ export const readings = [
         "instruction": "※ [63~64] 다음을 읽고 물음에 답하십시오.",
         "questionNumber": 63,
         "points": 2,
-        "questionType": "text",
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T164R33.png",
         "passage": "[한국아파트 게시판 - 지하 주차장 청소 안내]\n우리 아파트 지하 주차장 물청소를 다음 주 월요일과 화요일에 할 예정입니다. 청소를 하는 날에는 주차를 할 수 없습니다. 아파트의 다른 주차장을 이용하시기 바랍니다.\n● 청소 일정\n· 301동, 302동: 7월 29일(월)\n· 303동, 304동: 7월 30일(화)\n● 청소 시간\n· 09:00~18:00\n2019년 7월 22일(월) 한국아파트 관리실",
         "question": "왜 이 글을 썼는지 맞는 것을 고르십시오.",
         "options": [
@@ -575,6 +579,7 @@ export const readings = [
         "questionNumber": 64,
         "points": 3,
         "questionType": "text",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T164R33.png",
         "passage": "[한국아파트 게시판 - 지하 주차장 청소 안내]\n우리 아파트 지하 주차장 물청소를 다음 주 월요일과 화요일에 할 예정입니다. 청소를 하는 날에는 주차를 할 수 없습니다. 아파트의 다른 주차장을 이용하시기 바랍니다.\n● 청소 일정\n· 301동, 302동: 7월 29일(월)\n· 303동, 304동: 7월 30일(화)\n● 청소 시간\n· 09:00~18:00\n2019년 7월 22일(월) 한국아파트 관리실",
         "question": "이 글의 내용과 같은 것을 고르십시오.",
         "options": [
@@ -857,7 +862,8 @@ export const readings = [
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오.",
         "questionNumber": 40,
         "points": 3,
-        "questionType": "text",
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T135R10.png",
         "passage": "[1년 사용한 컴퓨터를 팔아요.]\n가격: 100,000원\n연락처: study@Korea.co.kr",
         "question": "맞지 않는 것을 고르십시오.",
         "options": [
@@ -874,7 +880,8 @@ export const readings = [
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오.",
         "questionNumber": 41,
         "points": 3,
-        "questionType": "text",
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T135R11.png",
         "passage": "(휴대전화 메시지) 민수 씨, 제 동생이 왔어요. 그래서 지금 회사 앞 커피숍에 있어요. 1시에 회사에 가겠습니다. ^^ 지현 드림",
         "question": "맞지 않는 것을 고르십시오.",
         "options": [
@@ -891,7 +898,8 @@ export const readings = [
         "instruction": "※ [40~42] 다음을 읽고 맞지 않는 것을 고르십시오.",
         "questionNumber": 42,
         "points": 3,
-        "questionType": "text",
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T135R12.png",
         "passage": "[행복음악회 - 음악회에 초대합니다.]\n기간: 2014년 8월 1일 ~ 8월 31일\n일시: 매주 토요일 오후 8시\n장소: 하늘공원",
         "question": "맞지 않는 것을 고르십시오.",
         "options": [
@@ -1248,7 +1256,8 @@ export const readings = [
         "instruction": "※ [63~64] 다음을 읽고 물음에 답하십시오.",
         "questionNumber": 63,
         "points": 2,
-        "questionType": "text",
+        "questionType": "image",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T135R33.png",
         "passage": "(이메일) 받는사람: sarang@parang.com; koreal@empan.com; minsu@bola.com; ok1213@maver.com; tree@maver.com / 보낸사람: yumi@parang.com / 제목: 유학생 농구 대회\n농구 대회에 참가 신청을 해 주셔서 감사합니다. 이번 주 토요일 오전 10시에 운동장에서 대회가 시작됩니다. 경기에 참가하는 선수들은 9시까지 와 주시기 바랍니다. 비가 오면 학생회관 옆에 있는 체육관에서 경기를 하겠습니다. 그럼, 토요일에 뵙겠습니다. 학생회장 김유미 올림",
         "question": "유미 씨는 왜 이 글을 썼습니까?",
         "options": [
@@ -1266,6 +1275,7 @@ export const readings = [
         "questionNumber": 64,
         "points": 3,
         "questionType": "text",
+        "image": "https://www.topikguide.com/wp-content/uploads/2025/09/T135R33.png",
         "passage": "(이메일) 받는사람: sarang@parang.com; koreal@empan.com; minsu@bola.com; ok1213@maver.com; tree@maver.com / 보낸사람: yumi@parang.com / 제목: 유학생 농구 대회\n농구 대회에 참가 신청을 해 주셔서 감사합니다. 이번 주 토요일 오전 10시에 운동장에서 대회가 시작됩니다. 경기에 참가하는 선수들은 9시까지 와 주시기 바랍니다. 비가 오면 학생회관 옆에 있는 체육관에서 경기를 하겠습니다. 그럼, 토요일에 뵙겠습니다. 학생회장 김유미 올림",
         "question": "이 글의 내용과 같은 것을 고르십시오.",
         "options": [
