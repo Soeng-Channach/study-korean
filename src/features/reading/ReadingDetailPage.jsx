@@ -249,7 +249,7 @@ export default function ReadingDetailPage() {
         </Card>
 
         <div className="relative min-h-0 flex-1 overflow-hidden rounded-xl border border-slate-200 bg-slate-100 shadow-sm dark:border-slate-800 dark:bg-slate-900">
-          <PdfViewer src={reading.paperSrc} />
+          <PdfViewer src={reading.paperSrc} pageRange={reading.paperPageRange} />
         </div>
       </article>
     );

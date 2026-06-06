@@ -8,7 +8,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = pdfjsWorker;
 
 const options = { cMapUrl: 'cmaps/', cMapPacked: true };
 
-export default function PdfViewer({ blob, src, className = '' }) {
+export default function PdfViewer({ blob, src, pageRange, className = '' }) {
   const containerRef = useRef(null);
   const [containerWidth, setContainerWidth] = useState(0);
   const [numPages, setNumPages] = useState(null);
@@ -29,6 +29,14 @@ export default function PdfViewer({ blob, src, className = '' }) {
   }, []);
 
   const pageWidth = Math.max(0, containerWidth - 24);
+  const visiblePages = useMemo(() => {
+    if (!numPages) return [];
+
+    const start = Math.max(1, Math.min(pageRange?.start || 1, numPages));
+    const end = Math.max(start, Math.min(pageRange?.end || numPages, numPages));
+
+    return Array.from({ length: end - start + 1 }, (_, index) => start + index);
+  }, [numPages, pageRange?.end, pageRange?.start]);
 
   return (
     <div
@@ -58,11 +66,11 @@ export default function PdfViewer({ blob, src, className = '' }) {
           onLoadError={(err) => setError(err)}
           className="flex flex-col items-center gap-3 py-3"
         >
-          {numPages && pageWidth > 0
-            ? Array.from({ length: numPages }, (_, index) => (
+          {pageWidth > 0
+            ? visiblePages.map((pageNumber) => (
                 <Page
-                  key={index}
-                  pageNumber={index + 1}
+                  key={pageNumber}
+                  pageNumber={pageNumber}
                   width={pageWidth}
                   renderAnnotationLayer={false}
                   renderTextLayer={false}
