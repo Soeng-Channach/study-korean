@@ -8,7 +8,7 @@ export const STORAGE_KEYS = {
 export const navItems = [
   { label: 'Home', path: '/', icon: 'LayoutDashboard' },
   { label: 'Vocab', path: '/vocabulary', icon: 'Languages' },
-  { label: 'Grammar', path: '/grammar', icon: 'BookOpen' },
+  { label: 'Grammar', path: '/grammar?level=TOPIK II', icon: 'BookOpen' },
   { label: 'Reading', path: '/reading', icon: 'Newspaper' },
   { label: 'Listen', path: '/listening', icon: 'Headphones' },
   { label: 'Tests', path: '/mock-tests', icon: 'ClipboardCheck' },

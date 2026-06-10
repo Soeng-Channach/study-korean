@@ -9,15 +9,18 @@ import EmptyState from '../../components/ui/EmptyState';
 import { useLearning } from '../../context/LearningContext';
 import { grammarLessons } from '../../data/grammar';
 import { usePageMeta } from '../../hooks/usePageMeta';
+import { grammarGroupOf } from '../../lib/grammarGroups';
 
 export default function GrammarDetailPage() {
   const { id } = useParams();
   const [searchParams] = useSearchParams();
   const backLevel = searchParams.get('level');
+  const backGroup = searchParams.get('group');
   // Carry the lesson id back so the list can scroll this card into view instead
   // of resetting to the top.
   const backParams = new URLSearchParams();
   if (backLevel) backParams.set('level', backLevel);
+  if (backGroup) backParams.set('group', backGroup);
   backParams.set('lesson', id);
   const backToGrammar = `/grammar?${backParams.toString()}`;
   const lesson = grammarLessons.find((item) => item.id === id);
@@ -53,6 +56,7 @@ export default function GrammarDetailPage() {
 
   const bookmarked = isGrammarBookmarked(lesson.id);
   const completed = isGrammarCompleted(lesson.id);
+  const grammarGroup = grammarGroupOf(lesson);
 
   function startEdit() {
     setDraft(currentCoreMeaning);
@@ -97,7 +101,8 @@ export default function GrammarDetailPage() {
       <Card>
         <div className="flex items-start justify-between gap-2">
           <div className="flex flex-wrap gap-2">
-            <Badge tone="blue">{lesson.category}</Badge>
+            <Badge tone="blue">{grammarGroup.label}</Badge>
+            <Badge>{lesson.category}</Badge>
             <Badge>{lesson.level}</Badge>
             {completed ? <Badge tone="green">Completed</Badge> : null}
           </div>
@@ -195,7 +200,7 @@ export default function GrammarDetailPage() {
         <p className="mt-6 leading-7 text-slate-700 dark:text-slate-300">{lesson.explanation}</p>
       </Card>
 
-      <UsageGuide usage={lesson.usage} />
+      <UsageGuide usage={lesson.usage} pattern={lesson.pattern} />
 
       <Card>
         <div className="flex items-center justify-between gap-3">

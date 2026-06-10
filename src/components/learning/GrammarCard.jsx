@@ -1,6 +1,7 @@
 import { ArrowRight, Star } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useLearning } from '../../context/LearningContext';
+import { ALL_GRAMMAR_GROUP, grammarGroupOf } from '../../lib/grammarGroups';
 import Badge from '../ui/Badge';
 import Card from '../ui/Card';
 import { UsageGuideCompact } from './UsageGuide';
@@ -12,17 +13,22 @@ function titleCase(value = '') {
     .join(' ');
 }
 
-export default function GrammarCard({ lesson, level }) {
+export default function GrammarCard({ lesson, level, group = ALL_GRAMMAR_GROUP.id }) {
   const { isGrammarBookmarked, isGrammarCompleted, dispatch, getGrammarCoreMeaning } = useLearning();
   const bookmarked = isGrammarBookmarked(lesson.id);
   const completed = isGrammarCompleted(lesson.id);
   const coreMeaning = getGrammarCoreMeaning(lesson);
+  const grammarGroup = grammarGroupOf(lesson);
   const categoryLabel =
     lesson.level === 'TOPIK I' && lesson.category === 'Particles'
       ? titleCase(lesson.meaning)
       : lesson.category;
   // Carry the originating level so the detail page can return to the same tab.
-  const detailPath = level ? `/grammar/${lesson.id}?level=${encodeURIComponent(level)}` : `/grammar/${lesson.id}`;
+  const detailParams = new URLSearchParams();
+  if (level) detailParams.set('level', level);
+  if (group && group !== ALL_GRAMMAR_GROUP.id) detailParams.set('group', group);
+  const detailQuery = detailParams.toString();
+  const detailPath = detailQuery ? `/grammar/${lesson.id}?${detailQuery}` : `/grammar/${lesson.id}`;
 
   return (
     // id + scroll-margin let the list scroll this card back into view (clear of
@@ -31,6 +37,7 @@ export default function GrammarCard({ lesson, level }) {
       <div className="flex items-start justify-between gap-2">
         <div className="flex min-w-0 flex-wrap gap-2">
           <Badge tone="blue" className="px-3">{lesson.level}</Badge>
+          <Badge tone="green" className="px-3">{grammarGroup.label}</Badge>
           <Badge className="px-3">{categoryLabel}</Badge>
           {completed ? <Badge tone="green" className="px-3">Done</Badge> : null}
         </div>
@@ -57,7 +64,7 @@ export default function GrammarCard({ lesson, level }) {
           </p>
         </div>
         <p className="mt-2.5 line-clamp-2 text-sm leading-snug text-slate-600 dark:text-slate-400">{lesson.explanation}</p>
-        <UsageGuideCompact usage={lesson.usage} />
+        <UsageGuideCompact usage={lesson.usage} pattern={lesson.pattern} />
       </div>
       <div className="mt-4 flex items-center justify-center">
         <Link

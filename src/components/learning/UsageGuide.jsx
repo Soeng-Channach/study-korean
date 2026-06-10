@@ -15,10 +15,29 @@ const isNotUsedValue = (value = '') => value.toLowerCase().startsWith('not used'
 // trailing bare "N" ("...비롯한 N") stay as-is, and "N-..." is left idempotent.
 const withNounHyphen = (value = '') => value.replace(/N(?=[^\s\-/])/g, 'N-');
 
-function UsageValueBadge({ short, value }) {
+const patternSlots = ['-(으)ㄴ/는/(으)ㄹ', '-(으)ㄴ/는', '-(으)ㄹ', '-(으)ㄴ', '-고', '-기'];
+
+function structureValue(value, short, pattern) {
+  if (!pattern || isNotUsedValue(value) || !value.startsWith(short)) return value;
+
+  const slot = patternSlots.find((candidate) => pattern.includes(candidate));
+  if (!slot) return value;
+
+  const [prefix = '', suffix = ''] = pattern.split(slot).map((part) => part.trim());
+  if (!prefix && !suffix) return value;
+  if ((prefix && value.includes(prefix)) || (suffix && value.includes(suffix))) return value;
+
+  return value
+    .split(' / ')
+    .map((form) => pattern.replace(slot, form))
+    .join(' / ');
+}
+
+function UsageValueBadge({ short, value, pattern }) {
   const normalized = value === 'Not used directly' ? 'Not used' : value;
   const notUsed = isNotUsedValue(normalized);
-  const displayValue = !notUsed && short === 'N' ? withNounHyphen(normalized) : normalized;
+  const structuredValue = structureValue(normalized, short, pattern);
+  const displayValue = !notUsed && short === 'N' ? withNounHyphen(structuredValue) : structuredValue;
   const valueStartsWithLetter = displayValue.startsWith(short);
 
   return (
@@ -35,7 +54,7 @@ function UsageValueBadge({ short, value }) {
   );
 }
 
-export function UsageGuideCompact({ usage }) {
+export function UsageGuideCompact({ usage, pattern }) {
   if (!usage) return null;
 
   return (
@@ -44,7 +63,7 @@ export function UsageGuideCompact({ usage }) {
         const value = usage[key];
         return (
           <span key={key} title={`${label}: ${value}`}>
-            <UsageValueBadge short={short} value={value} />
+            <UsageValueBadge short={short} value={value} pattern={pattern} />
           </span>
         );
       })}
@@ -52,7 +71,7 @@ export function UsageGuideCompact({ usage }) {
   );
 }
 
-export default function UsageGuide({ usage }) {
+export default function UsageGuide({ usage, pattern }) {
   if (!usage) return null;
 
   const usedRows = rows.filter(([, key]) => {
@@ -73,7 +92,7 @@ export default function UsageGuide({ usage }) {
               {label}
             </p>
             <div className="mt-2">
-              <UsageValueBadge short={short} value={usage[key]} />
+              <UsageValueBadge short={short} value={usage[key]} pattern={pattern} />
             </div>
           </div>
         ))}

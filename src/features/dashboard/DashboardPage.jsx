@@ -28,7 +28,7 @@ export default function DashboardPage() {
     if (ok) dispatch({ type: 'reset-progress' });
   }
   const quickLinks = [
-    { label: 'Grammar', path: '/grammar', icon: BookMarked, count: `${grammarLessons.length} lessons` },
+    { label: 'Grammar', path: '/grammar?level=TOPIK II', icon: BookMarked, count: `${grammarLessons.length} lessons` },
     { label: 'Reading', path: '/reading', icon: Newspaper, count: `${readings.length} passages` },
     { label: 'Listening', path: '/listening', icon: Headphones, count: `${listeningTests.length} tests` },
     { label: 'Vocabulary', path: '/vocabulary', icon: Languages, count: `${vocabulary.length} words` },
