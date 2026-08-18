@@ -5,16 +5,13 @@ import { useConfirm } from '../../components/ui/ConfirmDialog';
 import ProgressBar from '../../components/ui/ProgressBar';
 import { useLearning } from '../../context/LearningContext';
 import { usePageMeta } from '../../hooks/usePageMeta';
-import { countByLevel } from '../../lib/levels';
-import { grammarLessons } from '../../data/grammar';
-import { listeningTests } from '../../data/listening';
-import { mockTests } from '../../data/mockTests';
-import { readings } from '../../data/reading';
-import { vocabulary } from '../../data/vocabulary';
+import { catalog } from '../../data/catalog';
 
 export default function DashboardPage() {
   usePageMeta('Dashboard', 'Track TOPIK I and TOPIK II grammar, reading, vocabulary, and mock test progress.');
-  const { state, grammarProgress, vocabProgress, dispatch } = useLearning();
+  const { state, masteredWordCount, dispatch } = useLearning();
+  const grammarProgress = Math.round((state.completedGrammarIds.length / catalog.grammar.total) * 100);
+  const vocabProgress = Math.round((masteredWordCount / catalog.vocabulary.total) * 100);
   const confirm = useConfirm();
 
   async function handleReset() {
@@ -28,19 +25,19 @@ export default function DashboardPage() {
     if (ok) dispatch({ type: 'reset-progress' });
   }
   const quickLinks = [
-    { label: 'Grammar', path: '/grammar?level=TOPIK II', icon: BookMarked, count: `${grammarLessons.length} lessons` },
-    { label: 'Reading', path: '/reading', icon: Newspaper, count: `${readings.length} passages` },
-    { label: 'Listening', path: '/listening', icon: Headphones, count: `${listeningTests.length} tests` },
-    { label: 'Vocabulary', path: '/vocabulary', icon: Languages, count: `${vocabulary.length} words` },
-    { label: 'Mock Tests', path: '/mock-tests', icon: ClipboardCheck, count: `${mockTests.length} tests` }
+    { label: 'Grammar', path: '/grammar?level=TOPIK II', icon: BookMarked, count: `${catalog.grammar.total} lessons` },
+    { label: 'Reading', path: '/reading', icon: Newspaper, count: `${catalog.reading.total} passages` },
+    { label: 'Listening', path: '/listening', icon: Headphones, count: `${catalog.listening.total} tests` },
+    { label: 'Vocabulary', path: '/vocabulary', icon: Languages, count: `${catalog.vocabulary.total} words` },
+    { label: 'Mock Tests', path: '/mock-tests', icon: ClipboardCheck, count: `${catalog.mockTests.total} tests` }
   ];
 
   const libraryRows = [
-    { label: 'Grammar', counts: countByLevel(grammarLessons) },
-    { label: 'Vocabulary', counts: countByLevel(vocabulary) },
-    { label: 'Reading', counts: countByLevel(readings) },
-    { label: 'Listening', counts: countByLevel(listeningTests) },
-    { label: 'Mock tests', counts: countByLevel(mockTests) }
+    { label: 'Grammar', counts: catalog.grammar.byLevel },
+    { label: 'Vocabulary', counts: catalog.vocabulary.byLevel },
+    { label: 'Reading', counts: catalog.reading.byLevel },
+    { label: 'Listening', counts: catalog.listening.byLevel },
+    { label: 'Mock tests', counts: catalog.mockTests.byLevel }
   ];
 
   return (
@@ -88,9 +85,11 @@ export default function DashboardPage() {
           <div className="mt-5 space-y-5">
             <ProgressBar value={grammarProgress} label="Grammar completed" />
             <ProgressBar value={vocabProgress} label="Vocabulary mastered" />
-            <ProgressBar value={Math.round((state.completedReadingIds.length / readings.length) * 100)} label="Reading completed" />
+            <ProgressBar value={Math.round((state.completedReadingIds.length / catalog.reading.total) * 100)} label="Reading completed" />
             <ProgressBar
-              value={listeningTests.length > 0 ? Math.round(((state.completedListeningIds?.length || 0) / listeningTests.length) * 100) : 0}
+              value={catalog.listening.total > 0
+                ? Math.round(((state.completedListeningIds?.length || 0) / catalog.listening.total) * 100)
+                : 0}
               label="Listening completed"
             />
           </div>

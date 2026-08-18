@@ -98,3 +98,13 @@ export function reviewPriority(word, stats = {}, now = Date.now()) {
   return 6;
 }
 
+
+// Mastered-word count derived from saved stats alone, without needing the full
+// vocabulary list. Words carrying a review record are authoritative; legacy
+// entries are words mastered before per-word review tracking existed.
+export function countMasteredWords(stats = {}) {
+  const wordReview = stats.wordReview || {};
+  const reviewed = Object.values(wordReview).filter((review) => review?.stage === 'mastered').length;
+  const legacy = (stats.masteredWordIds || []).filter((id) => !wordReview[id]).length;
+  return reviewed + legacy;
+}

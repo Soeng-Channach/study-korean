@@ -5,7 +5,10 @@ import reactHooks from 'eslint-plugin-react-hooks';
 import reactRefresh from 'eslint-plugin-react-refresh';
 
 export default [
-  { ignores: ['dist', 'node_modules'] },
+  // render_pdf*.mjs are untracked local scratch scripts for rendering source PDFs.
+  { ignores: ['dist', 'node_modules', 'render_pdf*.mjs'] },
+  // Build-time tooling runs under Node, not the browser.
+  { files: ['scripts/**/*.mjs'], languageOptions: { globals: globals.node } },
   js.configs.recommended,
   {
     files: ['**/*.{js,jsx}'],

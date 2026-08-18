@@ -5,9 +5,7 @@ import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import ProgressBar from '../../components/ui/ProgressBar';
 import { useLearning } from '../../context/LearningContext';
-import { grammarLessons } from '../../data/grammar';
-import { listeningTests } from '../../data/listening';
-import { readings } from '../../data/reading';
+import { catalog } from '../../data/catalog';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
 const pct = (done, total) => (total ? Math.round((done / total) * 100) : 0);
@@ -15,7 +13,9 @@ const pct = (done, total) => (total ? Math.round((done / total) * 100) : 0);
 export default function ProgressPage() {
   usePageMeta('Progress', 'Track offline TOPIK study progress and earn your certificate.');
   const navigate = useNavigate();
-  const { state, grammarProgress, vocabProgress, dispatch } = useLearning();
+  const { state, masteredWordCount, dispatch } = useLearning();
+  const grammarProgress = Math.round((state.completedGrammarIds.length / catalog.grammar.total) * 100);
+  const vocabProgress = Math.round((masteredWordCount / catalog.vocabulary.total) * 100);
 
   // Return to the previous screen (e.g. the test result page), falling back to the
   // dashboard when there is no in-app history — Progress isn't on the mobile nav bar.
@@ -31,9 +31,9 @@ export default function ProgressPage() {
   const grammarDone = state.completedGrammarIds.length;
   const readingDone = state.completedReadingIds.length;
   const listeningDone = (state.completedListeningIds || []).length;
-  const grammarTotal = grammarLessons.length;
-  const readingTotal = readings.length;
-  const listeningTotal = listeningTests.length;
+  const grammarTotal = catalog.grammar.total;
+  const readingTotal = catalog.reading.total;
+  const listeningTotal = catalog.listening.total;
 
   const readingProgress = pct(readingDone, readingTotal);
   const listeningProgress = pct(listeningDone, listeningTotal);

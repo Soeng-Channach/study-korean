@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   BookOpen,
@@ -9,7 +9,7 @@ import {
   Search,
   X
 } from 'lucide-react';
-import { SEARCH_TYPES, searchAll } from '../../lib/search';
+import { isSearchIndexReady, loadSearchIndex, SEARCH_TYPES, searchAll } from '../../lib/search';
 
 const typeIcon = {
   vocab: Languages,
@@ -29,8 +29,26 @@ export default function GlobalSearch() {
   const [query, setQuery] = useState('');
   const [open, setOpen] = useState(false);
   const [activeIndex, setActiveIndex] = useState(0);
+  const [indexReady, setIndexReady] = useState(isSearchIndexReady);
+  const mountedRef = useRef(true);
 
-  const results = useMemo(() => searchAll(query), [query]);
+  useEffect(() => () => {
+    mountedRef.current = false;
+  }, []);
+
+  // The index pulls in every dataset, so it is only fetched once the user shows
+  // intent to search. Repeat calls are cheap — loadSearchIndex() is idempotent.
+  const ensureIndex = useCallback(() => {
+    if (isSearchIndexReady()) {
+      setIndexReady(true);
+      return;
+    }
+    loadSearchIndex().then(() => {
+      if (mountedRef.current) setIndexReady(true);
+    });
+  }, []);
+
+  const results = useMemo(() => (indexReady ? searchAll(query) : []), [indexReady, query]);
 
   // Keep the highlighted row valid as results change.
   useEffect(() => {
@@ -55,11 +73,12 @@ export default function GlobalSearch() {
         event.preventDefault();
         inputRef.current?.focus();
         setOpen(true);
+        ensureIndex();
       }
     }
     document.addEventListener('keydown', onKeyDown);
     return () => document.removeEventListener('keydown', onKeyDown);
-  }, []);
+  }, [ensureIndex]);
 
   const goTo = (item) => {
     if (!item) return;
@@ -73,6 +92,7 @@ export default function GlobalSearch() {
     if (event.key === 'ArrowDown') {
       event.preventDefault();
       setOpen(true);
+      ensureIndex();
       setActiveIndex((index) => Math.min(index + 1, Math.max(results.length - 1, 0)));
     } else if (event.key === 'ArrowUp') {
       event.preventDefault();
@@ -105,8 +125,12 @@ export default function GlobalSearch() {
           onChange={(event) => {
             setQuery(event.target.value);
             setOpen(true);
+            ensureIndex();
           }}
-          onFocus={() => setOpen(true)}
+          onFocus={() => {
+            setOpen(true);
+            ensureIndex();
+          }}
           onKeyDown={handleKeyDown}
           placeholder="Search lessons, words, tests"
           role="combobox"
@@ -140,7 +164,11 @@ export default function GlobalSearch() {
           role="listbox"
           className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-soft dark:border-slate-800 dark:bg-slate-900"
         >
-          {results.length === 0 ? (
+          {!indexReady ? (
+            <div className="px-4 py-6 text-center text-sm text-slate-500 dark:text-slate-400">
+              Loading search index…
+            </div>
+          ) : results.length === 0 ? (
             <div className="px-4 py-6 text-center text-sm text-slate-500 dark:text-slate-400">
               No results for <span className="font-semibold text-slate-700 dark:text-slate-200">“{query.trim()}”</span>
             </div>

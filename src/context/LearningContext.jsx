@@ -1,9 +1,7 @@
 import { createContext, useContext, useEffect, useMemo, useReducer, useState } from 'react';
-import { grammarLessons } from '../data/grammar';
-import { vocabulary } from '../data/vocabulary';
 import { STORAGE_KEYS } from '../lib/constants';
 import { readLearningState, writeLearningState } from '../lib/db';
-import { getVocabReview, nextVocabReview, summarizeVocabReviews } from '../lib/spacedRepetition';
+import { countMasteredWords, getVocabReview, nextVocabReview } from '../lib/spacedRepetition';
 
 const initialState = {
   completedGrammarIds: [],
@@ -177,16 +175,10 @@ export function LearningProvider({ children }) {
   }, [isHydrated, state]);
 
   const value = useMemo(() => {
-    const grammarProgress = Math.round((state.completedGrammarIds.length / grammarLessons.length) * 100);
-    const vocabReviewSummary = summarizeVocabReviews(vocabulary, state.vocabularyStats);
-    const vocabProgress = Math.round((vocabReviewSummary.mastered / vocabulary.length) * 100);
-
     return {
       state,
       isHydrated,
-      grammarProgress,
-      vocabProgress,
-      vocabReviewSummary,
+      masteredWordCount: countMasteredWords(state.vocabularyStats),
       dispatch,
       isGrammarBookmarked: (id) => state.bookmarkedGrammarIds.includes(id),
       isVocabBookmarked: (id) => (state.bookmarkedVocabIds || []).includes(id),
