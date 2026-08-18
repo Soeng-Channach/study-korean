@@ -154,6 +154,7 @@ export default function MockTestPage() {
               <QuizOption
                 key={option}
                 option={option}
+                index={optionIndex}
                 selected={answers[question.id] === optionIndex}
                 correct={false}
                 revealed={false}

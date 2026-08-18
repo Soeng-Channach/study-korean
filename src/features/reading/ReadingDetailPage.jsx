@@ -18,6 +18,53 @@ function formatTime(seconds) {
   return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
 }
 
+function renderPassageContent(value) {
+  const source = String(value || "");
+  const nodes = [];
+  const tokenPattern = /<br\s*\/?>|<span\s+class=(["'])underline\1>|<\/span>/gi;
+  let cursor = 0;
+  let underline = false;
+
+  source.replace(tokenPattern, (match, _quote, offset) => {
+    const text = source.slice(cursor, offset);
+    if (text) {
+      nodes.push(
+        underline ? (
+          <span key={nodes.length} className="underline decoration-2 underline-offset-4">
+            {text}
+          </span>
+        ) : (
+          text
+        )
+      );
+    }
+
+    if (/^<br/i.test(match)) {
+      nodes.push(<br key={nodes.length} />);
+    } else {
+      underline = !match.startsWith("</");
+    }
+
+    cursor = offset + match.length;
+    return match;
+  });
+
+  const remainingText = source.slice(cursor);
+  if (remainingText) {
+    nodes.push(
+      underline ? (
+        <span key={nodes.length} className="underline decoration-2 underline-offset-4">
+          {remainingText}
+        </span>
+      ) : (
+        remainingText
+      )
+    );
+  }
+
+  return nodes;
+}
+
 function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, revealed, selected, onSelect }) {
   const questionNumber = question.questionNumber || fallbackNumber;
   const points = question.points || 2;
@@ -56,7 +103,7 @@ function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, reveal
 
       {passage ? (
         <div className="mt-4 rounded-md bg-slate-100 px-4 py-4 text-lg leading-8 text-slate-950 dark:bg-slate-800 dark:text-slate-100 sm:px-5">
-          <p className="whitespace-pre-line">{passage}</p>
+          <p className="whitespace-pre-line">{renderPassageContent(passage)}</p>
         </div>
       ) : null}
 

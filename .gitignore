@@ -41,3 +41,12 @@ public/listening/*.wav
 
 # Local-only data overrides (e.g., listening.local.js with copyrighted content)
 src/data/*.local.js
+
+# PDF page renders + ad-hoc render scripts (official TOPIK papers — keep local only)
+pdf_pages/
+pdf35/
+pdf35b/
+pdf64/
+ans35/
+ans64/
+render_pdf*.mjs

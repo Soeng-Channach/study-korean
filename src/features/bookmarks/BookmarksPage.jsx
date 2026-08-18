@@ -1,5 +1,6 @@
 import { Star } from 'lucide-react';
 import GrammarCard from '../../components/learning/GrammarCard';
+import VocabExampleBlock from '../../components/learning/VocabExampleBlock';
 import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
 import Badge from '../../components/ui/Badge';
 import Card from '../../components/ui/Card';
@@ -81,16 +82,7 @@ export default function BookmarksPage() {
                     <VocabMeaningRow word={word} />
                   </div>
                 </div>
-                <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 dark:border-slate-800 dark:bg-slate-800/60">
-                  <div className="flex items-start gap-2">
-                    <p className="flex-1 text-sm text-slate-800 dark:text-slate-100">{word.example}</p>
-                    <SpeakButton text={word.example} size={14} label="Play example sentence" />
-                  </div>
-                  <div className="mt-1 flex items-start gap-2">
-                    <p className="flex-1 text-xs text-slate-500 dark:text-slate-400">{word.exampleMeaning}</p>
-                    <SpeakButton text={word.exampleMeaning} lang="en-US" size={12} label="Play English translation" />
-                  </div>
-                </div>
+                <VocabExampleBlock word={word} compact />
               </Card>
             ))}
           </div>

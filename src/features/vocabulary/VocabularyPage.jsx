@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { Search, Sparkles, Star, X } from 'lucide-react';
+import { BookOpenCheck, Clock3, Layers3, Search, Sparkles, Star, Target, X } from 'lucide-react';
+import VocabExampleBlock from '../../components/learning/VocabExampleBlock';
 import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
@@ -12,14 +13,18 @@ import { usePageMeta } from '../../hooks/usePageMeta';
 import LevelTabs from '../../components/ui/LevelTabs';
 import StickyHeader from '../../components/ui/StickyHeader';
 import { countByLevel, levelOf } from '../../lib/levels';
+import { getVocabularyExample } from '../../lib/vocabularyExamples';
+import { summarizeVocabReviews, VOCAB_REVIEW_STAGES } from '../../lib/spacedRepetition';
 
 // There are thousands of vocabulary words; rendering every card at once freezes
 // the page. Render a page at a time and grow the window as the user scrolls.
 const PAGE_SIZE = 48;
+const TOPIK_I_QUIZ_SIZE = 30;
+const NON_TOPIC_TAGS = new Set(['topik-i', 'noun', 'verb', 'adjective', 'adverb']);
 
 export default function VocabularyPage() {
   usePageMeta('Vocabulary', 'Review TOPIK I and TOPIK II vocabulary and start offline quizzes.');
-  const { state, isVocabBookmarked, dispatch, getVocabMeaning } = useLearning();
+  const { state, isVocabBookmarked, dispatch, getVocabMeaning, getVocabReviewStatus } = useLearning();
   const [searchParams] = useSearchParams();
   const paramLevel = searchParams.get('level');
   const [level, setLevel] = useState(() =>
@@ -27,6 +32,8 @@ export default function VocabularyPage() {
   );
   const [query, setQuery] = useState(() => searchParams.get('q') || '');
   const [posFilter, setPosFilter] = useState('all');
+  const [tagFilter, setTagFilter] = useState('all');
+  const [reviewFilter, setReviewFilter] = useState('all');
 
   // Sync with the global search when it deep-links here (e.g. /vocabulary?q=환경).
   useEffect(() => {
@@ -47,9 +54,24 @@ export default function VocabularyPage() {
     return ['all', ...Array.from(set).sort()];
   }, [levelWords]);
 
+  const topicTags = useMemo(() => {
+    const counts = new Map();
+    levelWords.forEach((word) => {
+      (word.tags || []).forEach((tag) => {
+        if (!tag || NON_TOPIC_TAGS.has(tag)) return;
+        counts.set(tag, (counts.get(tag) || 0) + 1);
+      });
+    });
+    return Array.from(counts.entries())
+      .sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0]))
+      .slice(0, level === 'TOPIK I' ? 12 : 8);
+  }, [level, levelWords]);
+
   const selectLevel = (next) => {
     setLevel(next);
     setPosFilter('all');
+    setTagFilter('all');
+    setReviewFilter('all');
   };
 
   const filtered = useMemo(() => {
@@ -58,16 +80,35 @@ export default function VocabularyPage() {
     return levelWords.filter((word) => {
       if (showSavedOnly && !savedIds.includes(word.id)) return false;
       if (posFilter !== 'all' && word.partOfSpeech !== posFilter) return false;
+      if (tagFilter !== 'all' && !(word.tags || []).includes(tagFilter)) return false;
+      if (reviewFilter !== 'all') {
+        const review = getVocabReviewStatus(word);
+        if (reviewFilter === 'due' && !(review.due && review.stage !== 'new')) return false;
+        else if (reviewFilter === 'weak' && !(review.wrongAnswers > 0 && review.stage !== 'mastered')) return false;
+        else if (reviewFilter !== 'due' && reviewFilter !== 'weak' && review.stage !== reviewFilter) return false;
+      }
       if (!q) return true;
       const meaning = getVocabMeaning(word);
+      const example = getVocabularyExample(word);
       return (
         word.word.toLowerCase().includes(q) ||
         word.meaning.toLowerCase().includes(q) ||
         (meaning && meaning.toLowerCase().includes(q)) ||
-        (word.example && word.example.toLowerCase().includes(q))
+        (example.example && example.example.toLowerCase().includes(q)) ||
+        (example.exampleMeaning && example.exampleMeaning.toLowerCase().includes(q))
       );
     });
-  }, [levelWords, query, posFilter, showSavedOnly, state.bookmarkedVocabIds, getVocabMeaning]);
+  }, [
+    levelWords,
+    query,
+    posFilter,
+    tagFilter,
+    reviewFilter,
+    showSavedOnly,
+    state.bookmarkedVocabIds,
+    getVocabMeaning,
+    getVocabReviewStatus
+  ]);
 
   // Only render a growing window of the filtered list so the page stays responsive.
   const [visibleCount, setVisibleCount] = useState(PAGE_SIZE);
@@ -77,7 +118,33 @@ export default function VocabularyPage() {
   // Start over from the top whenever the filters change the result set.
   useEffect(() => {
     setVisibleCount(PAGE_SIZE);
-  }, [level, query, posFilter, showSavedOnly]);
+  }, [level, query, posFilter, tagFilter, reviewFilter, showSavedOnly]);
+
+  const savedLevelCount = useMemo(() => {
+    const savedIds = state.bookmarkedVocabIds || [];
+    return levelWords.filter((word) => savedIds.includes(word.id)).length;
+  }, [levelWords, state.bookmarkedVocabIds]);
+
+  const levelReviewSummary = useMemo(
+    () => summarizeVocabReviews(levelWords, state.vocabularyStats),
+    [levelWords, state.vocabularyStats]
+  );
+
+  const quizParams = useMemo(() => {
+    const params = new URLSearchParams({ level });
+    if (posFilter !== 'all') params.set('pos', posFilter);
+    if (tagFilter !== 'all') params.set('tag', tagFilter);
+    if (level === 'TOPIK I') params.set('limit', String(TOPIK_I_QUIZ_SIZE));
+    return params.toString();
+  }, [level, posFilter, tagFilter]);
+
+  const reviewQuizParams = useMemo(() => {
+    const params = new URLSearchParams({ level, mode: 'review' });
+    if (posFilter !== 'all') params.set('pos', posFilter);
+    if (tagFilter !== 'all') params.set('tag', tagFilter);
+    if (level === 'TOPIK I') params.set('limit', String(TOPIK_I_QUIZ_SIZE));
+    return params.toString();
+  }, [level, posFilter, tagFilter]);
 
   // Auto-load the next page as the sentinel scrolls into view.
   const sentinelRef = useRef(null);
@@ -118,12 +185,46 @@ export default function VocabularyPage() {
                 {savedCount}
               </span>
             </Link>
-            <Link to={`/vocabulary/quiz?level=${encodeURIComponent(level)}`}>
+            <Link to={`/vocabulary/quiz?${reviewQuizParams}`}>
+              <Button variant="secondary" icon={Clock3} disabled={levelReviewSummary.due === 0 && levelReviewSummary.weak === 0}>
+                Review due
+              </Button>
+            </Link>
+            <Link to={`/vocabulary/quiz?${quizParams}`}>
               <Button icon={Sparkles} disabled={levelWords.length === 0}>Start quiz</Button>
             </Link>
           </div>
         </div>
         <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
+
+        {level === 'TOPIK I' ? (
+          <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
+            <div className="rounded-lg border border-slate-200 bg-white px-3 py-2 dark:border-slate-800 dark:bg-slate-900">
+              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                <Layers3 size={14} /> Word bank
+              </div>
+              <p className="mt-1 text-lg font-bold text-slate-950 dark:text-white">{levelWords.length}</p>
+            </div>
+            <div className="rounded-lg border border-slate-200 bg-white px-3 py-2 dark:border-slate-800 dark:bg-slate-900">
+              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                <Star size={14} /> Saved
+              </div>
+              <p className="mt-1 text-lg font-bold text-slate-950 dark:text-white">{savedLevelCount}</p>
+            </div>
+            <div className="rounded-lg border border-slate-200 bg-white px-3 py-2 dark:border-slate-800 dark:bg-slate-900">
+              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                <Clock3 size={14} /> Due
+              </div>
+              <p className="mt-1 text-lg font-bold text-slate-950 dark:text-white">{levelReviewSummary.due}</p>
+            </div>
+            <div className="rounded-lg border border-slate-200 bg-white px-3 py-2 dark:border-slate-800 dark:bg-slate-900">
+              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                <Target size={14} /> Mastered
+              </div>
+              <p className="mt-1 text-lg font-bold text-slate-950 dark:text-white">{levelReviewSummary.mastered}</p>
+            </div>
+          </div>
+        ) : null}
 
         <div className="space-y-3">
           <div className="relative">
@@ -182,10 +283,114 @@ export default function VocabularyPage() {
                 </button>
               );
             })}
+            {posFilter !== 'all' || tagFilter !== 'all' || reviewFilter !== 'all' || showSavedOnly ? (
+              <button
+                type="button"
+                onClick={() => {
+                  setPosFilter('all');
+                  setTagFilter('all');
+                  setShowSavedOnly(false);
+                  setReviewFilter('all');
+                }}
+                className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-500 transition hover:bg-slate-50 hover:text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-slate-100"
+              >
+                Clear filters
+              </button>
+            ) : null}
             <span className="ml-auto self-center text-xs font-semibold text-slate-500 dark:text-slate-400">
               {filtered.length} of {levelWords.length}
             </span>
           </div>
+
+          {level === 'TOPIK I' ? (
+            <div className="hidden rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900 sm:block">
+              <div className="mb-2 flex items-center justify-between gap-3">
+                <p className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                  <Clock3 size={14} /> Review focus
+                </p>
+                <Link
+                  to={`/vocabulary/quiz?${reviewQuizParams}`}
+                  className="text-xs font-semibold text-brand-600 transition hover:text-brand-700 dark:text-brand-100 dark:hover:text-brand-50"
+                >
+                  Review due
+                </Link>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {[
+                  ['all', 'All', levelWords.length],
+                  ['due', 'Due', levelReviewSummary.due],
+                  ['weak', 'Weak', levelReviewSummary.weak],
+                  ['new', 'New', levelReviewSummary.new],
+                  ['learning', 'Learning', levelReviewSummary.learning],
+                  ['review', 'Review', levelReviewSummary.review],
+                  ['strong', 'Strong', levelReviewSummary.strong],
+                  ['mastered', 'Mastered', levelReviewSummary.mastered]
+                ].map(([key, label, count]) => {
+                  const active = reviewFilter === key;
+                  return (
+                    <button
+                      key={key}
+                      type="button"
+                      onClick={() => setReviewFilter(key)}
+                      className={
+                        active
+                          ? 'rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold text-white shadow-sm'
+                          : 'rounded-full border border-brand-200 bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700 transition hover:bg-brand-100 dark:border-brand-500/30 dark:bg-brand-500/10 dark:text-brand-100 dark:hover:bg-brand-500/20'
+                      }
+                    >
+                      {label} <span className="opacity-75">{count}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ) : null}
+
+          {topicTags.length > 0 ? (
+            <div className="hidden rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900 sm:block">
+              <div className="mb-2 flex items-center justify-between gap-3">
+                <p className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                  <BookOpenCheck size={14} /> Topic sets
+                </p>
+                <Link
+                  to={`/vocabulary/quiz?${quizParams}`}
+                  className="text-xs font-semibold text-coral-600 transition hover:text-coral-700 dark:text-coral-100 dark:hover:text-coral-50"
+                >
+                  Quiz this set
+                </Link>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                <button
+                  type="button"
+                  onClick={() => setTagFilter('all')}
+                  className={
+                    tagFilter === 'all'
+                      ? 'rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
+                      : 'rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700'
+                  }
+                >
+                  All topics
+                </button>
+                {topicTags.map(([tag, count]) => {
+                  const active = tagFilter === tag;
+                  return (
+                    <button
+                      key={tag}
+                      type="button"
+                      onClick={() => setTagFilter(tag)}
+                      className={
+                        active
+                          ? 'rounded-full bg-coral-500 px-3 py-1 text-xs font-semibold capitalize text-white shadow-sm'
+                          : 'rounded-full border border-coral-200 bg-coral-50 px-3 py-1 text-xs font-semibold capitalize text-coral-700 transition hover:bg-coral-100 dark:border-coral-500/30 dark:bg-coral-500/10 dark:text-coral-100 dark:hover:bg-coral-500/20'
+                      }
+                    >
+                      {tag} <span className="opacity-75">{count}</span>
+                    </button>
+                  );
+                })}
+              </div>
+            </div>
+          ) : null}
         </div>
       </StickyHeader>
 
@@ -210,7 +415,8 @@ export default function VocabularyPage() {
         <>
         <div className="grid gap-4 md:grid-cols-2">
           {visible.map((word) => {
-            const mastered = state.vocabularyStats.masteredWordIds.includes(word.id);
+            const review = getVocabReviewStatus(word);
+            const reviewStage = VOCAB_REVIEW_STAGES[review.stage] || VOCAB_REVIEW_STAGES.new;
             const bookmarked = isVocabBookmarked(word.id);
             return (
               <Card key={word.id} className="transition hover:-translate-y-0.5 hover:shadow-soft">
@@ -218,7 +424,8 @@ export default function VocabularyPage() {
                   <div className="flex flex-wrap gap-2">
                     <Badge tone="blue">{word.level}</Badge>
                     <Badge>{word.partOfSpeech}</Badge>
-                    {mastered ? <Badge tone="green">Mastered</Badge> : null}
+                    <Badge tone={reviewStage.tone}>{reviewStage.label}</Badge>
+                    {review.due && review.stage !== 'new' ? <Badge tone="rose">Due</Badge> : null}
                   </div>
                   <button
                     type="button"
@@ -246,16 +453,7 @@ export default function VocabularyPage() {
                     <VocabMeaningRow word={word} />
                   </div>
                 </div>
-                <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2 dark:border-slate-800 dark:bg-slate-800/60">
-                  <div className="flex items-start gap-2">
-                    <p className="flex-1 text-sm text-slate-800 dark:text-slate-100">{word.example}</p>
-                    <SpeakButton text={word.example} size={14} label="Play example sentence" />
-                  </div>
-                  <div className="mt-1 flex items-start gap-2">
-                    <p className="flex-1 text-xs text-slate-500 dark:text-slate-400">{word.exampleMeaning}</p>
-                    <SpeakButton text={word.exampleMeaning} lang="en-US" size={12} label="Play English translation" />
-                  </div>
-                </div>
+                <VocabExampleBlock word={word} compact />
               </Card>
             );
           })}

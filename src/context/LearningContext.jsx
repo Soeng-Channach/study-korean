@@ -3,6 +3,7 @@ import { grammarLessons } from '../data/grammar';
 import { vocabulary } from '../data/vocabulary';
 import { STORAGE_KEYS } from '../lib/constants';
 import { readLearningState, writeLearningState } from '../lib/db';
+import { getVocabReview, nextVocabReview, summarizeVocabReviews } from '../lib/spacedRepetition';
 
 const initialState = {
   completedGrammarIds: [],
@@ -15,15 +16,28 @@ const initialState = {
   vocabularyStats: {
     totalAnswered: 0,
     correctAnswers: 0,
-    masteredWordIds: []
+    masteredWordIds: [],
+    wordReview: {}
   },
   mockTestAttempts: []
 };
 
+function normalizeLearningState(state, payload = {}) {
+  return {
+    ...state,
+    ...payload,
+    vocabularyStats: {
+      ...state.vocabularyStats,
+      ...(payload.vocabularyStats || {}),
+      wordReview: payload.vocabularyStats?.wordReview || state.vocabularyStats.wordReview
+    }
+  };
+}
+
 function learningReducer(state, action) {
   switch (action.type) {
     case 'hydrate':
-      return { ...state, ...action.payload };
+      return normalizeLearningState(state, action.payload);
     case 'toggle-bookmark': {
       const exists = state.bookmarkedGrammarIds.includes(action.id);
       return {
@@ -75,17 +89,24 @@ function learningReducer(state, action) {
       };
     }
     case 'record-vocab-answer': {
-      const masteredWordIds =
-        action.correct && !state.vocabularyStats.masteredWordIds.includes(action.wordId)
-          ? [...state.vocabularyStats.masteredWordIds, action.wordId]
-          : state.vocabularyStats.masteredWordIds;
+      const stats = state.vocabularyStats || initialState.vocabularyStats;
+      const wordReview = stats.wordReview || {};
+      const nextReview = nextVocabReview(wordReview[action.wordId], action.correct, action.answeredAt);
+      const masteredSet = new Set(stats.masteredWordIds || []);
+      if (nextReview.stage === 'mastered') masteredSet.add(action.wordId);
+      else masteredSet.delete(action.wordId);
 
       return {
         ...state,
         vocabularyStats: {
-          totalAnswered: state.vocabularyStats.totalAnswered + 1,
-          correctAnswers: state.vocabularyStats.correctAnswers + (action.correct ? 1 : 0),
-          masteredWordIds
+          ...stats,
+          totalAnswered: (stats.totalAnswered || 0) + 1,
+          correctAnswers: (stats.correctAnswers || 0) + (action.correct ? 1 : 0),
+          masteredWordIds: Array.from(masteredSet),
+          wordReview: {
+            ...wordReview,
+            [action.wordId]: nextReview
+          }
         }
       };
     }
@@ -107,7 +128,8 @@ function learningReducer(state, action) {
     }
     case 'reset-grammar-meaning': {
       if (!state.grammarCoreOverrides[action.id]) return state;
-      const { [action.id]: _removed, ...rest } = state.grammarCoreOverrides;
+      const rest = { ...state.grammarCoreOverrides };
+      delete rest[action.id];
       return { ...state, grammarCoreOverrides: rest };
     }
     case 'update-vocab-meaning': {
@@ -124,7 +146,8 @@ function learningReducer(state, action) {
     case 'reset-vocab-meaning': {
       const overrides = state.vocabMeaningOverrides || {};
       if (!overrides[action.id]) return state;
-      const { [action.id]: _removed, ...rest } = overrides;
+      const rest = { ...overrides };
+      delete rest[action.id];
       return { ...state, vocabMeaningOverrides: rest };
     }
     case 'reset-progress':
@@ -155,15 +178,15 @@ export function LearningProvider({ children }) {
 
   const value = useMemo(() => {
     const grammarProgress = Math.round((state.completedGrammarIds.length / grammarLessons.length) * 100);
-    const vocabProgress = Math.round(
-      (state.vocabularyStats.masteredWordIds.length / vocabulary.length) * 100
-    );
+    const vocabReviewSummary = summarizeVocabReviews(vocabulary, state.vocabularyStats);
+    const vocabProgress = Math.round((vocabReviewSummary.mastered / vocabulary.length) * 100);
 
     return {
       state,
       isHydrated,
       grammarProgress,
       vocabProgress,
+      vocabReviewSummary,
       dispatch,
       isGrammarBookmarked: (id) => state.bookmarkedGrammarIds.includes(id),
       isVocabBookmarked: (id) => (state.bookmarkedVocabIds || []).includes(id),
@@ -175,7 +198,8 @@ export function LearningProvider({ children }) {
       isGrammarMeaningEdited: (id) => Boolean(state.grammarCoreOverrides[id]),
       getVocabMeaning: (word) =>
         (word && (state.vocabMeaningOverrides || {})[word.id]) || word?.meaning,
-      isVocabMeaningEdited: (id) => Boolean((state.vocabMeaningOverrides || {})[id])
+      isVocabMeaningEdited: (id) => Boolean((state.vocabMeaningOverrides || {})[id]),
+      getVocabReviewStatus: (word) => getVocabReview(word, state.vocabularyStats)
     };
   }, [isHydrated, state]);
 

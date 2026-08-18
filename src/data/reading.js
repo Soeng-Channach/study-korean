@@ -3705,7 +3705,7 @@ export const readings = [
         "questionNumber": 3,
         "points": 2,
         "questionType": "text",
-        "passage": "지금 출발하지 않으면 약속 시간에 늦을지도 모른다.",
+        "passage": "지금 출발하지 않으면 약속 시간에 <span class=\"underline\">늦을지도 모른다</span>.",
         "question": "밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.",
         "options": [
           "늦는 셈이다",
@@ -3721,7 +3721,7 @@ export const readings = [
         "questionNumber": 4,
         "points": 2,
         "questionType": "text",
-        "passage": "전문가들이 예상한 대로 농산물 가격이 떨어지고 있다.",
+        "passage": "전문가들이 <span class=\"underline\">예상한 대로</span> 농산물 가격이 떨어지고 있다.",
         "question": "밑줄 친 부분과 의미가 가장 비슷한 것을 고르십시오.",
         "options": [
           "예상한 탓에",
