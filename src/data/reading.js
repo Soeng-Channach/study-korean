@@ -10615,11 +10615,15 @@ export const readings = [
         "points": 2,
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
-        "passage": "(가) 그런 과정이 반복되면서 자연스럽게 광고가 된다.,(나) 온라인에서 새로운 광고 기법이 주목을 받고 있다.,(다) 이것은 제품을 직접 소개하지 않고 재미있는 동영상을 이용하는 방법이다.,(라) 동영상을 보고 재미있으면 사람들은 친한 사람들에게 그 동영상을 전달 한다.",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 1,
-        "explanation": "Correct answer: 2. "
+        "clauses": [
+          { "label": "가", "text": "그런 과정이 반복되면서 자연스럽게 광고가 된다." },
+          { "label": "나", "text": "온라인에서 새로운 광고 기법이 주목을 받고 있다." },
+          { "label": "다", "text": "이것은 제품을 직접 소개하지 않고 재미있는 동영상을 이용하는 방법이다." },
+          { "label": "라", "text": "동영상을 보고 재미있으면 사람들은 친한 사람들에게 그 동영상을 전달 한다." }
+        ],
+        "correctOrder": ["나", "다", "라", "가"],
+        "explanation": "정답 순서: (나) → (다) → (라) → (가). (나) introduces the technique; (다) defines it with 이것은, (라) describes what viewers do, and (가) concludes with 그런 과정이 반복되면서."
       },
       {
         "id": "reading-037-q014",
@@ -10627,11 +10631,15 @@ export const readings = [
         "points": 2,
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
-        "passage": "(가) 그리고 그 불꽃이 주위로 번지면서 화재로 이어지게 된다.,(나) 페트병을 통해 모아진 빛은 얼마 지나지 않아 불꽃을 만든다.,(다) 이는 물이 든 투명한 페트병이 빛을 모으는 역할을 하기 때문이다.,(라) 등산을 갔다가 아무 생각 없이 버린 생수병이 산불을 일으킬 수 있다.",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 3,
-        "explanation": "Correct answer: 4. "
+        "clauses": [
+          { "label": "가", "text": "그리고 그 불꽃이 주위로 번지면서 화재로 이어지게 된다." },
+          { "label": "나", "text": "페트병을 통해 모아진 빛은 얼마 지나지 않아 불꽃을 만든다." },
+          { "label": "다", "text": "이는 물이 든 투명한 페트병이 빛을 모으는 역할을 하기 때문이다." },
+          { "label": "라", "text": "등산을 갔다가 아무 생각 없이 버린 생수병이 산불을 일으킬 수 있다." }
+        ],
+        "correctOrder": ["라", "다", "나", "가"],
+        "explanation": "정답 순서: (라) → (다) → (나) → (가). (라) states the risk; (다) explains the cause with 이는, (나) describes the next step, and (가) completes the chain with 그리고."
       },
       {
         "id": "reading-037-q015",
@@ -10639,11 +10647,15 @@ export const readings = [
         "points": 2,
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
-        "passage": "(가) 새로운 생각은 그동안 쌓은 폭넓은 지식으로부터 나온다.,(나) 하지만 그저 멍하니 있다고 기발한 생각이 나오는 것은 아니다.,(다) 다양한 지식들이 서로 연결되어서 창의적인 생각이 되는 것이다.,(라) 휴식을 취할 때 창의적인 생각이 떠오른다고 주장하는 사람들이 많다.",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 2,
-        "explanation": "Correct answer: 3. "
+        "clauses": [
+          { "label": "가", "text": "새로운 생각은 그동안 쌓은 폭넓은 지식으로부터 나온다." },
+          { "label": "나", "text": "하지만 그저 멍하니 있다고 기발한 생각이 나오는 것은 아니다." },
+          { "label": "다", "text": "다양한 지식들이 서로 연결되어서 창의적인 생각이 되는 것이다." },
+          { "label": "라", "text": "휴식을 취할 때 창의적인 생각이 떠오른다고 주장하는 사람들이 많다." }
+        ],
+        "correctOrder": ["라", "나", "가", "다"],
+        "explanation": "정답 순서: (라) → (나) → (가) → (다). (라) presents the claim; (나) qualifies it with 하지만, (가) gives the real source, and (다) explains how it works."
       },
       {
         "id": "reading-037-q016",
@@ -11468,10 +11480,14 @@ export const readings = [
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 0,
-        "explanation": "Correct answer: 1. ",
-        "passage": "(가) 또한 재료 가격이 싸서 제작 비용도 적게 든다.,(나) 그중 하나가 운동선수들의 유니폼을 만드는 것이다.,(다) 플라스틱 병을 재활용하는 방법에는 여러 가지가 있다.,(라) 플라스틱 병을 소재로 해서 운동복을 만들면 가볍고 시원하다."
+        "clauses": [
+          { "label": "가", "text": "또한 재료 가격이 싸서 제작 비용도 적게 든다." },
+          { "label": "나", "text": "그중 하나가 운동선수들의 유니폼을 만드는 것이다." },
+          { "label": "다", "text": "플라스틱 병을 재활용하는 방법에는 여러 가지가 있다." },
+          { "label": "라", "text": "플라스틱 병을 소재로 해서 운동복을 만들면 가볍고 시원하다." }
+        ],
+        "correctOrder": ["다", "나", "라", "가"],
+        "explanation": "정답 순서: (다) → (나) → (라) → (가). (다) states the topic; (나) picks it up with 그중 하나, (라) explains that use, and (가) adds a further benefit with 또한."
       },
       {
         "id": "reading-035-q014",
@@ -11480,10 +11496,14 @@ export const readings = [
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 3,
-        "explanation": "Correct answer: 4. ",
-        "passage": "(가) 그러자 남자는 다른 쪽 신발도 벗어 그 옆으로 떨어뜨렸다.,(나) 남자가 신발을 주우려고 했지만 기차가 움직이기 시작했다.,(다) 신발의 짝이 맞아야 누군가 신을 수 있다고 생각했기 때문이었다.,(라) 남자가 기차에 타려는 순간 신발 한 짝이 벗겨져 아래로 떨어졌다."
+        "clauses": [
+          { "label": "가", "text": "그러자 남자는 다른 쪽 신발도 벗어 그 옆으로 떨어뜨렸다." },
+          { "label": "나", "text": "남자가 신발을 주우려고 했지만 기차가 움직이기 시작했다." },
+          { "label": "다", "text": "신발의 짝이 맞아야 누군가 신을 수 있다고 생각했기 때문이었다." },
+          { "label": "라", "text": "남자가 기차에 타려는 순간 신발 한 짝이 벗겨져 아래로 떨어졌다." }
+        ],
+        "correctOrder": ["라", "나", "가", "다"],
+        "explanation": "정답 순서: (라) → (나) → (가) → (다). (라) opens the anecdote; (나) continues it, (가) follows with 그러자, and (다) closes by giving the reason (때문이었다)."
       },
       {
         "id": "reading-035-q015",
@@ -11492,10 +11512,14 @@ export const readings = [
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 3,
-        "explanation": "Correct answer: 4. ",
-        "passage": "(가) 희망택시 지원 사업은 버스 운행에 비해 훨씬 적은 예산이 든다.,(나) 그러므로 택시 요금을 지원하더라도 정부는 예산을 아낄 수 있다.,(다) 이 택시의 이용 요금은 1,100원이고 추가 요금은 정부에서 부담한다.,(라) 버스가 다니지 않는 시골 마을에 주민들을 위한 희망택시가 등장했다."
+        "clauses": [
+          { "label": "가", "text": "희망택시 지원 사업은 버스 운행에 비해 훨씬 적은 예산이 든다." },
+          { "label": "나", "text": "그러므로 택시 요금을 지원하더라도 정부는 예산을 아낄 수 있다." },
+          { "label": "다", "text": "이 택시의 이용 요금은 1,100원이고 추가 요금은 정부에서 부담한다." },
+          { "label": "라", "text": "버스가 다니지 않는 시골 마을에 주민들을 위한 희망택시가 등장했다." }
+        ],
+        "correctOrder": ["라", "다", "가", "나"],
+        "explanation": "정답 순서: (라) → (다) → (가) → (나). (라) introduces the 희망택시; (다) gives its fare, (가) compares the budget, and (나) draws the conclusion with 그러므로."
       },
       {
         "id": "reading-035-q016",
@@ -12320,10 +12344,14 @@ export const readings = [
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 0,
-        "explanation": "Correct answer: 1. ",
-        "passage": "(가) 그 때문에 어머니는 지금도 미역국을 별로 좋아하지 않으신다.,(나) 생일날 미역국을 먹을 때면 어머니 생각이 난다.,(다) 한국에서는 생일날뿐 아니라 아이를 낳은 후에도 미역국을 먹는다.,(라) 그래서 어머니는 우리 형제 다섯을 낳을 때마다 미역국을 드셔야 했다."
+        "clauses": [
+          { "label": "가", "text": "그 때문에 어머니는 지금도 미역국을 별로 좋아하지 않으신다." },
+          { "label": "나", "text": "생일날 미역국을 먹을 때면 어머니 생각이 난다." },
+          { "label": "다", "text": "한국에서는 생일날뿐 아니라 아이를 낳은 후에도 미역국을 먹는다." },
+          { "label": "라", "text": "그래서 어머니는 우리 형제 다섯을 낳을 때마다 미역국을 드셔야 했다." }
+        ],
+        "correctOrder": ["나", "다", "라", "가"],
+        "explanation": "정답 순서: (나) → (다) → (라) → (가). (나) sets the personal scene; (다) widens to the custom, (라) applies it to the mother with 그래서, and (가) gives the present-day result with 그 때문에."
       },
       {
         "id": "reading-036-q014",
@@ -12332,10 +12360,14 @@ export const readings = [
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 3,
-        "explanation": "Correct answer: 4. ",
-        "passage": "(가) 정부는 이러한 규칙 위반을 줄이기 위해 '착한 운전 마일리지 제도'를 실시할 예정이다.,(나) 이는 교통 규칙을 잘 지키는 운전자에게 벌점이 아니라 상점을 주는 방식이다.,(다) 하지만 벌점 제도가 있어도 규칙 위반은 크게 줄어들지 않고 있다.,(라) 보통 운전자들이 교통 규칙을 위반하면 벌점을 받게 된다."
+        "clauses": [
+          { "label": "가", "text": "정부는 이러한 규칙 위반을 줄이기 위해 '착한 운전 마일리지 제도'를 실시할 예정이다." },
+          { "label": "나", "text": "이는 교통 규칙을 잘 지키는 운전자에게 벌점이 아니라 상점을 주는 방식이다." },
+          { "label": "다", "text": "하지만 벌점 제도가 있어도 규칙 위반은 크게 줄어들지 않고 있다." },
+          { "label": "라", "text": "보통 운전자들이 교통 규칙을 위반하면 벌점을 받게 된다." }
+        ],
+        "correctOrder": ["라", "다", "가", "나"],
+        "explanation": "정답 순서: (라) → (다) → (가) → (나). (라) states the norm; (다) raises the problem with 하지만, (가) presents the new policy, and (나) explains it with 이는."
       },
       {
         "id": "reading-036-q015",
@@ -12344,10 +12376,14 @@ export const readings = [
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 2,
-        "explanation": "Correct answer: 3. ",
-        "passage": "(가) 네온사인, 상가의 불빛 등으로 길거리가 밝기 때문에 불필요하다는 것이다.,(나) 그런 일에 비용을 들이기보다 다른 대안은 없는지 모색해 보는 것이 더 낫다.,(다) 가로등이 제 역할을 못하고 있으니 없애자는 의견이 나오고 있다.,(라) 하지만 이미 설치해 놓은 공공 시설물을 없애는 것만이 최선은 아닐 것이다."
+        "clauses": [
+          { "label": "가", "text": "네온사인, 상가의 불빛 등으로 길거리가 밝기 때문에 불필요하다는 것이다." },
+          { "label": "나", "text": "그런 일에 비용을 들이기보다 다른 대안은 없는지 모색해 보는 것이 더 낫다." },
+          { "label": "다", "text": "가로등이 제 역할을 못하고 있으니 없애자는 의견이 나오고 있다." },
+          { "label": "라", "text": "하지만 이미 설치해 놓은 공공 시설물을 없애는 것만이 최선은 아닐 것이다." }
+        ],
+        "correctOrder": ["다", "가", "라", "나"],
+        "explanation": "정답 순서: (다) → (가) → (라) → (나). (다) reports the proposal; (가) gives its reasoning, (라) counters with 하지만, and (나) offers the alternative."
       },
       {
         "id": "reading-036-q016",
@@ -13171,11 +13207,15 @@ export const readings = [
         "points": 2,
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
-        "passage": "(가) 이것으로 만든 차는 이름철에 마시면 특히 좋다.,(나) 오미자는 다섯 가지 맛이 난다고 붙여진 이름이다.,(다) 땀이 나지 않게 하고 배탈을 낫게 하는 효과가 있어서이다.,(라) 또한 무더위에 지친 사람에게 입맛이 나게 하는 데도 도움이 된다.",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 2,
-        "explanation": "Correct answer: 3. "
+        "clauses": [
+          { "label": "가", "text": "이것으로 만든 차는 이름철에 마시면 특히 좋다." },
+          { "label": "나", "text": "오미자는 다섯 가지 맛이 난다고 붙여진 이름이다." },
+          { "label": "다", "text": "땀이 나지 않게 하고 배탈을 낫게 하는 효과가 있어서이다." },
+          { "label": "라", "text": "또한 무더위에 지친 사람에게 입맛이 나게 하는 데도 도움이 된다." }
+        ],
+        "correctOrder": ["나", "가", "다", "라"],
+        "explanation": "정답 순서: (나) → (가) → (다) → (라). (나) explains the name; (가) introduces the tea, (다) gives the reason with 효과가 있어서이다, and (라) adds a benefit with 또한."
       },
       {
         "id": "reading-041-q014",
@@ -13183,11 +13223,15 @@ export const readings = [
         "points": 2,
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
-        "passage": "(가) 이런 행복을 느낄 때도 있지만 가끔 힘들고 어려울 때도 있다.,(나) 하지만 나는 그들을 가르칠 때마다 내가 국가대표라고 생각한다.,(다) 한국어로 다른 문화권의 학생들과 교류하는 것은 참 행복한 일이다.,(라) 나는 그들을 통해 세상을 보고 그들은 나를 통해 한국을 보기 때문이다.",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 0,
-        "explanation": "Correct answer: 1. "
+        "clauses": [
+          { "label": "가", "text": "이런 행복을 느낄 때도 있지만 가끔 힘들고 어려울 때도 있다." },
+          { "label": "나", "text": "하지만 나는 그들을 가르칠 때마다 내가 국가대표라고 생각한다." },
+          { "label": "다", "text": "한국어로 다른 문화권의 학생들과 교류하는 것은 참 행복한 일이다." },
+          { "label": "라", "text": "나는 그들을 통해 세상을 보고 그들은 나를 통해 한국을 보기 때문이다." }
+        ],
+        "correctOrder": ["다", "가", "나", "라"],
+        "explanation": "정답 순서: (다) → (가) → (나) → (라). (다) states the happy premise; (가) notes the hard times with 이런 행복, (나) turns with 하지만, and (라) gives the reason with 때문이다."
       },
       {
         "id": "reading-041-q015",
@@ -13195,11 +13239,15 @@ export const readings = [
         "points": 2,
         "questionType": "order",
         "instruction": "※ [13~15] 다음을 순서대로 맞게 배열한 것을 고르십시오. (각 2점)",
-        "passage": "(가) 정부에 건의할 내용이 있을 때 이곳을 활용할 수 있다.,(나) 오늘날에는 '인터넷 신문고'가 이러한 역할을 하고 있다.,(다) 과거에는 '신문고'라는 북을 설치해서 국민의 생각을 들었다.,(라) 이렇게 시대는 달라져도 국가가 국민의 생각을 들으려는 노력은 계속된다.",
         "question": "다음을 순서대로 맞게 배열한 것을 고르십시오.",
-        "options": [],
-        "answer": 2,
-        "explanation": "Correct answer: 3. "
+        "clauses": [
+          { "label": "가", "text": "정부에 건의할 내용이 있을 때 이곳을 활용할 수 있다." },
+          { "label": "나", "text": "오늘날에는 '인터넷 신문고'가 이러한 역할을 하고 있다." },
+          { "label": "다", "text": "과거에는 '신문고'라는 북을 설치해서 국민의 생각을 들었다." },
+          { "label": "라", "text": "이렇게 시대는 달라져도 국가가 국민의 생각을 들으려는 노력은 계속된다." }
+        ],
+        "correctOrder": ["다", "나", "가", "라"],
+        "explanation": "정답 순서: (다) → (나) → (가) → (라). (다) describes the past; (나) moves to today with 오늘날에는, (가) explains its use, and (라) sums up with 이렇게."
       },
       {
         "id": "reading-041-q016",

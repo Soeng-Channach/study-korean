@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useRef, useState } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, Check, Clock, Download, FileText } from 'lucide-react';
 import PdfViewer from '../../components/library/PdfViewer';
@@ -9,6 +9,8 @@ import { useConfirm } from '../../components/ui/ConfirmDialog';
 import EmptyState from '../../components/ui/EmptyState';
 import { useLearning } from '../../context/LearningContext';
 import { readings } from '../../data/reading';
+import ClauseOrderAnswer from '../../components/learning/ClauseOrderAnswer';
+import { isAnswerCorrect, isAnswered, isOrderingQuestion } from '../../lib/readingAnswers';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
 function formatTime(seconds) {
@@ -70,7 +72,7 @@ function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, reveal
   const points = question.points || 2;
   const instruction =
     question.instruction || `※ [${questionNumber}]( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 ${points}점)`;
-  const passage = question.passage || fallbackPassage;
+  const passage = isOrderingQuestion(question) ? null : question.passage || fallbackPassage;
 
   return (
     <Card className="scroll-mt-24 p-4 shadow-md sm:p-6">
@@ -107,41 +109,45 @@ function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, reveal
         </div>
       ) : null}
 
-      <div className="mt-4 space-y-2.5">
-        {question.options.map((option, index) => {
-          const isSelected = selected === index;
-          const isCorrect = question.answer === index;
-          return (
-            <button
-              key={option}
-              type="button"
-              onClick={() => {
-                if (!revealed) onSelect(index);
-              }}
-              className={[
-                'flex min-h-16 w-full items-center gap-4 rounded-md border px-4 py-3 text-left text-lg font-semibold leading-7 transition [overflow-wrap:anywhere] sm:px-5',
-                isSelected && !revealed
-                  ? 'border-brand-500 bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100'
-                  : '',
-                revealed && isCorrect
-                  ? 'border-mint-500 bg-mint-100 text-mint-700 dark:bg-mint-500/15 dark:text-mint-100'
-                  : '',
-                revealed && isSelected && !isCorrect
-                  ? 'border-coral-500 bg-coral-100 text-coral-700 dark:bg-coral-500/15 dark:text-coral-100'
-                  : '',
-                !isSelected && (!revealed || !isCorrect)
-                  ? 'border-slate-200 bg-white text-slate-950 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800'
-                  : ''
-              ].join(' ')}
-            >
-              <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-slate-300 bg-white text-base font-black text-slate-700 dark:border-slate-600 dark:bg-slate-950 dark:text-slate-100">
-                {index + 1}
-              </span>
-              <span>{option}</span>
-            </button>
-          );
-        })}
-      </div>
+      {isOrderingQuestion(question) ? (
+        <ClauseOrderAnswer question={question} placed={selected} revealed={revealed} onChange={onSelect} />
+      ) : (
+        <div className="mt-4 space-y-2.5">
+          {question.options.map((option, index) => {
+            const isSelected = selected === index;
+            const isCorrect = question.answer === index;
+            return (
+              <button
+                key={option}
+                type="button"
+                onClick={() => {
+                  if (!revealed) onSelect(index);
+                }}
+                className={[
+                  'flex min-h-16 w-full items-center gap-4 rounded-md border px-4 py-3 text-left text-lg font-semibold leading-7 transition [overflow-wrap:anywhere] sm:px-5',
+                  isSelected && !revealed
+                    ? 'border-brand-500 bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100'
+                    : '',
+                  revealed && isCorrect
+                    ? 'border-mint-500 bg-mint-100 text-mint-700 dark:bg-mint-500/15 dark:text-mint-100'
+                    : '',
+                  revealed && isSelected && !isCorrect
+                    ? 'border-coral-500 bg-coral-100 text-coral-700 dark:bg-coral-500/15 dark:text-coral-100'
+                    : '',
+                  !isSelected && (!revealed || !isCorrect)
+                    ? 'border-slate-200 bg-white text-slate-950 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800'
+                    : ''
+                ].join(' ')}
+              >
+                <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full border-2 border-slate-300 bg-white text-base font-black text-slate-700 dark:border-slate-600 dark:bg-slate-950 dark:text-slate-100">
+                  {index + 1}
+                </span>
+                <span>{option}</span>
+              </button>
+            );
+          })}
+        </div>
+      )}
 
       {revealed ? (
         <p className="mt-4 rounded-lg bg-slate-50 p-4 text-sm text-slate-700 dark:bg-slate-800 dark:text-slate-200">
@@ -168,7 +174,8 @@ export default function ReadingDetailPage() {
   const { dispatch, isReadingCompleted } = useLearning();
 
   const confirm = useConfirm();
-  const questions = reading?.questions || [];
+  // Stable identity so checkAnswers' dependency list does not change every render.
+  const questions = useMemo(() => reading?.questions || [], [reading]);
   const totalSeconds =
     (reading?.durationMinutes || Math.max(3, Math.ceil(questions.length * 1.5))) * 60;
 
@@ -202,7 +209,9 @@ export default function ReadingDetailPage() {
     async (reason = 'manual') => {
       if (revealed) return;
       if (reason === 'manual') {
-        const remaining = questions.length - Object.keys(selectedAnswers).length;
+        const remaining = questions.filter(
+          (question) => !isAnswered(question, selectedAnswers[question.id])
+        ).length;
         if (remaining > 0) {
           const ok = await confirm({
             title: 'Check with blanks?',
@@ -219,7 +228,7 @@ export default function ReadingDetailPage() {
         dispatch({ type: 'complete-reading', id: reading.id });
       }
     },
-    [confirm, dispatch, questions.length, reading, revealed, selectedAnswers]
+    [confirm, dispatch, questions, reading, revealed, selectedAnswers]
   );
 
   // Auto-check when the timer runs out
@@ -302,10 +311,10 @@ export default function ReadingDetailPage() {
     );
   }
 
-  const answeredCount = questions.filter((question) => selectedAnswers[question.id] !== undefined).length;
+  const answeredCount = questions.filter((question) => isAnswered(question, selectedAnswers[question.id])).length;
   const allAnswered = questions.length > 0 && answeredCount === questions.length;
   const correctCount = revealed
-    ? questions.filter((question) => selectedAnswers[question.id] === question.answer).length
+    ? questions.filter((question) => isAnswerCorrect(question, selectedAnswers[question.id])).length
     : 0;
 
   const timePercent = totalSeconds > 0 ? Math.round((remainingSeconds / totalSeconds) * 100) : 0;
@@ -418,10 +427,10 @@ export default function ReadingDetailPage() {
           fallbackNumber={index + 1}
           selected={selectedAnswers[question.id]}
           revealed={revealed}
-          onSelect={(optionIndex) =>
+          onSelect={(answer) =>
             setSelectedAnswers((current) => ({
               ...current,
-              [question.id]: optionIndex
+              [question.id]: answer
             }))
           }
         />
