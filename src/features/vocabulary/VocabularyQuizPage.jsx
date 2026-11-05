@@ -229,7 +229,7 @@ export default function VocabularyQuizPage() {
 
   return (
     <div className="mx-auto max-w-2xl space-y-5">
-      <div className="sticky -top-5 z-30 -mx-4 -mt-5 flex items-center justify-between gap-3 border-b border-slate-200 bg-white px-4 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
+      <div className="sticky -top-4 z-30 -mx-3 -mt-4 sm:-top-5 flex items-center justify-between gap-3 border-b border-slate-200 bg-white px-3 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
         <BackLink to="/vocabulary" sticky={false}>
           Back to vocabulary
         </BackLink>

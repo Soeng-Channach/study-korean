@@ -70,7 +70,7 @@ export default function BookmarksPage() {
                     <Star size={18} fill="currentColor" />
                   </button>
                 </div>
-                <div className="mt-3 rounded-xl border-2 border-coral-500/80 bg-gradient-to-br from-coral-100/60 via-white to-white p-4 shadow-[0_4px_18px_-8px_rgba(244,63,94,0.4)] dark:from-coral-500/10 dark:via-slate-900 dark:to-slate-900">
+                <div className="mt-3 rounded-xl border-2 border-coral-500/80 bg-gradient-to-br from-coral-100/60 via-white to-white p-3 shadow-[0_4px_18px_-8px_rgba(244,63,94,0.4)] dark:from-coral-500/10 dark:via-slate-900 dark:to-slate-900 sm:p-4">
                   <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                     <h4 className="text-2xl font-bold text-slate-950 dark:text-white">{word.word}</h4>
                     <SpeakButton

@@ -262,7 +262,7 @@ export default function ListeningDetailPage() {
   return (
     <article className="mx-auto max-w-4xl space-y-5 pb-[calc(7rem+max(env(safe-area-inset-bottom),0.5rem))] lg:pb-0">
       <BackLink to="/listening">Back to listening</BackLink>
-      <div className="sticky top-2.5 z-30 -mx-4 border-b border-slate-200 bg-white px-4 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
+      <div className="sticky top-2.5 z-30 -mx-3 border-b border-slate-200 bg-white px-3 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
         <div className="flex items-center justify-between gap-3">
           <div className="min-w-0">
             <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 dark:text-brand-100 sm:text-[11px]">Listening progress</p>

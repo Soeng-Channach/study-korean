@@ -101,7 +101,7 @@ export default function MockTestPage() {
         Back to {test.type === 'grammar' ? 'grammar' : 'vocabulary'} tests
       </BackLink>
 
-      <div className="sticky top-2.5 z-30 -mx-4 border-b border-slate-200 bg-white px-4 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
+      <div className="sticky top-2.5 z-30 -mx-3 border-b border-slate-200 bg-white px-3 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
         <div className="flex items-center justify-between gap-3">
           <div className="min-w-0">
             <p className="text-[10px] font-bold uppercase tracking-wider text-brand-600 dark:text-brand-100 sm:text-[11px]">Test progress</p>

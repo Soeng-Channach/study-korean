@@ -173,14 +173,14 @@ export default function VocabularyPage() {
   return (
     <div className="space-y-5">
       <StickyHeader>
-        <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
+        <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
           <div className="min-w-0 flex-1">
             <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Vocabulary</h2>
             <p className="mt-2 hidden text-sm text-slate-600 dark:text-slate-300 sm:block">
               Review key words and test recognition with a randomized quiz.
             </p>
           </div>
-          <div className="flex flex-wrap items-center gap-2">
+          <div className="grid grid-cols-[auto_1fr_1fr] items-center gap-2 sm:flex sm:flex-wrap">
             <Link
               to="/bookmarks"
               className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1.5 text-sm font-semibold text-amber-700 ring-1 ring-amber-200 transition hover:bg-amber-200 dark:bg-amber-500/15 dark:text-amber-100 dark:ring-amber-500/30 dark:hover:bg-amber-500/25"
@@ -191,13 +191,13 @@ export default function VocabularyPage() {
                 {savedCount}
               </span>
             </Link>
-            <Link to={`/vocabulary/quiz?${reviewQuizParams}`}>
-              <Button variant="secondary" icon={Clock3} disabled={levelReviewSummary.due === 0 && levelReviewSummary.weak === 0}>
+            <Link to={`/vocabulary/quiz?${reviewQuizParams}`} className="min-w-0">
+              <Button className="w-full whitespace-nowrap px-3 sm:w-auto" variant="secondary" icon={Clock3} disabled={levelReviewSummary.due === 0 && levelReviewSummary.weak === 0}>
                 Review due
               </Button>
             </Link>
-            <Link to={`/vocabulary/quiz?${quizParams}`}>
-              <Button icon={Sparkles} disabled={levelWords.length === 0}>Start quiz</Button>
+            <Link to={`/vocabulary/quiz?${quizParams}`} className="min-w-0">
+              <Button className="w-full whitespace-nowrap px-3 sm:w-auto" icon={Sparkles} disabled={levelWords.length === 0}>Start quiz</Button>
             </Link>
           </div>
         </div>
@@ -253,7 +253,7 @@ export default function VocabularyPage() {
             ) : null}
           </div>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="-mx-3 flex gap-2 overflow-x-auto px-3 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 [&::-webkit-scrollbar]:hidden [&>*]:shrink-0">
             <button
               type="button"
               onClick={() => setShowSavedOnly((v) => !v)}
@@ -315,10 +315,13 @@ export default function VocabularyPage() {
                 {activeFilterCount > 0 ? <span className="opacity-75">{activeFilterCount}</span> : null}
               </button>
             ) : null}
-            <span className="ml-auto self-center text-xs font-semibold text-slate-500 dark:text-slate-400">
+            <span className="ml-auto hidden self-center text-xs font-semibold text-slate-500 dark:text-slate-400 sm:inline">
               {filtered.length} of {levelWords.length}
             </span>
           </div>
+          <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 sm:hidden">
+            {filtered.length} of {levelWords.length} words
+          </p>
 
           {showFilters ? (
             <div id="vocab-filter-panels" className="space-y-3">
@@ -463,7 +466,7 @@ export default function VocabularyPage() {
                     <Star size={18} fill={bookmarked ? 'currentColor' : 'none'} />
                   </button>
                 </div>
-                <div className="mt-3 rounded-xl border-2 border-coral-500/80 bg-gradient-to-br from-coral-100/60 via-white to-white p-4 shadow-[0_4px_18px_-8px_rgba(244,63,94,0.4)] dark:from-coral-500/10 dark:via-slate-900 dark:to-slate-900">
+                <div className="mt-3 rounded-xl border-2 border-coral-500/80 bg-gradient-to-br from-coral-100/60 via-white to-white p-3 shadow-[0_4px_18px_-8px_rgba(244,63,94,0.4)] dark:from-coral-500/10 dark:via-slate-900 dark:to-slate-900 sm:p-4">
                   <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
                     <h3 className="font-bold text-slate-950 dark:text-white">{word.word}</h3>
                     <SpeakButton
