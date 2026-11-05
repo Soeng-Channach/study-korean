@@ -37,7 +37,7 @@ export default function LevelTabs({ value, onChange, counts, accent = 'brand' })
                 className={
                   active
                     ? 'inline-flex min-w-[1.25rem] items-center justify-center rounded-full bg-white/25 px-1.5 py-0.5 text-[11px] font-bold text-white'
-                    : 'inline-flex min-w-[1.25rem] items-center justify-center rounded-full bg-slate-200 px-1.5 py-0.5 text-[11px] font-bold text-slate-500 dark:bg-slate-700 dark:text-slate-300'
+                    : 'inline-flex min-w-[1.25rem] items-center justify-center rounded-full bg-slate-200 px-1.5 py-0.5 text-[11px] font-bold text-slate-600 dark:bg-slate-700 dark:text-slate-300'
                 }
               >
                 {counts[lvl] ?? 0}

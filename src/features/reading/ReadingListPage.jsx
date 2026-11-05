@@ -7,7 +7,7 @@ import LevelTabs from '../../components/ui/LevelTabs';
 import StickyHeader from '../../components/ui/StickyHeader';
 import { countByLevel, levelOf } from '../../lib/levels';
 import { useLearning } from '../../context/LearningContext';
-import { readings } from '../../data/reading';
+import { readingIndex as readings } from '../../data/testIndex';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
 function examRound(reading) {
@@ -75,7 +75,7 @@ export default function ReadingListPage() {
       ) : (
       <div className="grid gap-4 md:grid-cols-2">
         {orderedReadings.map((reading) => {
-          const questionCount = reading.questionCount || reading.questions.length;
+          const questionCount = reading.questionCount;
           const preview = reading.paperSrc
             ? `${questionCount} questions with official PDF paper`
             : reading.passage || `${questionCount} questions on one page`;

@@ -1,11 +1,14 @@
-import { ArrowLeft, Check, CheckCircle2, Pencil, RotateCcw, Star, X } from 'lucide-react';
-import { useEffect, useState } from 'react';
-import { Link, useParams, useSearchParams } from 'react-router-dom';
+import { CheckCircle2, RotateCcw, Star } from 'lucide-react';
+import { useEffect } from 'react';
+import { useParams, useSearchParams } from 'react-router-dom';
 import UsageGuide from '../../components/learning/UsageGuide';
+import BackLink from '../../components/ui/BackLink';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
+import Bilingual from '../../components/ui/Bilingual';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
+import SpeakButton from '../../components/ui/SpeakButton';
 import { useLearning } from '../../context/LearningContext';
 import { grammarLessons } from '../../data/grammar';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -34,14 +37,6 @@ export default function GrammarDetailPage() {
   const currentCoreMeaning = lesson ? getGrammarCoreMeaning(lesson) : '';
   const edited = lesson ? isGrammarMeaningEdited(lesson.id) : false;
 
-  const [editing, setEditing] = useState(false);
-  const [draft, setDraft] = useState(currentCoreMeaning);
-
-  useEffect(() => {
-    setEditing(false);
-    setDraft(currentCoreMeaning);
-  }, [lesson?.id, currentCoreMeaning]);
-
   // Open each lesson from the top of the scroll area (the shared <main> keeps its
   // previous offset, which would otherwise drop you partway down the lesson).
   useEffect(() => {
@@ -58,46 +53,13 @@ export default function GrammarDetailPage() {
   const completed = isGrammarCompleted(lesson.id);
   const grammarGroup = grammarGroupOf(lesson);
 
-  function startEdit() {
-    setDraft(currentCoreMeaning);
-    setEditing(true);
-  }
-
-  function cancelEdit() {
-    setDraft(currentCoreMeaning);
-    setEditing(false);
-  }
-
-  function saveEdit() {
-    const trimmed = draft.trim();
-    if (!trimmed) {
-      cancelEdit();
-      return;
-    }
-    if (trimmed === lesson.coreMeaning) {
-      dispatch({ type: 'reset-grammar-meaning', id: lesson.id });
-    } else {
-      dispatch({ type: 'update-grammar-meaning', id: lesson.id, coreMeaning: trimmed });
-    }
-    setEditing(false);
-  }
-
   function resetToDefault() {
     dispatch({ type: 'reset-grammar-meaning', id: lesson.id });
-    setDraft(lesson.coreMeaning);
   }
 
   return (
     <article className="mx-auto max-w-3xl space-y-5 pb-[calc(7rem+max(env(safe-area-inset-bottom),0.5rem))] lg:pb-0">
-      <div className="sticky -top-5 z-30 -mx-4 -mt-5 border-b border-slate-200 bg-white px-4 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:mt-0 sm:border-0 sm:bg-transparent sm:p-0 sm:shadow-none sm:dark:bg-transparent">
-        <Link
-          to={backToGrammar}
-          className="group inline-flex items-center gap-1.5 self-start rounded-full bg-brand-600 px-3.5 py-1.5 text-sm font-semibold text-white shadow-sm shadow-brand-600/25 ring-1 ring-brand-500 transition hover:bg-brand-700 hover:ring-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-brand-500 dark:text-white dark:ring-brand-400 dark:hover:bg-brand-400 dark:focus-visible:ring-offset-slate-900"
-        >
-          <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
-          Back to grammar
-        </Link>
-      </div>
+      <BackLink to={backToGrammar}>Back to grammar</BackLink>
       <Card>
         <div className="flex items-start justify-between gap-2">
           <div className="flex flex-wrap gap-2">
@@ -122,82 +84,33 @@ export default function GrammarDetailPage() {
         </div>
         <h2 className="mt-4 text-3xl font-bold text-slate-950 dark:text-white">{lesson.pattern}</h2>
         <div className="mt-3 rounded-lg bg-slate-50 px-4 py-3 dark:bg-slate-800">
-          <div className="flex items-center justify-between gap-2">
-            <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-              Core meaning {edited ? <span className="text-coral-600 dark:text-coral-100">(edited)</span> : null}
-            </p>
-            {!editing ? (
-              <button
-                type="button"
-                onClick={startEdit}
-                aria-label="Edit core meaning"
-                title="Edit core meaning"
-                className="inline-flex h-7 w-7 items-center justify-center rounded-full text-slate-500 transition hover:bg-slate-200 hover:text-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 dark:text-slate-300 dark:hover:bg-slate-700 dark:hover:text-brand-100"
-              >
-                <Pencil size={14} />
-              </button>
-            ) : null}
-          </div>
-          {editing ? (
-            <div className="mt-2 space-y-2">
-              <input
-                type="text"
-                value={draft}
-                onChange={(event) => setDraft(event.target.value)}
-                onKeyDown={(event) => {
-                  if (event.key === 'Enter') saveEdit();
-                  if (event.key === 'Escape') cancelEdit();
-                }}
-                autoFocus
-                className="w-full rounded-md border border-slate-300 bg-white px-3 py-2 text-base font-semibold text-slate-900 shadow-sm focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30 dark:border-slate-700 dark:bg-slate-900 dark:text-white"
-              />
-              <div className="flex flex-wrap items-center justify-between gap-2">
-                {edited ? (
-                  <button
-                    type="button"
-                    onClick={resetToDefault}
-                    className="inline-flex items-center gap-1 text-xs font-semibold text-slate-500 transition hover:text-coral-600 dark:text-slate-400 dark:hover:text-coral-100"
-                  >
-                    <RotateCcw size={12} /> Reset to original
-                  </button>
-                ) : <span />}
-                <div className="flex gap-2">
-                  <button
-                    type="button"
-                    onClick={cancelEdit}
-                    className="inline-flex items-center gap-1 rounded-md px-3 py-1.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200 transition hover:bg-slate-100 dark:text-slate-300 dark:ring-slate-700 dark:hover:bg-slate-800"
-                  >
-                    <X size={12} /> Cancel
-                  </button>
-                  <button
-                    type="button"
-                    onClick={saveEdit}
-                    disabled={!draft.trim()}
-                    className="inline-flex items-center gap-1 rounded-md bg-brand-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-brand-700 disabled:cursor-not-allowed disabled:opacity-60"
-                  >
-                    <Check size={12} /> Save
-                  </button>
-                </div>
-              </div>
-            </div>
-          ) : (
-            <>
-              <p className="mt-1 text-lg font-semibold text-slate-900 dark:text-white">
-                {currentCoreMeaning}
-              </p>
-              {edited ? (
-                <button
-                  type="button"
-                  onClick={resetToDefault}
-                  className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-slate-500 transition hover:text-coral-600 dark:text-slate-400 dark:hover:text-coral-100"
-                >
-                  <RotateCcw size={12} /> Reset to original ({lesson.coreMeaning})
-                </button>
-              ) : null}
-            </>
-          )}
+          <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+            Core meaning {edited ? <span className="text-coral-600 dark:text-coral-100">(edited)</span> : null}
+          </p>
+          <Bilingual
+            en={currentCoreMeaning}
+            km={lesson.coreMeaningKm}
+            className="mt-1 text-lg font-semibold text-slate-900 dark:text-white"
+            kmClassName="mt-0.5 text-base font-medium leading-7 text-slate-600 dark:text-slate-300"
+          />
+          {edited ? (
+            <button
+              type="button"
+              onClick={resetToDefault}
+              className="mt-2 inline-flex items-center gap-1 text-xs font-semibold text-slate-500 transition hover:text-coral-600 dark:text-slate-400 dark:hover:text-coral-100"
+            >
+              <RotateCcw size={12} /> Reset to original ({lesson.coreMeaning})
+            </button>
+          ) : null}
         </div>
-        <p className="mt-6 leading-7 text-slate-700 dark:text-slate-300">{lesson.explanation}</p>
+        <div className="mt-6 space-y-2">
+          <Bilingual
+            en={lesson.explanation}
+            km={lesson.explanationKm}
+            className="leading-7 text-slate-700 dark:text-slate-300"
+            kmClassName="leading-7 text-slate-600 dark:text-slate-400"
+          />
+        </div>
       </Card>
 
       <UsageGuide usage={lesson.usage} pattern={lesson.pattern} />
@@ -216,8 +129,18 @@ export default function GrammarDetailPage() {
                 </Badge>
                 {example.type === 'practice' ? <Badge>Pattern practice</Badge> : null}
               </div>
-              <p className="text-lg font-bold leading-7 text-slate-950 dark:text-white">{example.korean}</p>
-              <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">{example.english}</p>
+              <div className="flex items-start gap-2">
+                <p className="flex-1 text-lg font-bold leading-7 text-slate-950 dark:text-white">{example.korean}</p>
+                <SpeakButton text={example.korean} size={16} label={`Play example ${exampleIndex + 1}`} />
+              </div>
+              <div className="mt-2 space-y-1">
+                <Bilingual
+                  en={example.english}
+                  km={example.khmer}
+                  className="text-sm text-slate-600 dark:text-slate-300"
+                  kmClassName="text-sm leading-6 text-slate-600 dark:text-slate-400"
+                />
+              </div>
             </div>
           ))}
         </div>

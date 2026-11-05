@@ -1,3 +1,5 @@
+import { grammarExtras } from './grammarExtras.js';
+
 const grammarLessonData = [
   {
     id: 'grammar-001',
@@ -6614,9 +6616,23 @@ export const grammarLessons = grammarLessonData.map((lesson) => {
     explanation: getEasyExplanation(lesson, coreMeaning)
   };
 
+  const extras = grammarExtras[lesson.id] || {};
+  const usage = inferUsageGuide(easyLesson);
+  const examples = buildLessonExamples(easyLesson).map((example, index) => ({
+    ...example,
+    khmer: extras.examplesKm?.[index]
+  }));
+  if (extras.extraExample) {
+    // Replace a duplicated second example; otherwise add a third one.
+    if (examples.length > 1 && examples[1].korean === examples[0].korean) examples[1] = extras.extraExample;
+    else examples.push(extras.extraExample);
+  }
+
   return {
     ...easyLesson,
-    examples: buildLessonExamples(easyLesson),
-    usage: inferUsageGuide(easyLesson)
+    coreMeaningKm: extras.coreMeaningKm,
+    explanationKm: extras.explanationKm,
+    examples,
+    usage: usage ? { ...usage, noteKm: extras.noteKm } : usage
   };
 });

@@ -26,7 +26,6 @@ const DEFAULT_DURATION = 70;
 export default function LibraryPracticePage() {
   const { id } = useParams();
   const [entry, setEntry] = useState(null);
-  const [url, setUrl] = useState(null);
   const [loading, setLoading] = useState(true);
 
   const [totalQuestions, setTotalQuestions] = useState(DEFAULT_QUESTIONS);
@@ -43,15 +42,12 @@ export default function LibraryPracticePage() {
 
   // Load PDF blob + persisted practice state
   useEffect(() => {
-    let blobUrl = null;
     let cancelled = false;
     (async () => {
       const record = await getPdf(id);
       if (cancelled) return;
       if (record?.blob) {
-        blobUrl = URL.createObjectURL(record.blob);
         setEntry(record);
-        setUrl(blobUrl);
       }
       const saved = await getPracticeState(id);
       if (saved && !cancelled) {
@@ -64,7 +60,6 @@ export default function LibraryPracticePage() {
     })();
     return () => {
       cancelled = true;
-      if (blobUrl) URL.revokeObjectURL(blobUrl);
     };
   }, [id]);
 

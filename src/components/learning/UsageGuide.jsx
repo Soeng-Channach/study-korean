@@ -1,4 +1,5 @@
 import Card from '../ui/Card';
+import Bilingual from '../ui/Bilingual';
 
 const rows = [
   ['Verb', 'verb', 'V'],
@@ -44,7 +45,7 @@ function UsageValueBadge({ short, value, pattern }) {
     <span
       className={
         notUsed
-          ? 'inline-flex w-fit items-center gap-1 rounded-md bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-400 dark:bg-slate-800/70 dark:text-slate-500'
+          ? 'inline-flex w-fit items-center gap-1 rounded-md bg-slate-100 px-2 py-0.5 text-[11px] font-semibold text-slate-600 dark:bg-slate-800/70 dark:text-slate-400'
           : 'inline-flex w-fit items-center gap-1 rounded-md bg-brand-50 px-2 py-0.5 text-[11px] font-semibold text-brand-700 ring-1 ring-brand-100 dark:bg-brand-500/15 dark:text-brand-100 dark:ring-brand-500/25'
       }
     >
@@ -98,9 +99,9 @@ export default function UsageGuide({ usage, pattern }) {
         ))}
       </div>
       {usage.note ? (
-        <p className="mt-4 rounded-lg bg-brand-50 p-4 text-sm leading-6 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
-          {usage.note}
-        </p>
+        <div className="mt-4 space-y-1 rounded-lg bg-brand-50 p-4 text-sm leading-6 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
+          <Bilingual en={usage.note} km={usage.noteKm} className="" kmClassName="leading-7 opacity-90" />
+        </div>
       ) : null}
     </Card>
   );

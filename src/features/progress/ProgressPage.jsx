@@ -1,8 +1,10 @@
-import { ArrowLeft, BookOpen, Headphones, Lock, Newspaper } from 'lucide-react';
+import { BookOpen, Headphones, Lock, Newspaper } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import CompletionCertificate from '../../components/learning/CompletionCertificate';
+import BackLink from '../../components/ui/BackLink';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
+import { useConfirm } from '../../components/ui/ConfirmDialog';
 import ProgressBar from '../../components/ui/ProgressBar';
 import { useLearning } from '../../context/LearningContext';
 import { catalog } from '../../data/catalog';
@@ -14,6 +16,19 @@ export default function ProgressPage() {
   usePageMeta('Progress', 'Track offline TOPIK study progress and earn your certificate.');
   const navigate = useNavigate();
   const { state, masteredWordCount, dispatch } = useLearning();
+  const confirm = useConfirm();
+
+  const handleReset = async () => {
+    const ok = await confirm({
+      title: 'Reset all progress?',
+      message:
+        'This will clear all completions, saved items, vocabulary stats, and mock test attempts on this device. This cannot be undone.',
+      confirmText: 'Reset progress',
+      cancelText: 'Keep my progress',
+      tone: 'danger'
+    });
+    if (ok) dispatch({ type: 'reset-progress' });
+  };
   const grammarProgress = Math.round((state.completedGrammarIds.length / catalog.grammar.total) * 100);
   const vocabProgress = Math.round((masteredWordCount / catalog.vocabulary.total) * 100);
 
@@ -51,13 +66,7 @@ export default function ProgressPage() {
 
   return (
     <div className="space-y-5">
-      <button
-        type="button"
-        onClick={handleBack}
-        className="group sticky -top-5 z-20 inline-flex w-fit items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-3.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900"
-      >
-        <ArrowLeft size={16} className="transition-transform group-hover:-translate-x-0.5" /> Back
-      </button>
+      <BackLink onClick={handleBack}>Back</BackLink>
       <div>
         <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Progress tracking</h2>
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Your progress is stored offline on this device.</p>
@@ -149,7 +158,7 @@ export default function ProgressPage() {
             <h3 className="text-lg font-bold text-slate-950 dark:text-white">Recent mock tests</h3>
             <p className="text-sm text-slate-500 dark:text-slate-400">Latest attempts are saved locally.</p>
           </div>
-          <Button variant="danger" onClick={() => dispatch({ type: 'reset-progress' })}>Reset progress</Button>
+          <Button variant="danger" onClick={handleReset}>Reset progress</Button>
         </div>
         <div className="mt-5 space-y-3">
           {state.mockTestAttempts.length ? (

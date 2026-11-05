@@ -44,7 +44,7 @@ async function buildIndex() {
       type: 'vocab',
       level,
       title: word.word,
-      subtitle: word.meaning,
+      subtitle: word.meaningKm ? `${word.meaning} · ${word.meaningKm}` : word.meaning,
       tag: word.partOfSpeech,
       // No per-word detail page exists, so deep-link into the Vocab list with
       // the word pre-filled. VocabularyPage reads the `q` and `level` params.
@@ -53,6 +53,7 @@ async function buildIndex() {
         word.word,
         word.hanja,
         word.meaning,
+        word.meaningKm,
         word.example,
         word.exampleMeaning,
         (word.tags || []).join(' ')

@@ -22,7 +22,7 @@ const typeIcon = {
 const isMac =
   typeof navigator !== 'undefined' && /mac|iphone|ipad|ipod/i.test(navigator.platform || navigator.userAgent);
 
-export default function GlobalSearch() {
+export default function GlobalSearch({ autoFocus = false, onNavigate }) {
   const navigate = useNavigate();
   const containerRef = useRef(null);
   const inputRef = useRef(null);
@@ -47,6 +47,13 @@ export default function GlobalSearch() {
       if (mountedRef.current) setIndexReady(true);
     });
   }, []);
+
+  // The mobile header opens the search on demand, so focus it as soon as it mounts.
+  useEffect(() => {
+    if (!autoFocus) return;
+    inputRef.current?.focus();
+    ensureIndex();
+  }, [autoFocus, ensureIndex]);
 
   const results = useMemo(() => (indexReady ? searchAll(query) : []), [indexReady, query]);
 
@@ -86,6 +93,7 @@ export default function GlobalSearch() {
     setQuery('');
     inputRef.current?.blur();
     navigate(item.to);
+    onNavigate?.();
   };
 
   const handleKeyDown = (event) => {
@@ -137,7 +145,7 @@ export default function GlobalSearch() {
           aria-expanded={showDropdown}
           aria-controls="global-search-results"
           aria-autocomplete="list"
-          className="min-w-0 flex-1 bg-transparent text-slate-800 placeholder:text-slate-400 focus:outline-none dark:text-slate-100 dark:placeholder:text-slate-500"
+          className="min-w-0 flex-1 appearance-none bg-transparent text-slate-800 [&::-webkit-search-cancel-button]:appearance-none [&::-webkit-search-decoration]:appearance-none placeholder:text-slate-400 focus:outline-none dark:text-slate-100 dark:placeholder:text-slate-500"
         />
         {query ? (
           <button
@@ -162,7 +170,7 @@ export default function GlobalSearch() {
         <div
           id="global-search-results"
           role="listbox"
-          className="absolute left-0 right-0 top-full z-30 mt-2 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-soft dark:border-slate-800 dark:bg-slate-900"
+          className="absolute left-0 right-0 top-full z-50 mt-2 overflow-hidden rounded-xl border border-slate-200 bg-white shadow-xl shadow-slate-900/10 ring-1 ring-slate-900/5 dark:border-slate-800 dark:bg-slate-900"
         >
           {!indexReady ? (
             <div className="px-4 py-6 text-center text-sm text-slate-500 dark:text-slate-400">

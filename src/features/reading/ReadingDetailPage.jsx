@@ -2,6 +2,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
 import { ArrowLeft, Check, Clock, Download, FileText } from 'lucide-react';
 import PdfViewer from '../../components/library/PdfViewer';
+import BackLink from '../../components/ui/BackLink';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -344,13 +345,7 @@ export default function ReadingDetailPage() {
 
   return (
     <article className="mx-auto max-w-4xl space-y-5 pb-[calc(7rem+max(env(safe-area-inset-bottom),0.5rem))] lg:pb-0">
-      <Link
-        to={backToReading}
-        className="group sticky -top-5 z-40 inline-flex w-fit items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-3.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900"
-      >
-        <ArrowLeft size={14} className="transition-transform group-hover:-translate-x-0.5" />
-        Back to reading
-      </Link>
+      <BackLink to={backToReading}>Back to reading</BackLink>
       <div className="sticky top-2.5 z-30 -mx-4 border-b border-slate-200 bg-white px-4 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
         <div className="flex items-center justify-between gap-3">
           <div className="min-w-0">

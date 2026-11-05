@@ -8,7 +8,7 @@ import LevelTabs from '../../components/ui/LevelTabs';
 import StickyHeader from '../../components/ui/StickyHeader';
 import { countByLevel, levelOf } from '../../lib/levels';
 import { useLearning } from '../../context/LearningContext';
-import { listeningTests } from '../../data/listening';
+import { listeningIndex as listeningTests } from '../../data/testIndex';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
 export default function ListeningListPage() {
@@ -42,7 +42,7 @@ export default function ListeningListPage() {
             return [...levelTests].sort((a, b) => examRound(b) - examRound(a));
           })().map((test) => {
             const done = isListeningCompleted(test.id);
-            const questionCount = test.questionCount || test.questions.length;
+            const questionCount = test.questionCount;
             return (
               <Link key={test.id} to={`/listening/${test.id}`}>
                 <Card className="h-full transition hover:-translate-y-0.5 hover:shadow-soft">

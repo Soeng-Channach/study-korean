@@ -1,12 +1,14 @@
-import { ArrowLeft, CalendarDays, CheckCircle2, Target, Trophy, XCircle } from 'lucide-react';
+import { CalendarDays, CheckCircle2, Target, Trophy, XCircle } from 'lucide-react';
 import { Link, useLocation, useParams } from 'react-router-dom';
 import QuizOption from '../../components/learning/QuizOption';
+import BackLink from '../../components/ui/BackLink';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
 import { useLearning } from '../../context/LearningContext';
 import { mockTests } from '../../data/mockTests';
 import { usePageMeta } from '../../hooks/usePageMeta';
+import { levelOf } from '../../lib/levels';
 
 function formatCompletedDate(value) {
   if (!value) return 'Completed';
@@ -30,6 +32,9 @@ export default function MockTestResultPage() {
   }
 
   const test = mockTests.find((item) => item.id === attempt.testId);
+  const backToTests = test
+    ? `/mock-tests/${test.type}?level=${encodeURIComponent(levelOf(test))}&test=${encodeURIComponent(test.id)}`
+    : '/mock-tests';
   const questions = test ? test.sections.flatMap((section) => section.questions) : [];
   const answers = attempt.answers || {};
   // An attempt records `answers` (an object, possibly empty if every question was skipped).
@@ -41,12 +46,7 @@ export default function MockTestResultPage() {
 
   return (
     <div className="mx-auto max-w-3xl space-y-5">
-      <Link
-        to="/mock-tests"
-        className="group sticky -top-5 z-20 inline-flex w-fit items-center gap-1.5 self-start rounded-full bg-gradient-to-r from-brand-600 to-brand-500 px-3.5 py-1.5 text-sm font-semibold text-white shadow-lg shadow-brand-600/30 transition hover:from-brand-700 hover:to-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900"
-      >
-        <ArrowLeft size={16} className="transition-transform group-hover:-translate-x-0.5" /> Back to tests
-      </Link>
+      <BackLink to={backToTests}>Back to tests</BackLink>
 
       <Card className="text-center">
         <div
@@ -142,7 +142,7 @@ export default function MockTestResultPage() {
 
       <Card>
         <div className="flex flex-col gap-3 sm:flex-row">
-          <Link to="/mock-tests" className="flex-1">
+          <Link to={backToTests} className="flex-1">
             <Button variant="secondary" className="w-full">Back to tests</Button>
           </Link>
           <Link to="/progress" className="flex-1">

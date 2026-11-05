@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { BookOpenCheck, Clock3, Layers3, Search, Sparkles, Star, Target, X } from 'lucide-react';
+import { BookOpenCheck, Clock3, Layers3, Search, SlidersHorizontal, Sparkles, Star, Target, X } from 'lucide-react';
 import VocabExampleBlock from '../../components/learning/VocabExampleBlock';
 import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
 import Badge from '../../components/ui/Badge';
@@ -43,6 +43,10 @@ export default function VocabularyPage() {
     if (l === 'TOPIK I' || l === 'TOPIK II') setLevel(l);
   }, [searchParams]);
   const [showSavedOnly, setShowSavedOnly] = useState(false);
+  // Review-stage and topic panels are collapsed by default so the sticky header
+  // stays short enough to leave room for the word list on every screen size.
+  const [showFilters, setShowFilters] = useState(false);
+  const activeFilterCount = (tagFilter !== 'all' ? 1 : 0) + (reviewFilter !== 'all' ? 1 : 0);
   const savedCount = (state.bookmarkedVocabIds || []).length;
 
   const levelCounts = useMemo(() => countByLevel(vocabulary), []);
@@ -93,9 +97,11 @@ export default function VocabularyPage() {
       return (
         word.word.toLowerCase().includes(q) ||
         word.meaning.toLowerCase().includes(q) ||
+        (word.meaningKm && word.meaningKm.includes(q)) ||
         (meaning && meaning.toLowerCase().includes(q)) ||
         (example.example && example.example.toLowerCase().includes(q)) ||
-        (example.exampleMeaning && example.exampleMeaning.toLowerCase().includes(q))
+        (example.exampleMeaning && example.exampleMeaning.toLowerCase().includes(q)) ||
+        (example.exampleMeaningKm && example.exampleMeaningKm.includes(q))
       );
     });
   }, [
@@ -170,7 +176,7 @@ export default function VocabularyPage() {
         <div className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
           <div className="min-w-0 flex-1">
             <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Vocabulary</h2>
-            <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
+            <p className="mt-2 hidden text-sm text-slate-600 dark:text-slate-300 sm:block">
               Review key words and test recognition with a randomized quiz.
             </p>
           </div>
@@ -198,32 +204,27 @@ export default function VocabularyPage() {
         <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
 
         {level === 'TOPIK I' ? (
-          <div className="grid grid-cols-2 gap-2 sm:grid-cols-4">
-            <div className="rounded-lg border border-slate-200 bg-white px-3 py-2 dark:border-slate-800 dark:bg-slate-900">
-              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                <Layers3 size={14} /> Word bank
+          <dl className="hidden grid-cols-4 gap-2 sm:grid">
+            {[
+              ['Words', levelWords.length, Layers3],
+              ['Saved', savedLevelCount, Star],
+              ['Due', levelReviewSummary.due, Clock3],
+              ['Mastered', levelReviewSummary.mastered, Target]
+            ].map(([label, value, Icon]) => (
+              <div
+                key={label}
+                className="flex min-w-0 items-center gap-2 rounded-xl border border-slate-200 bg-white px-2.5 py-1.5 dark:border-slate-800 dark:bg-slate-900"
+              >
+                <Icon size={14} className="shrink-0 text-slate-400 dark:text-slate-500" aria-hidden="true" />
+                <div className="min-w-0 leading-tight">
+                  <dt className="truncate text-[10px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                    {label}
+                  </dt>
+                  <dd className="text-sm font-bold tabular-nums text-slate-950 dark:text-white">{value}</dd>
+                </div>
               </div>
-              <p className="mt-1 text-lg font-bold text-slate-950 dark:text-white">{levelWords.length}</p>
-            </div>
-            <div className="rounded-lg border border-slate-200 bg-white px-3 py-2 dark:border-slate-800 dark:bg-slate-900">
-              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                <Star size={14} /> Saved
-              </div>
-              <p className="mt-1 text-lg font-bold text-slate-950 dark:text-white">{savedLevelCount}</p>
-            </div>
-            <div className="rounded-lg border border-slate-200 bg-white px-3 py-2 dark:border-slate-800 dark:bg-slate-900">
-              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                <Clock3 size={14} /> Due
-              </div>
-              <p className="mt-1 text-lg font-bold text-slate-950 dark:text-white">{levelReviewSummary.due}</p>
-            </div>
-            <div className="rounded-lg border border-slate-200 bg-white px-3 py-2 dark:border-slate-800 dark:bg-slate-900">
-              <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                <Target size={14} /> Mastered
-              </div>
-              <p className="mt-1 text-lg font-bold text-slate-950 dark:text-white">{levelReviewSummary.mastered}</p>
-            </div>
-          </div>
+            ))}
+          </dl>
         ) : null}
 
         <div className="space-y-3">
@@ -237,7 +238,7 @@ export default function VocabularyPage() {
               type="search"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search Korean, meaning, or example..."
+              placeholder="Search Korean, English, Khmer, or example..."
               className="w-full rounded-lg border border-slate-200 bg-white py-2.5 pl-9 pr-9 text-sm text-slate-800 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500"
             />
             {query ? (
@@ -297,98 +298,119 @@ export default function VocabularyPage() {
                 Clear filters
               </button>
             ) : null}
+            {level === 'TOPIK I' || topicTags.length > 0 ? (
+              <button
+                type="button"
+                onClick={() => setShowFilters((value) => !value)}
+                aria-expanded={showFilters}
+                aria-controls="vocab-filter-panels"
+                className={
+                  showFilters || activeFilterCount > 0
+                    ? 'inline-flex items-center gap-1 rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
+                    : 'inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
+                }
+              >
+                <SlidersHorizontal size={12} aria-hidden="true" />
+                {showFilters ? 'Hide filters' : 'More filters'}
+                {activeFilterCount > 0 ? <span className="opacity-75">{activeFilterCount}</span> : null}
+              </button>
+            ) : null}
             <span className="ml-auto self-center text-xs font-semibold text-slate-500 dark:text-slate-400">
               {filtered.length} of {levelWords.length}
             </span>
           </div>
 
-          {level === 'TOPIK I' ? (
-            <div className="hidden rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900 sm:block">
-              <div className="mb-2 flex items-center justify-between gap-3">
-                <p className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                  <Clock3 size={14} /> Review focus
-                </p>
-                <Link
-                  to={`/vocabulary/quiz?${reviewQuizParams}`}
-                  className="text-xs font-semibold text-brand-600 transition hover:text-brand-700 dark:text-brand-100 dark:hover:text-brand-50"
-                >
-                  Review due
-                </Link>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                {[
-                  ['all', 'All', levelWords.length],
-                  ['due', 'Due', levelReviewSummary.due],
-                  ['weak', 'Weak', levelReviewSummary.weak],
-                  ['new', 'New', levelReviewSummary.new],
-                  ['learning', 'Learning', levelReviewSummary.learning],
-                  ['review', 'Review', levelReviewSummary.review],
-                  ['strong', 'Strong', levelReviewSummary.strong],
-                  ['mastered', 'Mastered', levelReviewSummary.mastered]
-                ].map(([key, label, count]) => {
-                  const active = reviewFilter === key;
-                  return (
-                    <button
-                      key={key}
-                      type="button"
-                      onClick={() => setReviewFilter(key)}
-                      className={
-                        active
-                          ? 'rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold text-white shadow-sm'
-                          : 'rounded-full border border-brand-200 bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700 transition hover:bg-brand-100 dark:border-brand-500/30 dark:bg-brand-500/10 dark:text-brand-100 dark:hover:bg-brand-500/20'
-                      }
+          {showFilters ? (
+            <div id="vocab-filter-panels" className="space-y-3">
+              {level === 'TOPIK I' ? (
+                <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+                  <div className="mb-2 flex items-center justify-between gap-3">
+                    <p className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                      <Clock3 size={14} /> Review focus
+                    </p>
+                    <Link
+                      to={`/vocabulary/quiz?${reviewQuizParams}`}
+                      className="text-xs font-semibold text-brand-600 transition hover:text-brand-700 dark:text-brand-100 dark:hover:text-brand-50"
                     >
-                      {label} <span className="opacity-75">{count}</span>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          ) : null}
+                      Review due
+                    </Link>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
+                    {[
+                      ['all', 'All', levelWords.length],
+                      ['due', 'Due', levelReviewSummary.due],
+                      ['weak', 'Weak', levelReviewSummary.weak],
+                      ['new', 'New', levelReviewSummary.new],
+                      ['learning', 'Learning', levelReviewSummary.learning],
+                      ['review', 'Review', levelReviewSummary.review],
+                      ['strong', 'Strong', levelReviewSummary.strong],
+                      ['mastered', 'Mastered', levelReviewSummary.mastered]
+                    ].map(([key, label, count]) => {
+                      const active = reviewFilter === key;
+                      return (
+                        <button
+                          key={key}
+                          type="button"
+                          onClick={() => setReviewFilter(key)}
+                          className={
+                            active
+                              ? 'rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold text-white shadow-sm'
+                              : 'rounded-full border border-brand-200 bg-brand-50 px-3 py-1 text-xs font-semibold text-brand-700 transition hover:bg-brand-100 dark:border-brand-500/30 dark:bg-brand-500/10 dark:text-brand-100 dark:hover:bg-brand-500/20'
+                          }
+                        >
+                          {label} <span className="opacity-75">{count}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              ) : null}
 
-          {topicTags.length > 0 ? (
-            <div className="hidden rounded-lg border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900 sm:block">
-              <div className="mb-2 flex items-center justify-between gap-3">
-                <p className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                  <BookOpenCheck size={14} /> Topic sets
-                </p>
-                <Link
-                  to={`/vocabulary/quiz?${quizParams}`}
-                  className="text-xs font-semibold text-coral-600 transition hover:text-coral-700 dark:text-coral-100 dark:hover:text-coral-50"
-                >
-                  Quiz this set
-                </Link>
-              </div>
-              <div className="flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  onClick={() => setTagFilter('all')}
-                  className={
-                    tagFilter === 'all'
-                      ? 'rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
-                      : 'rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700'
-                  }
-                >
-                  All topics
-                </button>
-                {topicTags.map(([tag, count]) => {
-                  const active = tagFilter === tag;
-                  return (
+              {topicTags.length > 0 ? (
+                <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+                  <div className="mb-2 flex items-center justify-between gap-3">
+                    <p className="inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                      <BookOpenCheck size={14} /> Topic sets
+                    </p>
+                    <Link
+                      to={`/vocabulary/quiz?${quizParams}`}
+                      className="text-xs font-semibold text-coral-600 transition hover:text-coral-700 dark:text-coral-100 dark:hover:text-coral-50"
+                    >
+                      Quiz this set
+                    </Link>
+                  </div>
+                  <div className="flex flex-wrap gap-2">
                     <button
-                      key={tag}
                       type="button"
-                      onClick={() => setTagFilter(tag)}
+                      onClick={() => setTagFilter('all')}
                       className={
-                        active
-                          ? 'rounded-full bg-coral-500 px-3 py-1 text-xs font-semibold capitalize text-white shadow-sm'
-                          : 'rounded-full border border-coral-200 bg-coral-50 px-3 py-1 text-xs font-semibold capitalize text-coral-700 transition hover:bg-coral-100 dark:border-coral-500/30 dark:bg-coral-500/10 dark:text-coral-100 dark:hover:bg-coral-500/20'
+                        tagFilter === 'all'
+                          ? 'rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
+                          : 'rounded-full border border-slate-200 bg-slate-50 px-3 py-1 text-xs font-semibold text-slate-600 transition hover:bg-slate-100 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-300 dark:hover:bg-slate-700'
                       }
                     >
-                      {tag} <span className="opacity-75">{count}</span>
+                      All topics
                     </button>
-                  );
-                })}
-              </div>
+                    {topicTags.map(([tag, count]) => {
+                      const active = tagFilter === tag;
+                      return (
+                        <button
+                          key={tag}
+                          type="button"
+                          onClick={() => setTagFilter(tag)}
+                          className={
+                            active
+                              ? 'rounded-full bg-coral-500 px-3 py-1 text-xs font-semibold capitalize text-white shadow-sm'
+                              : 'rounded-full border border-coral-200 bg-coral-50 px-3 py-1 text-xs font-semibold capitalize text-coral-700 transition hover:bg-coral-100 dark:border-coral-500/30 dark:bg-coral-500/10 dark:text-coral-100 dark:hover:bg-coral-500/20'
+                          }
+                        >
+                          {tag} <span className="opacity-75">{count}</span>
+                        </button>
+                      );
+                    })}
+                  </div>
+                </div>
+              ) : null}
             </div>
           ) : null}
         </div>

@@ -31,7 +31,9 @@ export default [
       ...react.configs['jsx-runtime'].rules,
       ...reactHooks.configs.recommended.rules,
       'react-refresh/only-export-components': ['warn', { allowConstantExport: true }],
-      'react/prop-types': 'off'
+      'react/prop-types': 'off',
+      // Allow `const { blob, ...meta } = entry` to strip fields.
+      'no-unused-vars': ['error', { ignoreRestSiblings: true }]
     }
   }
 ];

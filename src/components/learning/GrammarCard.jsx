@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { useLearning } from '../../context/LearningContext';
 import { ALL_GRAMMAR_GROUP, grammarGroupOf } from '../../lib/grammarGroups';
 import Badge from '../ui/Badge';
+import Bilingual from '../ui/Bilingual';
 import Card from '../ui/Card';
 import { UsageGuideCompact } from './UsageGuide';
 
@@ -59,11 +60,21 @@ export default function GrammarCard({ lesson, level, group = ALL_GRAMMAR_GROUP.i
           <p className="text-[10px] font-semibold uppercase tracking-wide text-coral-700 dark:text-coral-100">
             Core meaning
           </p>
-          <p className="mt-0.5 text-sm font-semibold text-slate-800 dark:text-slate-100">
-            {coreMeaning}
-          </p>
+          <Bilingual
+            en={coreMeaning}
+            km={lesson.coreMeaningKm}
+            className="mt-0.5 text-sm font-semibold text-slate-800 dark:text-slate-100"
+            kmClassName="text-sm font-medium leading-6 text-slate-600 dark:text-slate-300"
+          />
         </div>
-        <p className="mt-2.5 line-clamp-2 text-sm leading-snug text-slate-600 dark:text-slate-400">{lesson.explanation}</p>
+        <div className="mt-2.5">
+          <Bilingual
+            en={lesson.explanation}
+            km={lesson.explanationKm}
+            className="line-clamp-2 text-sm leading-snug text-slate-600 dark:text-slate-400"
+            kmClassName="mt-1 line-clamp-2 text-sm leading-6 text-slate-500 dark:text-slate-400"
+          />
+        </div>
         <UsageGuideCompact usage={lesson.usage} pattern={lesson.pattern} />
       </div>
       <div className="mt-4 flex items-center justify-center">

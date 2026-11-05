@@ -2,6 +2,7 @@ import { createContext, useContext, useEffect, useMemo, useReducer, useState } f
 import { STORAGE_KEYS } from '../lib/constants';
 import { readLearningState, writeLearningState } from '../lib/db';
 import { countMasteredWords, getVocabReview, nextVocabReview } from '../lib/spacedRepetition';
+import { ACTIVITY_POINTS, addActivity } from '../lib/studyLog';
 
 const initialState = {
   completedGrammarIds: [],
@@ -17,7 +18,8 @@ const initialState = {
     masteredWordIds: [],
     wordReview: {}
   },
-  mockTestAttempts: []
+  mockTestAttempts: [],
+  studyLog: {}
 };
 
 function normalizeLearningState(state, payload = {}) {
@@ -32,7 +34,7 @@ function normalizeLearningState(state, payload = {}) {
   };
 }
 
-function learningReducer(state, action) {
+function baseReducer(state, action) {
   switch (action.type) {
     case 'hydrate':
       return normalizeLearningState(state, action.payload);
@@ -153,6 +155,23 @@ function learningReducer(state, action) {
     default:
       return state;
   }
+}
+
+const COMPLETION_LISTS = {
+  'complete-grammar': 'completedGrammarIds',
+  'complete-reading': 'completedReadingIds',
+  'complete-listening': 'completedListeningIds'
+};
+
+// Wraps the base reducer to log study points per day for streaks and the
+// daily goal. Re-completing an already finished lesson earns nothing.
+function learningReducer(state, action) {
+  const next = baseReducer(state, action);
+  const points = ACTIVITY_POINTS[action.type];
+  if (!points) return next;
+  const list = COMPLETION_LISTS[action.type];
+  if (list && (state[list] || []).includes(action.id)) return next;
+  return { ...next, studyLog: addActivity(state.studyLog, points, action.answeredAt) };
 }
 
 const LearningContext = createContext(null);

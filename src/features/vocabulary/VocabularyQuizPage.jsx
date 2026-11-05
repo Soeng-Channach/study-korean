@@ -1,12 +1,15 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { ArrowLeft, ArrowRight, Flame, RotateCcw, Sparkles } from 'lucide-react';
+import { ArrowRight, Flame, RotateCcw, Sparkles } from 'lucide-react';
 import QuizOption from '../../components/learning/QuizOption';
+import BackLink from '../../components/ui/BackLink';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import ProgressBar from '../../components/ui/ProgressBar';
 import SpeakButton from '../../components/ui/SpeakButton';
 import { useLearning } from '../../context/LearningContext';
+import { usePreferences } from '../../context/PreferencesContext';
+import { primaryMeaning, secondaryMeaning } from '../../lib/meaningLanguage';
 import { vocabulary } from '../../data/vocabulary';
 import { usePageMeta } from '../../hooks/usePageMeta';
 import { levelOf } from '../../lib/levels';
@@ -21,15 +24,35 @@ function shuffle(arr) {
   return a;
 }
 
+// Options are word objects so each can be shown in English, Khmer, or both.
+// Distractors must differ from the answer (and each other) in every language
+// that might be shown.
 function buildOptions(word, pool) {
-  const distractors = Array.from(
-    new Set(
-      pool
-        .filter((item) => item.id !== word.id && item.meaning !== word.meaning)
-        .map((item) => item.meaning)
-    )
+  const seen = new Set([word.meaning, word.meaningKm].filter(Boolean));
+  const distractors = [];
+  for (const item of shuffle(pool)) {
+    if (distractors.length === 3) break;
+    if (item.id === word.id || seen.has(item.meaning) || (item.meaningKm && seen.has(item.meaningKm))) continue;
+    seen.add(item.meaning);
+    if (item.meaningKm) seen.add(item.meaningKm);
+    distractors.push(item);
+  }
+  return shuffle([word, ...distractors]);
+}
+
+function OptionLabel({ word, language }) {
+  const main = primaryMeaning(word, language);
+  const sub = secondaryMeaning(word, language);
+  return (
+    <span className="block">
+      <span lang={main === word.meaningKm ? 'km' : undefined}>{main}</span>
+      {sub ? (
+        <span lang="km" className="mt-0.5 block text-xs font-medium opacity-75">
+          {sub}
+        </span>
+      ) : null}
+    </span>
   );
-  return shuffle([word.meaning, ...shuffle(distractors).slice(0, 3)]);
 }
 
 function labelize(value) {
@@ -56,6 +79,7 @@ export default function VocabularyQuizPage() {
     `Offline ${scopeLabel || 'TOPIK'} vocabulary quiz.`
   );
   const { state, dispatch } = useLearning();
+  const { meaningLanguage } = usePreferences();
   const poolWords = useMemo(() => {
     const baseWords = vocabulary.filter((word) => {
       if (level && levelOf(word) !== level) return false;
@@ -90,7 +114,7 @@ export default function VocabularyQuizPage() {
   const finished = index >= order.length;
   const word = finished ? null : poolWords[order[index]];
   const options = useMemo(() => (word ? buildOptions(word, poolWords) : []), [word, poolWords]);
-  const correctIndex = word ? options.indexOf(word.meaning) : -1;
+  const correctIndex = word ? options.findIndex((option) => option.id === word.id) : -1;
   const isLast = index + 1 === order.length;
   const answeredCount = index + (revealed ? 1 : 0);
   const progressPct = order.length ? (answeredCount / order.length) * 100 : 0;
@@ -151,9 +175,9 @@ export default function VocabularyQuizPage() {
   if (poolWords.length === 0) {
     return (
       <div className="mx-auto max-w-2xl space-y-5">
-        <Link to="/vocabulary" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 dark:text-brand-100">
-          <ArrowLeft size={16} /> Back to vocabulary
-        </Link>
+        <BackLink to="/vocabulary" sticky={false}>
+          Back to vocabulary
+        </BackLink>
         <Card className="text-center">
           <h2 className="text-xl font-bold text-slate-950 dark:text-white">No words in this set</h2>
           <p className="mt-2 text-sm text-slate-500 dark:text-slate-400">
@@ -169,9 +193,9 @@ export default function VocabularyQuizPage() {
     const finalAccuracy = total ? Math.round((correctCount / total) * 100) : 0;
     return (
       <div className="mx-auto max-w-2xl space-y-5">
-        <Link to="/vocabulary" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 dark:text-brand-100">
-          <ArrowLeft size={16} /> Back to vocabulary
-        </Link>
+        <BackLink to="/vocabulary" sticky={false}>
+          Back to vocabulary
+        </BackLink>
         <Card className="text-center">
           <div className="mx-auto flex h-16 w-16 items-center justify-center rounded-full bg-gradient-to-br from-mint-500 to-brand-500 text-white shadow-lg shadow-brand-600/30">
             <Sparkles size={28} />
@@ -206,9 +230,9 @@ export default function VocabularyQuizPage() {
   return (
     <div className="mx-auto max-w-2xl space-y-5">
       <div className="sticky -top-5 z-30 -mx-4 -mt-5 flex items-center justify-between gap-3 border-b border-slate-200 bg-white px-4 py-2.5 shadow-sm dark:border-slate-800 dark:bg-slate-900 sm:mx-0 sm:mt-0 sm:rounded-lg sm:border sm:px-5 sm:py-3 sm:shadow-soft">
-        <Link to="/vocabulary" className="inline-flex items-center gap-1 text-sm font-semibold text-brand-600 dark:text-brand-100">
-          <ArrowLeft size={16} /> Back to vocabulary
-        </Link>
+        <BackLink to="/vocabulary" sticky={false}>
+          Back to vocabulary
+        </BackLink>
         <button
           type="button"
           onClick={restart}
@@ -243,12 +267,12 @@ export default function VocabularyQuizPage() {
               </div>
             </div>
           </div>
-          <ProgressBar value={progressPct} />
+          <ProgressBar value={progressPct} ariaLabel="Quiz progress" />
         </div>
 
         <div className="rounded-xl border border-coral-200 bg-coral-50/60 px-4 py-5 text-center shadow-[0_12px_30px_-24px_rgba(244,63,94,0.9)] dark:border-coral-500/30 dark:bg-coral-500/10 sm:px-6">
           <div className="mx-auto inline-flex items-center rounded-full bg-white px-3 py-1 text-[11px] font-bold uppercase tracking-wider text-coral-700 shadow-sm dark:bg-slate-900 dark:text-coral-100">
-            Choose the English meaning
+            {meaningLanguage === 'km' ? 'ជ្រើសរើសអត្ថន័យ' : meaningLanguage === 'both' ? 'Choose the meaning' : 'Choose the English meaning'}
           </div>
           <div className="mt-4 flex items-center justify-center gap-3">
             <h2 className="min-w-0 text-5xl font-bold leading-none text-slate-950 dark:text-white sm:text-6xl">{word.word}</h2>
@@ -272,8 +296,8 @@ export default function VocabularyQuizPage() {
         <div className="space-y-2.5">
           {options.map((option, optionIndex) => (
             <QuizOption
-              key={`${option}-${optionIndex}`}
-              option={option}
+              key={option.id}
+              option={<OptionLabel word={option} language={meaningLanguage} />}
               index={optionIndex}
               selected={selected === optionIndex}
               correct={correctIndex === optionIndex}

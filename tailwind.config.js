@@ -4,8 +4,27 @@ export default {
   content: ['./index.html', './src/**/*.{js,jsx}'],
   theme: {
     extend: {
+      // System-first stack that falls through to good Hangul faces on every
+      // platform (Pretendard if installed, Apple SD Gothic Neo on iOS/macOS,
+      // Noto Sans KR on Android, Malgun Gothic on Windows). No web-font
+      // download, so it works offline and never flashes unstyled text.
       fontFamily: {
-        sans: ['Inter', 'ui-sans-serif', 'system-ui', 'sans-serif']
+        sans: [
+          '"Pretendard Variable"',
+          'Pretendard',
+          '-apple-system',
+          'BlinkMacSystemFont',
+          '"Segoe UI"',
+          'Roboto',
+          '"Apple SD Gothic Neo"',
+          '"Noto Sans KR"',
+          '"Malgun Gothic"',
+          '"Noto Sans Khmer"',
+          '"Khmer UI"',
+          '"Leelawadee UI"',
+          'system-ui',
+          'sans-serif'
+        ]
       },
       colors: {
         ink: '#172033',
@@ -49,6 +68,7 @@ export default {
         }
       },
       boxShadow: {
+        card: '0 1px 2px rgba(15, 23, 42, 0.04), 0 1px 3px rgba(15, 23, 42, 0.06)',
         soft: '0 18px 45px rgba(15, 23, 42, 0.08)'
       }
     }
