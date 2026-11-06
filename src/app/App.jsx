@@ -21,6 +21,8 @@ const MockTestListPage = lazy(() => import('../features/mock-tests/MockTestListP
 const MockTestPage = lazy(() => import('../features/mock-tests/MockTestPage.jsx'));
 const MockTestResultPage = lazy(() => import('../features/mock-tests/MockTestResultPage.jsx'));
 const TestCategoryPage = lazy(() => import('../features/mock-tests/TestCategoryPage.jsx'));
+const PlanDayPage = lazy(() => import('../features/plan/PlanDayPage.jsx'));
+const PlanOverviewPage = lazy(() => import('../features/plan/PlanOverviewPage.jsx'));
 const ProgressPage = lazy(() => import('../features/progress/ProgressPage.jsx'));
 const ReadingDetailPage = lazy(() => import('../features/reading/ReadingDetailPage.jsx'));
 const ReadingListPage = lazy(() => import('../features/reading/ReadingListPage.jsx'));
@@ -48,6 +50,8 @@ export default function App() {
           <Route path="listening/:id" element={<ListeningDetailPage />} />
           <Route path="vocabulary" element={<VocabularyPage />} />
           <Route path="vocabulary/quiz" element={<VocabularyQuizPage />} />
+          <Route path="plan" element={<PlanOverviewPage />} />
+          <Route path="plan/:day" element={<PlanDayPage />} />
           <Route path="mock-tests" element={<MockTestListPage />} />
           <Route path="mock-tests/grammar" element={<TestCategoryPage category="grammar" />} />
           <Route path="mock-tests/vocabulary" element={<TestCategoryPage category="vocabulary" />} />

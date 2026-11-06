@@ -5,6 +5,7 @@ import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
 import LevelTabs from '../../components/ui/LevelTabs';
 import StickyHeader from '../../components/ui/StickyHeader';
+import BackLink from '../../components/ui/BackLink';
 import { countByLevel, levelOf, LEVELS } from '../../lib/levels';
 import { mockTests } from '../../data/mockTests';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -59,19 +60,29 @@ export default function TestCategoryPage({ category }) {
   }
 
   const isGrammar = type === 'grammar';
-  const switchClass = isGrammar
-    ? 'bg-gradient-to-r from-coral-500 to-pink-500 text-white shadow-md shadow-coral-500/30 hover:from-coral-700 hover:to-pink-600 hover:shadow-lg hover:shadow-coral-500/45 focus-visible:ring-coral-500'
-    : 'bg-gradient-to-r from-brand-600 to-brand-500 text-white shadow-md shadow-brand-600/25 hover:from-brand-700 hover:to-brand-600 hover:shadow-lg hover:shadow-brand-600/40 focus-visible:ring-brand-500';
 
   return (
     <div className="space-y-5">
       <StickyHeader>
-        <Link
-          to={isGrammar ? '/mock-tests/vocabulary' : '/mock-tests/grammar'}
-          className={`inline-flex w-fit items-center justify-center gap-1.5 rounded-lg px-3 py-1.5 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-950 ${switchClass}`}
-        >
-          {isGrammar ? 'Vocabulary' : 'Grammar'} Test
-        </Link>
+        <div className="flex items-center gap-2">
+          <BackLink to="/mock-tests" sticky={false}>Tests</BackLink>
+          <nav aria-label="Test type" className="inline-flex rounded-lg bg-slate-100 p-1 dark:bg-slate-800">
+            {Object.entries(categoryConfig).map(([key, item]) => (
+              <Link
+                key={key}
+                to={`/mock-tests/${key}?level=${encodeURIComponent(level)}`}
+                aria-current={key === type ? 'page' : undefined}
+                className={
+                  key === type
+                    ? 'rounded-md bg-white px-3 py-1 text-sm font-bold text-brand-700 shadow-sm dark:bg-slate-950 dark:text-brand-100'
+                    : 'rounded-md px-3 py-1 text-sm font-semibold text-slate-600 transition hover:text-slate-950 dark:text-slate-300 dark:hover:text-white'
+                }
+              >
+                {item.title.replace(' Test', '')}
+              </Link>
+            ))}
+          </nav>
+        </div>
         <div className="flex items-start gap-3">
           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-lg bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
             <Icon size={24} aria-hidden="true" />

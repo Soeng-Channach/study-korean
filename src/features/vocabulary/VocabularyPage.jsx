@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { BookOpenCheck, Clock3, Layers3, Search, SlidersHorizontal, Sparkles, Star, Target, X } from 'lucide-react';
+import { BookOpenCheck, CalendarCheck, Clock3, Layers3, Search, SlidersHorizontal, Sparkles, Star, Target, X } from 'lucide-react';
 import VocabExampleBlock from '../../components/learning/VocabExampleBlock';
 import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
 import Badge from '../../components/ui/Badge';
@@ -179,6 +179,12 @@ export default function VocabularyPage() {
             <p className="mt-2 hidden text-sm text-slate-600 dark:text-slate-300 sm:block">
               Review key words and test recognition with a randomized quiz.
             </p>
+            <Link
+              to="/plan"
+              className="mt-1.5 inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-100"
+            >
+              <CalendarCheck size={14} aria-hidden="true" /> TOPIK II 30-Day Plan · 1,000 words →
+            </Link>
           </div>
           <div className="grid grid-cols-[auto_1fr_1fr] items-center gap-2 sm:flex sm:flex-wrap">
             <Link

@@ -19,7 +19,11 @@ const initialState = {
     wordReview: {}
   },
   mockTestAttempts: [],
-  studyLog: {}
+  studyLog: {},
+  // 30-Day vocabulary plan
+  knownPlanWordIds: [],
+  completedPlanDays: [],
+  planQuizBest: {}
 };
 
 function normalizeLearningState(state, payload = {}) {
@@ -150,6 +154,25 @@ function baseReducer(state, action) {
       delete rest[action.id];
       return { ...state, vocabMeaningOverrides: rest };
     }
+    case 'toggle-plan-word': {
+      const known = state.knownPlanWordIds || [];
+      return {
+        ...state,
+        knownPlanWordIds: known.includes(action.id) ? known.filter((id) => id !== action.id) : [...known, action.id]
+      };
+    }
+    case 'complete-plan-day': {
+      const days = state.completedPlanDays || [];
+      return days.includes(action.id) ? state : { ...state, completedPlanDays: [...days, action.id] };
+    }
+    case 'uncomplete-plan-day':
+      return { ...state, completedPlanDays: (state.completedPlanDays || []).filter((day) => day !== action.id) };
+    case 'record-plan-quiz': {
+      const best = state.planQuizBest || {};
+      const previous = best[action.day];
+      if (previous && previous.correct >= action.correct) return state;
+      return { ...state, planQuizBest: { ...best, [action.day]: { correct: action.correct, total: action.total } } };
+    }
     case 'reset-progress':
       return initialState;
     default:
@@ -160,7 +183,8 @@ function baseReducer(state, action) {
 const COMPLETION_LISTS = {
   'complete-grammar': 'completedGrammarIds',
   'complete-reading': 'completedReadingIds',
-  'complete-listening': 'completedListeningIds'
+  'complete-listening': 'completedListeningIds',
+  'complete-plan-day': 'completedPlanDays'
 };
 
 // Wraps the base reducer to log study points per day for streaks and the
@@ -210,7 +234,9 @@ export function LearningProvider({ children }) {
       getVocabMeaning: (word) =>
         (word && (state.vocabMeaningOverrides || {})[word.id]) || word?.meaning,
       isVocabMeaningEdited: (id) => Boolean((state.vocabMeaningOverrides || {})[id]),
-      getVocabReviewStatus: (word) => getVocabReview(word, state.vocabularyStats)
+      getVocabReviewStatus: (word) => getVocabReview(word, state.vocabularyStats),
+      isPlanWordKnown: (id) => (state.knownPlanWordIds || []).includes(id),
+      isPlanDayCompleted: (day) => (state.completedPlanDays || []).includes(day)
     };
   }, [isHydrated, state]);
 

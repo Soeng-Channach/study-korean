@@ -13,6 +13,7 @@ import { primaryMeaning, secondaryMeaning } from '../../lib/meaningLanguage';
 import { vocabulary } from '../../data/vocabulary';
 import { usePageMeta } from '../../hooks/usePageMeta';
 import { levelOf } from '../../lib/levels';
+import { sharesSense } from '../../lib/meaningOverlap';
 import { getVocabReview, reviewPriority } from '../../lib/spacedRepetition';
 
 function shuffle(arr) {
@@ -32,7 +33,9 @@ function buildOptions(word, pool) {
   const distractors = [];
   for (const item of shuffle(pool)) {
     if (distractors.length === 3) break;
-    if (item.id === word.id || seen.has(item.meaning) || (item.meaningKm && seen.has(item.meaningKm))) continue;
+    if (item.id === word.id || item.word === word.word || seen.has(item.meaning) || (item.meaningKm && seen.has(item.meaningKm))) continue;
+    // Skip synonyms such as "help" vs "help; assistance" so only one option is right.
+    if ([word, ...distractors].some((chosen) => sharesSense(chosen.meaning, item.meaning))) continue;
     seen.add(item.meaning);
     if (item.meaningKm) seen.add(item.meaningKm);
     distractors.push(item);

@@ -9,7 +9,9 @@ export const ACTIVITY_POINTS = {
   'complete-grammar': 5,
   'complete-reading': 10,
   'complete-listening': 10,
-  'record-test-attempt': 10
+  'record-test-attempt': 10,
+  'complete-plan-day': 10,
+  'record-plan-quiz': 5
 };
 
 // Local calendar day, so a late-night session counts for the learner's today.

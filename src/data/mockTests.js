@@ -1,6 +1,7 @@
 import { grammarLessons } from './grammar.js';
 import { vocabulary } from './vocabulary.js';
 import { LEVELS, levelOf } from '../lib/levels.js';
+import { sharesSense } from '../lib/meaningOverlap.js';
 
 const QUESTIONS_PER_GRAMMAR_TEST = 10;
 const QUESTIONS_PER_VOCAB_TEST = 20;
@@ -35,15 +36,19 @@ function placeCorrectOption(correct, distractors, seed) {
 // Grammar tests
 // -----------------------------------------------------------------------------
 
+// Extra offsets so stricter filtering still finds three distractors.
+const MORE_OFFSETS = [131, 149, 163, 181, 199, 211, 229, 241];
+
 function getMeaningDistractors(currentLesson, currentIndex, pool) {
-  const offsets = [7, 19, 31, 43, 59, 71, 89, 103];
+  const offsets = [7, 19, 31, 43, 59, 71, 89, 103, ...MORE_OFFSETS];
   const distractors = [];
 
   for (const offset of offsets) {
     const lesson = pool[(currentIndex + offset) % pool.length];
     if (
       lesson.id !== currentLesson.id &&
-      lesson.coreMeaning !== currentLesson.coreMeaning &&
+      lesson.pattern !== currentLesson.pattern &&
+      !sharesSense(lesson.coreMeaning, currentLesson.coreMeaning) &&
       !distractors.includes(lesson.coreMeaning)
     ) {
       distractors.push(lesson.coreMeaning);
@@ -55,7 +60,7 @@ function getMeaningDistractors(currentLesson, currentIndex, pool) {
 }
 
 function getPatternDistractors(currentLesson, currentIndex, pool) {
-  const offsets = [13, 29, 41, 57, 73, 91, 109, 127];
+  const offsets = [13, 29, 41, 57, 73, 91, 109, 127, ...MORE_OFFSETS];
   const distractors = [];
 
   for (const offset of offsets) {
@@ -63,6 +68,7 @@ function getPatternDistractors(currentLesson, currentIndex, pool) {
     if (
       lesson.id !== currentLesson.id &&
       lesson.pattern !== currentLesson.pattern &&
+      !sharesSense(lesson.coreMeaning, currentLesson.coreMeaning) &&
       !distractors.includes(lesson.pattern)
     ) {
       distractors.push(lesson.pattern);
@@ -156,15 +162,16 @@ function buildGrammarTests(lessons, level, slug) {
 // -----------------------------------------------------------------------------
 
 function getVocabMeaningDistractors(currentWord, currentIndex, pool) {
-  const offsets = [11, 23, 37, 53, 67, 79, 97, 113];
+  const offsets = [11, 23, 37, 53, 67, 79, 97, 113, ...MORE_OFFSETS];
   const distractors = [];
 
   for (const offset of offsets) {
     const word = pool[(currentIndex + offset) % pool.length];
     if (
       word.id !== currentWord.id &&
-      word.meaning !== currentWord.meaning &&
-      !distractors.includes(word.meaning)
+      word.word !== currentWord.word &&
+      !sharesSense(word.meaning, currentWord.meaning) &&
+      !distractors.some((meaning) => sharesSense(meaning, word.meaning))
     ) {
       distractors.push(word.meaning);
     }
@@ -175,7 +182,7 @@ function getVocabMeaningDistractors(currentWord, currentIndex, pool) {
 }
 
 function getVocabWordDistractors(currentWord, currentIndex, pool) {
-  const offsets = [17, 29, 43, 61, 73, 89, 101, 127];
+  const offsets = [17, 29, 43, 61, 73, 89, 101, 127, ...MORE_OFFSETS];
   const distractors = [];
 
   for (const offset of offsets) {
@@ -183,6 +190,7 @@ function getVocabWordDistractors(currentWord, currentIndex, pool) {
     if (
       word.id !== currentWord.id &&
       word.word !== currentWord.word &&
+      !sharesSense(word.meaning, currentWord.meaning) &&
       !distractors.includes(word.word)
     ) {
       distractors.push(word.word);

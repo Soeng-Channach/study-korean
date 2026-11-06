@@ -21,6 +21,7 @@ export const navItems = [
   { label: 'Reading', path: '/reading', icon: 'Newspaper', section: 'study' },
   { label: 'Listen', path: '/listening', icon: 'Headphones', section: 'study' },
   { label: 'Tests', path: '/mock-tests', icon: 'ClipboardCheck', section: 'practice' },
+  { label: '30-Day Plan', path: '/plan', icon: 'CalendarCheck', section: 'practice' },
   { label: 'Library', path: '/library', icon: 'FolderArchive', section: 'practice' },
   { label: 'Saved', path: '/bookmarks', icon: 'Star', section: 'you' },
   { label: 'Progress', path: '/progress', icon: 'ChartNoAxesColumnIncreasing', section: 'you' },

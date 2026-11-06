@@ -1,5 +1,6 @@
 import { useMemo } from 'react';
 import {
+  CalendarCheck,
   ArrowRight,
   BookOpen,
   ClipboardCheck,
@@ -50,6 +51,8 @@ const heroButton =
 export default function DashboardPage() {
   usePageMeta('Dashboard', 'Track TOPIK I and TOPIK II grammar, reading, vocabulary, and mock test progress.');
   const { state, masteredWordCount, dispatch } = useLearning();
+  // First day of the 30-day plan not yet completed (plan has 30 days).
+  const nextPlanDay = Array.from({ length: 30 }, (_, i) => i + 1).find((day) => !(state.completedPlanDays || []).includes(day)) || 30;
   const confirm = useConfirm();
 
   const now = useMemo(() => new Date(), []);
@@ -215,6 +218,13 @@ export default function DashboardPage() {
               >
                 <ClipboardCheck size={16} aria-hidden="true" />
                 Take a mock test
+              </Link>
+              <Link
+                to="/plan"
+                className={`${heroButton} bg-white/10 text-white ring-1 ring-white/20 hover:bg-white/15`}
+              >
+                <CalendarCheck size={16} aria-hidden="true" />
+                30-Day Plan · Day {String(nextPlanDay).padStart(2, '0')}
               </Link>
             </div>
             <div className="mt-5 max-w-sm">

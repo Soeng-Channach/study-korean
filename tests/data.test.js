@@ -8,7 +8,9 @@ import { listeningTests } from '../src/data/listening.js';
 import { mockTests } from '../src/data/mockTests.js';
 import { catalog } from '../src/data/catalog.js';
 import { listeningIndex, readingIndex } from '../src/data/testIndex.js';
-import { LEVELS } from '../src/lib/levels.js';
+import { LEVELS, levelOf } from '../src/lib/levels.js';
+import { sharesSense } from '../src/lib/meaningOverlap.js';
+import { planDays, planWordCount } from '../src/data/thirtyDayPlan.js';
 import { getVocabularyExample } from '../src/lib/vocabularyExamples.js';
 
 function duplicates(ids) {
@@ -156,5 +158,54 @@ describe('reading question markup', () => {
       .filter((q) => !(q.passage || '').trim())
       .map((q) => q.id);
     expect(missing).toEqual([]);
+  });
+});
+
+describe('mock test options', () => {
+  it('never offers a second acceptable answer', () => {
+    const byWord = {};
+    for (const word of vocabulary) (byWord[`${levelOf(word)}|${word.word}`] ||= []).push(word.meaning);
+    const ambiguous = [];
+    for (const test of mockTests) {
+      for (const section of test.sections || []) {
+        for (const q of section.questions || []) {
+          const correct = q.options[q.answer];
+          const wordPrompt = q.prompt.match(/^Which Korean word means "(.+)"\?$/);
+          q.options.forEach((option, index) => {
+            if (index === q.answer) return;
+            const clash = wordPrompt
+              ? (byWord[`${test.level}|${option}`] || []).some((meaning) => sharesSense(meaning, wordPrompt[1]))
+              : /^What does .+ mean\?$/.test(q.prompt) && sharesSense(option, correct);
+            if (clash) ambiguous.push(`${q.id}: ${option}`);
+          });
+        }
+      }
+    }
+    expect(ambiguous).toEqual([]);
+  });
+});
+
+describe('30-day plan', () => {
+  it('has 30 days and 1,000 words with English and Khmer', () => {
+    expect(planDays.map((d) => d.day)).toEqual(Array.from({ length: 30 }, (_, i) => i + 1));
+    expect(planWordCount).toBe(1000);
+    const words = planDays.flatMap((d) => d.words);
+    expect(new Set(words.map((w) => w.id)).size).toBe(words.length);
+    const broken = words.filter((w) => !/[가-힣]/.test(w.word) || !w.meaning || !/[ក-៿]/.test(w.meaningKm));
+    expect(broken).toEqual([]);
+  });
+
+  it('has an example sentence in Korean, English and Khmer for every word', () => {
+    const missing = planDays
+      .flatMap((d) => d.words)
+      .filter((w) => !/[가-힣]/.test(w.example || '') || !w.exampleMeaning || !/[\u1780-\u17FF]/.test(w.exampleMeaningKm || ''))
+      .map((w) => w.id);
+    expect(missing).toEqual([]);
+  });
+
+  it('links to existing vocabulary ids', () => {
+    const ids = new Set(vocabulary.map((w) => w.id));
+    const dangling = planDays.flatMap((d) => d.words).filter((w) => w.vocabId && !ids.has(w.vocabId));
+    expect(dangling).toEqual([]);
   });
 });

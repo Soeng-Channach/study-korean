@@ -1,6 +1,7 @@
 import clsx from 'clsx';
 import {
   BookOpen,
+  CalendarCheck,
   ChartNoAxesColumnIncreasing,
   ClipboardCheck,
   FolderArchive,
@@ -17,6 +18,7 @@ import { navItems, navSections } from '../../lib/constants';
 
 const iconMap = {
   BookOpen,
+  CalendarCheck,
   ChartNoAxesColumnIncreasing,
   ClipboardCheck,
   FolderArchive,
