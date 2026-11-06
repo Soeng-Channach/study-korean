@@ -136,3 +136,25 @@ describe('test index', () => {
     );
   });
 });
+
+describe('reading question markup', () => {
+  const textQuestions = readings.flatMap((test) =>
+    (test.questions || []).map((question) => ({ test: test.id, ...question }))
+  );
+
+  it('marks the underlined part for every 밑줄 question', () => {
+    const missing = textQuestions
+      .filter((q) => `${q.instruction || ''}${q.question || ''}`.includes('밑줄') && !q.image)
+      .filter((q) => !/<span class=["']underline["']>[^<]+<\/span>/.test(q.passage || ''))
+      .map((q) => q.id);
+    expect(missing).toEqual([]);
+  });
+
+  it('gives every text question a passage (shared pairs repeat it)', () => {
+    const missing = textQuestions
+      .filter((q) => q.questionNumber && q.questionType === 'text' && !q.clauses && !q.image)
+      .filter((q) => !(q.passage || '').trim())
+      .map((q) => q.id);
+    expect(missing).toEqual([]);
+  });
+});

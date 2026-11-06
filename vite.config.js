@@ -41,7 +41,21 @@ export default defineConfig({
         maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,webmanifest,woff2}'],
         navigateFallback: '/index.html',
-        cleanupOutdatedCaches: true
+        cleanupOutdatedCaches: true,
+        // Test pictures are hosted on topikguide.com. Keep a copy of each one
+        // after it is first viewed so the questions still work offline.
+        runtimeCaching: [
+          {
+            urlPattern: ({ url }) =>
+              /(^|\.)topikguide\.com$/.test(url.hostname) && /\.(png|jpe?g|gif|webp|svg)$/i.test(url.pathname),
+            handler: 'CacheFirst',
+            options: {
+              cacheName: 'topik-test-images',
+              expiration: { maxEntries: 600, maxAgeSeconds: 60 * 60 * 24 * 365 },
+              cacheableResponse: { statuses: [0, 200] }
+            }
+          }
+        ]
       }
     })
   ]
