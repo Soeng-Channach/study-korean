@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { Link, Navigate, useParams, useSearchParams } from 'react-router-dom';
-import { BookOpenText, Check, CheckCircle2, ChevronLeft, ChevronRight, EyeOff, ListChecks, RotateCcw, Sparkles } from 'lucide-react';
+import { BookOpenText, Check, ChevronLeft, ChevronRight, EyeOff, ListChecks, RotateCcw, Sparkles } from 'lucide-react';
 import QuizOption from '../../components/learning/QuizOption';
 import BackLink from '../../components/ui/BackLink';
 import Button from '../../components/ui/Button';
@@ -111,13 +111,13 @@ function WordRow({ word, index, known, onToggle, language, showExamples }) {
           onClick={onToggle}
           aria-pressed={known}
           aria-label={known ? `Mark ${word.word} as not known` : `Mark ${word.word} as known`}
-          className={`flex h-7 w-7 shrink-0 items-center justify-center rounded-full border transition ${
+          className={`mt-1 flex h-5 w-5 shrink-0 items-center justify-center rounded-full border transition ${
             known
               ? 'border-mint-500 bg-mint-500 text-white'
               : 'border-slate-300 text-slate-400 hover:border-mint-500 hover:text-mint-600 dark:border-slate-600'
           }`}
         >
-          <Check size={14} aria-hidden="true" />
+          <Check size={11} strokeWidth={3} aria-hidden="true" />
         </button>
       </div>
     </li>
@@ -271,24 +271,6 @@ export default function PlanDayPage() {
     <article className="mx-auto max-w-3xl space-y-4">
       <div className="flex items-center justify-between gap-2">
         <BackLink to="/plan">30-Day Plan</BackLink>
-        <div className="flex items-center gap-1">
-          <Link
-            to={day.day > 1 ? `/plan/${day.day - 1}` : '#'}
-            aria-label="Previous day"
-            aria-disabled={day.day === 1}
-            className={`flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 ${day.day === 1 ? 'pointer-events-none opacity-40' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}
-          >
-            <ChevronLeft size={16} aria-hidden="true" />
-          </Link>
-          <Link
-            to={day.day < planDays.length ? `/plan/${day.day + 1}` : '#'}
-            aria-label="Next day"
-            aria-disabled={day.day === planDays.length}
-            className={`flex h-8 w-8 items-center justify-center rounded-full border border-slate-200 dark:border-slate-700 ${day.day === planDays.length ? 'pointer-events-none opacity-40' : 'hover:bg-slate-100 dark:hover:bg-slate-800'}`}
-          >
-            <ChevronRight size={16} aria-hidden="true" />
-          </Link>
-        </div>
       </div>
 
       <Card>
@@ -299,11 +281,29 @@ export default function PlanDayPage() {
               Day {pad(day.day)} <span className="text-base font-semibold text-slate-500">· {day.words.length} words</span>
             </h1>
           </div>
-          {completed ? (
-            <span className="inline-flex items-center gap-1 rounded-full bg-mint-100 px-3 py-1 text-xs font-bold text-mint-700 dark:bg-mint-500/15 dark:text-mint-100">
-              <CheckCircle2 size={14} aria-hidden="true" /> Completed
+          {/* Tick to mark the whole day complete */}
+          <button
+            type="button"
+            role="checkbox"
+            aria-checked={completed}
+            onClick={() => dispatch({ type: completed ? 'uncomplete-plan-day' : 'complete-plan-day', id: day.day })}
+            className={`group inline-flex shrink-0 items-center gap-2 rounded-full py-1.5 pl-1.5 pr-4 text-sm font-semibold transition-all duration-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-mint-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900 ${
+              completed
+                ? 'bg-gradient-to-r from-emerald-500 to-mint-500 text-white shadow-md shadow-emerald-500/30 hover:shadow-lg hover:shadow-emerald-500/40'
+                : 'bg-white text-slate-700 shadow-sm ring-1 ring-slate-200 hover:-translate-y-0.5 hover:text-emerald-700 hover:shadow-md hover:ring-emerald-300 dark:bg-slate-900 dark:text-slate-200 dark:ring-slate-700 dark:hover:text-emerald-200 dark:hover:ring-emerald-500/50'
+            }`}
+          >
+            <span
+              className={`flex h-6 w-6 items-center justify-center rounded-full transition-all duration-200 ${
+                completed
+                  ? 'bg-white/25 text-white'
+                  : 'border-2 border-slate-300 text-transparent group-hover:border-emerald-500 group-hover:bg-emerald-50 group-hover:text-emerald-500 dark:border-slate-600 dark:group-hover:bg-emerald-500/10'
+              }`}
+            >
+              <Check size={14} strokeWidth={3} aria-hidden="true" />
             </span>
-          ) : null}
+            {completed ? 'Completed' : 'Mark complete'}
+          </button>
         </div>
         <div className="mt-3">
           <ProgressBar
@@ -352,13 +352,13 @@ export default function PlanDayPage() {
       ) : (
         <>
           <div className="flex items-center justify-between gap-2">
-            <p className="text-xs text-slate-500 dark:text-slate-400">Tap ✓ when you know a word.</p>
-            <div className="flex gap-1.5">
+            <p className="hidden text-xs text-slate-500 dark:text-slate-400 sm:block">Tap ✓ when you know a word.</p>
+            <div className="ml-auto flex gap-1.5">
               <button
                 type="button"
                 onClick={() => setShowExamples((value) => !value)}
                 aria-pressed={showExamples}
-                className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-semibold transition ${
+                className={`inline-flex items-center gap-1 whitespace-nowrap rounded-full border px-2.5 py-1 text-xs font-semibold transition ${
                   showExamples
                     ? 'border-brand-500 bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100'
                     : 'border-slate-200 text-slate-600 dark:border-slate-700 dark:text-slate-300'
@@ -370,7 +370,7 @@ export default function PlanDayPage() {
                 type="button"
                 onClick={() => setHideKnown((value) => !value)}
                 aria-pressed={hideKnown}
-                className={`inline-flex items-center gap-1 rounded-full border px-2.5 py-1 text-xs font-semibold transition ${
+                className={`inline-flex items-center gap-1 whitespace-nowrap rounded-full border px-2.5 py-1 text-xs font-semibold transition ${
                   hideKnown
                     ? 'border-brand-500 bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100'
                     : 'border-slate-200 text-slate-600 dark:border-slate-700 dark:text-slate-300'
@@ -398,19 +398,37 @@ export default function PlanDayPage() {
               You know every word of Day {pad(day.day)}. Take the quiz to check!
             </p>
           ) : null}
-          <div className="flex flex-wrap gap-2">
-            <Button onClick={() => setMode('quiz')}>
-              <Sparkles size={15} aria-hidden="true" /> Quiz Day {pad(day.day)}
-            </Button>
-            <Button
-              variant="secondary"
-              onClick={() => dispatch({ type: completed ? 'uncomplete-plan-day' : 'complete-plan-day', id: day.day })}
-            >
-              <CheckCircle2 size={15} aria-hidden="true" /> {completed ? 'Mark not complete' : 'Mark day complete'}
-            </Button>
-          </div>
         </>
       )}
+
+      {/* Day navigation at the bottom of the list */}
+      <nav aria-label="Day navigation" className="flex items-center justify-between gap-2 pt-1">
+        {day.day > 1 ? (
+          <Link
+            to={`/plan/${day.day - 1}`}
+            className="inline-flex items-center gap-1 rounded-full border border-slate-200 px-3.5 py-2 text-sm font-semibold text-slate-700 transition hover:bg-slate-100 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
+          >
+            <ChevronLeft size={16} aria-hidden="true" /> Day {pad(day.day - 1)}
+          </Link>
+        ) : (
+          <span />
+        )}
+        {day.day < planDays.length ? (
+          <Link
+            to={`/plan/${day.day + 1}`}
+            className="inline-flex items-center gap-1 rounded-full bg-brand-600 px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-brand-700"
+          >
+            Next: Day {pad(day.day + 1)} <ChevronRight size={16} aria-hidden="true" />
+          </Link>
+        ) : (
+          <Link
+            to="/plan"
+            className="inline-flex items-center gap-1 rounded-full bg-brand-600 px-4 py-2 text-sm font-bold text-white shadow-sm transition hover:bg-brand-700"
+          >
+            Back to the plan <ChevronRight size={16} aria-hidden="true" />
+          </Link>
+        )}
+      </nav>
     </article>
   );
 }

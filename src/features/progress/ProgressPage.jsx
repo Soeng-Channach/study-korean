@@ -1,4 +1,4 @@
-import { BookOpen, Headphones, Lock, Newspaper } from 'lucide-react';
+import { BookOpen, CalendarCheck, Headphones, Languages, Lock, Newspaper, Trophy } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import CompletionCertificate from '../../components/learning/CompletionCertificate';
 import BackLink from '../../components/ui/BackLink';
@@ -30,7 +30,6 @@ export default function ProgressPage() {
     if (ok) dispatch({ type: 'reset-progress' });
   };
   const grammarProgress = Math.round((state.completedGrammarIds.length / catalog.grammar.total) * 100);
-  const vocabProgress = Math.round((masteredWordCount / catalog.vocabulary.total) * 100);
 
   // Return to the previous screen (e.g. the test result page), falling back to the
   // dashboard when there is no in-app history — Progress isn't on the mobile nav bar.
@@ -59,6 +58,15 @@ export default function ProgressPage() {
     { label: 'Reading', icon: Newspaper, done: readingDone, total: readingTotal, progress: readingProgress },
     { label: 'Listening', icon: Headphones, done: listeningDone, total: listeningTotal, progress: listeningProgress }
   ];
+  // Skill tiles (the 30-Day Plan has 1,000 words; its data file is not loaded here).
+  const skills = [
+    { label: 'Grammar', icon: BookOpen, done: grammarDone, total: grammarTotal, tone: 'bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100', bar: 'bg-brand-600' },
+    { label: 'Vocabulary', icon: Languages, done: masteredWordCount, total: catalog.vocabulary.total, tone: 'bg-coral-100 text-coral-700 dark:bg-coral-500/15 dark:text-coral-100', bar: 'bg-coral-500' },
+    { label: 'Reading', icon: Newspaper, done: readingDone, total: readingTotal, tone: 'bg-sky-50 text-sky-700 dark:bg-sky-500/15 dark:text-sky-200', bar: 'bg-sky-500' },
+    { label: 'Listening', icon: Headphones, done: listeningDone, total: listeningTotal, tone: 'bg-violet-50 text-violet-700 dark:bg-violet-500/15 dark:text-violet-200', bar: 'bg-violet-500' },
+    { label: '30-Day Plan', icon: CalendarCheck, done: (state.knownPlanWordIds || []).length, total: 1000, tone: 'bg-emerald-50 text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-200', bar: 'bg-emerald-500' },
+    { label: 'Plan days', icon: Trophy, done: (state.completedPlanDays || []).length, total: 30, tone: 'bg-amber-50 text-amber-700 dark:bg-amber-500/15 dark:text-amber-200', bar: 'bg-amber-500' }
+  ];
   const totalDone = grammarDone + readingDone + listeningDone;
   const totalItems = grammarTotal + readingTotal + listeningTotal;
   const certificateProgress = pct(totalDone, totalItems);
@@ -74,11 +82,30 @@ export default function ProgressPage() {
       <div className="grid gap-4 lg:grid-cols-3">
         <Card className="lg:col-span-2">
           <h3 className="text-lg font-bold text-slate-950 dark:text-white">Skills</h3>
-          <div className="mt-5 space-y-5">
-            <ProgressBar value={grammarProgress} label="Grammar" />
-            <ProgressBar value={vocabProgress} label="Vocabulary" />
-            <ProgressBar value={readingProgress} label="Reading" />
-            <ProgressBar value={listeningProgress} label="Listening" />
+          <div className="mt-4 grid grid-cols-2 gap-2.5 sm:grid-cols-3">
+            {skills.map(({ label, icon: Icon, done, total, tone, bar }) => {
+              const value = pct(done, total);
+              return (
+                <div key={label} className="rounded-xl border border-slate-200 p-3 dark:border-slate-800">
+                  <div className="flex items-center gap-2">
+                    <span className={`flex h-8 w-8 items-center justify-center rounded-lg ${tone}`}>
+                      <Icon size={16} aria-hidden="true" />
+                    </span>
+                    <span className="text-sm font-semibold text-slate-700 dark:text-slate-200">{label}</span>
+                  </div>
+                  <p className="mt-2.5 text-2xl font-black text-slate-950 dark:text-white">
+                    {value}
+                    <span className="text-sm font-bold text-slate-400">%</span>
+                  </p>
+                  <div className="mt-1.5 h-1.5 overflow-hidden rounded-full bg-slate-100 dark:bg-slate-800">
+                    <div className={`h-full rounded-full ${bar}`} style={{ width: `${value}%` }} />
+                  </div>
+                  <p className="mt-1.5 text-[11px] font-medium text-slate-500 dark:text-slate-400">
+                    {done.toLocaleString()} / {total.toLocaleString()}
+                  </p>
+                </div>
+              );
+            })}
           </div>
         </Card>
         <Card>

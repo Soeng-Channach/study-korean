@@ -1,5 +1,6 @@
 import { CalendarCheck, CheckCircle2, ChevronRight, Trophy } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import VocabSectionTabs from '../../components/learning/VocabSectionTabs';
 import Card from '../../components/ui/Card';
 import ProgressBar from '../../components/ui/ProgressBar';
 import { useLearning } from '../../context/LearningContext';
@@ -19,6 +20,7 @@ export default function PlanOverviewPage() {
 
   return (
     <div className="space-y-4 sm:space-y-5">
+      <VocabSectionTabs />
       <Card className="overflow-hidden bg-gradient-to-br from-brand-600 to-indigo-700 border-0 text-white ring-0 dark:from-brand-600 dark:to-indigo-800">
         <div className="flex items-center gap-2 text-xs font-bold uppercase tracking-wider text-brand-100">
           <CalendarCheck size={14} aria-hidden="true" /> TOPIK II · Korean / English / Khmer

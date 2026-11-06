@@ -1,8 +1,9 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { BookOpenCheck, CalendarCheck, Clock3, Layers3, Search, SlidersHorizontal, Sparkles, Star, Target, X } from 'lucide-react';
+import { BookOpenCheck, Clock3, Layers3, Search, SlidersHorizontal, Sparkles, Star, Target, X } from 'lucide-react';
 import VocabExampleBlock from '../../components/learning/VocabExampleBlock';
 import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
+import VocabSectionTabs from '../../components/learning/VocabSectionTabs';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
@@ -173,18 +174,13 @@ export default function VocabularyPage() {
   return (
     <div className="space-y-5">
       <StickyHeader>
+        <VocabSectionTabs className="mb-3" />
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
           <div className="min-w-0 flex-1">
             <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Vocabulary</h2>
             <p className="mt-2 hidden text-sm text-slate-600 dark:text-slate-300 sm:block">
               Review key words and test recognition with a randomized quiz.
             </p>
-            <Link
-              to="/plan"
-              className="mt-1.5 inline-flex items-center gap-1 text-sm font-semibold text-brand-700 hover:underline dark:text-brand-100"
-            >
-              <CalendarCheck size={14} aria-hidden="true" /> TOPIK II 30-Day Plan · 1,000 words →
-            </Link>
           </div>
           <div className="grid grid-cols-[auto_1fr_1fr] items-center gap-2 sm:flex sm:flex-wrap">
             <Link

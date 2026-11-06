@@ -1,8 +1,6 @@
 import { useMemo, useState } from 'react';
-import { Link } from 'react-router-dom';
-import { Check, Headphones } from 'lucide-react';
-import Badge from '../../components/ui/Badge';
-import Card from '../../components/ui/Card';
+import { Headphones } from 'lucide-react';
+import PaperTestCard from '../../components/learning/PaperTestCard';
 import EmptyState from '../../components/ui/EmptyState';
 import LevelTabs from '../../components/ui/LevelTabs';
 import StickyHeader from '../../components/ui/StickyHeader';
@@ -36,52 +34,23 @@ export default function ListeningListPage() {
       </StickyHeader>
 
       {levelTests.length ? (
-        <div className="grid gap-4 md:grid-cols-2">
+        <div className="grid gap-3 md:grid-cols-2 sm:gap-4">
           {(() => {
             const examRound = (t) => parseInt(t.id.replace('listening-', ''), 10) || 0;
             return [...levelTests].sort((a, b) => examRound(b) - examRound(a));
           })().map((test) => {
             const done = isListeningCompleted(test.id);
-            const questionCount = test.questionCount;
             return (
-              <Link key={test.id} to={`/listening/${test.id}`}>
-                <Card className="h-full transition hover:-translate-y-0.5 hover:shadow-soft">
-                  <div className="flex items-start justify-between gap-2">
-                    <div className="flex flex-wrap gap-2">
-                      <Badge tone="blue">{test.level}</Badge>
-                      {test.topic && test.topic !== 'Official Listening Paper' ? <Badge>{test.topic}</Badge> : null}
-                      <Badge tone="slate">{questionCount} questions</Badge>
-                      {done ? <Badge tone="green">Completed</Badge> : null}
-                    </div>
-                    <button
-                      type="button"
-                      onClick={(event) => {
-                        event.preventDefault();
-                        event.stopPropagation();
-                        dispatch({
-                          type: done ? 'uncomplete-listening' : 'complete-listening',
-                          id: test.id
-                        });
-                      }}
-                      className={
-                        done
-                          ? 'inline-flex shrink-0 items-center gap-1 rounded-full bg-mint-100 px-2.5 py-1 text-[11px] font-semibold text-mint-700 transition hover:bg-mint-200 dark:bg-mint-500/15 dark:text-mint-100 dark:hover:bg-mint-500/25'
-                          : 'inline-flex shrink-0 items-center gap-1 rounded-full border border-slate-200 bg-white px-2.5 py-1 text-[11px] font-semibold text-slate-600 transition hover:border-mint-300 hover:text-mint-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-mint-500 dark:hover:text-mint-100'
-                      }
-                      aria-label={done ? 'Unmark done' : 'Mark done'}
-                    >
-                      <Check size={12} />
-                      {done ? 'Done' : 'Mark'}
-                    </button>
-                  </div>
-                  <h3 className="mt-4 text-xl font-bold text-slate-950 dark:text-white">{test.title}</h3>
-                  <p className="mt-3 text-sm leading-6 text-slate-600 dark:text-slate-300">
-                    {test.paperSrc
-                      ? `${test.durationMinutes} minutes with official PDF paper and audio.`
-                      : `${test.durationMinutes} minutes with local audio and instant answer review.`}
-                  </p>
-                </Card>
-              </Link>
+              <PaperTestCard
+                key={test.id}
+                to={`/listening/${test.id}`}
+                test={test}
+                icon={Headphones}
+                accent="violet"
+                kindLabel="Listening"
+                done={done}
+                onToggleDone={() => dispatch({ type: done ? 'uncomplete-listening' : 'complete-listening', id: test.id })}
+              />
             );
           })}
         </div>
