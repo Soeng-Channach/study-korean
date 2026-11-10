@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpenCheck, FileText, Headphones, Languages, Trophy } from 'lucide-react';
+import { ArrowRight, BookOpenCheck, FileText, Headphones, Languages, PenLine, Trophy } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { useLearning } from '../../context/LearningContext';
 import { mockTests } from '../../data/mockTests';
@@ -28,7 +28,8 @@ const testTypes = [
 
 const paperLinks = [
   { title: 'Reading papers', description: 'Past TOPIK reading tests', icon: FileText, path: '/reading', tone: 'bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100' },
-  { title: 'Listening papers', description: 'Past TOPIK listening tests with audio', icon: Headphones, path: '/listening', tone: 'bg-violet-50 text-violet-700 dark:bg-violet-500/15 dark:text-violet-200' }
+  { title: 'Listening papers', description: 'Past TOPIK listening tests with audio', icon: Headphones, path: '/listening', tone: 'bg-violet-50 text-violet-700 dark:bg-violet-500/15 dark:text-violet-200' },
+  { title: 'Writing practice', description: 'TOPIK II questions 51–54 with model answers', icon: PenLine, path: '/writing', tone: 'bg-emerald-50 text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-200' }
 ];
 
 export default function MockTestListPage() {
@@ -86,8 +87,8 @@ export default function MockTestListPage() {
       </div>
 
       <div>
-        <h3 className="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Past papers</h3>
-        <div className="mt-2 grid gap-3 sm:grid-cols-2">
+        <h3 className="text-sm font-bold uppercase tracking-wider text-slate-500 dark:text-slate-400">Past papers and writing</h3>
+        <div className="mt-2 grid gap-3 sm:grid-cols-2 xl:grid-cols-3">
           {paperLinks.map(({ title, description, icon: Icon, path, tone }) => (
             <Link
               key={path}

@@ -107,6 +107,7 @@ export default function LibraryPage() {
         </Card>
       ) : items.length === 0 ? (
         <EmptyState
+          icon={FileText}
           title="No PDFs yet"
           message="Upload a TOPIK past paper, an answer key, or any study PDF. It will appear here for offline practice."
         />

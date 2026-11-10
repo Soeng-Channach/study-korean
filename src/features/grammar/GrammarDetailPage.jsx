@@ -91,7 +91,7 @@ export default function GrammarDetailPage() {
             en={currentCoreMeaning}
             km={lesson.coreMeaningKm}
             className="mt-1 text-lg font-semibold text-slate-900 dark:text-white"
-            kmClassName="mt-0.5 text-base font-medium leading-7 text-slate-600 dark:text-slate-300"
+            kmClassName="mt-0.5 text-base font-medium leading-7 text-violet-700 dark:text-violet-300"
           />
           {edited ? (
             <button
@@ -108,7 +108,7 @@ export default function GrammarDetailPage() {
             en={lesson.explanation}
             km={lesson.explanationKm}
             className="leading-7 text-slate-700 dark:text-slate-300"
-            kmClassName="leading-7 text-slate-600 dark:text-slate-400"
+            kmClassName="leading-7 text-violet-700 dark:text-violet-300"
           />
         </div>
       </Card>
@@ -138,7 +138,7 @@ export default function GrammarDetailPage() {
                   en={example.english}
                   km={example.khmer}
                   className="text-sm text-slate-600 dark:text-slate-300"
-                  kmClassName="text-sm leading-6 text-slate-600 dark:text-slate-400"
+                  kmClassName="text-sm leading-6 text-violet-700 dark:text-violet-300"
                 />
               </div>
             </div>

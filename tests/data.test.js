@@ -11,6 +11,8 @@ import { listeningIndex, readingIndex } from '../src/data/testIndex.js';
 import { LEVELS, levelOf } from '../src/lib/levels.js';
 import { sharesSense } from '../src/lib/meaningOverlap.js';
 import { planDays, planWordCount } from '../src/data/thirtyDayPlan.js';
+import { countCharacters, politeEndings, writingSets } from '../src/data/writing.js';
+import { writingRules, writingSections } from '../src/data/writingGuide.js';
 import { getVocabularyExample } from '../src/lib/vocabularyExamples.js';
 
 function duplicates(ids) {
@@ -207,5 +209,56 @@ describe('30-day plan', () => {
     const ids = new Set(vocabulary.map((w) => w.id));
     const dangling = planDays.flatMap((d) => d.words).filter((w) => w.vocabId && !ids.has(w.vocabId));
     expect(dangling).toEqual([]);
+  });
+});
+
+describe('writing practice', () => {
+  it('has questions 51-54 in every set with unique ids', () => {
+    expect(new Set(writingSets.map((set) => set.id)).size).toBe(writingSets.length);
+    for (const set of writingSets) {
+      expect(set.questions.map((q) => q.number)).toEqual([51, 52, 53, 54]);
+    }
+  });
+
+  it('marks both blanks in the passage and gives model answers with tips', () => {
+    const broken = [];
+    for (const set of writingSets) {
+      for (const q of set.questions.filter((item) => item.type === 'blank')) {
+        expect(q.blanks.map((blank) => blank.key)).toEqual(['㉠', '㉡']);
+        for (const blank of q.blanks) {
+          const ok =
+            q.passage.includes(`( ${blank.key} )`) &&
+            blank.answers.length > 0 &&
+            blank.tip &&
+            /[\u1780-\u17FF]/.test(blank.tipKm || '');
+          if (!ok) broken.push(`${set.id} Q${q.number} ${blank.key}`);
+        }
+      }
+    }
+    expect(broken).toEqual([]);
+  });
+
+  it('keeps model answers inside the required length and in the written style', () => {
+    const broken = [];
+    for (const set of writingSets) {
+      for (const q of set.questions.filter((item) => item.model)) {
+        const count = countCharacters(q.model);
+        if (count < q.min || count > q.max) broken.push(`${set.id} Q${q.number} length ${count}`);
+        if (politeEndings(q.model).length) broken.push(`${set.id} Q${q.number} style ${politeEndings(q.model)}`);
+      }
+    }
+    expect(broken).toEqual([]);
+  });
+
+  it('tells polite endings from plain ones', () => {
+    expect(politeEndings('저는 학생입니다. 밥을 먹어요. 이것은 사실이 아니다. 증가하였다.')).toEqual(['학생입니다', '먹어요']);
+  });
+
+  it('has Khmer for every guide rule, step and expression', () => {
+    const items = [
+      ...writingRules,
+      ...writingSections.flatMap((section) => [section.summary, ...section.steps, ...section.expressions])
+    ];
+    expect(items.filter((item) => !item.en || !/[\u1780-\u17FF]/.test(item.km || ''))).toEqual([]);
   });
 });

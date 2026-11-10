@@ -11,7 +11,7 @@ export default function VocabExampleBlock({ word, compact = false }) {
   const showKhmer = meaningLanguage !== 'en' && khmer;
 
   return (
-    <div className="mt-3 rounded-lg border border-slate-200 bg-slate-50 px-3 py-2.5 dark:border-slate-800 dark:bg-slate-800/60">
+    <div className="mt-3 rounded-xl bg-slate-50 px-3.5 py-3 dark:bg-slate-800/60">
       <div className="mb-2 flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
         <BookOpenText size={13} aria-hidden="true" /> Example
       </div>
@@ -29,7 +29,7 @@ export default function VocabExampleBlock({ word, compact = false }) {
           </div>
         ) : null}
         {showKhmer ? (
-          <p lang="km" className={`text-xs leading-6 text-slate-600 dark:text-slate-300 sm:text-sm ${showEnglish ? 'mt-1' : ''}`}>
+          <p lang="km" className={`text-xs leading-6 text-violet-700 dark:text-violet-300 sm:text-sm ${showEnglish ? 'mt-1' : ''}`}>
             {khmer}
           </p>
         ) : null}

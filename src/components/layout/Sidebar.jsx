@@ -9,6 +9,7 @@ import {
   Languages,
   LayoutDashboard,
   Newspaper,
+  PenLine,
   Settings,
   Star
 } from 'lucide-react';
@@ -26,6 +27,7 @@ const iconMap = {
   Languages,
   LayoutDashboard,
   Newspaper,
+  PenLine,
   Settings,
   Star
 };

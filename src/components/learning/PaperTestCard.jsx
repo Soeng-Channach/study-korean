@@ -9,6 +9,11 @@ const ACCENTS = {
     hover: 'hover:ring-brand-200 dark:hover:ring-brand-500/40',
     start: 'text-brand-700 dark:text-brand-100'
   },
+  emerald: {
+    tile: 'from-emerald-500 to-teal-600 shadow-emerald-500/30',
+    hover: 'hover:ring-emerald-200 dark:hover:ring-emerald-500/40',
+    start: 'text-emerald-700 dark:text-emerald-200'
+  },
   violet: {
     tile: 'from-violet-500 to-fuchsia-500 shadow-violet-500/30',
     hover: 'hover:ring-violet-200 dark:hover:ring-violet-500/40',
@@ -78,13 +83,13 @@ export default function PaperTestCard({ test, to, id, icon: Icon, accent = 'bran
           onToggleDone();
         }}
         className={clsx(
-          'flex h-8 w-8 shrink-0 items-center justify-center self-start rounded-full transition duration-200',
+          'flex h-5 w-5 shrink-0 items-center justify-center self-start rounded-full transition duration-200',
           done
             ? 'bg-gradient-to-br from-emerald-500 to-mint-500 text-white shadow-md shadow-emerald-500/30'
-            : 'border-2 border-slate-200 text-transparent hover:border-emerald-500 hover:bg-emerald-50 hover:text-emerald-500 dark:border-slate-700 dark:hover:bg-emerald-500/10'
+            : 'border-[1.5px] border-slate-300 text-transparent hover:border-emerald-500 hover:bg-emerald-50 hover:text-emerald-500 dark:border-slate-700 dark:hover:bg-emerald-500/10'
         )}
       >
-        <Check size={15} strokeWidth={3} aria-hidden="true" />
+        <Check size={11} strokeWidth={3} aria-hidden="true" />
       </button>
     </Link>
   );

@@ -17,25 +17,26 @@ export default function VocabMeaningRow({ word }) {
 
   if (showingKhmer) {
     return (
-      <span lang="km" className="font-semibold leading-7 text-coral-700 dark:text-coral-100">
-        — {shownMeaning}
+      <span lang="km" className="font-semibold leading-7 text-violet-700 dark:text-violet-300">
+        {shownMeaning}
       </span>
     );
   }
 
   return (
-    <span className="inline-flex flex-wrap items-center gap-x-1 font-semibold text-coral-700 dark:text-coral-100">
-      <span>— {currentMeaning}</span>
+    <span className="inline-flex flex-wrap items-center gap-x-1 font-semibold text-slate-800 dark:text-slate-100">
+      <span>{currentMeaning}</span>
       <SpeakButton
         text={currentMeaning}
         lang="en-US"
         size={16}
-        className="inline-flex items-center justify-center rounded-full p-1 text-coral-600 transition hover:bg-coral-100 hover:text-slate-900 active:scale-95 active:text-slate-900 dark:text-coral-100 dark:hover:bg-coral-500/15 dark:hover:text-white dark:active:text-white"
+        className="inline-flex items-center justify-center rounded-full p-1 text-slate-400 transition hover:bg-slate-100 hover:text-slate-900 active:scale-95 dark:text-slate-500 dark:hover:bg-slate-800 dark:hover:text-white"
         label={`Play English meaning ${currentMeaning}`}
       />
       {khmerLine ? (
-        <span lang="km" className="font-medium text-slate-600 dark:text-slate-300">
-          · {khmerLine}
+        <span lang="km" className="font-medium text-violet-700 dark:text-violet-300">
+          <span className="text-slate-300 dark:text-slate-600" aria-hidden="true">· </span>
+          {khmerLine}
         </span>
       ) : null}
       {edited ? (

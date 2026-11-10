@@ -11,6 +11,7 @@ export const ACTIVITY_POINTS = {
   'complete-listening': 10,
   'record-test-attempt': 10,
   'complete-plan-day': 10,
+  'complete-writing': 10,
   'record-plan-quiz': 5
 };
 

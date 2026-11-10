@@ -27,6 +27,9 @@ const ProgressPage = lazy(() => import('../features/progress/ProgressPage.jsx'))
 const ReadingDetailPage = lazy(() => import('../features/reading/ReadingDetailPage.jsx'));
 const ReadingListPage = lazy(() => import('../features/reading/ReadingListPage.jsx'));
 const SettingsPage = lazy(() => import('../features/settings/SettingsPage.jsx'));
+const WritingGuidePage = lazy(() => import('../features/writing/WritingGuidePage.jsx'));
+const WritingListPage = lazy(() => import('../features/writing/WritingListPage.jsx'));
+const WritingPracticePage = lazy(() => import('../features/writing/WritingPracticePage.jsx'));
 const VocabularyPage = lazy(() => import('../features/vocabulary/VocabularyPage.jsx'));
 const VocabularyQuizPage = lazy(() => import('../features/vocabulary/VocabularyQuizPage.jsx'));
 
@@ -50,6 +53,9 @@ export default function App() {
           <Route path="listening/:id" element={<ListeningDetailPage />} />
           <Route path="vocabulary" element={<VocabularyPage />} />
           <Route path="vocabulary/quiz" element={<VocabularyQuizPage />} />
+          <Route path="writing" element={<WritingListPage />} />
+          <Route path="writing/guide" element={<WritingGuidePage />} />
+          <Route path="writing/:id" element={<WritingPracticePage />} />
           <Route path="plan" element={<PlanOverviewPage />} />
           <Route path="plan/:day" element={<PlanDayPage />} />
           <Route path="mock-tests" element={<MockTestListPage />} />

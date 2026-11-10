@@ -23,7 +23,10 @@ const initialState = {
   // 30-Day vocabulary plan
   knownPlanWordIds: [],
   completedPlanDays: [],
-  planQuizBest: {}
+  planQuizBest: {},
+  // TOPIK II writing practice: drafts keyed by `${setId}:${field}`
+  writingDrafts: {},
+  completedWritingIds: []
 };
 
 function normalizeLearningState(state, payload = {}) {
@@ -173,6 +176,24 @@ function baseReducer(state, action) {
       if (previous && previous.correct >= action.correct) return state;
       return { ...state, planQuizBest: { ...best, [action.day]: { correct: action.correct, total: action.total } } };
     }
+    case 'save-writing-draft': {
+      const drafts = { ...(state.writingDrafts || {}) };
+      if (action.text) drafts[action.key] = action.text;
+      else delete drafts[action.key];
+      return { ...state, writingDrafts: drafts };
+    }
+    case 'clear-writing-drafts': {
+      const drafts = Object.fromEntries(
+        Object.entries(state.writingDrafts || {}).filter(([key]) => !key.startsWith(`${action.id}:`))
+      );
+      return { ...state, writingDrafts: drafts };
+    }
+    case 'complete-writing': {
+      const ids = state.completedWritingIds || [];
+      return ids.includes(action.id) ? state : { ...state, completedWritingIds: [...ids, action.id] };
+    }
+    case 'uncomplete-writing':
+      return { ...state, completedWritingIds: (state.completedWritingIds || []).filter((id) => id !== action.id) };
     case 'reset-progress':
       return initialState;
     default:
@@ -184,7 +205,8 @@ const COMPLETION_LISTS = {
   'complete-grammar': 'completedGrammarIds',
   'complete-reading': 'completedReadingIds',
   'complete-listening': 'completedListeningIds',
-  'complete-plan-day': 'completedPlanDays'
+  'complete-plan-day': 'completedPlanDays',
+  'complete-writing': 'completedWritingIds'
 };
 
 // Wraps the base reducer to log study points per day for streaks and the
@@ -236,7 +258,8 @@ export function LearningProvider({ children }) {
       isVocabMeaningEdited: (id) => Boolean((state.vocabMeaningOverrides || {})[id]),
       getVocabReviewStatus: (word) => getVocabReview(word, state.vocabularyStats),
       isPlanWordKnown: (id) => (state.knownPlanWordIds || []).includes(id),
-      isPlanDayCompleted: (day) => (state.completedPlanDays || []).includes(day)
+      isPlanDayCompleted: (day) => (state.completedPlanDays || []).includes(day),
+      isWritingCompleted: (id) => (state.completedWritingIds || []).includes(id)
     };
   }, [isHydrated, state]);
 
