@@ -55,12 +55,12 @@ export const writingSections = [
     ],
     expressions: [
       { ko: '왜냐하면 … -기 때문이다', en: 'because … (the reason sentence must end this way)', km: 'ពីព្រោះ … (ប្រយោគមូលហេតុត្រូវបញ្ចប់បែបនេះ)' },
-      { ko: '항상/무조건 … -는 것은 아니다', en: 'it is not always the case that …', km: 'មិនមែនជានិច្ចទេដែល …' },
+      { ko: '항상/무조건 … -는 것은 아니다', en: 'it is not always the case that …', km: 'មិនមែនតែងតែ … ទេ' },
       { ko: '-(으)려면 … -아/어야 하다', en: 'in order to …, you must …', km: 'ដើម្បី … ត្រូវតែ …' },
       { ko: '만약 … -(으)면', en: 'if …', km: 'ប្រសិនបើ …' },
       { ko: '-(으)ㄴ 적이 있다/없다', en: 'have / have never done', km: 'ធ្លាប់ / មិនធ្លាប់ធ្វើ' },
       { ko: '-았/었으면 좋겠습니다', en: 'I hope / I wish …', km: 'ខ្ញុំសង្ឃឹមថា …' },
-      { ko: '-다고 합니다 / (이)라고 합니다', en: 'they say that … (reported speech)', km: 'គេនិយាយថា … (ការនិយាយប្រយោល)' },
+      { ko: '-다고 합니다 / (이)라고 합니다', en: 'they say that … (reported speech)', km: 'គេនិយាយថា … (ប្រាប់បន្តពាក្យអ្នកដទៃ)' },
       { ko: '-지 않도록 주의하다', en: 'be careful not to …', km: 'ប្រុងប្រយ័ត្នកុំឱ្យ …' },
       { ko: '-게 하다 / -도록 하다', en: 'make / let someone do', km: 'ធ្វើឱ្យ / អនុញ្ញាតឱ្យនរណាម្នាក់ធ្វើ' },
       { ko: '어떻게 -아/어야 합니까?', en: 'how should I …?', km: 'តើខ្ញុំគួរ … យ៉ាងដូចម្តេច?' }
@@ -71,12 +71,12 @@ export const writingSections = [
     title: 'Question 53 · Describe the chart (200–300)',
     summary: {
       en: 'Report every number and fact in the chart in order. Do not give your own opinion. Four parts are enough.',
-      km: 'រាយការណ៍គ្រប់លេខ និងព័ត៌មានក្នុងតារាងតាមលំដាប់។ កុំបញ្ចេញមតិផ្ទាល់ខ្លួន។ បួនផ្នែកគឺគ្រប់គ្រាន់។'
+      km: 'សរសេរគ្រប់លេខ និងព័ត៌មានក្នុងក្រាហ្វ តាមលំដាប់។ កុំសរសេរគំនិតផ្ទាល់ខ្លួន។ សរសេរបួនផ្នែកគឺគ្រប់គ្រាន់។'
     },
     steps: [
       { en: '1. Who surveyed what: one sentence.', km: '១. នរណាស្ទង់មតិអំពីអ្វី៖ មួយប្រយោគ។' },
       { en: '2. The main change, with years and numbers.', km: '២. ការផ្លាស់ប្តូរសំខាន់ ជាមួយឆ្នាំ និងលេខ។' },
-      { en: '3. The second chart or comparison.', km: '៣. តារាងទីពីរ ឬការប្រៀបធៀប។' },
+      { en: '3. The second chart or comparison.', km: '៣. ក្រាហ្វទីពីរ ឬការប្រៀបធៀប។' },
       { en: '4. Causes, then the forecast if one is given.', km: '៤. មូលហេតុ បន្ទាប់មកការព្យាករណ៍ បើមាន។' }
     ],
     expressions: [
@@ -97,7 +97,7 @@ export const writingSections = [
     title: 'Question 54 · Opinion essay (600–700)',
     summary: {
       en: 'Answer all the guiding questions, usually three, in order. One paragraph for each question is a safe plan.',
-      km: 'ឆ្លើយគ្រប់សំណួរណែនាំ ជាធម្មតាមានបី តាមលំដាប់។ មួយកថាខណ្ឌសម្រាប់សំណួរនីមួយៗជាផែនការដែលមានសុវត្ថិភាព។'
+      km: 'ឆ្លើយគ្រប់សំណួរណែនាំ ជាធម្មតាមានបី តាមលំដាប់។ សរសេរមួយកថាខណ្ឌសម្រាប់សំណួរមួយ ជាវិធីដែលមិនងាយខុស។'
     },
     steps: [
       { en: 'Paragraph 1 (about 200): introduce the topic in one sentence, then answer question 1.', km: 'កថាខណ្ឌ ១ (ប្រហែល ២០០)៖ ណែនាំប្រធានបទក្នុងមួយប្រយោគ បន្ទាប់មកឆ្លើយសំណួរ ១។' },
@@ -115,7 +115,7 @@ export const writingSections = [
       { ko: '게다가 / 나아가 / 아울러', en: 'moreover / furthermore / in addition', km: 'លើសពីនេះ / បន្ថែមលើនេះ' },
       { ko: '그 결과 / 이로 인해', en: 'as a result / because of this', km: 'ជាលទ្ធផល / ដោយសារហេតុនេះ' },
       { ko: '…(으)ㄹ 수 있다 / …기 쉽다', en: 'can … / is likely to …', km: 'អាច … / ងាយនឹង …' },
-      { ko: '…는 경향이 있다', en: 'tend to …', km: 'មាននិន្នាការ …' },
+      { ko: '…는 경향이 있다', en: 'tend to …', km: 'ច្រើនតែ … / ទំនងទៅរក …' },
       { ko: '이러한 문제를 해결하기 위해서는 …아/어야 한다', en: 'to solve this problem, we must …', km: 'ដើម្បីដោះស្រាយបញ្ហានេះ យើងត្រូវ …' },
       { ko: '…(으)ㄹ 필요가 있다', en: 'it is necessary to …', km: 'ចាំបាច់ត្រូវ …' },
       { ko: '나는 …에 찬성한다 / 반대한다', en: 'I agree / disagree with …', km: 'ខ្ញុំយល់ស្រប / មិនយល់ស្របនឹង …' },
@@ -164,7 +164,7 @@ export const q53Form = [
     when: 'outlook',
     label: '전망 · 해결',
     en: 'Outlook or solution: finish with the forecast, plan or solution from the chart. No opinion of your own.',
-    km: 'ទស្សនវិស័យ ឬដំណោះស្រាយ៖ បញ្ចប់ដោយការព្យាករណ៍ ផែនការ ឬដំណោះស្រាយពីក្រាហ្វ។ កុំសរសេរមតិផ្ទាល់ខ្លួន។',
+    km: 'អនាគត ឬដំណោះស្រាយ៖ បញ្ចប់ដោយការព្យាករណ៍ ផែនការ ឬដំណោះស្រាយពីក្រាហ្វ។ កុំសរសេរមតិផ្ទាល់ខ្លួន។',
     frame: '앞으로 ___(으)ㄹ 것으로 전망된다. / 이러한 문제를 해결하기 위해서는 ___아/어야 한다.'
   }
 ];

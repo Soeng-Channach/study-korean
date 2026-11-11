@@ -19,6 +19,7 @@ import {
 import Bilingual from '../../components/ui/Bilingual';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
+import { QuestionHeader } from '../../components/learning/PaperQuestion';
 import { useConfirm } from '../../components/ui/ConfirmDialog';
 import { useLearning } from '../../context/LearningContext';
 import { countCharacters, politeEndings, WRITING_MINUTES, writingSets } from '../../data/writing';
@@ -486,16 +487,17 @@ export default function WritingPracticePage() {
   return (
     <article className="mx-auto max-w-3xl space-y-4">
       {/* Sticky bar: back, title, timer, question tabs */}
-      <div className="sticky -top-4 z-40 -mx-3 -mt-4 border-b border-slate-200 bg-white/95 px-3 pb-2 pt-2 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95 sm:-top-5 sm:-mx-6 sm:-mt-5 sm:px-6 lg:mx-0 lg:mt-0 lg:rounded-b-lg lg:border-x lg:px-4">
+      <div className="sticky -top-4 z-40 -mx-3 -mt-4 border-b border-slate-200 bg-white/95 px-3 pb-2.5 pt-2.5 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95 sm:-top-5 sm:-mx-6 sm:-mt-5 sm:px-6 lg:mx-0 lg:mt-0 lg:rounded-2xl lg:border lg:px-4 lg:shadow-card">
         <div className="flex items-center gap-2">
           <Link
             to="/writing"
             aria-label="Back to writing"
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-emerald-600 text-white shadow-sm transition hover:bg-emerald-700"
+            className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-slate-500 transition hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white"
           >
             <ArrowLeft size={16} aria-hidden="true" />
           </Link>
-          <p className="min-w-0 flex-1 truncate text-sm font-bold text-slate-950 dark:text-white">{set.title}</p>
+          <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-emerald-500 ring-4 ring-emerald-100 dark:ring-emerald-500/25" aria-hidden="true" />
+          <p className="min-w-0 flex-1 truncate pl-1 text-sm font-bold text-slate-950 dark:text-white">{set.title}</p>
           <button
             type="button"
             onClick={() => {
@@ -503,7 +505,7 @@ export default function WritingPracticePage() {
               setRunning((value) => (timeUp ? true : !value));
             }}
             aria-label={timeUp ? 'Restart timer' : running ? 'Pause timer' : 'Start timer'}
-            className={`inline-flex shrink-0 items-center gap-1.5 rounded-full border px-2.5 py-1 transition ${
+            className={`inline-flex shrink-0 items-center gap-1.5 rounded-xl border px-2.5 py-1.5 transition ${
               timeUp
                 ? 'border-coral-500 bg-coral-50 text-coral-700 dark:bg-coral-500/20 dark:text-white'
                 : running
@@ -513,10 +515,10 @@ export default function WritingPracticePage() {
           >
             {timeUp ? <RotateCcw size={13} aria-hidden="true" /> : running ? <Pause size={13} aria-hidden="true" /> : <Play size={13} aria-hidden="true" />}
             <Clock size={13} aria-hidden="true" />
-            <span className="font-mono text-sm font-black tabular-nums leading-none">{formatTime(seconds)}</span>
+            <span className="text-sm font-black tabular-nums leading-none">{formatTime(seconds)}</span>
           </button>
         </div>
-        <div className="mt-2 grid grid-cols-4 gap-1 rounded-lg bg-slate-100 p-1 dark:bg-slate-800" role="tablist" aria-label="Questions">
+        <div className="mt-2.5 grid grid-cols-4 gap-1 rounded-xl bg-slate-100 p-1 dark:bg-slate-800" role="tablist" aria-label="Questions">
           {set.questions.map((item, index) => (
             <button
               key={item.number}
@@ -524,7 +526,7 @@ export default function WritingPracticePage() {
               role="tab"
               aria-selected={active === index}
               onClick={() => setActive(index)}
-              className={`relative rounded-md py-1.5 text-sm font-bold transition ${
+              className={`relative rounded-lg py-1.5 text-sm font-bold transition ${
                 active === index
                   ? 'bg-white text-emerald-700 shadow-sm dark:bg-slate-950 dark:text-emerald-300'
                   : 'text-slate-600 hover:text-slate-950 dark:text-slate-300 dark:hover:text-white'
@@ -547,12 +549,12 @@ export default function WritingPracticePage() {
       ) : null}
 
       <Card>
-        <div className="rounded-md bg-slate-200 px-3.5 py-2.5 text-sm font-bold leading-6 text-slate-950 dark:bg-slate-700 dark:text-white sm:px-5 sm:py-3.5 sm:text-base sm:leading-7">
-          {question.number}. {question.instruction}
-        </div>
+        <QuestionHeader number={question.number} points={question.points}>
+          {String(question.instruction || '').replace(/\s*\((각\s*)?\d+\s*점\)\s*$/, '')}
+        </QuestionHeader>
 
         {question.type === 'blank' ? (
-          <div className="mt-3 rounded-xl bg-slate-50 px-3.5 py-3 text-base leading-8 text-slate-950 ring-1 ring-slate-200 dark:bg-slate-800/60 dark:text-slate-100 dark:ring-slate-700 sm:px-5 sm:py-4 sm:text-lg">
+          <div className="mt-3.5 rounded-xl bg-brand-50/60 px-4 py-3.5 text-[17px] leading-8 text-slate-950 ring-1 ring-brand-100 dark:bg-slate-800/70 dark:text-slate-100 dark:ring-slate-700 sm:px-5 sm:py-4">
             {question.title ? <p className="mb-1 text-center font-bold">{question.title}</p> : null}
             <PassageWithBlanks text={question.passage} />
           </div>

@@ -71,15 +71,15 @@ function WordRow({ word, index, known, onToggle, language, showExamples }) {
         <div className="min-w-0 flex-1">
           {/* Korean, English and Khmer on one line (wraps only when it must) */}
           <p className="flex flex-wrap items-center gap-x-1.5 leading-7">
-            <span className="text-lg font-bold text-slate-950 dark:text-white">{word.word}</span>
+            <span className="text-base font-bold text-slate-950 dark:text-white">{word.word}</span>
             <SpeakButton text={word.word} size={14} label={`Play ${word.word}`} />
             <span className="text-slate-300 dark:text-slate-600" aria-hidden="true">—</span>
             {language !== 'km' ? (
-              <span lang="en" className="text-sm font-semibold text-slate-700 dark:text-slate-200">{word.meaning}</span>
+              <span lang="en" className="text-base font-semibold text-slate-800 dark:text-slate-100">{word.meaning}</span>
             ) : null}
             {language === 'both' ? <span className="text-slate-300 dark:text-slate-600" aria-hidden="true">·</span> : null}
             {language !== 'en' ? (
-              <span lang="km" className="text-sm font-medium text-violet-700 dark:text-violet-300">{word.meaningKm}</span>
+              <span lang="km" className="text-base font-medium text-violet-700 dark:text-violet-300">{word.meaningKm}</span>
             ) : null}
           </p>
           {word.example ? (

@@ -1,10 +1,8 @@
-import { CheckCircle2, RotateCcw, Star } from 'lucide-react';
+import { ArrowLeft, Check, RotateCcw, Star } from 'lucide-react';
 import { useEffect } from 'react';
-import { useParams, useSearchParams } from 'react-router-dom';
+import { Link, useParams, useSearchParams } from 'react-router-dom';
 import UsageGuide from '../../components/learning/UsageGuide';
-import BackLink from '../../components/ui/BackLink';
 import Badge from '../../components/ui/Badge';
-import Button from '../../components/ui/Button';
 import Bilingual from '../../components/ui/Bilingual';
 import Card from '../../components/ui/Card';
 import EmptyState from '../../components/ui/EmptyState';
@@ -58,31 +56,45 @@ export default function GrammarDetailPage() {
   }
 
   return (
-    <article className="mx-auto max-w-3xl space-y-5 pb-[calc(7rem+max(env(safe-area-inset-bottom),0.5rem))] lg:pb-0">
-      <BackLink to={backToGrammar}>Back to grammar</BackLink>
+    <article className="mx-auto max-w-3xl space-y-4 sm:space-y-5">
+      {/* Slim sticky bar: back, save and mark-complete */}
+      <div className="sticky -top-4 z-40 -mx-3 -mt-4 flex items-center gap-2 border-b border-slate-200 bg-white/95 px-3 py-2 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95 sm:-top-5 sm:-mx-6 sm:-mt-5 sm:px-6 lg:mx-0 lg:mt-0 lg:rounded-2xl lg:border lg:px-4 lg:shadow-card">
+        <Link
+          to={backToGrammar}
+          className="inline-flex shrink-0 items-center gap-1.5 rounded-full py-1 pl-1.5 pr-3 text-sm font-semibold text-slate-600 transition hover:bg-slate-100 hover:text-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-white"
+        >
+          <ArrowLeft size={16} aria-hidden="true" /> Back
+        </Link>
+        <span className="flex-1" />
+        <button
+          type="button"
+          onClick={() => dispatch({ type: 'toggle-bookmark', id: lesson.id })}
+          aria-label={bookmarked ? 'Remove bookmark' : 'Save grammar lesson'}
+          title={bookmarked ? 'Remove bookmark' : 'Save grammar lesson'}
+          className={`flex h-8 w-8 shrink-0 items-center justify-center rounded-full transition hover:bg-slate-100 dark:hover:bg-slate-800 ${bookmarked ? 'text-amber-500' : 'text-slate-400 hover:text-slate-700 dark:text-slate-500 dark:hover:text-slate-200'}`}
+        >
+          <Star size={17} fill={bookmarked ? 'currentColor' : 'none'} />
+        </button>
+        <button
+          type="button"
+          disabled={completed}
+          onClick={() => dispatch({ type: 'complete-grammar', id: lesson.id })}
+          className={
+            completed
+              ? 'inline-flex shrink-0 items-center gap-1.5 rounded-full bg-mint-100 px-3 py-1.5 text-xs font-semibold text-mint-700 dark:bg-mint-500/15 dark:text-mint-100'
+              : 'inline-flex shrink-0 items-center gap-1.5 rounded-full bg-brand-600 px-3 py-1.5 text-xs font-semibold text-white shadow-sm transition hover:bg-brand-700'
+          }
+        >
+          <Check size={14} strokeWidth={3} aria-hidden="true" /> {completed ? 'Completed' : 'Mark complete'}
+        </button>
+      </div>
       <Card>
-        <div className="flex items-start justify-between gap-2">
-          <div className="flex flex-wrap gap-2">
-            <Badge tone="blue">{grammarGroup.label}</Badge>
-            <Badge>{lesson.category}</Badge>
-            <Badge>{lesson.level}</Badge>
-            {completed ? <Badge tone="green">Completed</Badge> : null}
-          </div>
-          <button
-            type="button"
-            onClick={() => dispatch({ type: 'toggle-bookmark', id: lesson.id })}
-            aria-label={bookmarked ? 'Remove bookmark' : 'Save grammar lesson'}
-            title={bookmarked ? 'Remove bookmark' : 'Save grammar lesson'}
-            className={
-              bookmarked
-                ? 'inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-brand-600 text-white shadow-sm ring-1 ring-brand-600 transition hover:bg-brand-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:focus-visible:ring-offset-slate-900'
-                : 'inline-flex h-9 w-9 shrink-0 items-center justify-center rounded-full bg-white text-slate-600 ring-1 ring-slate-200 transition hover:bg-slate-50 hover:text-brand-600 focus:outline-none focus-visible:ring-2 focus-visible:ring-brand-500 focus-visible:ring-offset-2 dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700 dark:hover:bg-slate-800 dark:focus-visible:ring-offset-slate-900'
-            }
-          >
-            <Star size={16} fill={bookmarked ? 'currentColor' : 'none'} />
-          </button>
+        <div className="flex flex-wrap gap-2">
+          <Badge tone="blue">{grammarGroup.label}</Badge>
+          <Badge>{lesson.category}</Badge>
+          <Badge>{lesson.level}</Badge>
         </div>
-        <h2 className="mt-4 text-3xl font-bold text-slate-950 dark:text-white">{lesson.pattern}</h2>
+        <h2 className="mt-3 text-2xl font-bold text-slate-950 dark:text-white">{lesson.pattern}</h2>
         <div className="mt-3 rounded-lg bg-slate-50 px-4 py-3 dark:bg-slate-800">
           <p className="text-xs font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
             Core meaning {edited ? <span className="text-coral-600 dark:text-coral-100">(edited)</span> : null}
@@ -155,18 +167,6 @@ export default function GrammarDetailPage() {
         </div>
       </Card>
 
-      <div className="fixed inset-x-0 bottom-[calc(3.5rem+max(env(safe-area-inset-bottom),0.5rem))] z-30 border-t border-slate-200 bg-white px-4 py-3 shadow-[0_-12px_28px_rgba(15,23,42,0.10)] dark:border-slate-800 dark:bg-slate-900 lg:sticky lg:-bottom-10 lg:mx-0 lg:rounded-lg lg:border lg:bg-white lg:p-4 lg:shadow-soft lg:dark:bg-slate-900">
-        <div className="mx-auto max-w-3xl">
-          <Button
-            className="w-full"
-            icon={CheckCircle2}
-            disabled={completed}
-            onClick={() => dispatch({ type: 'complete-grammar', id: lesson.id })}
-          >
-            {completed ? 'Lesson completed' : 'Mark as complete'}
-          </Button>
-        </div>
-      </div>
     </article>
   );
 }
