@@ -452,12 +452,12 @@ export default function VocabularyPage() {
                   </button>
                 </div>
                 <div className="mt-3 rounded-xl bg-gradient-to-br from-brand-50 via-white to-indigo-50/80 p-3 ring-1 ring-brand-100 dark:from-brand-500/10 dark:via-slate-900 dark:to-indigo-500/10 dark:ring-brand-500/20 sm:p-4">
-                  <div className="flex flex-wrap items-center gap-x-2.5 gap-y-1">
-                    <h3 className="text-2xl font-black tracking-tight text-slate-950 dark:text-white">{word.word}</h3>
+                  <div className="flex flex-wrap items-center gap-x-1 gap-y-1">
+                    <h3 className="text-base font-bold text-slate-950 dark:text-white">{word.word}</h3>
                     <SpeakButton
                       text={word.word}
                       size={16}
-                      className="inline-flex items-center justify-center rounded-full bg-white p-1.5 text-brand-600 shadow-sm ring-1 ring-brand-100 transition hover:bg-brand-600 hover:text-white active:scale-95 dark:bg-slate-800 dark:text-brand-100 dark:ring-brand-500/30"
+                      className="inline-flex items-center justify-center rounded-full p-1 text-slate-400 transition hover:bg-slate-100 hover:text-slate-900 active:scale-95 dark:text-slate-500 dark:hover:bg-slate-800 dark:hover:text-white"
                       label={`Play pronunciation of ${word.word}`}
                     />
                     <VocabMeaningRow word={word} />
