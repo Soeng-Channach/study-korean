@@ -1,4 +1,5 @@
 import { levelOf } from './levels';
+import { getVocabularyExample } from './vocabularyExamples';
 
 // Metadata for each searchable content type. `label` is shown as the result
 // chip; the icon is mapped to a lucide component in the GlobalSearch UI.
@@ -7,7 +8,9 @@ export const SEARCH_TYPES = {
   grammar: { label: 'Grammar', icon: 'BookOpen' },
   reading: { label: 'Reading', icon: 'Newspaper' },
   listening: { label: 'Listening', icon: 'Headphones' },
-  test: { label: 'Test', icon: 'ClipboardCheck' }
+  test: { label: 'Test', icon: 'ClipboardCheck' },
+  writing: { label: 'Writing', icon: 'PenLine' },
+  plan: { label: '30-Day Plan', icon: 'CalendarCheck' }
 };
 
 function norm(value) {
@@ -26,19 +29,22 @@ let index = null;
 let indexPromise = null;
 
 async function buildIndex() {
-  const [{ grammarLessons }, { listeningTests }, { mockTests }, { readings }, { vocabulary }] =
+  const [{ grammarLessons }, { listeningTests }, { mockTests }, { readings }, { vocabulary }, { writingSets }, { planDays }] =
     await Promise.all([
       import('../data/grammar'),
       import('../data/listening'),
       import('../data/mockTests'),
       import('../data/reading'),
-      import('../data/vocabulary')
+      import('../data/vocabulary'),
+      import('../data/writing'),
+      import('../data/thirtyDayPlan')
     ]);
 
   const items = [];
 
   vocabulary.forEach((word) => {
     const level = levelOf(word);
+    const example = getVocabularyExample(word);
     items.push({
       id: word.id,
       type: 'vocab',
@@ -54,8 +60,8 @@ async function buildIndex() {
         word.hanja,
         word.meaning,
         word.meaningKm,
-        word.example,
-        word.exampleMeaning,
+        example.example,
+        example.exampleMeaning,
         (word.tags || []).join(' ')
       ])
     });
@@ -117,6 +123,41 @@ async function buildIndex() {
     });
   });
 
+  writingSets.forEach((set) => {
+    const chart = set.questions.find((question) => question.type === 'chart');
+    const essay = set.questions.find((question) => question.type === 'essay');
+    items.push({
+      id: set.id,
+      type: 'writing',
+      level: 'TOPIK II',
+      title: set.title,
+      subtitle: [chart?.chart.title, essay?.topic].filter(Boolean).join(' · '),
+      to: `/writing/${set.id}`,
+      haystack: joinHaystack([
+        set.title,
+        `${set.round}회`,
+        ...set.questions.flatMap((question) => [question.title, question.passage, question.prompt, question.topic, question.intro])
+      ])
+    });
+  });
+
+  planDays.forEach((day) => {
+    day.words.forEach((word) => {
+      items.push({
+        id: word.id,
+        type: 'plan',
+        level: 'TOPIK II',
+        title: word.word,
+        subtitle: word.meaningKm ? `${word.meaning} · ${word.meaningKm}` : word.meaning,
+        tag: `Day ${day.day}`,
+        to: `/plan/${day.day}`,
+        // The same word is usually in the word list too; rank that one first.
+        penalty: 5,
+        haystack: joinHaystack([word.word, word.meaning, word.meaningKm, word.example, word.exampleMeaning])
+      });
+    });
+  });
+
   return items;
 }
 
@@ -148,7 +189,7 @@ function scoreItem(item, query, terms) {
   if (norm(item.subtitle).includes(query)) score += 15;
   // Shorter titles are usually the more specific/relevant match.
   score += Math.max(0, 12 - title.length) * 0.1;
-  return score;
+  return Math.max(score - (item.penalty || 0), 0.5);
 }
 
 export function searchAll(rawQuery, limit = 12) {

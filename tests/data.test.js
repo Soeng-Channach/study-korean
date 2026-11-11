@@ -80,6 +80,17 @@ describe('vocabulary', () => {
     expect(missing).toEqual([]);
   });
 
+  it('has a real example sentence for every word', () => {
+    const generic = /에 대해 배웠습니다|의 뜻을 배웠습니다|문장에서 '|기본 어휘:/;
+    const weak = vocabulary
+      .filter((w) => {
+        const example = getVocabularyExample(w);
+        return example.placeholder || !example.example || generic.test(example.example);
+      })
+      .map((w) => w.id);
+    expect(weak).toEqual([]);
+  });
+
   it('has a Khmer meaning for every word', () => {
     const missingKm = vocabulary.filter((w) => !w.meaningKm || !/[\u1780-\u17FF]/.test(w.meaningKm)).map((w) => w.id);
     expect(missingKm).toEqual([]);
@@ -125,7 +136,8 @@ describe('catalog', () => {
       vocabulary: count(vocabulary),
       reading: count(readings),
       listening: count(listeningTests),
-      mockTests: count(mockTests)
+      mockTests: count(mockTests),
+      writing: count(writingSets)
     });
   });
 });

@@ -10,6 +10,7 @@ import { listeningTests } from '../src/data/listening.js';
 import { mockTests } from '../src/data/mockTests.js';
 import { readings } from '../src/data/reading.js';
 import { vocabulary } from '../src/data/vocabulary.js';
+import { writingSets } from '../src/data/writing.js';
 import { countByLevel } from '../src/lib/levels.js';
 
 const SETS = {
@@ -17,7 +18,8 @@ const SETS = {
   vocabulary,
   reading: readings,
   listening: listeningTests,
-  mockTests
+  mockTests,
+  writing: writingSets
 };
 
 const catalog = Object.fromEntries(

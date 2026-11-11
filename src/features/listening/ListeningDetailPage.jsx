@@ -1,10 +1,20 @@
 import { useCallback, useEffect, useRef, useState } from 'react';
 import { Link, useParams } from 'react-router-dom';
-import { ArrowLeft, Check, Clock, Download, Headphones, ImageOff, LayoutGrid, Pause, Play, RotateCcw } from 'lucide-react';
+import { ArrowLeft, Check, Clock, Download, Headphones, ImageOff, Pause, Play, RotateCcw, Volume2, VolumeX } from 'lucide-react';
 import PdfViewer from '../../components/library/PdfViewer';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
+import {
+  shortTitle,
+  AnsweredCount,
+  DoneToggle,
+  GroupInstruction,
+  OptionButton,
+  PassageBox,
+  questionCardClass,
+  QuestionHeader
+} from '../../components/learning/PaperQuestion';
 import { useConfirm } from '../../components/ui/ConfirmDialog';
 import EmptyState from '../../components/ui/EmptyState';
 import { useLearning } from '../../context/LearningContext';
@@ -12,7 +22,7 @@ import { listeningTests } from '../../data/listening';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
 function formatTime(seconds) {
-  const safe = Math.max(0, seconds);
+  const safe = Math.max(0, Math.floor(Number(seconds) || 0));
   const minutes = Math.floor(safe / 60);
   const remainingSeconds = safe % 60;
   return `${String(minutes).padStart(2, '0')}:${String(remainingSeconds).padStart(2, '0')}`;
@@ -41,71 +51,33 @@ function OptionImage({ src, index }) {
 
 function ListeningQuestionCard({ question, selected, revealed, onSelect, showInstruction }) {
   return (
-    <Card id={`q-${question.questionNumber}`} className="scroll-mt-28 p-3.5 shadow-md sm:p-6">
-      {showInstruction ? (
-        <div className="mb-3.5 rounded-md bg-slate-200 px-3.5 py-2.5 text-sm font-bold leading-6 text-slate-950 dark:bg-slate-700 dark:text-white sm:mb-5 sm:px-5 sm:py-3.5 sm:text-base sm:leading-7">
-          {question.instruction}
-        </div>
-      ) : null}
-
-      <div className="flex items-start gap-2.5 sm:gap-4">
-        <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-indigo-100 text-lg font-black text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-100 sm:h-10 sm:w-10 sm:text-2xl">
-          {question.questionNumber}
-        </div>
-        <h3 className="min-w-0 flex-1 text-base font-bold leading-7 text-slate-950 dark:text-white sm:text-xl sm:font-black sm:leading-8">
-          {question.question}
-        </h3>
-        <div className="inline-flex shrink-0 items-center gap-0.5 rounded-md bg-coral-100 px-2 py-1 text-sm font-black leading-none text-coral-700 dark:bg-coral-500/20 dark:text-coral-100">
-          <span>{question.points}</span>
-          <span>점</span>
-        </div>
-      </div>
+    <Card id={`q-${question.questionNumber}`} className={`${questionCardClass} scroll-mt-32`}>
+      {showInstruction ? <GroupInstruction>{question.instruction}</GroupInstruction> : null}
+      <QuestionHeader number={question.questionNumber} points={question.points}>
+        {question.question}
+      </QuestionHeader>
 
       {question.context ? (
-        <div className="mt-3 rounded-md bg-slate-100 px-3.5 py-3 text-base leading-7 sm:mt-4 sm:py-4 sm:text-lg sm:leading-8 text-slate-950 dark:bg-slate-800 dark:text-slate-100 sm:px-5">
+        <PassageBox>
           <p className="whitespace-pre-line">{question.context}</p>
-        </div>
+        </PassageBox>
       ) : null}
 
-      <div className={question.questionType === 'image_choice' ? 'mt-3 grid grid-cols-2 gap-2 sm:mt-4 sm:gap-3' : 'mt-3 space-y-2 sm:mt-4 sm:space-y-2.5'}>
+      <div className={question.questionType === 'image_choice' ? 'mt-3.5 grid grid-cols-2 gap-2.5 sm:gap-3' : 'mt-3.5 space-y-2.5'}>
         {question.options.map((option, index) => {
-          const isSelected = selected === index;
-          const isCorrect = question.answer === index;
           const isImage = question.questionType === 'image_choice';
-
           return (
-            <button
+            <OptionButton
               key={option}
-              type="button"
-              onClick={() => {
-                if (!revealed) onSelect(index);
-              }}
-              className={[
-                'flex w-full items-center gap-3 rounded-md border text-left text-base font-semibold leading-6 transition [overflow-wrap:anywhere] sm:gap-4 sm:text-lg sm:leading-7',
-                isImage ? 'flex-col items-stretch p-2 sm:p-3' : 'min-h-12 px-3 py-2.5 sm:min-h-16 sm:px-5 sm:py-3',
-                isSelected && !revealed
-                  ? 'border-brand-500 bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100'
-                  : '',
-                revealed && isCorrect
-                  ? 'border-mint-500 bg-mint-100 text-mint-700 dark:bg-mint-500/15 dark:text-mint-100'
-                  : '',
-                revealed && isSelected && !isCorrect
-                  ? 'border-coral-500 bg-coral-100 text-coral-700 dark:bg-coral-500/15 dark:text-coral-100'
-                  : '',
-                !isSelected && (!revealed || !isCorrect)
-                  ? 'border-slate-200 bg-white text-slate-950 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800'
-                  : ''
-              ].join(' ')}
+              index={index}
+              selected={selected === index}
+              correct={question.answer === index}
+              revealed={revealed}
+              onSelect={onSelect}
+              image={isImage}
             >
-              <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border-2 border-slate-300 bg-white text-sm font-black sm:h-8 sm:w-8 sm:text-base text-slate-700 dark:border-slate-600 dark:bg-slate-950 dark:text-slate-100">
-                {index + 1}
-              </span>
-              {isImage ? (
-                <OptionImage src={option} index={index} />
-              ) : (
-                <span>{option}</span>
-              )}
-            </button>
+              {isImage ? <OptionImage src={option} index={index} /> : option}
+            </OptionButton>
           );
         })}
       </div>
@@ -142,6 +114,9 @@ export default function ListeningDetailPage() {
   const totalSeconds = (test?.durationMinutes || 60) * 60;
   const [remainingSeconds, setRemainingSeconds] = useState(totalSeconds);
   const autoCheckedRef = useRef(false);
+  // The countdown starts with the first press of play, like the real exam.
+  const [started, setStarted] = useState(false);
+  const [muted, setMuted] = useState(false);
 
   usePageMeta(test?.title || 'Listening test', 'TOPIK listening test with audio practice.');
 
@@ -149,16 +124,17 @@ export default function ListeningDetailPage() {
     setSelectedAnswers({});
     setRevealed(false);
     setRemainingSeconds(totalSeconds);
+    setStarted(false);
     autoCheckedRef.current = false;
   }, [test?.id, totalSeconds]);
 
   useEffect(() => {
-    if (revealed || remainingSeconds <= 0) return undefined;
+    if (!started || revealed || remainingSeconds <= 0) return undefined;
     const interval = window.setInterval(() => {
       setRemainingSeconds((value) => Math.max(0, value - 1));
     }, 1000);
     return () => window.clearInterval(interval);
-  }, [revealed, remainingSeconds]);
+  }, [started, revealed, remainingSeconds]);
 
   const checkAnswers = useCallback(
     async (reason = 'manual') => {
@@ -278,14 +254,21 @@ export default function ListeningDetailPage() {
   const toggleAudio = () => {
     const el = audioRef.current;
     if (!el) return;
+    setStarted(true);
     if (el.paused) el.play().catch(() => {});
     else el.pause();
+  };
+  const toggleMuted = () => {
+    const el = audioRef.current;
+    if (el) el.muted = !el.muted;
+    setMuted((value) => !value);
   };
 
   function resetAnswers() {
     setSelectedAnswers({});
     setRevealed(false);
     setRemainingSeconds(totalSeconds);
+    setStarted(false);
     autoCheckedRef.current = false;
     if (audioRef.current) {
       audioRef.current.currentTime = 0;
@@ -295,61 +278,67 @@ export default function ListeningDetailPage() {
 
   return (
     <article className="mx-auto max-w-4xl space-y-4 pb-[calc(5rem+max(env(safe-area-inset-bottom),0.5rem))] sm:space-y-5 lg:pb-0">
-      {/* One slim sticky bar: back, title, compact audio player, answered count (jump grid) and timer */}
-      <div className="sticky -top-4 z-40 -mx-3 -mt-4 border-b border-slate-200 bg-white/95 px-3 pt-2 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95 sm:-top-5 sm:-mx-6 sm:-mt-5 sm:px-6 lg:mx-0 lg:mt-0 lg:rounded-b-lg lg:border-x lg:px-4">
+      {/* Sticky player card: title, answered count (jump grid), timer, then the audio player */}
+      <div className="sticky -top-4 z-40 -mx-3 -mt-4 border-b border-slate-200 bg-white/95 px-3 pt-2.5 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95 sm:-top-5 sm:-mx-6 sm:-mt-5 sm:px-6 lg:mx-0 lg:mt-0 lg:overflow-hidden lg:rounded-2xl lg:border lg:px-4 lg:shadow-card">
         <div className="flex items-center gap-2">
           <Link
             to="/listening"
             aria-label="Back to listening"
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-600 text-white shadow-sm transition hover:bg-brand-700"
+            className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-slate-500 transition hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white"
           >
             <ArrowLeft size={16} aria-hidden="true" />
           </Link>
-          <p className="min-w-0 flex-1 truncate text-sm font-bold text-slate-950 dark:text-white">{test.title}</p>
-          <button
-            type="button"
+          <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-brand-500 ring-4 ring-brand-100 dark:ring-brand-500/25" aria-hidden="true" />
+          <p className="min-w-0 flex-1 truncate pl-1 text-sm font-bold text-slate-950 dark:text-white">{shortTitle(test.title)}</p>
+          <DoneToggle
+            done={isListeningCompleted(test.id)}
+            title={test.title}
+            onToggle={() =>
+              dispatch({ type: isListeningCompleted(test.id) ? 'uncomplete-listening' : 'complete-listening', id: test.id })
+            }
+          />
+          <AnsweredCount
+            answered={answeredCount}
+            correct={correctCount}
+            total={questions.length}
+            revealed={revealed}
             onClick={() => setShowGrid((value) => !value)}
             aria-expanded={showGrid}
             aria-controls="listening-jump-grid"
-            className="inline-flex shrink-0 items-center gap-1 rounded-full border border-slate-200 px-2.5 py-1 text-xs font-bold text-slate-700 transition hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
-          >
-            {revealed ? `${correctCount}/${questions.length} ✓` : `${answeredCount}/${questions.length}`}
-            <LayoutGrid size={13} aria-hidden="true" />
-          </button>
-          <div className="flex shrink-0 items-center gap-1 rounded-full border border-brand-200 bg-brand-50 px-2.5 py-1 text-brand-700 dark:border-brand-400 dark:bg-brand-500/25 dark:text-white">
+          />
+          <div className="flex shrink-0 items-center gap-1.5 rounded-xl border border-slate-200 bg-slate-50 px-2.5 py-1.5 text-slate-700 dark:border-slate-700 dark:bg-slate-800 dark:text-slate-100">
             <Clock aria-hidden="true" size={14} />
-            <span className="font-mono text-sm font-black tabular-nums leading-none">{formatTime(remainingSeconds)}</span>
+            <span className="text-sm font-black tabular-nums leading-none">{formatTime(remainingSeconds)}</span>
+            {!started && !revealed ? (
+              <span className="hidden text-[11px] font-medium leading-none text-slate-500 dark:text-slate-400 sm:inline">press play to start</span>
+            ) : null}
           </div>
         </div>
         <audio
           ref={audioRef}
           src={test.audioSrc}
           preload="metadata"
-          onPlay={syncAudio}
+          onPlay={() => {
+            setStarted(true);
+            syncAudio();
+          }}
           onPause={syncAudio}
           onTimeUpdate={syncAudio}
           onLoadedMetadata={syncAudio}
           onEnded={syncAudio}
         />
-        <div className="mt-2 flex items-center gap-2">
+        <div className="mt-2.5 flex items-center gap-1.5 rounded-full bg-slate-100 py-1 pl-1 pr-2 dark:bg-slate-800 sm:gap-2">
           <button
             type="button"
             onClick={toggleAudio}
             aria-label={audio.playing ? 'Pause audio' : 'Play audio'}
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-slate-900 text-white transition hover:bg-slate-700 dark:bg-white dark:text-slate-900"
+            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-600 text-white shadow-sm transition hover:bg-brand-700"
           >
             {audio.playing ? <Pause size={15} aria-hidden="true" /> : <Play size={15} className="translate-x-px" aria-hidden="true" />}
           </button>
-          <button
-            type="button"
-            onClick={() => {
-              if (audioRef.current) audioRef.current.currentTime = Math.max(0, audioRef.current.currentTime - 10);
-            }}
-            aria-label="Back 10 seconds"
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full text-slate-600 transition hover:bg-slate-100 dark:text-slate-300 dark:hover:bg-slate-800"
-          >
-            <RotateCcw size={15} aria-hidden="true" />
-          </button>
+          <span className="shrink-0 text-xs font-semibold tabular-nums text-slate-700 dark:text-slate-200">
+            {formatTime(audio.current)} / {formatTime(audio.duration)}
+          </span>
           <input
             type="range"
             min={0}
@@ -362,9 +351,26 @@ export default function ListeningDetailPage() {
             aria-label="Audio position"
             className="h-1.5 min-w-0 flex-1 cursor-pointer accent-brand-600"
           />
-          <span className="shrink-0 font-mono text-[11px] tabular-nums text-slate-500 dark:text-slate-400">
-            {formatTime(audio.current)} / {formatTime(audio.duration)}
-          </span>
+          <button
+            type="button"
+            onClick={() => {
+              if (audioRef.current) audioRef.current.currentTime = Math.max(0, audioRef.current.currentTime - 10);
+            }}
+            aria-label="Back 10 seconds"
+            title="Back 10 seconds"
+            className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-slate-600 transition hover:bg-white dark:text-slate-300 dark:hover:bg-slate-700"
+          >
+            <RotateCcw size={15} aria-hidden="true" />
+          </button>
+          <button
+            type="button"
+            onClick={toggleMuted}
+            aria-label={muted ? 'Unmute audio' : 'Mute audio'}
+            aria-pressed={muted}
+            className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-slate-600 transition hover:bg-white dark:text-slate-300 dark:hover:bg-slate-700"
+          >
+            {muted ? <VolumeX size={16} aria-hidden="true" /> : <Volume2 size={16} aria-hidden="true" />}
+          </button>
         </div>
         {showGrid ? (
           <div id="listening-jump-grid" className="grid max-h-56 grid-cols-8 gap-1.5 overflow-y-auto py-2.5 sm:grid-cols-10">
@@ -393,51 +399,10 @@ export default function ListeningDetailPage() {
             })}
           </div>
         ) : null}
-        <div className="mt-2 h-1 overflow-hidden bg-slate-100 -mx-3 dark:bg-slate-800 sm:-mx-6 lg:-mx-4">
+        <div className="-mx-3 mt-2.5 h-1 overflow-hidden bg-slate-100 dark:bg-slate-800 sm:-mx-6 lg:-mx-4">
           <div className="h-full bg-brand-600 transition-all duration-500" style={{ width: `${timePercent}%` }} />
         </div>
       </div>
-
-      <Card className="p-4 sm:p-5">
-        <div className="flex flex-wrap items-start justify-between gap-2">
-          <div className="flex flex-wrap gap-2">
-            <Badge tone="blue">{test.level}</Badge>
-            <Badge>{test.topic}</Badge>
-            <Badge tone="slate">Audio</Badge>
-            {isListeningCompleted(test.id) ? <Badge tone="green">Done</Badge> : null}
-          </div>
-          <button
-            type="button"
-            onClick={() =>
-              dispatch({
-                type: isListeningCompleted(test.id) ? 'uncomplete-listening' : 'complete-listening',
-                id: test.id
-              })
-            }
-            className={
-              isListeningCompleted(test.id)
-                ? 'inline-flex items-center gap-1 rounded-full bg-mint-100 px-3 py-1 text-xs font-semibold text-mint-700 transition hover:bg-mint-200 dark:bg-mint-500/15 dark:text-mint-100 dark:hover:bg-mint-500/25'
-                : 'inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-mint-300 hover:text-mint-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-mint-500 dark:hover:text-mint-100'
-            }
-          >
-            <Check size={12} />
-            {isListeningCompleted(test.id) ? 'Marked done' : 'Mark done'}
-          </button>
-        </div>
-        <div className="mt-4 flex items-start gap-3">
-          <div className="rounded-lg bg-brand-50 p-3 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
-            <Headphones size={22} aria-hidden="true" />
-          </div>
-          <div>
-            <h2 className="text-2xl font-bold text-slate-950 dark:text-white sm:text-3xl">{test.title}</h2>
-            {revealed ? (
-              <p className="mt-3 rounded-lg bg-brand-50 p-3 text-sm font-bold text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
-                Score: {correctCount} / {questions.length}
-              </p>
-            ) : null}
-          </div>
-        </div>
-      </Card>
 
       {test.reviewNote ? (
         <p className="rounded-lg border border-amber-300 bg-amber-50 px-3.5 py-2.5 text-sm leading-6 text-amber-900 dark:border-amber-400/40 dark:bg-amber-400/10 dark:text-amber-100">

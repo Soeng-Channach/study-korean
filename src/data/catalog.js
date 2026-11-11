@@ -37,5 +37,12 @@ export const catalog = {
       "TOPIK I": 186,
       "TOPIK II": 300
     }
+  },
+  "writing": {
+    "total": 17,
+    "byLevel": {
+      "TOPIK I": 0,
+      "TOPIK II": 17
+    }
   }
 };

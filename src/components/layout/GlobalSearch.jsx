@@ -2,10 +2,12 @@ import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
   BookOpen,
+  CalendarCheck,
   ClipboardCheck,
   Headphones,
   Languages,
   Newspaper,
+  PenLine,
   Search,
   X
 } from 'lucide-react';
@@ -16,7 +18,9 @@ const typeIcon = {
   grammar: BookOpen,
   reading: Newspaper,
   listening: Headphones,
-  test: ClipboardCheck
+  test: ClipboardCheck,
+  writing: PenLine,
+  plan: CalendarCheck
 };
 
 const isMac =

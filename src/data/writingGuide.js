@@ -168,3 +168,46 @@ export const q53Form = [
     frame: '앞으로 ___(으)ㄹ 것으로 전망된다. / 이러한 문제를 해결하기 위해서는 ___아/어야 한다.'
   }
 ];
+
+// Paragraph-by-paragraph form for question 54. Steps with `question` show the
+// guiding question at that position (0, 1 or 2) from the essay prompt.
+export const q54Form = [
+  {
+    id: 'intro',
+    label: '서론',
+    en: 'Introduction (about 100자): bring up the topic in your own words. Do not copy the prompt.',
+    km: 'សេចក្តីផ្តើម (ប្រហែល 100자)៖ លើកប្រធានបទដោយពាក្យរបស់អ្នកផ្ទាល់។ កុំចម្លងសំណួរ។',
+    frame: '최근 ___(으)면서 ___에 대한 관심이 높아지고 있다.'
+  },
+  {
+    id: 'body1',
+    question: 0,
+    label: '본론 1',
+    en: 'Answer the first question (about 180자): one clear point, then a reason or example.',
+    km: 'ឆ្លើយសំណួរទីមួយ (ប្រហែល 180자)៖ ចំណុចច្បាស់មួយ រួចផ្តល់ហេតុផល ឬឧទាហរណ៍។',
+    frame: '우선 ___. 예를 들어 ___. 또한 ___.'
+  },
+  {
+    id: 'body2',
+    question: 1,
+    label: '본론 2',
+    en: 'Answer the second question (about 180자): give two points with 첫째 and 둘째.',
+    km: 'ឆ្លើយសំណួរទីពីរ (ប្រហែល 180자)៖ ផ្តល់ចំណុចពីរដោយប្រើ 첫째 និង 둘째។',
+    frame: '그러나 ___. 첫째, ___. 둘째, ___.'
+  },
+  {
+    id: 'body3',
+    question: 2,
+    label: '본론 3',
+    en: 'Answer the third question (about 180자): say what should be done and by whom.',
+    km: 'ឆ្លើយសំណួរទីបី (ប្រហែល 180자)៖ ប្រាប់ថាគួរធ្វើអ្វី ហើយនរណាជាអ្នកធ្វើ។',
+    frame: '따라서 ___기 위해서는 ___아/어야 한다. 그리고 ___(으)ㄹ 필요가 있다.'
+  },
+  {
+    id: 'ending',
+    label: '결론',
+    en: 'Conclusion (about 60자): one closing sentence that sums up your view.',
+    km: 'សេចក្តីសន្និដ្ឋាន (ប្រហែល 60자)៖ ប្រយោគបិទមួយដែលសង្ខេបទស្សនៈរបស់អ្នក។',
+    frame: '이와 같이 ___(으)ㄴ다면 ___(으)ㄹ 수 있을 것이다.'
+  }
+];

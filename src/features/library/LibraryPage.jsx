@@ -1,6 +1,6 @@
 import { useRef, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { FileText, FolderArchive, Trash2, Upload } from 'lucide-react';
+import { FileText, Trash2, Upload } from 'lucide-react';
 import Card from '../../components/ui/Card';
 import { useConfirm } from '../../components/ui/ConfirmDialog';
 import EmptyState from '../../components/ui/EmptyState';
@@ -55,11 +55,7 @@ export default function LibraryPage() {
   return (
     <div className="space-y-5">
       <div>
-        <div className="flex items-center gap-2 text-brand-600 dark:text-brand-100">
-          <FolderArchive size={18} aria-hidden="true" />
-          <p className="text-sm font-semibold">Personal library</p>
-        </div>
-        <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">Your PDFs</h2>
+        <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Library</h2>
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
           Upload TOPIK practice papers, answer keys, or your own notes. Files are stored only on this device — they never leave your browser.
         </p>

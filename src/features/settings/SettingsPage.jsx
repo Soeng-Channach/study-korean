@@ -1,11 +1,13 @@
 import clsx from 'clsx';
-import { Languages, Moon, RotateCcw, Sun, Wifi, WifiOff } from 'lucide-react';
+import { useRef, useState } from 'react';
+import { Download, Languages, Moon, RotateCcw, Sun, Upload, Wifi, WifiOff } from 'lucide-react';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
 import { useConfirm } from '../../components/ui/ConfirmDialog';
 import { useLearning } from '../../context/LearningContext';
 import { usePreferences } from '../../context/PreferencesContext';
+import { backupFileName, createBackup, parseBackup, summarizeBackup } from '../../lib/backup';
 import { MEANING_LANGUAGES } from '../../lib/meaningLanguage';
 import { useTheme } from '../../context/ThemeContext';
 import { usePageMeta } from '../../hooks/usePageMeta';
@@ -14,7 +16,9 @@ import { useOnlineStatus } from '../../hooks/useOnlineStatus';
 export default function SettingsPage() {
   usePageMeta('Settings', 'Manage TOPIK II PWA preferences.');
   const { isDark, toggleTheme } = useTheme();
-  const { dispatch } = useLearning();
+  const { state, dispatch } = useLearning();
+  const fileInput = useRef(null);
+  const [backupNote, setBackupNote] = useState(null);
   const { meaningLanguage, setMeaningLanguage } = usePreferences();
   const isOnline = useOnlineStatus();
   const confirm = useConfirm();
@@ -29,6 +33,43 @@ export default function SettingsPage() {
       tone: 'danger'
     });
     if (ok) dispatch({ type: 'reset-progress' });
+  }
+
+  function handleExport() {
+    const blob = new Blob([JSON.stringify(createBackup(state), null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = backupFileName();
+    document.body.appendChild(link);
+    link.click();
+    link.remove();
+    URL.revokeObjectURL(url);
+    setBackupNote({ tone: 'ok', text: `Saved ${link.download} to your downloads folder.` });
+  }
+
+  async function handleImportFile(event) {
+    const file = event.target.files?.[0];
+    event.target.value = '';
+    if (!file) return;
+    let restored;
+    try {
+      restored = parseBackup(await file.text());
+    } catch (error) {
+      setBackupNote({ tone: 'error', text: error.message });
+      return;
+    }
+    const s = summarizeBackup(restored);
+    const ok = await confirm({
+      title: 'Replace your progress with this backup?',
+      message: `The backup holds ${s.grammar} grammar lessons, ${s.planWords} plan words, ${s.planDays} plan days, ${s.reading} reading tests, ${s.listening} listening tests, ${s.writing} writing sets, ${s.savedWords} saved words and ${s.tests} test attempts. Your current progress on this device will be replaced.`,
+      confirmText: 'Replace progress',
+      cancelText: 'Cancel',
+      tone: 'danger'
+    });
+    if (!ok) return;
+    dispatch({ type: 'import-progress', payload: restored });
+    setBackupNote({ tone: 'ok', text: `Progress restored from ${file.name}.` });
   }
 
   return (
@@ -107,6 +148,46 @@ export default function SettingsPage() {
             {isOnline ? 'Online' : 'Offline'}
           </Badge>
         </div>
+      </Card>
+      <Card>
+        <div className="flex flex-wrap items-center justify-between gap-4">
+          <div className="min-w-0 flex-1">
+            <h3 className="font-bold text-slate-950 dark:text-white">Backup</h3>
+            <p className="mt-1 text-sm text-slate-500 dark:text-slate-400">
+              Your progress is stored only in this browser. Save a backup file to keep it safe or move it to another
+              computer.
+            </p>
+          </div>
+          <div className="flex shrink-0 gap-2">
+            <Button variant="secondary" icon={Download} onClick={handleExport}>
+              Export
+            </Button>
+            <Button variant="secondary" icon={Upload} onClick={() => fileInput.current?.click()}>
+              Import
+            </Button>
+            <input
+              ref={fileInput}
+              type="file"
+              accept="application/json,.json"
+              className="hidden"
+              aria-label="Choose a backup file to import"
+              onChange={handleImportFile}
+            />
+          </div>
+        </div>
+        {backupNote ? (
+          <p
+            role="status"
+            className={clsx(
+              'mt-3 rounded-lg px-3 py-2 text-sm',
+              backupNote.tone === 'error'
+                ? 'bg-coral-50 text-coral-700 dark:bg-coral-500/15 dark:text-coral-100'
+                : 'bg-mint-50 text-mint-700 dark:bg-mint-500/15 dark:text-mint-100'
+            )}
+          >
+            {backupNote.text}
+          </p>
+        ) : null}
       </Card>
       <Card>
         <div className="flex items-center justify-between gap-4">

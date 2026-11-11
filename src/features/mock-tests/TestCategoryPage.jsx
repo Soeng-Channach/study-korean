@@ -103,7 +103,7 @@ export default function TestCategoryPage({ category }) {
           </p>
         </Card>
       ) : (
-        <div className="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
           {tests.map((test) => (
             <TestCard key={test.id} test={test} />
           ))}

@@ -1,4 +1,4 @@
-import { BookOpen, CalendarCheck, Headphones, Languages, Lock, Newspaper, Trophy } from 'lucide-react';
+import { BookOpen, CalendarCheck, Headphones, Languages, Lock, Newspaper, PenLine, Trophy } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
 import CompletionCertificate from '../../components/learning/CompletionCertificate';
 import BackLink from '../../components/ui/BackLink';
@@ -64,6 +64,7 @@ export default function ProgressPage() {
     { label: 'Vocabulary', icon: Languages, done: masteredWordCount, total: catalog.vocabulary.total, tone: 'bg-coral-100 text-coral-700 dark:bg-coral-500/15 dark:text-coral-100', bar: 'bg-coral-500' },
     { label: 'Reading', icon: Newspaper, done: readingDone, total: readingTotal, tone: 'bg-sky-50 text-sky-700 dark:bg-sky-500/15 dark:text-sky-200', bar: 'bg-sky-500' },
     { label: 'Listening', icon: Headphones, done: listeningDone, total: listeningTotal, tone: 'bg-violet-50 text-violet-700 dark:bg-violet-500/15 dark:text-violet-200', bar: 'bg-violet-500' },
+    { label: 'Writing', icon: PenLine, done: (state.completedWritingIds || []).length, total: catalog.writing.total, tone: 'bg-teal-50 text-teal-700 dark:bg-teal-500/15 dark:text-teal-200', bar: 'bg-teal-500' },
     { label: '30-Day Plan', icon: CalendarCheck, done: (state.knownPlanWordIds || []).length, total: 1000, tone: 'bg-emerald-50 text-emerald-700 dark:bg-emerald-500/15 dark:text-emerald-200', bar: 'bg-emerald-500' },
     { label: 'Plan days', icon: Trophy, done: (state.completedPlanDays || []).length, total: 30, tone: 'bg-amber-50 text-amber-700 dark:bg-amber-500/15 dark:text-amber-200', bar: 'bg-amber-500' }
   ];
@@ -76,7 +77,7 @@ export default function ProgressPage() {
     <div className="space-y-5">
       <BackLink onClick={handleBack}>Back</BackLink>
       <div>
-        <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Progress tracking</h2>
+        <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Progress</h2>
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Your progress is stored offline on this device.</p>
       </div>
       <div className="grid gap-4 lg:grid-cols-3">

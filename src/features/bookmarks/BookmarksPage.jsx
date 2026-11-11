@@ -22,11 +22,7 @@ export default function BookmarksPage() {
   return (
     <div className="space-y-8">
       <div>
-        <div className="flex items-center gap-2 text-amber-600 dark:text-amber-100">
-          <Star size={18} fill="currentColor" aria-hidden="true" />
-          <p className="text-sm font-semibold">Your saved items</p>
-        </div>
-        <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">Saved</h2>
+        <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Saved</h2>
         <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
           {totalSaved > 0
             ? `${bookmarkedLessons.length} grammar · ${bookmarkedWords.length} vocab starred for quick review.`
@@ -40,7 +36,7 @@ export default function BookmarksPage() {
         </h3>
         {bookmarkedLessons.length ? (
           <div className="grid gap-4 md:grid-cols-2">
-            {bookmarkedLessons.map((lesson) => <GrammarCard key={lesson.id} lesson={lesson} />)}
+            {bookmarkedLessons.map((lesson) => <GrammarCard key={lesson.id} lesson={lesson} showLevel />)}
           </div>
         ) : (
           <EmptyState

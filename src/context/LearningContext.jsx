@@ -196,6 +196,9 @@ function baseReducer(state, action) {
       return { ...state, completedWritingIds: (state.completedWritingIds || []).filter((id) => id !== action.id) };
     case 'reset-progress':
       return initialState;
+    // Replaces everything with the progress read from a backup file.
+    case 'import-progress':
+      return normalizeLearningState(initialState, action.payload);
     default:
       return state;
   }

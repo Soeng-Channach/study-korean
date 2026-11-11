@@ -8,6 +8,7 @@ import {
   Headphones,
   Languages,
   Newspaper,
+  PenLine,
   RotateCcw,
   Sparkles,
   Trophy
@@ -225,6 +226,13 @@ export default function DashboardPage() {
               >
                 <CalendarCheck size={16} aria-hidden="true" />
                 30-Day Plan · Day {String(nextPlanDay).padStart(2, '0')}
+              </Link>
+              <Link
+                to="/writing"
+                className={`${heroButton} bg-white/10 text-white ring-1 ring-white/20 hover:bg-white/15`}
+              >
+                <PenLine size={16} aria-hidden="true" />
+                Writing · {(state.completedWritingIds || []).length}/{catalog.writing.total}
               </Link>
             </div>
             <div className="mt-5 max-w-sm">

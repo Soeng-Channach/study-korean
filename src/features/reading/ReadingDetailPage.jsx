@@ -1,10 +1,20 @@
 import { useCallback, useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useParams, useSearchParams } from 'react-router-dom';
-import { ArrowLeft, Check, Clock, Download, FileText, ImageOff, LayoutGrid } from 'lucide-react';
+import { ArrowLeft, Check, Clock, Download, FileText, ImageOff } from 'lucide-react';
 import PdfViewer from '../../components/library/PdfViewer';
 import Badge from '../../components/ui/Badge';
 import Button from '../../components/ui/Button';
 import Card from '../../components/ui/Card';
+import {
+  shortTitle,
+  AnsweredCount,
+  DoneToggle,
+  GroupInstruction,
+  OptionButton,
+  PassageBox,
+  questionCardClass,
+  QuestionHeader
+} from '../../components/learning/PaperQuestion';
 import { useConfirm } from '../../components/ui/ConfirmDialog';
 import EmptyState from '../../components/ui/EmptyState';
 import { useLearning } from '../../context/LearningContext';
@@ -74,14 +84,14 @@ function Passage({ value }) {
   const notice = value.match(NOTICE_PATTERN);
   const body = notice ? value.slice(notice[0].length) : value;
   return (
-    <div className="mt-3 rounded-md bg-slate-100 px-3.5 py-3 text-base leading-8 text-slate-950 dark:bg-slate-800 dark:text-slate-100 sm:mt-4 sm:px-5 sm:py-4 sm:text-lg">
+    <PassageBox>
       {notice ? (
         <p className="mb-2 rounded border border-amber-200 bg-amber-50 px-2.5 py-1.5 text-xs leading-5 text-amber-800 dark:border-amber-400/30 dark:bg-amber-400/10 dark:text-amber-100">
           Model text: this passage was not released officially, so the source site wrote a sample text for the scenario.
         </p>
       ) : null}
       <p className="whitespace-pre-line">{renderPassageContent(body)}</p>
-    </div>
+    </PassageBox>
   );
 }
 
@@ -106,35 +116,27 @@ function StimulusImage({ src, alt }) {
   );
 }
 
-function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, sharedWith, revealed, selected, onSelect }) {
+// The points already show in the pill, so drop a trailing "(2점)" from the question line.
+function stripPoints(text) {
+  return String(text || '').replace(/\s*\(\s*\d+\s*점\s*\)\s*$/, '');
+}
+
+function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, sharedWith, sameGroup, revealed, selected, onSelect }) {
   const questionNumber = question.questionNumber || fallbackNumber;
   const points = question.points || 2;
   const instruction =
     question.instruction || `※ [${questionNumber}]( )에 들어갈 말로 가장 알맞은 것을 고르십시오. (각 ${points}점)`;
   const passage = isOrderingQuestion(question) ? null : question.passage || fallbackPassage;
   // The second question of a pair repeats the passage it shares with the one above.
-  const showGroupInstruction = !sharedWith;
+  // The group line is shown once, on the first question of its group.
+  const showGroupInstruction = !sharedWith && !sameGroup;
 
   return (
-    <Card id={`q-${questionNumber}`} className="scroll-mt-20 p-3.5 shadow-md sm:p-6">
-      {showGroupInstruction ? (
-        <div className="rounded-md bg-slate-200 px-3.5 py-2.5 text-sm font-bold leading-6 text-slate-950 dark:bg-slate-700 dark:text-white sm:px-5 sm:py-3.5 sm:text-base sm:leading-7">
-          {instruction}
-        </div>
-      ) : null}
-
-      <div className={`${showGroupInstruction ? 'mt-3.5 sm:mt-5' : ''} flex items-start gap-2.5 sm:gap-4`}>
-        <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-md bg-indigo-100 text-lg font-black text-indigo-700 dark:bg-indigo-500/20 dark:text-indigo-100 sm:h-10 sm:w-10 sm:text-2xl">
-          {questionNumber}
-        </div>
-        <h3 className="min-w-0 flex-1 text-base font-bold leading-7 text-slate-950 dark:text-white sm:text-xl sm:font-black sm:leading-8">
-          {question.question}
-        </h3>
-        <div className="inline-flex shrink-0 items-center gap-0.5 rounded-md bg-coral-100 px-2 py-1 text-sm font-black leading-none text-coral-700 dark:bg-coral-500/20 dark:text-coral-100">
-          <span>{points}</span>
-          <span>점</span>
-        </div>
-      </div>
+    <Card id={`q-${questionNumber}`} className={questionCardClass}>
+      {showGroupInstruction ? <GroupInstruction>{instruction}</GroupInstruction> : null}
+      <QuestionHeader number={questionNumber} points={points}>
+        {stripPoints(question.question)}
+      </QuestionHeader>
 
       {question.image ? (
         <div className="mt-4 rounded-md border border-slate-200 bg-white p-3 dark:border-slate-700 dark:bg-slate-900">
@@ -158,40 +160,19 @@ function ReadingQuestionCard({ question, fallbackPassage, fallbackNumber, shared
       {isOrderingQuestion(question) ? (
         <ClauseOrderAnswer question={question} placed={selected} revealed={revealed} onChange={onSelect} />
       ) : (
-        <div className="mt-3 space-y-2 sm:mt-4 sm:space-y-2.5">
-          {question.options.map((option, index) => {
-            const isSelected = selected === index;
-            const isCorrect = question.answer === index;
-            return (
-              <button
-                key={option}
-                type="button"
-                onClick={() => {
-                  if (!revealed) onSelect(index);
-                }}
-                className={[
-                  'flex min-h-12 w-full items-center gap-3 rounded-md border px-3 py-2.5 text-left text-base font-semibold leading-6 transition [overflow-wrap:anywhere] sm:min-h-16 sm:gap-4 sm:px-5 sm:py-3 sm:text-lg sm:leading-7',
-                  isSelected && !revealed
-                    ? 'border-brand-500 bg-brand-50 text-brand-700 dark:bg-brand-500/15 dark:text-brand-100'
-                    : '',
-                  revealed && isCorrect
-                    ? 'border-mint-500 bg-mint-100 text-mint-700 dark:bg-mint-500/15 dark:text-mint-100'
-                    : '',
-                  revealed && isSelected && !isCorrect
-                    ? 'border-coral-500 bg-coral-100 text-coral-700 dark:bg-coral-500/15 dark:text-coral-100'
-                    : '',
-                  !isSelected && (!revealed || !isCorrect)
-                    ? 'border-slate-200 bg-white text-slate-950 hover:bg-slate-50 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-100 dark:hover:bg-slate-800'
-                    : ''
-                ].join(' ')}
-              >
-                <span className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full border-2 border-slate-300 bg-white text-sm font-black sm:h-8 sm:w-8 sm:text-base text-slate-700 dark:border-slate-600 dark:bg-slate-950 dark:text-slate-100">
-                  {index + 1}
-                </span>
-                <span>{option}</span>
-              </button>
-            );
-          })}
+        <div className="mt-3.5 space-y-2.5">
+          {question.options.map((option, index) => (
+            <OptionButton
+              key={option}
+              index={index}
+              selected={selected === index}
+              correct={question.answer === index}
+              revealed={revealed}
+              onSelect={onSelect}
+            >
+              {option}
+            </OptionButton>
+          ))}
         </div>
       )}
 
@@ -413,17 +394,23 @@ export default function ReadingDetailPage() {
           >
             <ArrowLeft size={16} aria-hidden="true" />
           </Link>
-          <p className="min-w-0 flex-1 truncate text-sm font-bold text-slate-950 dark:text-white">{reading.title}</p>
-          <button
-            type="button"
+          <p className="min-w-0 flex-1 truncate text-sm font-bold text-slate-950 dark:text-white">{shortTitle(reading.title)}</p>
+          <DoneToggle
+            done={isReadingCompleted(reading.id)}
+            title={reading.title}
+            onToggle={() =>
+              dispatch({ type: isReadingCompleted(reading.id) ? 'uncomplete-reading' : 'complete-reading', id: reading.id })
+            }
+          />
+          <AnsweredCount
+            answered={answeredCount}
+            correct={correctCount}
+            total={questions.length}
+            revealed={revealed}
             onClick={() => setShowGrid((value) => !value)}
             aria-expanded={showGrid}
             aria-controls="reading-jump-grid"
-            className="inline-flex shrink-0 items-center gap-1 rounded-full border border-slate-200 px-2.5 py-1 text-xs font-bold text-slate-700 transition hover:bg-slate-50 dark:border-slate-700 dark:text-slate-200 dark:hover:bg-slate-800"
-          >
-            {revealed ? `${correctCount}/${questions.length} ✓` : `${answeredCount}/${questions.length}`}
-            <LayoutGrid size={13} aria-hidden="true" />
-          </button>
+          />
           <div
             className={`flex shrink-0 items-center gap-1 rounded-full border px-2.5 py-1 ${timerTone} ${isUrgent ? 'animate-pulse' : ''}`}
             title={isUrgent ? 'Answers will be checked automatically.' : 'Time left'}
@@ -465,40 +452,6 @@ export default function ReadingDetailPage() {
         </div>
       </div>
 
-      <Card className="p-4 sm:p-5">
-        <div className="flex flex-wrap items-start justify-between gap-2">
-          <div className="flex flex-wrap gap-2">
-            <Badge tone="blue">{reading.level}</Badge>
-            <Badge>{reading.topic}</Badge>
-            {reading.source ? <Badge tone="slate">Imported</Badge> : null}
-            {isReadingCompleted(reading.id) ? <Badge tone="green">Done</Badge> : null}
-          </div>
-          <button
-            type="button"
-            onClick={() =>
-              dispatch({
-                type: isReadingCompleted(reading.id) ? 'uncomplete-reading' : 'complete-reading',
-                id: reading.id
-              })
-            }
-            className={
-              isReadingCompleted(reading.id)
-                ? 'inline-flex items-center gap-1 rounded-full bg-mint-100 px-3 py-1 text-xs font-semibold text-mint-700 transition hover:bg-mint-200 dark:bg-mint-500/15 dark:text-mint-100 dark:hover:bg-mint-500/25'
-                : 'inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-mint-300 hover:text-mint-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-mint-500 dark:hover:text-mint-100'
-            }
-          >
-            <Check size={12} />
-            {isReadingCompleted(reading.id) ? 'Marked done' : 'Mark done'}
-          </button>
-        </div>
-        <h2 className="mt-3 text-2xl font-bold text-slate-950 dark:text-white sm:mt-4 sm:text-3xl">{reading.title}</h2>
-        {revealed ? (
-          <p className="mt-3 rounded-lg bg-brand-50 p-3 text-sm font-bold text-brand-700 dark:bg-brand-500/15 dark:text-brand-100">
-            Score: {correctCount} / {questions.length}
-          </p>
-        ) : null}
-      </Card>
-
       {questions.map((question, index) => (
         <ReadingQuestionCard
           key={question.id}
@@ -506,6 +459,7 @@ export default function ReadingDetailPage() {
           fallbackPassage={reading.passage}
           fallbackNumber={index + 1}
           sharedWith={sharedWith[question.id]}
+          sameGroup={Boolean(question.instruction) && questions[index - 1]?.instruction === question.instruction}
           selected={selectedAnswers[question.id]}
           revealed={revealed}
           onSelect={(answer) =>

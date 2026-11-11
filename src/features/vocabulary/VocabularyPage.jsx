@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
-import { BookOpenCheck, Clock3, Layers3, Search, SlidersHorizontal, Sparkles, Star, Target, X } from 'lucide-react';
+import { BookOpenCheck, Clock3, Layers3, Search, SlidersHorizontal, Sparkles, Star, X } from 'lucide-react';
 import VocabExampleBlock from '../../components/learning/VocabExampleBlock';
 import VocabMeaningRow from '../../components/learning/VocabMeaningRow';
 import VocabSectionTabs from '../../components/learning/VocabSectionTabs';
@@ -47,7 +47,8 @@ export default function VocabularyPage() {
   // Review-stage and topic panels are collapsed by default so the sticky header
   // stays short enough to leave room for the word list on every screen size.
   const [showFilters, setShowFilters] = useState(false);
-  const activeFilterCount = (tagFilter !== 'all' ? 1 : 0) + (reviewFilter !== 'all' ? 1 : 0);
+  const activeFilterCount =
+    (posFilter !== 'all' ? 1 : 0) + (showSavedOnly ? 1 : 0) + (tagFilter !== 'all' ? 1 : 0) + (reviewFilter !== 'all' ? 1 : 0);
   const savedCount = (state.bookmarkedVocabIds || []).length;
 
   const levelCounts = useMemo(() => countByLevel(vocabulary), []);
@@ -127,11 +128,6 @@ export default function VocabularyPage() {
     setVisibleCount(PAGE_SIZE);
   }, [level, query, posFilter, tagFilter, reviewFilter, showSavedOnly]);
 
-  const savedLevelCount = useMemo(() => {
-    const savedIds = state.bookmarkedVocabIds || [];
-    return levelWords.filter((word) => savedIds.includes(word.id)).length;
-  }, [levelWords, state.bookmarkedVocabIds]);
-
   const levelReviewSummary = useMemo(
     () => summarizeVocabReviews(levelWords, state.vocabularyStats),
     [levelWords, state.vocabularyStats]
@@ -203,130 +199,117 @@ export default function VocabularyPage() {
             </Link>
           </div>
         </div>
-        <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
-
-        {level === 'TOPIK I' ? (
-          <dl className="hidden grid-cols-4 gap-2 sm:grid">
-            {[
-              ['Words', levelWords.length, Layers3],
-              ['Saved', savedLevelCount, Star],
-              ['Due', levelReviewSummary.due, Clock3],
-              ['Mastered', levelReviewSummary.mastered, Target]
-            ].map(([label, value, Icon]) => (
-              <div
-                key={label}
-                className="flex min-w-0 items-center gap-2 rounded-xl border border-slate-200 bg-white px-2.5 py-1.5 dark:border-slate-800 dark:bg-slate-900"
-              >
-                <Icon size={14} className="shrink-0 text-slate-400 dark:text-slate-500" aria-hidden="true" />
-                <div className="min-w-0 leading-tight">
-                  <dt className="truncate text-[10px] font-semibold uppercase tracking-wide text-slate-500 dark:text-slate-400">
-                    {label}
-                  </dt>
-                  <dd className="text-sm font-bold tabular-nums text-slate-950 dark:text-white">{value}</dd>
-                </div>
-              </div>
-            ))}
-          </dl>
-        ) : null}
-
-        <div className="space-y-3">
-          <div className="relative">
-            <Search
-              size={16}
-              className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"
-              aria-hidden="true"
-            />
-            <input
-              type="search"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search Korean, English, Khmer, or example..."
-              className="w-full rounded-lg border border-slate-200 bg-white py-2.5 pl-9 pr-9 text-sm text-slate-800 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500"
-            />
-            {query ? (
-              <button
-                type="button"
-                onClick={() => setQuery('')}
-                className="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200"
-                aria-label="Clear search"
-              >
-                <X size={14} />
-              </button>
-            ) : null}
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+          <div className="shrink-0">
+            <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
           </div>
-
-          <div className="-mx-3 flex gap-2 overflow-x-auto px-3 pb-1 [scrollbar-width:none] sm:mx-0 sm:flex-wrap sm:overflow-visible sm:px-0 sm:pb-0 [&::-webkit-scrollbar]:hidden [&>*]:shrink-0">
+          <div className="flex min-w-0 flex-1 items-center gap-2">
+            <div className="relative min-w-0 flex-1">
+              <Search
+                size={16}
+                className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"
+                aria-hidden="true"
+              />
+              <input
+                type="search"
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search Korean, English, Khmer, or example..."
+                className="w-full rounded-lg border border-slate-200 bg-white py-2.5 pl-9 pr-9 text-sm text-slate-800 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500"
+              />
+              {query ? (
+                <button
+                  type="button"
+                  onClick={() => setQuery('')}
+                  className="absolute right-2 top-1/2 -translate-y-1/2 rounded p-1 text-slate-400 hover:text-slate-700 dark:hover:text-slate-200"
+                  aria-label="Clear search"
+                >
+                  <X size={14} />
+                </button>
+              ) : null}
+            </div>
             <button
               type="button"
-              onClick={() => setShowSavedOnly((v) => !v)}
+              onClick={() => setShowFilters((value) => !value)}
+              aria-expanded={showFilters}
+              aria-controls="vocab-filter-panels"
               className={
-                showSavedOnly
-                  ? 'inline-flex items-center gap-1 rounded-full bg-amber-500 px-3 py-1 text-xs font-semibold text-white shadow-sm'
-                  : 'inline-flex items-center gap-1 rounded-full border border-amber-300 bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700 transition hover:bg-amber-100 dark:border-amber-500/40 dark:bg-amber-500/10 dark:text-amber-100 dark:hover:bg-amber-500/20'
+                showFilters || activeFilterCount > 0
+                  ? 'inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-slate-900 px-3 py-2.5 text-sm font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
+                  : 'inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
               }
-              aria-pressed={showSavedOnly}
             >
-              <Star size={12} fill="currentColor" />
-              Saved
+              <SlidersHorizontal size={14} aria-hidden="true" />
+              Filters
+              {activeFilterCount > 0 ? (
+                <span className="rounded-full bg-white/25 px-1.5 text-xs dark:bg-slate-950/15">{activeFilterCount}</span>
+              ) : null}
             </button>
-            {partsOfSpeech.map((pos) => {
-              const active = posFilter === pos;
-              return (
-                <button
-                  key={pos}
-                  type="button"
-                  onClick={() => setPosFilter(pos)}
-                  className={
-                    active
-                      ? 'rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold capitalize text-white shadow-sm'
-                      : 'rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold capitalize text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
-                  }
-                >
-                  {pos}
-                </button>
-              );
-            })}
-            {posFilter !== 'all' || tagFilter !== 'all' || reviewFilter !== 'all' || showSavedOnly ? (
-              <button
-                type="button"
-                onClick={() => {
-                  setPosFilter('all');
-                  setTagFilter('all');
-                  setShowSavedOnly(false);
-                  setReviewFilter('all');
-                }}
-                className="rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-500 transition hover:bg-slate-50 hover:text-slate-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:bg-slate-800 dark:hover:text-slate-100"
-              >
-                Clear filters
-              </button>
-            ) : null}
-            {level === 'TOPIK I' || topicTags.length > 0 ? (
-              <button
-                type="button"
-                onClick={() => setShowFilters((value) => !value)}
-                aria-expanded={showFilters}
-                aria-controls="vocab-filter-panels"
-                className={
-                  showFilters || activeFilterCount > 0
-                    ? 'inline-flex items-center gap-1 rounded-full bg-slate-900 px-3 py-1 text-xs font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
-                    : 'inline-flex items-center gap-1 rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
-                }
-              >
-                <SlidersHorizontal size={12} aria-hidden="true" />
-                {showFilters ? 'Hide filters' : 'More filters'}
-                {activeFilterCount > 0 ? <span className="opacity-75">{activeFilterCount}</span> : null}
-              </button>
-            ) : null}
-            <span className="ml-auto hidden self-center text-xs font-semibold text-slate-500 dark:text-slate-400 sm:inline">
-              {filtered.length} of {levelWords.length}
-            </span>
           </div>
-          <p className="text-xs font-semibold text-slate-500 dark:text-slate-400 sm:hidden">
-            {filtered.length} of {levelWords.length} words
-          </p>
+        </div>
+
+        <div className="space-y-3">
+          {/* The level tab already shows the total, so the count appears only when the list is narrowed. */}
+          {query.trim() || activeFilterCount > 0 ? (
+            <p className="text-xs font-semibold text-slate-500 dark:text-slate-400">
+              {filtered.length} of {levelWords.length} words
+              {activeFilterCount > 0 ? (
+                <button
+                  type="button"
+                  onClick={() => {
+                    setPosFilter('all');
+                    setTagFilter('all');
+                    setShowSavedOnly(false);
+                    setReviewFilter('all');
+                  }}
+                  className="ml-2 font-semibold text-brand-600 underline-offset-2 hover:underline dark:text-brand-100"
+                >
+                  Clear filters
+                </button>
+              ) : null}
+            </p>
+          ) : null}
 
           {showFilters ? (
             <div id="vocab-filter-panels" className="space-y-3">
+              <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
+                <p className="mb-2 inline-flex items-center gap-1.5 text-xs font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
+                  <Layers3 size={14} /> Word type
+                </p>
+                <div className="flex flex-wrap gap-2">
+                  <button
+                    type="button"
+                    onClick={() => setShowSavedOnly((v) => !v)}
+                    className={
+                      showSavedOnly
+                        ? 'inline-flex items-center gap-1 rounded-full bg-amber-500 px-3 py-1 text-xs font-semibold text-white shadow-sm'
+                        : 'inline-flex items-center gap-1 rounded-full border border-amber-300 bg-amber-50 px-3 py-1 text-xs font-semibold text-amber-700 transition hover:bg-amber-100 dark:border-amber-500/40 dark:bg-amber-500/10 dark:text-amber-100 dark:hover:bg-amber-500/20'
+                    }
+                    aria-pressed={showSavedOnly}
+                  >
+                    <Star size={12} fill="currentColor" />
+                    Saved only
+                  </button>
+                  {partsOfSpeech.map((pos) => {
+                    const active = posFilter === pos;
+                    return (
+                      <button
+                        key={pos}
+                        type="button"
+                        onClick={() => setPosFilter(pos)}
+                        aria-pressed={active}
+                        className={
+                          active
+                            ? 'rounded-full bg-brand-600 px-3 py-1 text-xs font-semibold capitalize text-white shadow-sm'
+                            : 'rounded-full border border-slate-200 bg-white px-3 py-1 text-xs font-semibold capitalize text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
+                        }
+                      >
+                        {pos}
+                      </button>
+                    );
+                  })}
+                </div>
+              </div>
               {level === 'TOPIK I' ? (
                 <div className="rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900">
                   <div className="mb-2 flex items-center justify-between gap-3">
@@ -451,7 +434,7 @@ export default function VocabularyPage() {
                   <div className="flex flex-wrap gap-2">
                     <Badge tone="blue">{word.level}</Badge>
                     <Badge>{word.partOfSpeech}</Badge>
-                    <Badge tone={reviewStage.tone}>{reviewStage.label}</Badge>
+                    {review.stage && review.stage !== 'new' ? <Badge tone={reviewStage.tone}>{reviewStage.label}</Badge> : null}
                     {review.due && review.stage !== 'new' ? <Badge tone="rose">Due</Badge> : null}
                   </div>
                   <button

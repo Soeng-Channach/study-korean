@@ -50,3 +50,6 @@ pdf64/
 ans35/
 ans64/
 render_pdf*.mjs
+
+# Session screenshots from Claude (local only)
+Claude outputs/

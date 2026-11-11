@@ -1,4 +1,4 @@
-import { ArrowRight, BookOpenText, PenLine } from 'lucide-react';
+import { ArrowRight, BookOpenText } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import PaperTestCard from '../../components/learning/PaperTestCard';
 import { useLearning } from '../../context/LearningContext';
@@ -14,7 +14,7 @@ export default function WritingListPage() {
   return (
     <div className="space-y-4 sm:space-y-5">
       <div>
-        <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Writing practice</h2>
+        <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Writing</h2>
         <p className="mt-1 text-sm text-slate-600 dark:text-slate-300">
           TOPIK II 쓰기 · questions 51–54 · {WRITING_MINUTES} minutes · {completed} of {writingSets.length} sets done
         </p>
@@ -37,7 +37,7 @@ export default function WritingListPage() {
         <ArrowRight size={18} className="relative shrink-0 transition group-hover:translate-x-0.5" aria-hidden="true" />
       </Link>
 
-      <div className="grid gap-3 sm:gap-4 md:grid-cols-2">
+      <div className="grid gap-2.5 md:grid-cols-2 xl:grid-cols-3">
         {writingSets.map((set) => {
           const done = isWritingCompleted(set.id);
           const hasDraft = Object.keys(drafts).some((key) => key.startsWith(`${set.id}:`));
@@ -51,9 +51,8 @@ export default function WritingListPage() {
                 questionCount: set.questions.length,
                 durationMinutes: WRITING_MINUTES
               }}
-              icon={PenLine}
               accent="emerald"
-              kindLabel={hasDraft && !done ? 'Writing · draft saved' : 'Writing'}
+              note={hasDraft && !done ? 'Draft saved' : undefined}
               done={done}
               onToggleDone={() => dispatch({ type: done ? 'uncomplete-writing' : 'complete-writing', id: set.id })}
             />

@@ -23,7 +23,7 @@ import { useConfirm } from '../../components/ui/ConfirmDialog';
 import { useLearning } from '../../context/LearningContext';
 import { countCharacters, politeEndings, WRITING_MINUTES, writingSets } from '../../data/writing';
 import WritingChart from './WritingChart';
-import { q53Form } from '../../data/writingGuide';
+import { q53Form, q54Form } from '../../data/writingGuide';
 import { usePageMeta } from '../../hooks/usePageMeta';
 
 const KM = 'text-violet-700 dark:text-violet-300';
@@ -132,21 +132,14 @@ function ChartPanel({ chart }) {
   );
 }
 
-// The sentence-by-sentence form for question 53, fitted to what this chart has.
-function Q53Form({ chart, hasAnswer, onUse }) {
-  const steps = q53Form.filter((step) => {
-    if (step.when === 'detail') return chart.blocks.length > 1;
-    if (step.when === 'causes') return chart.causes?.length > 0;
-    if (step.when === 'outlook') return Boolean(chart.outlook);
-    return true;
-  });
-  const frameOf = (step) => (step.id === 'intro' && !chart.source ? step.frameNoSource : step.frame);
-
+// A collapsible writing form: numbered steps, each with a sentence frame to
+// fill in, plus a button that copies the frames into the answer box.
+function WritingForm({ title, steps, hasAnswer, onUse, hint }) {
   return (
     <details open className="group mt-3 rounded-xl bg-emerald-50/60 ring-1 ring-emerald-200 dark:bg-emerald-500/10 dark:ring-emerald-500/30">
       <summary className="flex cursor-pointer list-none items-center justify-between gap-2 px-3.5 py-2.5 text-sm font-bold text-emerald-900 dark:text-emerald-100 [&::-webkit-details-marker]:hidden">
         <span className="inline-flex items-center gap-2">
-          <ListOrdered size={16} aria-hidden="true" /> Writing form · 글의 구조
+          <ListOrdered size={16} aria-hidden="true" /> {title}
         </span>
         <ChevronRight size={16} className="transition group-open:rotate-90" aria-hidden="true" />
       </summary>
@@ -160,8 +153,13 @@ function Q53Form({ chart, hasAnswer, onUse }) {
                 </span>
                 {step.label}
               </p>
+              {step.asks ? (
+                <p lang="ko" className="mt-1 text-sm font-semibold leading-6 text-red-600 dark:text-red-400">
+                  {step.asks}
+                </p>
+              ) : null}
               <p lang="ko" className="mt-1.5 rounded-md bg-slate-50 px-2.5 py-1.5 text-[15px] leading-7 text-slate-900 dark:bg-slate-800/70 dark:text-slate-100">
-                {frameOf(step)}
+                {step.frame}
               </p>
               <div className="mt-1.5">
                 <Bilingual
@@ -177,18 +175,56 @@ function Q53Form({ chart, hasAnswer, onUse }) {
         <div className="mt-3 flex flex-wrap items-center gap-2">
           <button
             type="button"
-            onClick={() => onUse(steps.map(frameOf).join('\n'))}
+            onClick={() => onUse(steps.map((step) => step.frame).join('\n'))}
             className="inline-flex items-center gap-1.5 rounded-full bg-emerald-600 px-3.5 py-1.5 text-sm font-semibold text-white shadow-sm transition hover:bg-emerald-700 focus:outline-none focus-visible:ring-2 focus-visible:ring-emerald-500 focus-visible:ring-offset-2"
           >
             <ClipboardPaste size={15} aria-hidden="true" />
             {hasAnswer ? 'Add the form below my answer' : 'Put the form in my answer'}
           </button>
-          <span className="text-xs text-slate-600 dark:text-slate-300">
-            Fill every ___ and delete the choice you do not use. About 50자 a sentence reaches 200–300자.
-          </span>
+          <span className="text-xs text-slate-600 dark:text-slate-300">{hint}</span>
         </div>
       </div>
     </details>
+  );
+}
+
+// The sentence-by-sentence form for question 53, fitted to what this chart has.
+function Q53Form({ chart, hasAnswer, onUse }) {
+  const steps = q53Form
+    .filter((step) => {
+      if (step.when === 'detail') return chart.blocks.length > 1;
+      if (step.when === 'causes') return chart.causes?.length > 0;
+      if (step.when === 'outlook') return Boolean(chart.outlook);
+      return true;
+    })
+    .map((step) => (step.id === 'intro' && !chart.source ? { ...step, frame: step.frameNoSource } : step));
+
+  return (
+    <WritingForm
+      title="Writing form · 글의 구조"
+      steps={steps}
+      hasAnswer={hasAnswer}
+      onUse={onUse}
+      hint="Fill every ___ and delete the choice you do not use. About 50자 a sentence reaches 200–300자."
+    />
+  );
+}
+
+// The paragraph-by-paragraph form for question 54, with each guiding question
+// shown on the paragraph that must answer it.
+function Q54Form({ question, hasAnswer, onUse }) {
+  const steps = q54Form.map((step) =>
+    step.question === undefined ? step : { ...step, asks: question.questions[step.question] }
+  );
+
+  return (
+    <WritingForm
+      title="Writing form · 글의 구조"
+      steps={steps}
+      hasAnswer={hasAnswer}
+      onUse={onUse}
+      hint="One paragraph per step. The frames are only openers: add your own sentences to reach 600–700자."
+    />
   );
 }
 
@@ -535,14 +571,23 @@ export default function WritingPracticePage() {
         ) : null}
 
         {question.type === 'essay' ? (
-          <div className="mt-3 rounded-xl bg-slate-50 px-3.5 py-3 text-base leading-8 text-slate-950 ring-1 ring-slate-200 dark:bg-slate-800/60 dark:text-slate-100 dark:ring-slate-700 sm:px-5 sm:py-4">
-            <p><QuotedTopic text={question.intro} /></p>
-            <ul className="mt-2 list-disc space-y-0.5 pl-5 font-semibold">
-              {question.questions.map((item) => (
-                <li key={item}>{item}</li>
-              ))}
-            </ul>
-          </div>
+          <>
+            <div className="mt-3 rounded-xl bg-slate-50 px-3.5 py-3 text-base leading-8 text-slate-950 ring-1 ring-slate-200 dark:bg-slate-800/60 dark:text-slate-100 dark:ring-slate-700 sm:px-5 sm:py-4">
+              <p>
+                <QuotedTopic text={question.intro} />
+              </p>
+              <ul className="mt-2 list-disc space-y-0.5 pl-5 font-semibold">
+                {question.questions.map((item) => (
+                  <li key={item}>{item}</li>
+                ))}
+              </ul>
+            </div>
+            <Q54Form
+              question={question}
+              hasAnswer={Boolean(values['54'])}
+              onUse={(text) => change('54', values['54'] ? `${values['54']}\n${text}` : text)}
+            />
+          </>
         ) : null}
 
         {question.type === 'blank' ? (

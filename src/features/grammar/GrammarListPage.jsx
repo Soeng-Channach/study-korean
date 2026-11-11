@@ -1,5 +1,5 @@
-import { useEffect, useMemo } from 'react';
-import { Star } from 'lucide-react';
+import { useEffect, useMemo, useState } from 'react';
+import { ChevronDown, Star } from 'lucide-react';
 import { Link, useSearchParams } from 'react-router-dom';
 import GrammarCard from '../../components/learning/GrammarCard';
 import Card from '../../components/ui/Card';
@@ -62,6 +62,9 @@ export default function GrammarListPage() {
     setSearchParams(nextParams, { replace: true });
   };
 
+  // The category chips are folded behind one button so the header stays short.
+  const [showGroups, setShowGroups] = useState(false);
+
   // When returning from a lesson, scroll its card back into view rather than
   // landing at the top, then drop the marker so it doesn't linger in the URL.
   const lastLessonId = searchParams.get('lesson');
@@ -79,7 +82,7 @@ export default function GrammarListPage() {
       <StickyHeader>
         <div className="flex flex-wrap items-start justify-between gap-3">
           <div className="min-w-0 flex-1">
-            <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Grammar learning</h2>
+            <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Grammar</h2>
             <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
               Study patterns by category, star the tricky ones, and mark lessons complete.
             </p>
@@ -95,41 +98,69 @@ export default function GrammarListPage() {
             </span>
           </Link>
         </div>
-        <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
-        <div className="flex gap-2 overflow-x-auto pb-1">
-          {[ALL_GRAMMAR_GROUP, ...availableGroups].map((group) => {
-            const active = activeGroup.id === group.id;
-            const count =
-              group.id === ALL_GRAMMAR_GROUP.id
-                ? levelLessons.length
-                : levelLessons.filter((lesson) => grammarGroupOf(lesson).id === group.id).length;
-            return (
-              <button
-                key={group.id}
-                type="button"
-                onClick={() => setGroup(group.id)}
-                aria-pressed={active}
-                title={group.description}
-                className={
-                  active
-                    ? 'inline-flex shrink-0 items-center gap-1.5 rounded-full bg-slate-950 px-3 py-1.5 text-xs font-bold text-white shadow-sm dark:bg-white dark:text-slate-950'
-                    : 'inline-flex shrink-0 items-center gap-1.5 rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200 transition hover:text-brand-700 dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700 dark:hover:text-brand-100'
-                }
-              >
-                {group.label}
-                <span
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
+          <div className="shrink-0">
+            <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
+          </div>
+          <button
+            type="button"
+            onClick={() => setShowGroups((value) => !value)}
+            aria-expanded={showGroups}
+            aria-controls="grammar-group-panel"
+            className={
+              showGroups || activeGroup.id !== ALL_GRAMMAR_GROUP.id
+                ? 'inline-flex items-center justify-between gap-2 rounded-lg bg-slate-900 px-3 py-2.5 text-sm font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
+                : 'inline-flex items-center justify-between gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
+            }
+          >
+            <span className="truncate">
+              {activeGroup.id === ALL_GRAMMAR_GROUP.id ? 'All categories' : activeGroup.label} · {lessons.length}
+            </span>
+            <ChevronDown size={15} className={showGroups ? 'rotate-180 transition' : 'transition'} aria-hidden="true" />
+          </button>
+        </div>
+        {showGroups ? (
+          <div
+            id="grammar-group-panel"
+            className="flex flex-wrap gap-2 rounded-xl border border-slate-200 bg-white p-3 dark:border-slate-800 dark:bg-slate-900"
+          >
+            {[ALL_GRAMMAR_GROUP, ...availableGroups].map((group) => {
+              const active = activeGroup.id === group.id;
+              const count =
+                group.id === ALL_GRAMMAR_GROUP.id
+                  ? levelLessons.length
+                  : levelLessons.filter((lesson) => grammarGroupOf(lesson).id === group.id).length;
+              return (
+                <button
+                  key={group.id}
+                  type="button"
+                  onClick={() => {
+                    setGroup(group.id);
+                    setShowGroups(false);
+                  }}
+                  aria-pressed={active}
+                  title={group.description}
                   className={
                     active
-                      ? 'rounded-full bg-white/20 px-1.5 py-0.5 text-[10px] text-white dark:bg-slate-950/10 dark:text-slate-950'
-                      : 'rounded-full bg-slate-100 px-1.5 py-0.5 text-[10px] text-slate-500 dark:bg-slate-800 dark:text-slate-300'
+                      ? 'inline-flex shrink-0 items-center gap-1.5 rounded-full bg-slate-950 px-3 py-1.5 text-xs font-bold text-white shadow-sm dark:bg-white dark:text-slate-950'
+                      : 'inline-flex shrink-0 items-center gap-1.5 rounded-full bg-white px-3 py-1.5 text-xs font-semibold text-slate-600 ring-1 ring-slate-200 transition hover:text-brand-700 dark:bg-slate-900 dark:text-slate-300 dark:ring-slate-700 dark:hover:text-brand-100'
                   }
                 >
-                  {count}
-                </span>
-              </button>
-            );
-          })}
-        </div>
+                  {group.label}
+                  <span
+                    className={
+                      active
+                        ? 'rounded-full bg-white/20 px-1.5 py-0.5 text-[10px] text-white dark:bg-slate-950/10 dark:text-slate-950'
+                        : 'rounded-full bg-slate-100 px-1.5 py-0.5 text-[10px] text-slate-500 dark:bg-slate-800 dark:text-slate-300'
+                    }
+                  >
+                    {count}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        ) : null}
       </StickyHeader>
 
       {lessons.length === 0 ? (

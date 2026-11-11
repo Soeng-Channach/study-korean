@@ -1,5 +1,4 @@
 import { useEffect, useMemo } from 'react';
-import { FileText } from 'lucide-react';
 import { useSearchParams } from 'react-router-dom';
 import PaperTestCard from '../../components/learning/PaperTestCard';
 import Card from '../../components/ui/Card';
@@ -59,8 +58,8 @@ export default function ReadingListPage() {
     <div className="space-y-5">
       <StickyHeader>
         <div>
-          <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Reading practice</h2>
-          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Short passages with immediate answer review.</p>
+          <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Reading</h2>
+          <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">Past TOPIK reading papers with answers to check as you go.</p>
         </div>
         <LevelTabs value={level} onChange={setLevel} counts={levelCounts} />
       </StickyHeader>
@@ -73,7 +72,7 @@ export default function ReadingListPage() {
           </p>
         </Card>
       ) : (
-      <div className="grid gap-3 md:grid-cols-2 sm:gap-4">
+      <div className="grid gap-2.5 md:grid-cols-2 xl:grid-cols-3">
         {orderedReadings.map((reading) => {
           const done = isReadingCompleted(reading.id);
           return (
@@ -82,8 +81,6 @@ export default function ReadingListPage() {
             id={`reading-${reading.id}`}
             to={`/reading/${reading.id}?level=${encodeURIComponent(level)}`}
             test={reading}
-            icon={FileText}
-            kindLabel="Reading"
             done={done}
             onToggleDone={() => dispatch({ type: done ? 'uncomplete-reading' : 'complete-reading', id: reading.id })}
           />

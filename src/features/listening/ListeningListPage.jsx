@@ -1,5 +1,4 @@
 import { useMemo, useState } from 'react';
-import { Headphones } from 'lucide-react';
 import PaperTestCard from '../../components/learning/PaperTestCard';
 import EmptyState from '../../components/ui/EmptyState';
 import LevelTabs from '../../components/ui/LevelTabs';
@@ -21,11 +20,7 @@ export default function ListeningListPage() {
     <div className="space-y-5">
       <StickyHeader>
         <div>
-          <div className="flex items-center gap-2 text-brand-600 dark:text-brand-100">
-            <Headphones size={18} aria-hidden="true" />
-            <p className="text-sm font-semibold">Listening test</p>
-          </div>
-          <h2 className="mt-1 text-2xl font-bold text-slate-950 dark:text-white">Listening library</h2>
+          <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Listening</h2>
           <p className="mt-2 text-sm text-slate-600 dark:text-slate-300">
             Play the official audio, answer on one page, then review with transcripts.
           </p>
@@ -34,7 +29,7 @@ export default function ListeningListPage() {
       </StickyHeader>
 
       {levelTests.length ? (
-        <div className="grid gap-3 md:grid-cols-2 sm:gap-4">
+        <div className="grid gap-2.5 md:grid-cols-2 xl:grid-cols-3">
           {(() => {
             const examRound = (t) => parseInt(t.id.replace('listening-', ''), 10) || 0;
             return [...levelTests].sort((a, b) => examRound(b) - examRound(a));
@@ -45,9 +40,7 @@ export default function ListeningListPage() {
                 key={test.id}
                 to={`/listening/${test.id}`}
                 test={test}
-                icon={Headphones}
                 accent="violet"
-                kindLabel="Listening"
                 done={done}
                 onToggleDone={() => dispatch({ type: done ? 'uncomplete-listening' : 'complete-listening', id: test.id })}
               />

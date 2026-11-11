@@ -14,7 +14,8 @@ function titleCase(value = '') {
     .join(' ');
 }
 
-export default function GrammarCard({ lesson, level, group = ALL_GRAMMAR_GROUP.id }) {
+// `showLevel` adds the TOPIK level tag; lists that are already split by level leave it off.
+export default function GrammarCard({ lesson, level, group = ALL_GRAMMAR_GROUP.id, showLevel = false }) {
   const { isGrammarBookmarked, isGrammarCompleted, dispatch, getGrammarCoreMeaning } = useLearning();
   const bookmarked = isGrammarBookmarked(lesson.id);
   const completed = isGrammarCompleted(lesson.id);
@@ -37,9 +38,9 @@ export default function GrammarCard({ lesson, level, group = ALL_GRAMMAR_GROUP.i
     <Card id={`grammar-${lesson.id}`} className="scroll-mt-44 transition hover:-translate-y-0.5 hover:shadow-soft">
       <div className="flex items-start justify-between gap-2">
         <div className="flex min-w-0 flex-wrap gap-2">
-          <Badge tone="blue" className="px-3">{lesson.level}</Badge>
+          {showLevel ? <Badge tone="blue" className="px-3">{lesson.level}</Badge> : null}
           <Badge tone="green" className="px-3">{grammarGroup.label}</Badge>
-          <Badge className="px-3">{categoryLabel}</Badge>
+          {categoryLabel && categoryLabel !== grammarGroup.label ? <Badge className="px-3">{categoryLabel}</Badge> : null}
           {completed ? <Badge tone="green" className="px-3">Done</Badge> : null}
         </div>
         <button
@@ -65,14 +66,6 @@ export default function GrammarCard({ lesson, level, group = ALL_GRAMMAR_GROUP.i
             km={lesson.coreMeaningKm}
             className="mt-0.5 text-sm font-semibold text-slate-800 dark:text-slate-100"
             kmClassName="text-sm font-medium leading-6 text-violet-700 dark:text-violet-300"
-          />
-        </div>
-        <div className="mt-2.5">
-          <Bilingual
-            en={lesson.explanation}
-            km={lesson.explanationKm}
-            className="line-clamp-2 text-sm leading-snug text-slate-600 dark:text-slate-400"
-            kmClassName="mt-1 line-clamp-2 text-sm leading-6 text-violet-700 dark:text-violet-300"
           />
         </div>
         <UsageGuideCompact usage={lesson.usage} pattern={lesson.pattern} />
