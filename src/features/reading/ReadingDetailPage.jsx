@@ -385,16 +385,17 @@ export default function ReadingDetailPage() {
   return (
     <article className="mx-auto max-w-4xl space-y-4 pb-[calc(5rem+max(env(safe-area-inset-bottom),0.5rem))] sm:space-y-5 lg:pb-0">
       {/* One compact sticky bar: back, title, answered count (opens the jump grid) and timer */}
-      <div className="sticky -top-4 z-40 -mx-3 -mt-4 border-b border-slate-200 bg-white/95 px-3 pt-2 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95 sm:-top-5 sm:-mx-6 sm:-mt-5 sm:px-6 lg:mx-0 lg:mt-0 lg:rounded-b-lg lg:border-x lg:px-4">
+      <div className="sticky -top-4 z-40 -mx-3 -mt-4 border-b border-slate-200 bg-white/95 px-3 pt-2.5 backdrop-blur dark:border-slate-800 dark:bg-slate-900/95 sm:-top-5 sm:-mx-6 sm:-mt-5 sm:px-6 lg:mx-0 lg:mt-0 lg:overflow-hidden lg:rounded-2xl lg:border lg:px-4 lg:shadow-card">
         <div className="flex items-center gap-2">
           <Link
             to={backToReading}
             aria-label="Back to reading"
-            className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-brand-600 text-white shadow-sm transition hover:bg-brand-700"
+            className="flex h-7 w-7 shrink-0 items-center justify-center rounded-full text-slate-500 transition hover:bg-slate-100 hover:text-slate-900 dark:text-slate-400 dark:hover:bg-slate-800 dark:hover:text-white"
           >
             <ArrowLeft size={16} aria-hidden="true" />
           </Link>
-          <p className="min-w-0 flex-1 truncate text-sm font-bold text-slate-950 dark:text-white">{shortTitle(reading.title)}</p>
+          <span className="h-2.5 w-2.5 shrink-0 rounded-full bg-brand-500 ring-4 ring-brand-100 dark:ring-brand-500/25" aria-hidden="true" />
+          <p className="min-w-0 flex-1 truncate pl-1 text-sm font-bold text-slate-950 dark:text-white">{shortTitle(reading.title)}</p>
           <DoneToggle
             done={isReadingCompleted(reading.id)}
             title={reading.title}
@@ -412,11 +413,11 @@ export default function ReadingDetailPage() {
             aria-controls="reading-jump-grid"
           />
           <div
-            className={`flex shrink-0 items-center gap-1 rounded-full border px-2.5 py-1 ${timerTone} ${isUrgent ? 'animate-pulse' : ''}`}
+            className={`flex shrink-0 items-center gap-1.5 rounded-xl border px-2.5 py-1.5 ${timerTone} ${isUrgent ? 'animate-pulse' : ''}`}
             title={isUrgent ? 'Answers will be checked automatically.' : 'Time left'}
           >
             <Clock aria-hidden="true" size={14} />
-            <span className="font-mono text-sm font-black tabular-nums leading-none">{formatTime(remainingSeconds)}</span>
+            <span className="text-sm font-black tabular-nums leading-none">{formatTime(remainingSeconds)}</span>
           </div>
         </div>
         {showGrid ? (
@@ -447,7 +448,7 @@ export default function ReadingDetailPage() {
             })}
           </div>
         ) : null}
-        <div className="mt-2 h-1 overflow-hidden bg-slate-100 dark:bg-slate-800 -mx-3 sm:-mx-6 lg:-mx-4">
+        <div className="-mx-3 mt-2.5 h-1 overflow-hidden bg-slate-100 dark:bg-slate-800 sm:-mx-6 lg:-mx-4">
           <div className={`h-full transition-all duration-500 ${progressTone}`} style={{ width: `${timePercent}%` }} />
         </div>
       </div>

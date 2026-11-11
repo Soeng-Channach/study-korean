@@ -429,10 +429,9 @@ export default function VocabularyPage() {
             const reviewStage = VOCAB_REVIEW_STAGES[review.stage] || VOCAB_REVIEW_STAGES.new;
             const bookmarked = isVocabBookmarked(word.id);
             return (
-              <Card key={word.id} className="transition hover:-translate-y-0.5 hover:shadow-soft">
+              <Card key={word.id} className="transition hover:shadow-soft">
                 <div className="flex items-start justify-between gap-2">
                   <div className="flex flex-wrap gap-2">
-                    <Badge tone="blue">{word.level}</Badge>
                     <Badge>{word.partOfSpeech}</Badge>
                     {review.stage && review.stage !== 'new' ? <Badge tone={reviewStage.tone}>{reviewStage.label}</Badge> : null}
                     {review.due && review.stage !== 'new' ? <Badge tone="rose">Due</Badge> : null}
