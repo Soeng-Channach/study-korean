@@ -171,7 +171,7 @@ export default function GrammarListPage() {
           </p>
         </Card>
       ) : (
-        <div className="grid gap-3 md:grid-cols-2 xl:grid-cols-3">
+        <div className="grid gap-4 md:grid-cols-2">
           {lessons.map((lesson) => (
             <GrammarCard key={lesson.id} lesson={lesson} level={level} group={activeGroup.id} />
           ))}
