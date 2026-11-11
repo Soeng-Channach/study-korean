@@ -37,14 +37,15 @@ function buildOptions(word, dayWords, nearbyWords) {
   return shuffle(chosen);
 }
 
-function MeaningText({ word, language, className = '' }) {
+function MeaningText({ word, language, className = '', inline = false }) {
   const main = primaryMeaning(word, language);
   const second = secondaryMeaning(word, language);
   return (
     <span className={className}>
       <span lang={language === 'km' ? 'km' : 'en'} className={language === 'km' ? 'text-violet-700 dark:text-violet-300' : undefined}>{main}</span>
       {second ? (
-        <span lang="km" className="block text-sm font-normal text-violet-700 dark:text-violet-300">
+        <span lang="km" className={`${inline ? 'ml-2' : 'block'} text-sm font-normal text-violet-700 dark:text-violet-300`}>
+          {inline ? <span className="mr-2 text-slate-300 dark:text-slate-600">·</span> : null}
           {second}
         </span>
       ) : null}
@@ -217,7 +218,7 @@ function DayQuiz({ day, words, nearbyWords, language, onFinish }) {
           <QuizOption
             key={option.id}
             index={optionIndex}
-            option={<MeaningText word={option} language={language} />}
+            option={<MeaningText word={option} language={language} inline />}
             selected={selected === optionIndex}
             correct={option.id === current.id}
             revealed={revealed}

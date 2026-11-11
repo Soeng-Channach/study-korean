@@ -1,4 +1,6 @@
-﻿import { levelOf } from './levels';
+﻿import { topikIExamples } from '../data/topikIExamples';
+import { topikIIExamples } from '../data/topikIIExamples';
+import { levelOf } from './levels';
 
 const TOPIK_I_EXAMPLES = {
   가게: { example: '집 앞 가게에서 물을 샀습니다.', exampleMeaning: 'I bought water at the store in front of my house.', exampleMeaningKm: 'ខ្ញុំបានទិញទឹកនៅហាងមុខផ្ទះ។' },
@@ -99,6 +101,8 @@ const TOPIK_I_EXAMPLES = {
   화장실: { example: '화장실이 어디에 있습니까?', exampleMeaning: 'Where is the restroom?', exampleMeaningKm: 'តើបន្ទប់ទឹកនៅឯណា?' }
 };
 
+const GENERIC_EXAMPLE = /에 대해 배웠습니다|의 뜻을 배웠습니다|문장에서/;
+
 function isGeneratedTopikIExample(word) {
   return (
     levelOf(word) === 'TOPIK I' &&
@@ -112,8 +116,22 @@ export function getVocabularyExample(word) {
   const override = TOPIK_I_EXAMPLES[word.word];
   if (override) return { ...override, improved: true };
 
+  const written = topikIExamples[word.word];
+  if (written && levelOf(word) === 'TOPIK I') {
+    return { example: written[0], exampleMeaning: written[1], exampleMeaningKm: written[2], improved: true };
+  }
+
+  // TOPIK II words whose stored example is only a generic "we learned about" line.
+  const rewritten = topikIIExamples[word.word];
+  if (rewritten && levelOf(word) === 'TOPIK II' && GENERIC_EXAMPLE.test(word.example || '')) {
+    return { example: rewritten[0], exampleMeaning: rewritten[1], exampleMeaningKm: rewritten[2], improved: true };
+  }
+
+  // No real sentence has been written for this word yet. The card hides the
+  // example box when `placeholder` is set.
   if (isGeneratedTopikIExample(word)) {
     return {
+      placeholder: true,
       example: `TOPIK I 기본 어휘: ${word.word}`,
       exampleMeaning: `Basic TOPIK I vocabulary: ${word.meaning}`,
       exampleMeaningKm: word.meaningKm ? `វាក្យសព្ទមូលដ្ឋាន TOPIK I៖ ${word.meaningKm}` : undefined,

@@ -40,12 +40,14 @@ export default function PaperTestCard({ test, to, id, icon: Icon, accent = 'bran
       {/* Exam round tile */}
       <div
         className={clsx(
-          'flex h-16 w-16 shrink-0 flex-col items-center justify-center rounded-xl bg-gradient-to-br text-white shadow-md',
+          'flex h-16 w-16 shrink-0 items-center justify-center rounded-xl bg-gradient-to-br text-white shadow-md',
           colors.tile
         )}
       >
-        <span className="text-2xl font-black leading-none">{roundOf(test)}</span>
-        <span className="mt-1 text-[10px] font-semibold uppercase tracking-wider text-white/80">회 · round</span>
+        <span className="flex items-baseline gap-px">
+          <span className="text-[22px] font-black leading-none">{roundOf(test)}</span>
+          <span className="text-xs font-bold leading-none text-white/90">회</span>
+        </span>
       </div>
 
       <div className="min-w-0 flex-1">

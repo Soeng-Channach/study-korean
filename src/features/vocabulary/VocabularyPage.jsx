@@ -100,7 +100,7 @@ export default function VocabularyPage() {
         word.meaning.toLowerCase().includes(q) ||
         (word.meaningKm && word.meaningKm.includes(q)) ||
         (meaning && meaning.toLowerCase().includes(q)) ||
-        (example.example && example.example.toLowerCase().includes(q)) ||
+        (!example.placeholder && example.example && example.example.toLowerCase().includes(q)) ||
         (example.exampleMeaning && example.exampleMeaning.toLowerCase().includes(q)) ||
         (example.exampleMeaningKm && example.exampleMeaningKm.includes(q))
       );

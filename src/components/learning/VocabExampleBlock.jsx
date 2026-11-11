@@ -10,6 +10,9 @@ export default function VocabExampleBlock({ word, compact = false }) {
   const showEnglish = meaningLanguage !== 'km' || !khmer;
   const showKhmer = meaningLanguage !== 'en' && khmer;
 
+  // Words that still have no real example sentence show no example box.
+  if (example.placeholder) return null;
+
   return (
     <div className="mt-3 rounded-xl bg-slate-50 px-3.5 py-3 dark:bg-slate-800/60">
       <div className="mb-2 flex items-center gap-1.5 text-[11px] font-bold uppercase tracking-wide text-slate-500 dark:text-slate-400">
