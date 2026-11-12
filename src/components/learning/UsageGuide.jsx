@@ -55,13 +55,15 @@ function UsageValueBadge({ short, value, pattern }) {
   );
 }
 
-export function UsageGuideCompact({ usage, pattern }) {
+// `usedOnly` leaves out the crossed-out "Not used" forms so a list card stays quiet.
+export function UsageGuideCompact({ usage, pattern, usedOnly = false }) {
   if (!usage) return null;
 
   return (
     <div className="mt-3 flex flex-wrap gap-1.5">
       {rows.map(([label, key, short]) => {
         const value = usage[key];
+        if (usedOnly && (!value || isNotUsedValue(value))) return null;
         return (
           <span key={key} title={`${label}: ${value}`}>
             <UsageValueBadge short={short} value={value} pattern={pattern} />

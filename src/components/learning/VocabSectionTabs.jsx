@@ -18,7 +18,7 @@ export default function VocabSectionTabs({ className }) {
           to={to}
           className={({ isActive }) =>
             clsx(
-              'inline-flex flex-1 items-center justify-center gap-1.5 rounded-md px-3 py-1.5 text-sm font-semibold transition sm:flex-none',
+              'inline-flex flex-1 items-center justify-center gap-1.5 rounded-md px-3 py-1.5 text-[13px] font-semibold leading-5 transition sm:flex-none',
               isActive
                 ? 'bg-white text-brand-700 shadow-sm dark:bg-slate-950 dark:text-brand-100'
                 : 'text-slate-600 hover:text-slate-950 dark:text-slate-300 dark:hover:text-white'

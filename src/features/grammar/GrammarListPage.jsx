@@ -89,7 +89,7 @@ export default function GrammarListPage() {
           </div>
           <Link
             to="/bookmarks"
-            className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1.5 text-sm font-semibold text-amber-700 ring-1 ring-amber-200 transition hover:bg-amber-200 dark:bg-amber-500/15 dark:text-amber-100 dark:ring-amber-500/30 dark:hover:bg-amber-500/25"
+            className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full bg-amber-100 px-3.5 text-[13px] font-semibold text-amber-700 ring-1 ring-amber-200 transition hover:bg-amber-200 dark:bg-amber-500/15 dark:text-amber-100 dark:ring-amber-500/30 dark:hover:bg-amber-500/25"
           >
             <Star size={14} fill="currentColor" />
             Saved
@@ -109,8 +109,8 @@ export default function GrammarListPage() {
             aria-controls="grammar-group-panel"
             className={
               showGroups || activeGroup.id !== ALL_GRAMMAR_GROUP.id
-                ? 'inline-flex items-center justify-between gap-2 rounded-lg bg-slate-900 px-3 py-2.5 text-sm font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
-                : 'inline-flex items-center justify-between gap-2 rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
+                ? 'inline-flex h-[42px] items-center justify-between gap-2 rounded-xl bg-slate-900 px-3.5 text-[13px] font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
+                : 'inline-flex h-[42px] items-center justify-between gap-2 rounded-xl border border-slate-200 bg-white px-3.5 text-[13px] font-semibold text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
             }
           >
             <span className="truncate">

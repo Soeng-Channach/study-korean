@@ -174,39 +174,39 @@ export default function VocabularyPage() {
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between sm:gap-4">
           <div className="min-w-0 flex-1">
             <h2 className="text-2xl font-bold text-slate-950 dark:text-white">Vocabulary</h2>
-            <p className="mt-2 hidden text-sm text-slate-600 dark:text-slate-300 sm:block">
+            <p className="mt-1 hidden text-sm text-slate-600 dark:text-slate-300 sm:block">
               Review key words and test recognition with a randomized quiz.
             </p>
           </div>
           <div className="grid grid-cols-[auto_1fr_1fr] items-center gap-2 sm:flex sm:flex-wrap">
             <Link
               to="/bookmarks"
-              className="inline-flex shrink-0 items-center gap-1.5 rounded-full bg-amber-100 px-3 py-1.5 text-sm font-semibold text-amber-700 ring-1 ring-amber-200 transition hover:bg-amber-200 dark:bg-amber-500/15 dark:text-amber-100 dark:ring-amber-500/30 dark:hover:bg-amber-500/25"
+              className="inline-flex h-9 shrink-0 items-center gap-1.5 rounded-full bg-amber-100 px-3.5 text-[13px] font-semibold text-amber-700 ring-1 ring-amber-200 transition hover:bg-amber-200 dark:bg-amber-500/15 dark:text-amber-100 dark:ring-amber-500/30 dark:hover:bg-amber-500/25"
             >
-              <Star size={14} fill="currentColor" />
+              <Star size={13} fill="currentColor" />
               Saved
               <span className="rounded-full bg-white px-1.5 py-0.5 text-[10px] font-bold text-amber-700 dark:bg-amber-500/20 dark:text-amber-100">
                 {savedCount}
               </span>
             </Link>
             <Link to={`/vocabulary/quiz?${reviewQuizParams}`} className="min-w-0">
-              <Button className="w-full whitespace-nowrap px-3 sm:w-auto" variant="secondary" icon={Clock3} disabled={levelReviewSummary.due === 0 && levelReviewSummary.weak === 0}>
+              <Button className="!h-9 !min-h-0 w-full !gap-1.5 whitespace-nowrap !px-3.5 !py-0 !text-[13px] sm:w-auto [&>svg]:h-[15px] [&>svg]:w-[15px]" variant="secondary" icon={Clock3} disabled={levelReviewSummary.due === 0 && levelReviewSummary.weak === 0}>
                 Review due
               </Button>
             </Link>
             <Link to={`/vocabulary/quiz?${quizParams}`} className="min-w-0">
-              <Button className="w-full whitespace-nowrap px-3 sm:w-auto" icon={Sparkles} disabled={levelWords.length === 0}>Start quiz</Button>
+              <Button className="!h-9 !min-h-0 w-full !gap-1.5 whitespace-nowrap !px-3.5 !py-0 !text-[13px] sm:w-auto [&>svg]:h-[15px] [&>svg]:w-[15px]" icon={Sparkles} disabled={levelWords.length === 0}>Start quiz</Button>
             </Link>
           </div>
         </div>
         <div className="flex flex-col gap-2 sm:flex-row sm:items-center">
           <div className="shrink-0">
-            <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} />
+            <LevelTabs value={level} onChange={selectLevel} counts={levelCounts} size="sm" />
           </div>
           <div className="flex min-w-0 flex-1 items-center gap-2">
             <div className="relative min-w-0 flex-1">
               <Search
-                size={16}
+                size={14}
                 className="pointer-events-none absolute left-3 top-1/2 -translate-y-1/2 text-slate-400"
                 aria-hidden="true"
               />
@@ -215,7 +215,7 @@ export default function VocabularyPage() {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Search Korean, English, Khmer, or example..."
-                className="w-full rounded-lg border border-slate-200 bg-white py-2.5 pl-9 pr-9 text-sm text-slate-800 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500"
+                className="w-full rounded-xl border border-slate-200 bg-white h-[42px] pl-9 pr-9 text-[13px] text-slate-800 placeholder:text-slate-400 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500/30 dark:border-slate-800 dark:bg-slate-900 dark:text-slate-100 dark:placeholder:text-slate-500"
               />
               {query ? (
                 <button
@@ -235,8 +235,8 @@ export default function VocabularyPage() {
               aria-controls="vocab-filter-panels"
               className={
                 showFilters || activeFilterCount > 0
-                  ? 'inline-flex shrink-0 items-center gap-1.5 rounded-lg bg-slate-900 px-3 py-2.5 text-sm font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
-                  : 'inline-flex shrink-0 items-center gap-1.5 rounded-lg border border-slate-200 bg-white px-3 py-2.5 text-sm font-semibold text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
+                  ? 'inline-flex shrink-0 items-center gap-1.5 h-[42px] rounded-xl bg-slate-900 px-3.5 text-[13px] font-semibold text-white shadow-sm dark:bg-white dark:text-slate-950'
+                  : 'inline-flex shrink-0 items-center gap-1.5 h-[42px] rounded-xl border border-slate-200 bg-white px-3.5 text-[13px] font-semibold text-slate-600 transition hover:border-brand-300 hover:text-brand-700 dark:border-slate-700 dark:bg-slate-900 dark:text-slate-300 dark:hover:border-brand-500 dark:hover:text-brand-100'
               }
             >
               <SlidersHorizontal size={14} aria-hidden="true" />
